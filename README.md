@@ -1,1 +1,1 @@
-# wellcome-collection-tei
+# Wellcome Collection Manuscript Descriptions encoded according to the Text Encoding Initiative (TEI)
