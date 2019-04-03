@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_113">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>Alpha 113</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NR">
+                    <resp when="2005-07-13">Cataloguing</resp>
+                    <persName>Dr Kanaiyalal Virji Sheth</persName>
+                    <persName>Dr Kalpana Sheth</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-02-07">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Institute of Jainology; Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <orgName type="department">Collections and Research</orgName>
+                    <street>215 Euston Road</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_113</idno>
+                <idno type="catalogue">Jain Manuscripts Cataloguing Project</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">Alpha 113</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>nakṣatra kaṣṭāvalī, an astrological treatise. Anonymous; undated composition; copied 1871, possibly Ambikapur, Chhattisgarh</summary>
+                        <textLang mainLang="sa" otherLangs="hi">Sanskrit with Hindi in explicit.</textLang>
+                        <msItem xml:id="Alpha_113">
+                            <locus>Folio 1; 1A-2B</locus>
+                            
+                            <title type="main" key="Alpha_113">nakṣatra kaṣṭāvalī</title>
+                            
+                            <incipit> <locus>1A</locus>
+                                <!-- transcript -->
+                                pasamānvitaiḥ lāpasī laḍukam śreṣṭhaṃ suhālī tatra dāpayet |
+                                bahubhakti samāyuktam aṣṭamāsam mucyate || 14 ||
+                                jyeṣṭhāyāṃ vyādhitasyāpi sarvāṅge vedanā bhavet na mantraṃ nauṣadhaṃ tatra meṣaṃ tatra pradāpayet |
+                                brahmarājñānasadoṣeṇa saptatrignāsa jīvati || 15 ||
+                            </incipit>
+                            
+                            <explicit><locus>2B</locus>
+                                <!-- transcript -->
+                                cauthe pa o | to ghaṇā dukhabhogī chuṭai 4 | śu o 15|01 to veganī kahai 1 dūje pa|0|di-4 bhogī chute 2 tīje pa|0|di|4 maisa mādha hoi 3
+                                cauthe 5 to vega sūro hai 4 sa |15| todi 8 anai 11 mai chuṭai 1 dūje 5 dina 8 maisātā hai 2 tīje 5 todi 1 bhogavai 3 cau 5 todi 5 mai samādhai hai 4 iti kastāvalī samāptam |
+                                <note>Hindi language attribution added by AP based on explicit text. Notation of numerical figures probably incorrect, due to non-standard transliteration in source file.</note>
+                            </explicit>
+                            
+                            <colophon> <locus>2B</locus>
+                                <!-- transcript -->
+                                likhitai sā devamuni saṃvat 1928 miti māgha kṛṣṇa 7 ambakānagara madhye śubham |
+                            </colophon>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <support>
+                                    <material>Indian paper</material>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="15">
+                                    <note>45 characters per line.</note>
+                                </layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-06-02" who="#AP">Added MS copying date based on calculation of VS date given in MS colophon transcript in summary, as well as potential site. 
+                Also suggested @explicit text as Hindi and noted non-standard transcription of numerical figures. Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+        <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
