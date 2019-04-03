@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Gamma_351">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Gamma 351</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp from="1976" to="1983">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-03-20">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Gamma_351</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Gamma 351/i-ii</idno>
+                        <altIdentifier type="former">
+                            <idno>Raghavan G.72.c.II</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    
+                    <msContents>
+                        
+                        <summary>Two astrological works.</summary>
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Gamma_351_1">
+                            
+                            <title type="main" key="Gamma_351_1">Abijinmuhūrta in two verses.</title>
+                            <note>An astrological text on an auspicious moment.</note>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <incipit> 
+                                <!-- transcript -->
+                                śrīmadī(di)ṣṭadevāya namaḥ ||
+                                aṃgulyo viṃśatiḥ sūryye śaṃkuḥ some ca ṣodaśaḥ
+                                bhaume paṃcadaśāṃgulyo budhavāre caturddaśam
+                                trayodaśa guro(r) vāre dvādaśarkhajaśukrayoḥ
+                                śaṃkor mūle yadā chāyā madhyāhne ca prajāyate
+                                tadābhijitākhyāto ghaṭike(kai)kā smṛtā budhaiḥ
+                                yatra kāryyāṇi sarvāṇi siddhiṃ yāṃti kṛtāni ca
+                                jāto (')bhijid rājā syāt vyāpāre siddhik(ṛ)ttamā
+                                saṃgrāme vijayo rājñāṃ vivāhe putrapautradaḥ
+                                ity abhijinmū(mu)hūrttaḥ ||
+                            </incipit>
+                            
+                            <explicit>
+                                <!-- transcript -->
+                            </explicit>
+                            
+                            <colophon>
+                                <!-- transcript -->
+                            </colophon>
+                        </msItem>
+                        
+                        <msItem xml:id="Gamma_351_2">
+                            
+                            <title type="main" key="Gamma_351_2">An untitled astrological verse</title>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <incipit> 
+                                <!-- transcript -->
+                                jaṃbhārātipurohite harigate supte mukuṃde (|) vibhai
+                                yāte gharmmaghṛṇo dhanuḥ sapharayo kṣīṇe ttv
+                                'ṣāras tviṣī ||
+                                aste bhārggavajīvayaḥ kujadine māsādhike
+                                vaidhṛtau ||
+                                gaṃḍāṃtaṃ vyatipātaviṣṭini śubhaṃ kāryaṃ na kāryye budhaiḥ ||
+                            </incipit>
+                            
+                            <explicit>
+                                <!-- transcript -->
+                            </explicit>
+                            
+                            <colophon>
+                                <!-- transcript -->
+                                <!-- No colophon given -->
+                            </colophon>
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                           <supportDesc>
+                               <extent>1 folio</extent>
+                           </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="7">7 lines, with ca. 35 akṣaras. With interlinear notes.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2019-03-20" who="#AP">Created XML file. Added attribute as astrological work to both texts in @summary.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
+
