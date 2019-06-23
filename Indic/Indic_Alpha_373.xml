@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_373">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 373</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-06-07">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_373</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 373</idno>
+                        <altIdentifier type="former">
+                            <idno>K.3.j.f</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    
+                    <msContents>
+                        
+                        <summary>An unidentified fragment in Hindī on magic.</summary>
+                        
+                        <textLang mainLang="hi">Hindi</textLang>
+                        
+                        <msItem xml:id="Alpha_373">
+                            
+                            <note>After verse 57 is the heading 'atha vasīkareṇa'</note>
+                            
+                            <incipit> <locus>F. 1 obverse</locus>
+                                <!-- transcript -->
+                                sa eka esā dina āhī || sāta pāṃvavara nikasai tāhī ||
+                            </incipit>
+                            
+                            <explicit> <locus>F. 1 obverse</locus>
+                                <!-- transcript -->
+                                pāna havai vahu hoi jāsaka <supplied>ra ||</supplied> 58
+                            </explicit>
+                            
+                        </msItem>                  
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>1 f.</extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="8">8 lines, ca. 40 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>  
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-06-07" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

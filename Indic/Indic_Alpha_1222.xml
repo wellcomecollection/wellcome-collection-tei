@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_1222">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 1222</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-05-14">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_1222</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Gamma 1222</idno>
+                        <altIdentifier type="former">
+                            <idno>E.12.d(i).</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>The <title>Raghuvaṃśa</title> of <persName role="aut">Kālidāsa</persName> with the ṭīkā <title>Sañjīvinī</title> by <persName role="cmmm">Kollācala Mallinātha</persName>; incomplete (sargas 3-4). 
+                            Copied by <persName role="scr">Śrīnivāsa Vaidya Maihāḍaṅkara</persName> on <date>Tuesday 2 April 1706</date>.</summary>
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_1222_1">
+                            <title key="work_182307811">Raghuvaṃśā</title>
+                            <author key="person_100903230">Kālidāsa</author>
+                            
+                            <incipit> <locus>F. 34</locus>
+                                <!-- transcript -->
+                                athepsitaṃ bhartur upasthitodayaṃ
+                                sakhījanodvīkṣaṇakaumudīsukhaṃ ||
+                                nidānam ikṣvākukulasya saṃtataḥ
+                                sudakṣiṇā dohadalakṣaṇaṃ dadhau ||1||
+                            </incipit>
+                            
+                            <explicit> <locus>F. 62v</locus>
+                                <!-- transcript -->
+                                te rekhādhvajakuliśātapatracihnaṃ
+                                samrājaś caraṇayugaprasādalabhyaṃ
+                                prasthāṇapraṇatibhir aṃgulīṣu cakrur
+                                maulisrakeyutamakarṃdareṇugauraṃ ||86||
+                                śrīlakṣmīnṛsiṃha jayati || śrīmorayā ||
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_1222_2">
+                            <title key="work_179981299">Sañjīvinī</title>
+                            <author key="person_266223825">Mallinātha</author>
+                            <note>More commonly known as <title>Sañjīvani</title>.</note>
+                            
+                            <incipit> <locus>F. 34</locus>
+                                <!-- transcript -->
+                                upādhigamyo 'py anupādhigamyaḥ
+                                samāvalokyo 'py asamāvalokyaḥ
+                                bhavo 'pi yo bhūyasavaḥ śivo 'yaṃ
+                                na gatyayā mād(?) api naḥ sa pāyāt ||1||
+                            </incipit>
+                            
+                            <explicit> <locus>F. 62v</locus>
+                                <!-- transcript -->
+                                iti śrīpādavākyapramāṇa pārāvārīṇaśrīmahopādhyāyakolacama || nāthasūriviracitāyāṃ raghuvaṃśavyākhyāyāṃ
+                                saṃjīvinīsamākhyāy<supplied>āṃ</supplied> caturthaḥ sarggaḥ || śrīmorayā || śrīvakratuṃḍo jayati
+                                śrīnārasiṃhāya namaḥ |
+                            </explicit>
+                            
+                            <colophon> <locus>F. 62v</locus>
+                                <!-- transcript -->
+                                śrīsaṃvat 17|63 śake 16|28 vaiśākhaśukla | pratipāda bhaumavāsare taddine maihāḍaṃkara
+                                vaidyopanāmakaśrīnivāsenedaṃ likhitaṃ śubham bhavetu śrīvakratuṃḍo jayati śrīlakṣmīnṛsiṃhāya namaḥ śrīḥ
+                            </colophon>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>28 folios, 34-62.</extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="12">12 lines, ca 65 akṣaras. Mūla (root text) in center, ṭīka above and below.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole">
+                                <persName role="scr">Śrīnivāsa Vaidya Maihāḍaṅkara</persName>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Vikram Saṃvat" when="1763">śukla on Vaiśākha, VS1763.</origDate>
+                            <origDate calendar="Gregorian" when="1706-04-02">Tuesday 2 April 1706</origDate>
+                            <origPlace>
+                                <country>India</country>
+                                <!-- Awaiting info on place code schema before entering @key -->
+                            </origPlace>
+                        </origin>
+                    </history>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-05-13" who="#AP">Created XML file. Split mūla and ṭīka transcripts into separate @msItem categories, 
+                and provided translation in parantheses of 'mūla' and 'ṭīka' in @summary and @layoutDesc. Also added note on more common
+                title of second @msItem work in @note. Split second transcript of ṭīkā into @explicit and @colophon.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

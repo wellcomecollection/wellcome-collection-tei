@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Beta_638">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Beta 638</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-05-16">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Beta_638</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Beta 638</idno>
+                        <altIdentifier type="former">
+                            <idno>I.62.</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The <title>Lagnacandrika</title> composed by <persName role="aut">Kāśīnātha</persName> in ca <date>1650</date>.
+                        Copied by <persName role="scr">Sūrata Ṛṣi</persName> at <origPlace>Haivatapurapaṭṭī</origPlace> on <date>Friday 31 March 1727</date>.</summary>
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Beta_638">
+                            <title key="work_309498618">Lagnacandrikā</title>
+                            <author key="person_112295200">Kāśīnātha</author>
+                            
+                            
+                            <incipit> <locus>f. 1v</locus>
+                                <!-- transcript -->
+                                tamisrājagaragrastaṃ yo jīvati bhūtalaṃ |
+                                taṃ devaṃ paramānaṃdaṃ sarvvasākṣiṇam īśvaraṃ || 1
+                            </incipit>
+                            
+                            
+                            <colophon> <locus>F. 25</locus>
+                                <!-- transcript -->
+                                iti śrīsarvaśāviśāradaśrīkāśīnāthakṛto lagnacaṃdrikāyā parichedaḥ
+                                samāptaḥ | saṃvat 1784 varṣe vaiśāsakṛṣṇa 6 bhṛguvāre haivatapurapaṭṭīmadhye
+                                lipīkṛtaṃ sūratarṣiṇā guruprasādena
+                            </colophon>
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>25 folios</extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="16">16 lines, ca 40 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1727-03-31">Friday 31 March 1727</origDate>
+                            <origPlace>
+                                <country>India</country>
+                                <settlement>Haivatapurapaṭṭī</settlement>
+                            </origPlace>
+                        </origin>
+                    </history>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-05-13" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

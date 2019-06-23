@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Gamma_508">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Gamma 508</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-05-14">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Gamma_508</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Gamma 508</idno>
+                        <altIdentifier type="former">
+                            <idno>K.3.h</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The koṣṭhaka and karaṇa versions of the <title>Rāmavinoda</title> composed by <persName role="aut">Rāma</persName> in ca. 1590;
+                        see D. Pingree, Jyotiḥśāstra, pp. 37 and 42. Both are incomplete.</summary>
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Gamma_508_1">
+                            <title>Koṣṭhaka Rāmavinoda</title>
+                            <author>Rāmacandra</author>
+                            
+                            <note>The koṣṭhaka <title>Rāmavinoda</title> was originally on <locus>ff. 1v-3</locus>, the end is now lost with <locus>f. 3</locus>.</note>
+                            
+                            <incipit> <locus>f. 1v</locus>
+                                <!-- transcript -->
+                                oṃ śrīgaṇeśāya namaḥ ||
+                                gaṇapatim abhivaṃde śrīsapādāraviṃda
+                                smaraṇaṃviṃditatatvi naṃtajo rāmaca x
+                                akabaranṛpaśākād vakti paṃcāṃgapatraṃ
+                                grahagatisamavetaṃ rāmabhūpālatuṣṭyai ||1||
+                            </incipit>
+                            
+                            <explicit> <locus>F. 2v</locus>
+                                <!-- transcript -->
+                                yugāny adrivedāḥ khavedāḥ śarākṣāḥ
+                                kuje bhāni saptābdhayaḥ ku.
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Gamma_508_2">
+                            <title>Karaṇa Rāmavinoda</title>
+                            <author>Rāmacandra</author>
+                            
+                            <note>The karaṇa <title>Rāmavinoda</title> begins on <locus>ff. 4</locus>, incomplete.</note>
+                            
+                            <incipit> <locus>f. 4</locus>
+                                <!-- transcript -->
+                                śrīgaṇeśāya namaḥ ||
+                                xxx daṃḍena yasmin visamiti jaladheḥ karṣati vyālarājaṃ
+                                goviṃde syaṃdamāt xxxxxxx je sabhramāyāṃ ramīyo (?) ||
+                                ākūtādbhūtagaurīgiriśadiśi daraṇe rasācīkṛtākṣo
+                                dīnālaḥ spaṃdi xxxx ca tu bhavatāṃ bhūtaye daṃbhakuṃ ||1||
+                            </incipit>
+                            
+                            <explicit> <locus>F. 21v</locus>
+                                <!-- transcript -->
+                                somāyasaḥ saṃ
+                                <note>Numbered 10.2.</note>
+                            </explicit>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>20 folios, ff. 1-2 and 4-21.</extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="9">9 lines, ca. 45 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc> 
+                    
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <title>Jyotiḥśāstra</title>
+                                <author>David Pingree</author>
+                                <placeName>Wiesbaden</placeName>
+                                <publisher>O. Harrassowitz</publisher>
+                                <date>1981</date>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-05-14" who="#AP">Created XML file. Added final sentence in @summary to highlight that both texts are incomplete.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
