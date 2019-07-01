@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Beta_210">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Beta 210</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-05-14">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Beta_210</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Gamma 508</idno>
+                        <altIdentifier type="former">
+                            <idno>Unnumbered (old no. 154)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    
+                    <msContents>
+                        
+                        <summary>A collection of mantras and of stories from the <title>Mārkaṇḍeyapurāṇa</title>.
+                        The manuscript was copied by <persName role="scr">Lālacanda Guru</persName> at <origPlace>Sudhāsara</origPlace>
+                        on <date>Thursday 1 November 1866</date>.</summary>
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Beta_210_1">
+                            <title>Untitled</title>
+                            
+                            <note>The first part <locus>ff.1-10v</locus>, concerned with ritual addressed to the Navagrahas and other deities,
+                            has the marginal abbreviation ह.</note>
+                            
+                            <incipit>
+                                <!-- future transcript -->
+                            </incipit>
+                            
+                            <explicit>
+                                <!-- future transcript -->
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Beta_210_2">
+                            <title>Mantras and stories from the Mārkaṇḍeyapurāṇa</title>
+                            
+                            <note>The second part, which constitutes the rest of the MS, claims to be derived from the Mārkaṇḍeyapurāṇa (I have not succeeded
+                            in locating anything therein), but has the marginal abbreviation चं. The vanishing of the red ink in the colophons makes identification
+                            impossible.</note>
+                            
+                            <incipit> <locus>f. 4</locus>
+                                <!-- future transcript -->
+                            </incipit>
+                            
+                            <explicit>
+                                <!-- future transcript -->
+                            </explicit>
+                            
+                            <colophon> <locus>f. 122v</locus>
+                                <!-- transcript -->
+                                saṃvat 1923 āśvinakṛṣṇapakṣe ||
+                                ekādaśyāṃ guruvāsare likhataṃ lālacaṃdagurū sudhāsaramadhye
+                            </colophon>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>Ff. 1-122.</extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="6">6 lines, ca. 20 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc> 
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Vikram Saṃvat" when="1923"> Kṛṣṇapakṣā on Āśvina, VS1923.</origDate>
+                            <origDate calendar="Gregorian" when="1866-11-01">Thursday 1 November 1866</origDate>
+                            <origPlace>
+                                <country>India</country>
+                                <settlement>Sudhāsara</settlement>
+                                <!-- Awaiting info on place code schema before entering @key -->
+                            </origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <note><ref target="https://archive.org/details/b20456645M002"> <persName>Wujastyk</persName> Handlist 1</ref> agrees that the material
+                            stems from the <title>Mārkaṇḍeyapurāṇa</title>, but identifies it as the <title>Devīmāhātmya</title>.</note>
+                        </adminInfo>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-05-14" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

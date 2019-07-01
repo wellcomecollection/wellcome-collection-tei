@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_124">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 124</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-06-11">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_124</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 124</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Internal pagination restarts after a blank page following A, f. 30. A and B locus are used in the following, though the manuscript
+                            is a single bound volume..</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_124_i">
+                            <title>Devīkavaca</title>
+                            <author>Hariharabrahmā</author>
+                            <textLang mainLang="sa">Sanskrit</textLang> 
+                            
+                            <note>The <title>Devīkavaca</title> of <persName role="aut">Hariharabrahmā</persName> in 53 verses.
+                            See <abbr>NCC</abbr>, vol. 9, p. 132, where it is said to have 59 verses.</note>
+                            
+                            <incipit> <locus>A, F. 1</locus>
+                                <!--  transcript -->
+                                oṃ śrīgaṇeśāya namaḥ nārada uvāca
+                                yad gu(hyaṃ paramaṃ) loke
+                                sarvarakṣākaraṃ nṛṇāṃ
+                                gaya xxx dākhyātaṃ
+                                tan me brūhi pitāma(ha)
+                            </incipit>
+                            
+                            <explicit> <locus>A, F. 8-8v</locus>
+                                <!-- transcript -->
+                                dehāṃte parapesthānaṃ
+                                ya<pb n="8v"/>t sarair api durlabhaṃ
+                                prāpnoti puruṣa nityaṃ
+                                mahāmāyā prasādataḥ 53
+                            </explicit>
+                            
+                            <colophon> <locus>A, F. 8v</locus>
+                                <!-- transcript -->
+                                iti śrīhariharabrahmāviracitaṃ devīkavacaṃ saṃpūrṇaṃ
+                            </colophon>
+                            
+                        </msItem> 
+                        
+                        <msItem xml:id="Alpha_124_ii">
+                            <title>Argalāstotra</title>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>The <title>Argalāstotra</title> in 24 verses. See <abbr>NCC</abbr>, vol. 1, p. 377.</note>
+                            
+                            <incipit> <locus>A, F. 8v</locus>
+                                <!-- transcript -->
+                                ṛṣir uvāca |
+                                jayaṃti maṃgalā kālī
+                                bhadrakālī kapālinī
+                                durgā kṣamā śivā dhātrī
+                                svāhā svathā namo 'state
+                            </incipit>
+                            
+                            <explicit> <locus>A, F. 10-10v</locus>
+                                <!-- transcript -->
+                                idaṃ stotraṃ paṭhitvā tu
+                                mahāstotraṃ paṭhetraraḥ
+                                satu saptaśa(ṃ)tī <pb n="f.10v"/> saṃkhyā
+                                varam āpnoti saṃpadāṃ 24
+                                ity argalāstithaṃ
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_iii">
+                            <title>Kīlakastotra</title>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>The <title>Kīlakastotra</title> in 14 verses. See <abbr>NCC</abbr>, vol. 4, p. 171.</note>
+                            
+                            <incipit> <locus>A, F. 10v</locus>
+                                <!-- transcript -->
+                                oṃ viśuddhajñājadehāya
+                                trivedīdivyacakṣaṣe
+                                śreyaḥ śā(?)trani nimittāya
+                                namaḥ somārdhadhāriṇe
+                            </incipit>
+                            
+                            <explicit> <locus>A, F. 12</locus>
+                                <!-- transcript -->
+                                ...13
+                                aiśvaryaṃ tvatprādena
+                                śarīrarogyasaṃpadaḥ
+                                śatruhāniparo mokṣaḥ
+                                stūyate vānakiṃ (?) janaiḥ 14
+                            </explicit>
+                            
+                            <colophon> <locus>A, F. 12</locus>
+                                <!-- transcript -->
+                                iti kīlakastotram ||
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_iv">
+                            <title>Nārāyaṇopaniṣad</title>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>The <title>Nārāyaṇopaniṣad</title> connected to the <title>Atharvaveda</title>. See <abbr>NCC</abbr>, vol. 10, pp. 108-109.</note>
+                            
+                            <incipit> <locus>A, F. 12</locus>
+                                <!-- transcript -->
+                                oṃ nārāyaṇāyai oṃ atha p(u)ruṣe ??
+                                nārāyaṇa kāmayatra (?) prajāḥ svaje xx
+                            </incipit>
+                            
+                            <explicit> <locus>A, F. 15v</locus>
+                                <!-- transcript -->
+                                ...13
+                                śrīnārāyaṇacaraṇasāyujyam āpnoti
+                                nārāyaṇasāyujyam āpnoti ity atharvavede
+                                nārāyaṇopaniṣadaṃ samāptam
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_v">
+                            <title>Pāṇḍavagītā</title>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>The <title>Pāṇḍavagītā</title> in 81 verses, in the form of a dalogue between Pāṇḍava and Lomaharṣaṇa.</note>
+                            
+                            <incipit> <locus>A, F. 16</locus>
+                                <!-- transcript -->
+                                oṃ śrīgaṇeśāya namaḥ pāṃḍava uvāca oṃ
+                                prahlādanāradaparāsarapuṃḍarīkavyāsāṃbarīṣaśukaśaunakabhīṣmakādyā(n)
+                                rukmāṃgadārjunavasiṣṭhavibhīśaṇādya(n)
+                                atrān(n) ahaṃ parambhāga vatān namāmi |
+                                lomaharṣaṇa uvāca
+                            </incipit>
+                            
+                            <explicit> <locus>A, F. 30</locus>
+                                <!-- transcript -->
+                                ...80
+                                itaṃ pavitram āpuṣpaṃ
+                                pāṃḍavaiḥ parikīrttitaṃ
+                                yaḥ paṭhetprātarutthāya
+                                viṣṇulokaṃ saga(c)chati 81
+                            </explicit>
+                            
+                            <colophon> <locus>A, F. 30</locus>
+                                <!-- transcript -->
+                                iti śrīpāṃḍavagītā saṃpūrṇā
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_vi">
+                            <title>Gaṇapatyaṣṭaka</title>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>The <title>Gaṇapatyṣṭaka</title> in 9 verses. See <abbr>NCC</abbr>, vol. 5, p. 252.</note>
+                            
+                            <incipit> <locus>B, f. 1v</locus>
+                                <!-- transcript -->
+                                oṃ śrīgaṇeśāya namaḥ oṃ
+                                nirjhara iva girśṛṃgān
+                                madadhāra yasya gaṃḍataḥ
+                                sravati haratu gaṇānāṃ
+                                nātho duritaṃ sagajānano 'smākaṃ |
+                            </incipit>
+                            
+                            <explicit> <locus>B, f. 2v</locus>
+                                <!-- transcript -->
+                                ...80
+                                namas tasmai bhagavate
+                                vighnabhakṣāya kurmmade
+                                salakṣapatināmānaṃ
+                                svīkarota padāśritaṃ |
+                            </explicit>
+                            
+                            <colophon> <locus>B, f. 2v</locus>
+                                <!-- transcript -->
+                                iti gaṇapatyaṣṭakaṃ saṃpūrṇam ||
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_vii">
+                            <title>Śaṅkara āratī</title>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>A <title>Śaṅkara ārati</title> in 7 verses.</note>
+                            
+                            <incipit> <locus>B, f. 3</locus>
+                                <!-- transcript -->
+                                oṃ svasti śrīgaṇeśāya namaḥ oṃ
+                                jayaśaṃkaramṛtyuṃjayasen(ā)kajanakaṃdho
+                                jayabhavabhīttvināśanakaruṇārasasiṃdho
+                                jayagaṅgāstharaśaṃbho śamayākhilayāgaṃ
+                                bālakalādharamaule haraharaṭarajā xx jayadeva
+                            </incipit>
+                            
+                            <explicit> <locus>B, f. 4v</locus>
+                                <!-- transcript -->
+                                ...6
+                                viśveśvara namaste 'stu
+                                jagadādhāra dhūrjaṭe
+                                nāmnā lakṣapatir dāsyaṃ
+                                bhāvatkaṃ prārthayatysau 7
+                            </explicit>
+                            
+                            <colophon> <locus>B, f. 4v</locus>
+                                <!-- transcript -->
+                                iti śaṃkara āratī saṃpūrṇam ||
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_viii">
+                            
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>A unidentified stotra to Hanuman in 7 verses.</note>
+                            
+                            <incipit> <locus>B, f. 4v</locus>
+                                <!-- transcript -->
+                                oṃ śrīgaṇeśāya namaḥ
+                                tuṃgātaraṃgatalākulamakarālayapāraṃ tvadṛte
+                                kakṣamate <pb n="B, f. 5"/> nyo gaṃtumanā dhāram
+                                tatra mihadvaramām api bhuva vāridhi magnaṃ
+                                raghunāyaka parivārakatāvakapadalagnam |
+                            </incipit>
+                            
+                            <explicit> <locus>B, f. 6-6v</locus>
+                                <!-- transcript -->
+                                ...6
+                                jaya <unclear> śrīmatāmaterāme sva x </unclear> bhāṣapraṭīri <pb n="B, f. 6v"/>tā
+                                śrīhanūmatpadāṃbhoje ramatāṃ parayā śriyā
+                                śrīrāmacaṃdrabhaktāya śaktāyoddharaṇe satām
+                                aṃjanīsūtave nityam astu lakṣapaṃter nitiḥ 7
+                            </explicit>
+                            
+                            <colophon> <locus>B, f. 6v</locus>
+                                <!-- transcript -->
+                                iti śrī
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_ix">
+                            
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>Another unidentified stotra, this one to the Sun, in 7 verses.</note>
+                            
+                            <incipit> <locus>B, f. 6v</locus>
+                                <!-- transcript -->
+                                oṃ sarasi jasi sama (?) samudatayate prātar yatprabhayā
+                                jagad etad dhi hito
+                                jali vihvadhādhipasabhayā udayācalatilakācitabiṃdur
+                                ivodayate
+                                dasyu bhayaṃ tamasā sahayaś ca <pb n="B, f. 7"/> parājayate tam
+                                ahaṃ devam anaṃtam
+                                bhuvanatrayavaṃdhuṃ vaṃde vāsaranāthaṃ 
+                                karuṇārasasiṃdhum 1
+                            </incipit>
+                            
+                            <explicit> <locus>B, f. 8v</locus>
+                                <!-- transcript -->
+                                ...6
+                                cāruvarṇasvarapadāmatirāmasamīritā ṣaṭpadī
+                                sūryapādātjaṃ prāpnoti parayā śriyā sūryaṃ raviṃ
+                                yamabhṛgay varunaṃ camiram (?) ādityam aṣṭadalapadma
+                                daleṣu viṣṇum śrībhāskaraṃ cūnatamaṃ praṇipatya mūrddhādā
+                                dāsyaṃ varaṃvara yute kila lakṣanātha
+                            </explicit>
+                            
+                            <colophon> <locus>B, f. 8v</locus>
+                                <!-- transcript -->
+                                iti śrī
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_x">
+                            
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>Another unidentified stotra, this one to Gaṅgā, in 9 verses.</note>
+                            
+                            <incipit> <locus>B, f. 9</locus>
+                                <!-- transcript -->
+                                oṃ viśveśvara jayati maṃgalayāmanāmā
+                                vārāṇasī jayati siddhamanobhirāmā
+                                bārāvlīva suralokadhunīcayasyā
+                                dāsīvamuktir api yatra janasya vaśya 1
+                            </incipit>
+                            
+                            <explicit> <locus>B, f. 10r</locus>
+                                <!-- transcript -->
+                                ...8
+                                devi gaṃgonijotsaṃge
+                                mdagātya(?)manī kṛtyāḥ
+                                vinayaḥ prāṃtrale stabhyaṃ
+                                nāmnā xxx tariti 9
+                            </explicit>
+                            
+                            <colophon> <locus>B, f. 10r</locus>
+                                <!-- transcript -->
+                                iti śrī
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_xi">
+                            <title>Harināmamālāstotra</title>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>The <title>Harināmamālāstotra</title>, a hymn with the names of Kṛṣṇa, in 19 (20) verses.</note>
+                            
+                            <incipit> <locus>B, f. 11</locus>
+                                <!-- transcript -->
+                                oṃ śrīgaṇeśāya namaḥ
+                                goviṃdaṃ gokulānaṃdaṃ
+                                gopālaṃ gopivallabhaṃ
+                                govarddhana(ṃ) dhuraṃdhīraṃ
+                                tvāṃ vaṃde gomatīpriyaṃ
+                            </incipit>
+                            
+                            <explicit> <locus>B, f. 13</locus>
+                                <!-- transcript -->
+                                ...18
+                                harināmakṛtā mālā
+                                pavitraṃ pāpanāśanaṃ
+                                balarājeṃdrayā muktā
+                                kaṃṭhe dhāryaḥ sadā budhaiḥ 20
+                            </explicit>
+                            
+                            <colophon> <locus>B, f. 13</locus>
+                                <!-- transcript -->
+                                iti śrī harināmamālāstotraṃ samāptam ||
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_xii">
+                            <title>Nārāyaṇavarmakavaca</title>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>The <title>Nārāyaṇavarmakavaca</title> in 41 verses, which is chapter 8 of skandha 6 of the
+                                <title>Bhāgavatapurāṇa</title>. See <abbr>NCC</abbr>, vol. 10, p. 99.</note>
+                            
+                            <incipit> <locus>B, f. 13v</locus>
+                                <!-- transcript -->
+                                oṃ namo nārāyaṇāya oṃ
+                                yayā guptaḥ sahasrākṣaḥ
+                                savāhān ripusainikān
+                                krīḍānn iva vinirjatya
+                                trailokyā(ṃ) bubhaje śriyam 1
+                            </incipit>
+                            
+                            <explicit> <locus>B, ff. 19v-20</locus>
+                                <!-- transcript -->
+                                ...40
+                                prāsya (?) prācyāṃ sarasvatyāṃ
+                                <unclear>ekk xxx sa</unclear>samabhyagāt
+                                śrīdyuṃka (?) uvāca
+                                ya īdam mṛgayāt kāle
+                                yo dhāyati cādṛtaḥ <pb n="20"/>
+                                taṃ namasyaṃti xxx
+                                prātar utthāya yaḥ paṭhet
+                                mucyate sarvapāpebhyaḥ
+                                śivalokaṃ sa ga(c)chati 41
+                            </explicit>
+                            
+                            <colophon> <locus>B, f. 20</locus>
+                                <!-- transcript -->
+                                iti śrī bhāgavate ṣaṣṭhaskhaṃdhe nārāyanavarmakavacaṃ samāptam
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_xiii">
+                            <title>Ekaślokī Rāmāyaṇa</title>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>The <title>Ekaślokī Rāmāyaṇa</title>; 'The Rāmāyaṇa in One Verse'. See <abbr>NCC</abbr>, vol. 3, p. 55.</note>
+                            
+                            <incipit> <locus>B, f. 20</locus>
+                                <!-- transcript -->
+                                oṃ ādau rāmatapovanādigamanaṃ hṛt(v)ā(?)
+                                mṛgakāṃcanaṃ vaidehyā haraṇaṃ jaṭā(u)maraṇaṃ sugrīvasaṃbhāṣana(m)
+                                vālī nigrahaṇaṃ samudrataraṇaṃ laṃkāpurīdāhanaṃ
+                                paścād rāvaṇakuṃbhakarṇama <pb n="B, f. 20"/> etad dhi rāmāyaṇaṃ
+                            </incipit>
+                            
+                            <colophon> <locus>B, f. 20</locus>
+                                <!-- transcript -->
+                                iti ekaśloka
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_xiv">
+                            <title>Ekaślokī Bhāgavata</title>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>The <title>Ekaślokī Bhāgavata</title>; 'The Bhāgavata Purāṇa in One Verse'. See <abbr>NCC</abbr>, vol. 3, p. 55.</note>
+                            
+                            <incipit> <locus>B, f. 20v</locus>
+                                <!-- transcript -->
+                                oṃ ādau devakidevagarbhajananaṃ gopīgraha va x maṃ
+                                māyā x tanajīvanāpaharaṇaṃ govarddhana x dāraṇam
+                                <unclear>kaṃpa(?)</unclear>chedanakauravādimadhunaṃ
+                                kuṃtīsatāpālanaṃ
+                                etad bhāgavataṃ purāṇakathitaṃ śrīkṛṣṇalīlāmṛtaṃ
+                            </incipit>
+                            
+                            <colophon> <locus>B, f. 20v</locus>
+                                <!-- transcript -->
+                                iti ekaśloka bhāgavataṃ samāptam
+                            </colophon>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_124_xv">
+                            
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            
+                            <note>A <title>Bhārata (...)</title> in 4 verses. Unidentified.</note>
+                            
+                            <incipit> <locus>B, f. 21</locus>
+                                <!-- transcript -->
+                                oṃ śrīrāmāya namaḥ
+                                harsasthānasahasrāṇi
+                                śokasthānaśatāni ca
+                                divase divaraṃ mūḍham
+                                āviśaṃ tena paṃḍitaṃ |
+                            </incipit>
+                            
+                            <colophon> <locus>B, f. 21</locus>
+                                <!-- transcript -->
+                                ...4
+                                iti bhārata
+                            </colophon>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>A. 1-23 ff and 25-30 (text continous); and B. Ff. 1-21.</extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="19">19 lines, ca. 20 akṣaras. Higher than wide.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <title>New catalogus catalogorum: and alphabetical register of Sanskrit and allied works and authors.</title>
+                                <abbr>NCC</abbr>
+                                <editor>V. Raghavan, et al.</editor>
+                                <placeName>Madras</placeName>
+                                <publisher>University of Madras</publisher>
+                                <date>1949</date>
+                                <note>Vol. 9, pp. 132; Vol. 1, p. 377; Vol. 4, p. 171; vol. 10, pp. 108-109; vol. 5, p. 252; vol. 10, p. 99; vol. 3, p. 55.</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-06-10" who="#AP">Created XML file, added @summary and occasional glosses of titles throughout, and checked faint copy of Pingree transcript against manuscript.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

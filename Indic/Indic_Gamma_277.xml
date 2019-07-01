@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Gamma_277">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Gamma 277</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-05-14">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Gamma_277</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Gamma 277</idno>
+                        <altIdentifier type="former">
+                            <idno>Enfield 123</idno>
+                        </altIdentifier>
+                        <altIdentifier type="alternative">
+                            <idno>Gamma 277(i) and Gamma 277(ii)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The long version of the <title>Rāmavinoda</title> of <persName role="aut">Rāmacandra</persName>, written for <persName>Rāmadāsa</persName>,
+                        a Mahārāja and a Mahāmātya of Akbar; it's epoch is A.D. 1590. For the short version of the <title>Rāmavinoda</title> see SATE, pp. 114-118.
+                        This manuscript was copied by <persName role="scr">Kanhīyālāla</persName> on <date>Friday 14 September 1877</date>.</summary>
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Gamma_277">
+                            <title>Rāmavinoda</title>
+                            <author>Rāmacandra</author>
+                            
+                            <note>No transcript provided, but names of twelve adhikāras (sections) are given as follows.
+                                1. pañcāṅgagṛhānayana. 31 vss.
+                                2. madhyama. 65 vss.
+                                3. spaṣṭa. 28 vss.
+                                4. tripraśna. 25 vss.
+                                5. candragrahaṇa. 26 vss.
+                                6. sūryagrahaṇa. 10 vss.
+                                7. chedya. 11 vss.
+                                8. gṛha. 17 vss.
+                                9. grahayutiyuddha. 13 vss.
+                                10. nakṣatradayāstagrahanakṣatrayogabheda. 12 vss.
+                                11. śṛṅgonnati. 8 vss.
+                                12. pāta. 18 vss.
+                            </note>
+                            
+                            <incipit>
+                                <!-- future transcript -->
+                                
+                            </incipit>
+                            
+                            <explicit>
+                                <!-- future transcript -->
+                            </explicit>
+                            
+                            <colophon>
+                                <!-- future transcript -->
+                            </colophon>
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>21 folio, 1-21.</extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Not given.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole">
+                                <persName role="scr">Kanhīyālāla</persName>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <additional>
+                        <adminInfo>
+                            <note>Alternate entry in <ref target="https://archive.org/details/b20456645M002"> <persName>Wujastyk</persName> Handlist 2</ref>, where it is
+                                entered as containing two versions of the <title>Rāmavinoda</title>, with the one corresponding to Gamma 277 (ii) contained in the first adhikāra given in @note above.
+                                The appearance of both versions in one manuscript is not uncommon; see Indic_Gamma_508.</note>
+                        </adminInfo>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-05-14" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Beta_585">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Beta 585</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-05-17">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Beta_585</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Beta 585</idno>
+                        <altIdentifier type="former">
+                            <idno>N.177.</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The <title>Mānasāgarī</title> ascribed either to <persName role="aut">Kalyāṇa Ṛṣi</persName> or to <persName role="aut">Mānasāgara</persName>.
+                        Incomplete. Copied on <date>Wednesday 6 kṛṣṇapakṣa on Āṣāḍha in VS 1820</date>.</summary>
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Beta_585">
+                            <title key="work_209904382">Mānasāgarī</title>
+                            <author key="person_33178581">Kalyāna</author>
+                            
+                            
+                            <incipit> <locus>F. 2</locus>
+                                <!-- transcript -->
+                                yā
+                            </incipit>
+                            
+                            <explicit> <locus>F. 20v</locus>
+                                <!-- transcript -->
+                                sūryodayād gateghaṭīgraṇī
+                            </explicit>
+                            
+                            <incipit> <locus>F. 23</locus>
+                                <!-- transcript -->
+                                ṣaṃ ye dīmān matkarmabhāvaḥ
+                            </incipit>
+                            
+                            <explicit>
+                                <!-- Reference files needed to add Leipzig 1101 and 1102 to @listBibl -->
+                                <note>The end of the text contains excerpts from the <title>Vṛddhayavan Jātaka</title> of <persName role="aut">Mīnarāja</persName>,
+                                the <title>Jātakābharaṇa</title> of <persName role="aut">Ḍhuṇḍhirāja</persName>, etc., similarly to Leipzig 1101 and 1102;
+                                the manuscript ends with the section on niryāṇa that Leipzig 1102 ends with.</note>
+                            </explicit>
+                            
+                            
+                            <colophon> <locus>F. 147</locus>
+                                <!-- transcript -->
+                                iti jātakābharaṇe niryāṇādhyāyaḥ samāptaṃ
+                                1820 varṣe mitī āsāḍhe kṛṣṇaṣaṣṭhyāṃ tithau budhavāsare cūsūstye (??).
+                            </colophon>
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>Ff. 2-20, 23-37, 39-130, and 130b-147, with no text lost between ff. 37 and 39. Incomplete.</extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="15">16 lines, ca 50 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Vikram Saṃvat" notBefore="1763-07-01" notAfter="1764-07-19">Wednesday 6 kṛṣṇapakṣā on Āṣādha, VS1820. 
+                                <note>This is an irregular date, hence the confusion as to conversion. Other possible converted dates are 
+                                    <date when="1763-07-31">Sunday 31 July 1763</date> and <date when="1764-06-19">Tuesday 19 June 1764</date>.</note> 
+                            </origDate>
+                            <origDate calendar="Gregorian" notBefore="1763-07-01" notAfter="1764-07-19">See above.</origDate>
+                            <origPlace>
+                                <country>India</country>
+                                <!-- Awaiting info on place code schema before entering @key -->
+                            </origPlace>
+                        </origin>
+                        <provenance when="1916-04-04">
+                            Left India wrapped in issue of Statesman dated Tuesday 4/4/1916.
+                        </provenance>
+                    </history>
+                    
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <title>Mānasāgara</title>
+                                <editor>Anūpa Miśra</editor>
+                                <placeName>Kāśi</placeName>
+                                <date>1948</date>
+                                <note>With Hindi commentary.</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-05-13" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_91">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 91</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-06-06">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_91</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 91</idno>
+                        <altIdentifier type="former">
+                            <idno>a.91.a</idno>
+                        </altIdentifier>
+                        <altIdentifier type="former">
+                            <idno>a.91.b</idno>
+                        </altIdentifier>
+                        <altIdentifier>
+                            <idno>a.91.c</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>A bound booklet containing four works in three different and anonymous hands.</summary>
+                        
+                        <textLang mainLang="sa" otherLangs="hi">Sanskrit with some early Hindi.</textLang>
+                        
+                        <msItem xml:id="Alpha_91_i">
+                            
+                            <note>A <persName role="aut">Kerali</persName> on praśnaśāstra; see the several works in <bibl>NCC, vol. 5, pp. 43-49</bibl>.</note>
+                            
+                            <incipit> <locus>F. 1</locus>
+                                <!-- transcript -->
+                                śrīgaṇeśāya namaḥ || atha kerala likhyate(ḥ) || u namo ||
+                                    sākṣāt trailokyasaṃbodhaṃ
+                                    praśnakeralabhāṣitaṃ
+                                    trikālaviṣayaproktaṃ
+                                    tasmai karalayai namaḥ |
+                            </incipit>
+                            
+                            
+                            <explicit> <locus>F. 8v</locus>
+                                <!-- transcript -->
+                                ... iti graṃtho 'yaṃ sa(mā)ptaḥ ||
+                                iti kerali samāptā || śubhaṃ bhavatu
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_91_ii">
+                            <title>Praśnacintāmaṇi</title>
+                            
+                            <note>A <title>Praśnacintāmaṇi</title> based on a work of Īśvara/Śiva.</note>
+                            
+                            <incipit> <locus>F. 8v</locus>
+                                <!-- transcript -->
+                                atha praśnaciṃtā<pb n="f. 9"/>mani(ṇir) likhyate||
+                                    praṇamya śāradādevī(ṃ)
+                                    laṃbodara(ṃ) vināyakaṃ
+                                    kalākartukahatavyaṃ (?)
+                                    kālajñānasamudbhavaṃ |
+                            </incipit>
+                            
+                            <explicit> <locus>F. 18v</locus>
+                                <!-- transcript -->
+                                ... atha ṣa(kha)ḍgayuddhaṃ bhavati vā ne(i)ti praśne
+                                    pṛthvījane samāyāte
+                                    ṣa(kha)ḍgapāto na jāyate
+                                    vahnivāto (tau) tathākāśe
+                                    ṣa(kha)ḍgapāto 'bhijāyate
+                                    yuddhāyuddhapraśna
+                                    aligi(ga)te nāsti yuddhaṃ
+                                    yuddha(ṃ) syātm(syād) abhidhūmite
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_91_iii">
+                            
+                            <note>An untitled tantric text on yantras in a vernacular. With many diagrams, illustrations, and magic squares.</note>
+                            <textLang otherLangs="hi">Hindi</textLang>
+                            
+                            <incipit>
+                                <!-- future transcript -->
+                            </incipit>
+                            
+                            <explicit>
+                                <!-- future transcript -->
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_91_iv">
+                            <title>Pañcāśadakṣaraphala</title>
+                            <title type="alt">Varṇamālā</title>
+                            <author>Nārada</author>
+                            
+                            <note>In 54 verses. See <bibl>CESS A3, 149b</bibl>.</note>
+                            
+                            
+                            <incipit> <locus>F. (2)v</locus>
+                                <!-- transcript -->
+                                śrīgaṇeśāya namaḥ || praśnaḥ yasya yadīkṣā (yadakṣa) bhavati tena koṣṭākṣara aṃgulī deyā tasya phalaṃ ||
+                                ślok(a) dṛṣṭavya(ṃ)(ḥ)||
+                                    sikāre siddhinirdeśeś
+                                    ceti te chā(cā)śubhaṃ bhavet ||1||
+                            </incipit>
+                            
+                            <note>Below this (incipit) is a date ca. 24 February 1760 (saṃvat 1816 phalguṇaśuddha 8...)</note>
+                            
+                            <explicit> <locus>F. (9)</locus>
+                                <!-- transcript -->
+                                hitāya sarvajaṃtūnāṃ
+                                nāradena mahātmanā ||
+                                dharmāt sarvaprayatnena
+                                rakṣaṇīyaṃ ca sarvadā || 54 ||
+                                iti varṇamālā nāma vidyā samāptā || śubham bhavet ||
+                            </explicit>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>35 folios; 18, 8, 9.</extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="Alpha_91_i" writtenLines="8">8 lines, ca 20 akṣaras.</layout>
+                                <layout n="Alpha_91_ii" writtenLines="8">8 lines, ca 20 akṣaras.</layout>
+                                <layout n="Alpha_91_iii" writtenLines="10">10 lines, ca 35 akṣaras.</layout>
+                                <layout n="Alpha_91_iv" writtenLines="8">10 lines, ca 20 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1789-05-05">Tuesday 5 May 1789</origDate>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <title>Census of the exact sciences in Sanskrit.</title>
+                                <abbr>CESS</abbr>
+                                <editor>David Pingree</editor>
+                                <placeName>Philadelphia</placeName>
+                                <publisher>American Philosophical Society</publisher>
+                                <date>1970</date>
+                                <note>A3, 149b</note>
+                            </bibl>
+                            <bibl>
+                                <title>New catalogus catalogorum: and alphabetical register of Sanskrit and allied works and authors.</title>
+                                <abbr>NCC</abbr>
+                                <editor>V. Raghavan, et al.</editor>
+                                <placeName>Madras</placeName>
+                                <publisher>University of Madras</publisher>
+                                <date>1949</date>
+                                <note>Vol. 5, pp. 43-49.</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-06-05" who="#AP">Created XML file. Added content description to @summary based on seeing manuscript.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
+
