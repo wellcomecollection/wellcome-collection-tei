@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_B_19_l">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>B.19.l</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-07-11">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">B.19.l</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno>B.19.l</idno>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>A <title>Ḍākinīprayoga</title>; there is no work of this title recorded in <abbr>NCC</abbr>, vol. 8, pp. 6-7. Incomplete.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="B.19.l">
+                            <title>Ḍākinīprayoga</title>
+                            
+                            <incipit> <locus>F. (1)v</locus>
+                                <!-- Transcript -->
+                                śrīgaṇeśāya namaḥ (||) atha ḍāk(i)nīprayogaḥ (||)
+                                    ḍāk(i)nī aṣṭadhā proktā
+                                    kriyā tā sā (?) prathaka prathaka (pṛthak pṛthak)
+                                    sāmānyagāminī sarvā
+                                    viśeṣā svalagāminī ||1
+                            </incipit>
+                            
+                            <incipit> <locus>Ff. 2-2v</locus>
+                                <!-- Transcript -->
+                                ... ||4||
+                                viśeṣikā durvodhvā dahati kāryaṃ dvitīghnāṃ
+                                svāsadīrghikā kāmasasyaharaṃ caiva karkkasāsasyagrāhi ||
+                                atha <pb n="f. 2v"/> (atha) ḍākinīprayogaḥ ||
+                                mṛnmayapātram aṣṭagaṃdhena nāmākṣaraṃ liptā ...
+                            </incipit>
+                            
+                            <explicit> <locus>F. 2v</locus>
+                                <!-- Transcript -->
+                                ... śatrū(n) nāmākṣara(ṃ) saha maṃtreṇa arkapatre catvāro likhitvā
+                            </explicit>
+                            
+                            <incipit> <locus>F. 4</locus>
+                                <!-- Transcript -->
+                                .hastau pādau rakṣa ora kaṃ vadhvā arddharātro iti paṭhati prayogamaṃtraḥ ....
+                            </incipit>
+                            
+                            <explicit> <locus>F. 5v</locus>
+                                <!-- Transcript -->
+                                ... iti bhāvaḥ oṃ namo ādeśaguruko raktakeselavāra
+                            </explicit>
+                            
+                            <incipit> <locus>Extra leaf obverse</locus>
+                                <!-- Transcript -->
+                                ke vātī kāṭo amukāke kare ... kole ha ha pheḥ pheḥ pheḥ ||
+                                iti ḍākinīprayogaḥ
+                            </incipit>
+                            
+                            <explicit> <locus>Extra leaf reverse</locus>
+                                <!-- Transcript -->
+                                oṃ vili vili vici mi vici mī svā svāhā ||
+                                prātaḥ kāle saprām imaṃ tritajā samukhaṃ prasāvyā kasyāntam asa
+                                pasyo bhavati || ḍākiṇīprayogaḥ sam(a)ptā(pta)ḥ
+                            </explicit>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>Ff. (1), 2, 4-5, and 1 f. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="7">7 lines, ca 25 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <title>New catalogus catalogorum: and alphabetical register of Sanskrit and allied works and authors.</title>
+                                <abbr>NCC</abbr>
+                                <editor>V. Raghavan, et al.</editor>
+                                <placeName>Madras</placeName>
+                                <publisher>University of Madras</publisher>
+                                <date>1949</date>
+                                <note>Vol. 8, pp. 6-7.</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-16" who="#AP">Added @dimensions to @supportDesc.</change>
+            <change when="2019-07-11" who="#AP">Created XML file. Note that the file lacks an Alpha number.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

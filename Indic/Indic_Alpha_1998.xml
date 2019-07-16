@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_1998">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 1998</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-06-25">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_1998</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 1998</idno>
+                        <altIdentifier type="former">
+                            <idno>B.II.c</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The <title>Caṇḍikāśāpavimocana</title> from the <title>Rudrayāmala</title> on ff. 1-2. Copied in <date calendar="Gregorian">1873</date>.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_1998">
+                            <title>Caṇḍikāśāpavimocana</title>
+                            
+                            <incipit> <locus>F. 1v</locus>
+                                <!-- future transcript -->
+                            </incipit>
+                            
+                            <explicit> <locus>F. 2</locus>
+                                <!-- transcript -->
+                                iti śrīrudrayāmale caṃḍikā<pb n="f. 2v"/>sāpamocan<supplied>am</supplied> saṃpūrṇam ||
+                                saṃvat 1930 śāke 1795
+                            </explicit>
+                            
+                        </msItem>                  
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>2 ff. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="6">6 lines, ca. 25 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole">  
+                                <persName role="scr">Mahādeva Pāṇḍe</persName> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when-custom="1873">1873</origDate>
+                        </origin>
+                    </history>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-16" who="#AP">Added @dimensions to @supportDesc.</change>
+            <change when="2019-06-25" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

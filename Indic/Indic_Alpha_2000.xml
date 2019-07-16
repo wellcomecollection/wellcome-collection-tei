@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2000">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 2000</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-06-25">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_2000</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2000</idno>
+                        <altIdentifier type="former">
+                            <idno>B.II.e</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The <title>Maṇikarṇikāstotra</title> attributed to <persName role="aut">Śaṅkara</persName>; 9 verses.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_2000">
+                            <title>Maṇikarṇikāstotra</title>
+                            <author key="person_54116823">Śaṅkara</author>
+                            
+                            <incipit> <locus>F. 1v</locus>
+                                <!-- transcript -->
+                                śrī gaṇeśāya namaḥ ||
+                                    tvattīre maṇikarṇike hariharau sāyujyamuktipradau
+                                    vādaṃtau kurutaḥ parasparasubhau jaṃtoḥ prayāṇotsaṣe
+                                    madrūpo manujo<pb n="f. 2"/>pamas tu hariṇā proktaḥ śivas tatkṛt kṣaṇe
+                                    tvamadhyād bhṛgulāṃkṣaṇo garudagayītāṃvaro nirgataḥ || 1 ||
+                            </incipit>
+                            
+                            <explicit> <locus>F. 8</locus>
+                                <!-- transcript -->
+                                iti śrīmacchaṃkarācāryyaviracitaṃ maṇikarṇikāstotra saṃpūrṇam ||
+                            </explicit>
+                            
+                        </msItem>                  
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>8 ff. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="5">5 lines, ca. 15 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole">  
+                                <persName role="scr">Mahādeva Pāṇḍe</persName> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1886-02-26">Friday 26 February 1886</origDate>
+                        </origin>
+                    </history>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-16" who="#AP">Added @dimensions to @supportDesc.</change>
+            <change when="2019-06-25" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

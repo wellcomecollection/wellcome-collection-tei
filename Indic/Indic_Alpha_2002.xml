@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2002">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 2002</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-06-25">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_2002</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2002</idno>
+                        <altIdentifier type="former">
+                            <idno>B.II.g</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The <title>Rāmasahasranāmastotra</title> from the <title>Sṛṣṭipraśaṃsā</title> of the <title>Brahmayāmala</title> 
+                            in the form of a dialogue between Umā and Maheśvara; 195 verses. Copied by <persName role="scr">Mahādevadatta Pāṇḍe</persName>
+                            on <date>Friday 23 December 1864</date>.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_2002">
+                            <title>Rāmasahasranāmastotra</title>
+                            
+                            <decoNote> <locus>F. 1</locus>
+                                <!-- Frontispiece description -->
+                                rāmaḥ
+                            </decoNote>
+                            
+                            <incipit> <locus>F. 1v</locus>
+                                <!-- transcript -->
+                                śrī gaṇeśāya namaḥ || devy uvāca ||
+                                devadeva mahādeva
+                                bhaktānugrahakāraka ||
+                                tvattaḥ ś(r)ut(t)ā mayā pūrvaṃ
+                                maṃtrāṇāṃ śatakoṭayaḥ || 1 ||
+                            </incipit>
+                            
+                            <explicit> <locus>F. 39</locus>
+                                <!-- transcript -->
+                                iti śrībrahmayāmale sṛṣṭipraśaṃsāyāṃ <pb n="f. 39v"/> umāmaheśvarasaṃvāde rakārādi śrīrāmasahasranāmastotraṃ
+                                samāptam/e śubham/e bhūyāt || samvat || 1921 || śāke 1786 || agahanavadi ekādaśi likhitaṃ x āra bhṛguvāsare ||
+                                mahādevadatta pāṃde || śrīkṛṣṇāya namo namaḥ || śrīrāmāya namas te ||
+                                    etāvaj janma sa<pb n="f. 40"/>phalyaṃ
+                                    dehinām iha dehiṣu ||
+                                    prāṇair arthai dhiyā vācā
+                                    śreya evācaret sadā || 1 ||
+                            </explicit>
+                            
+                            <decoNote> <locus>F. 40v</locus>
+                                A magic square and a magic cross
+                            </decoNote>
+                            
+                        </msItem>                  
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>40 ff. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="5">5 lines, ca. 25 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole">  
+                                <persName role="scr">Mahādeva Pāṇḍe</persName> 
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote> <locus>F. 40v</locus>
+                                A magic square and a magic cross
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1864-12-23">Friday 23 December 1864</origDate>
+                        </origin>
+                    </history>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-16" who="#AP">Copied @decoNote to new @decoDesc element in @physDesc. Added @dimensions to @supportDesc.</change>
+            <change when="2019-06-25" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

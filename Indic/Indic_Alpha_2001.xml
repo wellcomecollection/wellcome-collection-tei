@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2001">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 2001</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-06-25">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_2001</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2001</idno>
+                        <altIdentifier type="former">
+                            <idno>B.II.f</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>Two yantra works; the <title>Pañcadaśīyantra</title> of <persName role="aut">Śiva</persName>, 27 verses,
+                        and the <title>Pañcadaśīyantrapaṭala</title>, 34 verses.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_2001_1">
+                            <title>Pañcadaśīyantra</title>
+                            <author>Śiva</author>
+                            
+                            <decoNote> <locus>F.1</locus> 
+                                <!-- Yantra description -->
+                                A paṃdrahākayayaṃtra.
+                            </decoNote>
+                            
+                            <incipit> <locus>F. 1v</locus>
+                                <!-- transcript -->
+                                śrī gaṇeśāya namaḥ ||
+                                athā(ṃ)taḥ saṃpravakṣyāmi
+                                suṃdarīyaṃtram uttamaṃ ||
+                                yasya vijñānamātreṇa
+                                trailyavijayi(ī) naraḥ || 1 ||
+                            </incipit>
+                            
+                            <explicit> <locus>F. 4v</locus>
+                                <!-- transcript -->
+                                iti śivabhāṣitaṃ paṃcadaśīyaṃtra samāpta<supplied>m</supplied>
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_2001_2">
+                            <title>Pañcadaśīyantrapaṭala</title>                         
+                            
+                            <incipit> <locus>F. 4v or 5</locus>
+                                <!-- future transcript -->
+                            </incipit>
+                            
+                            <explicit> <locus>F. 9v</locus>
+                                <!-- transcript -->
+                                iti paṃcadaśīyaṃtrapaṭhalaḥ samāptaḥ ||
+                                ... saṃvat 193 śake 1751 caiītramāse kṛṣṇapakṣe
+                                trarodaśayasyā caṃdravāsare leṣitaṃ pustakaṃ mahādevadatta pāḍe ||
+                            </explicit>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>3 ff. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="7">7 lines, ca. 30 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole">  
+                                <persName role="scr">Mahādeva Pāṇḍe</persName> 
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote> <locus>F.1</locus> 
+                                <!-- Yantra description -->
+                                A paṃdrahākayayaṃtra.
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1886-02-26">Friday 26 February 1886</origDate>
+                        </origin>
+                    </history>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-16" who="#AP">Copied @decoNote to new @decoDesc element in @physDesc. Added @dimensions to @supportDesc.</change>
+            <change when="2019-06-25" who="#AP">Created XML file with two msItems and collated the @summary.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

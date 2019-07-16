@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2067">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 2067</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-07-03">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_2067</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2067</idno>
+                        <altIdentifier type="former">
+                            <idno>B.19.c</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The <title>Śarabhasparśavīkṣaṇakavaca</title> from the <title>Ākāśabhairavatantra</title>. 
+                            <abbr>NCC</abbr>, vol. 2, pp. 3-6 describes an <title>Ākāśabhairavakalpa(tantra)</title> among
+                            whose parts are several (pp. 5-6) whose titles begin with Śarabha; the closest to the title of
+                            our text are the <title>Śarabhakavaca</title>, <title>Śarabhamantrakavaca</title>, and <title>Śarabhasāluvapakṣirājakavaca</title>.
+                            Copied by <persName role="scr">Kṛṣṇalāla</persName> in <date>1847/8</date>, the post-colophon
+                            verse refers to Rāma copying it at Kāśī on <date>7 śuklapakṣa of Phālguna (11 March 1848)</date>.</summary>
+
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_2067">
+                            <title>Śarabhasparśavīkṣaṇakavaca</title>
+                            
+                            <note>(The microfilm seems not to have filmed the different sides in the proper sequence).</note>
+                            
+                            
+                            <incipit> <locus>F. A</locus>
+                                <!-- Transcript -->
+                                sarva॰ ||13||
+                                oṃ hrīṃ na॰ vṛṣabhadhvajāya jya॰2 pra2 sādhyaṃ॰2
+                                menāsāgraṃ rakṣa 2 sarva ॰ ||14||
+                            </incipit>
+                            
+                            <explicit> <locus>F. 4v(?)</locus>
+                                <!-- Transcript -->
+                                vāya me dharmakarmāṇi॰ ||4||
+                                vaṭukāya॰ me sarvam avasthātritayeṣu ||5||
+                                spṛśya paśyan jape kṛtvā
+                                pratishtānasamāhetoḥ ||
+                                sparśavi(vī)kṣaṇasaṃśliṣṭo
+                                prāṇarakṣāmano jayaḥ ||1||
+                                pr(ā)rthayed akhilam śreṣṭ(h)aṃ
+                                hṛdisthaṃ śā(lu)veśvaraṃ ||
+                                sādhakaḥ praṇavaṃ māyā
+                                namo bhagavateti ca ||2||
+                                pratināmacaturthyaṃtaṃ
+                                sparśa ity abhidhīyate ||
+                                dvijvalaṃ prajvaleti sādhyaṃ
+                                sādhayed viddhi rakṣatu ||3||
+                                sarvaduṣṭebhyo hraṃ phaṭ svāhā ti me dakṣ(i)ṇam <gap/>
+                                ity ākāśabhairavataṃtre caturthyaṃtaṃ śarabhasparś<gap/>
+                                vīkṣaṇakavacaṃ samāptam || li॰ kṛṣṇalālena
+                                parīyakṛtihetave gorasādri(ś)caṃdramite śāke vai
+                                śālivāhane ||1||
+                                    tapasyaśūkle saptamyāṃ
+                                    maṃdavāradine śubhe ||
+                                    kāśyāṃ pūrṇendre kṛpayā
+                                    lī(li)lekha tkṛśā(?) rāmakaḥ 3||
+                            </explicit>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>2 ff + ff. 3-4. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="10">Ca. 10 lines, ca. 50 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1848-03-11">Saturday 11 March 1848</origDate>
+                            <origPlace>
+                                <country>India</country>
+                                <settlement>Vārāṇasī</settlement>
+                            </origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <title>New catalogus catalogorum: and alphabetical register of Sanskrit and allied works and authors.</title>
+                                <abbr>NCC</abbr>
+                                <editor>V. Raghavan, et al.</editor>
+                                <placeName>Madras</placeName>
+                                <publisher>University of Madras</publisher>
+                                <date>1949</date>
+                                <note>Vol. 2, pp. 3-6.</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-16" who="#AP">Added @dimensions to @supportDesc.</change>
+            <change when="2019-07-03" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

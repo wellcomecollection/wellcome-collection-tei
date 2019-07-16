@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2005">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 2005</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-06-25">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_2005</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2005</idno>
+                        <altIdentifier type="former">
+                            <idno>B.II.j</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The <title>Svarṇākarṣaṇabhairavamantra</title> and the <title>Hanumadaṣṭakastotra</title> of <persName role="aut">Rāmacandra</persName>. 
+                            Copied in <date>1855</date>.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_2005_1">
+                            <title>Svarṇākarṣaṇabhairavamantra</title>
+                            
+                            <incipit> <locus>F. 1v</locus>
+                                <!-- Future transcript -->
+                            </incipit>
+                            
+                            <explicit> <locus></locus>
+                                <!-- Future transcript -->
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_2005_2">
+                            <title>Hanumadaṣṭakastotra</title>
+                            <author>Rāmacandra</author>
+                            
+                            <note>8 verses.</note>
+                            
+                            <incipit> <locus></locus>
+                                <!-- Future transcript -->
+                            </incipit>
+                            
+                            <explicit> <locus>F. 11</locus>
+                                <!-- transcript -->
+                                iti śrīśrīśrīśrīśrīrā<pb n="f. 11v"/>macaṃdraproktaṃ
+                                śrīśrīśrīśrīhanumadaṣṭakastotraṃ saṃpūrṇam ||
+                                śrīśubhaṃ (bha)vatu saṃvat 1912 ||
+                            </explicit>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>11 ff. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="7">7 lines, ca. 30 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole">  
+                                <persName role="scr">Mahādeva Pāṇḍe</persName> 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1886-02-26">Friday 26 February 1886</origDate>
+                        </origin>
+                    </history>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-16" who="#AP">Added @dimensions to @supportDesc.</change>
+            <change when="2019-06-25" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2065">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 2065</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-07-03">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_2065</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2065</idno>
+                        <altIdentifier type="former">
+                            <idno>B.19.a.I</idno>
+                        </altIdentifier>
+                        <altIdentifier type="former">
+                            <idno>B.19.a.II</idno>
+                        </altIdentifier>
+                        <altIdentifier type="former">
+                            <idno>B.19.a.III</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>Two unidentified texts and around 40 verses of a <title>Nṛsiṃhastotra</title>.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_2065_1">
+                            
+                            <note>An unidentified text.</note>
+                            
+                            <incipit> <locus>F. 5</locus>
+                                <!-- Transcript -->
+                                bhe ||
+                                bhūtapretādhike bhaye ||
+                                ḍākinīputanayakṣ(y)e ||
+                                rakṣaḥ kūśmāṃḍaje bhaye ||
+                            </incipit>
+                            
+                            <explicit> <locus>F. 5-5v</locus>
+                                <!-- Transcript -->
+                                mithunamālāpaṃcake<pb n="f. 5v"/>ṣu strīpuṃ ||
+                                iṃgāṃtarnirdeśaḥ śrīḥ ||
+                                    guroḥ prasādād aham eva brahma
+                                    maipy(?) eva māyāpariklapitaṃ ca ||
+                                    anena jānāmi sadātmarūpaṃ ||
+                                    guro(ḥ)ś ca pādau praṇato (')smi nityaṃ ||1||
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_2065_2">
+                            
+                            <note>Sections 13-25 of an unidentified text.</note>
+                            
+                            <incipit> <locus>F. 6</locus>
+                                <!-- Transcript -->
+                                yatu śoṣaya tu svāpaya tu drāvaya tu hrāsaya tu kṣāraya tu kaliṃ tasmai praya(c)cha tu ... 13
+                                etair maṃtrair ātmarakṣāṃ kṛtvā japam ārabhet
+                            </incipit>
+                            
+                            <explicit> <locus>F. 7v</locus>
+                                <!-- transcript -->
+                                ... 24
+                                pare hi kṛtye mātiṣṭha viddhasyeva padaṃ naya mṛgasya hi mṛgo
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_2065_3">
+                            <title>Nṛsiṃhastotra</title>
+                            
+                            <note>Incomplete (verses 99-143).</note>
+                            
+                            <incipit> <locus>F. 11</locus>
+                                <!-- Transcript -->
+                                siṃha |
+                                namo namo dṛṃhitabhūrisiṃha
+                                namo namo nirmalacittasiṃha 99
+                            </incipit>
+                            
+                            <explicit> <locus>F. 14</locus>
+                                <!-- Transcript -->
+                                ... (1) 41
+                                śuciśravāya śūraya
+                                subhagāya sudhāriṇe |
+                                śubhrāya suranāthāya
+                                suprabhāya śubhāya ca | (|142||)
+                                sudarśanāya sūktāya
+                                namo namaḥ (l) supra
+                            </explicit>
+                            
+                            <decoNote> <locus>F. 14v</locus>
+                                A different hand has written at the top of f. 14v: nṛsiṃhastotra
+                            </decoNote>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>14 ff. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="9">9 lines, ca. 35 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                        <decoDesc>
+                            <decoNote> <locus>F. 14v</locus>
+                                A different hand has written at the top of f. 14v: nṛsiṃhastotra
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-16" who="#AP">Copied @decoNote to new @decoDesc element in @physDesc. Added @dimensions to @supportDesc.</change>
+            <change when="2019-07-03" who="#AP">Created XML file and added @summary.Note that the first item begins on the fifth folio; the earlier five are not accounted for.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

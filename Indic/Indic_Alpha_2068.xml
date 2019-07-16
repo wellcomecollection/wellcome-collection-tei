@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2068">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 2068</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-07-09">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_2068</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2068</idno>
+                        <altIdentifier type="former">
+                            <idno>B.19.d</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The <title>Gaṅgālaharī</title> composed by <persName role="aut">Jagannātha Paṇḍitarāja</persName>
+                            in the <date>mid-seventeenth century</date>. See for the text <abbr>NCC</abbr>, vol. 5, pp. 214-216,
+                            and for the author <abbr>NCC</abbr>, vol. 7, pp. 137-138. This version contains 59 verses instead of
+                            the standard 53.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_2068">
+                            <title key="work_182001360">Gaṅgālaharī</title>
+                            <author key="person_97929384">Jagannātha Paṇḍitarāja</author>
+                            
+                            <incipit> <locus>F. 1v</locus>
+                                <!-- Transcript -->
+                                śrīgaṇeśāya namaḥ ||
+                                mahādānair dhyānair bahuvidhavitānair api cayan
+                                na labhyam ghorābhiḥ suvima(pu)lataporājibhirapi ||
+                                aciṃtyaṃ tad viṣṇoḥ padam akhilasādhāraṇatayā
+                                dadānā kenāsitvam iha tulanīyā kathaya naḥ |
+                            </incipit>
+                            
+                            <explicit> <locus>F. 13v</locus>
+                                <!-- Transcript -->
+                                umāṃ pīyūṣalaharīṃ
+                                jagannāthena nirmitām ||
+                                yaḥ paṭhet tasya sarvatra
+                                jāyaṃter jaya(ṃte jaya)saṃpadaḥ ||59||
+                                śrī 3 iti 2 (=iti śrī) paṃḍitarājaracitā gaṃgālaharī samāptā
+                            </explicit>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>Ff. 1-13. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="7">7 lines, ca. 20 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <title>New catalogus catalogorum: and alphabetical register of Sanskrit and allied works and authors.</title>
+                                <abbr>NCC</abbr>
+                                <editor>V. Raghavan, et al.</editor>
+                                <placeName>Madras</placeName>
+                                <publisher>University of Madras</publisher>
+                                <date>1949</date>
+                                <note>Vol. 5, pp. 214-216; vol. 7, pp. 137-138.</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-16" who="#AP">Added @dimensions to @supportDesc.</change>
+            <change when="2019-07-09" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
