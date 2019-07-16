@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2066">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 2066</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-07-03">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_2066</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2066</idno>
+                        <altIdentifier type="former">
+                            <idno>B.19.b</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The <title>Aparādhabhañjanastotra</title> by <persName role="aut">Śaṅkara</persName> in 17 verses on Śiva. 
+                            <abbr>NCC</abbr>, vol. 1, p. 248 knows of 3 printed editions, but no manuscripts.
+                            Copied on <date>Wednesday 13 May 1863</date>.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_2066">
+                            <title>Aparādhabhañjanastotra</title>
+                            <author key="person_54116823">Śaṅkara</author>
+                            
+                            <incipit> <locus>F. 1v</locus>
+                                <!-- Transcript -->
+                                oṃ śrīgaṇeśāya namaḥ ||
+                                śāntaṃ padmāsanasthaṃ śaśadharamukaṭaṃ
+                                    pañcavaktraṃ triṇetraṃ ||
+                                śūlaṃ vajrañ ca khaḍgaṃ paraśum api varaṃ
+                                    dakṣiṇāṅge vahantaṃ ||
+                                nāgaṃ pāphāñ ca ghaṇḍāṃḍamarukasahitaṃ
+                                    cāṅkuśaṃ vāmabhogo(ge)
+                                nānālaṃ(e)kāradīptaṃ sphoṭikamaṇinibhaṃ pārvatīśaṃ<gap/>
+                                    bhajāmi ||1||
+                            </incipit>
+                            
+                            <explicit> <locus>F. 5v-6</locus>
+                                <!-- Transcript -->
+                                ... ||16||
+                                gātraṃ bhasmasitaṃ sitañ ca hasitaṃ haste kapālaṃ sitaṃ
+                                khaṭvāṅgaṇ ca sitaṃ sitaś ca vṛṣabhaḥ karṇe site kuṇḍale
+                                gaṅgāpheṇasitaṃ jaṭāpayasitaṃ candraḥ <pb n="f. 6"/> sito
+                                    muūrddhani
+                                so 'yaṃ sarvasito dadātu vibhavaṃ pāpakṣayaṃ
+                                    śaṅkaraḥ || 17 ||
+                                iti śrīparamahaṃsaparivrājakācāryaśrīśaṅkarācarya<gap/>
+                                bhagavatkṛtam aparādhabhañjanastotraṃ samāptaṃ ||
+                                śubham saṃvat 1920 vaiśākhakṛṣṇadvādaśyāṃ saumyavāsu(sa)re
+                            </explicit>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>6 ff. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="8">8 lines, ca. 20 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1863-05-13">Wednesday 13 May 1863</origDate>
+                        </origin>
+                    </history>
+                    
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <title>New catalogus catalogorum: and alphabetical register of Sanskrit and allied works and authors.</title>
+                                <abbr>NCC</abbr>
+                                <editor>V. Raghavan, et al.</editor>
+                                <placeName>Madras</placeName>
+                                <publisher>University of Madras</publisher>
+                                <date>1949</date>
+                                <note>Vol. 1, p. 248.</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-16" who="#AP">Added @dimensions to @supportDesc.</change>
+            <change when="2019-07-03" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

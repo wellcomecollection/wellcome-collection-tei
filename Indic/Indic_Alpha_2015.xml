@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2015">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 2015</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-07-01">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_2015</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2015</idno>
+                        <altIdentifier type="former">
+                            <idno>B.II.t</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>Two <title>Mahimnastotra</title>, one by <persName role="aut">Puṣpadanta</persName>, 
+                            and a short work, the <title>Mahāmṛtyuñjayamantravidhi</title>.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_2015_1">
+                            <title key="work_293404395">Mahimnaḥstotra</title>
+                            <author key="person_128612988">Puṣpadanta</author>
+                            
+                            <note>40 verses. The beginning is identical with that of the <title>Mahimnaḥpārastotra</title> in <idno>A.9.e</idno>.</note>
+                            
+                            <decoNote> <locus>F. 1</locus>
+                                <!-- Transcript -->
+                                atha mahimnastotraprāraṃbhaḥ
+                            </decoNote>
+                            
+                            <incipit> <locus>F. 1v</locus>
+                                <!-- Transcript -->
+                                śrīgaṇeśāya namaḥ || oṃ
+                                mahimnaḥpāraṃ te paramaviduṣo yady asadṛśī
+                                stutir vrahmādīnām api tadavasannās tvayi giraḥ
+                                athāvācyaḥ sarva(ḥ) svamatipariṇāmāvadhigṛṇan
+                                mamāpy eṣaḥ stotre haranirapavādaḥ parikaraḥ |
+                            </incipit>
+                            
+                            <explicit> <locus>F. 9</locus>
+                                <!-- Transcript -->
+                                śrīpuṣpadaṃtamukhapaṃkajanirgatena
+                                stotreṇa kilviṣahareṇa harapriyeṇa
+                                kaṃṭhasthi<pb n="f. 9v"/>tena paṭhitena samāhitena
+                                suprīṇito bhavati bhūtapatir maheśaḥ 40 ||
+                                iti śrīpuṣpadaṃtācāryaviracitaṃ mahimnastotra samāptam ||
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_2015_2">
+                            <title>Mahimnaḥstotra</title>
+                            
+                            <note>Another <title>Mahimnaḥstotra</title>.</note>
+                            
+                            <incipit> <locus>F. 9v</locus>
+                                <!-- Transcript -->
+                                pārthivapūjā oṃ harāya namaḥ | iti mṛdāharaṇa<unclear>ṃ</unclear> | oṃ maheśvarāya namaḥ |
+                                iti saṃgha<pb n="f. 10"/>ṭṭanam | oṃ śūlapāṇaye namaḥ | iti sthāpanam |
+                                oṃ <unclear>ganāka</unclear>pāṇaye namaḥ | ity <unclear>āvahanaṃ|| dhyānaṃ</unclear>
+                                dhyāyen nityaṃ maheśaṃ rajitagirinibhaṃ cārucaṃdrāvat(t)aṃsaṃ
+                                ratnākalyojjvalāṅgaṃ paraśumṛgavarābhīt(t)ihastaṃ prasannam |
+                                padmāsīnaṃ samaṃtāt stutam amaragaṇair vyāghre kṛti vasānaṃ
+                                viśvādyaṃ viśvavaṃdyaṃ nikhilabhayaharaṃ pacavaktraṃ trinetram |
+                            </incipit>
+                            
+                            <explicit> <locus>F. 10v</locus>
+                                <!-- transcript -->
+                                iti mahimnastotraṃ samāptam
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_2015_3">
+                            <title>Mahāmṛtyuñjayamantravidhi</title>
+                            
+                            <incipit> <locus>f. 10v</locus>
+                                <!-- Transcript -->
+                                oṃ paśupataye namaḥ || oṃ namaḥ śivāya
+                                oṃ hrauṃ oṃ jūṃ saḥ bhūr bhuvaḥ svaḥ tryaṃvakaṃ
+                                pajāmahe sugaṃdhiṃ puṣṭivarddhanam urvārukam iva
+                                vaṃdhanān mṛtyor mukṣīyam āmṛtāt bhūr bhuvaḥ svaḥ
+                                ro jūṃ saḥ hauṃ oṃ iti mahāmṛtyuṃjayamaṃtravidhiḥ
+                            </incipit>
+                            
+                            <explicit> <locus></locus>
+                                <!-- Future transcript -->
+                            </explicit>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>10 ff. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="7">7 lines, ca. 30 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                        <decoDesc>
+                            <decoNote type="paratext"> <locus>F. 1</locus>
+                                <!-- Transcript -->
+                                atha mahimnastotraprāraṃbhaḥ
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-16" who="#AP">Copied @decoNote to new @decoDesc element in @physDesc. Added @dimensions to @supportDesc.</change>
+            <change when="2019-07-01" who="#AP">Created XML file and added @summary.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
