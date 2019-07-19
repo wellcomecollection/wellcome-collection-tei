@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_170_1">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>Alpha 170-1</title>
+                <title type="collection">Wellcome Library</title>
+                <respStmt xml:id="JUD">
+                    <resp when="2003-08-22">Cataloguing</resp>
+                    <persName>JUD</persName>
+                </respStmt>
+                <respStmt xml:id="NR">
+                    <resp when="2005-07-01">Cataloguing</resp>
+                    <persName>DNS</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-02-27">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Institute of Jainology; The Wellcome Trust Library</publisher>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <orgName type="unit">Wellcome Library</orgName>
+                    <street>183 Euston Rd, Kings Cross</street>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_170_1</idno>
+                <idno type="collection">Asian Collection</idno>
+                <idno type="catalogue">Jain Manuscripts Cataloguing Project</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">Alpha 170/1</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        
+                        <summary>Catuḥśaraṇa prakīrṇaka, a Jain philosophical text. Copied by <persName role="scr">Sundaramuni</persName>.</summary>
+                        <textLang mainLang="pka">Ardhamāgadhī Prākrit</textLang>
+                        <msItem xml:id="Alpha_170_1">
+                            <locus from="1A" to="2A">1A-2A</locus>
+                            <title type="main" key="Alpha_170_1">Catuḥśaraṇa prakīrṇaka</title>
+                            
+                            <incipit> <locus>1A</locus>
+                                <!-- transcript -->
+                                tthi maṃ thanai || 30 || jiya loya bandhuṇe kugai sindhuṇo pāragā
+                                mahābhāgā nāṇāiehiṃ sivasukkha sāhagā sāhuṇo saraṇaṃ || 31 ||  
+                            </incipit>
+                            
+                            <explicit> <locus>2A</locus>
+                                <!-- transcript -->
+                                iya jīva pamāya mahāri | bīra bhaddaṃti meyamajjhayaṇaṃ |
+                                jhāesu tisañjhamavañjha | kāraṇaṃ nivari suhāṇaṃ || 63 ||
+                                iti śri causaraṇa painnā sampūrṇam ||
+                            </explicit>
+                            
+                            <colophon>
+                                <!-- transcript -->
+                                likhitam sundaramunedam |
+                            </colophon>
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <support>Indian paper</support>
+                                <extent> 2 ff. <dimensions type="leaf" unit="cm">
+                                    <height>20.7</height>
+                                    <width>10.4</width>
+                                </dimensions>
+                                </extent>
+                                <condition>Poor</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="13">
+                                </layout>
+                            </layoutDesc> 
+                            <decoDesc>
+                                <decoNote type="marginal">4 black lines</decoNote>
+                            </decoDesc>
+                        </objectDesc>
+                    </physDesc>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2019-02-27" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

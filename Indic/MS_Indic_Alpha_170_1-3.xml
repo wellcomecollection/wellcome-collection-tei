@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_170_1-3">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>Alpha 170-1-3</title>
+                <title type="collection">Wellcome Library</title>
+                <respStmt xml:id="JUD">
+                    <resp when="2003-08-22">Cataloguing</resp>
+                    <persName>JUD</persName>
+                </respStmt>
+                <respStmt xml:id="NR">
+                    <resp when="2005">Cataloguing</resp>
+                    <persName>DNS</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-03-20">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Institute of Jainology; The Wellcome Trust Library</publisher>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <orgName type="unit">Wellcome Library</orgName>
+                    <street>183 Euston Rd, Kings Cross</street>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_170_1-3</idno>
+                <idno type="collection">Asian Collection</idno>
+                <idno type="catalogue">Jain Manuscripts Cataloguing Project</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">Alpha 170/1-3</idno>
+                    </msIdentifier>
+                    
+                 
+                    
+                    <msContents>
+                        
+                        <summary>An astrological treatise and two hymns to Jain tīrthaṅkaras.</summary>
+                        <textLang mainLang="pka" otherLangs="sa gu">Ardhamāgadhī Prākrit, Sanskrit and Old Gujarati</textLang>
+                        
+                        <msItem xml:id="Alpha_170_1">
+                            
+                            <locus from="1A" to="2A">1A-2A</locus>
+                            <title type="main" key="Alpha_170_1">Catuḥśaraṇa prakīrṇaka</title>
+                            <note>A Jain philosophical text. Copied by <persName role="scr">Sundaramuni</persName>.</note>
+                            <textLang mainLang="pka">Ardhamāgadhi Prakrit</textLang>
+                            
+                            <incipit> <locus>1A</locus>
+                                <!-- transcript -->
+                                tthi maṃ thanai || 30 || jiya loya bandhuṇe kugai sindhuṇo pāragā
+                                mahābhāgā nāṇāiehiṃ sivasukkha sāhagā sāhuṇo saraṇaṃ || 31 ||  
+                            </incipit>
+                            
+                            <explicit> <locus>2A</locus>
+                                <!-- transcript -->
+                                iya jīva pamāya mahāri | bīra bhaddaṃti meyamajjhayaṇaṃ |
+                                jhāesu tisañjhamavañjha | kāraṇaṃ nivari suhāṇaṃ || 63 ||
+                                iti śri causaraṇa painnā sampūrṇam ||
+                            </explicit>
+                            
+                            <colophon>
+                                <!-- transcript -->
+                                likhitam sundaramunedam |
+                            </colophon>
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_170_2">
+                            <locus from="2A" to="2B">2A-2B</locus>
+                            <title type="main" key="Alpha_170_2">Pārśvanātha stotra</title>
+                            <textLang mainLang="sa">Sanskrit</textLang>
+                            <note>A prayer to Lord Pārśvanātha, the 23rd Tīrthaṅkara of the Jains.</note>
+                            
+                            <incipit> <locus>2A</locus>
+                                <!-- transcript -->
+                                || bhale miṇḍu || śrī pārśvanātāya namaḥ |
+                                namo devanāgindra mandāra mālā mrda cchatā dhauta pādāravindaṃ parānanda sandarbha lakṣmī nivāsaṃ stuve deva cintāmaṇi pārśvanātham || 1 ||
+                                tame rāsi vitrāśana vāsareṣaṃ natakleśaleśaṃ śriyāṃśaṃ || niveśamālīna pa(d)māvatī prūṇanāthaṃ stuve deva cintāmaṇi pārśvanātham || 2 ||
+                            </incipit>
+                            
+                            <explicit> <locus>2A</locus>
+                                <!-- transcript -->
+                                iti nāgendra narāmarendra vandito pādāṃbujaḥ pravaratejaḥ | śrīdevakulapāṭhakastha sayati cintāmaṇiḥ pārśvanātham || 7 ||
+                                <!-- The following is arguably the colophon, though it does not reveal any information on scribe or place -->
+                                iti śrī pārśvanāthastotraṃ sampūrṇam ||
+                            </explicit>
+                            
+                            <colophon>
+                                <!-- transcript -->
+                                <!-- No colophon given -->
+                            </colophon>
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_170_3">
+                            <locus from="2A" to="2B">2A-2B</locus>
+                            <title type="main" key="Alpha_170_1">Pārśvanātha stotra</title>
+                            <textLang mainLang="gu">(Old) Gujarati</textLang>
+                            <note>A prayer to Lord Śāntinātha, the 16th Jain tīrthaṅkara.</note>
+                            
+                            <incipit> <locus>2B</locus>
+                                <!-- transcript -->
+                                || bhale miṇḍu || śrī śāntinātha jineśvara svāmi vena taḍī ava dharī prabhū sevaka jinahasi vāri pāpapaṇāsaṇa śānti jiṇo aśvasenarāya malhāra _ _ _
+                            </incipit>
+                            
+                            <explicit> <locus>2A</locus>
+                                <!-- transcript -->
+                                śrī mūla siṅgha sādhāra padmā nandapaṭi sobhakarī hau tau re murkha ajñāna jai so re paṇḍita bīnavaie pāṭṭaṇa naira
+                                mañjhāri śāntikarai śrī śāntijiṇo ||
+                                <!-- The following is arguably the colophon, though it does not reveal any information on scribe or place -->
+                                iti śrī śāntinātha stavanaṃ sampūrṇam ||
+                            </explicit>
+                            
+                            <colophon>
+                                <!-- transcript -->
+                                <!-- No colophon given -->
+                            </colophon>
+                        </msItem>
+                     
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <support>Indian paper</support>
+                                <extent> 2 ff. <dimensions type="leaf" unit="cm">
+                                    <height>20.7</height>
+                                    <width>10.4</width>
+                                </dimensions>
+                                </extent>
+                                <condition>Poor</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="13">
+                                </layout>
+                            </layoutDesc> 
+                            <decoDesc>
+                                <decoNote type="marginal">4 black lines</decoNote>
+                            </decoDesc>
+                        </objectDesc>
+                    </physDesc>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2019-03-20" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
