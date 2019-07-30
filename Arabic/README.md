@@ -18,4 +18,4 @@ Exemplars of calligraphy written in Arabic are included in:
 
 * Serikoff, N. (ed.) (2007) [*Islamic calligraphy from the Wellcome Library*](http://search.wellcomelibrary.org/iii/encore/record/C__Rb1661158?lang=eng) (available in hard copy print only)
 
-This work builds on the [Wellcome Arabic Manuscript Cataloguing Project (WAMCP)](http://wamcp.bibalex.org/about-us), a collaboration between Wellcome Library, Bibliotheca Alexandrina, and King's College London, funded by JISC and the Wellcome Trust in 2011.
+This work builds on the [Wellcome Arabic Manuscript Cataloguing Project (WAMCP)](http://wamcp.bibalex.org/about-us), a collaboration between Wellcome Library, Bibliotheca Alexandrina, and King's College London, funded by JISC and the Wellcome Trust between 2009 and 2011.
