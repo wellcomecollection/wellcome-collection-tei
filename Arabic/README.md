@@ -1,6 +1,6 @@
 # Wellcome Collection's Manuscripts in Arabic
 
-Wellcome Collection are contributors to the [FIHRIST](https://www.fihrist.org.uk/) union catalogue from the Islamicate world. This folder contains local copies of the FIHRIST descriptions. More manuscript descriptions will be added to FIHRIST in due course.
+Wellcome Collection are contributors to the [FIHRIST](https://www.fihrist.org.uk/) union catalogue from the Islamicate world. This folder contains local copies of the FIHRIST descriptions. More manuscript descriptions will be added to FIHRIST in due course. 
 
 In the meantime, further information about Wellcome Collection's manuscripts in Arabic can be found in:
 
@@ -17,3 +17,5 @@ Note that some of the manuscripts have been renumbered several times, appearing 
 Exemplars of calligraphy written in Arabic are included in:
 
 * Serikoff, N. (ed.) (2007) [*Islamic calligraphy from the Wellcome Library*](http://search.wellcomelibrary.org/iii/encore/record/C__Rb1661158?lang=eng) (available in hard copy print only)
+
+This work builds on the [*Wellcome Arabic Manuscript Cataloguing Project (WAMCP)*](http://wamcp.bibalex.org/about-us), a collaboration between Wellcome Library, Bibliotheca Alexandrina and King's College London, funded by JISC and the Wellcome Trust.
