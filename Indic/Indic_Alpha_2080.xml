@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2080">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 2080</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-07-18">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_2080</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2080</idno>
+                        <altIdentifier type="former">
+                            <idno>B.19.q</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>A collection of mantras and stotras.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_2080_1">
+                            <title>Nyāsadhyānagāyatrīmūlamantra</title>
+                            
+                            <note>A <title>Nyāsadhyānagāyatrīmūlamantra</title> in honor of Gorakṣa; Mahādeva is an interlocutor.</note>
+                            
+                            <incipit> <locus>F. 1v</locus>
+                                <!-- Transcript -->
+                                śrīgaṇeśāya namaḥ
+                                devāś ca munayaḥ sarve
+                                papra(c)chur dharmavādinaḥ
+                                devadevaṃ mahādevaṃ
+                                gorakṣanāthakīrttanam ||1||
+                            </incipit>
+                            
+                            <explicit> <locus>Ff. 10-10v</locus>
+                                <!-- Transcript -->
+                                dhārayed yo naro nityaṃ
+                                maṃtrarā<pb n="f. 10v"/>aṃ viśeṣataḥ ||
+                                sa yogasiddhim āpnoti
+                                gorakṣasya prasādataḥ ||
+                                iti nyāsadhyānagāyatrīmūlamaṃtraḥ samāptaḥ ||
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem xml:id="Alpha_2080_2">
+                            <title>Gorakṣasahasranāmastotra</title>
+                            
+                            <note>The <title>Gorakṣasahasranāmastotra</title> in 109 verses from the <title>Kalpadrumatantra</title>
+                            in the form of a dialogue between Garga and Kṛṣṇa. For the <title>Kalpadrumatantra</title> see <abbr>NCC</abbr>,
+                            vol. 3, p. 234; for a <title>Gorakṣasahasranāmastotra</title> see <abbr>NCC</abbr>, vol. 6, p. 178.</note>
+                            
+                            <incipit> <locus>F. 10v</locus>
+                                <!-- Transcript -->
+                                ... atha sahasranāma likhyate ||
+                                gosevīgorakṣo goptā
+                                gāyatr gocaro nityaṃ
+                                govindapadasevakaḥ ||1||
+                            </incipit>
+                            
+                            <explicit> <locus>Ff. 23v</locus>
+                                <!-- Transcript -->
+                                ... ||108||
+                                āgamoktāni karmāṇi
+                                vaidikāni tathaiva ca ||
+                                vinā gorakṣamaṃtreṇa
+                                na siddhiṃ sādhayet tathā ||109||
+                            </explicit>
+                            
+                            <colophon> <locus>Ff. 23v-24</locus>
+                                <!-- Transcript -->
+                                iti śrīkalpadrumataṃtre mahāsiddhisāre gargaśrīkṛṣṇasaṃvāde niraṃjanātmakaṃ gorakṣasahasranāmastotraṃ saṃpūrṇaṃ ||
+                                śubham astu sadā śrīrādhākṛṣṇābhyāṃ namaḥ || śūbha śrīsaṃvat | 1947 māsottame māse śrāvaṇamāse <pb n="f. 24"/> śūklapakṣe
+                                tithau dvitīyāyāṃ 2 maṃdavāsaro(re) śloka 180 ||
+                            </colophon>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>Ff. 1-24. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="7">7 lines, ca. 30 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1890-07-19">Saturday 19 July 1890</origDate>
+                        </origin>
+                    </history>
+                    
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <title>New catalogus catalogorum: and alphabetical register of Sanskrit and allied works and authors.</title>
+                                <abbr>NCC</abbr>
+                                <editor>V. Raghavan, et al.</editor>
+                                <placeName>Madras</placeName>
+                                <publisher>University of Madras</publisher>
+                                <date>1949</date>
+                                <note>Vol. 3, p. 234; vol. 6, p. 178.</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-18" who="#AP">Created XML file and added summary.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>

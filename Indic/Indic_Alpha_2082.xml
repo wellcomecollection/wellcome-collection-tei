@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2082">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 2082</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-07-18">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Alpha_2082</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2082</idno>
+                        <altIdentifier type="former">
+                            <idno>B.19.r.II</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The <title>Śatruñjayanāmahanumatstotra</title> from the <title>Sudarśanasaṃhitā</title>; in 25 verses.
+                            Copied by <persName role="scr">Devīprasāda Śarman</persName> (cf. <idno>B.19.m</idno>)
+                            on <date>Monday 16 November 1896</date>.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Alpha_2082">
+                            <title>Śatruñjayanāmahanumatstotra</title>
+                            
+                            <filiation>Copied by <persName role="scr">Devīprasāda Śarman</persName>, who also copied <idno>B.19.m</idno>/<idno>Indic Alpha 2076</idno>.</filiation>
+                            
+                            <incipit> <locus>F. 1v</locus>
+                                <!-- Transcript -->
+                                śrīgaṇeśāya namaḥ ||
+                                śrīmaṇtaṃ hanumantam ātta ripubhṛdbhūbhṛttarubhrājitaṃ(m)
+                                vālād vāladhivaddhavairanicayaṃ cāmīkarādriprabha<gap/>
+                                roṣāraktapiśaṅganetranalinaṃ bhrūbhaṅgasaṅgasphurat
+                                prodyaccaṇḍamayūṣa(kha)maṃḍalamukham duḥkhāpah<gap/> duḥkhinām |
+                            </incipit>
+                            
+                            <explicit> <locus>F. 3</locus>
+                                <!-- Transcript -->
+                                ... 24
+                                ity evam aśvatthatalopaviṣṭaḥ
+                                śatruṃjayaṃ nāma paṭhet stavaṃ yaḥ
+                                sa śīghram evāstasamastaśatruḥ
+                                pramodate mārutajaprasādāt 25
+                            </explicit>
+                            
+                            <colophon> <locus>F. 3</locus>
+                                <!-- Transcript -->
+                                iti śrīsudarśanasaṃhitoktaśatruṃ jayanāmahan(ma<gap/>stotraṃ samāptaṃ ||
+                                saṃvat 1953 kārttī(tti)kaśukh=la <gap/> candravāsare likhitaṃ devīprasādaśarmaṇā
+                            </colophon>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>Pp. 1-26. <dimensions type="folia" unit="in">
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="6">6 lines, ca 45 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1896-11-16">Monday 16 November 1896</origDate>
+                        </origin>
+                    </history>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-07-18" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
