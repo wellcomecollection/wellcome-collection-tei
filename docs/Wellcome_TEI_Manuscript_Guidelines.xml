@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Wellcome Collection TEI Encoding Guidelines - DRAFT</title>
+        <respStmt xml:id="AP">
+          <resp when="2019-09-30">Updated file.</resp>  
+          <resp when="2019-05-24">Created file.</resp>
+          <persName>Adrian Plau</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+      </publicationStmt>
+      <notesStmt>
+        <note>General guidelines for TEI encoding at the Wellcome Collection written by Adrian Plau, with reference to the Bodleian ODD.</note>
+        <note>This is an early draft version, not necessarily representative of any element of the planned or finished guidelines.</note>
+        <note>The draft presents an idea of the structure and tone of the projected guidelines. First points for next draft version are further, more complete information, hyperlinks to the Bodleian guidelines, and sections on interlinking with Wellcome Collection reference practices.</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+      <!-- Local guidelines in incomplete draft format -->
+      
+      <divGen type="toc" xml:id="toc"/>
+      
+      <div xml:id="Introduction">
+        <head>Introduction</head>
+          <p>This file provides guidelines for TEI manuscript cataloguing at <ref target="https://wellcomecollection.org/">Wellcome Collection</ref>. Wellcome holds over 10 000 manuscripts from diverse historical and cultural contexts and across a range of languages and scribal practices. The flexible, extensible manuscript description interface provided by the <ref target="https://tei-c.org/">Text Encoding Interface (TEI)</ref> presents a possibility for manuscript cataloguing practice that is responsive and flexible in dealing with a range of manuscript materials, without sacrificing coherence and consistency.</p>
+          <p>The starting point for TEI P5 customisation at the Wellcome Collection is the schema and guidelines developed at Oxford and Cambridge, commonly referred to as the Bodleian guidelines. Wellcome aims to contribute to the further development of the Bodleian schema. By embracing cross-organisational work towards common guidelines we wish to facilitate joint cataloguing efforts and avoid duplication of effort. </p>
+          <p>Documentation for Bodleian guidelines is available in the following formats: 
+              <list>
+                  <item><ref target="https://github.com/bodleian/consolidated-tei-schema">Github</ref> repository.</item>
+                  <item><ref target="https://github.com/bodleian/consolidated-tei-schema/blob/master/msdesc.odd">ODD</ref> file.</item>
+                  <item><ref target="https://bodleian.github.io/consolidated-tei-schema/msdesc.html">HTML</ref> version of the ODD, with easily searchable text documentation.</item>
+              </list>
+              Examples of the Bodleian schema used for TEI description of manuscripts in Wellcome Collection can be found in the repositories:
+              <list>
+                  <item><ref target="https://github.com/wellcometrust/wellcome-collection-tei/tree/master/Arabic">Arabic</ref> manuscript items for the <ref target="https://www.fihrist.org.uk/"></ref> catalogue.</item>
+                  <item><ref target="https://github.com/wellcometrust/wellcome-collection-tei/tree/master/Indic">Indic</ref> manuscripts from the Wellcome Collection.</item>
+              </list>
+              Refer also to the Wellcome Collection's expanding <ref target="https://github.com/wellcometrust/wellcome-collection-tei">TEI repository on Github</ref>. 
+          </p>
+          <p>Wherever possible, Wellcome Collection follows the Bodleian guidelines when TEI encoding manuscripts. This file provides examples of overall file structures, particular usages, and guidelines to resolve doubts that inevitably arise in any encoding effort.
+              It does not assume familiarity with the Bodleian guidelines, but is rather intended as a quick starting point to start encoding. It provides snippets of Bodleian-conforming code, sometimes with added Wellcome-specific values, that can be copy-pasted into any TEI project describing Wellcome Collection manuscripts.</p> 
+          <p>Whenever these guidelines and/or the Bodleian guidelines themselves fail to provide fitting solutions to the particular problems of a manuscript we encourage encoders to note and report the issue. This will allow us to suggest changes to the Bodleian schema. In turn, the institutions invested in the Bodleian schema may advocate for additions or modifications to the TEI guidelines themselves.</p>
+          <p>This introduction first sets out a basic structure for a Bodleian-adhering TEI manuscript description. It then details the elements within that structure, providing examples and references to the Bodleian ODD. This building-block approach is intended to help encoders with varying degrees of TEI experience to start developing TEI manuscript descriptions and learn by doing.</p>
+        </div>
+
+        <div xml:id="acknowledgements">
+          <head>Acknowledgements</head>
+          <p>This draft is informed by conversations with Alexandra Eveleigh (Wellcome), Huw Jones (CUL), Yasmin Faghihi (CUL), and David Beavan (Turing).</p>
+          <p>The draft refers to the Bodleian guidelines <ref target="https://github.com/bodleian/consolidated-tei-schema/blob/master/msdesc.odd">ODD</ref>, developed by James Freeman (CUL), Suzanne Paul (CUL), Matthew Holford (Oxford), and Andrew Dunning, and inspired by the <ref target="https://github.com/fihristorg/fihrist-mss">Fihrist</ref> guidelines.</p>
+        </div>
+            
+          
+          <div xml:id="basicstructure">
+            <head>Basic structure</head>
+            <p>The basic structure of a Bodleian-adhering TEI encoding of a manuscript might look like the following:</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Manuscript">
+                <teiHeader xml:lang="eng">
+                  <fileDesc>
+                    <titleStmt>
+                      <respStmt xml:id="??">
+                      </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                      <publisher>
+                      </publisher>
+                      <address>
+                      </address>
+                      <distributor>
+                        <email>
+                        </email>
+                      </distributor>
+                    </publicationStmt>
+                    
+                    <sourceDesc>
+                      <msDesc>
+                        
+                        <msIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                          
+                          <summary></summary>
+                          <textLang></textLang>
+                          
+                          <msItem xml:id="Manuscript">
+                            <title></title>
+                            <author></author>
+                            
+                            <incipit> 
+                              <locus>
+                              </locus>
+                              <!-- transcript -->
+
+                            </incipit>
+                            
+                            <explicit> 
+                              <locus>
+                              </locus>
+                              <!-- transcript -->
+                            </explicit>
+                            
+                          </msItem>
+                          
+                          
+                        </msContents>
+                        
+                        <physDesc>
+                          <objectDesc>
+                            <supportDesc>
+                            </supportDesc>
+                            <layoutDesc>
+                            </layoutDesc> 
+                          </objectDesc>
+                        </physDesc> 
+                        
+                      </msDesc>
+                    </sourceDesc>
+                  </fileDesc>
+                  
+                  <revisionDesc>
+                    <change></change>
+                  </revisionDesc>
+                </teiHeader>
+                <facsimile>
+                  <!-- For future addition -->
+                </facsimile>
+                <text>
+                  <body>
+                    <!-- For future full transcript -->  
+                  </body>
+                </text>
+              </TEI>
+            </egXML>
+            <p>Within this general structure, the guidelines give a lot of space for the encoder to respond to the particular demands of the manuscript they are working with. While Wellcome Collection prefers some sections, detailed in the following, to be uniform across descriptions, others are more open to the encoder's response to the specific elements of the manuscript.
+            </p>
+            <p>The above structure does not display every possible subcategory. Most of these are instead described in the following. What should be noted here is that the structure can be roughly divided into the main building blocks of the TEI document: the <gi>teiHeader</gi>, <gi>facsimile</gi>, and <gi>text</gi>, all nested within the overall element <gi>TEI</gi>. As is clear from the above structure, most of the content that makes up the TEI manuscript description goes into <gi>teiHeader</gi>.</p>
+          </div>
+      
+      
+      <div xml:id="Namespace">
+        <head>Namespace declaration</head>
+        <p>The namespace declaration comes right at the beginning of the TEI document, as an attribute to the <gi>TEI</gi> element itself. However, before even the <gi>TEI</gi> element comes the processing instructions. The first of these is: <eg><gi>?xml version="1.0" encoding="UTF-8"?</gi></eg> In order to use the Bodleian schema to validate the TEI file, the next processing instruction is: <eg><gi>?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?</gi></eg> However, this processing instruction only activates the schema element of the Bodleian ODD. The Schematron element needs an additional instruction: <eg><gi>?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?</gi></eg></p>
+        <p>Not every TEI project at Wellcome Collection needs to adhere to both the schema and the Schematron. Schematron applies constrictions on the content of values within the description, and these are not workable for every project. For descriptions that are part of union catalogues, such as <ref target="https://github.com/fihristorg/fihrist-mss/tree/master/collections/wellcome%20trust">Fihrist</ref>, the Schematron constraints are essential. For others, such as our ever-expanding repository of <ref target="https://github.com/wellcometrust/wellcome-collection-tei/tree/master/Indic">Indic</ref> manuscripts, these constraints are not necessary.</p>
+        <p>If the Schematron processing instruction has been applied, the namespace declaration requires both a TEI attribute and a unique manuscript identifier, in the following format: <eg><gi>TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_XXXX"</gi></eg> Where only the schema processing instruction is applied, the manuscript identifier can use the reference code of the manuscript or similar, eg.: <eg><gi>TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="WM_MS_Sanskrit_Alpha_21"</gi></eg></p>
+      </div>
+      
+      <div xml:id="TEIheader">
+        <head>The TEI header</head>
+        <p>The TEI header is, for most manuscript cataloguing projects, the most substantial element of the TEI description. It is, however, separated into further subelements, some of which will remain the same across projects.</p>
+      
+        <div xml:id="filedesc">
+          <head>fileDesc</head>
+        
+          <p>The <gi>fileDesc</gi> element of Wellcome TEI manuscript descriptions will always contain the elements <gi>titleStmt</gi>, <gi>publicationStmt</gi>, and <gi>sourceDesc</gi>.</p>        
+        
+          <div xml:id="titleStmt">
+            <head>The Title Statement</head>
+            <p>In the element <gi>titleStmt</gi>, we record essential information about the file as a whole, eg. it's title,  the people responsible for it, and the date of its creation. This is the format:</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <titleStmt>
+                <title>File title</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                  <resp when="2019">What was done?</resp>
+                  <persName>Name Nameson</persName>
+                </respStmt>
+              </titleStmt>
+            </egXML>
+            <p>In the above example, the <gi>respStmt</gi> only expresses a single contribution. However, manuscript description at Wellcome Collection might typically involve working from legacy catalogues, uncirculated secondary documents, and even older TEI files. In these instances, use multiple <gi>respStmt</gi> elements to indicate the various dates, names, and types of responsibility.</p>
+          </div>
+          
+          
+        
+          <div xml:id="publicationStmt">
+            <head>The publication statement</head>
+            <p>The <gi>publicationStmt</gi> element should be given in the following format:</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                  <orgName type="institution">Wellcome Collection</orgName>
+                  <street>215 Euston Rd</street>
+                  <settlement>London</settlement>
+                  <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                  <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Manuscript Shelfmark</idno>
+                <idno type="catalogue">Catalogue Title</idno>
+              </publicationStmt>
+            </egXML>
+            <p>Note the Wellcome Collection MARC-code in the first <gi>idno</gi> element. The other <gi>idno</gi> elements refer to the manuscript itself, and can be added to or reduced as needed, using the @type attribute.</p>
+          </div>
+          
+          <div xml:id="sourceDesc">
+            <head>sourceDesc</head>
+            <p>The <gi>sourceDesc</gi> element is typically the most substantial part of the description, as it contains the core element <gi>msdesc</gi> - the manuscript description itself.</p>
+          
+            <div xml:id="msdesc">
+              <head>The Manuscript Description</head>
+              <p>The <gi>msdesc</gi> element consists of several subelements. Some will always appear; these are <gi>msIdentifier</gi>, <gi>msContents</gi>, and <gi>physDesc</gi>. Depending on the information available in or about the manuscript, other elements may include <gi>history</gi>, <gi>additional</gi>, and others.</p>
+          
+          
+          <div xml:id="msIdentifier">
+            <head>The manuscript identifier</head>
+            <p>The <gi>msIdentifier</gi> element should be given with the following values:</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <msIdentifier>
+                <country>United Kingdom</country>
+                <settlement>London</settlement>
+                <institution>Wellcome Collection</institution>
+                <repository>Wellcome Library</repository>
+                <idno type="shelfmark">Current reference ID.</idno>
+                <altIdentifier type="XX">
+                  <idno>Former or alternative reference ID (if any)</idno>
+                </altIdentifier>
+              </msIdentifier>
+            </egXML>
+            <p>Note that the <gi>altIdentifier</gi> element might not always be suitable. Manuscripts that have had a series of now abandoned shelfmarks or reference IDs will require several <gi>altIdentifer</gi> elements with the attribute @type and the value "former". If no other reference ID has ever been used, the <gi>altIdentifier</gi> element can be scrapped entirely.</p>
+          </div>
+          
+          <div xml:id="msContents">
+            <head>The description of contents</head>
+            <p>The structure of <gi>msContents</gi> will vary depending on the character of the manuscript. Some manuscripts contain a single work within a single material unit; some contain several different works that are purposefully created as part of a single unit; others contain multiple different works from different units collected into a new unit; yet others are fragmentary, complicating identification. These different relationships between the titles and units within the same manuscript are expressed using different element structures.</p>
+          
+         
+          <div xml:id="summary">
+            <head>The summary element</head>
+            <!-- Awaiting further info -->
+          </div>
+              
+          <div xml:id="oneworkoneunit">
+            <head>A single work in a single unit</head>
+            <!-- Awaiting further info -->
+          </div>
+          
+          <div xml:id="severalworksoneunit">
+            <head>Several works in a single unit</head>
+            <!-- Awaiting further info -->
+          </div>
+          
+          <div xml:id="severalworksseveralunits">
+            <head>Several works in several units</head>
+            <!-- Awaiting further info -->
+          </div>
+            
+          <div xml:id="fragments">
+            <head>Fragments</head>
+            <!-- Awaiting further info -->
+          </div>  
+          
+          </div>
+              
+          <div xml:id="physDesc">
+            <head>The physical description</head>
+            <!-- Awaiting further info -->
+          </div>    
+            
+          <div xml:id="history">
+            <head>History and provenance</head>
+            <!-- Awaiting further info -->
+          </div>
+              
+          <div xml:id="additional">
+            <head>Additional matters, including bibliography</head>
+            <!-- Awaiting further info -->
+          </div>
+            
+            </div>
+            
+            <!-- Awaiting further info -->
+          
+        </div>
+          
+          <div xml:id="revisionDesc">
+            <head>revisionDesc</head>
+            <!-- Awaiting further info -->
+            <p></p>
+          </div>
+          
+      </div>
+
+       <div xml:id="facsimile">
+         <head>facsimile</head>
+         <!-- Awaiting further info -->
+         <p></p>
+       </div> 
+      
+      <div xml:id="text">
+        <head>text</head>
+        <!-- Awaiting further info -->
+        <p></p>
+        
+        <div xml:id="body">
+          <head>body</head>
+          <!-- Awaiting further info -->
+          <p></p>
+        </div>
+        
+      </div>
+      </div>
+      
+    </body> 
+  </text>
+</TEI>
