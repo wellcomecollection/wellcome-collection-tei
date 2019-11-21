@@ -37,9 +37,9 @@ def log(message):
 
 def files_are_equivalent(src, dst):
     if not os.path.exists(dst):
-        return True
+        return False
 
-    if filecmp.cmp(src, dst):
+    if filecmp.cmp(src, dst, shallow=False):
         return True
 
     with open(src, "rb") as src_f:
@@ -52,6 +52,12 @@ def files_are_equivalent(src, dst):
 
 
 def copy(src, dst):
+    # If the xml file is not already in the Wellcome repository,
+    # just copy it straight across.
+    if not os.path.exists(dst):
+        shutil.copyfile(src, dst)
+        return
+    
     # Copy in a way that preserves line endings in the dst.
     with open(dst, "rb") as dst_f:
         windows_line_endings = b"\r\n" in dst_f.read()
@@ -141,3 +147,6 @@ if __name__ == "__main__":
         log("Creating GitHub PR at %s" % github_url)
 
         webbrowser.open(github_url)
+
+    else:
+        log ('no changes, nothing to do')
