@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Beta_2198">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Beta 2198</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2019-09-11">XML encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David E. Pingree kindly provided under a CC BY 4.0 license by the American Philosophical Society (APS), which holds the rights to Pingree’s unpublished materials. 
+                        The TEI file itself is made available under a CC BY 4.0 license by the Wellcome Collection, allowing researchers and audiences to continue to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">Beta_2198</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2198</idno>
+                        <altIdentifier type="former">
+                            <idno>B.19.x</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>The <title>Rudrapaddhati</title> of <persName role="aut">Nārāyaṇa</persName>, the son of Rāmeśvara Bhaṭṭa. 
+                            <persName role="aut">Nārāyaṇa</persName> flourished in <placeName>Benares</placeName> in the middle of the sixteenth century;
+                            he was born in Pratiṣṭhāna in 1513. Copied in <date>1759</date>.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Beta_2198">
+                            <title>Rudrapaddhati</title>
+                            <author>Nārāyaṇa</author>
+                            
+                            <incipit> <locus>F. 1v</locus>
+                                <!-- Transcript -->
+                                śrīgaṇeśāya namaḥ || 
+                                bhaṭṭarāmeśvarasuto
+                                bhaṭṭanārāyaṇaḥ kṛtī
+                                praṇamya rāmaṃ tanute
+                                rudrānuṣṭhānapaddhatiṃ
+                                
+                            </incipit>
+                            
+                            <explicit> <locus>F. 47v</locus>
+                                <!-- Transcript -->
+                                ... || ||
+                                iti rāmeśvarabhaṭṭāt-
+                                majanārāyaṇena sūriṇā
+                                kāśyāṃ karma(ṇa)sajjana-
+                                tuṣṭyai rudrānuṣṭhānapaddhatī(tiḥ)
+                                racitā graṃthān anekā(n
+                                ā)locya vicāryaṃ (?) sadasaccayaḥ ||
+                                kṛtaḥ śramastema(?) vibhuḥ
+                                śaṃkaraḥ prīyatāṃ namaḥ || ||
+                                iti rāmeśvarabhaṭṭasūnunārāyaṇakṛtā rudrapaddhati<unclear/> samāptā ||
+                                śubhaṃ bhavatu || saṃvat 1816 ||
+                              
+                            </explicit>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>Pp. 1-47. <dimensions type="folia" unit="in">
+                                    <height atMost="9">Up to 9 inches</height>
+                                    <width atMost="13.5">Up to 13.5 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="10">10 lines, ca 60 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1834-08-16">16 August 1834.</origDate>
+                            <origPlace>
+                                <country>India</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+                    
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2019-09-11" who="#AP">Created XML file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
