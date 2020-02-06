@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Malay_1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="LXT">
+                    <resp when="2019">Cataloguer</resp>
+                    <persName>Li-Xuan Teo</persName>
+                </respStmt>
+                <respStmt xml:id="RV">
+                    <resp when="1982">Cataloguer</resp>
+                    <persName>M. C. Ricklefs and P. Voorhoove</persName>
+                </respStmt>
+                <respStmt xml:id="EHM">
+                    <resp when="1981">Cataloguer</resp>
+                    <persName>R.F. Ellen, M.B. Hooker and A.C. Milner</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020">TEI Encoder</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Wellcome Malay 1</idno>
+                <idno type="catalogue">The Hervey Malay Collection in the Wellcome Institute</idno>
+                <idno type="catalogue">Catalogue of Malay manuscripts in the Wellcome Institute for the History of Medicine</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">Wellcome Malay 1</idno>
+                        <altIdentifier>
+                            <idno>.b14849938</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                                                
+                        <summary>Contains notes on Malay divination and a description of the Minangkabau legal system. There are two manuscripts: one in Arabic script; the second is a romanization of the first.</summary>
+                        
+                        <textLang mainLang="ms">Malay</textLang>
+                                              
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        
+                            <objectDesc form="other">
+                            
+                            <supportDesc material="paper">
+                                
+                                <support>Two manuscripts collected in one volume.</support>
+
+                            </supportDesc>
+                            
+                            
+                            </objectDesc>
+                        
+                            <handDesc>
+                                <handNote scope="major"><persName>Tuan Guru Haji Abdul Kahar</persName>, <locus target="#Wellcome_Malay_1_Part_1_Item_2">pp. 13-28</locus>.</handNote>
+                            </handDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <provenance>
+                            <p>Owned by D.F.A. Hervey.</p>
+                            <p>The folder containing the texts has written on it the date <date>4 December 1890</date>.</p>
+                        </provenance>
+                        <acquisition>
+                            <p>Sold at Hodgsons, <date>on 23 November 1934</date>, along with other Malay manuscripts in Wellcome Collection, for 12 guineas.</p>
+                        </acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <p>This file is based on the information in the following catalogues, as well as Li-Xiao Teo's unpublished cataloguing. Wellcome Collection also holds a print copy of Hervey’s volume on Malay games.</p>
+                                    <bibl>
+                                        <title>"The Hervey Malay Collection in the Wellcome Institute" in Journal of the Malayasian Branch of the Royal Asiatic Society 54 (1); 82-92.</title>
+                                        <author>Ellen RF, Hooker MB and AC Milner</author>
+                                        <date>1981</date>
+                                    </bibl>
+                                    <bibl>
+                                        <title>"Catalogue of Malay manuscripts in the Wellcome Institute for the History of Medicine" from "Indonesian manuscripts in Great Britain : Addenda et Corrigenda," in Bulletin of the School of Oriental and African Studies 45 (2): 312-15</title>
+                                        <author>Ricklefs MC and Voorhoeve P</author>
+                                        <date>1982</date>
+                                    </bibl>
+                                    <bibl>
+                                        <title>"A Digest of Customary Law from Sungai Ujong" in Journal of the Malayan Branch of the Royal Asiatic Sociey, Vol. 27, No. 3 (167): 5-37, 39-71.</title>
+                                        <author>Windstedt, Richard and de Josselin de Jong, P.E.</author>
+                                        <date>July 1954</date>
+                                        <note>Contains text and translation of <ref>Maxwell 118a in the Royal Asiatic Society</ref>, which is a paraphrase manuscript of Wellcome Malay 1.</note>
+                                        <ref target="https://www.jstor.org/stable/41503029">JSTOR entry.</ref>
+                                    </bibl>
+                                    <bibl>
+                                        <title>Malay Games</title>
+                                        <author>D.F.A. Hervey</author>
+                                        <date>1903</date>
+                                        <publisher>Anthropological Institute of Great Britain and Ireland</publisher>
+                                        <note>Reprinted from the Journal of the Royal Anthropological Institute, Vol. 33, July - December, 1903.</note>
+                                        <ref target="https://wellcomelibrary.org/item/b30208993">Digitised version.</ref>
+                                    </bibl>
+                                    <bibl type="digital-facsimile">
+                                        <ref target="https://wellcomelibrary.org/item/b14849938">Digital manuscript facsimile.</ref>
+                                    </bibl>
+                                </source>
+                                </recordHist>
+                               <availability status="free">
+                                <p>Digitised in full.</p>
+                               </availability> 
+                        </adminInfo>
+
+                    </additional>
+                    
+                    
+                    <msPart n="1" xml:id="Wellcome_Malay_1_Part_1">
+                        <msIdentifier>
+                                <altIdentifier>
+                                    <idno>Wellcome Malay 1, 1</idno>
+                                </altIdentifier>
+                         </msIdentifier>
+                        
+                        <msContents>
+                            
+                            <summary>The Arabic script manuscript.</summary>
+ 
+                            
+                            <msItem xml:id="Wellcome_Malay_1_Part_1_Item_1">
+                                
+                             <note><locus>PP. 1-12</locus>: Notes on divination</note>
+                                
+                            </msItem>
+                            
+                            <msItem xml:id="Wellcome_Malay_1_Part_1_Item_2">
+                                                              
+                                <note><locus>PP. 13-28</locus>: Laws</note>
+                                
+                                <note><p>The text of laws is a description of the (matrilineal) Minangkabau systemm originally from <settlement>Sumatra</settlement>. 
+                                    The text is a short paraphrase of the main institutions of Minangkabau legal thought.</p>
+                                    <p>The language is Malay rather than Minangkabau, though dialect words from the latter do occur.</p> 
+                                </note>
+                            
+                                <filiation>The text is a paraphrase of <ref>Maxwell 118a in the Royal Asiatic Society</ref> See <ref>R. O. Windstedt and P.E. de Josselin de Jong. 'A Digest of Customary Law from Sungei Ujong, JMBRAS. 3(1954), 1-71)</ref>.</filiation>
+                                
+                                <incipit><locus>P. 13</locus>
+                                    <note>The text begins with an invocation to Allah, the writer's name (<persName>Tuan Guru Haji Abdul Kahar</persName>) and a brief explanation of the matrilineal adat system.</note>
+                                </incipit>
+                                                           
+                            </msItem>
+                            
+                            <msItem xml:id="Wellcome_Malay_1_Part_1_Item_3">
+                                
+                                <note><locus>PP. 28-29</locus>: Divination tables</note>           
+                                
+                            </msItem>
+                            
+                        </msContents>
+                        
+                        <physDesc>
+  
+                            <objectDesc>
+                                
+                                <supportDesc material="paper">
+                                    
+                                    <extent>29 p.
+                                          <dimensions unit="cm" type="leaf">
+                                            <height>34</height>
+                                            <width>21</width>
+                                        </dimensions>
+                                    </extent>
+                                    
+                                </supportDesc>
+                                
+                                                                
+                            </objectDesc>
+
+                            <handDesc>
+                                <handNote script="Arabic">Arabic script.</handNote>
+                            </handDesc>
+
+                        </physDesc>
+                                               
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="Wellcome_Malay_1_Part_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>Wellcome Malay 1, 2</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            
+                            <summary>The romanization of the first manuscript.</summary>
+                            
+                            <textLang mainLang="ms">Malay</textLang>
+                            
+                            <msItem xml:id="Wellcome_Malay_1_Part_2_Item_1">
+
+                                <note><locus>PP. 1-21</locus>: Notes on divination.</note>      
+                                
+                            </msItem>
+                            
+                            <msItem xml:id="Wellcome_Malay_1_Part_2_Item_2">
+                                
+                                <note><locus>PP. 22-41</locus>: Laws.</note>      
+                                
+                            </msItem>
+                            
+                            <msItem xml:id="Wellcome_Malay_1_Part_2_Item_3">
+                                
+                                <note><locus>PP. 41-42</locus>: Divination tables.</note>      
+                                
+                            </msItem>
+                            
+                        </msContents>
+                        
+                        <physDesc>
+                            
+                            <objectDesc>
+                                
+                                <supportDesc material="paper">
+                                    
+                                    <extent> 42 pp.
+                                        <dimensions unit="cm" type="leaf">
+                                            <height>34</height>
+                                            <width>21</width>
+                                        </dimensions>
+                                    </extent>
+                                    
+                                </supportDesc>
+                                
+                            </objectDesc>
+                            
+                            <handDesc>
+                                <handNote script="Roman">Roman script.</handNote>
+                            </handDesc>
+
+                        </physDesc>
+                        
+                    </msPart>
+
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>        
+        
+        <revisionDesc>
+            <change when="2020-02-06" who="#AP">Added links to digitised version and Hervey’s volume on Malay games.</change>
+            <change when-custom="2020" who="#AP">Created file, collated information from three cataloguing sources, added comments.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    <facsimile>
+        
+    </facsimile>    
+    <text>
+        <body></body>
+    </text>    
+</TEI>
