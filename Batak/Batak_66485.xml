@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Batak_66485">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Batak 66485</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="RS">
+                    <resp when="1977">Cataloguer</resp>
+                    <persName>Ricklefs and Voorhoeve</persName>
+                </respStmt>
+                <respStmt xml:id="BLE">
+                    <resp when="2020-03-09">TEI Encoder</resp>
+                    <persName>Branwen Lloyd-Evans</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Batak 66485</idno>
+                <idno type="catalogue">Ricklefs and Voorhoeve</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Batak 66485</idno>
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>Pustaha. Incomplete. Pormanuhon aji nangka piring, containing panjahai (a list of omens) with drawings of the chicken in black and red. Pangarambui with the points of the compass </summary>
+
+                        <textLang mainLang="btk">Batak</textLang>
+
+                        <msItem xml:id="Wellcome_Batak_64485_1">
+
+                            <title>Pustaha. Pormanuhon aji nangka piring</title>
+
+                            <textLang mainLang="btk">Batak</textLang>
+                            <note>contains panjahai (a list of omens) with drawings of the chicken in black and red</note>
+                            <note>incomplete</note>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="book">
+
+                            <supportDesc>
+                                <support>Two covers which do not fit.
+                                </support>
+                                <extent>38 leaves
+                                </extent>
+                            </supportDesc>
+                           
+                        </objectDesc>
+                                                                       
+                    </physDesc>
+                
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-03-09" who="#BLE">
+                Created XML file</change>
+        </revisionDesc>
+
+    </teiHeader>
+    
+    <facsimile>
+        <surface></surface>
+        <!-- For future addition -->
+    </facsimile>
+   
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+    </text>
+
+</TEI>
