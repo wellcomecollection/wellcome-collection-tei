@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Batak_91548">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>MS BATAK 91548</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="RV">
+                    <resp when="1982">catalogue</resp>
+                    <persName>>Ricklefs and Voorhoeve</persName>
+                </respStmt>
+                <respStmt xml:id="OCV">
+                    <resp when="2020-04-16">TEI Encoder</resp>
+                    <persName>Odalys Caballero </persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-04-20">TEI Encoder</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS BATAK 91548</idno>
+                <idno type="catalogue">Ricklefs and Voorhoeve</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS BATAK 91548</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b30697256</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Former">
+                            <idno>20913</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>A bamboo tube open on one end. The knot on the other end has a hole in which
+                            a piece of string is fastened. Toba-Batak. Porhalaan, divination-calendar, and
+                            the text of an incantation over a medicine, tabas ni taoar, against poison.</summary>
+                        
+                        <textLang mainLang="btk">Toba-Batak</textLang> 
+                        
+                        <msItem xml:id="Wellcome_Batak_91548_1">
+                            
+                            <title>Porhalaan, divination-calendar, and
+                                the text of an incantation over a medicine, tabas ni taoar, against poison</title>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+
+                        <objectDesc form="tube">
+                            
+                            <supportDesc material="bamboo">
+                                
+                                <support>A bamboo tube open on one end.The knot on the other end has a hole in which
+                                    a piece of string is fastened</support>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <dim type="diameter">3.5cm</dim>
+                                        <dim type="lengh">21.8cm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                            </supportDesc>
+                            
+                            
+                        </objectDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Indonesia</country>,
+                                <region>North Sumatra</region>,
+                            </origPlace>
+                        </origin>
+                        <acquisition>Purchased from Stevens auctioneers, 24 August 1930.</acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <listBibl>
+                                        <bibl> 
+                                            <title>Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine from 'Indonesian manuscripts
+                                                in Great Britain: Addenda et Corrigenda'', in Bulletin of the School of Oriental and African Studies, 45(2) </title>                              
+                                            <author>M.C. Ricklefs and P. Voorhoove</author>
+                                            <date>1982</date>
+                                        </bibl>
+                                    </listBibl>
+                                </source>
+                            </recordHist>
+                            
+                            <availability><p> <!-- Insert if relevant --></p></availability> 
+                        </adminInfo>
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2020-04-20">Made minor edits, deleted comments.</change>
+            <change when="2020" who="OCV">The file is created</change>
+            
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
+
