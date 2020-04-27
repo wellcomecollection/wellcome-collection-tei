@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<!-- Template for Introduction to TEI session, 4.11.19 -->
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Batak_36863">
 
     <teiHeader>
@@ -14,7 +12,7 @@
             <title type="collection">Wellcome Collection</title>
             <respStmt xml:id="RV">              
                 <resp when="1982">Cataloguer</resp>
-                <persName>M. C. Ricklefs and P. Voorhoove</persName>
+                <persName>M. C. Ricklefs and P. Voorhoeve</persName>
             </respStmt>
             <respStmt xml:id="VS">                
                 <resp when="2020">TEI Encoder</resp>
@@ -49,7 +47,7 @@
                     <institution>Wellcome Collection</institution>
                     <repository>Wellcome Library</repository>
                     <idno type="shelfmark">WMS Batak 36863</idno>
-                    <altIdentifier>     
+                    <altIdentifier type="Sierra">     
                         <idno>.b30654695</idno>
                     </altIdentifier>
                 </msIdentifier>
@@ -142,13 +140,13 @@
     </teiHeader>    
 
     <facsimile>
-    
-
+        <surface></surface>
     </facsimile>    
 
     <text>
     <body>
         <!-- For future full transcription -->
+        <p></p>
     </body>
 
     </text>    
