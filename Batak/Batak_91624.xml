@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Batak_91624">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Batak 91624</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="RS">
+                    <resp when="1977">Cataloguer</resp>
+                    <persName>Ricklefs and Voorhoeve</persName>
+                </respStmt>
+                <respStmt xml:id="BLE">
+                    <resp when="2020-04-24">TEI Encoder</resp>
+                    <persName>Branwen Lloyd-Evans</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Batak 91624</idno>
+                <idno type="catalogue">Ricklefs and Voorhoeve</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Batak 91624</idno>
+                        <altIdentifier>
+                            <idno>.b30697268</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>Pustaha. On divination with a cock under a basket (pormanuhon,
+                            called poda ni manuk marobo). 
+                        </summary>
+
+                        <textLang mainLang="bbc">Toba-Batak</textLang>
+
+                        <msItem xml:id="Wellcome_Batak_91624_1">
+
+                            <title>Pustaha. On divination with a cock under a basket. </title>
+
+                            <textLang mainLang="bbc">Toba-Batak</textLang>
+                            <note>with black drawings of the positions of the cock.</note>
+                            
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="book">
+
+                            <supportDesc>
+                                <support>Two wooden covers and one rattan band.
+                                </support>
+                                <extent>25 leaves
+                                    <dimensions unit="cm">
+                                        <height>18 cm</height>
+                                        <width>13.5 cm</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                           
+                        </objectDesc>
+                                                                       
+                    </physDesc>
+                <history>
+                    <origin>Chain of transmission: <persName>Datu Tala di Babana</persName>of the clan <orgName>Nadiborhu</orgName>
+                        — <persName>Guru Pinajingjing</persName>of the clan <orgName>Pardede Onan</orgName>, 
+                        descendant of <persName>Si Bursok Datu</persName> — <persName>Guru Sinanti</persName>, 
+                        who wrote the manuscript for two pupils. He belonged to the clan <orgName>Simanjuntak Simanombuk</orgName>, 
+                        the branch descended from <persName>Tuan Guntar</persName>. 
+                        One of his ancestors was called <persName>Datu Mangambit Tua</persName>. His pupils, both of the same clan as he, 
+                        were his son <persName>Aman Sebang Guru Baja Huring</persName> or <persName>Ompu Baja Ni Aji</persName>, 
+                        and his nephew <persName>Ompu Baliung Aman Sabungan Bosi</persName>, son of <persName>Ompu Surungan</persName>, 
+                        grandson of <persName>Ompu Raja Simbolon</persName></origin>
+                  <acquisition>Purchased from Glendining auctioneers, <date>2 October 1933</date></acquisition>
+                </history>
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-04-24" who="#BLE">
+                Created XML file</change>
+        </revisionDesc>
+
+    </teiHeader>
+    
+    <facsimile>
+        <surface></surface>
+        <!-- For future addition -->
+    </facsimile>
+   
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+    </text>
+
+</TEI>
