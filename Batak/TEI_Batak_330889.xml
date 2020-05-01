@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template for Introduction to TEI session, 4.11.19 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Batak_330889">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>TEI_Batak_330889</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RV">
+                <resp when="1982">Cataloguer</resp>
+                <persName>M. C. Ricklefs and P. Voorhoeve</persName>
+            </respStmt>
+            <respStmt xml:id="VS">                
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">WMS Batak 330889</idno>
+            <idno type="catalogue">Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine</idno>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Batak 330889</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>.b306972x</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Pustaha. Dairi-Batak. Rambu siporhas, on divination with strings. Without illustrations of the strings. On the second side only 5 pages are written, 
+                        the remainder being blank. The paragraph headings have decorations with some red paint.</summary>
+                   
+                    <textLang mainLang="btd">Batak Dairi</textLang>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="other">
+                       
+                        <supportDesc material="other">
+                                                    
+                            <support>A pustaha with wooden covers decorated with carvings, one of them old, the other made later in the same style. One rattan band. </support>
+                            <extent>33 leaves.
+                                <dimensions unit="cm" type="paperSheet">
+                                    <height>18.6</height>
+                                    <width>12</width>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                    </objectDesc>
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Indonesia</country>,
+                        </origPlace>
+                        <origDate calendar=""><!-- insert --></origDate>
+                    </origin>
+                    <provenance><p>The chain of transmission is as follows: <persName>Banuwa Siyam</persName>, <persName>Banuwa Luhum</persName>, 
+                        <persName>Guru Man Juwara Sabungan</persName> who came from <region>Hurlang</region>, <persName>Kuta Lobuh</persName>, 
+                        <persName>Na Pitu Hali Datu</persName>, (the seven times initiated Master) <persName>Singa Mortandang</persName>, 
+                        <persName>Man Tangga Bosi Limbong</persName>, <persName>Manawar Buwang Manalu Kamborahon</persName>, 
+                        <persName>Bapa Guiya Bunureya Nambing</persName>, <persName>Man Panduya Buwang Manalu Lobuh</persName>, his son-in-law 
+                        <persName>Bapa Goga Manik Aror Nakan</persName>, his uncle from the clan Sibarutu Katedah, and his nephew 
+                        <persName>Padang Kamborahon</persName> in <region>Gonting Simogar</region>.</p></provenance>
+                    <acquisition></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>"Catalogue of Batak manuscripts in the Wellome Institute for the History of Medicine" from "Indonesian manuscripts in 
+                                    Great Britain: Addenda et Corrigenda", in Bulletin of the School of Oriental and African Studies, 45(2), pp303-305</title>
+                                    <author>M.C. Ricklefs and P. Voorhoeve</author>
+                                    <date>1982</date>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="free"><p></p></availability> 
+                    </adminInfo>
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020" who="#VS">Created XML file.</change>
+    
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>    
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <!-- For future full transcription -->
+        <p></p>
+    </body>
+
+    </text>    
+
+</TEI>
