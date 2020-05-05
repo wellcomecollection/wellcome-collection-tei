@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Well.Jav.1">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Well.Jav.1</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RV">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Ricklefs and Voorhoeve</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+                <resp when="2020-04-29">TEI Encoder</resp>
+                <persName>Odalys Caballero </persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Well.Jav.1</idno>
+            <idno type="catalogue">Ricklefs and Voorhoeve</idno>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Javanese 1</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b30464110</idno>
+                        </altIdentifier >  
+                       
+                     </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Yusup romance.</summary>
+                    
+                    <msItem xml:id="Well.Jav.1_1">
+                        
+                   <title>Yusup romance</title>
+                        
+                         <note>Dated at the end A.J. 1759 [A.D. 1831J</note>
+                    </msItem>  
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc  form= "book">
+                       
+                        <supportDesc material="palm-leaves">
+                                                    
+                            <support></support>
+                            <extent>150 palm-Ieaves
+                                <dimensions unit ="cm">
+                                    <width>43.5cm</width>
+                                    <height>4cm</height>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                                                                                 
+                        
+                    </objectDesc>
+                    
+                
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Indonesia</country>
+                            <region>Java</region>
+                        </origPlace>
+                        <origDate calendar="Gregorian ">1831</origDate>
+                    </origin>
+                    <provenance notBefore="" notAfter="">unknown</provenance>
+                   
+                    <acquisition><!-- insert --></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <tittle>Catalogue of Javanese manuscripts in the Wellcome Institute for the
+                                        History of Medicine from 'Indonesian manuscripts in Great Britain:
+                                        Addenda et Corrigenda', Bulletin of  the School of Oriental and African Studies</tittle>
+                                    <author>M. C. Ricklefs and P. Voorhoeve</author>
+                                    <date>1982</date>
+                                    <pp>pp.308, 309.</pp>
+                                    <note>v. 45 </note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p></availability> 
+                    </adminInfo>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+            <change when="2020-05-05" who="AP">Deleted comments and unused elements.</change>
+            <change when="2020-04-30" who="OCV">Created XML file</change>
+    
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+    
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

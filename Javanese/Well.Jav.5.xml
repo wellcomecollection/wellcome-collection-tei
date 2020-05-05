@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Well.Jav.5">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Well. Jav. 5</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RV">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Ricklefs and Voorhoeve</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+                <resp when="2020-05-01">TEI Encoder</resp>
+                <persName>Odalys Caballero</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Well.Jav.5</idno>
+            <idno type="catalogue">Ricklefs and Voorhoeve</idno>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Javanese 5</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b30464183</idno>
+                    </altIdentifier>
+                    <altIdentifier type="Former">
+                        <idno>79000</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Yusup romance.</summary>
+                    
+                    <msItem n="" xml:id="Well.Jav.5_1">
+                        
+                       <title key="">Yusup romance></title>                      
+                                                             
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="book">
+                       
+                        <supportDesc material="palm-leaves">
+                                                    
+                            <support>Incomplete at end. One of the covers carved.</support>
+                            <extent>98 palm leaves, (plus 34 blank leaves)
+                                <dimensions unit="cm" >
+                                    <height>40 cm</height>
+                                    <width>3.2 cm</width>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                                                         
+                        
+                    </objectDesc>
+                    <handDesc>
+                        <!-- Add or delete <handNote> elements as needed -->
+                        <handNote scope="minor">plus 34 blank leaves on which a few jottings in pencil are  found</handNote>
+                    </handDesc>
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Indonesia></country>
+                            <region>Java</region>
+                        </origPlace>
+                    </origin> 
+                    
+                         <acquisition>Bought at Glendining, London, July 1934</acquisition>
+                                               
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <!-- insert text, if relevant -->
+                                <bibl>
+                                    <bibl>
+                                        <title>Catalogue of Javanese manuscripts in the Wellcome Institute for the
+                                            History of Medicine from 'Indonesian manuscripts in Great Britain:
+                                            Addenda et Corrigenda', Bulletin of  the School of Oriental and African Studies
+                                        </title>
+                                        <author>M. C. Ricklefs and P. Voorhoeve</author>
+                                        <date>1982</date>
+                                        <note>pp.308, 309.</note>
+                                        <note>v. 45 </note>
+                                    </bibl> </bibl>     
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p></availability> 
+                    </adminInfo>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+            <change when="2020-05-05" who="AP">Deleted comments and unused elements.</change>
+            <change when="2020-05-01" who="#OCV">Created XML file</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+    
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
