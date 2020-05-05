@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Batak_36960">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Batak 36960</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="RS">
+                    <resp when="1977">Cataloguer</resp>
+                    <persName>Ricklefs and Voorhoeve</persName>
+                </respStmt>
+                <respStmt xml:id="BLE">
+                    <resp when="2020-05-01">TEI Encoder</resp>
+                    <persName>Branwen Lloyd-Evans</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-05-05">TEI Encoder</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Batak 36960</idno>
+                <idno type="catalogue">Ricklefs and Voorhoeve</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Batak 36960</idno>
+                        <altIdentifier>
+                            <idno>.b30697232</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>11 bamboo strips with inscriptions in Karo-Batak orthography, threaded on a string. 
+                            Used for divination from the numerical value of syllables.
+                            One strip has the syllabary with an indication of the numerical value of each syllable, the other ten have texts such as: 
+                            if the value is one, two, etc. an offering of . . . should be brought in order to assure luck.
+                        </summary>
+
+                        <textLang mainLang="btx">Karo-Batak</textLang>
+
+                        <msItem xml:id="Wellcome_Batak_36960_1">
+
+                            <title>11 bamboo strips with inscriptions</title>
+
+                            <textLang mainLang="btx">Karo-Batak</textLang>
+                            <note>Bamboo strips threaded on a string</note>
+                            
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="other">
+
+                            <supportDesc material="bamboo">
+                                <support>threaded on a string
+                                </support>
+                                <extent>11 bamboo strips with identical dimensions.
+                                    <dimensions unit="cm">
+                                        <height>1.5 cm</height>
+                                        <width>32 cm</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                           
+                        </objectDesc>
+                                                                       
+                    </physDesc>
+                <history>
+                    <acquisition>Purchased from Stevens auctioneers, <date>14 December 1915</date>Lot 374</acquisition>
+                </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine from 'Indonesian manuscripts
+                                            in Great Britain: Addenda et Corrigenda'', in Bulletin of the School of Oriental and African Studies, 45(2)</title>
+                                        <author>M.C. Ricklefs and P. Voorhoove</author>
+                                        <date>1982</date>
+                                        <note>pp. 303-305</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                    
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-05-01" who="#BLE">
+                Created XML file</change>
+        </revisionDesc>
+
+    </teiHeader>
+    
+    <facsimile>
+        <surface></surface>
+        <!-- For future addition -->
+    </facsimile>
+   
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+    </text>
+
+</TEI>
