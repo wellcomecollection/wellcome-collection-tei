@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Javanese_9">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Well_Jav_9_TEI</title> 
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RV"> 
+                <resp when="1982">Cataloguer</resp>
+                <persName>M. C. Ricklefs and P. Voorhoeve</persName> 
+            </respStmt>
+            <respStmt xml:id="MM">
+                <resp when="2020-04-30">TEI Encoder</resp>
+                <persName>Miten Mistry</persName>
+            </respStmt>
+               </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Well. Jav. 9</idno>
+            <idno type="catalogue">Catalogue of Javanese manuscripts in the Wellcome Institute for the History of Medicine from 'Indonesian manuscripts in 
+                Great Britain: Addenda et Corrigenda'</idno>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Javanese 9</idno>
+                      <altIdentifier type="Sierra_b_number">
+                          <idno>b30464274</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Babad, beginning with <settlement>Medang Kamulan</settlement> and ending with court genealogies which seem to be from the early eighteenth century. Including stories concerning the Islamization 
+                        of Java, etc.</summary>                   
+                    <textLang mainLang="jv" source="IANA">Javanese</textLang>  
+                    
+                    <msItem xml:id="Wellcome_Javanese_9_1">                    
+                                                                     
+                        <filiation>A brief examination suggests that the <quote>genealogies</quote> differ from the versions usually found in Babad Tanah Jawi MSS.</filiation>
+                        <note>At the end rather misleadingly called sajarahe Nabi Adam</note> 
+                                               <note>Verse.</note>
+                    </msItem>      
+                </msContents>
+                <physDesc>                     
+                    <objectDesc form="palm-leaf">                       
+                        <supportDesc> 
+                            <support>palm-leaves</support>
+                            <extent>62 palm leaves
+                                <dimensions unit="cm" type="palm-leaf">
+                                    <height>37</height>
+                                    <width>3.3</width>                                    
+                                </dimensions>
+                            </extent>
+                            <condition>Some leaves damaged, first leaf missing</condition>   
+                        </supportDesc>     
+                    </objectDesc>
+                     </physDesc>
+                <history>                   
+                       <acquisition>Bought at Stevens, <country>London</country>, <date>August, 1924</date>; accession number 91591.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>                                
+                                <bibl>Catalogue of Javanese manuscripts in the Wellcome Institute for the History of Medicine from 'Indonesian manuscripts in 
+                                    Great Britain: Addenda et Corrigenda' Bulletin of the School of Oriental and African Studies, vol. 45, no. 2 (1982), pp. 308-309</bibl>                                
+                            </source>
+                        </recordHist>
+                       </adminInfo>     
+                </additional>
+            </msDesc>
+        </sourceDesc> 
+     
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-04-30" who="#MM">Created XML file</change>    
+        </revisionDesc>
+    </teiHeader>    
+    <facsimile>
+    <surface></surface>
+    </facsimile>    
+    <text>
+    <body>
+        <p></p>
+    </body>
+    </text>    
+</TEI>
