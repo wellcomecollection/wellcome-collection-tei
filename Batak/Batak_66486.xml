@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Batak_66486">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome_Batak_66486</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RV">
+                <resp when="1977">Cataloguer</resp>
+                <persName>M. C. Ricklefs and P. Voorhoeve</persName>
+            </respStmt>
+            <respStmt xml:id="NC">
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Nicola Cook</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Wellcome MS. Batak 66486</idno>
+            <idno type="catalogue">Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine from Indonesian Manuscripts in Great Britain : a catalogue of Manuscripts in Indonesian languages in British Public Collections</idno>
+            <idno resp="#RV">M.C. Ricklefs and P. Voorhoeve</idno>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Batak 66486</idno>
+
+                    <altIdentifier type="Catalogue" resp="#RV">
+                        <idno>No. 66486</idno>
+                    </altIdentifier>
+                    <altIdentifier type="Sierra">
+                        <idno>b32187890</idno>
+                    </altIdentifier>
+                   
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Pustaha.</summary>
+                   
+                    <textLang mainLang="btx">Karo-Batak</textLang>
+                    
+                    <msItem n="1" xml:id="MS_Batak_66486_1">
+                        
+                        <textLang mainLang="btx">Karo-Batak</textLang>
+                        
+                        <note>Although this MS is modern, it is a good copy of a Karo-Batak text which had originally come from the Toba-Batak village of Silalahi on the north-west coast of Lake Toba.</note>
+                        <note>The subject of the MS is tambar sibérétatt késah, a medicine that may be used against various diseases, as an antidote against poison, and as a protection against inimical magic. It is unclear what the name of this medicine means (tambar medicine; késah breath; but there is no suitable explanation of sibérétan). The prescriptions for the various applications of this medicine are rather more detailed than is usual in Batak MSS.</note>
+  
+                    </msItem>
+                </msContents>
+                
+                <physDesc>
+                   <objectDesc form="pustaha">
+                       
+                       <supportDesc material="unknown">
+                                                    
+                           <support>Two wooden covers with engraved designs, on one side the eight points of the compass, on the other a human
+                               figure in a kind of bathing-suit that clearly shows the recent date of this copy.</support>
+                                             
+                            <extent>29 leaves.
+                                <dimensions unit="cm" type="leaf">
+                                    <height>10.5</height>
+                                    <width>8</width>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                                                                   
+                     </objectDesc>
+                    
+                    <handDesc>
+                        <handNote>It was very neatly copied by a medicine-man who lived in a Karo-Batak village called Ujung. A few scribbled drawings in pencil are very late additions, and have nothing to do with the text.</handNote>
+                    </handDesc>
+                </physDesc>
+                             
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine from Indonesian Manuscripts in Great Britain : a catalogue of Manuscripts in Indonesian languages in British Public Collections by , </title>
+                                    <author>M.C. Ricklefs and P. Voorhoeve</author>
+                                    <date>1977</date>
+                                    <pubPlace>Oxford</pubPlace>
+                                    <publisher>Oxford University Press</publisher>
+                                    <note>p.25</note>
+                                 </bibl>
+                                
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- TO BE ADDED AT LATER DATE --></p></availability> 
+                    
+                    </adminInfo>
+                                    
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="May 2020" who="#NC">Created XML file.</change>
+    
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+    
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
