@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<!-- Template for Introduction to TEI session, 4.11.19 -->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Batak_330889">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Batak_36863">
 
     <teiHeader>
     
     <fileDesc>
         
         <titleStmt>
-            <title>TEI_Batak_330889</title>
+            <title>Batak_36863</title >                      
             <title type="collection">Wellcome Collection</title>
-            <respStmt xml:id="RV">
+            <respStmt xml:id="RV">              
                 <resp when="1982">Cataloguer</resp>
                 <persName>M. C. Ricklefs and P. Voorhoeve</persName>
             </respStmt>
@@ -20,6 +18,11 @@
                 <resp when="2020">TEI Encoder</resp>
                 <persName>Victoria Sloyan</persName>
             </respStmt>
+            <respStmt xml:id="AP">                
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            
         </titleStmt>
         
         <publicationStmt>
@@ -34,7 +37,7 @@
             <distributor>
                 <email>library@wellcome.ac.uk</email>
             </distributor>
-            <idno type="msID">WMS Batak 330889</idno>
+            <idno type="msID">WMS Batak 36863</idno>
             <idno type="catalogue">Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine</idno>
         </publicationStmt>
         
@@ -47,54 +50,68 @@
                     <settlement>London</settlement>
                     <institution>Wellcome Collection</institution>
                     <repository>Wellcome Library</repository>
-                    <idno type="shelfmark">WMS Batak 330889</idno>
-                    <altIdentifier type="Sierra">
-                        <idno>.b306972x</idno>
+                    <idno type="shelfmark">WMS Batak 36863</idno>
+                    <altIdentifier type="Sierra">     
+                        <idno>.b30654695</idno>
                     </altIdentifier>
                 </msIdentifier>
                 
                 <msContents>
                   
-                    <summary>Pustaha. Dairi-Batak. Rambu siporhas, on divination with strings. Without illustrations of the strings. On the second side only 5 pages are written, 
-                        the remainder being blank. The paragraph headings have decorations with some red paint.</summary>
-                   
-                    <textLang mainLang="btd">Batak Dairi</textLang>
+                    <summary>Pustaha. Dairi-Batak. Pangulubalang, aggressive magic, but mostly the incantations (tabas) only. From Guru Dalihan Ni Aji to Tanda Ni Aji. The pupil is admonished, not to leave the book open so that other people may see the text, because his teacher has paid 88 [dollars] to his teacher for these instructions. At the end there are some Arabic prayers in Batak script.</summary>
+                    
+                    <msItem n="1" xml:id="Batak_36863_1">
+                        
+                        <note>Pangulubalang, aggressive magic, but mostly the incantations (tabas) only.</note>
+                        
+                        <textLang mainLang="btd">Batak Dairi</textLang>
+
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Batak_36863_2">
+                        
+                        <note>Arabic prayers in Batak script.</note>
+
+                        <textLang mainLang="ar">Arabic</textLang>
+                        
+                    </msItem>
+                    
                     
                 </msContents>
                 
                 <physDesc>
+           
                     <objectDesc form="other">
                        
                         <supportDesc material="other">
                                                     
-                            <support>A pustaha with wooden covers decorated with carvings, one of them old, the other made later in the same style. One rattan band. </support>
-                            <extent>33 leaves.
+                            <support>A pustaha with no covers.</support>
+                            <extent>18 leaves.
                                 <dimensions unit="cm" type="paperSheet">
-                                    <height>18.6</height>
-                                    <width>12</width>
+                                    <height>13.4</height>
+                                    <width>10.5</width>
+                                    
                                 </dimensions>
                             </extent>
                                                                             
                         </supportDesc>
-                        
+                                                           
                     </objectDesc>
+
+                    <handDesc>
+                        <handNote script="Batak">Batak script.
+                        </handNote>
+                    </handDesc>
                 </physDesc>
                 
                 <history>
                     <origin>
                         <origPlace>
-                            <country>Indonesia</country>,
+                            <country>Indonesia</country>
                         </origPlace>
                         <origDate calendar=""><!-- insert --></origDate>
                     </origin>
-                    <provenance><p>The chain of transmission is as follows: <persName>Banuwa Siyam</persName>, <persName>Banuwa Luhum</persName>, 
-                        <persName>Guru Man Juwara Sabungan</persName> who came from <region>Hurlang</region>, <persName>Kuta Lobuh</persName>, 
-                        <persName>Na Pitu Hali Datu</persName>, (the seven times initiated Master) <persName>Singa Mortandang</persName>, 
-                        <persName>Man Tangga Bosi Limbong</persName>, <persName>Manawar Buwang Manalu Kamborahon</persName>, 
-                        <persName>Bapa Guiya Bunureya Nambing</persName>, <persName>Man Panduya Buwang Manalu Lobuh</persName>, his son-in-law 
-                        <persName>Bapa Goga Manik Aror Nakan</persName>, his uncle from the clan Sibarutu Katedah, and his nephew 
-                        <persName>Padang Kamborahon</persName> in <region>Gonting Simogar</region>.</p></provenance>
-                    <acquisition></acquisition>
+                    <acquisition>Purchased from Stevens auctioneers, <date>23 November 1934</date> (Lot 251).</acquisition>
                 </history>
                 
                 <additional>
@@ -109,7 +126,7 @@
                                 </bibl>
                             </source>
                         </recordHist>
-                        <availability status="free"><p></p></availability> 
+                        <availability status=""><p></p></availability> 
                     </adminInfo>
                 </additional>
             
@@ -120,15 +137,15 @@
     </fileDesc>
     
         <revisionDesc>
-        <change when="2020" who="#VS">Created XML file.</change>
+            <change when="2020" who="#AP">Made minor edits for consistency across Batak repository.</change>
+            <change when="2020" who="#VS">Created XML file.</change>
     
         </revisionDesc>
 
     </teiHeader>    
 
     <facsimile>
-        <surface></surface>    
-
+        <surface></surface>
     </facsimile>    
 
     <text>

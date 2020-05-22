@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Batak_330894">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Batak_330894">
 
     <teiHeader>
     
     <fileDesc>
         
         <titleStmt>
-            <title>Wellcome_Batak_330894</title>
+            <title>Batak_330894</title>
             <title type="collection">Wellcome Collection</title>
             <respStmt xml:id="RV">
                 <resp when="1982">Cataloguer</resp>
@@ -17,6 +17,10 @@
             <respStmt xml:id="NC">
                 <resp when="2020">TEI Encoder</resp>
                 <persName>Nicola Cook</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Adrian Plau</persName>
             </respStmt>
         </titleStmt>
         
@@ -145,6 +149,7 @@
     </fileDesc>
     
         <revisionDesc>
+            <change when="2020" who="#AP">Made minor edits for consistency across Batak repository.</change>
         <change when="April 2020" who="#NC">Created XML file.</change>
     
         </revisionDesc>
