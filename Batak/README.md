@@ -7,4 +7,4 @@ The items in this repository cover a variety of topics, including a handbook for
 * M.C. Ricklefs and P. Voorhoeve, 'Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine' from *Indonesian Manuscripts in Great Britain: a catalogue of Manuscripts in Indonesian languages in British Public Collections*, Oxford: Oxford University Press, 1977, p. 25.
 * M.C. Ricklefs and P. Voorhoeve, 'Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine' from 'Indonesian manuscripts in Great Britain: Addenda et Corrigenda', *Bulleting of the School of Oriental and African Studies*, 45(2), 1982, pp. 303-305.
 
-The TEI files in this repository were created by members of teams from across Wellcome Collection and are all freely available under a CC BY 4.0 license.
+The TEI files in this repository were created by members of teams from across Wellcome Collection.
