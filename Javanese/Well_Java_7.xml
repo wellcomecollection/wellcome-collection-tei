@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Jav_7">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>TEI_Java_7</title >                      
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RV">              
+                <resp when="1982">Cataloguer</resp>
+                <persName>M. C. Ricklefs and P. Voorhoeve</persName>
+            </respStmt>
+            <respStmt xml:id="VS">                
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+            
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Well. Jav. 7</idno>
+            <idno type="catalogue">Catalogue of Javanese manuscripts in the Wellcome Institute for the History of Medicine</idno>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Javanese 7</idno>
+                    <idno type="accessionnumber">Accession 73247</idno>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>After bismillah and an extensive introduction, the text begins with a story about Kombakarna. Incomplete at the end. The copyist calls himself <persName>Utaménggala</persName>. Dated, but the year is missing due to the leaf being damaged.</summary>
+                    
+                    <msItem n="1" xml:id="Well_Jav_7_1">
+                        
+                        <note>Bismillah and introduction.</note>
+
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Well_Jav_7_2">
+                        
+                        <note>A story about Kombakarna. This is the same character as Kumbhakarna, which features in the <title key="work_310519999">Valmiki Ramayana.</title>.</note>
+
+                    </msItem>
+
+                </msContents>
+                
+                <physDesc>
+           
+                    <objectDesc form="other">
+                       
+                        <supportDesc material="other">
+                                                    
+                            <support>palm leaves</support>
+                            <extent>55 leaves.
+                                <dimensions unit="cm" type="paperSheet">
+                                    <height>5</height>
+                                    <width>4</width>
+                                    
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                                                           
+                    </objectDesc>
+
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Indonesia</country>
+                        </origPlace>
+                        <origDate calendar=""><!-- insert --></origDate>
+                    </origin>
+                    <acquisition>Purchased from Glendining, <settlement>London</settlement>, <date>July 1930</date>, accession 73247.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>"Catalogue of Batak manuscripts in the Wellome Institute for the History of Medicine" from "Indonesian manuscripts in 
+                                    Great Britain: Addenda et Corrigenda", in Bulletin of the School of Oriental and African Studies, 45(2), pp303-305</title>
+                                    <author>M.C. Ricklefs and P. Voorhoeve</author>
+                                    <date>1982</date>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="free"><p></p></availability> 
+                    </adminInfo>
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020" who="#VS">Created XML file.</change>
+    
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+    </facsimile>    
+
+    <text>
+    <body>
+        <!-- For future full transcription -->
+        <p></p>
+    </body>
+
+    </text>    
+
+</TEI>
