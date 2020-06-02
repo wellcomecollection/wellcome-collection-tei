@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template for Introduction to TEI session, 4.11.19 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Well.Jav.8">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Well.Jav.8</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RV">
+                <resp when="1928">Cataloguer</resp>
+                <persName>Ricklefs and Voorhoeve</persName>
+            </respStmt>
+            <respStmt xml:id="LS">
+                <resp when="2020-05-27">TEI Encoder</resp>
+                <persName>Lara Salha</persName>
+            </respStmt>       
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Well.Jav.8</idno>
+            <idno type="catalogue">Ricklefs and Voorhoeve</idno>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Javanese 8</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b3046426</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Menak story and instructions in Islamic mysticism</summary>
+                   
+                   
+                    <textLang mainLang="jv">Javanese</textLang>
+                    
+                    <msItem n="1" xml:id="Well.Jav.8.1">
+                                              
+                        <title>Menak Story verse </title>
+                        <note>A - 97 Palm Leaves</note>
+                                                                                                             
+                   </msItem>
+                    
+                    <msItem n="2" xml:id="Well.Jav.8.2"> 
+                       
+                        <title>Apparently instructions in Islamic mysticism</title>
+                        <note>B - 23 leaves.</note>                   
+                    </msItem>   
+                </msContents>
+                
+                <physDesc>                    
+                    <objectDesc form="book">                      
+                        <supportDesc material="palm">
+                                                    
+                            <support>Both covers are carved.</support>
+                            <extent>120 palm-leaves.
+                                <dimensions unit="cm">
+                                        <height>26</height>
+                                        <width>3.5</width>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>                                                                                                                                                                
+                    </objectDesc>
+                    <handDesc>
+                        <handNote> A and B are written in different hands.</handNote>                                         
+                    </handDesc>
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Indonesia</country>,
+                            <region>Java</region>,
+                        </origPlace>
+                    </origin>                    
+                    <acquisition>Bought at Glendining, London, August 1934.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+
+                                <bibl>
+                                    <title>Catalogue of Javanese manuscripts in the Wellcome Institute for the
+                                    History of Medicine from 'Indonesian manuscripts in Great Britain:
+                                    Addenda et Corrigenda', Bulletin of  the School of Oriental and African Studies</title>
+                                    <author>M. C. Ricklefs and P. Voorhoeve</author>
+                                    <date>1982</date>
+                                    <note>pp.308, 309.</note>
+                                    <note>v. 45 </note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                            </source>
+                        </recordHist>
+                        <availability status="free"><p> Status for this item is available and can be accessed through an online request.</p></availability> 
+                    </adminInfo>
+           
+                   
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-05-27" who="LS">Created XML file</change>
+    
+        </revisionDesc>
+
+    </teiHeader>    
+    <text>
+        <body>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>  
+
+</TEI>
