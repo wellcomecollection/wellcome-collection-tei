@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Batak_66486">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome_MS_Javanese_2</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RV">
+                <resp when="1982">Cataloguer</resp>
+                <persName>M. C. Ricklefs and P. Voorhoeve</persName>
+            </respStmt>
+            <respStmt xml:id="NC">
+                <resp when="2020-05-19">TEI Encoder</resp>
+                <persName>Nicola Cook</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Wellcome_MS_Javanese_2</idno>
+            <idno type="catalogue">Catalogue of Javanese manuscripts in the Wellcome Institute for the History of Medicine from 'Indonesian manuscripts in Great Britain: Addenda et Corrigenda'</idno>
+            <idno resp="#RV">M.C. Ricklefs and P. Voorhoeve</idno>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Javanese 2</idno>
+
+                    <altIdentifier type="Catalogue" resp="#RV">
+                        <idno>Well. Jav. 2</idno>
+                    </altIdentifier>
+                    <altIdentifier type="Sierra">
+                        <idno>b30464122</idno>
+                    </altIdentifier>
+                   
+                </msIdentifier>
+                
+                <msContents>
+                  <summary>Yusup romance.</summary>
+                   
+                    <textLang mainLang="jv" source="IANA">Javanese</textLang> 
+                    
+                    <msItem xml:id="Wellcome_MS_Javanese_2_1">                                
+                        <note>Incomplete at end (or the leaves are out of order).</note>
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form ="volume"> 
+                 
+                       <supportDesc material="palm">
+                           <extent>92 palm-leaves.
+                                <dimensions unit="cm">
+                                        <height>44</height>
+                                        <width>3.5</width> 
+                                </dimensions>
+                           </extent>
+                       </supportDesc>
+                    </objectDesc>                                                      
+                </physDesc>
+                
+             <history>                   
+                    <provenance>Unknown</provenance>
+             </history>
+                             
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Catalogue of Javanese manuscripts in the Wellcome Institute for the History of Medicine from 'Indonesian manuscripts in Great Britain: Addenda et Corrigenda'</title>
+                                    <author>M.C. Ricklefs and P. Voorhoeve</author>
+                                    <date>1982</date>
+                                    <note>Bulletin of the School of Oriental and African Studies, 45, 1982, pp.308, 309.</note>
+                                 </bibl>
+                                
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- TO BE ADDED AT LATER DATE --></p></availability> 
+                    
+                    </adminInfo>
+                                    
+                </additional>
+            
+            </msDesc>
+
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-07-03" who="#NC">Created XML file.</change>
+    
+        </revisionDesc>
+
+    </teiHeader>    
+    <facsimile>
+        <surface></surface>
+    </facsimile>    
+    <text>
+        <body>
+            <p></p>
+        </body>
+    </text>    
+</TEI>
