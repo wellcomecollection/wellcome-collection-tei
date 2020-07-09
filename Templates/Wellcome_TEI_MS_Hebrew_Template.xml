@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
+<!-- Template updated 09.07.20 -->
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="">
     <!-- Give xml:id in the  format  'Hebrew_A_[MS number]' -the file name should be identical -->
 
@@ -183,8 +185,64 @@
                     <!-- Enter bibliographical info, if needed -->
                     <listBibl>
                         <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
-                        <head><!-- use to provide a heading if required, otherwise delete --></head>
-                        <bibl><!-- insert bibliography, links to online resource, etc., otherwise delete--></bibl>
+                        <!-- The following records the bibliographical entries Allan's catalogue refers to - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>A concise catalogue of the Hebrew printed books in the Bodleian Library</title>
+                            <author>A. E. Cowley</author>
+                            <date>1929</date>
+                            <placeName>Oxford</placeName>
+                            <abbr>Cowley</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Descriptive catalogue of the Hebrew MSS of the Montefiore Library</title>
+                            <author>H. Hirschfeld</author>
+                            <date>1904</date>
+                            <placeName>London</placeName>
+                            <abbr>Hirschfeld</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                            <author>A. Z. Iskandar</author>
+                            <date>1967</date>
+                            <placeName>London</placeName>
+                            <abbr>Iskandar</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of the Hebrew and Samaritan manuscripts in the British Museum, Pts. 1-4</title>
+                            <author>G. Margoliouth</author>
+                            <date>1899</date>
+                            <placeName>Oxford</placeName>
+                            <abbr>Margoliouth</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of Hebrew manuscripts in the Bodleian Library</title>
+                            <author>A. Neubauer; Vol. 2 with A. E. Cowley.</author>
+                            <date>Vol 1, 1886; Vol 2, 1906.</date>
+                            <placeName>Oxford</placeName>
+                            <abbr>Neubauer</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A catalogue of the Hebrew manuscripts in the Jew's College, London</title>
+                            <author>A Neubauer</author>
+                            <date>1886</date>
+                            <placeName>Oxford</placeName>
+                            <abbr>Neubauer (Jew's Coll.)</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Die hebraeischen Übersetzungen des Mittelalters und die Juden als Dolmetscher</title>
+                            <author>M. Steinschneider</author>
+                            <date>1956</date>
+                            <placeName>Graz</placeName>
+                            <abbr>Steinschneider</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of the Hebrew books in the Library of the British Museum</title>
+                            <author>J. Zedner</author>
+                            <date>1867</date>
+                            <placeName>London</placeName>
+                            <abbr>Zedner</abbr>
+                        </bibl>
                     </listBibl>
                 
                 </additional>
