@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_4">
+   
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew A 4</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="MM">
+                <resp when="2020-06-17">TEI Encoder</resp>
+                <persName>Miten Mistry</persName>
+            </respStmt>
+            
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID"></idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Hebrew A4</idno>
+                    
+                    <altIdentifier type="bnumber">
+                        <idno>b14827608</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary><!-- some hebrew text that I am not sure how to add MM-->"Book of the secret of God".
+                    A manual of circumcision according to the Ashkenazi rite of <country>Poland</country> and
+                    <country>Lithuania</country> with prayers attributed to <persName>David b. Aryeh</persName> of <placeName>Lida</placeName>.
+                        Dated <date>5447</date>/<date>1687</date></summary>
+                   
+                   
+                    
+                    <msItem xml:id="Hebrew_A4_1">
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>                   
+                        <note>First published in Amsterdam in <date>1680</date></note>
+                        <note>ff. 1<hi rend="superscript">v</hi>; 18 blank</note>
+                        <note>Name of scribe, <persName>Dob Bahel Mordecai Katz</persName>, in cursive Hebrew scrip and previous owner, <persName>B. Lichtenstein,
+                         in cursive Roman script together with date and "Amsterdam" written on second preliminary fly leaf</persName></note>                   
+                    </msItem>
+                </msContents>
+                
+                <physDesc>
+                    
+                    <objectDesc form="Vellum">
+                       
+                        <supportDesc material="Vellum">
+                                                    
+                            <support>3 prelininary and 1 final fly leaves</support>
+                            <extent>18 folios
+                                <dimensions unit="cm" type="leaves">
+                                    <dim type="diameter">14</dim>
+                                    <dim type="length">9.5</dim>
+                                          </dimensions>
+                                        </extent>                                  
+                                  
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="18">18 lines to a page</layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                      
+                        <handNote>Square script vocalised within rules</handNote>
+                        <handNote script="roman">Roman</handNote>
+                    </handDesc>
+                    <decoDesc><decoNote>12 miniature</decoNote></decoDesc>                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                                   <settlement>Amsterdam</settlement>
+                        </origPlace>
+                        <origDate>1680</origDate>
+                    </origin>
+                    <provenance notBefore="1680">Previous owner <persName>B. Lichtenstein</persName></provenance>
+                    <acquisition>Purchased from Sotheby's <date >28.2.1933</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl> 
+                                <bibl>
+                                    <title>A concise catalogue of the Hebrew printed books in the Bodleian Library</title>
+                                    <author>A. E. Cowley</author>
+                                    <date>1929</date>
+                                    <placeName>Oxford</placeName>
+                                    <abbr>Cowley</abbr>
+                                </bibl>
+                                <bibl>
+                                    <title>Catalogue of the Hebrew books in the Library of the British Museum</title>
+                                    <author>J. Zedner</author>
+                                    <date>1867</date>
+                                    <placeName>London</placeName>
+                                    <abbr>Zedner</abbr>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        
+                    </adminInfo>
+                  
+                  
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-06-17" who="#MM">Created XML file</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

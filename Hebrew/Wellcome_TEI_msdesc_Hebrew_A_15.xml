@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_15">
+       <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew A 15</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="MM">
+                <resp when="2020-06-18">TEI Encoder</resp>
+                <persName>Miten Mistry</persName>
+            </respStmt>
+                 </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID"></idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Hebrew A15</idno>
+                    <altIdentifier type="bnumber">
+                        <idno>b32274610</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Medical notebook which includes remedies fro urinitis (<locus from="f2r" to="f2v">f. <hi rend="superscript">r &amp; v</hi>2</locus>); exhaustion in children and youths (<locus>f. 5<hi rend="superscript">r &amp; v</hi></locus>); pain in the 
+                        ilium (<locus>ff. 15<hi rend="superscript">v</hi>; 18<hi rend="superscript">r</hi></locus>). Dated ca. <date>XVI</date>/<date>XVII</date>th cent.</summary>
+                   
+                  
+                    
+                    <msItem xml:id="Hebrew_A15_1">
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="it" source="IANA">Italian</textLang>
+                       
+                        <incipit>Begins: <!-- some hebrew text that I dont know how to add MM --></incipit>
+                                     
+                    <note>Patients mentioned by name including <persName>Moses</persName>, the writer's son prescribed for 
+                        by <persName>Shlomo ha-rofe</persName> (<locus>f. 10<hi rend="superscript">r</hi></locus>) and <persName>Dulcita</persName>, wife of the 
+                        writer (<locus>ff.15<hi rend="superscript">v</hi>; 16<hi rend="superscript">v</hi></locus>).</note>
+                        <note>(<locus>ff. 21<hi rend="superscript">v</hi>; 22<hi rend="superscript">v</hi></locus>) blank.</note>
+                        <note>Writer's name, <persName>Elhanan</persName>, mentioned (<locus>f.11<hi rend="superscript">v</hi></locus>).</note>
+                        
+                    </msItem>
+                    
+                 
+                    
+                </msContents>
+                
+                <physDesc>
+                
+                    <objectDesc form="notebook">
+                       
+                        <supportDesc material="paper">
+                                                   
+                            <extent>22 folios
+                                <dimensions unit="cm" type="folio">
+                               
+                                    <dim type="diameter">13.5 cm</dim>
+                                    <dim type="length">19.5 cm</dim>                                    
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="29">21-29 lines to a page</layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote>Italian cursive hand with glosses in a later hand</handNote>
+                    </handDesc>
+                    
+                    
+                    
+                    
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Unbound</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                                        <acquisition>Purchased from Sotheby's <date>23.5.1927</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                      
+                    </adminInfo>
+                    
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-06-18" who="#MM">Created XML file</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
