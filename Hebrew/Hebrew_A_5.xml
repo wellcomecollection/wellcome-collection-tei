@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_5">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew A 5</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2020-06-11">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Wellcome MS Hebrew A5</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew 5</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b14827712</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary><date>18th century</date>red leather bound text: "Blessings of circumcision and the conduct and service of circumcision as it is led in this congregation...London".</summary>
+                   
+                    <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                    
+                    <msItem n="1" xml:id="Hebrew_A_5_1">
+                        <locus from="11" to="16">Fols.11 to 16</locus>
+                        <editor key="" role="scr">Copied by <persName>Isaac Luria</persName> in <settlement>London</settlement>.</editor>
+                        <title key="">Blessings of circumcision and the conduct and service of circumcision as it is led in this congregation...London <!-- Hebrew title in catalogue - add later --></title>
+                           
+                    </msItem>
+                    
+ 
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>paper</support>
+                            <extent>27 sheets. <note>folios 1r-10v and 17v-27v are blank.</note>
+                                <dimensions unit="cm" type="paperSheet">
+                                    <dim type="diameter">7</dim>
+                                    <dim type="length">9</dim>
+                                </dimensions>
+                            </extent>                                                
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="15">10-15 lines to a page</layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc><handNote scope="sole" script="capitalsSquare">Square script vocalised.</handNote>
+                          </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote></decoNote>
+                    </decoDesc>
+                    
+                    <additions></additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Bound in red leather</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>United Kingdom</country>,
+                            <settlement>London</settlement>,
+                        </origPlace>
+                        <origDate calendar="#Gregorian" notAfter="1800" notBefore="1700">18th century</origDate>            
+                    </origin>
+                    <provenance notBefore="1700">Previously owned by <persName>A. Samuda</persName></provenance>
+                    <acquisition>Acquisition unknown</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-07-03" who="#VS">Added data from the catalogue</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
