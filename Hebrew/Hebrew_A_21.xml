@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_21">
+   
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_21</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OC">
+                <resp when="2020-07-08"></resp>
+                <persName>Odalys Caballero</persName>
+            </respStmt>
+           </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="Hebrew_A_21"></idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew A21</idno>
+                     <altIdentifier type="Sierra">
+                        <idno>b3227466x</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Collection of remedies, amulets and charms.</summary>
+                   
+                    <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                    
+                    <msItem n="" xml:id="Hebrew_A_21-1">
+                      
+                        <title key="">Collection of remedies, amulets and charms></title>
+                        
+                        <incipit> 
+                            <note>Begins: <!-- Hebrew title in catalogue will be added later  --> </note>
+                        </incipit>
+                        
+                        <note><locus>Cabalistic diagrams on ff. ir - 7v</locus></note>             
+                        <note><locus>(ff. 2r; 4v; 9r, 19v - 38v) blank; f. 19r7v consists on half a leaf.</locus></note>                          
+                        
+                    </msItem>
+                    
+                                     
+                </msContents>
+                
+                <physDesc>
+                    
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">
+                                                                                
+                            <support><!-- Insert prose description --></support>
+                            
+                            <extent>38 ff. 
+                                
+                                <dimensions unit="cm" type= "leaf">
+                               
+                                    <dim type="diameter">9.5 cm</dim>
+                                    <dim type="length">13 cm</dim>
+                                    <!-- Add or delete dimensions as needed -->
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="25" ><note> 10 - 25 lines to a page</note><!-- Layout doesn't allows to put theh range of line -->
+                                
+                            </layout>
+                            
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        
+                        <handNote>Rabbinic and cursive scripts of different hands</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote></decoNote>
+                    </decoDesc>
+                    
+                    <additions></additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>unbound</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                      <origDate >ca. 17th-18th Century</origDate>
+                     </origin>
+                    <acquisition>Purchased  from E. Goldston<date>30.08.1932</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                             </source>
+                        </recordHist>
+                 </adminInfo>
+                   
+                    <listBibl>
+                      <head><!-- use to provide a heading if required, otherwise delete --></head>
+                        <bibl><!-- insert bibliography, links to online resource, etc., otherwise delete--></bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+            <change when="2020-07-08" who="#OC">Populated template.</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
