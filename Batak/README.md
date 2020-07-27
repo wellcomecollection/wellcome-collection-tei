@@ -5,6 +5,6 @@ Wellcome Collection holds twenty-four Batak manuscripts, most of which are descr
 The items in this repository cover a variety of topics, including a handbook for the use of gunpowder and guns, works on divination, medical texts for the treatment of a broad range of ailments, and protective magic. The information in these TEI files are collated from the following two catalogues:
 
 * M.C. Ricklefs and P. Voorhoeve, 'Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine' from *Indonesian Manuscripts in Great Britain: a catalogue of Manuscripts in Indonesian languages in British Public Collections*, Oxford: Oxford University Press, 1977, p. 25.
-* M.C. Ricklefs and P. Voorhoeve, 'Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine' from 'Indonesian manuscripts in Great Britain: Addenda et Corrigenda', *Bulleting of the School of Oriental and African Studies*, 45(2), 1982, pp. 303-305.
+* M.C. Ricklefs and P. Voorhoeve, 'Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine' from 'Indonesian manuscripts in Great Britain: Addenda et Corrigenda', *Bulletin of the School of Oriental and African Studies*, 45(2), 1982, pp. 303-305.
 
 The TEI files in this repository were created by members of teams from across Wellcome Collection.
