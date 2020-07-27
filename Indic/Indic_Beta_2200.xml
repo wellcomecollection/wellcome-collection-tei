@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Beta_2200">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Beta 2200</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-07-27">TEI encoding</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David E. Pingree kindly provided under a CC BY 4.0 license by the American Philosophical Society (APS), which holds the rights to Pingree’s unpublished materials. 
+                        The TEI file itself is made available under a CC BY 4.0 license by the Wellcome Collection, allowing researchers and audiences to continue to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">Beta_2200</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Beta 2200</idno>
+                        <altIdentifier type="Raghavan">
+                            <idno>B.19.z</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>A <title>Cakrānuṣṭhāna</title>; incomplete.</summary>
+                        
+                        <textLang mainLang="sa">Sanskrit</textLang>
+                        
+                        <msItem xml:id="Beta_2200_1">
+                            <title>Cakrānuṣṭhāna</title>
+                            
+                            <incipit> <locus>F. 1v</locus>
+                                <!-- Transcript -->
+                                śrīgaṇeśāya namaḥ || 
+                                atha cakrānuṣṭhānam || tatrādau pūjādvāriṃ gatvā hastau pādau prakṣālya ācamya ...
+                            </incipit>
+                            
+                            <explicit> <locus>F. 13v</locus>
+                                <!-- Transcript -->
+                                ... tata(ḥ)/(s) tadretaṣ caṣakapātre nidhāya devīṃ tarpayitvā saṣṭ(h)aṃ pātraṃ svīkuryāt || atra śuṭhī
+                            </explicit>
+                            
+                            <filiation>Cf. the <title>Cakrānuṣṭhānapaddhati</title> in <ref target="https://github.com/wellcomecollection/wellcome-collection-tei/blob/master/Indic/Indic_Alpha_2085.xml">Indic Alpha 2085</ref>.</filiation>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>Pp. 1-13. <dimensions type="folia" unit="in">
+                                    <height atMost="9">Up to 9 inches</height>
+                                    <width atMost="13.5">Up to 13.5 inches</width>
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="9">9 lines, ca 40 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2020-07-27" who="#AP">Created TEI file from template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface></surface>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
+
