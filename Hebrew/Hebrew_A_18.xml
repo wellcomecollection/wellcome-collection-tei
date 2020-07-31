@@ -36,7 +36,7 @@
             <distributor>
                 <email>library@wellcome.ac.uk</email>
             </distributor>
-            <idno type="msID">Hebrew A 18</idno><!-- DOES THIS NEED TO HAVE UNDERSCORES LIKE ABOVE OR SPACES? -->
+            <idno type="msID">Hebrew A 18</idno>
             <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
             <idno resp="#NA">Nigel Allan</idno>
             <availability>
@@ -64,9 +64,11 @@
                     <summary>"Book of remedies". Miscellany of magical charms against evil eye (<locus>f. 3<hi rend="superscript">r</hi></locus>), headache and timidity (<locus>f. 4<hi rend="superscript">r</hi></locus>). Dated ca. <date>XVIII</date>th cent.</summary>
                                                      
                     <msItem n="1" xml:id="Hebrew_A_18_1">
+                        <title>"Book of remedies" <!-- Hebrew title in catalogue, add later --></title>
+                        
                         <textLang mainLang="he" source="IANA">Hebrew</textLang>
                         <textLang otherLangs="itk" source="IANA">Judeo-Italian</textLang>
-                        <title>"Book of remedies" <!-- Hebrew title in catalogue, add later --></title>
+                        
                         <note>Miscellany of magical charms against evil eye (<locus>f. 3<hi rend="superscript">r</hi></locus>), headache and timidity (<locus>f. 4<hi rend="superscript">r</hi></locus>). </note>
                         <note>(<locus>ff. 1<hi rend="superscript">v</hi>; 2<hi rend="superscript">v</hi>; 5<hi rend="superscript">v</hi>-10<hi rend="superscript">r</hi></locus>) blank.</note>
                     </msItem>
@@ -75,7 +77,7 @@
                 
                 <physDesc>
                      <objectDesc form="codex">
-                         <supportDesc><!-- PAPER NOT AN OPTION -->
+                         <supportDesc>
                            <support>Paper</support>
                            <extent>10 ff.
                            <dimensions unit="cm">
@@ -86,7 +88,7 @@
                         </supportDesc>                                                              
                                                
                      <layoutDesc>
-                         <layout writtenLines="17">6-17 lines to a page. <!-- CAN "WRITTEN LINES-"" BE REMOVED FROM THIS? CAN'T DO A NUMBER RANGE LIKE 6-17 -->                                     
+                         <layout writtenLines="17">6-17 lines to a page.                                    
                          </layout>
                                        
                     </layoutDesc>
@@ -105,7 +107,7 @@
                 <history>
                     
                     <origin>
-                        <origDate calendar="#Hebrew_A_18">ca. XVIIIth cent.</origDate><!-- WASN'T SURE WHERE TO RECORD THIS - OR IF IT NEEDED A MORE ACCESSIBLE DATE NOTE? -->
+                        <origDate>Circa 18th Century.</origDate>
                     </origin>
                     
                     <acquisition>Purchased from Steven's 28.10.1930.</acquisition>
@@ -137,7 +139,7 @@
     </fileDesc>
     
         <revisionDesc>
-        <change when="2020-07-31" who="#NC"></change>
+        <change when="2020-07-31" who="#NC">Created TEI file and made minor amendments to msItem.</change>
         <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
         </revisionDesc>
 
