@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_18">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew A 18</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="NC">
+                <resp when="2020-07-31">TEI Encoder</resp>
+                <persName>Nicola Cook</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew A 18</idno><!-- DOES THIS NEED TO HAVE UNDERSCORES LIKE ABOVE OR SPACES? -->
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <idno resp="#NA">Nigel Allan</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew A18</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32274646</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>"Book of remedies". Miscellany of magical charms against evil eye (<locus>f. 3<hi rend="superscript">r</hi></locus>), headache and timidity (<locus>f. 4<hi rend="superscript">r</hi></locus>). Dated ca. <date>XVIII</date>th cent.</summary>
+                                                     
+                    <msItem n="1" xml:id="Hebrew_A_18_1">
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="itk" source="IANA">Judeo-Italian</textLang>
+                        <title>"Book of remedies" <!-- Hebrew title in catalogue, add later --></title>
+                        <note>Miscellany of magical charms against evil eye (<locus>f. 3<hi rend="superscript">r</hi></locus>), headache and timidity (<locus>f. 4<hi rend="superscript">r</hi></locus>). </note>
+                        <note>(<locus>ff. 1<hi rend="superscript">v</hi>; 2<hi rend="superscript">v</hi>; 5<hi rend="superscript">v</hi>-10<hi rend="superscript">r</hi></locus>) blank.</note>
+                    </msItem>
+                                       
+                </msContents>
+                
+                <physDesc>
+                     <objectDesc form="codex">
+                         <supportDesc><!-- PAPER NOT AN OPTION -->
+                           <support>Paper</support>
+                           <extent>10 ff.
+                           <dimensions unit="cm">
+                                 <dim type="height">19.5</dim>
+                                 <dim type="width">12.8</dim>
+                           </dimensions>
+                           </extent>
+                        </supportDesc>                                                              
+                                               
+                     <layoutDesc>
+                         <layout writtenLines="17">6-17 lines to a page. <!-- CAN "WRITTEN LINES-"" BE REMOVED FROM THIS? CAN'T DO A NUMBER RANGE LIKE 6-17 -->                                     
+                         </layout>
+                                       
+                    </layoutDesc>
+                    </objectDesc>  
+                        
+                    <handDesc>
+                        <handNote><p>Careless cursive Italian hand</p></handNote>
+                    </handDesc>
+                                                
+                    <bindingDesc>
+                        <binding><p>Unbound</p></binding>
+                     </bindingDesc>
+               
+             </physDesc>
+                
+                <history>
+                    
+                    <origin>
+                        <origDate calendar="#Hebrew_A_18">ca. XVIIIth cent.</origDate><!-- WASN'T SURE WHERE TO RECORD THIS - OR IF IT NEEDED A MORE ACCESSIBLE DATE NOTE? -->
+                    </origin>
+                    
+                    <acquisition>Purchased from Steven's 28.10.1930.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pages 193-220.</note>
+                                </bibl>
+                               
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Add at a later date --></p>
+                        </availability> 
+                    </adminInfo>
+                                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-07-31" who="#NC"></change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
