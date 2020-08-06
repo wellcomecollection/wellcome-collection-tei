@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Javanese_10">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Javanese 10</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RV">
+                <resp when="1982">Cataloguer</resp>
+                <persName>M. C. Ricklefs and P. Voorhoeve</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Wellcome Javanese 10</idno>
+            <idno type="catalogue">Catalogue of Javanese manuscripts in the Wellcome Institute for the History of Medicine from 'Indonesian manuscripts in 
+                Great Britain: Addenda et Corrigenda'</idno>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">Wellcome Javanese 10</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b30464298</idno>
+                    </altIdentifier>
+                    <altIdentifier type="accession">
+                        <idno>39091</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Fragments, mainly on mysticism and divination.</summary>
+                   
+                    <textLang mainLang="jv">Javanese </textLang>
+                    
+                    <msItem n="1" xml:id="Javanese_10_A">
+                        <locus>Ff. 1r.-2v.</locus>
+                        <note>Letters of the Javanese syllabary associated with the compass directions, etc. (Bound upside down).</note>
+                        
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Javanese_10_B">
+                        <locus>Ff. 3r.-v.</locus>
+                        
+                        <incipit>
+                            Begins punika lampah ing dina pepitu
+                        </incipit>
+                        
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Javanese_10_C">
+                        <locus> Ff. 4r.-v.</locus>
+                        
+                        <incipit>
+                            Begins punika esmu kasiyan saking <persName>Kanjeng Kyai Nur Muhamad</persName>
+                        </incipit>
+                        
+                        <explicit>
+                            Incomplete at end.
+                        </explicit>
+                        
+                    </msItem>
+                    
+                    <msItem n="4" xml:id="Javanese_10_D">
+                        <locus> Ff. 5r.-6v. Ff. 5v.-6r. blank. </locus>
+                        <note>Fragment concerning horses named <persName>Suryakanda</persName>, <persName>Wisnumurti</persName>, etc.</note>
+                        
+                    </msItem>
+                    
+                    <msItem n="5" xml:id="Javanese_10_E">
+                        <locus>Ff. 7r.-12r.</locus>
+                        <incipit>Begins iki sampurnani[ng]puji... iki dikirekang walung prakara.</incipit>
+                        
+                    </msItem>
+                    
+                    <msItem n="6" xml:id="Javanese_10_F">
+                        <locus>Ff. 12v.-13r. </locus>
+                        <note>Divination table.</note>
+                        
+                        
+                    </msItem>
+                    
+                    <msItem n="7" xml:id="Javanese_10_G">
+                        <locus>Ff. 14r.-21v.</locus>
+                        <incipit>Begins punika dongane wong.</incipit>
+                        
+                    </msItem>
+                    
+                    <msItem n="8" xml:id="Javanese_10_H">
+                        <locus>Ff. 21v-22v.</locus>
+                        <note>Fragment concerning the Javanese five-day week.</note>
+                        
+                    </msItem>
+                    
+                    <msItem n="9" xml:id="Javanese_10_I"> 
+                        <locus>Ff. 23r-v.</locus>
+                        <note>Fragment mentioning <persName>Prabu Wibisana</persName>.</note>
+                        
+                    </msItem>
+                    
+                    <msItem n="10" xml:id="Javanese_10_J">
+                        <locus> Ff. 24r.</locus>
+                        <note>Unidentified fragment.</note>
+                        
+                    </msItem>
+                    
+                    
+                </msContents>
+                
+                <physDesc>
+                    
+                    <objectDesc form="folio">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>Javanese paper.</support>
+                            <extent>24 ff.
+                                <dimensions unit="cm">
+                                    <dim type="diameter">20</dim>
+                                    <dim type="length">13</dim>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                                   
+                    </objectDesc>
+                    <handDesc>
+                        <handNote script="Javanese">In several hands. Javanese script, but with some jottings in Arabic script (pegon).  </handNote>
+                    </handDesc>
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Indonesia</country>,
+                            <region>Java</region>
+                        </origPlace>
+                    </origin>
+                    <provenance>Bookseller's label on cover: 'S. Bahader Shah Dealer in Curiousities Moochi Gate. Lahore.'</provenance>
+                    <acquisition>Bought at Stevens, London, 1916.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Catalogue of Javanese manuscripts in the Wellcome Institute for the History of Medicine from 'Indonesian manuscripts in 
+                                        Great Britain: Addenda et Corrigenda' Bulletin of the School of Oriental and African Studies, vol. 45, no. 2</title>
+                                    <author>M. C. Ricklefs and P. Voorhoeve</author>
+                                    <date>1982</date>
+                                <note>Pp. 308-309.</note>
+                                </bibl> 
+                           
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p></availability> 
+                    </adminInfo>
+                   
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-05-21" who="#AP">Created TEI file.</change>
+    
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+    <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

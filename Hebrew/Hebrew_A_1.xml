@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_1">
+    
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_1</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="BLE">
+                <resp when="2020-06-09">TEI Encoder</resp>
+                <persName>Branwen Lloyd-Evans</persName>
+            </respStmt>
+          </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew A1</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Hebrew A1</idno>
+                    <altIdentifier>
+                        <idno>.b1482727x</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>כתובה(Marriage contract) between <persName>Baruk b. Daniel Luzzatto</persName>and <persName>Hannah</persName>, daughter of <persName>Baruk Kaprilim</persName>: 
+                        witnessed by <persName>Abraham Hayyim b. Joab Baruk Bessani</persName>and <persName>Samuel Ha iRomavini</persName>. 
+                        </summary>
+                   
+                    <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                    
+                    <msItem xml:id="Hebrew_A1_1">
+                        
+                        <title>כתובה(Marriage contract) between <persName>Baruk b. Daniel Luzzatto</persName>and <persName>Hannah</persName>, daughter of <persName>Baruk Kaprilim</persName></title>
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <note>Square script and beautiful decoration including signs of the zodiac and filigree work.</note>                     
+                        <note>Translated by <persName>Maxima Todesco</persName>, public translator, <placeName>Venice</placeName>Venice<date>1794</date>.</note>
+                        
+                    </msItem>
+                                                          
+                </msContents>
+                
+                <physDesc>
+                    
+                    <objectDesc>
+                       
+                        <supportDesc material="vellum">
+                                                    
+                            <support>vellum</support>
+                            <extent>1 folio
+                                <dimensions unit="cm">
+                                    <dim type="diameter">62 cm</dim>
+                                    <dim type="length">77 cm</dim>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="24">
+                                24 lines                                        
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote>Square script</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote>Beautiful decoration including signs of the zodiac and filigree work.</decoNote>
+                    </decoDesc>
+                                                                                                 
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate>Dated <date>5514</date>/<date>1753</date>1753.</origDate>
+                    </origin>
+                    <acquisition>Purchased from Steven's <date>23.9.1924</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                             </source>
+                        </recordHist>
+                     </adminInfo>
+                    
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+            <change when="2020-06-26" who="#AP">Moved date info from summary to originDate.</change>
+          <change when="2020-06-09" who="#BLE">Created XML file</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

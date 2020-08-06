@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 09.07.20 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="">
+    <!-- Give xml:id in the  format  'Hebrew_A_[MS number]' -the file name should be identical -->
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title><!-- Give title in the format 'Hebrew A [ms number]  --></title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="">
+                <resp when="">TEI Encoder</resp>
+                <persName><!-- Insert name --></persName>
+            </respStmt>
+            <!-- Add another <respStmt> for every resp -->
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID"></idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark"></idno>
+                    <!-- Use <altIdentifier> if former or alternative <idno> is available -->
+                    <altIdentifier type="">
+                        <idno></idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary><!-- Any top-level description of the manuscript as a whole --></summary>
+                   
+                    <textLang mainLang="" source="IANA"><!-- Use if only one language in manuscript. For Hebrew, give mainLang value "he" --> </textLang>
+                    
+                    <msItem n="" xml:id="">
+                        <locus from="" to=""><!-- Give the locations for the item, if available --></locus>
+                        <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
+                        <title key=""><!-- Insert viaf code as attribute value, if available, and enter title here --></title>
+                        
+                        <!-- Use as needed, or delete -->
+                        <textLang mainLang="" source="IANA"><!-- Enter BCP 47  IANA language code as attribute value and full language name here. For Hebrew, value is "he". For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry --></textLang>
+                        <textLang otherLangs="" source="IANA"><!-- Enter BCP 47 IANA language code as attribute value and full language name here . For Hebrew, value is "he". For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry--></textLang>
+                       
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <explicit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        
+                        <colophon><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation><!-- insert --></filiation>
+                        <note><!-- insert --></note>
+                        
+                        
+                    </msItem>
+                    
+                    <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+                    
+                </msContents>
+                
+                <physDesc>
+                    <!-- Insert and delete as needed -->
+                    <objectDesc form="">
+                       
+                        <supportDesc material="">
+                                                    
+                            <support><!-- Insert prose description --></support>
+                            <extent><!-- Insert details on extent -->
+                                <dimensions unit="" type=""><!-- Add if available -->
+                               
+                                    <dim type="diameter"></dim>
+                                    <dim type="length"></dim>
+                                    <!-- Add or delete dimensions as needed -->
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="">
+                                <!-- Add description or further elements -->                                        
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <!-- Add or delete <handNote> elements as needed -->
+                        <handNote scope=""></handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote></decoNote>
+                    </decoDesc>
+                    
+                    <additions></additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p></p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country><!-- insert --></country>,
+                            <region><!-- insert --></region>,
+                            <settlement><!-- insert --></settlement>,
+                            <orgName><!-- insert --></orgName>
+                        </origPlace>
+                        <origDate calendar=""><!-- insert --></origDate>
+                        <!-- use additional origPlace and origDate elements if necessary -->
+                    </origin>
+                    <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                    <!-- use additional provenance elements if necessary -->
+                    <acquisition><!-- insert --></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <!-- The following records the bibliographical entries Allan's catalogue refers to - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>A concise catalogue of the Hebrew printed books in the Bodleian Library</title>
+                            <author>A. E. Cowley</author>
+                            <date>1929</date>
+                            <placeName>Oxford</placeName>
+                            <abbr>Cowley</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Descriptive catalogue of the Hebrew MSS of the Montefiore Library</title>
+                            <author>H. Hirschfeld</author>
+                            <date>1904</date>
+                            <placeName>London</placeName>
+                            <abbr>Hirschfeld</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                            <author>A. Z. Iskandar</author>
+                            <date>1967</date>
+                            <placeName>London</placeName>
+                            <abbr>Iskandar</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of the Hebrew and Samaritan manuscripts in the British Museum, Pts. 1-4</title>
+                            <author>G. Margoliouth</author>
+                            <date>1899</date>
+                            <placeName>Oxford</placeName>
+                            <abbr>Margoliouth</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of Hebrew manuscripts in the Bodleian Library</title>
+                            <author>A. Neubauer; Vol. 2 with A. E. Cowley.</author>
+                            <date>Vol 1, 1886; Vol 2, 1906.</date>
+                            <placeName>Oxford</placeName>
+                            <abbr>Neubauer</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A catalogue of the Hebrew manuscripts in the Jew's College, London</title>
+                            <author>A Neubauer</author>
+                            <date>1886</date>
+                            <placeName>Oxford</placeName>
+                            <abbr>Neubauer (Jew's Coll.)</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Die hebraeischen Übersetzungen des Mittelalters und die Juden als Dolmetscher</title>
+                            <author>M. Steinschneider</author>
+                            <date>1956</date>
+                            <placeName>Graz</placeName>
+                            <abbr>Steinschneider</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of the Hebrew books in the Library of the British Museum</title>
+                            <author>J. Zedner</author>
+                            <date>1867</date>
+                            <placeName>London</placeName>
+                            <abbr>Zedner</abbr>
+                        </bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+        <change when=""><!-- Make an entry to record your starting work on the file and then a new <change> for later edits, following the below format --></change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Jav_3">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Well_Java_3</title >                      
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RV">              
+                <resp when="1982">Cataloguer</resp>
+                <persName>M. C. Ricklefs and P. Voorhoeve</persName>
+            </respStmt>
+            <respStmt xml:id="VS">                
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+            
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Well. Jav. 3</idno>
+            <idno type="catalogue">Catalogue of Javanese manuscripts in the Wellcome Institute for the History of Medicine</idno>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Javanese 3</idno>
+                    <idno type="Catalogue" resp="#RV">Well. Jav. 3</idno>
+                    <idno type="Sierra">b30464134</idno>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Yusup romance.</summary>
+                    <textLang mainLang="jv" source="IANA">Javanese</textLang>
+                    
+                    <msItem n="1" xml:id="Well_Jav_3_1">
+                        
+                        <note>Leaves are out of order and some are damaged.</note>
+                    </msItem>
+                </msContents>
+                
+                <physDesc>
+           
+                    <objectDesc form="other">
+                       
+                        <supportDesc material="other">
+                                                    
+                            <support>palm leaves</support>
+                            <extent>90 leaves.
+                                <dimensions unit="cm" type="paperSheet">
+                                    <height>49</height>
+                                    <width>3.2</width>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                                                           
+                    </objectDesc>
+
+                </physDesc>
+                
+                <history>
+                    <provenance>Provenance unknown.</provenance>    
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>"Catalogue of Batak manuscripts in the Wellome Institute for the History of Medicine" from "Indonesian manuscripts in 
+                                    Great Britain: Addenda et Corrigenda", in Bulletin of the School of Oriental and African Studies, 45(2), pp303-305</title>
+                                    <author>M.C. Ricklefs and P. Voorhoeve</author>
+                                    <date>1982</date>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="free"><p></p></availability> 
+                    </adminInfo>
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-07-10" who="#VS">Created XML file.</change>
+    
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+    </facsimile>    
+
+    <text>
+    <body>
+        <!-- For future full transcription -->
+        <p></p>
+    </body>
+
+    </text>    
+
+</TEI>

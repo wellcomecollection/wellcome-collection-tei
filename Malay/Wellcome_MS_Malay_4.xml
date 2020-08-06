@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Malay_4">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="LXT">
+                    <resp when="2019">Cataloguer</resp>
+                    <persName>Li-Xuan Teo</persName>
+                </respStmt>
+                <respStmt xml:id="RV">
+                    <resp when="1982">Cataloguer</resp>
+                    <persName>M. C. Ricklefs and P. Voorhoeve</persName>
+                </respStmt>
+                <respStmt xml:id="EHM">
+                    <resp when="1981">Cataloguer</resp>
+                    <persName>R.F. Ellen, M.B. Hooker and A.C. Milner</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020">TEI Encoder</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Wellcome Malay 4</idno>
+                <idno type="catalogue">The Hervey Malay Collection in the Wellcome Institute</idno>
+                <idno type="catalogue">Catalogue of Malay manuscripts in the Wellcome Institute for the History of Medicine</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">Wellcome Malay 4</idno>
+                        <altIdentifier>
+                            <idno>.b14850266</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                                                
+                        <summary>Catalogues of Malayan Trees, Fruits, Animals.</summary>
+                                              
+                        <msItem xml:id="Wellcome_MS_Malay_4">
+                            
+                            <textLang mainLang="ms">Malay</textLang>
+                            <textLang otherLangs="eng">English</textLang>
+                            
+                            <note>45 varieties of flora and fauna named. Arabic script. Table of contents in English and occasional notes in English. In school exercise book branded 'Logan Library'.</note>
+                            
+                        </msItem>
+                                               
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                                          
+                        <objectDesc form="other">
+                            
+                            <supportDesc material="paper">
+                                
+                                <extent>136 pp.
+                                    <dimensions unit="cm" type="leaf">
+                                        <height>22</height>
+                                        <width>18</width>
+                                    </dimensions>
+                                </extent>
+                                    
+                            </supportDesc>
+                        
+                         </objectDesc>
+                                      
+                    </physDesc>
+                    
+                    <history>
+                        <provenance>
+                            <p>Owned by D.F.A. Hervey</p>
+                        </provenance>
+                        <acquisition>
+                            <p>Sold at Hodgsons, <date>on 23 November 1934</date>, along with other Malay manuscripts in Wellcome Collection, for 12 guineas.</p>
+                        </acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <p>This file is based on the information in the following two catalogues, as well as Li-Xiao Teo's unpublished cataloguing. Wellcome Collection also holds a print copy of Hervey’s volume on Malay games.</p>
+                                    <bibl>
+                                        <title>"The Hervey Malay Collection in the Wellcome Institute" in Journal of the Malayasian Branch of the Royal Asiatic Society 54 (1); 82-92.</title>
+                                        <author>Ellen RF, Hooker MB and AC Milner</author>
+                                        <date>1981</date>
+                                    </bibl>
+                                    <bibl>
+                                        <title>Catalogue of Malay manuscripts in the Wellcome Institute for the History of Medicine" from "Indonesian manuscripts in Great Britain : Addenda et Corrigenda," in Bulletin of the School of Oriental and African Studies 45 (2): 312-15</title>
+                                        <author>Ricklefs MC and Voorhoeve P</author>
+                                        <date>1982</date>
+                                    </bibl>
+                                    <bibl>
+                                        <title>Malay Games</title>
+                                        <author>D.F.A. Hervey</author>
+                                        <date>1903</date>
+                                        <publisher>Anthropological Institute of Great Britain and Ireland</publisher>
+                                        <note>Reprinted from the Journal of the Royal Anthropological Institute, Vol. 33, July - December, 1903.</note>
+                                        <ref target="https://wellcomelibrary.org/item/b30208993">Digitised version.</ref>
+                                    </bibl>
+                                    <bibl type="digital-facsimile">
+                                        <ref target="https://wellcomelibrary.org/item/b14850266">Digital manuscript facsimile.</ref>
+                                    </bibl>
+                                   </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p>Digitised in full.</p>
+                            </availability> 
+                        </adminInfo>
+
+                    </additional>
+                                                                         
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>        
+        
+        <revisionDesc>
+            <change when="2020-02-06" who="#AP">Added links to digitised version and Hervey’s volume on Malay games.</change>
+            <change when-custom="2020" who="#AP">Created XML file, collated information from three cataloguing sources.</change>
+        </revisionDesc>
+        
+    </teiHeader>   
+    <facsimile>
+        <!-- For future addition -->   
+    </facsimile>    
+    <text>
+        <body>
+            <!-- For future full transcription -->
+        </body>
+    </text>    
+</TEI>

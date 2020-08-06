@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Batak_330894">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Batak_330894</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RV">
+                <resp when="1982">Cataloguer</resp>
+                <persName>M. C. Ricklefs and P. Voorhoeve</persName>
+            </respStmt>
+            <respStmt xml:id="NC">
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Nicola Cook</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MS Batak 330894</idno>
+            <idno type="catalogue">Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine from 'Indonesian manuscripts in Great Britain : Addenda et Corrigenda'></idno>
+            <idno resp="#RV">M.C. Ricklefs and P. Voorhoeve</idno>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Batak 330894</idno>
+
+                    <altIdentifier type="Catalogue" resp="#RV">
+                        <idno>No. 330894</idno>
+                    </altIdentifier>
+                    <altIdentifier type="former" resp="#RV">
+                        <idno>14412</idno>
+                    </altIdentifier>
+                    <altIdentifier type="Sierra">
+                        <idno>b30697293</idno>
+                    </altIdentifier>
+                   
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Pustaha. Toba-Batak. The northern ta is used. Includes three distinct items.</summary>
+                   
+                    <textLang mainLang="bbc">Toba-Batak</textLang>
+                    
+                    <msItem n="1" xml:id="MS_Batak_330894_1">
+                        
+                        <title>Manuk gantung, the oracle of the hanging cock.</title>
+                        <note>Chain of transmission : Guru So Lindungon Ni Aji of the clan Silalahi to his nephew (sirnatua na poso) Ompu Baja Ni Aji.</note>
+  
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="MS_Batak_330894_2">
+                    
+                        <title>Pangarambui si pitu bujing, a diagram for divination.</title>
+                        <note>With the words bunu (kill) and mate (dead) written in the compartments.</note>
+                    
+                    <msItem n="3" xml:id="MS_Batak_330894_3">
+                        
+                        <title>Pagar Aji Patane, protective magic.</title>
+                        <note>Chain of transmission : Guru PangandosanN i Aji—GuruS o LindungonN i Aji—<persName>Ompu Baja Ni Aji</persName>.</note>
+                        <filiation><persName>Ompu Baja Ni Aji</persName>also appears in <ref target="Wellcome_Batak_91624">No. 91624</ref>.</filiation>
+                </msContents>
+                
+                <physDesc>
+                   <objectDesc form="pustaha">
+                       
+                       <supportDesc material="bark">
+                                                    
+                           <support>Pustaha with no covers.</support>
+                           <supportNote>The outer leaves are damaged.</supportNote>
+                         
+                            <extent>50 leaves.
+                                <dimensions unit="cm" type="leaf">
+                                    <height>7.9</height>
+                                    <width>9</width>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                                                                   
+                     </objectDesc>
+                    
+                    <handDesc>
+                        <handNote script="Batak">Batak script.</handNote>
+                    </handDesc>
+                </physDesc>
+                 
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Indonesia.</country>
+                            <region>North Sumatra.</region>
+                        </origPlace>
+                    </origin>
+                    <acquisition source="#RV">Bought at a sale, Lot 219.</acquisition><!-- Check Steven's catalogue -->
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Catalogue of Batak manuscripts in the Wellcome Institute for the History of Medicine from 'Indonesian manuscripts in Great Britain : Addenda et Corrigenda'</title>
+                                    <author>M.C. Ricklefs and P. Voorhoeve</author>
+                                    <date>1982</date>
+                                    <note>In Bulletin of the School of Oriental and African Studies, 45(2), 1982, pp.303-305.</note>
+                                 </bibl>
+                                
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p></availability> 
+                    
+                    </adminInfo>
+                                    
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+            <change when="2020" who="#AP">Made minor edits for consistency across Batak repository.</change>
+        <change when="April 2020" who="#NC">Created XML file.</change>
+    
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+    
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

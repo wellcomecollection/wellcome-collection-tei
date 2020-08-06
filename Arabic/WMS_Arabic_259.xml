@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_7741">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15900">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,18 +19,15 @@
                   <country>UK</country>
                   <settlement>London</settlement>
                   <institution>Wellcome Trust</institution>
-                  <repository>Wellcome Library</repository>
-                  <collection type="main">Asian Collection</collection>
+                  <repository>Wellcome Collection</repository>
+                  <collection> Manuscripts in Arabic</collection>
                   <idno>MS Arabic 259</idno>
                </msIdentifier>
 
-               <msPart xml:id="MS_Arabic_259-part1">
-                  <msIdentifier>
-                     <altIdentifier type="internal">
-                        <idno>1</idno>
-                     </altIdentifier>
-                  </msIdentifier>
-                  <msContents>
+            
+                  <msContents><summary>1 copy of Miftāḥ
+                     al-kunūz in Arabic, followed by Jāmiʿ
+                     taʿlīlāt in Persian</summary>
 
                      <msItem xml:id="MS_Arabic_259-part1-item1" n="1">
                         <locus facs="#i0003 #i0087">Fol.1a to Fol.83b</locus>
@@ -128,9 +125,9 @@
                   <history>
                      <origin change="#fix-dates">
                         <origDate type="written" facs="#i0087" calendar="#Hijri-shamsi" when="1266"
-                           >1266<!-- Please review date attributes, see https://git.io/fihrist-dates --></origDate>
+                           >1266 AH<!-- Please review date attributes, see https://git.io/fihrist-dates --></origDate>
                         <origDate type="written" calendar="#Hijri-shamsi" facs="#i0178" when="1283"
-                           >1283<!-- Please review date attributes, see https://git.io/fihrist-dates --></origDate>
+                           >1283 AH<!-- Please review date attributes, see https://git.io/fihrist-dates --></origDate>
                         <origDate when="1866" type="given" calendar="#Gregorian">1866</origDate>
                         <quote type="colophon" facs="#i0178">
                            <locus>fol.177b.6</locus> مخفى غاند كه سابق ازين كتاب جامع التعليلات در
@@ -151,7 +148,6 @@
                      <provenance>The second text was printed in Qādiry printing office, at Lahore
                         Kardīyah, Pakistan.</provenance>
                   </history>
-               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>

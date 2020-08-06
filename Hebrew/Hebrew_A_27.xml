@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_27">
+    
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_27</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="BLE">
+                <resp when="2020-07-16">TEI Encoder</resp>
+                <persName>Branwen Lloyd-Evans</persName>
+            </respStmt>
+          </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew A27</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Hebrew A27</idno>
+                    <altIdentifier>
+                        <idno>b32274725</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Amulet for the protection of <persName>Moses David</persName>, son of <persName>Esther</persName>, from plague.</summary>
+                   
+                    <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                    
+                    <msItem xml:id="Hebrew_A27_1">
+                        
+                        <title>Amulet for the protection of <persName>Moses David</persName>, son of <persName>Esther</persName>, from plague.</title>
+                        <incipit>שמירה והגנה למשה דוד בר אסתר</incipit>
+                                                                      
+                    </msItem>
+                                                          
+                </msContents>
+                
+                <physDesc>
+                    
+                    <objectDesc>
+                       
+                        <supportDesc material="vellum">
+                                                    
+                            <support>vellum</support>
+                            <extent>1 folio
+                                <dimensions unit="cm">
+                                    <dim type="diameter">5 cm</dim>
+                                    <dim type="length">6 cm</dim>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="3">
+                                3 lines                                        
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote>Square script</handNote>
+                    </handDesc>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Contained in parchment case</p>
+                        </binding>
+                    </bindingDesc>   
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate>ca. 18th century</origDate>
+                    </origin>
+                    <acquisition>Purchased from Steven's <date>28.10.1930</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                             </source>
+                        </recordHist>
+                     </adminInfo>
+                    
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh 85102591">Plague</term>
+                        </item>
+                        <item>
+                            <term ref="subject_sh 85004693">Amulets (Judaism)</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+        
+        <revisionDesc>
+          <change when="2020-07-16" who="#BLE">Created XML file</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

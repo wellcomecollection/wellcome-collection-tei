@@ -27,6 +27,10 @@
                 <distributor>
                     <email>library@wellcome.ac.uk</email>
                 </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David E. Pingree kindly provided under a CC BY 4.0 license by the American Philosophical Society (APS), which holds the rights to Pingree’s unpublished materials. 
+                        The TEI file itself is made available under a CC BY 4.0 license by the Wellcome Collection, allowing researchers and audiences to continue to make use of and build on Pingree’s work.</licence>
+                </availability>
                 <idno type="msID">Alpha_399</idno>
                 <idno type="catalogue">David Pingree cataloguing</idno>
             </publicationStmt>
@@ -38,7 +42,8 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS Indic Gamma 399</idno>
+                        <idno type="shelfmark">MS Indic Alpha 399</idno>
+                        <idno type="Sierra">b14882085</idno>
                         <altIdentifier type="former">
                             <idno>K.3.J.bbb.</idno>
                         </altIdentifier>
@@ -94,6 +99,7 @@
         </fileDesc>
 
         <revisionDesc>
+            <change when="2020-01-16" who="#AP">Added licensing statement.</change>
             <change when="2019-06-07" who="#AP">Added confirmation to Pingree's identification in @additional.</change>
             <change when="2019-05-13" who="#AP">Created XML file. Added attribute as astrological work in @summary and recorded alternate Wujastyk identification in @additional.</change>
         </revisionDesc>

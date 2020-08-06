@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_9">
+    
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_9</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="BLE">
+                <resp when="2020-07-07">TEI Encoder</resp>
+                <persName>Branwen Lloyd-Evans</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew A9</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Hebrew A9</idno>
+                    <altIdentifier>
+                        <idno>.b32274555</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Fragment containing Books 3 (incomplete) 4, and 5 (incomplete) of <persName>Avicenna</persName>'s <title>Canon</title></summary>
+                   
+                    <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                    
+                    <msItem xml:id="Hebrew_A9_1">
+                        
+                        <author key="person_89770781">Avicenna</author>
+                        <title key="work_305992976">Canon</title>
+                        <note>Fragment containing Books 3 (incomplete) 4, and 5 (incomplete)</note>                                           
+                                              
+                    </msItem>
+                                                            
+                </msContents>
+                
+                <physDesc>
+                   
+                    <objectDesc>
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>Various parts of the ms. stained and torn about the edges of the folios.</support>
+                            <extent>237 ff.
+                                <dimensions unit="cm"> 
+                                    <dim type="diameter">21.5</dim>
+                                    <dim type="length">30.5</dim>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout>
+                                29-76 lines to a page. (ff.10; 29; 35; 57; 219; 224) consist of half a leaf;
+                                (ff.10v; 29V; 173v; 219') blank; (ff.3' first half) written in vertical lines.
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                     
+                        <handNote>cursive oriental script in different hands</handNote>
+                    </handDesc>
+                                                           
+                    <bindingDesc>
+                        <binding>
+                            <p>Bound with boards covered in marbled paper and leather spine</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate>ca. 17th century</origDate>
+                    </origin>
+                    
+                    <acquisition>Purchased from Sotheby's 30.6.1930</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                             </source>
+                        </recordHist>
+                    </adminInfo>
+                                                       
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh 85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+            <change when="2020-07-07" who="#BLE">Created XML file</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

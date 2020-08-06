@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_24">
+   
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_24</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OC">
+                <resp when="2020-07-15">TEI Encoder</resp>
+                <persName>Odalys Caballero</persName>
+            </respStmt>
+             </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="Hebrew_A_24"></idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark"></idno>
+                   <altIdentifier type="Sierra">
+                        <idno>b32274695</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Chap book of notes containing misdrahim, medical prescription, physiology and  astrological terms.</summary>
+                    
+                                                        
+                    <msItem n="1" xml:id="Hebrew_A_24_1">
+                        
+                        <textLang otherLangs="la" source="IANA">Latin</textLang>
+                        <textLang otherLangs="it" source="IANA"> Italian</textLang>
+                            
+                        <incipit>Begins: <!-- Hebrew title in catalogue will be added later  -->
+                        </incipit>
+                                  
+                        <note><locus> (f.8r.) blank</locus></note>  
+                        <note><locus>Verona (f. 5r)</locus></note>
+                        
+                    </msItem>
+                    
+                    </msContents>
+                
+                <physDesc>
+                    
+                    <objectDesc form="book">
+                       
+                        <supportDesc material="paper">
+                                                    
+                             <extent>18 ff.<note>2 preliminary and 1 fly leaves</note>
+                                <dimensions unit="cm" type="leaf">                               
+                                    <dim type="diameter">16 cm</dim>
+                                    <dim type="length">22 cm</dim>
+                                   
+                                </dimensions>
+                            </extent>
+                            <condition>Manuscript much torn about the edge, mutilated and parts rendered illegible due the water staining.</condition>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="32">17 -32  lines to a page
+                                                       
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                       
+                        <handNote scope="sole">Cursive  Hebrew  script  in Italian and hand with cursive Roman script.</handNote>
+                    </handDesc>
+                    
+                    <additions></additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Bound in cardboard covered with marble paper an leather spine with  words MEDICAL MS. HEBREW in gold and Roman script</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Italy</country>,
+                            <region>Verona</region>,
+                             </origPlace>
+                        <origDate calendar="Gregorian">1646</origDate>
+                       
+                    </origin>
+                  
+                    <acquisition>Purshased from Steven's <date>20.10.1930</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                               
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <head><!-- use to provide a heading if required, otherwise delete --></head>
+                        <bibl><!-- insert bibliography, links to online resource, etc., otherwise delete--></bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+            <change when="2020-07-22" who="#AP">Minor edits.</change>
+            <change when="2020-07-20" who= "#OC">Populated template.</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

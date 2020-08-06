@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_8">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_8</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020">Template and TEI Encoding</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew_A_8</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">Hebrew A 8</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b14828042</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Laws relating to the ritual slaughter of animals.</summary>
+                   
+                    <textLang mainLang="ji" source="IANA">Yiddish.</textLang>
+                    
+                    <msItem n="1" xml:id="Hebrew_A_8_1">
+                        
+                        <title>Precepts of slaughter. <!-- Hebrew/Yiddish title in catalogue - add later --></title>
+                        
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <extent>16 ff. <note>3 preliminary and 3 final fly leaves. Ff. 1; 16 and all versos blank.</note>
+                                <dimensions unit="cm" type="leaf">
+                                    <dim type="diameter">8.6</dim>
+                                    <dim type="length">13.7</dim>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="14">
+                                <note>14 lines to a page, 9 lines on f. 15r.</note>
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole" script="capitalsSquare">Square script vocalised.</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote></decoNote>
+                    </decoDesc>
+                    
+                    <additions></additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Bound in brown leather with name of previous owner on the front cover in Roman script in gold.</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate notBefore-custom="18th_century" notAfter-custom="19th_century">Ca. 18th-19th century.</origDate>
+                    </origin>
+                    <provenance>Previously owned by <persName role="owner">Godfrey Barnet</persName> (front cover).</provenance>
+                    <provenance>Inside end cover the name of another owner appears in Roman script <persName role="owner">Edward Datton, Esqre</persName>, Dunkirk House.</provenance>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020" who="#AP">Added data from the catalogue.</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

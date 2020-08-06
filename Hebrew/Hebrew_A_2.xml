@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_2">
+    <!-- Give xml:id in the  format  'Hebrew_A_[MS number]' -the file name should be identical -->
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_2</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020">May 19, 2020</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OC">
+                <resp when="2020">June 06, 2020</resp>
+                <persName>Odalys Caballero</persName>
+            </respStmt>
+             </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="Hebrew_A_2"></idno>
+            <idno type="catalogue"> Catalogue of  Hebrew Manuscripts in the Wellcome Institute,  London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew A 2</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b148227384</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>"Marriage contracts", between Shlomo b. Isaac b.Samuell b. Isaac b. Samuel nahon and Donna, daugther of Hillel b. moses b. Shmul. Dated <date>5598/ 1837</date></summary> 
+                   
+                    <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                    
+                    <msItem n="" xml:id="Hebrew_A_2_1">
+                       
+                     
+                        <title >Marriage contracts<!-- Hebrew tittle in catalogue will be added later  --></title>
+                        
+                          <note>Oriental cursive hand; decorated  in green and orange depicting birds , fruit and foliage.</note>
+                    </msItem>
+                    
+                   
+                    
+                </msContents>
+                
+                <physDesc>
+                    
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="vellum">
+                                                    
+                            <support>vellum</support>
+                            <extent> type="1 f. "
+                                <dimensions unit="cm" >
+                               
+                                    <dim type="diameter">34.5 cm</dim>
+                                    <dim type="length">46 cm</dim>
+                                    
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout  writtenLines="31">
+                                                                  
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                                   
+                        
+                    </objectDesc>
+                    <handDesc>
+                       
+                        <handNote >Oriental cursive line</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote>Decorated  in green and orange depicting birds , fruit and foliage</decoNote>
+                    </decoDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    
+                    <origin>
+                        <origDate>1837</origDate>
+                    </origin>
+                    
+                    <provenance> Unknown</provenance>
+                                    
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                                
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                          
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <head><!-- use to provide a heading if required, otherwise delete --></head>
+                        <bibl><!-- insert bibliography, links to online resource, etc., otherwise delete--></bibl>
+                    </listBibl>
+                                
+                            </source>        
+                                
+                </recordHist>
+              </adminInfo>     
+               
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+            <change when="2020-06-26" who="#AP">Minor edits.</change>
+            <change when="2020" who="#OC">Populated template based on Allen catalogue</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

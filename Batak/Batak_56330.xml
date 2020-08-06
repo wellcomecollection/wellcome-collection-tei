@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Batak_56330">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Batak 56330</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="RS">
+                    <resp when="1977">Cataloguer</resp>
+                    <persName>Ricklefs and Voorhoeve</persName>
+                </respStmt>
+                <respStmt xml:id="BLE">
+                    <resp when="2020-02-21">TEI Encoder</resp>
+                    <persName>Branwen Lloyd-Evans</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Batak 56330</idno>
+                <idno type="catalogue">Ricklefs and Voorhoeve</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Batak 56330</idno>
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>Pustaha. Poda ni kata-kata ni pagar debata kelung, written by <persName>Si Ngakat</persName> 
+                            of the clan <orgName>Karo-karo Sitĕpu</orgName></summary>
+
+                        <textLang mainLang="btx">Karo-Batak</textLang>
+
+                        <msItem xml:id="Wellcome_Batak_56330_1">
+
+                            <title>Pustaha. Poda ni kata-kata ni pagar debata kelung</title>
+
+                            <textLang mainLang="btx">Karo-Batak</textLang>
+                            <note>with black drawings</note>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="book">
+
+                            <supportDesc>
+                                <support>Two wooden covers, carrying string, and two rattan rings.
+                                </support>
+                                <extent>52 leaves
+                                    <dimensions unit="cm">
+                                        <height>12 cm</height>
+                                        <width>10 cm</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                           
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote>irregular Karo-Batak script</handNote>
+                        </handDesc>
+                        
+                    </physDesc>
+                
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-02-21" who="#BLE">
+                Created XML file</change>
+        </revisionDesc>
+
+    </teiHeader>
+    
+    <facsimile>
+        <surface></surface>
+        <!-- For future addition -->
+    </facsimile>
+   
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+    </text>
+
+</TEI>

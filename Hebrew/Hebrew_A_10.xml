@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_10">
+  
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_10</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OC">
+                <resp when="2020-06-15"></resp>
+                <persName>Odalys Caballero></persName>
+          
+        </respStmt>
+         </titleStmt>  
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew_A_10</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew A10 </idno>
+                     <altIdentifier type="Sierra">
+                         <idno>b32274567</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>"Services of  Hanukah". Blessing recited before kindling the lights the first evening and after the kindling of the first light at the feast of Hanukah</summary>
+                    
+                    <msItem n="" xml:id="Hebrew_A_10.1">
+                        <locus><!-- Give the locations for the item, if available --></locus>
+                        
+                        <title >Services for Hanukah <!-- Hebrew title in catalogue will be added later  --></title>
+                                               
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="es" source="IANA">Spanish<note>One line in Spanish language</note></textLang>
+                        
+                        
+                    </msItem>
+                    
+                    
+                    
+                </msContents>
+                
+                <physDesc>
+                    
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper ">
+                                                    
+                            <support>thick paper</support>
+                            <extent > type="1f."
+                                <dimensions unit="cm">
+                               
+                                    <dim type="diameter">25.7 cm</dim>
+                                    <dim type="length">35.2 cm</dim>
+                                    
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="11">
+                                                                    
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote> Square script vocalised with one line in Spanis language written in Roman script><note>On either side of the Menorah  are written a prayer and Psalm 67. The  Menorah itself bears the text of Psalm 30 on its branches.</note>
+                        </handNote>
+                        
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote>Decorated with blue and pink with drawing of the Menorah </decoNote>
+                    </decoDesc>
+                    
+                    <additions></additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p></p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country><!-- insert --></country>,
+                            <region><!-- insert --></region>,
+                            <settlement><!-- insert --></settlement>,
+                            <orgName><!-- insert --></orgName>
+                        </origPlace>
+                        <origDate>1801</origDate>
+                     
+                    </origin>
+                    <provenance><!-- insert, otherwise delete --></provenance>
+                    
+                    <acquisition>Purchased for Simpson's<date>13.8.1909</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                            </source>
+                            </recordHist>
+                       
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                         <head><!-- use to provide a heading if required, otherwise delete --></head>
+                        <bibl><!-- insert bibliography, links to online resource, etc., otherwise delete--></bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+         <change when="2020-06-26" who="#AP">Minor edits.</change>
+        <change when="2020-06-15" who= "#OC">Populated template.</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
