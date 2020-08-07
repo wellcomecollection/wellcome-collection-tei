@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_22">
+   
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS Hebrew A 22</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VW">
+                <resp when="2020-07-09">TEI Encoder</resp>
+                <persName>Victoria Webb</persName>
+            </respStmt>
+        
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew_A_22</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew A22</idno>
+                    <idno type="Sierra">b32274671</idno>
+
+                    
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Seventeenth century unbound folios with a fragment containing charms and prescriptions for complaints including blindness (f.1r), headache (f.1v), evil eye (f.2r)</summary>
+                   
+                    
+                    <msItem n="1" xml:id="Hebrew_A_22_1">
+                 
+                        
+                      
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="spq" source="IANA">Spanish</textLang>
+                        <incipit><!-- listed in Hebrew in Nigel Allen catalogue --> <locus></locus>
+                   
+                        </incipit>
+
+                        
+                    </msItem>
+                    
+                    
+                </msContents>
+                
+                <physDesc>
+                    
+                    <objectDesc form="folio">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>paper folios unbound</support>
+                            <extent>4 leaves
+                                <dimensions unit="cm" type="leaves">
+                               
+                                    <dim type="height">14.5</dim>
+                                    <dim type="width">9.6</dim>
+     
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout>17-19 lines to a page
+                            <note>ff. 3r-4v are blank</note>
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote>Includes some Spanish in cursive script</handNote>
+                    </handDesc>
+                    
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <origDate>ca. 17th century</origDate>
+                           
+                        </origPlace>
+                        
+                    </origin>
+               
+
+                    <acquisition>Acquisition unknown</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                               
+                            </source>
+                        </recordHist>
+                       
+                    </adminInfo>
+                   
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-07-09"></change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+            <change when="2020-07-14" who="#VW">Populated with data from Allan catalogue.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
