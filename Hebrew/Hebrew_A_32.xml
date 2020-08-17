@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_32">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Hebrew A 32</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NA">
+                    <resp when="1982">Cataloguer</resp>
+                    <persName>Nigel Allan</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-05-19">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="MM">
+                    <resp when="2020-08-17">TEI Encoder</resp>
+                    <persName>Miten Mistry</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID"></idno>
+                <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Hebrew A32</idno>
+                        <altIdentifier type="bnumber">
+                            <idno>b32274774</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Fragment of <!-- 'Arbaab turim' correct accents need to be added MM-->, pt. iii<!-- 'Eben haezer' correct accents need to be added MM --> containing part of 
+                            the table of contents and sections 2-122. Dated ca. <date>XVII</date>th cent.</summary>
+                        
+                                               
+                        <msItem xml:id="Hebrew_A32_1">
+                             <author>Jacob b. Asher of Toledo</author>                               
+                            <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                            <textLang otherLangs="es" source="IANA">Spanish</textLang>
+                            
+                            <incipit>Begins: <!-- some hebrew text that I dont know how to add MM --></incipit>
+                            
+                            <explicit>Ends: <!-- some hebrew text that I dont know how to add MM --></explicit>    
+                            <note><orgName>The Wellcome Institute for the History of Medicine</orgName> possesses a complete copy of 
+                                the work <!-- 'Arbaab turim' correct accents need to be added MM-->, printed in <date>1558</date> at <settlement>Cremona</settlement></note>
+                            <note>Gaps following ff. 1<hi rend="superscript">v</hi>; 2<hi rend="superscript">v</hi>; 18<hi rend="superscript">v</hi>; 36<hi rend="superscript">v</hi></note>                            
+                            <note>The first complete edition of <!-- 'Arbaab turim' correct accents need to be added MM-->was printed in <date>1475</date> at 
+                                <settlement>Piove di Sacco</settlement>. An undated edition of 
+                                <!--'Tur 'eben haezer' correct accents need to be added MM--> was published separately ca. <date>1470</date> in <settlement>Guadalajara</settlement>.</note>
+                        </msItem>
+                        
+                   
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                          <objectDesc form="other">        
+                              
+                            <supportDesc material="paper">                                                               
+                                <extent>136 folios
+                                    <dimensions unit="cm" type="folio">                                        
+                                        <dim type="diameter">17 cm</dim>
+                                        <dim type="length">23 cm</dim>
+                                    </dimensions>
+                                </extent>   
+                                <condition>Evidence of water staining on many folios.</condition>
+                                                           </supportDesc>
+                            
+                            <layoutDesc><layout writtenLines="24">20-24 lines to a page</layout></layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote>Cursive Spanish hand</handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        
+                        <additions></additions>
+                        
+                        <bindingDesc>
+                            <binding>
+                                <p>Unbound</p>
+                            </binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        
+                        <acquisition>Purchased from Hodgson's, <settlement>London</settlement>, <date>13/15.5.1931</date></acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                        <author>Nigel Allan</author>
+                                        <date>1982</date>
+                                        <note>Pp. 193-220.</note>
+                                    </bibl>
+                                    <!-- Might include link to catalogue source -->
+                                        </source>
+                            </recordHist>
+                            
+                        </adminInfo>
+                                           <listBibl>
+                            <head>Bibliographical abbreviations</head>
+                            <bibl>
+                                <title>A concise catalogue of the Hebrew printed books in the Bodleian Library</title>
+                                <author>A. E. Cowley</author>
+                                <date>1929</date>
+                                <placeName>Oxford</placeName>
+                                <abbr>Cowley</abbr>
+                                <note>288 f.</note>
+                            </bibl>
+                            <bibl>
+                                <title>Catalogue of the Hebrew and Samaritan manuscripts in the British Museum, Pts. 1-4</title>
+                                <author>G. Margoliouth</author>
+                                <date>1899</date>
+                                <placeName>Oxford</placeName>
+                                <abbr>Margoliouth</abbr>
+                                <note>nos. 543-550</note>
+                            </bibl>
+                            <bibl>
+                                <title>Catalogue of Hebrew manuscripts in the Bodleian Library</title>
+                                <author>A. Neubauer; Vol. 2 with A. E. Cowley.</author>
+                                <date>Vol 1, 1886; Vol 2, 1906.</date>
+                                <placeName>Oxford</placeName>
+                                <abbr>Neubauer</abbr>
+                                <note>nos. 697, 711, 712</note>
+                            </bibl>
+                            <bibl>
+                                <title>Catalogue of the Hebrew books in the Library of the British Museum</title>
+                                <author>J. Zedner</author>
+                                <date>1867</date>
+                                <placeName>London</placeName>
+                                <abbr>Zedner</abbr>
+                                <note>296-298</note>
+                            </bibl>
+                        </listBibl>
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+                <revisionDesc>
+                    <change when="2020-08-17" who="#MM">Created XML file</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
