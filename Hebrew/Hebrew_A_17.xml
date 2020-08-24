@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_17">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew A 17</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="NC">
+                <resp when="2020-08-20">TEI Encoder</resp>
+                <persName>Nicola Cook</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID"></idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew A17</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32274634</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Composite volume containing 6 items. Dated ca. <date>XVII</date>/<date>XVIII</date>th cent.</summary>
+                    
+                    <msItemStruct><locus>ff. 18<hi rend="superscript">r</hi> &amp; <hi rend="superscript">v</hi>; 22<hi rend="superscript">r</hi> &amp; <hi rend="superscript">v</hi>; 33<hi rend="superscript">r</hi>-62<hi rend="superscript">v</hi>; 68<hi rend="superscript">r</hi>-70<hi rend="superscript">v</hi>are blank</locus></msItemStruct> <!-- I don't know if this is the right element or the best place to put this! -->
+                    
+                    <msItem n="1" xml:id="Hebrew_A_17_1">
+                        
+                        <locus from="1r" to="17v">ff. 1<hi rend="superscript">r</hi>-17<hi rend="superscript">v</hi></locus>
+                        <title>Medication and remedies for all kinds of humanity on the earth</title> <!-- Add Hebrew text at a later date -->
+                        <note>141 prescriptions preceded by index on the preliminary fly leaf</note>
+                
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>                    
+                        
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Hebrew_A_17_2">
+
+                        <locus from="19r" to="19v">ff. 19<hi rend="superscript">r</hi> &amp; 19<hi rend="superscript">v</hi></locus>
+                        <title>Good for reciting in the month Elul and particularly during the repentance days</title> <!-- Add Hebrew text at a later date -->
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>  
+                    
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Hebrew_A_17_3">
+
+                        <locus from="20r" to="21v">ff. 20<hi rend="superscript">r</hi>-21<hi rend="superscript">v</hi></locus>
+                        <title>Book of earthquakes and thunder</title> <!-- Add Hebrew text at a later date -->
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>  
+
+                    </msItem>
+                    
+                    <msItem n="4" xml:id="Hebrew_A_17_4">
+                        
+                        <locus from="23r" to="27r">ff. 23<hi rend="superscript">r</hi>-27<hi rend="superscript">r</hi></locus>
+                        <title>An awesome prayer for recitation in the month Elul</title>
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>  
+                        
+                    </msItem>
+                    
+                    <msItem n="5" xml:id="Hebrew_A_17_5">
+                        
+                        <locus from="27v" to="32v">ff. 27<hi rend="superscript">v</hi>-32<hi rend="superscript">v</hi></locus>
+                        <note>Additional notes relating to astrology with magical prescriptions</note>
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        
+                        <incipit>Begins: <!-- Add Hebrew text later --> </incipit>
+                        
+                        <decoNote>Cabbalistic diagram showing the sefirot in relation to one another <locus>f. 31<hi rend="superscript">r</hi></locus></decoNote>
+                        
+                    </msItem>
+                    
+                    <msItem n="6" xml:id="Hebrew_A_17_6">
+                        
+                        <locus from="63v" to="67v">ff. 63<hi rend="superscript">v</hi>-67<hi rend="superscript">v</hi></locus>
+                        <note>Other similar notes in Italian including a specific against the pestilence as experienced in <placeName>England</placeName> in <date>1348</date></note>
+                        
+                        <textLang mainLang="it" source="IANA">Italian</textLang>  
+                        
+                        <incipit>Begins: Pronostico perpetua della [ ] di Marzo per saper d'anno in anno qual ...</incipit>
+                               
+                    </msItem>
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="other">                                                
+                            <support>paper</support>
+                            <extent>70 ff. ; 1 preliminary and 1 final fly leaf
+                            <damage>Indefinite number of folios torn out following <locus>f. 33<hi rend="superscript">v</hi></locus></damage>
+                                
+                                <dimensions unit="cm">                               
+                                    <dim type="height">13.8</dim>
+                                    <dim type="width">8.5</dim>
+                                </dimensions>
+                            
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                          
+                            <layout writtenLines="32">10-32 lines to a page</layout>                                                       
+                                                          
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+
+                    <handDesc>
+                          <handNote scope="minor">Roman script of a different hand at <locus>ff. 63<hi rend="superscript">v</hi>-67<hi rend="superscript">v</hi></locus></handNote>
+                    </handDesc>
+
+                    <scriptDesc>
+                        <scriptNote><p>Italian cursive script of different hands</p></scriptNote>
+                    </scriptDesc>
+                    
+                    <bindingDesc>
+                        <binding><p>Bound in leather with letters A D N in Roman script on spine</p></binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate>Circa. 17-18th Century</origDate>
+                    </origin>
+                    <acquisition>Purchased from Steven's 28.10.1930</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Add at a later date --></p>
+                        </availability> 
+                    </adminInfo>
+                                    
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+            
+        <revisionDesc>
+        <change when="2020-08-24" who="#NC">Deleted comments and added scriptNote</change>
+        <change when="2020-08-20" who="#NC">TEI file created.</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
