@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_14">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS Hebrew A 14</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VW">
+                <resp when="2020-08-26">TEI Encoder</resp>
+                <persName>Victoria Webb</persName>
+            </respStmt>
+
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew_A_14</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew A14</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32274609</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Composite volume with instructions on making garments, remedies and medical treatments. Dated ca.<date>XVII</date>/<date>XVIII</date>th cent.</summary>
+                   
+                    
+                    
+                    <msItem n="1" xml:id="Hebrew_A_14_1">
+                        
+                        <locus from="1v" to="3v">ff.</locus>
+                        <title>28 instructions for making different types of garment.</title><!-- Add Hebrew text at a later date -->
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="it" source="IANA">Italian</textLang>
+                        
+                  </msItem>
+                    
+                    <msItem n="2" xml:id="Hebrew_A_14_2">
+                        
+                        <locus from="4r" to="10ar">ff.</locus>
+                        <title>Collection of remedies</title><!-- Add Hebrew text at a later date -->
+                        <note>131 remedies followed by table of contents</note>
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="it" source="IANA">Italian</textLang>
+                    
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Hebrew_A_14_3">
+                        
+                        <locus from="10ar" to="19v">ff.</locus>
+                        <title>Miscellaneous medical treatments</title><!-- Add Hebrew text at a later date -->
+                        <note>Treatments include purgatives (f. 14v), healing of scabs (f. 16r), love filtre (f. 19r)</note>
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="it" source="IANA">Italian</textLang>
+                    </msItem>
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="folio">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>Unbound paper folio</support>
+                            <extent>19 ff.
+                                <damage>Water staining at top of leaves has rendered the text on many of them illegible</damage>
+                                <dimensions unit="cm" type="leaves">
+                               
+                                    <dim type="height">21.5</dim>
+                                    <dim type="width">14.5</dim>
+                                    
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="54">29-54 lines to a page. ff. 1r; 16v; 17r-19r are blank                                
+                            </layout>
+                            
+                                                        
+                        </layoutDesc> 
+                     
+                    </objectDesc>
+
+                    <scriptDesc>
+                        <scriptNote><p>Italian cursive script of different hands</p></scriptNote>
+                    </scriptDesc>
+                    
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Unbound</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>>
+                        <origDate>Circa. 17-18th Century</origDate>
+                        <!-- use additional origPlace and origDate elements if necessary -->
+                    </origin>
+
+                    <acquisition>Purchased from Sotheby's 14.11.1927</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                                
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p><!-- Add at a later date --></p>
+                        </availability> 
+                        
+                    </adminInfo>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-08-26" who="#VW">TEI file created.</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
