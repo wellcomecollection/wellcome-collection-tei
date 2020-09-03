@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_16">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_16</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="TTT">
+                <resp when="2020-08-06">TEI Encoder</resp>
+                <persName>The TEI Team</persName>
+            </respStmt>
+            <respStmt xml:id="LS">
+                <resp when="2020-08-27">TEI Encoder</resp>
+                <persName>Lara Salha</persName>
+            </respStmt>    
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew A16</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew A12</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b3227462</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>                                       
+                    <msItem n="1" xml:id="Hebrew_A_16_1">
+                        <textLang mainLang="ar" source="IANA">Arabic</textLang>
+                        <textLang otherLangs="he" source="IANA">Hebrew</textLang>
+                        <author xml:lang="en">'Alī b. al-'Abbās al Majūsī</author>
+                        <title>Fragment of Kāmil as-Sinā at-tibiyya known as Al-Malakī or "the complete book of medicine"</title>
+                        
+                        <note>The manuscript contains treatise 2 chapters 15 and 16 and treatise 3 chapters 1-22; 29-31.</note>
+                        <incipit>Begins:<!-- Hebrew text to be added -->... ends: <!-- Hebrew text to be added -->...
+                        </incipit>
+                        
+                    </msItem>                   
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">
+                            <extent><note>40ff.</note>
+                                <dimensions unit="cm" type="leaves">
+                                    <dim type="diameter">21</dim>
+                                    <dim type="length">15.5</dim>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="17 21">
+                                17-21 lines to a page                                       
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="major">cursive script/hand</handNote>
+                        <handNote script="Hebrew">This manuscript's language is described as "Judaeo-Arabic" which is Classical Arabic written in the Hebrew script.</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote></decoNote>
+                    </decoDesc>
+                    
+                    <additions></additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Unbound</p>
+                        <condition>Manuscript incorrectly put together, i.e treatise 2 end of ch.29-beginning of ch.31 (f.I recto and verso); treatise 2 end of ch.14-16 followed by title for treatise 3 (ff.2 recto to 10 verso); index to treatise 3 (f.11 rector and verso); treatise 3 ch.1-22 (ff.12 recto to 40 verso).</condition>
+                        <condition>Water stained in several places but text legible.</condition>    
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate calendar="Gregorian">circa 16th or 17th century</origDate>
+                    </origin>
+                    <acquisition>Purchased from Hodgson's, London, 22 February 1933.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="restricted"><p>Available for manual request at Wellcome Library.</p>
+                        </availability> 
+                    </adminInfo>
+                    <listBibl>
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                            <author>A. Z. Iskandar</author>
+                            <date>1967</date>
+                            <placeName>London</placeName>
+                            <abbr>Iskandar</abbr>
+                        </bibl>                    
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85083064">Medicine</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+            <change when="2020-09-02" who="LS">Encoded the manuscript into TEI template.</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
