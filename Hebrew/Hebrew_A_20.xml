@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 09.07.20 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_20">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew A 20</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2020-08-26">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Wellcome MS Hebrew A20</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew A20</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32274658</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>17th century composite volume containing two works.</summary>
+                 
+                    <msItem n="1" xml:id="Hebrew_A_20_1">
+                        <locus from="8r" to="45v">8<hi rend="superscript">r</hi>-45<hi rend="superscript">v</hi></locus>
+                        <title>Abbreviaturum Hebraicarum libellus [Handbook of Hebrew abbreviations]</title>
+                        <note>Contains Hebrew abbreviations with explanations in Latin.</note>
+                        
+                        <textLang mainLang="la" source="IANA">Latin</textLang>
+                        <textLang otherLangs="he" source="IANA">Hebrew</textLang>       
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Hebrew_A_20_2">
+                        <locus from="52r" to="76r">52<hi rend="superscript">r</hi>-76<hi rend="superscript">r</hi></locus>
+                        <title>De dictionibus Graecis Latinis et Gallicis quae profectae sunt ab Hebraea lingua [Concerning Greek, Latin and French words taken from the Hebrew language]</title>
+                        <note>Derivatives from Hebrew words arranged according to the Hebrew alphabet.</note>
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="la" source="IANA">Latin</textLang>
+                        <textLang otherLangs="el" source="IANA">Greek</textLang>
+                        <textLang otherLangs="fr" source="IANA">French</textLang>
+                    </msItem>
+                    
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="paper">                       
+                            <support>Paper.</support>
+                            <extent>88 folios. <note>The following folios are blank: 1r-7vl 46r-51v; 54; 56v; 57; 60; 61r; 62r; 63r; 64r; 65; 67v; 71; 73r; 76v-88v.</note>
+                                <dimensions unit="cm" type="paperSheet">
+                                    <dim type="diameter">9.5</dim>
+                                    <dim type="length">13</dim>
+                                </dimensions>
+                            </extent>   
+                            <condition><p>Various parts of the manuscript show evidence of worming.</p></condition>
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            <layout writtenLines="20">
+                                2-20 lines to a page.                                      
+                            </layout>                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole" script="humanistica">Square Hebrew script vocalised with Roman script in fine humanist hand.</handNote>
+                    </handDesc>
+
+                    <bindingDesc>
+                        <binding>
+                            <p>Bound in vellum with title on front cover and leather spine bearing in gold the Roman letters ABR HEB and decoration.</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                    
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <p>Place of origin unknown.</p>
+                        <origDate calendar="Gregorian" notBefore="1550" notAfter="1750">circa 17th century</origDate>
+                    </origin>
+                    <provenance notBefore="1881" notAfter="1883">Previously owned by <persName>A. J. V. Radford</persName> and <persName>E. W. Narrison</persName>, <settlement>Paris</settlement>, <country>France</country>
+                        in <date>1882</date>. This information is recorded in <locus>f.1r</locus>.</provenance>
+                    <acquisition>Purchased from Steven's on <date>3rd December 1918.</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        <revisionDesc>
+        <change when="2020-08-26" who="#VS">Added data from the catalogue.</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+    </body>
+
+    </text>    
+
+</TEI>
