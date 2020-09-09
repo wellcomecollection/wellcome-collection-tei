@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 09.07.20 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_7">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_7</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="YK">
+                <resp when="2020-08-06">TEI Encoder</resp>
+                <persName>Yoshika Kobayashi</persName>
+            </respStmt>
+           
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew_A7</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew A7</idno>
+                    <altIdentifier type="sierra">
+                        <idno>b14827931</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Composite volume containing 2 items. Dated 5478/1718
+                    </summary>
+                    
+                    <msItem n="1" xml:id="Hebrew_A_7_1">
+                        <locus from="2r" to="13r">ff. 2<hi rend="superscript">r</hi>-13<hi rend="superscript">r</hi></locus>
+                        <title key="">Questions relating to the hygienic slaughter of animals</title>
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="it" source="IANA">Italian</textLang>
+                        <incipit>Begins:<!-- Hebrew sentence in catalogue will be added later  --></incipit>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Hebrew_A_7_2">
+                        <locus from="17r" to="30r">ff. 17<hi rend="superscript">r</hi>-30<hi rend="superscript">r</hi></locus>
+                        <title key="">Means of inspection</title>
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="it" source="IANA">Italian</textLang>
+                        <author><persName key="person_171480148">Jacob Weil</persName>(<locus>f. 30<hi rend="superscript">r</hi></locus>)</author>               
+                    </msItem>
+                </msContents>
+                
+                <physDesc>
+                    
+                    <objectDesc form="codex">
+                            <supportDesc material="paper">
+                            <support>rough paper</support>
+                            <extent>ff.33
+                                <note><locus>ff.1, 13<hi rend="superscript">v</hi>, 14, 15<hi rend="superscript">v</hi>, 16, 30<hi rend="superscript">v</hi>, 31-33 are blank</locus></note>
+                                <dimensions unit="cm" type="folio">
+                                    <dim type="diameter">14</dim>
+                                    <dim type="length">10</dim>
+                                </dimensions>
+                            </extent>                                         
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="21">
+                                14-21 lines to a page                                       
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote>Italian cursive script of different hands</handNote>
+                        <handNote>Copied in Ferrara with "David Abram Markariah and his brother" written in cursive Hebrew script (<locus>f. 30<hi rend="superscript">r</hi></locus>)</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote><locus>f.15<hi rend="superscript">r</hi></locus>Anatomical diagram of the lungs of an animal hung from the feet</decoNote>
+                    </decoDesc>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Bound in paper boards with linen tie</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate calendar="Jewish">5478</origDate>
+                        <origDate calendar="Georgian">1718</origDate>
+                    </origin>
+                    <provenance>unknown</provenance>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+            <change when="2020-09-03" who="#YK">Created XML file</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
