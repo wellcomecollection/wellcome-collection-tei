@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 09.07.20 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_19">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew A 19</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2020-07-10">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Wellcome MS Hebrew A19</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew A19</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b28818088</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Collection of 206 prescriptions with table of contents, magical charms, folk medicine and nursery rhymes.</summary>
+                   
+                    <textLang mainLang="yi" source="IANA">Yiddish</textLang>
+                    
+                    <msItem n="1" xml:id="Hebrew_A_19_1">
+                        <note>206 prescriptions with table of contents, magical charms, folk medicine and nursery rhymes.</note>
+                             
+                    </msItem>                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="codex">
+                        <supportDesc material="paper">                       
+                            <support>Paper.</support>
+                            <extent>54 folios. <note>The following folios are blank: 31; 32v; 33v; 34; 38v; 39; 40v; 41; 42r-44v; and 45v-48r.</note>
+                               <note>89 folios are originally numbered in Hebrew letters but an indefinite number following folios 25v; 31v; and 34v have been torn out.</note>
+                                <dimensions unit="cm" type="paperSheet">
+                                    <dim type="diameter">9.5</dim>
+                                    <dim type="length">15.5</dim>
+                                </dimensions>
+                            </extent>                                               
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            <layout writtenLines="31">
+                                21-31 lines to a page.                                      
+                            </layout>                        
+                        </layoutDesc> 
+                    </objectDesc>
+                    
+                    <handDesc><handNote scope="sole" script="cursiva">German cursive script of different hands.</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote>Inside front cover has a book-plate depicting a phoenix rising from ashes with the letters INRI printed above in Roman script.</decoNote>
+                    </decoDesc>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Bound in boards with leather spine.</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <p>Place of origin unknown.</p>
+                        <origDate calendar="Gregorian" notBefore="1600" notAfter="1777">17th or 18th Century</origDate>
+                    </origin>
+                    <provenance notBefore="1777" notAfter="1877">Previously owned by <persName>Moysess Liwir</persName> the Jew, born in <settlement>Metz</settlement>, <country>France</country>
+                        in <date>1777</date>. This information is recorded in <locus>f.30</locus>.</provenance>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                                <bibl><note>A digitised version of the manuscript is available <ref target="https://wellcomelibrary.org/item/b28818088">here</ref>.</note></bibl>
+                              
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p></p> 
+                        </availability>
+                    </adminInfo>
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-07-17" who="#VS">Added data from the catalogue.</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+    </body>
+
+    </text>    
+
+</TEI>
