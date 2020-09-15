@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_12">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_12</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="TTT">
+                <resp when="2020-08-06">TEI Encoder</resp>
+                <persName>The TEI Team</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew A12</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Hebrew A12</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32274580</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Composite manuscript, including extracts from and comments on <persName key="person_44299175">Galen</persName> and <persName key="person_89770781">Avicenna</persName>. 
+                        For pt. 2 see <ref>Steinschneider, pp. 692, 777.</ref> </summary>
+                   
+                    <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                    
+                    <msItem n="1" xml:id="Hebrew_A_12_1">
+                        <locus from="1" to="1">F. 1 defective.</locus>
+                        <title>Untitled work on fever.</title>
+                        
+                        <note>Dicta relating to fever with mention of <persName key="person_44299175">Galen</persName> and Isaac, possibly Israel.</note>
+                        
+                        <incipit>Begins... <!-- Hebrew text to be added -->
+                        </incipit>
+                        
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Hebrew_A_12_2">
+                        <locus from="2r" to="7v">2<hi rend="superscript">r</hi>-7<hi rend="superscript">v</hi></locus>
+                        <title>Gleanings from <persName key="person_98417711">Gentilis de Foligno's</persName> extracts from <persName key="person_89770781">Avicenna's</persName> <title key="work_305992976">Canon</title>, Book 4.</title>
+                        
+                        <incipit>Begins... <!-- Hebrew text to be added -->
+                        </incipit>
+                        
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Hebrew_A_12_3">
+                        <locus from="8r" to="20v">8<hi rend="superscript">r</hi>-20<hi rend="superscript">v</hi>.</locus>
+                        <title>Questions on fever quoting <persName key="person_89770781">Avicenna</persName> and <persName key="person_44299175">Galen</persName>.</title>
+                        
+                        <incipit>Begins... <!-- Hebrew text to be added -->
+                            
+                           <note>Gap following ff. <locus>9</locus> and <locus>20</locus>.</note>
+                        </incipit>
+                        
+                    </msItem>
+                    
+                    <msItem n="4" xml:id="Hebrew_A_12_4">
+                        <locus from="21r" to="26v">21<hi rend="superscript">r</hi>-26<hi rend="superscript">v</hi>.</locus>
+                        <title>Questions on <persName key="person_89770781">Avicenna's</persName> <title key="work_305992976">Canon</title>, Book 1.</title>
+                        
+                        <incipit>Begins... <!-- Hebrew text to be added -->
+                            
+                            <note>Gap following f. <locus>24</locus>.</note>
+                        </incipit>
+                        
+                    </msItem>
+                    
+                    <msItem n="5" xml:id="Hebrew_A_12_5">
+                        <locus from="27r" to="36v">27<hi rend="superscript">r</hi>-66<hi rend="superscript">v</hi>.</locus>
+                        <title>Questions extracted from <persName key="person_308696533">Maestro Pedro Hispanus</persName>' commentary on <persName key="person_44299175">Galen</persName>'s κατὰ γένος.</title>
+                        
+                        <incipit>Begins... <!-- Hebrew text to be added -->
+                        </incipit>
+                        
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="unknown">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support><!-- Insert prose description --></support>
+                            <extent>36 ff.
+                                <dimensions unit="cm">
+                               
+                                    <dim type="diameter">20 cm</dim>
+                                    <dim type="length">14.5 cm</dim>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="34">
+                                21-34 lines to a page.                                    
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">Cursive Spanish hand</handNote>
+                    </handDesc>
+                    
+                    <additions></additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Unbound.</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country><!-- insert --></country>,
+                            <region><!-- insert --></region>,
+                            <settlement><!-- insert --></settlement>,
+                            <orgName><!-- insert --></orgName>
+                        </origPlace>
+                        <origDate>16th-18th century</origDate>
+                    </origin>
+                    <acquisition>Purchased from Hodgson's, London 19.7.1934</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <!-- The folloing records the bibliographical entries Allan's catalogue refers to - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>                            
+                        <bibl>
+                            <title>Die hebraeischen Übersetzungen des Mittelalters und die Juden als Dolmetscher</title>
+                            <author>M. Steinschneider</author>
+                            <date>1956</date>
+                            <placeName>Graz</placeName>
+                            <abbr>Steinschneider</abbr>
+                        </bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+        <change when=""><!-- Make an entry to record your starting work on the file and then a new <change> for later edits, following the below format --></change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
