@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_13">
+   
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_13</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OC">
+                <resp when="2020-08-12">TEI Encoder</resp>
+                <persName>Odalys Caballero</persName>
+            </respStmt>
+             </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew_A_13</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew A13</idno>
+                     <altIdentifier type="Sierra">
+                         <idno>b32274592 </idno>
+                       
+                         
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary> Composing volume  <note><locus>(ff. 3iv -33r; 35&amp;v) blank</locus></note>
+                        <note><locus>f. 27 is misplaced and shuld follow f. 27 </locus> </note></summary>
+                    
+                    <textLang mainLang="he" source="IANA">Hebrew </textLang>
+                    
+                    
+                          
+                    <msItem n="1" xml:id="Hebrew_A_13_1">
+                    
+                    
+                        <locus from="1r" to="16av">1<hi rend="superscript">r</hi>-16<hi rend="superscript">r</hi>
+                            67 chapters relating to internal disorders procedeed by incomplete table of contents</locus>
+                        
+                        <title key="">untitled</title>
+                        
+                        <incipit>Begins: <!-- Hebrew title in catalogue will be added later  -->> <locus>. (ff. ir-i6av)</locus>
+                            
+                        </incipit>
+                      
+                    
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Hebrew_A_13_2">
+                        
+                        
+                        <locus from="28r" to="-27v">28<hi rend="superscript">r</hi>-27<hi rend="superscript">r</hi>>
+                            26 chapters relating to external disorders including wounds and bruises preceded by table of contents. </locus>
+                        
+                         <title key="">untitled></title>
+                        
+                        
+                        <incipit>Begins: <!-- Hebrew title in catalogue will be added later  --><locus> (ff. i6bv-27v)</locus>
+                            
+                        </incipit>
+                                               
+                        
+                                           
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Hebrew_A_13_3">
+                        
+                        
+                        <locus from="28r" to="31r">28<hi rend="superscript">r</hi>-31<hi rend="superscript">r</hi>>
+                            General medical treatise</locus>
+                       
+                        <title key="">Untitled</title>
+                        
+                            
+                        <incipit>Begins: <!-- Hebrew title in catalogue will be added later  -->> <locus>.  (ff. 28r-3ir))</locus>
+                          
+                        </incipit>
+                        
+                        
+                        
+                    </msItem>
+                    
+                    <msItem n="4" xml:id="Hebrew_A_13_4">
+                        
+                         <locus> "f.34r&amp;v"; Fragment containing medical recipes.</locus>
+                        
+                          <title key="">Untiltled</title>
+                        
+                        <incipit>Begins: <!-- Hebrew title in catalogue will be added later  --> <locus>"f.34r&amp;v"</locus>
+                           
+                        </incipit>
+                                                
+                    </msItem>
+                    </msContents>            
+                   
+                                                                               
+                 
+                <physDesc>
+                                                       
+                       <objectDesc form="unkown">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>composite volume</support>
+                            <extent>35 ff.
+                                <dimensions unit="cm" type="leaf">
+                               
+                                    <dim type="width">14.5 cm</dim>
+                                    <dim type="length">21.5 cm</dim>
+                                   
+                                </dimensions>
+                            </extent>
+                            <condition>Water staining at the top of the leaves has rendered the text of many folia illegible.</condition>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="65"><note> 15-65 lines to a page </note>
+                                                                  
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        
+                        <handNote scope="sole">Cursive  italian hand with marginal glosses</handNote>
+                    </handDesc>
+                    
+                                        
+                                    
+                    <bindingDesc>
+                        <binding>
+                            <p>unbound</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country><!-- insert --></country>,
+                            <region><!-- insert --></region>,
+                            <settlement><!-- insert --></settlement>,
+                            <orgName><!-- insert --></orgName>
+                        </origPlace>
+                        <origDate calendar="Gregorian">ca. 16th/17th cent.</origDate>
+                       
+                    </origin>
+                     <acquisition>Purchased from Sotheby's <date>25.05.1927</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <head><!-- use to provide a heading if required, otherwise delete --></head>
+                        <bibl><!-- insert bibliography, links to online resource, etc., otherwise delete--></bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+         <change when="2020-09-16" who="#AP">Minor edits.</change>
+        <change when="2020-08-14" who="OC">Populated template</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
