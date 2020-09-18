@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 09.07.20 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_B_51">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title> Hebrew_B_51 </title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NA">
+                    <resp when="1982">Cataloguer</resp>
+                    <persName>Nigel Allan</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-05-19">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="MK">
+                    <resp when="2020-09-17">TEI Encoder</resp>
+                    <persName>Miriam Keaveny </persName>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">Wellcome MS Hebrew B51</idno>
+                <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">Wellcome MS Hebrew B51</idno>
+                        <altIdentifier type="bnumber">
+                            <idno>b3249421x</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Biblical Fragment></summary>
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        
+                        <msItem xml:id="Hebrew_B_51_1">
+                            <title key="">Deuteronomy 24:3-26:18 </title>
+                            
+                        </msItem>
+                        
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        
+                        <objectDesc form="other">
+                            
+                            <supportDesc material="leather">
+                                <extent>
+                                    <dimensions unit="cm">  
+                                        <dim type="diameter">52cm</dim>
+                                        <dim type="length">47.5cm</dim>
+                                    </dimensions>
+                                </extent>
+                                <condition> Badly damaged and torn </condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout writtenLines="42" columns='3'> 3 columns; 42 lines                                  
+                                </layout>
+                                
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <provenance>unknown</provenance>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                        <author>Nigel Allan</author>
+                                        <date>1982</date>
+                                        <note>Pp. 193-220.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2020-09-10" who="MK">Created XML file</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
+
