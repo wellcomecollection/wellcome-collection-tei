@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_B_48">
+    
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Hebrew B 48</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NA">
+                    <resp when="1982">Cataloguer</resp>
+                    <persName>Nigel Allan</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-05-19">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="MM">
+                    <resp when="2020-09-29">TEI Encoder</resp>
+                    <persName>Miten Mistry</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Hebrew B48</idno>
+                <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Hebrew B48</idno>                        
+                        <altIdentifier type="bnumber">
+                            <idno>b3249418x</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Mezuzah scroll</summary>        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        
+                        <msItem xml:id="Hebrew_B_48_1">
+                            <title>Mezuzah scroll</title>
+                          
+                            
+                        </msItem>
+                        
+                        
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                 
+                        <objectDesc form="other">
+                            
+                            <supportDesc material="parchment">
+                                
+                                
+                                <extent>
+                                    <dimensions unit="cm">
+                                        
+                                        <dim type="diameter">12 cm</dim>
+                                        <dim type="length">13.5 cm</dim>
+                                        
+                                    </dimensions>
+                                </extent>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout writtenLines="22">22 lines</layout>
+                                
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                      
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <provenance>Unknown</provenance>
+                                    
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                        <author>Nigel Allan</author>
+                                        <date>1982</date>
+                                        <note>Pp. 193-220.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            
+                        </adminInfo>                    
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>       
+        
+        <revisionDesc>
+            <change when="2020-09-29" who="#MM">Created XML file</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
