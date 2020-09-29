@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 09.07.20 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_30">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_30</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="YK">
+                <resp when="2020-09-03">TEI Encoder</resp>
+                <persName>Yoshika Kobayashi</persName>
+            </respStmt>
+            <!-- Add another <respStmt> for every resp -->
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew_A30</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Hebrew A30</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32274750</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Composite volume containing 5 itams. Dated ca. <date>XVIII</date>th cent</summary>
+                    
+                    <msItem n="1" xml:id="Hebrew_A_30_1">
+                        <locus from="1v" to="22v">ff.1<hi rend="superscript">v</hi>-22<hi rend="superscript">v</hi></locus>
+                        <title>Calendar with cardinal points of the year and prayer for protection on those days</title>
+                    
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="jpr" source="IANA">Judeo-Persian</textLang>
+                        <incipit>Begins... <!-- Hebrew text to be added --></incipit>
+                        
+                        <decoNote><locus>ff.13<hi rend="superscript">r</hi></locus> contains magical diagram.</decoNote>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Hebrew_A_30_2">
+                        <locus from="23r" to="46v">ff.23<hi rend="superscript">r</hi>-46<hi rend="superscript">v</hi></locus>
+                        <title>Lots according to R. Abraham ben Ezra <!-- Add Hebrew text at a later date --></title>
+                        <note>Based on the supposed correspondence between the signs of the zodiac and sixty Old Testament characters</note>
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="jpr" source="IANA">Judeo-Persian</textLang>
+                        
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Hebrew_A_30_3">
+                        <locus from="47r" to="57v">ff.47<hi rend="superscript">r</hi>-57<hi rend="superscript">v</hi></locus>
+                        <title>Miscellaneous magical charms and amulets</title>
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="jpr" source="IANA">Judeo-Persian</textLang>
+                        
+                        <incipit>Begins... <!-- Hebrew text to be added -->
+                        </incipit>
+                        
+                    </msItem>
+                    
+                    <msItem n="4" xml:id="Hebrew_A_30_4">
+                        <locus from="58r" to="132r">ff.58<hi rend="superscript">r</hi>-132<hi rend="superscript">r</hi></locus>
+                        <title>Prayers, magical remedies and prescrictions</title>
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="jpr" source="IANA">Judeo-Persian</textLang>
+                        
+                        <incipit>Begins...<!-- Hebrew text to be added -->
+                        </incipit>
+                        
+                        <decoNote><locus>(ff.73<hi rend="superscript">r</hi>-77<hi rend="superscript">v</hi>; 98<hi rend="superscript">r</hi>-101<hi rend="superscript">v</hi>)</locus> written on white paper.</decoNote>
+                        <decoNote><locus>(ff.73<hi rend="superscript">r</hi>; 77<hi rend="superscript">r</hi>; 78<hi rend="superscript">r</hi>-81<hi rend="superscript">r</hi>;82<hi rend="superscript">v</hi>;83<hi rend="superscript">r</hi>and <hi rend="superscript">v</hi>; 86<hi rend="superscript">r</hi>; 102<hi rend="superscript">r</hi>and <hi rend="superscript">v</hi>; 108<hi rend="superscript">r</hi>-109<hi rend="superscript">v</hi>; 130<hi rend="superscript">r</hi>and <hi rend="superscript">v</hi>)</locus>contain magical diagrams.</decoNote>
+                    </msItem>
+                    
+                    <msItem n="5" xml:id="Hebrew_A_30_5">
+                        <locus from="133r" to="142v">ff.133<hi rend="superscript">r</hi>-142<hi rend="superscript">v</hi></locus>
+                        <title>Medicine and wisdom of Socrates says. <!-- Add Hebrew text at a later date --></title>
+                        <note>Medical and magical prescriptions.</note>
+                        
+                        <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                        <textLang otherLangs="jpr" source="IANA">Judeo-Persian</textLang>
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>blue paper</support>
+                            <extent>ff.142; 1 preliminary and 1 final fly leaves
+                                <note><locus>ff.1<hi rend="superscript">r</hi>, 132<hi rend="superscript">v</hi> are blank</locus></note>
+                                <dimensions unit="cm">
+                               
+                                    <dim type="diameter">16.6</dim>
+                                    <dim type="length">10</dim>
+                                   
+                                </dimensions>
+                            </extent>
+                            
+                            <condition>Manuscript in poor condition and much unintelligible scribbling.</condition>                                                
+                        
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="34">
+                                7-34 lines to a page.                                        
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="major">Careless cursive and square scripts of different hands.</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote></decoNote>
+                    </decoDesc>
+                    
+                    <additions></additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>bound in leather</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>                 
+                        <origDate>Circa 18th Century.</origDate>
+                    </origin>
+                    <acquisition>Purchased from Hodgson's, London <date>25.11.1932</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Add at a later date --></p>
+                        </availability> 
+                    </adminInfo>
+                    <listBibl>
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>Catalogue of the Hebrew and Samaritan manuscripts in the British Museum, Pts. 1-4</title>
+                            <author>G. Margoliouth</author>
+                            <date>1899</date>
+                            <placeName>Oxford</placeName>
+                            <abbr>Margoliouth</abbr>
+                            <note><locus>For pt.2</locus>no. 1072</note>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of Hebrew manuscripts in the Bodleian Library</title>
+                            <author>A. Neubauer; Vol. 2 with A. E. Cowley.</author>
+                            <date>Vol 1, 1886; Vol 2, 1906.</date>
+                            <placeName>Oxford</placeName>
+                            <abbr>Neubauer</abbr>
+                            <note>nos. 1665(3), 2904</note>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of the Hebrew books in the Library of the British Museum</title>
+                            <author>J. Zedner</author>
+                            <date>1867</date>
+                            <placeName>London</placeName>
+                            <abbr>Zedner</abbr>
+                            <note>23</note>
+                        </bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020-09-29" who="#YK">Created XML file</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
