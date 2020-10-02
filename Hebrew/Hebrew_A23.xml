@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_23">
+    
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew_A_23</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="BLE">
+                <resp when="2020-09-21">TEI Encoder</resp>
+                <persName>Branwen Lloyd-Evans</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Hebrew A23</idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Hebrew A23</idno>
+                    <altIdentifier>
+                        <idno>.b32274683</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Composite volume containing hymns, prayers, charms, amulets, talismans and magical remedies</summary>
+                   
+                    <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                    
+                    <msItem xml:id="Hebrew_A23_1">
+                        <locus>ff. 1r-20v</locus>
+                        <title>Collection of liturgical hymns and prayers</title>                                            
+                    </msItem>
+                    
+                    <msItem xml:id="Hebrew_A23_2">
+                        <locus>ff. 21r-44r</locus>
+                        <title>Miscellaneous amulets, charms and remedies</title>                                            
+                    </msItem>   
+                    
+                    <msItem xml:id="Hebrew_A23_3">
+                        <locus>ff. 44v-45r</locus>
+                        <title>תפילה טובה ומעולה לעת הצורך וכפי הצורך (A good and important prayer in the time of need and according to
+                            necessity)
+                        </title>                                            
+                    </msItem> 
+                    
+                    <msItem xml:id="Hebrew_A23_4">
+                        <locus>ff. 45v-49r</locus>
+                        <title>Magical remedies and talismans
+                        </title>                                            
+                    </msItem> 
+                    
+                    <msItem xml:id="Hebrew_A23_5">
+                        <locus>ff. 50r-52ar</locus>
+                        <title>Book of convulsion (ספר הפרכוס), interpretation of shaking according to our Rabbi
+                            Hai Gaon
+                        </title>                                            
+                    </msItem> 
+                    
+                    <msItem xml:id="Hebrew_A23_6">
+                        <locus>ff. 52br-56v</locus>
+                        <title>Talismans, charms and magic
+                        </title>                                            
+                    </msItem> 
+                </msContents>
+                
+                <physDesc>
+                   
+                    <objectDesc>
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support></support>
+                            <extent>56 ff., 3 preliminary fly leaves, 1 extra leaf stuck in end cover.
+                                <dimensions unit="cm"> 
+                                    <dim type="diameter">10.2</dim>
+                                    <dim type="length">13.4</dim>
+                                </dimensions>
+                            </extent>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout>
+                                9-29 lines to a page. 
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote>careless rabbinic and cursive scripts of different hands</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote>ff. 21v; 22r; 25r; 31r ; 46r; 49r; 52r and v; 54r contain Cabbalistic
+                            diagrams.
+                        </decoNote>
+                    </decoDesc>
+                    
+                    <additions>Extra leaf stuck in the end cover contains 'The magical remedy'.
+                    </additions> 
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Bound in paper and cardboard</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate>17th-18th century</origDate>
+                    </origin>
+                    
+                    <provenance>Provenance unknown</provenance>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                             </source>
+                        </recordHist>
+                    </adminInfo>
+                                                       
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh 85070857">Judaism -- Prayers and devotions</term>
+                        </item>
+                        <item>
+                            <term ref="subject_sh 85070285">Jewish hymns</term>
+                        </item>
+                        <item>
+                            <term ref="subject_sh 85022700">Charms</term>
+                        </item>
+                        <item>
+                            <term ref="subject_sh 85004693">Amulets (Judaism)</term>
+                        </item>
+                        <item>
+                            <term ref="subject_sh 85132095">Talismans</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+            <change when="2020-09-21" who="#BLE">Created XML file</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
