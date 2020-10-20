@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_B_13">
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Hebrew B 13</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NA">
+                <resp when="1982">Cataloguer</resp>
+                <persName>Nigel Allan</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-19">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VW">
+                <resp when="2020-10-20">TEI Encoder</resp>
+                <persName>Victoria Webb</persName>
+            </respStmt>
+            
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID"></idno>
+            <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Hebrew B13</idno>
+                    <!-- Use <altIdentifier> if former or alternative <idno> is available -->
+                    <altIdentifier type="Sierra">
+                        <idno>b32493836</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary><!-- Any top-level description of the manuscript as a whole --></summary>
+                   
+                    <textLang mainLang="he" source="IANA">Hebrew</textLang>
+                    
+                    <msItem xml:id="Hebrew_B_13_1">
+
+                        <title>Exodus 4:18 - 6:11</title>                    
+                        
+                    </msItem>
+
+                    
+                </msContents>
+                
+                <physDesc>
+                 
+                    <objectDesc form="other">
+                       
+                        <supportDesc material="leather">
+
+                            <extent>
+                                <dimensions unit="cm">
+                               
+                                    <dim type="width">46.5 cm</dim>
+                                    <dim type="length">29 cm</dim>
+                                  
+                                </dimensions>
+                            </extent>
+                            <condition>The surface has been damaged in several places rendering the text obscure</condition>
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="42" columns="2">2 cols.; 42 lines</layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    
+                </physDesc>
+                
+                <history>
+                    <acquisition>Purchased from Glendining's, London, 30.01.1929</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                    <author>Nigel Allan</author>
+                                    <date>1982</date>
+                                    <note>Pp. 193-220.</note>
+                                </bibl>
+                                
+                            </source>
+                        </recordHist>
+                    </adminInfo>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+            <change when="2020-10-20" who="#VW">Created XML file</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
