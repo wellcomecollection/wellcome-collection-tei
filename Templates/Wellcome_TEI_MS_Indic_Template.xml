@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 28.10.20 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="">
+    
+    <!-- Give xml:id in the  format  'Indic/Sanskrit_Alpha/Beta/Gamma/Delta/Epsilon_[MS number]' -the file name should be identical -->
+    
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title><!-- Give title in the  format 'Indic/Sanskrit_Alpha/Beta/Gamma/Delta/Epsilon_[MS number], identical to xml:id --></title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="">
+                    <resp when="">TEI encoder</resp>
+                    <persName><!-- Add --></persName>
+                </respStmt>
+                <!-- Add respStmt as required -->
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David E. Pingree kindly provided under a CC BY 4.0 license by the American Philosophical Society (APS), which holds the rights to Pingree’s unpublished materials. 
+                        The TEI file itself is made available under a CC BY 4.0 license by the Wellcome Collection, allowing researchers and audiences to continue to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID"><!-- Give current manuscript identifier --></idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark"><!-- Give current manuscript identifier, most likely from the Greek letter sequence --></idno>
+                        <altIdentifier type="Raghavan">
+                            <idno><!-- Record the Raghavan number, if known, most likely in the format B.19.z or similar --></idno>
+                        </altIdentifier>
+                        <!-- Add additional altIdentifier elements as required -->
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary><!-- Any top-level description of the manuscript as a whole --></summary>
+                        
+                        <textLang mainLang="" source="IANA"><!-- Use if only one language in manuscript. --> </textLang>
+                        
+                        <!-- IANA codes for recurring South Asian languages:
+                        Sanskrit: 'sa'
+                        Prakrit languages: 'pra' 
+                        Hindi: 'hi' -->
+                        
+                        <msItem xml:id="">
+                            <locus from="" to=""><!-- Give the locations for the item, if available --></locus>
+                            <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
+                            <title key=""><!-- Insert viaf code as attribute value, if available, and enter title here --></title>
+                            
+                            <!-- Use comment to note diacritical text to be picked up in late-stage editing -->
+                            
+                            <!-- Use as needed, or delete -->
+                            <textLang mainLang="" source="IANA"><!-- Enter BCP 47  IANA language code as attribute value and full language name here. --></textLang>
+                            <textLang otherLangs="" source="IANA"><!-- Enter BCP 47 IANA language code as attribute value and full language name here . --></textLang>
+                            
+                            <incipit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <colophon><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </colophon>
+                            
+                            <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                            <note><!-- insert --></note>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="other"> <!-- Adapt response as needed -->
+                            <supportDesc material="paper"> <!-- If  Epsilon series, give value as 'palm leaf' -->
+                                <extent><!-- Give number of folia --><dimensions type="folia" unit="in">
+                                    <!-- Use for Alpha sequence -->
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                    <!-- Use for Beta sequence -->
+                                    <height atMost="9">Up to 9 inches</height>
+                                    <width atMost="13.5">Up to 13.5 inches</width>
+                                    <!-- Use for Gamma sequence -->
+                                    <height atMost="9">Up to 9 inches</height>
+                                    <width atMost="16">Up to 16 inches</width>
+                                    <!-- Use for Delta Sequence -->
+                                    <!-- Use for Epsilon sequence -->
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                           
+                            <foliation>
+                                <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                            </foliation>
+                            
+                            <layoutDesc>
+                                <layout writtenLines=""><!-- Give number of lines and aksharas --></layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <!-- Add or delete <handNote> elements as needed -->
+                            <handNote scope=""></handNote>
+                        </handDesc>
+                        
+                        <!-- Add or delete the following elements as needed -->
+                        
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        
+                        <additions>
+                            <p></p>
+                        </additions>
+                        
+                        <bindingDesc>
+                            <binding>
+                                <p></p>
+                            </binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>
+                                <region><!-- insert --></region>,
+                                <settlement><!-- insert --></settlement>,
+                                <orgName><!-- insert --></orgName>
+                            </origPlace>
+                            <origDate calendar="Vikram_Samvat"><!-- insert Vikram Samvat date, if given--></origDate>
+                            <origDate calendar="Gregorian"><!-- Insert Gregorian date, if given --></origDate>
+                            <!-- use additional origPlace and origDate elements if necessary -->
+                        </origin>
+                        <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                        <!-- use additional provenance elements if necessary -->
+                        <acquisition><!-- insert --></acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information</title>
+                                        <author>David Pingree</author>
+                                    </bibl>
+                                    <!-- Might include link to catalogue source -->
+                                    <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                                </source>
+                            </recordHist>
+                            <availability status=""><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+                        <!-- Enter bibliographical info, if needed -->
+                        <listBibl>
+                            <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                            <!-- The folloing records the bibliographical entries Allan's catalogue refers to - delete any that are not mentioned in the file -->
+                            <head>Bibliographical abbreviations</head>
+                            <bibl>
+                                <title>New catalogus catalogorum: and alphabetical register of Sanskrit and allied works and authors.</title>
+                                <editor>V. Raghavan, et al.</editor>
+                                <placeName>Madras</placeName>
+                                <publisher>University of Madras</publisher>
+                                <date>1949</date>
+                                <abbr>NCC</abbr>
+                            </bibl>
+                        </listBibl>
+                        
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface></surface>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
+
