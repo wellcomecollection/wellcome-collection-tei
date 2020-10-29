@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_289">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS.289</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="PBV">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Petros Bouras-Vallianatos</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-10-05">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="TTT">
+                <resp when="2020">TEI Encoder</resp>
+                <persName>The TEI Team</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MS.289</idno>
+            <idno type="catalogue">Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS 289</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b19619959</idno>
+                    </altIdentifier>
+                    <altIdentifier type="accession">
+                        <idno>43753A</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Pseudo-Galen's Medical Definitions.</summary>
+                   
+                    <textLang mainLang="grc" source="IANA">Ancient Greek</textLang>
+                    
+                    <msItem n="1" xml:id="MS_289_1">
+                        
+                        <author key="">Pseudo-Galen</author>
+                        <title key="">Medical Definitions</title>
+                        <!-- Add viaf codes later -->
+                        
+                        <!--  Greek text to be picked up in late-stage editing -->
+                        
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <explicit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        
+                        <colophon><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                        <note><!-- insert --></note>
+                        
+                    </msItem>
+                    
+                    <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+                    
+                </msContents>
+                
+                <physDesc>
+                    <!-- Insert and delete as needed -->
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>Paper, folded in 4.
+                                <watermark>Watermark similar to <ref>Sosower balance 2</ref>, attested in 1534.</watermark>
+                                <measure type="chainline">Chain distance 35 mm.</measure>
+                            </support>
+                            <extent>30 ff. (i + 30 + i).
+                                <dimensions unit="mm">
+                                    <dim type="height">210</dim>
+                                    <dim type="length">148</dim>
+                                </dimensions>
+                                <note>F. 30v is a blank page.</note>
+                            </extent>
+                            
+                             <foliation>
+                                 <note>Foliated 1-30.</note>                             
+                             </foliation>
+                            
+                            <collation>
+                                <formula>3 × 8 (f. 24), 2 × 1 (f. 26), 4 (f. 30) [no text lost].</formula>
+                                <signatures>(scribal): Greek numerals Im3 (β́ on f. 8v) and Im1 (γ́ on f. 17r, δ́ on f. 25r). 
+                                    – IC XC written, in the scribe’s hand, in the middle of each page’s upper margin.</signatures>
+                            </collation>
+                          
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="25"> 25 written lines.
+                                <measure type="height" unit="mm">150</measure>
+                                <measure type="length" unit="mm">95</measure>
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">Unidentified Renaissance hand.</handNote>
+                    </handDesc>
+                    
+                    <additions>
+                        <p> Scribal additions on  <locus>10r, 11v, 12v, 16v, 17v, 20r, 26r, 28v, 29v</locus> additions to the main
+                            texts or variant readings, eg. (10r) ‘φρόνησις’, (29v) ‘Γρ(άφεται) κειμένου’.</p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Cardboard binding, modern. Flyleaves and pastedowns: machine-made paper.</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Italy</country>
+                        </origPlace>
+                        <origDate calendar="Gregorian">ca. 1535 AD</origDate>
+                    </origin>
+                    <provenance>Marks of ownership include (1r) ‘F. L. 2711’ – (4r) erased and illegible note.</provenance>
+                    <acquisition>Purchased on the behalf of Wellcome Library in 1925 from R. Lier and Co, Milan</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue' in Medical History,  vol. 59 (2)</title>
+                                    <author>Petros Bouras-Vallianatos</author>
+                                    <date>2015</date>
+                                    <note>Pp. 275-326</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <!-- The folloing records the bibliographical entries Allan's catalogue refers to - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library, 3 vols</title>
+                            <author>Samuel Arthur Joseph Moorat</author>
+                            <date>1962-73</date>
+                            <placeName>London</placeName>
+                            <publisher>Wellcome Institute</publisher>
+                            <abbr>Moorat</abbr>
+                            <note>Vol. 1, p. 189.</note>
+                        </bibl>
+                        <bibl>
+                            <title>Signa officinarum chartariarum in codicibus Graecis saeculo sexto decimo fabricatis in bibliothecis Hispaniae </title>
+                            <author>Mark Sosower</author>
+                            <date>2004</date>
+                            <placeName>Amsterdam</placeName>
+                            <publisher>Haakert</publisher>
+                            <abbr>Sosower</abbr>
+                            <note>Vol. 1, p. 189.</note>
+                        </bibl>
+                        <bibl>
+                            <title>‘Byzantine Medical Manuscripts: Towards a New Catalogue, with a Specimen for an Annotated Checklist of Manuscripts Based on an Index of Diels’ Catalogue’, Byzantion, 79, 453–595</title>
+                            <author>Alain Touwaide</author>
+                            <date>2009</date>
+                            <abbr>Touwaide</abbr>
+                            <note>p. 539.</note>
+                        </bibl>
+                        
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+        <change when="2020-10-29" who="#TTT">Populated template.</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
