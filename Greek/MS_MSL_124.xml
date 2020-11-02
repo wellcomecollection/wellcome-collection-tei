@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_MSL_124">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS.MSL.124</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="PBV">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Petros Bouras-Vallianatos</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-10-05">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS.MSL.124</idno>
+            <idno type="catalogue">Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS.MSL.124</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b19291449</idno>
+                    </altIdentifier> 
+                    <altIdentifier type="deprecated">
+                        <idno>AA d 6</idno>
+                    </altIdentifier>
+                    <altIdentifier type="deprecated">
+                        <idno>Wf 16</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>John Zacharias Aktouarios's treatise on urines.</summary>
+                   
+                    <textLang mainLang="grc" source="IANA">Ancient Greek</textLang>
+
+                    <msItem n="1" xml:id="MS_MSL_124_1">
+                        <author key="person_100190357 ">John Zacharias Aktouarios</author>
+                        <title key="">On Urines</title>
+                        
+                        <!-- Greek text to be picked up in late-stage editing -->
+                        <!-- Work has 7 books/chapters: to be divided across 7 elements in <msItem> -->
+
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <explicit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        
+                        <colophon><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation>Stavroula Georgious has demonstrated that this manuscript was copied directly from Cambridge, Gonville and Caius College, MS 76/43.</filiation>
+                        <note>TLG reference: 3188.002</note>
+                        
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>Paper, folded in 2.
+                                <watermark>Watermark very similar to <ref>Nostitz 760</ref> (three hats with countermark NZ), attested in 1650.</watermark>                        
+                                <measure type="chainline">Chain distance 27 mm.</measure>
+                            </support>
+                            <extent>77 ff. (i + 77 + i).
+                                <dimensions unit="mm" >
+                                    <dim type="height">310</dim>
+                                    <dim type="length">208</dim> 
+                                </dimensions>
+                            </extent>
+                            
+                             <foliation>
+                                 <note>Foliated 1-77.</note>   
+                             </foliation>         
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="45">45 written lines.
+                                <measure type="height" unit="mm">240</measure>
+                                <measure type="length" unit="mm">137</measure>                                       
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">Unidentified hand</handNote>
+                    </handDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate calendar="Gregorian">ca. 1650 AD</origDate>
+                    </origin>
+                    <provenance notBefore="1722" notAfter="1774">Owned by <persName>Anthony Askew</persName> (1722-1774) and sold at his auction sale, G. Leigh and J. Sotheby, London, <date>15 March 1785</date>, lot 542 (?).</provenance>
+                    <provenance notBefore="1785" notAfter="1820">Probably purchased by <persName>James Sims</persName> (1741-1820).</provenance>
+                    <provenance notBefore="1801" notAfter="1984">Purchased by the London Medical Society, probably in <date>1802</date></provenance>
+                    <acquisition>Purchased by the Wellcome Library in <date>1984</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue' in Medical History,  vol. 59 (2)</title>
+                                    <author>Petros Bouras-Vallianatos</author>
+                                    <date>2015</date>
+                                    <note>Pp. 275-326</note>
+                                </bibl>
+                                <bibl>
+                                    <note>A digitised version of the manuscript is available <ref target="https://wellcomelibrary.org/item/b19291449">here</ref>.</note>
+                                </bibl> 
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <listBibl>
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>Bibliotheca Askeviana manu scripta, sive catalogus librorum manuscriptorum Antonii Askew</title>
+                            <date>1785</date>
+                            <placeName>London</placeName>
+                            <publisher>Leigh and Sotheby</publisher>
+                            <abbr>Bibl. Askev.</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A Catalogue of Books Contained in the Library of the Medical Society of London, Instituted AD 1773</title>
+                            <date>1803</date>
+                            <placeName>London</placeName>
+                            <publisher>Medical Society of London</publisher>
+                            <abbr>Cat. Med. Soc. 1803</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A Catalogue of Books Contained in the Library of the Medical Society of London, Instituted AD 1773</title>
+                            <date>1829</date>
+                            <placeName>London</placeName>
+                            <publisher>Medical Society of London</publisher>
+                            <abbr>Cat. Med. Soc. 1829</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>'Etudes sur les ecrits inedits des anciens medecins grecs. Conquieme series, XIIe-XIVe siecles: Jean Tzetzes, Nicolas Myrepsus, Jean Actuarius', Revue des Etudes Grecques, vol. 10, 405-45: 441</title>
+                            <author>Georgios A. Costomiris</author>
+                            <date>1897</date>
+                            <publisher>Wellcome Institute</publisher>
+                            <abbr>Costomiris</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Notices et extraits des manuscrits médicaux grecs, latins et français des principales bibliothèques de l’Europe</title>
+                            <author>Charles Victor Daremberg</author>
+                            <date>1853</date>
+                            <placeName>Paris</placeName>
+                            <publisher>J.-B. Baillière</publisher>
+                            <abbr>Daremberg</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Manuscripta Medica: A Descriptive Catalogue of the Manuscripts in the Library of the Medical Society of London</title>
+                            <author>Warren Royal Dawson</author>
+                            <date>1932</date>
+                            <placeName>London</placeName>
+                            <publisher>J. Bale, Sons and Danielsson</publisher>
+                            <abbr>Dawson</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Die Handschriften der antiken Ärzte, 3 vols</title>
+                            <author>Hermann Diels</author>
+                            <date>1905-8</date>
+                            <placeName>Berlin</placeName>
+                            <abbr>Diels</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>'Edition critique, traduction et commentaire critique du livre 1 "De Urinis" de Jean Zacharias Actouarios'</title>
+                            <author>Stavroula Georgiou</author>
+                            <date>2013</date>
+                            <placeName>Paris</placeName>
+                            <publisher>Ecole Pratique des Hautes Etudes</publisher>
+                            <abbr>Georgiou</abbr>
+                            <note>Unpublished PhD thesis.</note>
+                        </bibl>
+                        <bibl>
+                            <title>Physici et medici Graeci minores, 2 vols</title>
+                            <author>Julius Ludwig Ideler</author>
+                            <date>1841-42</date>
+                            <placeName>Berlin</placeName>
+                            <publisher>G. Reimer</publisher>
+                            <abbr>Ideler</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>De Urinis Actuarii Ioannis, Zachariae filii, medici praestantissimi, libri VII</title>
+                            <author>Ambrogio Leone (trans)</author>
+                            <date>1529</date>
+                            <placeName>Basel</placeName>
+                            <publisher>Andreas Cratandrus</publisher>
+                            <abbr>Leone</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Actuarii Ioannis filii Zachariae Opera: De actionibus et spiritus animalis affectibus eiusque nutritione lib, II, De urinis lib. VII, Methodi medendi lib. V</title>
+                            <author>Corneille Henri Mathys (trans)</author>
+                            <date>1556</date>
+                            <placeName>Paris</placeName>
+                            <publisher>Bernardus Turrisanus</publisher>
+                            <abbr>Mathys</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>'Special Report on the Greek MSS in the Society’s Library’, Transactions of the Medical Society of London, 27, lii–lvii</title>
+                            <author>Joseph Baldwin Nias</author>
+                            <date>1905</date>
+                            <abbr>Nias</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>The Nositz Papers: Notes on Watermarks Found in the German Imperial Archives of the 17th and 18th Centuries, and Essays Showing the Evolution of a Number of Watermarks</title>
+                            <date>1958</date>
+                            <placeName>Hilversum</placeName>
+                            <publisher>Paper Publications Society</publisher>
+                            <abbr>Nositz</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘The Legacy of Hippocrates: Greek Medicine int he Library of the Medical Society of London’, Transactions of the Medical Society of London, 103, 21–30</title>
+                            <author>Vivian Nutton</author>
+                            <date>1986-7</date>
+                            <abbr>Nutton</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘A Wellcome Manuscript of a Medical Practitioner’, in Véronique Boudon-Millot et al. (eds), Storia della tradizione e edizione dei medici greci: Atti del VI Colloquio Internazionale, Paris 12–14 Aprile 2008, 259-70</title>
+                            <author>Vivian Nutton and Barbara Zipser</author>
+                            <date>2010</date>
+                            <placeName>Naples</placeName>
+                            <publisher>D'Auria</publisher>
+                            <abbr>Nutton and Zipster</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Books from the Library of the Medical Society of London: An Exhibition, 14 January to 3 April</title>
+                            <author>John Symons (ed)</author>
+                            <date>1985</date>
+                            <placeName>London</placeName>
+                            <publisher>Wellcome Institute</publisher>
+                            <abbr>Symons</abbr>
+                            <note>p.9</note>
+                        </bibl>
+                        <bibl>
+                            <title>Thesaurus Linguae Graecae</title>
+                            <ref target="http://www.tlg.uci.edu">http://www.tlg.uci.edu</ref>
+                            <abbr>TLG</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘Byzantine Medical Manuscripts: Towards a New Catalogue, with a Specimen for an Annotated Checklist of Manuscripts Based on an Index of Diels’ Catalogue’, Byzantion, 79, 453–595</title>
+                            <author>Alain Touwaide</author>
+                            <date>2009</date>
+                            <abbr>Touwaide</abbr>
+                        </bibl>
+                        
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2020" who="#VS">Added data from catalogue.</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
