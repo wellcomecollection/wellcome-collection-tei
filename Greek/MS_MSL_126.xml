@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_MSL_126">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS.MSL.126</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="PBV">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Petros Bouras-Vallianatos</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-10-05">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="BLE">
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Branwen Lloyd-Evans</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MS.MSL.126</idno>
+            <idno type="catalogue">Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS.MSL.126</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b19147351</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Oribasios, Medical Collections, Books 1-10 and 14</summary>
+                   
+                    <textLang mainLang="grc" source="IANA">Ancient Greek</textLang>
+                    
+                    <msItem n="1" xml:id="MS_MSL_126_1">
+                        
+                        <author key="7440344">Oribasius</author>
+                        <title>Medical Collections, Books 1-10 and 14</title>
+                                                
+                        <!--  Greek text to be picked up in late-stage editing -->
+                        <!-- Work has 3 books/chapters: to be divided across 3 elements in <msItem> -->
+                        
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <explicit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        
+                        <colophon>Cambridge, 1648 AD<locus>f. 1r</locus>
+                        </colophon>
+                        
+                        <filiation>: This manuscript was copied directly from Cambidge, Saint John’s College, MS A.6.</filiation>
+                       
+                    </msItem>
+                  
+                </msContents>
+                
+                <physDesc>
+                    
+                    <objectDesc>
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>Paper
+                            </support>
+                            
+                            <extent> i + 482 + i
+                                <dimensions unit="mm">
+                                    <dim type="height">320</dim>
+                                    <dim type="length">212</dim>
+                                </dimensions>
+                            </extent>
+                            
+                             <foliation>
+                                 <note>Foliated 1–161, 162–245, 245–302, 303–307, 308–314, 315–386, 387–409, 410, 411–474</note>                             
+                             </foliation>
+                                                                                 
+                        </supportDesc>
+                        
+                    </objectDesc>
+                                                           
+                    <bindingDesc>
+                        <binding>
+                            <p>Old panelled calf binding, rebacked.</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    
+                    <origin>
+                        <origPlace>
+                            <country>Great Britain</country>,
+                            <settlement>Cambridge</settlement>,
+                        </origPlace>
+                        <origDate calendar="Gregorian">1648 AD</origDate>
+                    </origin>
+                    
+                    <provenance> probably commissioned by Robert Wadeson, Cambridge –  Anthony Askew(1722–74), London; 
+                        [his sale, G. Leigh and J. Sotheby, London, 16 March 1785, lot 588]; purchased by James Sims (1741–1820), London, in 1785; 
+                        purchased by the London Medical Society in 1802; purchased by the Wellcome Library in 1984.</provenance>
+                    
+                    <acquisition>Marks of ownership: (1r) ‘Vita Oribasii describitur a Eunapium graecae, qui
+                        Eunapius cum Dionysio Laertio in 8100 συνδέεται’ – (1r) ‘Hoc Manuscriptum
+                        Transcribebatur ex Codice Bibliothecae St Johannuis Collegii: Acad. Cantab. Atque
+                        Reuisum fuit secundum Codicem Anno Domini 1648. Robertus Waideson, Medicinae
+                        Doctor’ – (1r) ‘Ex Bibliotheca Askeviana / P. ii. Art. 588 / J. Sims’.</acquisition>
+                    
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue' in Medical History,  vol. 59 (2)</title>
+                                    <author>Petros Bouras-Vallianatos</author>
+                                    <date>2015</date>
+                                    <note>p. 313</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="free">
+                            <p>Digitised in full.</p>
+                        </availability>  
+                    </adminInfo>
+                                                              
+                    <listBibl>
+                            
+                            <head>Bibliographical abbreviations</head>
+                            <bibl>
+                                <title>Bibliotheca Askeviana manu scripta, sive catalogus librorum manuscriptorum Antonii Askew</title>
+                                <date>1785</date>
+                                <placeName>London</placeName>
+                                <publisher>Leigh and Sotheby</publisher>
+                                <abbr>Bibl. Askev.</abbr>
+                                <note>p.37 (no.588)</note>
+                            </bibl>
+                            <bibl>
+                                <title>A Catalogue of Books Contained in the Library of the Medical Society of London, Instituted AD 1773</title>
+                                <date>1803</date>
+                                <placeName>London</placeName>
+                                <publisher>Medical Society of London</publisher>
+                                <abbr>Cat. Med. Soc. 1803</abbr>
+                                <note>P.149</note>
+                            </bibl>
+                            <bibl>
+                                <title>A Catalogue of Books Contained in the Library of the Medical Society of London, Instituted AD 1773</title>
+                                <date>1829</date>
+                                <placeName>London</placeName>
+                                <publisher>Medical Society of London</publisher>
+                                <abbr>Cat. Med. Soc. 1829</abbr>
+                                <note>p.232</note>
+                            </bibl>
+                            <bibl>
+                                <title>Notices et extraits des manuscrits médicaux grecs, latins et français des principales bibliothèques de l’Europe</title>
+                                <author>Charles Victor Daremberg</author>
+                                <date>1853</date>
+                                <placeName>Paris</placeName>
+                                <publisher>J.-B. Baillière</publisher>
+                                <abbr>Daremberg</abbr>
+                                <note>p.158</note>
+                            </bibl>
+                            <bibl>
+                            <title>Oribasii Collectionum medicarum reliquiae</title>
+                            <author>Johannes Raeder</author>
+                            <date>1928-1933</date>
+                            <placeName>Leipzig</placeName>
+                            <publisher>Teubner</publisher>
+                            <abbr>Raeder</abbr>
+                            <note>Vol I.1,v</note>
+                            </bibl>
+                            <bibl>
+                                <title>Manuscripta Medica: A Descriptive Catalogue of the Manuscripts in the Library of the Medical Society of London</title>
+                                <author>Warren Royal Dawson</author>
+                                <date>1932</date>
+                                <placeName>London</placeName>
+                                <publisher>J. Bale, Sons and Danielsson</publisher>
+                                <abbr>Dawson</abbr>
+                                <note>p.122-123</note>
+                            </bibl>
+                            <bibl>
+                                <title>Die Handschriften der antiken Ärzte, 3 vols</title>
+                                <author>Hermann Diels</author>
+                                <date>1905-8</date>
+                                <placeName>Berlin</placeName>
+                                <abbr>Diels</abbr>
+                                <note>Vol.2, p.71</note>
+                            </bibl>
+                            <bibl>
+                                <title>‘Special Report on the Greek MSS in the Society’s Library’, Transactions of the Medical Society of London, 27, lii–lvii</title>
+                                <author>Joseph Baldwin Nias</author>
+                                <date>1905</date>
+                                <abbr>Nias</abbr>
+                                <note>p.lv-lvi</note>
+                            </bibl>
+                            <bibl>
+                                <title>‘The Legacy of Hippocrates: Greek Medicine int he Library of the Medical Society of London’, Transactions of the Medical Society of London, 103, 21–30</title>
+                                <author>Vivian Nutton</author>
+                                <date>1986-7</date>
+                                <abbr>Nutton</abbr>
+                                <note>p.24</note>
+                            </bibl>
+                            <bibl>
+                                <title>‘A Wellcome Manuscript of a Medical Practitioner’, in Véronique Boudon-Millot et al. (eds), Storia della tradizione e edizione dei medici greci: Atti del VI Colloquio Internazionale, Paris 12–14 Aprile 2008, 259-70</title>
+                                <author>Vivian Nutton and Barbara Zipser</author>
+                                <date>2010</date>
+                                <placeName>Naples</placeName>
+                                <publisher>D'Auria</publisher>
+                                <abbr>Nutton and Zipster</abbr>
+                                <note>p.261</note>
+                            </bibl>
+                            <bibl>
+                                <title>‘Byzantine Medical Manuscripts: Towards a New Catalogue, with a Specimen for an Annotated Checklist of Manuscripts Based on an Index of Diels’ Catalogue’, Byzantion, 79, 453–595</title>
+                                <author>Alain Touwaide</author>
+                                <date>2009</date>
+                                <abbr>Touwaide</abbr>
+                                <note>p.539</note>
+                            </bibl>
+                   </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+         <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh 85083142">Medicine, Greek and Roman</term>
+                        </item>
+                        <item>
+                            <term ref="subject_sh 85080718">Manuscripts, Greek</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+        <change when="2020-11-06" who="#BLE">Populated template.</change>
+        <change when="2020-10-05" who="#AP">Created template for Wellcome Greek MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
