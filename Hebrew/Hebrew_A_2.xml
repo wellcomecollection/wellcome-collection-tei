@@ -2,7 +2,7 @@
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_2">
-    <!-- Give xml:id in the  format  'Hebrew_A_[MS number]' -the file name should be identical -->
+    
 
     <teiHeader>
     
@@ -61,16 +61,16 @@
                 
                 <msContents>
                   
-                    <summary>"Marriage contracts", between Shlomo b. Isaac b.Samuell b. Isaac b. Samuel nahon and Donna, daugther of Hillel b. moses b. Shmul. Dated <date>5598/ 1837</date></summary> 
+                    <summary>כתובה (Marriage contract) between Shlomo b. Isaac b.Samuel b. Isaac b. Samuel Nahon and Donna, daugther of Hillel b. Moses b. Shmul. Dated <date>5598/ 1837</date></summary> 
                    
                     <textLang mainLang="he" source="IANA">Hebrew</textLang>
                     
                     <msItem n="" xml:id="Hebrew_A_2_1">
                        
                      
-                        <title >Marriage contracts<!-- Hebrew tittle in catalogue will be added later  --></title>
+                        <title >כתובה (Marriage contract)</title>
                         
-                          <note>Oriental cursive hand; decorated  in green and orange depicting birds , fruit and foliage.</note>
+                          <note>Oriental cursive hand; decorated  in green and orange depicting birds, fruit and foliage.</note>
                     </msItem>
                     
                    
@@ -111,7 +111,7 @@
                     </handDesc>
                     
                     <decoDesc>
-                        <decoNote>Decorated  in green and orange depicting birds , fruit and foliage</decoNote>
+                        <decoNote>Decorated  in green and orange depicting birds, fruit and foliage</decoNote>
                     </decoDesc>
                     
                 </physDesc>
@@ -162,6 +162,7 @@
     </fileDesc>
     
         <revisionDesc>
+            <change when="2020-11-23" who="#BLE">Added Hebrew script.</change>
             <change when="2020-06-26" who="#AP">Minor edits.</change>
             <change when="2020" who="#OC">Populated template based on Allen catalogue</change>
             <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
