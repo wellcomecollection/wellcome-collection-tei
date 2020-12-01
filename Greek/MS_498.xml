@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 05.10.20 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_498">
+    <!-- Give xml:id in the  format  'Greek_[MS number]' -the file name should be identical -->
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS_498</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="PBV">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Petros Bouras-Vallianatos</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-10-05">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+                <resp when="2020-10-22">Populated template</resp>
+                <persName>Odalys Caballero</persName>
+            </respStmt>
+            </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MS.498</idno>
+            <idno type="catalogue">Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS.498</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b19370763</idno>
+                    </altIdentifier>
+                      <altIdentifier type="accession ">
+                          <idno>69261</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary><locus>[23r–24r]</locus>Verses by Manuel Korinthios<locus>.[25r–27v]</locus>Anonymus, Epitome III of Hephaestion
+                        of Thebes’ Apotelesmatika or Astrological Effects<locus> [31r]</locus> Ps.-George
+                        Chrysokokkes, List of Equivalent Ancient and Modern Toponyms<locus>[31v]</locus>Anonymous
+                        verses<locus>[32r–68r]</locus>Michael Chrysokokkes, Hexapterygon<locus> [68v]</locus>Michael Psellos, Concise
+                        Answers to Various Questions</summary>
+                   
+                    <textLang mainLang="grc" source="IANA">Ancient Greek </textLang>
+                    
+                    <msItem n="1" xml:id="MS_498_1">
+                       
+                        <author key=""><locus>[23r–24r]</locus> Manuel Korinthios</author>
+                        
+                        <title key=""><locus>[23r–24r]</locus>Verses </title>
+                        
+                                                                         
+                       
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="MS_498_2">
+                        
+                        <author key=""><locus>.[25r–27v]</locus>Anonymuss,</author>
+                        
+                        <title key=""><locus>[23r–24r]</locus>Epitome III of Hephaestion  of Thebes’ Apotelesmatika or Astrological Effect</title>
+                        
+                                                
+                                             
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="MS_498_3">
+                        
+                        <author key=""><locus> [31r]</locus> Ps.-George  Chrysokokkes,,</author>
+                        
+                        <title key=""><locus> [31r]</locus> List of Equivalent Ancient and Modern Toponyms</title>
+                        
+                                               
+                                               
+                    </msItem>
+                    
+                    <msItem n="4" xml:id="MS_498_4">
+                        
+                        <author key=""><locus>[31v]</locus>Anonymous</author>
+                        
+                        <title key=""><locus>[31v]</locus>verses</title>
+                      
+                     
+                       
+                                              
+                    </msItem>
+                    
+                    <msItem n="5" xml:id="MS_498_5">
+                        
+                        <author key=""> <locus>[32r–68r]</locus>Michael Chrysokokkes</author>
+                        
+                        <title key=""><locus>[32r–68r]</locus>Hexapterygon</title>
+                                          
+                                                                 
+                    </msItem>
+                    
+                                        
+                    <msItem n="" xml:id="MS_498_6">
+                        
+                        <author key=""><locus> [68v]</locus>Michael Psellos,</author>
+                        
+                        <title key=""><locus> [68v]</locus> Concise  Answers to Various Question</title>
+                        
+                        </msItem>
+                    
+                                   
+                </msContents>
+                
+                <physDesc>
+                 
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>Paper folded in 2
+                                <watermark>Watermark similar to <ref>o Heawood 2467 (hand)</ref>, attested in  1503<ref>Piccard 155891 (hand)</ref>attested in 1522</watermark>
+                            <measure type="chainline">Chain distance 36 mm.</measure> 
+                            </support>       
+                            <extent>86 ff. (i + 86)
+                                <dimensions unit="mm" >
+                                    <dim type="heightr">303</dim>
+                                    <dim type="length">212</dim>
+                                    </dimensions>
+                                <note>flyleaf Iv, ff. 1r–22v, 23v, 28r–30v, 41v, 69r–86v. are blank pages</note>
+                            </extent>
+                            
+                             <foliation>
+                               <note>Foliated 1- 86</note>
+                             </foliation>
+                            
+                            <collation>
+                                <formula>: 1 (flyleaf i), 4 (f. 4), 1 (f. 5, conjoint with front pastedown), 10 (f. 15), 2×8 (f. 31), 4 × 10 (f. 71), 8 (f. 79), 1 (f. 80, conjoint with pastedown), 6 (f. 86).</formula>
+                                <signatures><!-- Use to record quire signatures, if available --></signatures>
+                            </collation>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="31">30-31 lines
+                                <measure type="height" unit="mm">125</measure>
+                                <measure type="length" unit="mm">138</measure>                                        
+                            </layout>
+                            
+                            <layout rulingMedium=""> (dry-point)<locus>(ff. 1–22, 28–30, 70–86)</locus> none; (f. 24) rectangular frame with squares
+                                inside [225 × 133]; <locus>(ff. 25–27) </locus>linn. 25–27, ca. [240 × 155], unclear ruling; <locus>(ff. 31–41)</locus> 
+                                rectangular frames with lines inside, linn. 30–31 [225×138]; (ff. 42–69) ruling for tables,
+                                size varies from [230 × 165] to [160 × 115].
+                                
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">: A (ff. 24r infra, 24v infra, 31r, 32r–41r), B (ff. 23r, 24r supra, 24v supra,
+                            25r–27v, 43r–68v). Rudolf Stefec identified scribe B with Manuel Korinthios</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote><locus>(59v–65r)</locus>ink drawings of the zodiacal figures.</decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p>non-scribal: <locus>(flyleaf Ir) </locus>Titulus libri mathematici’ – <locus>(flyleaf Ir)</locus>
+                            ‘Ηφαιστίωνος Θηβαίου ἀποτελέσματα συνοπτικά τῶν ἐκλείψεων τῶν φωστήρων ἐκ
+                            μόνων τῶν ζωδίων. Ebestionis Thebai opera consummata, compendiosa, de ecclipsibus
+                            luminarium coelestium, ex solis zodiaci circulis. (Secun)dus tractatus ῞Οσας τῶν πόλεων
+                            μετωνομάσθησαν ὕστερον. Cuiae Urbes diversimode nomina sortutae sint. In fine
+                            adiuncta sunt tabula Ecclipsium luminarium coelestium, iuxta doctrinam antecedentem.’
+                            – (back of side flap) arithmetical calculations.</p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Ottoman style, with a side flap; blind-tooled and gilttooled brown leather over cardboard. – Flyleaf i: chain distance 25 mm; no watermark. – Pastedowns: same paper as the rest of the MS</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Otoman Empire</country>,
+                            <region>Probably Constantinople</region>,
+                          </origPlace>
+                        <origDate calendar="Gregorian">1492 AD <locus> ff. 66v–67r</locus>from paschal tables </origDate>
+                         </origin>
+                    <provenance>Ferdinand Hoffmann (1540–1607), Freiherr von Grunb ¨ uhel and Strechau; by ¨descent;99 inherited by his great-granddaughters Maria Elisabeth Hoffmann (1663–1705)and Johanna Maria Xaveria Hoffmann (d. 1706); presented to their guardian Ferdinand
+                        Joseph von Dietrichstein (1636–98) in 1679;100 by descent; inherited by Hugo von  Mensdorff-Pouilly (1858–1920), Furst von Dietrichstein zu Nickolsburg (his no. II.241); ¨ inherited by Alexander Albert Olivier Anton von Mensdorff-Pouilly-Dietrichstein (1899–1964), Nickolsburg/Mikulov; [his sale, H. Gilhofer and H. Ranschburg, Lucerne, 25–26
+                        June 1934, lot 352] <note>Marks of ownership:<locus> (front pastedown) </locus>engraved ex-libris inscribed: ‘Ex Bibliotheca Illustris ac Generosi Domini D(omi)ni Ferdinandi Hoffman liberi baronis in Grunpuhel ¨
+                            et Strecau, D(omi)ni in Grevenstein et Ianowitz, supreme haereditarii curiae magistri  ducatus Styriae et supremi marsalci archiducatus Austriae, sacratissmae: caesae: et regiae  maiestatis consiliarii et camerae aulicae praefecti.</note></provenance>
+                  
+                    <acquisition>Purchased on the behalf of Wellcome Library in 1925 from R. Lier and Co, Milan</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue' in Medical History,  vol. 59 (2)</title>
+                                    <author>Petros Bouras-Vallianatos</author>
+                                    <date>2015</date>
+                                    <note>Pp. 275-326</note>
+                                </bibl>
+                              </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <!-- The folloing records the bibliographical entries Allan's catalogue refers to - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>Bibliothek Furst Dietrichstein</title>
+                            <date>1933–4</date>
+                            <placeName>Luzern</placeName>
+                            <publisher>Gilhofer and Ranschburg</publisher>
+                            <note>Part II. vol 42 (no. 352)</note>
+                        </bibl>
+                        <bibl>
+                            <title>‘Verzeichnis der griechischen Handshriften in Osterreich ausserhalb Wiens’</title>
+                            <author>Eduard Gollob</author>
+                            <date>1903</date>
+                            <placeName>Germany</placeName>
+                            <publisher>Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften in Wien, Philosophisch-historische Classe, 146 </publisher>
+                            <abbr>Gollop</abbr>
+                            <note>pp. 1–173 (no.89–90) </note>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library, 3 vols</title>
+                            <author>Samuel Arthur Joseph Moorat</author>
+                            <date>1962-73</date>
+                            <placeName>London</placeName>
+                            <publisher>Wellcome Institute</publisher>
+                            <abbr>Moorat</abbr>
+                            <note>Part I.; Pingree, op. cit. (note 95), Vol. 2, xix..pp. 329–30</note>
+                        </bibl>
+                        <bibl>
+                            <title>The Six Wings of Immanuel Bonfils and Michael Chrysokokkes</title>
+                            <author>Peter Solon</author>
+                            <publisher>Centaurus,15</publisher>
+                            <date>1970</date>
+                            <abbr>Solon</abbr>
+                            <note> pp.1–20: no. 17.</note>
+                        </bibl>
+                      
+                       </listBibl>
+          
+                                    
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc> 
+            <change when="2020-12-1" who="#AP">Very minor edit for two typos.</change>
+           <change when="2020-11-17" who="#OCV">Populated template.</change>                 
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
