@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 05.10.20 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Greeek_MS_MSL_1">
+    <!-- Give xml:id in the  format  'Greek_[MS number]' -the file name should be identical -->
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Greek_MS_MSL_1</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="PBV">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Petros Bouras-Vallianatos</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-10-05">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="MK">
+                <resp when="2021-01-04">TEI Encoder</resp>
+                <persName>Miriam Keaveny</persName>
+            </respStmt>
+            <!-- Add another <respStmt> for every resp -->
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS_MSL_1</idno>
+            <idno type="catalogue">Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark"></idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b19292703</idno>
+                    </altIdentifier>
+                    <altIdentifier type="deprecated">
+                        <idno>HH i 16</idno>
+                    </altIdentifier>
+                    <altIdentifier type="deprecated">
+                        <idno>We 15</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary> Mathematarion - Commentaries on Aristotle </summary>
+                   
+                    <textLang mainLang="grc" source="IANA"></textLang>
+                    
+                    <msItem n="1" xml:id="MS_MSL_1_1">
+                        
+                        <textLang mainLang="grc" source="IANA">Greek</textLang>
+                        
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Greek text to be added in late-stage editing -->
+                        </incipit>
+                        
+                        <explicit><!-- insert --> <locus></locus>
+                            <!-- Greek text to be added in late-stage editing -->
+                        </explicit>
+                        
+                        <msItem xml:id="MS_MSL_1_1_1"> 
+                        <locus from="2r" to="163v">2r - 163v</locus>
+                        <author>Anonymous</author>
+                        <title> Anonymous commentary on Aristotle's Categories</title>
+                       <filiation> Occasionally the text presents similarities with Porphyry’s commentary on Aristotle’s Categories; <ref> cf. Adolf
+                                Busse, Porphyrii Isagoge et in Aristotelis Categorias commentarium (Berlin: Reimer, 1887). [Commentaria in
+                                Aristotelem Graeca, Vol. 4.1], 55–142</ref> </filiation>
+                          <note> Blank pages <locus>56v - 57v, 85r - 85v, 121v, 129v</locus></note>
+                        </msItem>
+                        
+                        <msItem xml:id="MS_MSL_1_1_2"> 
+                            <locus from="166r" to="174r">166r - 174r</locus>
+                            <author>Anonymous</author>
+                            <title> Anonymous collection of brief theological texts</title>
+                            <note>Blank pages <locus> 164r - 165v, 174v</locus></note>
+                        </msItem>
+                        
+                        <msItem xml:id="MS_MSL_1_1_3"> 
+                            <locus from="175r" to="200v">175r - 200v</locus>
+                            <author>Anonymous</author>
+                            <title>Anonymous commentary on Aristotle’s Prior and Posterior Analytics.</title>
+                            <note> <locus> 194v and 197r</locus> Text is written upside down</note>
+                            <note> Blank pages <locus> 179v, 183v, 192v </locus></note>
+                        </msItem>
+                         
+                    </msItem>
+  
+                </msContents>
+                
+                <physDesc>
+                    <!-- Insert and delete as needed -->
+                    <objectDesc form="codex"> 
+                       
+                        <supportDesc material="chart">
+                                                    
+                            <support> Paper, folded in 4 
+                               
+                                <watermark> <locus>f.2 - f.165</locus> <locus> f.186 - f.200</locus> similar to Velkov Arbal 'ete 20 -21, attested, respectively in 1630 - 1635</watermark>
+                                <watermark> <locus>f.166 - f.173</locus> similar (excluding countermark) to Heawood 4 (anchor), attested in 1620</watermark>
+                                <watermark> <locus> f.174 – f. 185 </locus>  similar to Heawood 951 (cross), attested in 1618</watermark>
+                                <note> Watermark information <ref> Asparukh Velkov, Les filigranes dans les documents ottomans: divers types d’images (Sofia: Trayanov, 2005)</ref>;
+                                <ref> Edward Heawood, Watermarks, Mainly of the 17th and 18th Centuries (Hilversum: Paper Publications Society, 1950 </ref></note>
+                                <measure type="chainline"> Chaindistance 27mm</measure>
+                            </support>
+                            
+                            <extent> 200ff (iii + 199 + iv) 
+                                <dimensions unit="mm" >
+                                    <dim type="height">207mm</dim>
+                                    <dim type="width">147mm</dim>
+                                </dimensions>
+                            </extent>
+                            
+                             <foliation>
+                                 Foliated 1 - 200. iii flyleaf 
+                             </foliation>
+                            
+                            <collation>
+                                <formula> 1 (flyleaf iii), 2 (f. 2), 4 (f. 6), 6 x 8 (f.53), 4 (f.57), 12 x 8 (f.161), 4 (f.165), 8 f.173), f (f.177), 2 x 8 (f.193), 7 (f.200). 3 (back flyleaves i-iii)</formula>
+                                <signatures> (scribal) Greek numerals <!-- Greek Characters to add at late state editing --> (185v),<!-- Greek Characters to add at late state editing --> (186r, 193v) Arab numerals <!-- Arabic Characters to add at late state editing --> in the middle of each quire from 9 (5v-6r) through 25 (127r - 128v) </signatures>     
+                            </collation>
+                            
+                         
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="22"> 22 written lines 
+                                <dimensions unit="mm">
+                                    <dim type="height">ca.157mm</dim>
+                                    <dim type="width">ca.100mm</dim>
+                                </dimensions>                               
+                            </layout>
+                            
+                            <layout rulingMedium="unruled">
+                               unruled
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">Unindentified post-Byzantine hand.</handNote>
+                    </handDesc>
+
+                    <additions>
+                        <note>(scribal): (passim) text occasionally crossed out and sometimes corrected <locus>2r, 15r, 22r, 24r, 26r, 27v, 52r, 56r, 58r, 59r, 70r, 73v, 77v, 82v, 89v, 92r, 100r, 113r, 117v,
+                            118r, 121r, 132v, 133v, 140r, 140v, 142v, 143v, 144v, 146r, 146v, 147r, 149r, 151v, 153r,
+                            159r, 160r, 166r, 169r, 170r, 173v, 175r</locus> </note>
+                        <note>(scribal)Text expanded or glossed with synonyms in the outer margin e.g. <locus>(58r)</locus> <!-- Greek Characters to add at late state editing --> <locus>(59r)</locus> <!-- Greek Characters to add at late state editing --> <locus>(70r)</locus> <!-- Greek Characters to add at late state editing --> <locus>(73v)</locus> <!-- Greek Characters to add at late state editing --> <locus>(108v)</locus> '<!-- Greek Characters to add at late state editing -->/definitio privationis’</note>
+                        <note> (scribal) <locus>29r, 127r, 181r–200r</locus> explanatory diagrams in the outer margin.</note>
+                        <note> (non-scribal)<locus>(83r)</locus> 'cuium/<!-- Greek Characters to add at late state editing -->' </note>
+                    </additions>
+
+                    <bindingDesc>
+                        <binding>
+                            <decoNote> corrio russico, same tooling as <ref> Wellcome MS.MSL.60</ref></decoNote>
+                            <p> flyleaves i - 1 and 201-203, chain distance 25mm. No watermarks.</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                    
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <placeName> Ottoman Empire </placeName>
+                            <note> from watermarks</note>
+                        </origPlace>
+                        <origDate calendar="Greogorian">1620 - 1640AD</origDate>
+                    </origin>
+                    <provenance> <persName> Anthony Askew (1722 - 74)</persName> (his sale, G.Leigh and J.Soethby <settlement> London</settlement> <date>1785-03-16</date>, lot 604) purchased by <persName> James Sims (1741 - 1820)</persName>,<settlement> London</settlement> in <date> 1785.</date> Purchased by <orgName> London Medical Society</orgName> in <date>1802</date> <stamp> <locus> Front flyleaf IIv </locus> 'H H i 16' - <locus>1r</locus> 'Varii Aristotelem' - (back pastedown) label inscribed 'L.g.11'</stamp ></provenance>
+                    <!-- use additional provenance elements if necessary -->
+                    <acquisition> Purchased by <orgName> Wellcome Library</orgName> in <date> 1984</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue' in Medical History,  vol. 59 (2)</title>
+                                    <author>Petros Bouras-Vallianatos</author>
+                                    <date>2015</date>
+                                    <note>Pp. 275-326</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <!-- The following records the bibliographical entries catalogue referenced in the catalogue - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>Bibliotheca Askeviana manu scripta, sive catalogus librorum manuscriptorum Antonii Askew</title>
+                            <date>1785</date>
+                            <placeName>London</placeName>
+                            <publisher>Leigh and Sotheby</publisher>
+                            <abbr>Bibl. Askev.</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A Catalogue of Books Contained in the Library of the Medical Society of London, Instituted AD 1773</title>
+                            <date>1803</date>
+                            <placeName>London</placeName>
+                            <publisher>Medical Society of London</publisher>
+                            <abbr>Cat. Med. Soc. 1803</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A Catalogue of Books Contained in the Library of the Medical Society of London, Instituted AD 1773</title>
+                            <date>1829</date>
+                            <placeName>London</placeName>
+                            <publisher>Medical Society of London</publisher>
+                            <abbr>Cat. Med. Soc. 1829</abbr>
+                        </bibl>
+                       
+                        <bibl>
+                            <title>Manuscripta Medica: A Descriptive Catalogue of the Manuscripts in the Library of the Medical Society of London</title>
+                            <author>Warren Royal Dawson</author>
+                            <date>1932</date>
+                            <placeName>London</placeName>
+                            <publisher>J. Bale, Sons and Danielsson</publisher>
+                            <abbr>Dawson</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘Special Report on the Greek MSS in the Society’s Library’, Transactions of the Medical Society of London, 27, lii–lvii</title>
+                            <author>Joseph Baldwin Nias</author>
+                            <date>1905</date>
+                            <abbr>Nias</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Inventaire des manuscrits grecs d’Aristote et de ses commentateurs: contribution `a l’histoire du texte d’Aristote. Suppl´ement</title>
+                            <author>Roxane D. Argyropoulos</author>
+                            <author>Iannis Caras</author>
+                            <date>1980</date>
+                            <placeName>Paris</placeName>
+                            in <title> Les Belles Lettres</title> Vol. 33 no. 214
+                        </bibl>
+
+                        <bibl>
+                            <title>Les filigranes dans les documents ottomans: divers types d’images</title>
+                            <author>Asparukh Velkov</author>
+                            <date>2005</date>
+                            <placeName> Sofia</placeName>
+                            <publisher>Trayanov</publisher>
+                        </bibl>
+                        <bibl>
+                            <title>Watermarks, Mainly of the 17th and 18th Centuries</title> 
+                            <author>Edward Heawood</author>
+                            <date>1950</date>
+                            <placeName> Hilversum</placeName>
+                            <publisher>Paper Publications Society</publisher>
+                        </bibl>
+                        <bibl>
+                            <title>Porphyrii Isagoge et in Aristotelis Categorias commentarium </title>
+                            <author>Adolf Busse</author>
+                            <date> 1887 </date>
+                            <placeName>Berlin</placeName>
+                            <publisher>Reimer</publisher>
+                            in <title>Commentaria in Aristotelem Graeca</title> , Vol. 4.1 p.55 - p.142 
+                        </bibl>                   
+                        
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh sh85100861">Philosophy, Ancient</term>
+                            <term ref="subject_sh sh85134665"> Theology</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+        <change when="2021-01-04" who="MK"> Populated template</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
