@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2097">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            
+            <titleStmt>
+                <title>MS Indic Alpha 2097</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2020-11-25">TEI encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">Alpha_2097</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2097</idno>
+                        <altIdentifier type="Raghavan">
+                            <idno>B.20.k</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno><!--No Sierra number currently--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+                    <msContents>
+
+                        <summary>Aṣṭaka 8 of the <title>Ṛgveda</title>. Incomplete; Aṣṭaka 8,1,1 -
+                            8,1,18; 8,1,26; 8,2,8 - 8,2,16; 8,2,2 - 8,6,12; 8,6,20 - 8,8,28
+                            equivalent to Mandala 10,46,1 - 10,56,5; 10,61,2; 10,64,16 - 10,66,8;
+                            10,70,3 - 10,112,3; 10,116,4 - 10,170,4.</summary>
+
+                        <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
+
+                        <msItem n="1" xml:id="Alpha_2097">
+                            <title key="work_180227835">Vedas. R̥gveda</title>
+                            <incipit><locus>F.1v </locus>śrīgaṇeśāya namaḥ || hariḥ om || prahotā |
+                                jātaḥ | mahān | nabhaḥ ̄vit | </incipit>
+                            <explicit><locus>F.58v </locus>āpī iti | vaḥ | asme </explicit>
+                            <explicit><locus>F.9v </locus>tanūṣu viśvā vhuvanā ni yemire
+                                prāsārayaṃta puruṣa. </explicit>
+                            <incipit><locus>F.12 </locus>sa id dīśayad abhyāyanatvaṃ </incipit>
+                            <incipit><locus>F.18 </locus>ṛtijñā draviṇasyur draviṇasaś cakānaḥ || </incipit>
+                            <explicit><locus>F.19 </locus>dhṛtavrataḥ kṣatriyā yajña </explicit>
+                            <incipit><locus>F.24 </locus>manuṣyāso agniṃ || </incipit>
+                            <explicit><locus>F.63v </locus>yas te ratho manaso javīyān e </explicit>
+                            <incipit><locus>F.67v </locus>ā dvibahī amino yātv iṃdro </incipit>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>58 ff. <dimensions type="folia" unit="in">
+                                        <height atMost="6">Up to 6 inches</height>
+                                        <width atMost="11">Up to 11 inches</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation><note>Original foliation numbers: 1-9, 12, 18-19, 24-44,
+                                        46, 46b-63, 67-87.</note>
+                                    <note>There are no folio numbers written on Ff.67-69, 71-77, and
+                                        81-87.</note>
+                                    <note>12[?] ff. stuck together, possibly Ff.10-11, 13-17, and
+                                        20-24.</note>
+                                </foliation>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information.</title>
+                                        <author>David Pingree.</author>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2020-11-24" who="#SC">Populated template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

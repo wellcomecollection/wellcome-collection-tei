@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="B_20_fff">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            
+            <titleStmt>
+                <title>B.20.fff</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-01-08">TEI encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+           
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">B.20.fff</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="ragavan">B.20.fff</idno>
+                        <altIdentifier type="Sierra">
+                            <idno><!--No Sierra number currently. No wellcome no. given by Pingree--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+                    <msContents>
+
+                        <summary>The <title>Caturdaśīyātrā</title>; see <abbr>NCC</abbr>, Vol.6,
+                            pp.312. Copied by <persName role="scr">Kṛṣṇājī Ballāla Karve
+                            </persName>at <placeName>Vārāṇasī</placeName>, ca. <date>14th July
+                                1798</date>.</summary>
+
+                        <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
+
+                        <msItem n="1" xml:id="B.20.fff">
+                            <title>Caturdaśīyātrā</title>
+                            <incipit><locus>F.14 </locus>ya namaḥ kālanāthāya namaḥ... </incipit>
+                            <explicit><locus>F.21v </locus>śrīviśveśvarāya namaḥ iti
+                                ṣaṭpaṃcāśavināyakayātrā samāptaḥ || iti caturdaśīyātrā samāpta || ||
+                                śrīkṛṣṇārpaṇam astu || ākṣara kṛṣṇāji vallāla karve [ca. 7 aksaras
+                                blotched out] mukāmaśrī- vārāṇaśīkṣetra adhikaśrāvaṇśu
+                                naddhapratipadā śake 1720 kāḷayuktasaṃ vatsare || </explicit>
+                            <filiation> CF
+                                    <idno><!--<ref target="ADD URL">Indic Alpha 2140</ref>--></idno>;
+                                may be the work on ff.18-20.</filiation>
+                            <filiation> CF
+                                    <idno><!--<ref target="ADD URL">Indic Alpha 2105</ref>--></idno>
+                            </filiation>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>3 ff. <dimensions type="folia" unit="in">
+                                        <height atMost="6">Up to 6 inches</height>
+                                        <width atMost="11">Up to 11 inches</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation><note>Original foliation numbers: 14-15 and
+                                    21.</note></foliation>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="8">8 lines, ca. 40 akṣaras.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scribe="sole">Kṛṣṇājī Ballāla Karve</handNote>
+                        </handDesc>
+                        
+                        <additions><p>Following the explicit in a different hand: jivarāmabhaṭakarve
+                                yaci pustaka ||</p></additions>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>
+                                <placeName>Vārāṇasī</placeName>
+                            </origPlace>
+                            <origDate calendar="Gregorian" when="1798-07-14">ca. 14th July
+                                1798</origDate>
+                        </origin>
+                        <provenance>Formerly owned by <persName>Jīvarāma Bhaṭa
+                            Karve</persName>.</provenance>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information.</title>
+                                        <author>David Pingree.</author>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head>Bibliographical abbreviations</head>
+                            <bibl>
+                                <title>New catalogus catalogorum: and alphabetical register of
+                                    Sanskrit and allied works and authors.</title>
+                                <editor>V. Raghavan, et al.</editor>
+                                <placeName>Madras</placeName>
+                                <publisher>University of Madras</publisher>
+                                <date>1949</date>
+                                <abbr>NCC</abbr>
+                                <note>Vol.6, pp.312</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2021-01-08" who="#SC">Populated template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
