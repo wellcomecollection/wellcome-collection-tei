@@ -57,7 +57,7 @@ def copy(src, dst):
     if not os.path.exists(dst):
         shutil.copyfile(src, dst)
         return
-    
+
     # Copy in a way that preserves line endings in the dst.
     with open(dst, "rb") as dst_f:
         windows_line_endings = b"\r\n" in dst_f.read()
@@ -88,11 +88,11 @@ if __name__ == "__main__":
         "--depth", "1"
     ])
 
-    log("Cloning wellcometrust/wellcome-collection-tei")
+    log("Cloning wellcomecollection/wellcome-collection-tei")
     wc_tei_path = os.path.join(working_dir, "wellcome-collection-tei")
     subprocess.check_call([
         "git", "clone",
-        "git@github.com:wellcometrust/wellcome-collection-tei.git", wc_tei_path,
+        "git@github.com:wellcomecollection/wellcome-collection-tei.git", wc_tei_path,
         "--depth", "1"
     ])
 
@@ -139,7 +139,7 @@ if __name__ == "__main__":
         github_url = urlunparse((
             "https",
             "github.com",
-            "/wellcometrust/wellcome-collection-tei/compare/master...%s" % branch,
+            "/wellcomecollection/wellcome-collection-tei/compare/master...%s" % branch,
             "",
             query_param,
             ""
