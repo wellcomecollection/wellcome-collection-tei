@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Hebrew_A_33">
+    
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Hebrew_A_33</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NA">
+                    <resp when="1982">Cataloguer</resp>
+                    <persName>Nigel Allan</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-05-19">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="MK">
+                    <resp when="2020-08-25">TEI Encoder</resp>
+                    <persName>Miriam Keaveny</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Hebrew_A_33</idno>
+                <idno type="catalogue">Catalogue of Hebrew Manuscripts in the Wellcome Institute, London</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Hebrew A33</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b32274786</idno>
+                        </altIdentifier> 
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>"Book of Microcosm." A treatise on the immortality of the soul. Copied by Moses Grossburg into modern notebook. Dated ca. <date>late XIX/XX</date>th cent.</summary>
+                        
+                        <textLang mainLang="he" source="IANA">he</textLang>
+                        
+                        <msItem n="1" xml:id="Hebrew_A_33_1">
+                            <author><persName>key="person_64172358">Moses b Samuel b Tibbon</persName><locus>preliminary fly leaf 2r</locus></author> 
+                            <editor key="Moses Grossburg" role="scr"> Copied by <persName>Moses Grossburg</persName> in <settlement>Oxford</settlement>.</editor>
+                            <title key="Hebrew"> <!-- Add Hebrew text  -->  "Book of microcosom". A treatise on the immortality of the soul</title>
+                            
+                         
+                            <colophon>Alden and; Co., Ltd.<locus>preliminary flyleaf Iv</locus>
+                                <note> Vendors stamp on modern notebook </note>
+                            </colophon>
+                            
+                            <filiation>Cowley, 351</filiation>
+                          
+                            <filiation>Neubauer, nos. 1319(7); 1324(10); 1318(7); 1335(2); 1600(13)</filiation>
+                            <note> manuscript is copied from Neubauer 1324(10)</note>
+                            
+                            <note>blank pages<locus>1r and 1v</locus></note> 
+                            
+                            <note>blank pages<locus>2 - 39 all versos</locus></note> 
+                            
+                            <note>blank pages<locus>40v-66v</locus></note>
+                            
+                            <note>2 premliminary and 2 final fly leaves</note>
+                      
+                        </msItem>   
+                                 
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <!-- Insert and delete as needed -->
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="paper">
+                                
+                                <support>paper</support>
+                                <extent> 66ff
+                                    <dimensions unit="cm">
+                                        <dim type="diameter">16cm</dim>
+                                        <dim type="length">10cm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout writtenLines="19"> 19 lines to a page</layout>
+                                
+                            </layoutDesc> 
+                            
+                            
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="sole"> modern cursive 
+                            </handNote>
+                        </handDesc>
+                       
+                        
+                        <additions></additions>
+                        
+                        <bindingDesc>
+                            <binding>
+                                <p><material>black leather</material></p>
+                            </binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>United Kingdom</country>,
+                                <settlement>Oxford</settlement>,
+                            </origPlace>
+                            <origDate calendar="Gregorian">late 19th - 20th century</origDate>
+                        </origin>
+                        <acquisition>Purchased from Hodgson's London <date>14-05-1931</date></acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Hebrew Manuscripts in the Wellcome Institute, London', in Journal of Semitic Studies, 27(2)</title>
+                                        <author>Nigel Allan</author>
+                                        <date>1982</date>
+                                        <note>Pp. 193-220.</note>
+                                    </bibl>
+   
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <!-- Enter bibliographical info, if needed -->
+                        <listBibl>
+                            <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                            <!-- The following records the bibliographical entries Allan's catalogue refers to - delete any that are not mentioned in the file -->
+                            <head>Bibliographical abbreviations</head>
+                            <bibl>
+                                <title>A concise catalogue of the Hebrew printed books in the Bodleian Library</title>
+                                <author>A. E. Cowley</author>
+                                <date>1929</date>
+                                <placeName>Oxford</placeName>
+                                <abbr>Cowley</abbr>
+                            </bibl>           
+                            <bibl>
+                                <title>Catalogue of Hebrew manuscripts in the Bodleian Library</title>
+                                <author>A. Neubauer; Vol. 2 with A. E. Cowley.</author>
+                                <date>Vol 1, 1886; Vol 2, 1906.</date>
+                                <placeName>Oxford</placeName>
+                                <abbr>Neubauer</abbr>
+                            </bibl>
+                            <bibl>
+                                <title>A catalogue of the Hebrew manuscripts in the Jew's College, London</title>
+                                <author>A Neubauer</author>
+                                <date>1886</date>
+                                <placeName>Oxford</placeName>
+                                <abbr>Neubauer (Jew's Coll.)</abbr>
+                            </bibl>
+                        </listBibl>
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85084813">Microcosm and macrocosm</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+        
+        <revisionDesc>
+            <change when="2020-09-02" who="MK">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
