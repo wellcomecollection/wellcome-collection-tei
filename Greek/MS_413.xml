@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_413">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS.413</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="PBV">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Petros Bouras-Vallianatos</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-10-05">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="YK">
+                <resp when="2020-11-25">TEI Encoder</resp>
+                <persName>Yoshika Kobayashi</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MS.413</idno>
+            <idno type="catalogue">Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS_413</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b1918372</idno>
+                    </altIdentifier>
+                    <altIdentifier type="accession ">
+                        <idno>66627</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Greek oracles</summary>
+                   
+                    <textLang mainLang="grc" source="IANA">Ancient Greek</textLang>
+                    
+                    <msItem n="1" xml:id="MS_413_1">
+                        <locus from="1r" to="8v">1<hi rend="superscript">r</hi>-8<hi rend="superscript">v</hi></locus>
+                        <author key="">Pseudo-Leo VI the Wise</author>
+                        <title key="">Oracles</title>
+                        
+                        <!-- Greek text to be picked up in late-stage editing -->
+                        
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <explicit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        
+                        <colophon><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                        <note><!-- insert --></note>
+                        
+                        
+                    </msItem>
+                    <msItem n="2" xml:id="MS_413_2">
+                        <locus from="10r" to="10v">10<hi rend="superscript">r</hi>-<hi rend="superscript">v</hi></locus>
+                        <author key="">Arsenios Markellos</author>
+                        <title key="">Oracles</title>
+                        
+                        <!-- Greek text to be picked up in late-stage editing -->
+                        
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <explicit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        
+                        <colophon><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                        <note><!-- insert --></note>
+                        
+
+                    </msItem>
+                    <msItem n="3" xml:id="MS_413_3">
+                        <locus from="9r" to="9v">1<hi rend="superscript">r</hi>-8<hi rend="superscript">v</hi></locus>
+                        <locus> from= </locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Anonymous collection of oracles.</title>
+                        
+                        <!-- Greek text to be picked up in late-stage editing -->
+                        
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <explicit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        
+                        <colophon><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                        <note><!-- insert --></note>
+                        
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support> Paper, folded in 4.
+                                <watermark> watermark generally similar to Eineder 315 (coat of arms with lion), attested in 1804; countermark with the letters FL under a decorated arch.8</watermark>
+                                <note>Watermark information <ref> Georg Eineder, The Ancient Paper-Mills of the Former Austro-Hungarian Empire and Their Watermarks (Hilversum: Paper Publications Society, 1960).</ref></note>
+                                <measure type="chainline">chain distance 20mm</measure>
+                            </support>
+                            <extent>14ff (ii + 14 + ii) 
+                                <dimensions unit="mm" >
+                                    <dim type="height">218</dim>
+                                    <dim type="width">158</dim>
+                                </dimensions>
+                            </extent>
+                            
+                             <foliation>
+                                 <note>foliated 1–14</note>
+                             </foliation>
+                            
+                            <collation>
+                                <formula>12 (ff. 1–11, 14) + 2 (ff. 12–13)</formula>
+                            </collation>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout>
+                                various lines written                                   
+                            </layout>
+                            
+                            <layout rulingMedium="unruled">
+                                unruled
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">Unidentified late post-Byzantine hand.</handNote>
+                        <handNote scope="minor"><locus>14v</locus> text added by a later hand</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote><locus>1v–11v, 12v–13v</locus> twenty-two figural drawings in ink and wash.</decoNote>
+                        <decoNote><locus>front flyleaf Iv</locus> Snippets of text on resued paper<!-- Add Greek text --></decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p><locus>14v</locus>text added by a later hand<!-- Add Greek text --></p><note>{∼Karatzas and Psalidas, 102}.<ref>[Ioannis Karatzas and Athanasios Psalidas], <!-- Add Greek text -->, 2nd edn (Venice: Andreola, 1836)</ref></note>
+                        <p>Non-scribal annotations:<locus>1r</locus><!-- Add Greek text -->
+                        -Labels for some of the pictures:<locus>3r, 3v, 4r, 6r, 9r, 10r</locus><!-- Add Greek text --> 
+                        -<locus>front flyleaf Ir</locus><!-- Add Greek text --></p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>of marbled paper over cardboard; cloth pastedowns; the pastedowns of an older binding have been retained as front and back flyleaves.</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <placeName>Ottoman Empire</placeName>
+                            <note>from watermarks</note>
+                        </origPlace>
+                        <origDate calendar="Greogian">1800</origDate>
+                    </origin>
+                    <provenance>Marks of ownership: (front pastedown) label inscribed ‘LH 8’ –<locus>(1r)</locus>circular stamp
+                        ‘GEORGE P. BEGLERY CONSTANTINOPLE’ with ‘᾿Αριθ. 79’ handwritten in the centre.</provenance>
+                    <acquisition><persName>Georgios P. Vegleris</persName>(1850–1923),<settlement>Constantinople</settlement>(his no. 79) –
+                    <persName>Lionel Hauser</persName>(1868–1958), <settlement>Paris</settlement>(his no. 8); [his sale, Sotheby’s, <settlement>London</settlement>, <date>17 April 1934</date>, lot
+                        331]; purchased on the behalf of <orgName>Wellcome Library</orgName> (accession number 66627).</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue' in Medical History,  vol. 59 (2)</title>
+                                    <author>Petros Bouras-Vallianatos</author>
+                                    <date>2015</date>
+                                    <note>Pp. 275-326</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                   
+                    <listBibl>
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library, 3 vols</title>
+                            <author>Samuel Arthur Joseph Moorat</author>
+                            <date>1962-73</date>
+                            <placeName>London</placeName>
+                            <publisher>Wellcome Institute</publisher>
+                            <abbr>Moorat</abbr>
+                            <note>I.280–1</note>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of the Very Extensive and Important Library of Early Books and Manuscripts Relating to Alchemy and the Occult and Physical Sciences, the Property of M. Lionel Hauser</title>
+                            <date>1938</date>
+                            <placeName>London</placeName>
+                            <publisher>Sotheby and Co</publisher>
+                            <note>p. 36–7</note>
+                        </bibl>
+                        <bibl>
+                            <title>Les oracles de Leon le Sage illustres par Georges Klontzas: la version Barozzi dans le Codex Bute</title>
+                            <author>Lydie Hadermann-Misguich</author>
+                            <author>Jeannine Vereecken</author>
+                            <date>2000</date>
+                            <placeName>Venice</placeName>
+                            <publisher>Institut Hellenique de Venise</publisher>
+                            <note>p. 51</note>
+                        </bibl>
+                        <bibl>
+                            <title><!-- Greek text to be picked up in late-stage editing -->, 2nd edn</title>
+                            <author>Ioannis Karatzas</author>
+                            <author>Athanasios Psalidas</author>
+                            <date>1836</date>
+                            <placeName>Venice</placeName>
+                            <publisher> Andreola</publisher>
+                        </bibl>
+                        <bibl>
+                            <title>The Ancient Paper-Mills of the Former Austro-Hungarian Empire and Their Watermarks</title>
+                            <author>Georg Eineder</author>
+                            <date>1960</date>
+                            <placeName>Hilversum</placeName>
+                            <publisher>Paper Publications Society</publisher>
+                        </bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                       <item>
+                           <term ref="subject_sh85095219">Oracles, Greek</term>
+                       </item>
+                        <item>
+                           <term ref="subject_sh85080718">Manuscripts, Greek</term>
+                       </item> 
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+            <change when="2020-01-12" who="YK">Populated template</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
+
