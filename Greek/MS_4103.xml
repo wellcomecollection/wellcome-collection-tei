@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_4103">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS.4103</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="PBV">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Petros Bouras-Vallianatos</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-10-05">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2020">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS.4103</idno>
+            <idno type="catalogue">Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark"></idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b19693515</idno>
+                    </altIdentifier>
+                    <altIdentifier type="accession">
+                        <idno>69261</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Anonymous collection of post-Byzantine iatrosophia containing instructions for diagnosis and phlebotomy, various recipes of composite drugs (generally structured a capite ad calcem), 
+                    spells, short texts on auspicious days and on dream interpretation, moon-tables, and zodiacal tables. The text is not clearly organised and the original order of the leaves remains uncertain.</summary>
+                   
+                    <textLang mainLang="grc" source="IANA">Greek</textLang>
+                    
+                    <msItem n="1" xml:id="MS_4103_1">
+                        <author key="">Unknown</author>
+                        <title key="">Collection of post-Byzantine iatrosophia</title>
+                        
+                        <!-- Greek text to be picked up in late-stage editing -->
+              
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <explicit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        
+                        <colophon><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+
+                    </msItem>
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">                     
+                            <support>Folded in 4.
+                                <watermark>Watermark very similar to <ref>Andreev 40.218</ref> (attested in 1664 AD)</watermark>
+                                <measure type="chainline">Chain distance 28 mm.</measure>
+                            </support>
+                            
+                            <extent>125 unbound leaves
+                                <dimensions unit="mm" ><!-- Add if available -->
+                                    <dim type="height">215</dim>
+                                    <dim type="length">150</dim>
+                                    <!-- Add or delete dimensions as needed -->
+                                </dimensions>
+                            </extent>
+                            
+                             <foliation>
+                                 <note>Many leaves are lost and there is no continuous modern foliation. Partially paginated: 55-76, 81–86, 89–100, 105–116, 119–164,187–196, 209–212, 271–280, 277[”]–324, 329–342, 
+                                     379–387, 378 [ie. 388], [409]–412; and then foliated: 1-24.</note>
+                                 <note>Likeliest correct order of folia: 1, 3, 5, 23, 6–8, 15–20, 22, 5 (reversed), 24 (reversed),91–4, 21.</note>
+                                 <note>Old pagination (possibly scribal): Greek numeral <!-- Greek text to be picked up in late-stage editing --> (<locus>pp.55-76</locus>), <!-- Greek text --> (<locus>pp.81-86)</locus>, 
+                                     <!-- Greek text --> (<locus>pp.89-100</locus>), <!-- Greek text --> (<locus>pp.105-116</locus>).</note>
+                             </foliation>
+                            
+                            <collation>
+                                <formula>8 (p.72), 6 (p.86; innermost bifolium lost), 6 (p.100; outermost bifolium lost),6 (p.116; outermost bifolium lost), 2×8 (p.150), 1+6 (p.164; last leaf lost), 
+                                    6 (p.196; outermost bifolium lost), 2×1 (pp.209–212), 6 (p.280; outermost bifolium lost), 3×1(p.282[bis]), 6 (p.292), 8 (p.310), 1+6 (p.324; last leaf lost), 6+1 (p.342; first leaflost), 
+                                    1, 2, 3×1 (p.3[8]8), 1 (p.410), 2 (p.411–f.1); ff.3, 5, 23, 6, 22, 5, 24 and 21 are singletons; 2 (ff.7–8); 6 (ff.15–20), 6 (ff.9–14).</formula>
+                                <signatures>(possibly scribal): Arabic  numerals Ii1, 3 (<locus>p.55 and p.57</locus>), 4 (<locus>p.71</locus>), 7 (<locus>p.119</locus>), 8 (<locus>p.135</locus>), 9 (<locus>p.151</locus>), 
+                                    17 (<locus>p.279</locus>[bis]), 18 (<locus>p.293</locus>), 19 (<locus>p.311</locus>).</signatures>
+                            </collation>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="21">20-21 written lines.
+                                <measure type="height" unit="mm">153-160</measure>
+                                <measure type="length" unit="mm">92-95</measure> Ruling type 00D1 (Leroy, <formula notation="Leroy">1-1 / 0 / 0 / J</formula>) 
+                            </layout>
+                            
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">Unidentified post-Byzantine hand.</handNote>
+                    </handDesc>
+      
+                    <decoDesc>
+                        <decoNote type="diagram">Lunar tables for the years from 1697 to 1715 (<locus>pp.142-143</locus>)</decoNote>
+                        <decoNote type="diagram">Zodiacal tables (<locus>*102r-v</locus>, <locus>*107r</locus> and <locus>*118r</locus>).</decoNote>
+                        <decoNote type="diagram">Table of the winds (<locus>*117v</locus>).</decoNote>
+                        <decoNote type="marginal">Drawings of a snake and a moon (<locus>p.144, outer margin</locus>).</decoNote>
+                        <decoNote type="marginal">Apotropaic signs (<locus>p.164</locus> and <locus>p.290</locus>).</decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p>Scribal annotations: (passim) occasional deletions/corrections to the text; (*31v, *46v)text in the outer margin – (pp.280–281) additions to the main text.</p>
+                        <p>Non-scribal annotations: (pp.96, 98, 135, 138, 139) marginal notes –(*125v) poorly legible recipe.</p>
+                    </additions>
+                
+                    <bindingDesc>
+                        <binding>
+                            <p>No binding.</p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Greece</country>,
+                            <region>Northern Greece</region>
+                        </origPlace>
+                        <p>Identification of Northern Greece is based on the frequent reduction of <!-- Greek text --></p>
+                        <origDate calendar="Gregorian">1697 A.D.</origDate>, based on the lunar tables on <locus>pp.142-143.</locus>
+
+                    </origin>
+                    <provenance notBefore="1836" notAfter="1936">Owned by <persName>Sir Algernon Methuen</persName>.</provenance>
+                    <acquisition>Purchased on behalf of the Wellcome Historical Medical Museum at Sotheby's sale, London, <date>17 February 1936</date>, lot 97 (accession number 69261).</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue' in Medical History,  vol. 59 (2)</title>
+                                    <author>Petros Bouras-Vallianatos</author>
+                                    <date>2015</date>
+                                    <note>Pp. 275-326</note>
+                                </bibl>
+                                <bibl>
+                                    <note>A digitised version of the manuscript is available <ref target="https://wellcomelibrary.org/item/b19693515">here</ref>.</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Catalogue of valuable printed books, illuminated and other manuscripts, autographletters, topographical drawings of American interest, etc.: comprising, the library of 
+                                        Sir Algernon Methuen(...)on Monday, the 17th of February, 1936, and two following days at one o’clock precisely</title>
+                                    <date>1936</date>
+                                    <placeName>London</placeName>
+                                    <publisher>Sotheby and Co.</publisher>
+                                    <note>p.19</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                        
+                    </adminInfo>
+                    <listBibl>
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>Les filigranes dans les documents ottomans: couronne</title>
+                            <author>Stefan Andreev</author>
+                            <date>2007</date>
+                            <placeName>Sofia</placeName>
+                            <publisher>Trayanov</publisher>
+                            <abbr>Andreev</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library, vol.2</title>
+                            <author>Samuel Arthur Joseph Moorat</author>
+                            <date>1962-73</date>
+                            <placeName>London</placeName>
+                            <publisher>Wellcome Institute</publisher>
+                            <abbr>Moorat</abbr>
+                            <note>pp.877-888</note>
+                        </bibl>
+                        <bibl>
+                            <title>‘Byzantine Medical Manuscripts: Towards a New Catalogue, with a Specimen for an Annotated Checklist of Manuscripts Based on an Index of Diels’ Catalogue’, Byzantion, 79, 453–595</title>
+                            <author>Alain Touwaide</author>
+                            <date>2009</date>
+                            <abbr>Touwaide</abbr>
+                        </bibl>
+                        
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <revisionDesc>
+            <change when="2021" who="#VS">Added data from catalogue.</change>
+        <change when="2020-05-19" who="#AP">Created template for Wellcome Hebrew MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
