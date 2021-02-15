@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_MSL_52">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS.MSL.52</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="PBV">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Petros Bouras-Vallianatos</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-10-05">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="TTT">
+                <resp when="2021">TEI Encoder</resp>
+                <persName>The TEI Team</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS.MSL.52</idno>
+            <idno type="catalogue">Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS.MSL.52</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b18503433</idno>
+                    </altIdentifier>
+                    <altIdentifier type="accession">
+                        <idno>24902</idno>
+                    </altIdentifier>
+                    <altIdentifier type="deprecated">
+                        <idno>MS.MLS.52A and MS.MSL.52B</idno>
+                    </altIdentifier>
+                    <altIdentifier type="deprecated">
+                        <idno>HH i 21 and 22</idno>
+                    </altIdentifier>
+                    <altIdentifier type="deprecated">
+                        <idno>We 28 and 29</idno>
+                    </altIdentifier>
+                    
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Greek medical texts consisting of two volumes bound separately but foliated continuously. The second volume comprises two distinct parts. Volume 1 and the first half of volume 2 are the 
+                        work of the same scribe and were originally bound together.</summary>
+                   
+                    <textLang mainLang="gre" source="IANA">Ancient Greek</textLang>
+                    
+                </msContents>
+                
+                <physDesc>
+
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>Paper
+                               <watermark><locus>Fly leaves ii-iii in volume 1 and ff.405-406</locus>: unclear watermark.</watermark>
+                                <watermark><locus>Fly leaves iv-v in volume 1 and ff.404</locus>: watermark very similar to <ref>Piccard 150772, 150409, 150636</ref> (three hills) attested in 1461-1477.</watermark>
+                                <measure type="chainline"><locus>Fly leaves ii-iii in volume 1 and ff.405-406</locus>: Chain distance 31mm.</measure>
+                                <measure type="chainline"><locus>Fly leaves iv-v in volume 1 and ff.404</locus>: Chain distance 25mm.</measure>
+                            </support>
+                            <extent>v + 202 + i and i + 210 + i
+                                <dimensions unit="mm">
+                                    <dim type="diameter">215</dim>
+                                    <dim type="length">145</dim>
+                                </dimensions>
+                            </extent>
+                            <foliation>
+                                <note>The two volumes are foliated continuously: 1-202 and 203-282, 283, 284-292, 293-296, 297-306, 307-312, 312-321, 322-406.</note>   
+                            </foliation>
+                            <collation>
+                                <formula>5 x 1 (v), 5 x 8 (f.40), 3 x 1 (f.43); 25 x 8 (f.243), 10 (f.253), 10 x 8 (f.325), 1 + 6 (f.332; no text lost); 1 + 6 (f.333), 6 + 1 (f.339), 8 x 8 (f.403), 
+                                    1 (f.404), 2 (f.406), 1 (i).</formula>
+                            </collation>  
+                        </supportDesc>
+
+                    </objectDesc>
+                    
+                    <additions>
+                        <p>Text on the flyleaves: <locus>IVv</locus>: two recipes <!-- Add Greek -->. <locus>Vr</locus>: <!-- Add Greek -->. <locus>Vr</locus>: recipe <!-- Add Greek -->. <locus>Vv</locus> <!-- Add Greek --></p>
+                        <p>Marks of ownership: <locus>f.363r</locus>: <!-- Add Greek -->. The following three lines of text are completely blotted out. <locus>f.404r</locus>: <!-- Add Greek -->. 
+                            <locus>flyleaf Vr</locus>: <!-- Add Greek -->. <locus>flyleaf IIr</locus>: Ex Bibliotheca Askeviana / P. ii. Art 540 / J. Sims.</p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Corio russico. Pastdowns and outermost flyleaves: machine-made paper</p>
+                        </binding>
+                    </bindingDesc>
+                   
+                </physDesc>
+                
+                <history>
+                    <provenance notBefore="1400" notAfter="1749">Owned by <persName>Manuel Kantakouzenos Gerakes</persName>.</provenance>
+                    <provenance notBefore="1400" notAfter="1749">Held at the Stavronikita Monastery, Mount Athos</provenance>
+                    <provenance notBefore="1749" notAfter="1749">Brought to England in 1749.</provenance>
+                    <provenance notBefore="1749" notAfter="1785">Owned by <persName>Anthony Askew</persName> (1722-1774) and sold at his auction sale, G. Leigh and J. Sotheby, London, 
+                        <date>15 March 1785</date>, lot 540 to <persName>James Sims</persName> (1741-1820).</provenance>
+                    <provenance notBefore="1802" notAfter="1802">Purchased by the London Medical Society in <date>1802</date>.</provenance>
+                    <acquisition>Purchased by the Wellcome Library in <date>1984</date>.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue' in Medical History,  vol. 59 (2)</title>
+                                    <author>Petros Bouras-Vallianatos</author>
+                                    <date>2015</date>
+                                    <note>Pp. 275-326</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+
+                    <listBibl>
+                        <head>Bibliography</head>
+                        <bibl>
+                            <title>Bibliotheca Askeviana manu scripta, sive catalogus librorum manuscriptorum Antonii Askew</title>
+                            <date>1785</date>
+                            <placeName>London</placeName>
+                            <publisher>Leigh and Sotheby</publisher>
+                            <abbr>Bibl. Askev.</abbr>
+                            <note>33 (no.540)</note>
+                        </bibl>
+                        <bibl>
+                            <title>A Catalogue of Books Contained in the Library of the Medical Society of London, Instituted AD 1773</title>
+                            <date>1803</date>
+                            <placeName>London</placeName>
+                            <publisher>Medical Society of London</publisher>
+                            <abbr>Cat. Med. Soc. 1803</abbr>
+                            <note>3</note>
+                        </bibl>
+                        <bibl>
+                            <title>A Catalogue of Books Contained in the Library of the Medical Society of London, Instituted AD 1773</title>
+                            <date>1829</date>
+                            <placeName>London</placeName>
+                            <publisher>Medical Society of London</publisher>
+                            <abbr>Cat. Med. Soc. 1829</abbr>
+                            <note>4</note>
+                        </bibl>
+                        <bibl>
+                            <title>'Études sur les écrits inédits des anciens médecins grecs. Cinquieme série, XII-XIV siecles: Jean Tzetes, Nicolas Myrepsus, Jean Actuarius', Revue des Études Grecques, 10</title>
+                            <author>Georgios A. Costomiris</author>
+                            <date>1897</date>
+                            <note>pp.405-445: 441</note>
+                        </bibl>
+                        <bibl>
+                            <title>Notices et extraits des manuscrits médicaux grecs, latins et français des principales bibliothèques de l’Europe</title>
+                            <author>Charles Victor Daremberg</author>
+                            <date>1853</date>
+                            <placeName>Paris</placeName>
+                            <publisher>J.-B. Baillière</publisher>
+                            <abbr>Daremberg</abbr>
+                            <note>pp.158-159</note>
+                        </bibl>
+                        <bibl>
+                            <title>Oeuvres de Rufus d'Éphese</title>
+                            <author>Charles Victor Daremberg and Charles-Émile Ruelle</author>
+                            <date>1879</date>
+                            <placeName>Paris</placeName>
+                            <publisher>J.-B. Baillière</publisher>
+                            <abbr>Daremberg and Ruelle</abbr>
+                            <note>pp.219-32</note>
+                        </bibl>
+                        <bibl>
+                            <title>Manuscripta Medica: A Descriptive Catalogue of the Manuscripts in the Library of the Medical Society of London</title>
+                            <author>Warren Royal Dawson</author>
+                            <date>1932</date>
+                            <placeName>London</placeName>
+                            <publisher>J. Bale, Sons and Danielsson</publisher>
+                            <abbr>Dawson</abbr>
+                            <note>pp.59-60</note>
+                        </bibl>
+                        <bibl>
+                            <title>Die Handschriften der antiken Ärzte, 3 vols</title>
+                            <author>Hermann Diels</author>
+                            <date>1905-8</date>
+                            <placeName>Berlin</placeName>
+                            <abbr>Diels</abbr>
+                            <note>vol.I p.41, 109, 131. Vol.II p.7, 48, 102, 108-110, 131</note>
+                        </bibl>
+                        <bibl>
+                            <title>‘Der Kopist des Par. gr. 428 und das Ende der Grosskomnenen’, Jahrbuch der Osterreichischen Byzantinistik, 36</title>
+                            <author>Ernst Gamillscheg</author>
+                            <date>1986</date>
+                            <abbr>Gamillscheg</abbr>
+                            <note>pp.287-300</note>
+                        </bibl>
+                        <bibl>
+                            <title>Anonymimedici De morbis acutis et chroniis</title>
+                            <editor>Ivan Garofalo</editor>
+                            <date>1997</date>
+                            <placeName>Leiden</placeName>
+                            <publisher>Brill</publisher>
+                            <abbr>Garofalo</abbr>
+                            <note>p.xvii</note>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue des manuscrits conservés dans la Bibliotheque du Patriarcat Oecuménique: les manuscrits dumonastere de la Panaghia de Chalki, 2 vols</title>
+                            <author>Paul Géhin and Matoula Kouroupou</author>
+                            <date>2008</date>
+                            <placeName>Turnhout</placeName>
+                            <abbr>Brepols</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>'Edition critique,traduction  et  commentaire  critique  du  livre  1  “De  Urinis”  de  Jean  Zacharias  Actouarios'</title>
+                            <author>Stavroula Georgiou</author>
+                            <date>2013</date>
+                            <placeName>Paris</placeName>
+                            <publisher>Ecole Pratique des Hautes Études</publisher>
+                            <abbr>Georgiou</abbr>
+                            <note>pp.250-253, 364-367</note>
+                            <note>Unpublished PhD thesis</note>
+                        </bibl>
+                        <bibl>
+                            <title>Claudii Galeni Opera omnia, 20 vols.</title>
+                            <author>Karl Gottlob Kuhn</author>
+                            <date>1821-1833</date>
+                            <placeName>Leipzig</placeName>
+                            <publisher>Carl Cnobloch</publisher>
+                            <abbr>Gottlob</abbr>
+                            <note>vol.8, pp.453-492</note>
+                        </bibl>
+                        <bibl>
+                            <title>Actuarii De actionibus &amp; affectibus spiritus animalis, eisque victu, libri II</title>
+                            <author>Jacques Goupyl</author>
+                            <date>1557</date>
+                            <placeName>Paris</placeName>
+                            <publisher>Martinus Juvenus</publisher>
+                            <abbr>Goupyl</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Paulus Aegineta, 2 vols</title>
+                            <author>Johan Ludvig Heiberg</author>
+                            <date>1921-1924</date>
+                            <placeName>Leipzig</placeName>
+                            <publisher>Teubner</publisher>
+                            <note>CMG IX/1-2</note>
+                        </bibl>
+                        <bibl>
+                            <title>Physici et medici Graeci minores, 2 vols</title>
+                            <author>Julius Ludwig Ideler</author>
+                            <date>1841-1842</date>
+                            <placeName>Berlin</placeName>
+                            <publisher>G. Reimer</publisher>
+                            <abbr>Ideler</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>De Urinis Actuarii Ioannis, Zachariaefilii, medici praestantissimi, libri VII</title>
+                            <editor role="trl">Ambrogio Leone</editor>
+                            <date>1529</date>
+                            <placeName>Basel</placeName>
+                            <publisher>Andreas Cratandrus</publisher>
+                            <abbr>Ioannis</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Actuarii Ioannisfilii Zachariae Opera: De actionibus et spiritus animalis affectibus eiusque nutritione lib.II, De urinis lib.VII, Methodi medendi lib.V</title>
+                            <editor role="trl">Corneille  Henri  Mathys</editor>
+                            <date>1556</date>
+                            <placeName>Paris</placeName>
+                            <publisher>Bernardus  Turrisanus</publisher>
+                            <abbr>Mathys</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>'Jean Argyropoulos professeur a Constantinople et ses auditeurs médecins, d'Andronic Eparque a Démétrios Angelos', in Georgios Makris and Cordula Scholz (eds), <!-- Add Greek text -->: Miscellanea fur Peter Schreiner zu seinem 60. Geburtstag</title>
+                            <author>Brigitte Mondrain</author>
+                            <date>2000</date>
+                            <placeName>Munich</placeName>
+                            <publisher>Saur</publisher>
+                            <note>pp.223-250: 236-237, 250</note>
+                        </bibl>
+                        <bibl>
+                            <title>'Comment était lu Galien a Byzance dans la premiere moitié du XVe siecle? Contribution a quelques aspects de l'histoire des textes', Antonio Garzya and Jacques Jouanna (eds): Transmissione e ecdotica dei testi medici greci: Atti del IV Convegno Internazionale, Parigi 17-19 maggio 2001</title>
+                            <author>Brigitte Mondrain</author>
+                            <date>2003</date>
+                            <placeName>Naples</placeName>
+                            <publisher>D'Auria</publisher>
+                            <note>pp.361-384: 366</note>
+                        </bibl>
+                        <bibl>
+                            <title>'Démétrios Angelos et la médecine: contribution nouvelle au dossier', Véronique Boudon-Millot et al (eds): Storia della tradizione e edizione dei medici greci: Atti del VI Colloquio internazionale, Paris 12-14 aprile 2008</title>
+                            <author>Brigitte Mondrain</author>
+                            <date>2010</date>
+                            <placeName>Naples</placeName>
+                            <publisher>D'Auria</publisher>
+                            <note>pp.293-322: 295, 299, 301, 305</note>
+                        </bibl>
+                        <bibl>
+                            <title>‘Special Report on the Greek MSS in the Society’s Library’, Transactions of the Medical Society of London, 27, liii–liv</title>
+                            <author>Joseph Baldwin Nias</author>
+                            <date>1905</date>
+                            <abbr>Nias</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>The Byzantine Family of Kantakouzenos (Cantacuzenus) ca. 1100-1460: A Genealogical and Prosopographical Study</title>
+                            <author>Donald Nicol</author>
+                            <date>1968</date>
+                            <placeName>Washington DC</placeName>
+                            <publisher>Carl Dumbarton Oaks</publisher>
+                            <note>Dumbarton Oak Studies, 11. pp.128-129 with note 20</note>
+                        </bibl>
+                        <bibl>
+                            <title>‘The Legacy of Hippocrates: Greek Medicine int he Library of the Medical Society of London’, Transactions of the Medical Society of London, 103, 21–30</title>
+                            <author>Vivian Nutton</author>
+                            <date>1986-7</date>
+                            <abbr>Nutton</abbr>
+                            <note>pp.24-26</note>
+                        </bibl>
+                        <bibl>
+                            <title>‘A Wellcome Manuscript of a Medical Practitioner’, in Véronique Boudon-Millot et al. (eds), Storia della tradizione e edizione dei medici greci: Atti del VI Colloquio Internazionale, Paris 12–14 Aprile 2008, 259-70</title>
+                            <author>Vivian Nutton and Barbara Zipser</author>
+                            <date>2010</date>
+                            <placeName>Naples</placeName>
+                            <publisher>D'Auria</publisher>
+                            <abbr>Nutton and Zipster</abbr>
+                            <note>p.261</note>
+                        </bibl>
+                        <bibl>
+                            <title>Aetii Amideni libri medicinales, 2 vols</title>
+                            <author>Alexander Olivieri</author>
+                            <date>1935-1950</date>
+                            <placeName>Leipzig</placeName>
+                            <publisher>Teubner</publisher>
+                            <note>CMG VIII/1-2</note>
+                        </bibl>
+                        <bibl>
+                            <title>Wasserzeichenkartei Piccard</title>
+                            <ref target="http://www.piccard-online.de">http://www.piccard-online.de</ref>
+                            <abbr>Piccard</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘Die letzten Tage der Grosskomnenen’, Byzantinische Zeitschrift, 37</title>
+                            <author>J. Enoch Powell</author>
+                            <date>1937</date>
+                            <abbr>Powell</abbr>
+                            <note>pp.359-360</note>
+                        </bibl>
+                        <bibl>
+                            <title>Repertorium der griechischen Kopisten, 800–1600, 3 vols in 9 pts.</title>
+                            <editor>Herbert Hunger</editor>
+                            <date>1981-97</date>
+                            <placeName>Oxford</placeName>
+                            <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                            <note>Cited with volume no. followed by catalogue no., eg. RGKI 213</note>
+                            <abbr>RKG</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Theophili et Stephani Atheniensis De febrium differentia ex Hippocrate et Galeno</title>
+                            <editor>Demetrius Sicurus</editor>
+                            <date>1862</date>
+                            <placeName>Florence</placeName>
+                            <publisher>Bencini</publisher>
+                        </bibl>
+                        <bibl>
+                            <title>'Anthony Askew's "Liber Amicorum"', Transactions of the Cambridge Bibliographical Society, 6</title>
+                            <author>Frank Stubbings</author>
+                            <date>1976</date>
+                            <note>pp.306-321: 317</note>
+                        </bibl>
+                        <bibl>
+                            <title>‘Die pseudohippokratische Krankheitsprognostik nach dem Auftreten von Hautausschlagen, “Secreta Hippocratis” oder “Capsula eburnea” benannt’, Archiv fur Geschichte der Medizin, 9</title>
+                            <editor>Karl Sudhoff</editor>
+                            <date>1915</date>
+                            <note>pp.79-116</note>
+                        </bibl>
+                        <bibl>
+                            <title>Thesaurus Linguae Graecae</title>
+                            <ref target="http://www.tlg.uci.edu">http://www.tlg.uci.edu</ref>
+                            <abbr>TLG</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘Byzantine Medical Manuscripts: Towards a New Catalogue, with a Specimen for an Annotated Checklist of Manuscripts Based on an Index of Diels’ Catalogue’, Byzantion, 79, 453–595</title>
+                            <author>Alain Touwaide</author>
+                            <date>2009</date>
+                            <abbr>Touwaide</abbr>
+                            <note>pp.538-539</note>
+                        </bibl>
+                        <bibl>
+                            <title>'Medical Theory and Practice in Late Byzantium: the Case of John Zacharias Aktouarios (ca. 1275-ca. 1330)'</title>
+                            <author>Petros Bouras-Vallianatos</author>
+                            <date>2015</date>
+                            <placeName>King's College London</placeName>
+                            <publisher>(unpublished PhD thesis)</publisher>
+                            <note>pp.125, 346-348, 382</note>
+                        </bibl>
+             
+                    </listBibl>
+                
+                </additional>
+                
+                <msPart n="1" xml:id="MS_MSL_52_A">
+                    <msIdentifier>
+                        <idno>MS.MSL.52.A</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Three works by <persName>John Zacharias Aktouarios</persName> comprising the entirety of volume 1 and the first part of volume 2.</summary>
+                        
+                        <msItem>
+                            
+                            <msItem n="1" xml:id="MS_MSL_52_A_1">
+                                <locus from="1r" to="43v">ff.1r-43v</locus>
+                                <author key="person_100190357">John Zacharias Aktouarios</author>
+                                <title key="">On the activities and illnesses of the psychic pneuma and the corresponding mode of living</title>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                                <note>TLG 3188.001</note>
+                                
+                            </msItem>
+                            
+                            <msItem n="2" xml:id="MS_MSL_52_A_2">
+                                <locus from="44r" to="143v">ff.44r-143v</locus>
+                                <author key="person_100190357">John Zacharias Aktouarios</author>
+                                <title key="">On Urines</title>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                                <filiation>Another version of this work is in MS.MSL.124</filiation>
+                                <note>TLG 3188.002</note>
+                                
+                            </msItem>
+                            
+                            <msItem n="2" xml:id="MS_MSL_52_A_3">
+                                <locus from="145r" to="332v">ff.145r-332v</locus>
+                                <author key="person_100190357">John Zacharias Aktouarios</author>
+                                <title key="">Medical Epitome, books 1, 2 and 3 and first part of books 6, 4 and 5</title>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                                <filiation>Another version of this work is in MS.MSL.112</filiation>
+                                <note>Book 2: TLG 3188.003</note>
+                                <note>Books 3-6 have no Greek edition yet and have only been published in Latin translation. The manuscript belongs to a family where the first part of Book 6 forms the second 
+                                    part of Book 3 and the second part of Book 6 comes after Book 5. The second part of Book 6 is missing from this manuscript.</note>
+                                
+                            </msItem>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="paper">
+                                
+                                <support>Folded in 4.
+                                    <watermark>Similar to <ref>Piccard 122469</ref> (scissors), attested in 1455.</watermark>
+                                    <measure type="chainline">Chain distance 33mm.</measure>
+                                </support>
+                                
+                                <foliation>
+                                    <note>Foliated 1-202 and 203-282, 283, 284-292, 293-296, 297-332.</note>
+                                </foliation>
+                                
+                                <collation>
+                                    <signatures>(<locus>ff.1-43</locus>) non-scribal, Greek numerals <!-- add Greek text --> (f.9r) through <!-- add Greek text --> (f.41r). (<locus>ff.44-211</locus>) scribal, 
+                                        Greek numerals <!-- add Greek text --> (excepts for <!-- add Greek text --> on f.51v) <!-- add Greek text --> (f.51v) through <!-- add Greek text --> (f.204r). 
+                                        (<locus>f.212-332</locus>) possibly scribal, Greek numerals <!-- add Greek text --> (f.21r) through <!-- add Greek text --> (f.326r)</signatures>
+                                </collation>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="25"> <locus from="1" scheme="folios" to="43">ff.1-43</locus> 25 written lines.
+                                    <measure type="height" unit="mm">c.173</measure>
+                                    <measure type="length" unit="mm">107</measure>
+                                    <note>Unclear ruling.</note>
+                                </layout>  
+                                <layout writtenLines="25"> <locus from="44" scheme="folios" to="332">ff.44-332</locus> 25 written lines.
+                                    <measure type="height" unit="mm">167</measure>
+                                    <measure type="length" unit="mm">97</measure>
+                                    <note>Unclear ruling.</note>
+                                </layout>    
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="sole">Attributed by <ref>Mondrain</ref> to Demetrios Angelos.</handNote>
+                        </handDesc>
+   
+                        <decoDesc>
+                            <decoNote type="diagram"><locus>f.44r</locus>: diagram (possibly scribal) of the urine vial dividied into eleven areas, corresponding to John Aktouarios' 'On Urines' [Book I, chapter 13]: <!-- Add Greek text -->.</decoNote>
+                            <decoNote type="diagram"><locus>f.63r</locus>: X-shaped diagram (possibly scribal)showing the four qualities and labelled: <!-- Add Greek text -->.</decoNote>
+                            <decoNote type="diagram"><locus>f.146r</locus>: X-shaped diagram (possibly scribal)showing the four qualities and labelled: <!-- Add Greek text -->.</decoNote>
+                            <decoNote type="diagram"><locus>f.147v</locus>: Four triangular diagrams (possibly scribal) showing the four qualities and labelled: <!-- Add Greek text -->.</decoNote>
+                        </decoDesc>
+ 
+                        <additions>
+                            <p>Annotations (possibly scribal): (<locus>ff. 32v, 34r, 46v, 47r, 49v, 50v, 51v, 54r, 56v, 59r, 63r, 65v, 66v, 70r, 74v, 76v, 78v, 80v, 85r, 85v, 88v, 93r, 93v, 95v, 96r, 96v, 
+                                98r, 99v, 100r,100v, 103r, 105r, 108r, 109v, 110v, 112v, 114r, 115v, 116r, 116v, 117v, 118r, 118v, 119r, 119v, 120r, 121r, 121v, 124v, 125r, 125v, 126r, 126v, 127r, 129r, 130r, 
+                                125r, 135r, 136r,136v, 137r, 140r, 140v, 141v, 143r, 143v 145r, 146v, 147r, 150v, 151r, 152v, 154v, 155r, 155v, 157v, 158r, 158v, 159v, 160v, 161r, 162v, 164r, 165r, 169r, 169v, 
+                                174v, 176v, 177r, 177v, 181v, 182v, 186r, 187r, 192v, 193v, 195v, 196r, 198r, 199v, 201r, 202v, 203r, 204r, 205r, 206r, 206v, 209v, 207v, 220v, 256v, 269v, 273v, 282bis  v, 
+                                307bis  r, 313v,321bis  r</locus>) correction or additions to the main text, variant readings, short explanations or indications of contents, e.g. 32v <!-- add Greek text --></p>
+                            <p>Annotations (possibly scribal): (<locus>145r</locus>) title added: <!-- add Greek text --></p>
+                            <p>Non-scribal annotations: (<locus>8r</locus>) <!-- add Greek text -->; (<locus>96v</locus>) <!-- add Greek text -->; (<locus>178r</locus>) title added <!-- add Greek text --></p>
+                            <p>Text added by later hands: (<locus>44r</locus>) partly erased recipe including <!-- add Greek text -->; (<locus>143v</locus>) <!-- add Greek text -->; (<locus>144r-v</locus>) <!-- add Greek text --></p>
+                        </additions>
+
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <region>Byzantine Empire</region>
+                                <settlement>Constantinople</settlement>
+                            </origPlace>
+                            <origDate calendar="Gregorian">shortly before 1463 AD (from the note on <locus>f.332v</locus>)</origDate>
+                        </origin>
+                    </history>
+                    
+                </msPart>
+                
+                <msPart n="2" xml:id="MS_MSL_52_B">
+                    <msIdentifier>
+                        <idno>MS.MSL.52.B</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Compilation of short texts and extracts regarding sweats, pulse, excrements, remedies, drugs and disease.</summary>
+                        
+                        <msItem>
+                            
+                            <msItem n="1" xml:id="MS_MSL_52_B_1">
+                                <locus from="333r" to="333v">ff.333r-333v</locus>
+                                <author key="person_365926">Theophilus Protospatharius</author>
+                                <note>Author might also be <persName key="person_259955440">Stephen</persName>.</note>
+                                <title key="">On the differences among the fevers</title>
+                                <note>Excerpt on sweats.</note>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                                <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                                <note>TLG 0746.001</note>
+                                
+                            </msItem>
+                            
+                            <msItem n="2" xml:id="MS_MSL_52_B_2">
+                                <locus from="333v" to="341r">ff.333v-341r</locus>
+                                <author key="">Anonymous</author>
+                                <title key="">On Pulse</title>
+                                <note>Text in the form of questions and answers. For example 340v <!-- Add Greek -->.</note>
+                                <note>Some parts of the text on the first folia represent a synopsis of <persName>Galen</persName>'s On the pulse for beginners, <ref>Gottlob</ref>. From <locus>f.338r</locus> 
+                                    the text is similar to the annonymous synopsis on pulses published by <ref>Daremberg and Ruelle</ref> (338r.15-341r.112), including <!-- Add Greek --> {~id, 219.4-231.13}.</note>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                            </msItem>
+                            
+                            <msItem n="3" xml:id="MS_MSL_52_B_3">
+                                <locus from="341r" to="345v">ff.341r-345v</locus>
+                                <author key="person_84812936">Paul of Aegina</author>
+                                <title key="">Medical Epitome</title>
+                                <note>Excerpt on pulse.</note>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                                <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                                <note>TLG 0751.001</note>
+                                
+                            </msItem>
+                            
+                            <msItem n="4" xml:id="MS_MSL_52_B_4">
+                                <locus from="345v" to="346r">ff.345v-346r</locus>
+                                <author key="">Unknown</author>
+                                <title key="">Short text on pulse.</title>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                                                
+                            </msItem>
+                            
+                            <msItem n="5" xml:id="MS_MSL_52_B_5">
+                                <locus from="346r" to="346v">f.346</locus>
+                                <author key="person_79115278">Aetios of Amida</author>
+                                <title key="">Tetrabiblon</title>
+                                <note>Excerpt on pulse.</note>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+
+                                <note>TLG 0718.005</note>
+                                
+                            </msItem>
+                            
+                            <msItem n="6" xml:id="MS_MSL_52_B_6">
+                                <locus from="346v" to="354r">ff.346v-354r</locus>
+                                <author key="person_44299175">Galen</author>
+                                <title key="">On the pulse for beginners, excerpt</title>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+
+                                <note>TLG 0057.058</note>
+                                
+                            </msItem>
+                            
+                            <msItem n="7" xml:id="MS_MSL_52_B_7">
+                                <locus from="354v" to="361v">ff.354v-361v</locus>
+                                <author key="person_365926">Theophilus Protospatharius</author>
+                                <title key="">On excrements</title>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                                <note>TLG 0729.003</note>
+                                
+                            </msItem>
+                            
+                            <msItem n="8" xml:id="MS_MSL_52_B_8">
+                                <locus from="361v" to="363r">ff.361v-363r</locus>
+                                <author key="">Pseudo Hippocrates</author>
+                                <title key="">Sayings about life and death</title>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                            </msItem>
+                            
+                            <msItem n="9" xml:id="MS_MSL_52_B_9">
+                                <locus from="363v" to="363v">f.363v</locus>
+                                <author key="">Anonymous</author>
+                                <title key="">Collection of recipes for composite drugs.</title>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                            </msItem>
+                            
+                            <msItem n="10" xml:id="MS_MSL_52_B_10">
+                                <locus from="364r" to="366v">ff.364r-366v</locus>
+                                <author key="person_525149294176280521127">Pseudo Galen</author>
+                                <title key="">On procurable remedies, excerpt</title>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                                <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                                <note>TLG 0530.029</note>
+                                
+                            </msItem>
+                            
+                            <msItem n="11" xml:id="MS_MSL_52_B_11">
+                                <locus from="366v" to="403v">ff.366v-403v</locus>
+                                <author key="">Anonymous</author>
+                                <title key="">On acute and chronic disease</title>
+                                <note>folio <locus>404v</locus> is blank.</note>
+                                
+                                <!--Here be Greek! -->
+                                
+                                <incipit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+
+                                <note>TLG 0721.019</note>
+                                
+                            </msItem>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="paper">
+                                
+                                <support>Folded in 4.
+                                    <watermark>Similar to <ref>Piccard 122600</ref> (ANVIL), attested in 1444.</watermark>
+                                    <measure type="chainline">Chain distance 38mm.</measure>
+                                </support>
+                                
+                                <foliation>
+                                    <note>Foliated 333-306, 307-312, 312-321, 322-406.</note>
+                                    <note>Original order of leaves: ff.333-379, 388-395, 380-387, 396-403</note> <!-- correct place for this info? -->
+                                </foliation>
+                                
+                                <collation>
+                                    <signatures>(non-scribal) Greek numerals <!-- add Greek text --> (except for <!-- add Greek text --> on f.399v) <!-- add Greek text --> (f.340r) through <!-- add Greek text --> (f.388r).</signatures>
+                                </collation>
+                                
+                            </supportDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="major">Similar to those of (according to Georgi Parpulov) Constantine Triboles (<ref>RGK II 318</ref>) and (according to Rudolph Stefec) Mark (<ref>RGK III 437</ref>).</handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="diagram"><locus>f.338v</locus>: non-scribal partial X-shaped diagram of pulses.</decoNote>
+                        </decoDesc>
+                        
+                        <additions>
+                            <p>Scribal annotations: (<locus>ff.334r, 334v, 335r, 337r, 339v, 348r, 348v, 351v, 354v, 355r, 356r, 357v, 357r, 357v, 358r, 359r, 363v, 365v, 367r, 368v, 370r, 373v, 377v, 378r, 380v, 
+                                381r, 384v, 385v, 387r, 392v, 396r, 396v, 397v, 401v</locus>) additions or corrections to the main text, variant readings, indications of contents e.g. (<locus>f.337r</locus>) 
+                                <!-- add Greek text --></p>
+                            <p>Scribal annotations: (<locus>f.356v</locus>) list of the qualities/colours of urines: <!-- add Greek text --></p>
+                            <p>Non-scribal annotations: (<locus>f.379v</locus>) <!-- add Greek text -->; (<locus>f.333r</locus>) title added: <!-- add Greek text -->; (<locus>f.361v</locus>) title added 
+                                <!-- add Greek text -->; (<locus>f.380r</locus>) Rhaz[eus] lib[er] XIX. cap[itulus] XX.</p>
+                            <p>Text added, possibly by the original scribe: (<locus>363v</locus>) <!-- add Greek text --></p>
+                            <p>Recipes added by later hands: (<locus>f.333v</locus>) including <!-- add Greek text -->; (<locus>f.354r</locus>) <!-- add Greek text -->; (<locus>f.363r</locus>) including 
+                                <!-- add Greek text -->; (<locus>f.363r</locus>) erased text; (<locus>f.364r</locus>) including <!-- add Greek text -->; (<locus>f.366v</locus>) including <!-- add Greek text -->, end lost.</p>
+                        </additions>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <region>Eastern Mediterranean</region>
+                            </origPlace>
+                            <origDate calendar="Gregorian">c.1445 (from watermarks)</origDate>
+                        </origin>
+                    </history>
+                    
+                </msPart> 
+                
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+
+        <revisionDesc>
+            <change when="2021" who="#VS">Added data from catalogue.</change>
+        <change when="2020-06-01" who="#AP">Created multipart template for Wellcome Greek MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
