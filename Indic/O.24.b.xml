@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_O_24_b">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+
+            <titleStmt>
+                <title>O.24.b</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-01-20">TEI encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">O.24.b</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="ragavan">O.24.b</idno>
+                        <altIdentifier type="Sierra">
+                            <idno><!--No Sierra number currently. No wellcome no. given by Pingree--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+                    <msContents>
+
+                        <summary>The <title>Amarakośa of <persName role="aut"
+                                >Amarasiṃha</persName></title>, and a brief astological text mostly
+                            in Hindi </summary>
+
+                        <msItem n="1" xml:id="O.24.b_1">
+                            <locus from="F.1v" to="F.55v">Ff.1v-55v</locus>
+                            <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
+                            <title key="work_317276258">Amarasiṃha. | Amarakośa</title>
+                            <author key="personal_100306907">Amarasiṃha</author>
+                            <incipit><locus>F.1v </locus>|| oṃ || śrīvītarāgāya namo || || yasya
+                                jñānadayāsiṃdho[̍r a]gādhasyā[̍]naghā guṇā sevyatā[']m akṣayo[ḥ]
+                                d̐hīrāḥ saśriye cāmṛtāya ca</incipit>
+                            <colophon><locus>F.55v </locus>ity amarasiṃhakṛtauḥ nāmaliṃgānūśāsane
+                                sāmānyas tṛtīyaḥ kāṃḍaḥ sāṃga eva samarthitaḥ || || ||s tritīyaḥ
+                                kāṃḍ saṃpūrṇaḥ ||</colophon>
+                            <note>There follows on <locus>F.55v </locus>: padmāni vodhayaty arkkaḥ |
+                                kāvyāni kurute kaviḥ tat saurabhaṃ nabhasvaṃtaḥ | saṃtas tanvaṃti
+                                tadguṇām 47 kaver a̍marasiṃhasyalkṛtareṣā sunirmata |
+                                caṃdrārkkastārakaṃ yā calnnāmaliṃgān uśāsanaṃ 48 prathomakāṃḍe ślo.
+                                300 || vargra 11 || || dvitīye kāṃḍe ślo. 1000 || vargra 11 || ||
+                                tṛtīye kāṃḍe ślo. 546 || vargra 5 || || </note>
+                            <note>Date formula: saṃvata 1844 mitī mārgaśiraśua 6
+                                śaurivāsvarānyatāyāṃ g̐raṃthasaṃpūrṇaṃ </note>
+                        </msItem>
+
+                        <msItem n="2" xml:id="O.24.b_2">
+                            <locus>F.56v</locus>
+                            <textLang mainLang="hi" source="IANA">Hindi</textLang>
+                            <title>A brief astological text mostly in Hindi</title>
+                            <incipit><locus>F.56v </locus>ādau rūpavināśinī kṛsakarī kāmasya
+                                vidhvaṃsam jñānāmaṃdakarī tapachaikarī dharmmārthanira- mūlinī |
+                                dārāputrakalatrabhedanakarī lajjākula[ḥ] chedanī | syāmāṃ
+                                saṃpīnnasabhe jananī prāṇapraharaṇī chudhā ||1||</incipit>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>56 ff.<dimensions type="folia" unit="in">
+                                        <height><!--To be added - not stated by Pingree--></height>
+                                        <width><!--To be added - not stated by Pingree--></width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="13">13 lines, ca. 35 akṣaras.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>
+                            </origPlace>
+                            <origDate calendar="Vikram_Samvat" when="1844-12-15">15 December
+                                1844</origDate>
+                            <origDate calendar="Gregorian" when="1787-12-15">15 December
+                                1787</origDate>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information.</title>
+                                        <author>David Pingree.</author>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2021-01-20" who="#SC">Populated template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

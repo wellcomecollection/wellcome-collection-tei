@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_G_27_b">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+
+            <titleStmt>
+                <title>G.27.b</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-01-20">TEI encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">G.27.b</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="ragavan">G.27.b</idno>
+                        <altIdentifier type="OldNumber">
+                            <idno>554</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno><!--No Sierra number currently. No wellcome no. given by Pingree--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+                    <msContents>
+
+                        <summary>The <title>Kalyāṇamandirastotra</title> by <persName role="aut"
+                                >Siddhasena Divākara</persName> and copied by <persName role="scr"
+                                >Gurudāsa</persName> ṛṣi for <persName>Keśava</persName> ṛṣi at
+                                <placeName>Pīpaṇāsā</placeName> on <date>Sunday 23 October
+                                1631</date>; see <abbr>NCC</abbr> Vol 3, pp.254-256. And an
+                            unidentified Jaina account of Vṛṣabha.</summary>
+
+                        <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
+
+                        <msItem n="1" xml:id="G.27.b_1">
+                            <title key="work_309520839">Kalyāṇamandirastotra</title>
+                            <author key="personal_42080204">Siddhasena Divākara</author>
+                            <note><locus>F.8v </locus> iti kalyāṇamandirastotraṃ samāptaṃ likhitam
+                                idaṃ gurudāsarṣiṇā śubhaṃ saṃvatsare smin śrīnṛpativikramārkasaṃvat
+                                1688 | māse kārttike tithau navamyāṃ ravidine pīpaṇāsāyāṃ puri
+                                paṭhanārthaṃ keśavarṣeḥ</note>
+                        </msItem>
+
+                        <msItem n="2" xml:id="G.27.b_2">
+                            <title>An unidentified Jaina account of Vṛṣabha</title>
+                            <incipit><locus>F.1v </locus> cavaṇavimāṇa + yarī jaṇayājaṇaṇī
+                                yarirakarāsīuṃ laṃbaṇapamāṇa āuṃ
+                                valaṃtaradirakatavabhirakā</incipit>
+                            <explicit><locus>F.5v </locus>uddhariyā siri</explicit>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>13 ff.<dimensions type="folia" unit="in">
+                                        <height><!--To be added - not stated by Pingree--></height>
+                                        <width><!--To be added - not stated by Pingree--></width>
+                                    </dimensions>
+                                </extent>
+                                <foliation><ref>G.27.b_1</ref><note>Original foliation numbers:
+                                        1-8</note></foliation>
+                                <foliation><ref>G.27.b_2</ref><note>Original foliation numbers:
+                                        1-5</note></foliation>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="5"><ref>G.27.b_1</ref> 5 lines, ca. 30
+                                    akṣaras.</layout>
+                                <layout writtenLines="9"><ref>G.27.b_2</ref> 8-9 lines, ca. 40
+                                    akṣaras.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="major">
+                                <persName role="scr">Gurudāsa</persName>
+                            </handNote>
+                            <handNote scope="minor">
+                                <persName role="scr">Unidentified hand</persName>
+                            </handNote>
+                        </handDesc>
+                        <additions><p>Interlinear gloss</p></additions>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName><ref>G.27.b_1</ref> Pīpaṇāsā</placeName>
+                                <country>India</country>
+                            </origPlace>
+                            <origDate calendar="Vikram_Samvat" when="1688-10-23"><ref>G.27.b_1</ref>
+                                23 October 1688></origDate>
+                            <origDate calendar="gregorian" when="1631-10-23"><ref>G.27.b_1</ref> 23
+                                October 1631</origDate>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information.</title>
+                                        <author>David Pingree.</author>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>
+                                <title>New catalogus catalogorum: and alphabetical register of
+                                    Sanskrit and allied works and authors.</title>
+                                <editor>V. Raghavan, et al.</editor>
+                                <placeName>Madras</placeName>
+                                <publisher>University of Madras</publisher>
+                                <date>1949</date>
+                                <abbr>NCC</abbr>
+                                <note>Vol.3, pp.254-256</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2021-01-20" who="#SC">Populated template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
