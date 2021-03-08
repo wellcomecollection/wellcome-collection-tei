@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_G_65">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+
+            <titleStmt>
+                <title>G.65</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-01-20">TEI encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">G.65</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="ragavan">G.65</idno>
+                        <altIdentifier type="Old">
+                            <idno>965</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno><!--No Sierra number currently. No wellcome no. given by Pingree--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+                    <msContents>
+
+                        <summary>The <title>Tithyarka</title> composed by <persName role="aut"
+                                >Divākara</persName>, the son of <persName>Mahādeva</persName>, the
+                            son of <persName>Bālakṛṣṇa</persName> of the Bhāradvājagotrā at
+                                <placeName>Kāśī</placeName> in <date>1683</date>. See
+                                <abbr>CESS</abbr>, A3, 111a-112a, and A4, 111b-112a.</summary>
+
+                        <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
+
+                        <msItem n="1" xml:id="G.65">
+                            <title>Tithyarka</title>
+                            <author>Divākara</author>
+                            <note><locus>F.1v </locus>oṃ śrīgaṇeśāya namaḥ śrīsūryāya namaḥ
+                                jānakīnayanayugrnagocaraṃ mānmāṃ nayanayor agoraraṃ nīlam evva
+                                rucirachabiṃ sadā bhāvaye manasi rāghavaṃ mudā |</note>
+                            <note><locus>F.129 </locus>...iti
+                                śrīmadbhāvadvāravālakṛṣṇātmajasakalavibudha-
+                                cūḍāmaṇiśrīmahādevaikabhaktasaujanyasiṃdhuśrīmahādevā
+                                tmajaśrīravipadapāthojāsaktacittadivākaravirac[r<unclear/>]tas
+                                tithyarkaḥ samāptim aphāṇīt śrīrā[m<unclear/>]o vijayatetanūm śubham
+                                astu sarvatagatāṃm śrīgaṇeśāya namaḥ</note>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>125 ff.<dimensions type="folia" unit="in">
+                                        <height><!--To be added - not stated by Pingree--></height>
+                                        <width><!--To be added - not stated by Pingree--></width>
+                                    </dimensions>
+                                </extent>
+                                <foliation><note>Original foliation numbers: 1-20, 22-43, 44/45,
+                                        46-65, 67, 67b-98, 100-129.</note>
+                                </foliation>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="10">10 lines, ca. 30 akṣaras.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <additions><p>At the end of the manuscript in a different style, and
+                                possibly different hand, is written: saṃvat 1911 oṃ kāśīviśveśvarāya
+                                namaḥ</p>
+                        </additions>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information.</title>
+                                        <author>David Pingree.</author>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>
+                                <title>Census of the exact sciences in Sanskrit</title>
+                                <editor>David Pingree</editor>
+                                <placeName>Philadelphia</placeName>
+                                <publisher>American Philosophical Society</publisher>
+                                <date>1970</date>
+                                <abbr>CESS</abbr>
+                                <note>A3, 111a-112a, and A4, 111b-112b</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2021-01-20" who="#SC">Populated template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
