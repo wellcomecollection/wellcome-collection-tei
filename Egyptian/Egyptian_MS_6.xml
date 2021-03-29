@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Egyptian_MS_6">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Egyptian MS 6</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="QT">
+                <resp when="1994">Cataloguer</resp>
+                <persName>S. G. J. Quirke and W. J. Tait</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2021-03-11">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2021">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">Egyptian MS 6</idno>
+            <idno type="catalogue">Egyptian Manuscripts in the Wellcome Collection</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">Egyptian MS 6</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32714932</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Coptic homily on the Three Holy Children</summary>
+                   
+                    <textLang mainLang="cop" source="IANA">Coptic</textLang>
+                    
+                    <msItem n="1" xml:id="Egyptian_MS_6_1">
+                        <title key="">Homily on the Three Holy Children</title>
+     
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <explicit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        
+                        <colophon><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation>Evelyn-White noted that other fragments of the manuscript are extant, including fragments in Leipzig and a near-complete text in the Vatican (the beginning and any title or indication of authorship are lost). 
+                            The Vatican manuscript, also from the monastery of St Macarius, was edited by De Vis who took note of Egyptian MS 6. The relationship between the two manuscripts is briefly set out by De Vis (especially p.63). 
+                            The chief interest presented by the present leaves is that the text (at least that of the second two pages) is considerably fuller than that of the Vatican manuscript (such a variation is not surprising in patristic texts in Coptic). 
+                            This may perhaps justify the transcription (which eschews restorations) and the translation (incorporating the obvious restorations) offered here. It should be noted that Evelyn-White 
+                            provided a summary rather than a translation of the contents of Egyptian MS 6, thus giving a rather misleading impression of the relationship between the two versions (although De Vis perhaps suspected as much to judge from Homelies, n.7 on pp.73-74. </filiation>
+                        
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="sheet">
+                       
+                        <supportDesc material="other">
+                                                    
+                            <support>Parchment. Rather dark, with a strong yellow tinge. The leaves are still attached together at their fold; the first surviving page is hair-side.
+                            </support>
+                            <extent>Two conjugate leaves.
+                                <dimensions unit="mm">
+                                    <dim type="diameter">215</dim>
+                                    <dim type="length">292</dim>
+                                </dimensions>
+                                <note>The original fore-edge of the first leaf is entirely destroyed, and a width of up to 21.2 cm is preserved; of the second leaf the full width of 21.5 cm survives in part.</note>
+                            </extent>
+                            
+                             <foliation>
+                                 <note>The last page bears the number 30</note>
+                             </foliation>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout columns="1" writtenLines="30">Single columns with 28-31 written lines. 
+                                <dimensions type="written" unit="mm">
+                                    <dim type="diameter">130</dim>
+                                    <dim type="length">225-228</dim>
+                                </dimensions>    
+                            </layout>
+                            <layout>There are some extremely faint traces of vertical rulings.
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">The hand might be said to exaggerate the typical features of hands from the Wadi al-Natrun monastery of Saint Macarius. It is very upright, and round letters are 
+                            very rounded. <!-- Add Egyptian text --> has a substantial tail, almost square-cut at the right; <!-- Add Egyptian text --> has a short and strictly horizontal one. <!-- Add Egyptian text --> 
+                            and <!-- Add Egyptian text --> are very distinctive, with their upper right-hand portions very cramped. Most noticeably of all, <!-- Add Egyptian text --> and <!-- Add Egyptian text --> form 
+                            nearly a closed circle, the horizontal bar of <!-- Add Egyptian text --> (except in enlarged letters) being formed by merely a touch of the full width of the nib. Many parallels may be found 
+                            among platess. 1-16 of Evelyn-White's volume, plates 6A, 8, and 10A being similar; only plate 12B, however, is likely to be from the same hand, although the piece is too fragmentary and 
+                            indistinct for certainty.</handNote>
+                    </handDesc>
+
+                    <additions>
+                        <p></p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p></p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Egypt</country>
+                            <settlement>Wadi El Natrun</settlement>
+                            <orgName>Monastery of St Macarius the Great</orgName>
+                        </origPlace>
+                        <origDate calendar="Gregorian">10th century A.D. or perhaps no more than half a century either side of it.</origDate>
+                        <note>The date is based on the hand, which can be dated to the 10th century. The manuscript undoubtedly stems from the Monastery of St Macarius and the history of the monastery's library 
+                            as sketched by Evelyn-White (pp. xxi-xlviii), and in particular the large number of dated manuscripts of the ninth to tenth centuries (pp. xxv-xxvi), would suit the date suggested here. 
+                            Evelyn-White's own dating of his fragments of the same manuscript was 'tenth or eleventh century'.</note>
+                        <note>As the manuscript stems from the Monastery of St Macarius, it is not surprising that the standard palaeographies have no exact parallels. In H. Hyvernat, Album de paleographie copte 
+                            pour servir a l'introduction paleographique des Actes des Martyrs de l'Egypte (Paris, 1888; repr. Osnabruck, 1972), pls. 20 (end of the ninth century), 25 (tenth or eleventh), 41.2 (c. tenth), 
+                            and 42.1 (tenth) seem closest. In V. Stegemann, Koptische Palaographie (Heidelberg, 1936), the most relevant material may be found in Tafelband, pl. 17, 'Buchschrift des X. Jahrhdts: Dicker Stil'. 
+                            There is nothing very similar in M. Cramer, Koptische Palaographie (Wiesbaden, 1964), but see pls. 53 (Nr. 22; AD 889), 57 (Nr. 26; AD 933), and 59 (-; AD 979).</note>
+                    </origin>
+                    <provenance notBefore="1800">According to Evelyn-White the manuscript was in the possession of a Spanish Duke in 1908.</provenance>
+                    <provenance notBefore="1865" notAfter="1926">According to Evelyn-White, Walter Ewing Crum saw the manuscript at the British Museum at some point during his lifetime. The identity of the leaves 
+                        seen by Crum as Egyptian Manuscript 6 is set beyond doubt by the fact Evelyn-White quoted the first six lines, with the appropriate lacunae indicated.</provenance>
+                    <acquisition notBefore="1926" notAfter="1994">Acquired by the Wellcome Library or its predecessor the Wellcome Historical Medical Museum.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Egyptian Manuscripts in the Wellcome Collection in The Journal of Egyptian Archaeology, vol. 80</title>
+                                    <author>S. G. J. Quirke and W. J. Tait</author>
+                                    <date>1994</date>
+                                    <note>pp. 145-158</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p><!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+
+                    <listBibl>
+                        <head>Bibliography</head>
+                        <bibl>
+                            <title>'Homelies coptes de la Vaticane, ii', Coptica, 5, pp.60-120</title>
+                            <author>H. De Vis</author>
+                            <date>1929</date>
+                            <placeName>Heidelberg</placeName>
+                            <abbr>De Vis</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>'Three Hebrews in the Furnace', in A. S. Atiya (ed.), The Coptic Encyclopedia</title>
+                            <author>M. van Esbroeck</author>
+                            <date>1991</date>
+                            <placeName>New York</placeName>
+                            <note>pp.2257-2259</note>
+                            <note>See this work for a general account of the various surviving Coptic texts concerned with the Three Holy Children</note>
+                        </bibl>
+                        <bibl>
+                            <title>The Monasteries of the Wadi'n Natrun, Part i: New Coptic Texts from the Monastery of Saint Macarius; Edited with an Introduction on the Library at the Monastery of Saint Macarius </title>
+                            <author>H. G. Evelyn-White</author>
+                            <date>1926</date>
+                            <placeName>New York</placeName>
+                            <abbr>Evelyn-White</abbr>
+                            <note>In this work, on p.73 Evelyn-White provides a summary edition of two leaves [Egyptian MS 6] containing parts of the same text found by him at the monastery. He provides a summary 
+                                rather than a translation of the contents of the present leaves.</note>
+                        </bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+     
+        <revisionDesc>
+            <change when="2021" who="VS">Added data from catalogue.</change>
+        <change when="2021-03-11" who="#AP">Created template for Wellcome Egyptian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile><!---PDF catalogue includes low-quality black & white images of the leaves -->
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
