@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 06.01.21 -->
+
+<!-- Multipart template for Greek manuscripts -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Greek_14">
+    <!-- Give xml:id in the  format  'Greek_[MS number]' -the file name should be identical -->
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Greek_14</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="PBV">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Petros Bouras-Vallianatos</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-10-05">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="MK">
+                <resp when="2021-03-09">TEI Encoder</resp>
+                <persName>Miriam Keaveny</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MS.MSL.14</idno>
+            <idno type="catalogue">Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark"></idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b19449306</idno>
+                    </altIdentifier>
+                    <!-- Use further <altIdentifier> if former or alternative <idno> is available -->
+                    <altIdentifier type="deprecated">
+                        <idno>AA a 1</idno>
+                    </altIdentifier>
+                    <altIdentifier type="deprecated">
+                        <idno>Xa 32</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Collection of 14th century medical texts including pharmacy, phlebotomy and obstetrics</summary>
+                   
+                    <textLang mainLang="grc" source="IANA">Ancient Greek</textLang>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <!-- Insert and delete as needed -->
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="chart">
+                                                    
+                            <support>Paper, folded in 8
+                                <measure type="chainline">chainlines unclear</measure>
+                                <measure type="chainline"> <locus>fly leaves</locus> chain distance 22mm </measure>
+                                <watermark> <locus>fly leaves</locus> only upper half preserved, similar to Gravell and Miller, 476, attested in <date>1779</date> <ref> Gravell and Miller</ref></watermark>
+                                
+                            </support>
+                            <extent>iii + 157 + iii
+                                <dimensions unit="mm" > 
+                                    <dim type="height">143mm</dim>
+                                    <dim type="length">103mm</dim>
+                                    <!-- Add or delete dimensions as needed -->
+                                </dimensions>
+                            </extent>
+                            
+                             <foliation>
+                                 paginated 1–71, 73–131, 131–189, 191–232, 234–257,259–317
+                             </foliation>
+                            
+                            <collation>
+                                <formula> 6 x 8 (p. 95), 4 (p. 105), 1 (p. 107), 6 (p. 119), 4 (p. 127), 6 (p. 139), 2 x 8 (p. 155),
+                                    6 (p. 167), 8 (p. 183), 7 (p. 213, no text lost), 8, 6, 8, 6; 6, 7, 4, 6.</formula>
+                            </collation>
+                            
+                        </supportDesc>
+                         
+                    </objectDesc>
+                    
+                    <additions>
+                        <p>Marks of ownership: 
+                            1.Label inscribed 'D.a.11' <locus>front pastedown</locus>
+                            2.‘Vid(e) Fabricii Bibl(iotheca) Graec(a) Vol. 12. p. 781 [ubi] mentionem facit primae
+                            Epistolae huius codicis’ <locus>front flyleaf IVr</locus>
+                            3. ‘a a / a / I’ <locus>front flyleaf IVr </locus>
+                        </p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>corio russico, same as the tooling as the covers of <ref> MS. 5119 </ref> at <orgName>British Library</orgName></p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Cyprus<note>according to <persName> Barabara Zipster</persName> and <persName>Agamemnon Tselikas</persName> </note></country>,
+                        </origPlace>
+                        <origDate calendar="Gregorian">fourteenth century</origDate>
+                    </origin>
+                    <provenance> <persName>Anthony Askew</persName> (1722 - 74) his sale, <orgName>G. Leigh and J.Sotheby</orgName> <settlement>London</settlement> on <date>15th March 1785</date> lot 578 purchased by <persName> James Sims </persName>(1741–1820) of <settlement> London.</settlement> Purchased by <orgName>London Medical Society</orgName> in <date>1802</date></provenance>
+                    <acquisition> Purchased by <orgName> Wellcome Library</orgName> <date>1984</date></acquisition>
+                </history>                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue' in Medical History,  vol. 59 (2)</title>
+                                    <author>Petros Bouras-Vallianatos</author>
+                                    <date>2015</date>
+                                    <note>Pp. 275-326</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <!-- The folloing records the bibliographical entries Allan's catalogue refers to - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>Bibliotheca Askeviana manu scripta, sive catalogus librorum manuscriptorum Antonii Askew</title>
+                            <date>1785</date>
+                            <placeName>London</placeName>
+                            <publisher>Leigh and Sotheby</publisher>
+                            <abbr>Bibl. Askev.</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A Catalogue of Books Contained in the Library of the Medical Society of London, Instituted AD 1773</title>
+                            <date>1803</date>
+                            <placeName>London</placeName>
+                            <publisher>Medical Society of London</publisher>
+                            <abbr>Cat. Med. Soc. 1803</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A Catalogue of Books Contained in the Library of the Medical Society of London, Instituted AD 1773</title>
+                            <date>1829</date>
+                            <placeName>London</placeName>
+                            <publisher>Medical Society of London</publisher>
+                            <abbr>Cat. Med. Soc. 1829</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Manuscripta Medica: A Descriptive Catalogue of the Manuscripts in the Library of the Medical Society of London</title>
+                            <author>Warren Royal Dawson</author>
+                            <date>1932</date>
+                            <placeName>London</placeName>
+                            <publisher>J. Bale, Sons and Danielsson</publisher>
+                            <abbr>Dawson</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Die Handschriften der antiken Ärzte, 3 vols</title>
+                            <author>Hermann Diels</author>
+                            <date>1905-8</date>
+                            <placeName>Berlin</placeName>
+                            <abbr>Diels</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library, 3 vols</title>
+                            <author>Samuel Arthur Joseph Moorat</author>
+                            <date>1962-73</date>
+                            <placeName>London</placeName>
+                            <publisher>Wellcome Institute</publisher>
+                            <abbr>Moorat</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘Special Report on the Greek MSS in the Society’s Library’, Transactions of the Medical Society of London, 27, lii–lvii</title>
+                            <author>Joseph Baldwin Nias</author>
+                            <date>1905</date>
+                            <abbr>Nias</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘The Legacy of Hippocrates: Greek Medicine int he Library of the Medical Society of London’, Transactions of the Medical Society of London, 103, 21–30</title>
+                            <author>Vivian Nutton</author>
+                            <date>1986-7</date>
+                            <abbr>Nutton</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘A Wellcome Manuscript of a Medical Practitioner’, in Véronique Boudon-Millot et al. (eds), Storia della tradizione e edizione dei medici greci: Atti del VI Colloquio Internazionale, Paris 12–14 Aprile 2008, 259-70</title>
+                            <author>Vivian Nutton and Barbara Zipser</author>
+                            <date>2010</date>
+                            <placeName>Naples</placeName>
+                            <publisher>D'Auria</publisher>
+                            <abbr>Nutton and Zipster</abbr>
+                        </bibl>
+
+                        <bibl>
+                            <title>‘Byzantine Medical Manuscripts: Towards a New Catalogue, with a Specimen for an Annotated Checklist of Manuscripts Based on an Index of Diels’ Catalogue’, Byzantion, 79, 453–595</title>
+                            <author>Alain Touwaide</author>
+                            <date>2009</date>
+                            <abbr>Touwaide</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A Catalogue of Foreign Watermarks Found on Paper Used in America, 1700–1835</title>
+                            <author>Thomas L. Gravell and George Miller</author>
+                            <date>1983</date>
+                            <placeName>New York</placeName>
+                            <publisher>Garland</publisher>  
+                            <abbr>Gravell and Miller</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Thesaurus Linguae Graecae</title>
+                            <ref target="http://www.tlg.uci.edu">http://www.tlg.uci.edu</ref>
+                            <abbr>TLG</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘La post´erit´e de l’embryologie d’Hippocrate dans deux trait´es pseudo-hippocratiques de la m´edecine tardive: “Sur la formation de l’homme et Sur la g´en´eration de l’homme et
+                                la semence”</title>
+                            <author>Jacques Jouanna</author> 
+                            in <title>L’embryon: formation et animation</title>
+                            <editor>Luc Brisson et al</editor>
+                            <note><locus>15–41: 41</locus></note>
+                            <placeName> Paris </placeName>
+                            <publisher>Vrin</publisher>
+                            <date>2008</date>
+                             <abbr>Jouanna</abbr>
+  
+                        </bibl>
+                        <bibl>
+                            <title>Libanii opera</title>
+                            <author>Richard Foerster</author>
+                            <date>1922</date>
+                            <placeName>Lepzig</placeName>
+                            <publisher>Teubner</publisher>
+                            <note> <locus> Vol. 11, 3–5</locus></note>
+                            <abbr>Foerster</abbr>
+
+                        </bibl>
+                      
+                        <bibl>
+                            <title>Catalogus codicum astrologorum Graecorum V</title> in <title>Codicum Romanorum, pt. 4</title>
+                            <author>Stefan Weinstock</author>
+                            <date>1940</date>
+                            <placeName>Brussels</placeName>
+                            <publisher>Regia Academia Belgica</publisher>
+                            <note> <locus>p.156-63</locus></note>
+                            <abbr>Weinstock</abbr>
+                            
+                        </bibl>
+                        
+                        <bibl>
+                            <title>John the Physician’s Therapeutics: A Medical Handbook in Vernacular Greek</title>
+                            <author>Barbara Zipser</author>
+                            <date>2009</date>
+                            <placeName>Leiden</placeName>
+                            <publisher>Brill</publisher>
+                            <abbr>Zipser</abbr>
+  
+                        </bibl>
+                        
+                        <bibl>
+                            <title>‘Magic, infidelity, and secret annotations in a Cypriot manuscripts of the early fourteenth
+                                century (Wellcome MSL.14)</title>
+                            <author>Barbara Zipser</author>
+                            in <title>Dreams, Healing, and Medicine in Greece from Antiquity to the Present </title>
+                            <editor>Steven M. Oberhelman</editor>
+                            <note> <locus> pages 251–68, 257–8, 261. </locus></note>
+                            <date>2013</date>
+                            <placeName>Farnham</placeName>
+                            <publisher>Ashgate</publisher>
+                            <abbr>Zipser2</abbr>
+                            
+                        </bibl>
+                        
+                        <bibl> 
+                            <title>Filigranes des XIIIe et XIVe si`ecles</title>
+                            <extent>2 volumes</extent>
+                            <author>Vladimir Mošin and Seid Traljić</author>
+                            <date>1957</date>
+                            <placeName>Zagreb</placeName>
+                            <publisher>Acad´emie yougoslave des sciences et des beaux-arts</publisher>
+                             <abbr>Mošin and Traljić</abbr>
+                        
+                        </bibl>
+                        
+                        <bibl>
+                            <title>Anecdota medica Graeca e codicibus MSS. expromsit</title>
+                            <author>Franz Zacharias Ermerins</author>
+                            <date>1840</date>
+                            <placeName>Leiden</placeName>
+                            <publisher>S. et J. Luchtmans</publisher>
+                            <abbr>Ermerins</abbr>
+                            
+                        </bibl>
+                        
+                        <bibl>
+                            <title>Physici et medici Graeci minores</title>
+                            <extent>2 volumes</extent>
+                            <author>Julius Ludwig Ideler</author>
+                            <date>1841–42</date>
+                            <placeName>Berlin</placeName>
+                            <publisher>G. Reimer</publisher>
+                            <abbr>Ideler</abbr>
+                            
+                        </bibl>
+
+                        <bibl>
+                            <title>‘Die pseudohippokratische Krankheitsprognostik nach dem Auftreten von Hautausschl¨agen, “Secreta Hippocratis” oder “Capsula eburnea” benannt’</title>
+                            <author>Karl Sudhoff</author>
+                            in <title> Archiv für Geschichte der Medizin</title>
+                            <date>1915</date>
+                            <note> volume 9 <locus>pages 76-116 </locus> </note>
+                            <abbr>Sudhoff</abbr>
+                            
+                        </bibl>
+                        
+                       <bibl> 
+                           <title>‘Die uneinheitliche U¨ berlieferung eines Fragmentes u¨ber den Puls und ein Iatrosophion’ </title>
+                           <author>Barbara Zipser</author>
+                           in <title>Galenos</title> 
+                           <note> volume 2 <locus>page 129</locus></note>
+                           <date>2008</date>
+                           <abbr>Zipser3</abbr>                        
+                       </bibl>
+          
+                        <bibl>
+                            <title>Dated Manuscripts from Cyprus to the Year 1570</title>
+                            <author>Costas Constantinides and Robert Browning</author>
+                            <pubPlace>Washington DC</pubPlace>
+                            <publisher>Dumbarton Oaks</publisher>
+                            <date>1993</date>
+                            <note><locus>pl.44 no.30</locus></note>
+                            <abbr>Constantinides and Browning</abbr>
+                        </bibl>
+                    </listBibl>
+                
+                </additional>
+                
+
+          <msPart n="1" xml:id="Greek_14_A">
+                    <msIdentifier>
+                        <idno>MS.MSL.14 A</idno>
+                    </msIdentifier>
+
+                    <msContents> <summary> Collection of 14th century medical texts including pharmacy, phlebotomy, obstetrics and pseudo Hippocratic works.</summary>
+
+                         <msItem>
+                            <msItem n="1" xml:id="Greek_14_A_1">
+                                <locus> 1 to 12 </locus>    
+                                <title key="">Ps.-Hippocrates, Epistle to King Ptolemy on the Constitution of Man </title>
+                                <note> TLG 0751.002</note>
+                                <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                              
+                                <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                </incipit>
+                                
+                                <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                </explicit>
+
+                         </msItem>
+                            
+                              <msItem n="2" xml:id="Greek_14_A_2">
+                                 <locus> 12 to 14 </locus>    
+                                  <title key="">Alexander the Sophist or Ps.-Hippocrates, On the Human Body and Birth.</title>
+                                  <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                  
+                                  <incipit> Greek text to be picked up in late-stage editing <locus></locus> 
+                                  </incipit>
+                                  
+                                  <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                  </explicit>
+                                  
+                                    <note>Title on page 12 !Greek text to be picked up in late-stage editing! </note>
+                           </msItem>
+                               
+                           <msItem n="3" xml:id="Greek_14_A_3">
+                                     <locus> 14 to 16 </locus>    
+                                     <title key="">Anonymous opuscule on phlebotomy</title>
+                                     <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                    <filiation>The first few phrases of the text coincide with the last paragraph (VI) the treatise On Human Birth attributed to Alexander the Sophist. <ref>Jouanna</ref> </filiation> 
+                                            
+                                    <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                    </incipit>
+                                        
+                                    <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                    </explicit>
+                                        
+                            </msItem>
+                                    
+                            <msItem n="4" xml:id="Greek_14_A_4">
+                                    <locus> 17 to 18 </locus>    
+                                     <title key="">Anonymous opuscule on conception </title> 
+                                     <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                      <filiation> The introduction coincides with fragment 93 attributed to Libanius <ref>Diels II.57</ref> <ref> Foerster</ref></filiation>
+                                           
+                                      <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                            </incipit>     
+                                            
+                                       <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                            </explicit>
+                              </msItem>
+ 
+                              <msItem n="5" xml:id="Greek_14_A_5">
+                                     <locus> 18 to 34 </locus>    
+                                     <title key="">Anonymous collection of remedies</title> 
+                                    <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                    <note> The text contains details on plebotomy and various simple drugs, recipes of composite drugs, and therapeutic recommendations on bites of venomous animals and poisons.</note>                 
+                                   
+                                   <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                    </incipit>     
+                                    
+                                   <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                    </explicit>
+                               </msItem>
+                                         
+                               <msItem n="6" xml:id="Greek_14_A_6">
+                                     <locus> 34 to 41 </locus>    
+                                     <title key="">Pseudo Hippocrates, Sayings about Life and Death.
+                                     </title>
+                                     <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                     <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                      </incipit>     
+                                      
+                                     <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                     </explicit>
+                                   
+                                     <note> Non-scribal annotations pages 36, 37, 38, 39 </note>
+                                     <note> Latin marginal annotations in Gothic script, indicating contents, page 38 'colia', 'dolor cor'</note>
+                                         
+                               </msItem>
+                                           
+                                <msItem n="7" xml:id="Greek_14_A_7">
+                                      <locus> 41 to 44 </locus>    
+                                      <title key="">Anonymous collection of remedies </title>
+                                       <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                       <note> The text mainly contains remedies consisting of spells.</note>
+                                       
+                                    <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                    </incipit> 
+                                    
+                                    <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                    </explicit>
+                                </msItem>
+                                               
+                                 <msItem n="8" xml:id="Greek_14_A_8">
+                                     <locus> 44 to 46 </locus>    
+                                     <title key="">Pseudo Esdras, On Illuminating Days </title>
+                                     <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                     <note>Cf. <ref>Diels II.37 and III.50</ref> <ref>Weinstock</ref></note>
+                                      
+                                     <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                      </incipit>     
+                                      <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                      </explicit>
+                                     
+                                   </msItem>
+                                           
+                                 <msItem n="9" xml:id="Greek_14_A_9">
+                                      <locus> 46 to 76</locus>    
+                                     <title key="">Anonymous collection of recipes on composite drugs </title>
+                                     <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                     
+                                     <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                     </incipit>     
+                                     
+                                     <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                     </explicit>
+                                     
+                                 </msItem>
+                                             
+                                 <msItem n="10" xml:id="Greek_14_A_10">
+                                     <locus>76 to 81</locus>    
+                                     <title key="">Excerpt from an abridged edition of the vernacular version of John Archiatros’ iatrosophion. </title>
+                                     <filiation>John Archiatros’ iatrosophion</filiation>
+                                      <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                       
+                                     <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                      </incipit>     
+                                      
+                                     <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                     </explicit>
+                                   </msItem>
+                                          
+                                    <msItem n="11" xml:id="Greek_14_A_11">
+                                       <locus>84 - 107</locus>    
+                                        <title key="">Anonymous collection of remedies</title>
+                                        <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                         <note>The text contains details on various simple drugs and recipes of composite drugs in vernacular.</note>
+                                         
+                                        <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                         </incipit>     
+                                         
+                                        <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                         </explicit>
+                                      </msItem>
+                            
+                                      <msItem n="12" xml:id="Greek_14_A_12">
+                                           <locus>82 - 83</locus> <locus>108-271 </locus>
+                                           <title key="">Incomplete vernacular version of John Archiatros’ iatrosophion</title>
+                                           <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                           <filiation>John Archiatros’ iatrosophion</filiation>
+                                          <note> Accroding to <ref> Zipster</ref> the following chapters are missing - 16–21, 55–66, 68–73, 134–7, 143–6, 242–53</note>
+                                          
+                                          <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                           </incipit>   
+                                          
+                                           <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                           </explicit>
+                                                       
+                                      </msItem>
+                                                     
+                                      <msItem n="13" xml:id="Greek_14_A_13">
+                                            <locus>272 - 317</locus> 
+                                            <title key="">Anonymous medical compilation</title>
+                                             <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                             <note>It contains texts on diagnosis of pulse and urines, and details on phlebotomy; there are also recipes of
+                                                 composite drugs and remedies with superstitious connotations including spells. Various excerpts have been edited <ref>Zipser2</ref></note>
+                                          <note> see <ref> Ermerins </ref>, <ref> Jouanna</ref>, <ref> Ideler</ref>, <ref>Sudhoff</ref>, <ref> Zipser2</ref></note>
+                                             
+                                          <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                           </incipit>     
+                                            
+                                          <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                          </explicit>
+     
+                                    </msItem>
+                                                     
+                            <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+                            
+                        </msItem>
+                    
+                    
+                </msContents>
+                        
+                    <physDesc>
+                        <!-- Insert and delete as needed -->
+                        <objectDesc> 
+                            
+                            <supportDesc>
+                                
+                                <support> Paper, folded in 8
+                                    <watermark> watermarks very similar to <ref>Mošin and Traljić </ref>1900(cercle), attested in 1352</watermark>
+                                    <measure type="chainline"> Chain lines unclear</measure>  
+                                </support>
+                                          
+                                <foliation>
+                                    Original order of leaves - pages 1–81, 84–119, 122, 123, 120, 121, 126, 127, 124, 125,
+                                    128–271, 82, 83.
+                                </foliation>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc> 
+
+                                <layout writtenLines="18"> 18 written lines 
+                                    <dimensions unit="mm">
+                                        <dim type="height">ca.113mm</dim>
+                                        <dim type="width">ca.72mm</dim>
+                                    </dimensions>   
+                                    <note>unruled</note>
+                                </layout>
+
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="sole">identified by Agamemnon Tselikas as a fourteenth-century Cypriot hand.</handNote>
+                        </handDesc>
+                        
+                    </physDesc>
+              <history> 
+                  <origin>
+                      <origDate calendar="Greogorian">ca.1350</origDate>
+                      <note> from watermarks </note>
+                  </origin> 
+              </history>
+                </msPart>
+                
+                <msPart n="2" xml:id="Greek_14_B">
+                    <msIdentifier>
+                        <idno>MS.MSL.14 B</idno>
+                    </msIdentifier>
+            
+ 
+                    <msContents>
+                        
+                        <summary>Anonymous medical compilation. The text is lacunose and not clearly segmented.</summary>
+                      
+                    
+                        <msItem>
+                            
+                            <note> The text is lacunose and not clearly segmented. These subdivisions are in correspondence with Zipser's partial
+                                edition. <ref>Zipser3</ref> </note>
+                            
+                            <msItem n="1" xml:id="Greek_14_B_1">
+                                <locus>272-274</locus>
+                                <title key="">no title</title>
+                                <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                
+                                <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                </incipit>     
+                                
+                                <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                </explicit>
+                                
+                                <note><ref>Zipser3</ref> <locus>pp.132-3</locus></note>
+   
+                            </msItem>
+
+                                <msItem n="2" xml:id="Greek_14_B_2">
+                                    <locus>274-276</locus>
+                                    <title key="">no title</title>
+                                    <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                    
+                                    <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                    </incipit>     
+                                    
+                                    <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                    </explicit>
+                                    
+                                    <note><ref>Zipser3</ref> <locus>pp.pp.129-131</locus> </note>
+  
+                                </msItem>
+                                
+                                    <msItem n="3" xml:id="Greek_14_B_3">
+                                        <locus>276-317</locus>
+                                        <title key="">no title</title>
+                                        <textLang mainLang="grc" source="IANA"> Ancient Greek </textLang>
+                                        <note> <locus>284–317</locus> have non-scribal Greek numbering in the lower margin; many leaves
+                                            seem to be missing, so that, for example <locus>296</locus> is followed by <locus>
+                                            298</locus></note>
+  
+                                        
+                                        <incipit> Greek text to be picked up in late-stage editing <locus></locus>
+                                        </incipit>     
+                                        
+                                        <explicit> Greek text to be picked up in late-stage editing <locus></locus>   
+                                        </explicit>
+                                        
+                                        <note><ref>Zipser3</ref></note>
+ 
+                                    </msItem>
+
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <!-- Insert and delete as needed -->
+                        <objectDesc>
+                            
+                            <supportDesc material="paper">
+                                
+                                <support>Paper, folded in 8
+                                    <watermark>possibly similar to <ref>Mošin and Traljić</ref> 4642–4727 (hache) and (2) very similar to Mošin and Traljić 2803 (cloche), attested
+                                        in 1336–9.30</watermark>
+                                    <measure type="chainline">chain lines unclear</measure>
+                                </support>
+                                
+                                <extent>
+                                    <dimensions unit="mm">
+                                        <dim type="diameter">102mm</dim>
+                                        <dim type="length">70mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    Original order of leaves - pp. 272–279, gap, 282–283, 280–281, gap, 284–289, 292–293,
+                                    290–291, 294–297, gap, 298–305, gap, 306–317.
+                                </foliation>
+ 
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout writtenLines="11"> 11 written lines.                                   
+                                </layout>
+                                
+                                <layout>
+                                    unruled
+                                </layout>
+                                
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="major">very similar to that of Theodoulos Philagres,
+                                active in Cyprus in the early fourteenth century <ref>Zipser</ref><ref>Constantinides and Browning</ref></handNote>
+                            <handNote scope= "minor"> additions by a later hand <locus>274-286</locus></handNote>
+                        </handDesc>
+                        
+                        <additions>
+                           Text added by later hands <locus>274-5</locus> apotropaic formulae in lower margins !Greek text to be picked up in late-stage editing! <ref>Nutton and Zipser</ref>
+                           <locus>275-286 </locus> remedies, including mostly Christians charms in invisible ink e.g. <locus>279</locus> !Greek text to be picked up in late-stage editing!
+                           <locus>280</locus> !Greek text to be picked up in late-stage editing! <ref>Zipser2</ref>
+                       </additions>
+
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate>1320 - 1340</origDate>
+                            <note>based on the watermarks and the attribution of the handwriting</note>
+                        </origin>
+                    </history>
+                </msPart>
+                
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85083114">Medicine, Ancient</term>
+                            <term ref="subject_sh85100861">Philosophy, Ancient</term>
+                            <term ref="subject_sh85100599">Pharmacology</term>
+                            <term ref="subject_sh85015033">Phlebotomy</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+        <change when="2020-03-09" who="MK"> Began populating template</change>
+        <change when="2020-04-01" who="MK"> Finsihed populating template</change>  
+        <change when="2020-06-01" who="#AP">Created multipart template for Wellcome Greek MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
