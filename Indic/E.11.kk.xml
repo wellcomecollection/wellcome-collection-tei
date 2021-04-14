@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_E_11_kk">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+
+            <titleStmt>
+                <title>E.11.kk</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-03-15">TEI encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">E.11.kk</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="ragavan">E.11.kk</idno>
+                        <altIdentifier type="Sierra">
+                            <idno><!--No Sierra number currently. No wellcome no. given by Pingree--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+                    <msContents>
+
+                        <summary>The <title>Grahaśānti</title> of <persName role="aut"
+                                >Kātyāyana</persName>. Incomplete. Copied on <date>Tuesday 10 May
+                                1870</date>. See <abbr>CESS</abbr>, A4. </summary>
+
+                        <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
+
+                        <msItem n="1" xml:id="E.11.kk">
+                            <title>Grahaśānti</title>
+                            <author>Kātyāyana</author>
+                            <incipit><locus>F.4 </locus>pūrvottaradakṣiṇaśadvānāṃ deśavācaka tha [ta
+                                in margin] yā ̐bhidhānaṃ nātaḥ strīliṃgāpekṣā
+                                maṃdalasyāvadhitvaprakaraṇāt || iti grahādisthāpanaṃ...</incipit>
+                            <explicit><locus>F.14v </locus>...viprān [na]maskṛtya visarjayet iti
+                                gṛhaśāti kātyāyanakṛtā samāptā subhaṃ oṃ yajñopavītaṃ paramaṃ
+                                pavitraṃ prajāpater yat sahajaṃ purastāt āyuḥ samagraṃ pratimuṃca
+                                śubhraṃ yajñopavītaṃ balam ast[u] tejāḥ 1 grahāṇāṃ śāṃti likhitā
+                                saṃpūrṇaṃ saṃvat 1927 māse vaiśākhe āravāsaraikādaśyāṃ samāptam
+                                ||</explicit>
+                            <filiation><note>The final verse in the explicit beginning yajñopavītaṃ
+                                    is the last verse in the
+                                <title>Yajñopavītamantra</title></note>.Cf.
+                                    <idno><!--<ref target="ADD URL">B.20.kk</ref>--></idno>
+                            </filiation>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>11 ff.<dimensions type="folia" unit="in">
+                                        <height><!--To be added - not stated by Pingree--></height>
+                                        <width><!--To be added - not stated by Pingree--></width>
+                                    </dimensions>
+                                </extent>
+                                <foliation><note>Original foliation numbers: 4-14.</note>
+                                </foliation>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="8">8 lines, ca. 50 akṣaras.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>
+                            </origPlace>
+                            <origDate calendar="Vikram_Samvat" when="1870-05-10">Thursday 10 May
+                                1927</origDate>
+                            <origDate calendar="Gregorian" when="1870-05-10">Thursday 10 May
+                                1870</origDate>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information.</title>
+                                        <author>David Pingree.</author>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head>Bibliographical abbreviations</head>
+                            <bibl>
+                                <title>Census of the exact sciences in Sanskrit</title>
+                                <editor>David Pingree</editor>
+                                <placeName>Philadelphia</placeName>
+                                <publisher>American Philosophical Society</publisher>
+                                <date>1970</date>
+                                <abbr>CESS</abbr>
+                                <note>A4</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2021-03-15" who="#SC">Populated template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

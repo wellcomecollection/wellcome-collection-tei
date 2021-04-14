@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_E_11_s">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+
+            <titleStmt>
+                <title>E.11.s</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-03-15">TEI encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">E.11.s</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="ragavan">E.11.s</idno>
+                        <altIdentifier type="Sierra">
+                            <idno><!--No Sierra number currently. No wellcome no. given by Pingree--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+                    <msContents>
+
+                        <summary>A <title>Śrāddhavidhi</title>. Copied by
+                                <persName>Vrajalāla</persName> on <date>Tuesday 25 September
+                                1827</date>. .</summary>
+
+                        <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
+
+                        <msItem n="1" xml:id="E.11.s">
+                            <title>A Śrāddhavidhi</title>
+                            <incipit><locus>F.1v </locus>śrīgaṇeśāya namaḥ | tre viṣṇuḥ viṣṇuḥ
+                                viṣṇuḥ atha śrāddhakarma[ḥ] apavitraḥ pavitro vā sarvāvasthāṃ gato
+                                pi vā yaḥ smaret puṃḍarīkākṣaṃ sarvāhyābhya[ṃ]tare śuciḥ</incipit>
+                            <explicit><locus>F.4 </locus>...āyu[r] yujāṃ dhanaṃ vidyā |
+                                vargamokṣasukhāni ca prayacchaṃtu tathā rājyāṃ pitāraḥ
+                                śrāddhatarpit[ā]ḥ iti akṣatadānaṃ iti śrāddhavidhiḥ samāptaṃ samāpta
+                                1884 āśvīnyaśukle paṃcamyāṃ bhaumavasare pustakaṃ samāptaṃ
+                                vrajalālena likhitaṃ gaṇapatena mude śubhaṃ ||</explicit>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>4 ff.<dimensions type="folia" unit="in">
+                                        <height><!--To be added - not stated by Pingree--></height>
+                                        <width><!--To be added - not stated by Pingree--></width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="8">8 lines, ca. 40 akṣaras.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="major">
+                                <persName role="scr">Vrajalāla</persName>
+                            </handNote>
+                        </handDesc>
+                        <additions>Following the explicit on <locus>F.4</locus>, a second hand has
+                            added the following: surabhī vaiṣṇavi[vī] mātā nityaṃ viṣṇupade sthitā
+                            gogrāsaṃ mayā dattaṃ surabhīyā[ṃ] pratigṛhyatām ||1|| syānau dvau ca
+                            valau pretau ja[ya]madvāre hi saṃsthitau tasyā anna[ṃ] pradātavyaṃ
+                            syānayo[yā] pratigṛhyatām ||2|| yamo[̐]si yamahuto [̐]si vā yaso[śāṃ]si
+                            mahāmune sapta janmakṛtaṃ pāpaṃ valī bhakṣa[ṃ]tu vāyaśā ||3|| argham
+                            adhāhannaṃ caiva | dijāṃguṣṭhaniveśanaṃ | vikaraṃ tṛptaprasneṣu | tirthi
+                            [tīrtha]śrāddheṣu varjayet 1</additions>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>
+                            </origPlace>
+                            <origDate calendar="Vikram_Samvat" when="1884-09-25">Tuesday 25
+                                September 1884</origDate>
+                            <origDate calendar="Gregorian" when="1827-09-25">Tuesday 25 September
+                                1827</origDate>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information.</title>
+                                        <author>David Pingree.</author>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2021-03-15" who="#SC">Populated template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

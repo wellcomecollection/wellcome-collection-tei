@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_E_11_b">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+
+            <titleStmt>
+                <title>E.11.b</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-03-08">TEI encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">E.11.b</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="ragavan">E.11.b</idno>
+                        <altIdentifier type="Sierra">
+                            <idno><!--No Sierra number currently. No wellcome no. given by Pingree--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+                    <msContents>
+
+                        <summary>A <title>Mūlavidhānapaddhati</title> from the <title>Śaunakīya</title>(2 verses),
+                            an <title>Abhuktamūlalakṣaṇa</title> by <persName>Vṛddhavasiṣṭha</persName> (4 verses;
+                            differs from <title>Vasiṣṭhasaṃhitā</title> 42, 126-130), a <title>Kanyāyāḥ
+                            phalam</title> (4 verses) and a <title>Mūlaśānti(prayogapaddhati)</title> copied by <persName
+                                role="scr">Savitādatta</persName>. </summary>
+
+                        <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
+
+                        <msItem n="1" xml:id="E.11.b_1">
+                            <locus from="f.1" to="f.1">F.1 </locus>
+                            <title>Mūlavidhānapaddhati</title>
+                            <note>Prior to incipit is written: kā mūlaśāṃtiḥ tri | gadādharātma
+                                jasavitādattasyedaṃ pustakam </note>
+                        </msItem>
+
+                        <msItem n="2" xml:id="E.11.b_2">
+                            <locus from="f.1" to="f.1">F.1 </locus>
+                            <title>Abhuktamūlalakṣaṇa</title>
+                            <author>Vṛddhavasiṣṭha</author>
+                        </msItem>
+
+                        <msItem n="3" xml:id="E.11.b_3">
+                            <locus from="f.1" to="f.1">F.1 </locus>
+                            <title>Kanyāyāḥ phalam</title>
+                        </msItem>
+
+                        <msItem n="4" xml:id="E.11.b_4">
+                            <locus from="f.1v" to="f.14v">F.1v-14v </locus>
+                            <title>Mūlaśānti(prayogapaddhati)</title>
+                            <incipit><locus>F.1v </locus>śrīgaṇeśāya namaḥ || śāṃticiṃtāmaṇau svīye
+                                nirṇītaśāṃtikarmaṇaḥ || karomi paddhatiṃ samyak ṛkṣadoṣavināśinīṃ
+                                ||</incipit>
+                            <explicit><locus>F.12v </locus>...vikṛtaṃ yac ca me kiṃcid dehe niṣṭhaṃ
+                                nigarhitaṃ | tat sarva[ṃ] nāśam āyātu nirddoṣāstu suputriṇī || iti
+                                mūlaśāṃtiḥ prayogapaddhati[ḥ] s[a]māptaḥ || cha || saṃvat 1804 varṣe
+                                pūrvī cautraśudī 8 bhaume lipikṛtaṃ trilgadādharātmajasavitādattena
+                                svayamavalokanārthai putrādikānāṃ ca | kāśyāṃ | nāgarajñātī
+                                vṛddhanagarā ādye mahudhānivāsī | tri | kāḥnuā tri | kalyāṇa[ṇa] tri
+                                govardhana tri | gadādhara tri | savitādatta tri | </explicit>
+                            <note>The 7 akṣaras following the explicit blotted out.</note>
+                            <filiation>Cf.
+                                <idno><!--<ref target="ADD URL">E.11.dd</ref>--></idno></filiation>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>12 ff.<dimensions type="folia" unit="in">
+                                        <height><!--To be added - not stated by Pingree--></height>
+                                        <width><!--To be added - not stated by Pingree--></width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="10">10 lines, ca. 35 akṣaras.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="major">
+                                <persName role="scr" ref="#E.11.b_4">Savitādatta</persName>
+                                <note>Son of <persName>Gadādhara Tri[pāṭhin]</persName>. Belonged to
+                                    the Nāgarajñāti and resided in <placeName>Mahudhā</placeName>;
+                                    other members of the family were Kāhnuā, Kalyāṇa, Govardhana,
+                                    Gadādhara, Śivaśaṅkara, and Jayaśañkara.</note>
+                            </handNote>
+                        </handDesc>
+                        <additions><p>Following the explicit on <locus>F.12v</locus> in a later hand
+                                is written: bh[r]ātṛ bh[r]ātṛ jayaśaṃkara śivaśaṃkara || śubhaṃ
+                                ||.</p></additions>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName ref="#E.11.b_4">Kāśī</placeName>
+                                <country>India</country>
+                            </origPlace>
+                            <date ref="E.11.b_4">
+                                <origDate calendar="Vikram_Samvat" when="1804-04-17"> Tuesday 17
+                                    April 1804</origDate>
+                                <origDate calendar="Gregorian" when="1747-04-17">Tuesday 17 April
+                                    1747</origDate>
+                            </date>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information.</title>
+                                        <author>David Pingree.</author>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2021-03-10" who="#SC">Populated template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

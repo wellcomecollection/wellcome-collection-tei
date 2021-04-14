@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_2232">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Indic Alpha 2232</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-02-26">TEI encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">Alpha_2232</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Indic Alpha 2232</idno>
+                        <altIdentifier type="Raghavan">
+                            <idno>E.6.p</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno><!--No Sierra number currently--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+                    <msContents>
+
+                        <summary>A pratyaṅgirāmantra, an incomplete Viparītapratyaṅgirāstotra from
+                            the Bhairavatantra and a ṣaṭprayogādividhi.</summary>
+
+                        <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
+
+                        <msItem n="1" xml:id="Alpha_2232_1">
+                            <locus from="F.1v" to="F.3">F.1v-3</locus>
+                            <title>A pratyaṅgirāmantra</title>
+                            <incipit><locus>F.1v </locus>śrīgaṇeśāya namaḥ || oṃ namas tasya(ṃ)
+                                pratyaṅgirāyai oṃ asya śrīpratyaṅgirāmaṃtrasya mahādeva ṛṣiḥ triṣṭup
+                                chaṃdaḥ śrīpratyaṅgirā devatā </incipit>
+                            <explicit><locus>F.3 </locus>...oṃ hrāṃ hrīṃ krīṃ krīṃ svāhā
+                                phūṭ</explicit>
+                        </msItem>
+
+                        <msItem n="2" xml:id="Alpha_2232_2">
+                            <locus from="F.3v" to="F.13">F.3v-13</locus>
+                            <title>The Viparītapratyaṅgirāstotra from the Bhairavatantra.
+                                Incomplete.</title>
+                            <incipit><locus>F.3v </locus>syopāsanamātreṇa svayaṃ daivajñako bhavet
+                                aṃdhakasya vadhārthāya tripurasya nipātane īśvareṇa hi vijñaptā
+                                mocanaṃ kathaṃ bhavet ||</incipit>
+                            <explicit><locus>F.13 </locus>...iti bhairavataṃtre
+                                viparītapratyaṃgirāstotram</explicit>
+                            <filiation>Cf.
+                                <idno><!--<ref target="ADD URL">B.11.d</ref>--></idno></filiation>
+                        </msItem>
+
+                        <msItem n="3" xml:id="Alpha_2232_3">
+                            <locus from="F.13" to="F.13v">F.13-13v</locus>
+                            <title>A ṣaṭprayogādividhi. Copied by <persName role="scr">Īśvara
+                                    Śarman</persName> on <date>Tuesday 11 October
+                                1898</date>.</title>
+                            <incipit><locus>F.13 </locus>atha ṣaṭprayogādividhi vaśvnārthe
+                                ghṛtapāpase na homayet || ghṛtamadhunā sitā saha uccāṭane ||
+                                rajasvalāvastreṇa ākarṣaṇe</incipit>
+                            <explicit><locus>F.13v </locus>dhāptaye dugdhena || mathunāmāraṇe ||
+                                apāmārgeṇa mohane || trimadhunā abhīṣṭasiddhau || putrakāmas tu
+                                ghṛtasarṣapeṇa || śrī || āśvinakṛṣṇatrayodaśyāṃ bhaumavāsarānyutāyām
+                                saṃvat 1955 likhitaṃ īśvarajī śarmmā</explicit>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>13 ff.<dimensions type="folia" unit="in">
+                                        <height atMost="6">Up to 6 inches</height>
+                                        <width atMost="11">Up to 11 inches</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="7">7 lines, ca. 20 akṣaras.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole">
+                                <persName role="scr"><ref target="#Alpha_2232_3">Īśvara
+                                    Śarman</ref></persName></handNote>
+                        </handDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>
+                            </origPlace>
+                            <origDate calendar="Vikram_Samvat" when="1955-10-11"><ref
+                                    target="#Alpha_2232_3">11 October 1955</ref></origDate>
+                            <origDate calendar="Gregorian" when="1898-10-11"><ref
+                                    target="#Alpha_2232_3">11 October 1898</ref></origDate>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information.</title>
+                                        <author>David Pingree.</author>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2021-02-26" who="#SC">Populated template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

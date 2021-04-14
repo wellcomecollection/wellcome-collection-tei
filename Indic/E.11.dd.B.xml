@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_E_11_dd_B">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+
+            <titleStmt>
+                <title>E.11.dd.B</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-03-15">TEI encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">E.11.dd.B</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="ragavan">E.11.dd.B</idno>
+                        <altIdentifier type="Sierra">
+                            <idno><!--No Sierra number currently. No wellcome no. given by Pingree--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+                    <msContents>
+
+                        <summary>A <title>Gaṇeśagauryādimātṛkāvasordhārāvṛddhaśrāddha</title> or
+                                <title>Gaṇapatipūjanamātṛsthāpanavṛddhaśrāddhaprayoga</title>; cf.
+                            the <title>Gaṇapatipūjanādināndiśrāddhāntapaddhati</title> mentioned in
+                                <abbr>NCC</abbr>, Vol. 5, p.244. Copied by <persName role="scr"
+                                >Prabhudatta Tri[pāṭhin]</persName> and <persName role="scr"
+                                >Revādatta Tri[pāṭhin]</persName> at <placeName>Vārāṇasī</placeName>
+                            for <persName>Jayaśaṅkar Tri[pāṭhin]</persName> and
+                                <persName>Savitādatta Tri[pāṭhin]</persName> on <date>Friday 7
+                                November 1794</date>. This is followed by a
+                                <title>Kalaśasthāpana</title> or <title>Kalaśaprārthanā</title> in 4
+                            1/2 verses; cf. <abbr>NCC</abbr>, Vol.3, p.222; and an
+                                <title>Abhiṣekamantra</title> in 3 verses; cf. <abbr>NCC</abbr>,
+                            Vol.1, p.312.</summary>
+
+                        <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
+
+                        <msItem n="1" xml:id="E.11.dd.B_1">
+                            <locus from="F.1v" to="F.4">F.1v-4</locus>
+                            <title>A Gaṇeśagauryādimātṛkāvasordhārāvṛddhaśrāddha</title>
+                            <incipit><locus>F.1v </locus>śrīgaṇeśāya namaḥ || atha gaṇeśa-
+                                guaryādimātṛkāvasorddhārāvṛddhaśrāddha likhyate || prathamaṃ
+                                śrīphalādipūjādravyāṇi saṃpādya |</incipit>
+                            <explicit><locus>F.4 </locus>...grahāḥ sarvam etad vadaṃti || iti
+                                [<unclear/>] iti gaṇapatipūjanamātṛsthāpanavṛddhiśrāddhaprayogaḥ
+                                samāptaḥ || saṃvat 1851 varṣe kārttikaśukla 15 bhṛguvāsare
+                                [<unclear/>] tri̐ | jayaśaṃkarasavitādattasyedaṃ pustakaṃ ||
+                                likhitaṃ tri̐ | prabhudattarevādatta vārāṇasyāṃ ubhayoḥ śubhaṃ
+                                bhavatu kalyāṇaṃ bha [<unclear/>]</explicit>
+                            <filiation>Cf.
+                                <idno><!--<ref target="ADD URL">E.11.b</ref>--></idno></filiation>
+                        </msItem>
+
+                        <msItem n="2" xml:id="E.11.dd.B_2">
+                            <locus>F.4</locus>
+                            <title>A Kalaśasthāpana</title>
+                        </msItem>
+
+                        <msItem n="3" xml:id="E.11.dd.B_3">
+                            <locus>F.4v</locus>
+                            <title>An Abhiṣekamantra</title>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>4 ff.<dimensions type="folia" unit="in">
+                                        <height><!--To be added - not stated by Pingree--></height>
+                                        <width><!--To be added - not stated by Pingree--></width>
+                                    </dimensions>
+                                </extent>
+                                <condition><p>There are multiple tears in the explicit on
+                                            <locus>F.4</locus>which obscure the text indicated by
+                                        [<unclear/>]. </p></condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="11">11 lines, ca. 60 akṣaras.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="major">
+                                <persName role="scr"><ref target="#E.11.dd.B_1">Prabhudatta
+                                        Tri[pāṭhin]</ref></persName>
+                            </handNote>
+                            <handNote scope="major">
+                                <persName role="scr"><ref target="#E.11.dd.B_1">Revādatta
+                                        Tri[pāṭhin]</ref></persName>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName><ref target="#E.11.dd.B_1">Vārāṇasī</ref></placeName>
+                                <country>India</country>
+                            </origPlace>
+                            <origDate calendar="Vikram_Samvat" when="1851-11-07"><ref
+                                    target="#E.11.dd.B_1">Friday 7 November 1851</ref></origDate>
+                            <origDate calendar="Gregorian" when="1794-11-07"><ref
+                                    target="#E.11.dd.B_1">Friday 7 November 1794</ref></origDate>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information.</title>
+                                        <author>David Pingree.</author>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head>Bibliographical abbreviations</head>
+                            <bibl>
+                                <title>New catalogus catalogorum: and alphabetical register of
+                                    Sanskrit and allied works and authors.</title>
+                                <editor>V. Raghavan, et al.</editor>
+                                <placeName>Madras</placeName>
+                                <publisher>University of Madras</publisher>
+                                <date>1949</date>
+                                <abbr>NCC</abbr>
+                                <note><ref target="#E.11.dd.B_1">Vol.5, p.244</ref></note>
+                                <note><ref target="#E.11.dd.B_2">Vol.3, p.222</ref></note>
+                                <note><ref target="#E.11.dd.B_3">Vol.1, p.312</ref></note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2021-03-15" who="#SC">Populated template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
