@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_G_27_b">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_E_11_v">
     <teiHeader xml:lang="eng">
         <fileDesc>
 
             <titleStmt>
-                <title>G.27.b</title>
+                <title>E.11.v</title>
                 <title type="collection">Wellcome Collection</title>
                 <respStmt xml:id="DP">
                     <resp when="1970">Cataloguing from microfilm</resp>
@@ -17,7 +17,7 @@
                     <persName>Adrian Plau</persName>
                 </respStmt>
                 <respStmt xml:id="SC">
-                    <resp when="2021-01-20">TEI encoder</resp>
+                    <resp when="2021-03-15">TEI encoder</resp>
                     <persName>Stephanie Cornwell</persName>
                 </respStmt>
             </titleStmt>
@@ -42,7 +42,7 @@
                         by the Wellcome Collection, allowing researchers and audiences to continue
                         to make use of and build on Pingree’s work.</licence>
                 </availability>
-                <idno type="msID">G.27.b</idno>
+                <idno type="msID">E.11.v</idno>
                 <idno type="catalogue">David Pingree cataloguing</idno>
             </publicationStmt>
 
@@ -54,10 +54,7 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="ragavan">G.27.b</idno>
-                        <altIdentifier type="OldNumber">
-                            <idno>554</idno>
-                        </altIdentifier>
+                        <idno type="ragavan">E.11.v</idno>
                         <altIdentifier type="Sierra">
                             <idno><!--No Sierra number currently. No wellcome no. given by Pingree--></idno>
                         </altIdentifier>
@@ -66,30 +63,23 @@
 
                     <msContents>
 
-                        <summary>The <title>Kalyāṇamandirastotra</title> by <persName role="aut"
-                                >Siddhasena Divākara</persName> and copied by <persName role="scr"
-                                >Gurudāsa</persName> ṛṣi for <persName>Keśava</persName> ṛṣi at
-                                <placeName>Pīpaṇāsā</placeName> on <date>Sunday 23 October
-                                1631</date>; see <abbr>NCC</abbr> Vol 3, pp.254-256. And an
-                            unidentified Jaina account of Vṛṣabha.</summary>
+                        <summary>The <title>Anantavratakathā</title> in 114 verses from the
+                                <title>Bhaviṣyottarapurāṇa</title>; see <abbr>NCC</abbr>, Vol.1,
+                            p.181. Copied by <persName role="scr">Jayaśaṅkara Dvivedin</persName> in
+                                <date>1744</date>.</summary>
 
                         <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
 
-                        <msItem n="1" xml:id="G.27.b_1">
-                            <title key="work_309520839">Kalyāṇamandirastotra</title>
-                            <author key="personal_42080204">Siddhasena Divākara</author>
-                            <note><locus>F.8v </locus> iti kalyāṇamandirastotraṃ samāptaṃ likhitam
-                                idaṃ gurudāsarṣiṇā śubhaṃ saṃvatsare smin śrīnṛpativikramārkasaṃvat
-                                1688 | māse kārttike tithau navamyāṃ ravidine pīpaṇāsāyāṃ puri
-                                paṭhanārthaṃ keśavarṣeḥ</note>
-                        </msItem>
-
-                        <msItem n="2" xml:id="G.27.b_2">
-                            <title>An unidentified Jaina account of Vṛṣabha</title>
-                            <incipit><locus>F.1v </locus> cavaṇavimāṇa + yarī jaṇayājaṇaṇī
-                                yarirakarāsīuṃ laṃbaṇapamāṇa āuṃ
-                                valaṃtaradirakatavabhirakā</incipit>
-                            <explicit><locus>F.5v </locus>uddhariyā siri</explicit>
+                        <msItem n="1" xml:id="E.11.v">
+                            <title key="work_174986727">Anantavratakathā</title>
+                            <incipit><locus>F.1 </locus>śrīgaṇeśāya namaḥ lanaṃtāya namaḥ | pratijña
+                                tatas tu mūlamaṃtreṇa namaskṛtya caturbhujaṃ ||
+                                navā[?]śrapallavābhāsaṃ piṃgalaśmaśrulocanaṃ ||1|</incipit>
+                            <explicit><locus>F.3v </locus>...||113|| saṃsārasāgaraguhāsu sukhaṃ
+                                viharttuṃ vaṃchaṃti ye kurukulodbhavaśuddhasat[t]vāḥ || saṃpūjya ca
+                                tribhuvaneśam anaṃtadevaṃ badhnā dhvaṃti dakṣiṇakare śubhagerakaṃ te
+                                ||114| iti bhaviṣyottarapurāṇe anaṃtavratakathā samāptā || saṃvat
+                                1801 dvivedijeyaśaṃkareṇa likhitam idaṃ paropakārthaṃ ||</explicit>
                         </msItem>
 
                     </msContents>
@@ -97,44 +87,30 @@
                     <physDesc>
                         <objectDesc form="folio">
                             <supportDesc material="paper">
-                                <extent>13 ff.<dimensions type="folia" unit="in">
+                                <extent>3 ff.<dimensions type="folia" unit="in">
                                         <height><!--To be added - not stated by Pingree--></height>
                                         <width><!--To be added - not stated by Pingree--></width>
                                     </dimensions>
                                 </extent>
-                                <foliation><note><ref target="#G.27.b_1">Original foliation numbers:
-                                            1-8</ref></note></foliation>
-                                <foliation><note><ref target="#G.27.b_2">Original foliation numbers:
-                                            1-5</ref></note></foliation>
                             </supportDesc>
                             <layoutDesc>
-                                <layout writtenLines="5"><ref target="#G.27.b_1">5 lines, ca. 30
-                                        akṣaras</ref></layout>
-                                <layout writtenLines="9"><ref target="#G.27.b_2">8-9 lines, ca. 40
-                                        akṣaras.</ref></layout>
+                                <layout writtenLines="17">16-17 lines, ca. 50 akṣaras.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote scope="major">
-                                <persName role="scr">Gurudāsa</persName>
-                            </handNote>
-                            <handNote scope="minor">
-                                <persName role="scr">Unidentified hand</persName>
+                            <handNote scope="sole">
+                                <persName role="scr">Jayaśaṅkara Dvivedin</persName>
                             </handNote>
                         </handDesc>
-                        <additions><p>Interlinear gloss</p></additions>
                     </physDesc>
 
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName ref="#G.27.b_1">Pīpaṇāsā</placeName>
                                 <country>India</country>
                             </origPlace>
-                            <origDate calendar="Vikram_Samvat" when="1688-10-23"><ref
-                                    target="#G.27.b_1">23 October 1688</ref></origDate>
-                            <origDate calendar="gregorian" when="1631-10-23"><ref target="#G.27.b_1"
-                                    >23 October 1631</ref></origDate>
+                            <origDate calendar="Vikram_Samvat" when="1801">1801</origDate>
+                            <origDate calendar="Gregorian" when="1744">1744</origDate>
                         </origin>
                     </history>
 
@@ -158,7 +134,7 @@
                                 <publisher>University of Madras</publisher>
                                 <date>1949</date>
                                 <abbr>NCC</abbr>
-                                <note>Vol.3, pp.254-256</note>
+                                <note>Vol.1, p.181</note>
                             </bibl>
                         </listBibl>
                     </additional>
@@ -169,7 +145,7 @@
 
         <revisionDesc>
             <change when="2020-10-28" who="#AP">Created template.</change>
-            <change when="2021-01-20" who="#SC">Populated template.</change>
+            <change when="2021-03-15" who="#SC">Populated template.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>

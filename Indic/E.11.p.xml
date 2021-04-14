@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_G_27_b">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_E_11_p">
     <teiHeader xml:lang="eng">
         <fileDesc>
 
             <titleStmt>
-                <title>G.27.b</title>
+                <title>E.11.p</title>
                 <title type="collection">Wellcome Collection</title>
                 <respStmt xml:id="DP">
                     <resp when="1970">Cataloguing from microfilm</resp>
@@ -17,7 +17,7 @@
                     <persName>Adrian Plau</persName>
                 </respStmt>
                 <respStmt xml:id="SC">
-                    <resp when="2021-01-20">TEI encoder</resp>
+                    <resp when="2021-03-15">TEI encoder</resp>
                     <persName>Stephanie Cornwell</persName>
                 </respStmt>
             </titleStmt>
@@ -42,7 +42,7 @@
                         by the Wellcome Collection, allowing researchers and audiences to continue
                         to make use of and build on Pingree’s work.</licence>
                 </availability>
-                <idno type="msID">G.27.b</idno>
+                <idno type="msID">E.11.p</idno>
                 <idno type="catalogue">David Pingree cataloguing</idno>
             </publicationStmt>
 
@@ -54,10 +54,7 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="ragavan">G.27.b</idno>
-                        <altIdentifier type="OldNumber">
-                            <idno>554</idno>
-                        </altIdentifier>
+                        <idno type="ragavan">E.11.p</idno>
                         <altIdentifier type="Sierra">
                             <idno><!--No Sierra number currently. No wellcome no. given by Pingree--></idno>
                         </altIdentifier>
@@ -66,30 +63,27 @@
 
                     <msContents>
 
-                        <summary>The <title>Kalyāṇamandirastotra</title> by <persName role="aut"
-                                >Siddhasena Divākara</persName> and copied by <persName role="scr"
-                                >Gurudāsa</persName> ṛṣi for <persName>Keśava</persName> ṛṣi at
-                                <placeName>Pīpaṇāsā</placeName> on <date>Sunday 23 October
-                                1631</date>; see <abbr>NCC</abbr> Vol 3, pp.254-256. And an
-                            unidentified Jaina account of Vṛṣabha.</summary>
+                        <summary>A <title>Karmakaumudī</title> on gṛhya rituals, apparently that by
+                                <persName role="aut">Kṛṣṇadatta</persName>, the son of Brahmadatta
+                            Āvasathika; see <abbr>NCC</abbr>, Vol.3, p.195. Incomplete; various
+                            pūjās including an ābhyudayikaśrāddh, a vāgdāna, a vivāhapaddhati, a
+                            karṇavedha, and a samāvarttana. Copied by <persName role="scr"
+                                >Kālarāma</persName> on ca. <date>31 October 1799</date>. </summary>
 
                         <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
 
-                        <msItem n="1" xml:id="G.27.b_1">
-                            <title key="work_309520839">Kalyāṇamandirastotra</title>
-                            <author key="personal_42080204">Siddhasena Divākara</author>
-                            <note><locus>F.8v </locus> iti kalyāṇamandirastotraṃ samāptaṃ likhitam
-                                idaṃ gurudāsarṣiṇā śubhaṃ saṃvatsare smin śrīnṛpativikramārkasaṃvat
-                                1688 | māse kārttike tithau navamyāṃ ravidine pīpaṇāsāyāṃ puri
-                                paṭhanārthaṃ keśavarṣeḥ</note>
-                        </msItem>
-
-                        <msItem n="2" xml:id="G.27.b_2">
-                            <title>An unidentified Jaina account of Vṛṣabha</title>
-                            <incipit><locus>F.1v </locus> cavaṇavimāṇa + yarī jaṇayājaṇaṇī
-                                yarirakarāsīuṃ laṃbaṇapamāṇa āuṃ
-                                valaṃtaradirakatavabhirakā</incipit>
-                            <explicit><locus>F.5v </locus>uddhariyā siri</explicit>
+                        <msItem n="1" xml:id="E.11.p">
+                            <title>A Karmakaumudī</title>
+                            <author>Kṛṣṇadatta</author>
+                            <incipit><locus>F.3 </locus>dhipatitaṃ havāmahe vaso...</incipit>
+                            <explicit><locus>F.19v </locus>...brāhmaṇabhojanaṃ ca || iti
+                                karṇavedhaḥ</explicit>
+                            <incipit><locus>F.A </locus>...dottarīyaṃ vastrasyottare bhāge na
+                                kuryāt...</incipit>
+                            <explicit><locus>F.A </locus>...tato [̐]bhiṣekatilakaṃ
+                                dakṣiṇāmaṃtrapāṭha iti samāva[r[ttanaṃ || iti karmmakaumudī samāptā
+                                ceyaṃ gra[ṃ]thaḥ || saṃ 1856 kārttikasuddha 3 likha<unclear/>
+                                kālarāmena ||</explicit>
                         </msItem>
 
                     </msContents>
@@ -97,44 +91,36 @@
                     <physDesc>
                         <objectDesc form="folio">
                             <supportDesc material="paper">
-                                <extent>13 ff.<dimensions type="folia" unit="in">
+                                <extent>17 ff.<dimensions type="folia" unit="in">
                                         <height><!--To be added - not stated by Pingree--></height>
                                         <width><!--To be added - not stated by Pingree--></width>
                                     </dimensions>
+                                    <note><locus>F.Av</locus> blank</note>
                                 </extent>
-                                <foliation><note><ref target="#G.27.b_1">Original foliation numbers:
-                                            1-8</ref></note></foliation>
-                                <foliation><note><ref target="#G.27.b_2">Original foliation numbers:
-                                            1-5</ref></note></foliation>
+                                <foliation><note>Original foliation numbers: 3-19</note>
+                                    <note>1 unnumbered folia represented by the letter
+                                    A.</note></foliation>
                             </supportDesc>
                             <layoutDesc>
-                                <layout writtenLines="5"><ref target="#G.27.b_1">5 lines, ca. 30
-                                        akṣaras</ref></layout>
-                                <layout writtenLines="9"><ref target="#G.27.b_2">8-9 lines, ca. 40
-                                        akṣaras.</ref></layout>
+                                <layout writtenLines="11">10-11 lines, ca. 50-55 akṣaras.</layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote scope="major">
-                                <persName role="scr">Gurudāsa</persName>
-                            </handNote>
-                            <handNote scope="minor">
-                                <persName role="scr">Unidentified hand</persName>
+                            <handNote scope="sole">
+                                <persName role="scr">Kālarāma</persName>
                             </handNote>
                         </handDesc>
-                        <additions><p>Interlinear gloss</p></additions>
                     </physDesc>
 
                     <history>
                         <origin>
                             <origPlace>
-                                <placeName ref="#G.27.b_1">Pīpaṇāsā</placeName>
                                 <country>India</country>
                             </origPlace>
-                            <origDate calendar="Vikram_Samvat" when="1688-10-23"><ref
-                                    target="#G.27.b_1">23 October 1688</ref></origDate>
-                            <origDate calendar="gregorian" when="1631-10-23"><ref target="#G.27.b_1"
-                                    >23 October 1631</ref></origDate>
+                            <origDate calendar="Vikram_Samvat" when="1856-10-31">ca. 31 October
+                                1856</origDate>
+                            <origDate calendar="Gregorian" when="1799-10-31">ca. 31 October
+                                1799</origDate>
                         </origin>
                     </history>
 
@@ -150,6 +136,7 @@
                             </recordHist>
                         </adminInfo>
                         <listBibl>
+                            <head>Bibliographical abbreviations</head>
                             <bibl>
                                 <title>New catalogus catalogorum: and alphabetical register of
                                     Sanskrit and allied works and authors.</title>
@@ -158,7 +145,7 @@
                                 <publisher>University of Madras</publisher>
                                 <date>1949</date>
                                 <abbr>NCC</abbr>
-                                <note>Vol.3, pp.254-256</note>
+                                <note>Vol.3, p.195</note>
                             </bibl>
                         </listBibl>
                     </additional>
@@ -169,7 +156,7 @@
 
         <revisionDesc>
             <change when="2020-10-28" who="#AP">Created template.</change>
-            <change when="2021-01-20" who="#SC">Populated template.</change>
+            <change when="2021-03-15" who="#SC">Populated template.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
