@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Egyptian_MS_7">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Egyptian MS 7</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="QT">
+                <resp when="1994">Cataloguer</resp>
+                <persName>S. G. J. Quirke and W. J. Tait</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2021-03-11">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2021">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">Egyptian MS 7</idno>
+            <idno type="catalogue">Egyptian Manuscripts in the Wellcome Collection</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">Egyptian MS 7</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32714944</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Two glass frames containing minor papyrus fragments. With the exception of two small strips from an account, the hands, where anything at all is legible, plainly indicate that these 
+                        pieces are all literary. Too little survives to give hope of identifying the texts.</summary>
+                   
+                    <textLang mainLang="cop" source="IANA">Coptic</textLang>
+                    
+                    <msItem n="1" xml:id="Egyptian_MS_7_1">
+                        <title key="">Glass frame containing 21 minor papyrus fragments.</title>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Egyptian_MS_7_2">
+                        <title>Glass frame containing 20 minor papyrus fragments plus some tiny scraps.</title>
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="other">
+                        <supportDesc material="papyrus">                          
+                            <support>Papyrus fragments.</support>
+                            <extent>41 papyrus framgents plus some tiny scaps.</extent>                     
+                        </supportDesc>
+                        
+                    </objectDesc>
+   
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Egypt</country>,
+                        </origPlace>
+                        <origDate calendar="Gregorian">6th to 8th centuries</origDate>
+                        <note>The date is derived from dating of the hands.</note>
+                    </origin>
+                    <provenance notAfter="1994">It seems that these fragments were, at an unknown point, extracted from a 'made-up' roll.</provenance>
+                    <acquisition notAfter="1994">Acquired by the Wellcome Library or its predecessor the Wellcome Historical Medical Museum.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Egyptian Manuscripts in the Wellcome Collection in The Journal of Egyptian Archaeology, vol. 80</title>
+                                    <author>S. G. J. Quirke and W. J. Tait</author>
+                                    <date>1994</date>
+                                    <note>Pp. 145-158</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+  
+        <revisionDesc>
+        <change when="2021" who="#VS">Added data from catalogue.</change>
+        <change when="2021-03-11" who="#AP">Created template for Wellcome Egyptian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

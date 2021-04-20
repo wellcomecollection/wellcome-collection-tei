@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Egyptian_MS_8">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Egyptian MS 8</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="QT">
+                <resp when="1994">Cataloguer</resp>
+                <persName>S. G. J. Quirke and W. J. Tait</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2021-03-11">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2021">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">Egyptian MS 8</idno>
+            <idno type="catalogue">Egyptian Manuscripts in the Wellcome Collection</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">Egyptian MS 8</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32714956</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Composite volume comprising modern liturgical books.</summary>
+          
+                </msContents>
+                
+                <physDesc>
+                    
+                    <handDesc>
+                        <handNote>The two parts of the volume are in different hands.</handNote>
+                    </handDesc>
+                    
+                    <additions>
+                        <p>Inscriptions on the fly leaf include 'A. Burnell Cairo Novr 1868' and 'No 38 in Mr. I. White Kings Catalogue'.</p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Typical English late nineteenth century style of half-leather binding.</p>
+                        </binding>
+                    </bindingDesc>
+                   
+                </physDesc>
+                
+                <history>
+                    <provenance notBefore="1863">Owned by A. Burnell in Cairo.</provenance>
+                    <provenance notBefore="1863">Owned by Mr I White Kings.</provenance>
+                    <acquisition notBefore="1868" notAfter="1994">Acquired by the Wellcome Library or its predecessor the Wellcome Historical Medical Museum.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Egyptian Manuscripts in the Wellcome Collection in The Journal of Egyptian Archaeology, vol. 80</title>
+                                    <author>S. G. J. Quirke and W. J. Tait</author>
+                                    <date>1994</date>
+                                    <note>Pp. 145-158</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+ 
+                </additional>
+                
+                <msPart n="1" xml:id="Egyptian_MS_8_A">
+                    <msIdentifier>
+                        <idno>Egyptian MS 8 A</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Coptic liturgical manuscript with Arabic running version and Arabic titles in black and red ink.</summary>
+                        
+                        <msItem>
+                            
+                            <msItem n="1" xml:id="Egyptian_MS_7_A_1">
+                                <title key="">Coptic liturgical manuscript.</title>
+                                <note>Leaves 36-39 contain a list of patriarchs of the Coptic Church ending with Cyril IV (1854-61).</note>
+                                <textLang mainLang="cop" source="IANA">Coptic (Bohairic dialect)</textLang>
+                                <textLang otherLangs="ar" source="IANA">Arabic</textLang>
+                               
+                                <colophon>
+                                    <note>The Arabic colophon on <locus>52v</locus> is dated "Monday 15 Baramhat 1579 Coptic year of the Martyrs" (<date>22 March 1863</date>). The colophon also mentions the patriarch of the Coptic Church, Demetrius (II, 1862-70).</note>
+                                </colophon>
+                                
+                            </msItem>
+                            <note>Leaf 53 is followed by some blank leaves.</note>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">    
+                                <extent>
+                                    <dimensions unit="mm" >
+                                        <dim type="diameter">112</dim>
+                                        <dim type="length">153</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <note>The leaves (after the first) are numbered in Arabic on verso; evidently complete.</note>
+                                </foliation>
+                            </supportDesc>
+                        </objectDesc>
+
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian">1863</origDate>
+                            <note>Date taken from text in the colophon.</note>
+                        </origin>
+                    </history>
+                    
+                </msPart>
+                
+                <msPart n="2" xml:id="Egyptian_MS_8_B">
+                    <msIdentifier>
+                        <idno>Egyptian MS 8 B</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Paper manuscript containing psalms and the story of Joseph of Arimathea in black and purplish-red ink.</summary>
+                        
+                        <msItem>
+                            
+                            <msItem n="1" xml:id="Egyptian_MS_8_B_1">
+                                <title key="">Coptic psalms with Arabic headings then the the story of Joseph of Arimathea, in alternate Coptic and Arabic paragraphs.</title>
+                                <textLang mainLang="cop" source="IANA">Coptic</textLang>
+                                <textLang otherLangs="ar" source="IANA">Arabic</textLang>
+                            </msItem>
+                           
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">                      
+                                <extent>
+                                    <dimensions unit="mm">
+                                        <dim type="diameter">98</dim>
+                                        <dim type="length">143</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+      
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <region></region>
+                            </origPlace>
+                            <origDate calendar="Gregorian">mid nineteenth century</origDate>
+                            <note>It is probably of a similar date to the liturgical manuscript.</note>
+                        </origin>
+                    </history>
+                    
+                </msPart>
+                
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <revisionDesc>
+        <change when="2021" who="#VS">Added data from the catalogue.</change>
+        <change when="2020-06-01" who="#AP">Created template for Wellcome Egyptian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
