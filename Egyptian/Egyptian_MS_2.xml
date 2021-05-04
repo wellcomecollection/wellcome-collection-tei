@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 11.3.21 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Egyptian_MS_2">
+    
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Egyptian MS 2</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="QT">
+                <resp when="1994">Cataloguer</resp>
+                <persName>S. G. J. Quirke and W. J. Tait</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2021-03-11">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="BLE">
+                <resp when="2021-04-26">TEI Encoder</resp>
+                <persName>Branwen Lloyd-Evans</persName>
+            </respStmt>
+            
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Egyptian MS 2</idno>
+            <idno type="catalogue">Egyptian Manuscripts in the Wellcome Collection</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">Egyptian MS 2</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32714890</idno>
+                    </altIdentifier>
+                 </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Fragments of a late Ramesside letter</summary>
+                   
+                    <textLang mainLang="egy" source="IANA">Egyptian (Ancient)</textLang>
+                    
+                    <msItem n="1" xml:id="Egyptian_MS_2_1">
+                        
+                        <title key="">Fragments of a late Ramesside letter</title>
+                                                                      
+                        <filiation>The fragments comprise the lower left-hand portion of a letter similar in hand and
+                            height to those edited by Jac Janssen in 'Late Ramesside Letters and Communications' (London 1990).
+                            However, these fragments are insufficient to give connected sense, and seem not to join any of
+                            those published by Janssen. Possibly other portions of the letter have survived unpublished.</filiation>
+                        
+                    </msItem>
+                                                        
+                </msContents>
+                
+                <physDesc>
+                   
+                    <objectDesc form="letter">
+                       
+                        <supportDesc material="papyrus">
+                                                    
+                            <support>The fragments are a light colour, with grey smears as if palimpsest. They are mounted in
+                                one frame, in an order that appears largely accurate but may be a little too closely fitted at
+                                the recto bottom right. The rather coarse texture of the papyrus makes it difficult to
+                                determine the precise arrangement from the fibres.
+                            </support>
+                            <extent>Fragments mounted in one frame.
+                                <dimensions unit="mm" >
+                                    <dim type="diameter">84</dim>
+                                    <dim type="length">233</dim>
+                                </dimensions>
+                            </extent>
+                            
+                        </supportDesc>
+                                                                        
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote>Written in similar hand to the letters edited by Jac Janssen.
+                        </handNote>
+                    </handDesc>
+                                        
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Egypt</country>,
+                            <settlement>Thebes</settlement>,
+                        </origPlace>
+                        <origDate calendar="Gregorian">ca. 12th-11th century BC</origDate>
+                    </origin>
+                    
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Egyptian Manuscripts in the Wellcome Collection in The Journal of Egyptian Archaeology, vol. 80</title>
+                                    <author>S. G. J. Quirke and W. J. Tait</author>
+                                    <date>1994</date>
+                                    <note>Pp. 145-158</note>
+                                </bibl>
+                             </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    
+                    <listBibl>
+                      <head>Bibliography</head>
+                        <bibl>
+                            <title>Late Ramesside Letters and Communications</title>
+                            <author>Jac Janssen</author>
+                            <placeName>London</placeName>
+                            <date>1990</date>
+                        </bibl>
+                     </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+            
+        <revisionDesc>
+            <change when="2021-04-26" who="#BLE">Created XML file.</change>
+            <change when="2021-03-11" who="#AP">Created template for Wellcome Egyptian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
