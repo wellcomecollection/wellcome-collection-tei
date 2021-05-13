@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id=" Egyptian_MS_5">
+  
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Wellcome Egyptian MS 5</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="QT">
+                    <resp when="1994">Cataloguer</resp>
+                    <persName>S. G. J. Quirke and W. J. Tait</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2021-03-11">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="OC">
+                    <resp when="2021-03-16">TEI Encoder</resp>
+                    <persName>Odalys Caballero</persName>
+                </respStmt>
+           </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Egyptian MS 5</idno>
+                <idno type="catalogue">Egyptian Manuscripts in the Wellcome Collection</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">Egyptian MS 5</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b32714920</idno>
+                        </altIdentifier>
+                        </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary><note>Coptic manuscripts</note><title> The Bryce Papyrus</title> The Bryce Papyrus, a Theban marriage contract of the third century BC was first  published by F. LI. Griffith in I909. 
+                            After Bryce's death in 1919, the papyrus seemed to vanish, and Lueddeckens listed its present location as unknown in LA iv, 788.10 The text
+                            has, however, been cited several times, especially in studies of Demotic marriage contracts,11 and a re-edition (transliteration, translation, and notes) 
+                            appeared in Lueddeckens' volume on the subject.</summary>
+                        
+                        <textLang mainLang="cop" source="IANA">Coptic</textLang>                     
+                                                                        
+                                                  
+                                       
+                        <msItem n="1" xml:id="Egyptian_MS_5_1">
+                           <locus>recto</locus>
+                                            
+                            <incipit> The beginning of each line, and hence the beginning of the dating formula, is lost: the securest indication of the date is afforded by
+                                the eponymous priests.</incipit>
+                            
+                            <explicit><locus>Line 1</locus>At the end of the line 1, mwt=f is followed by three signs, the forms of which are not entirely clear.
+                                Thereafter, a vertical strip of papyrus with a width of 1.0-1.3 cm is very badly abraded, affecting all three lines of text. To the left of this, traces of the tail of the =f of mwt=f become increasingly
+                                clear, but no other traces may be seen here. Thus, probably no more than I.5 cm of text are lost - certainly no more than 3.0 cm.
+                                <locus>Line 2</locus>At the end of the line 2, there are slight traces of a vertical stroke, but they are too far removed from n-im= to belong to the expected =w.
+                                <locus>Line 3</locus>At the end, the slight traces occupy about 1.5 cm                                
+                            </explicit>
+                            
+                            </msItem>
+                        
+                        <msItem n="2" xml:id="Egyptian_MS_5_2">
+                            <locus>verso</locus>             
+                            <note> The material collected in the parts of the Dem.Nb. (in Lueddeckens' volume) so far issued allows some improvements to Griffith's reading of the witness-list on the verso 
+                                <locus>pl. XXIV</locus></note>
+                        </msItem>
+                                                   
+                                                                                              
+                    </msContents>
+                    
+                    <physDesc>
+                       
+                        <objectDesc form="sheet">
+                            
+                            <supportDesc material="papyrus">
+                                
+                                <support>Dimensions are for the surviving area</support>
+                                <extent> Three plates<note>pls. XXII-XXIV</note>
+                                    <dimensions unit="cm" >
+                                        <dim type="width">55.4 cm</dim>
+                                        <dim type="heigh">43.4 cm</dim>
+                                       </dimensions>
+                                </extent>
+                                
+                                <foliation><locus>recto</locus>ff. 151-3<locus>verso</locus>ff. 152-3                                  
+                                </foliation>
+                                
+                                                               
+                                <condition>The papyrus is discoloured to a brown shade. The surviving area is 55.4 cm at maximum in width and 43.4 cm in height. 
+                                    The sheet joins are right-over-left, as expected. On the recto, the sheet joins are visible at about 14 cm, I3.5 cm, and I3.5 cm from the right-hand edge, 
+                                    and then about 13 cm survives to the left-hand edge. The width of the joins varies between I.5 and 2 cm. The left-hand edge may perhaps have been cut rather than torn. 
+                                    <note>There are traces at the ends of the three surviving lines which occupy up to 1.5 cm</note></condition>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout writtenLines="3"><locus>Recto. pl. XXII</locus>                              
+                                </layout>
+                                <layout writtenLines="16"><locus>verso.pl. XXIV</locus>Witness - list on verso                             
+                                </layout>                                
+                                                             
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <!-- Add or delete <handNote> elements as needed -->
+                            <handNote scope=""></handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Egypt</country>,
+                                <region>Thebes</region>,
+                                <settlement>The ancient capital of Upper Egypt</settlement>
+                                <orgName><!-- insert --></orgName>
+                            </origPlace>
+                            <origDate calendar="Gregorian"><note>Unlikely date before</note>260 BC</origDate>
+                         </origin>
+                        <provenance>The Theban provenance is fully confirmed by the contents.</provenance>
+                      
+                        <acquisition> Purchased by Bryce at Thebes at least 'some years' before I909 (Griffith, p.)</acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Egyptian Manuscripts in the Wellcome Collection in The Journal of Egyptian Archaeology, vol. 80</title>
+                                        <author>S. G. J. Quirke and W. J. Tait</author>
+                                        <date>1994</date>
+                                        <note>Pp. 145-158</note>
+                                    </bibl>
+                                    <!-- Might include link to catalogue source -->
+                                    <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                                </source>
+                            </recordHist>
+                            <availability status=""><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+                       
+                        <listBibl>
+                            
+                            <head>Bibliograpy</head>
+                            <bibl>
+                                <title>'A Demotic marriage contract of the earlier Ptolemaic type'</title>
+                                <author> F. LI. Griffth</author>
+                                <date>1999</date>
+                             <publisher>PCBA 31</publisher>
+                                <abbr>Griffth</abbr>
+                            </bibl>
+                            
+                             <bibl>
+                                 <note>William Moir Bryce receives an entry in</note>
+                                 <title>Who Was Who in Egyptology</title>
+                                 <author>R. Dawson and E. P. Uphill</author>
+                                <date>1972</date>
+                                 <placeName>London</placeName> 
+                                 <publisher>Egypt Exploration Society</publisher>
+                                <abbr>Bryce</abbr>
+                            </bibl>
+                            
+                             <bibl>
+                                <title>Uegyptische Ehevertruege</title>
+                                <author>E. Lueddeckens</author>
+                                <date>1960</date>
+                                <placeName>Wiesbaden</placeName> 
+                                <publisher>Lueddeckens</publisher>
+                                <abbr>Lueddeckens</abbr>
+                            </bibl>
+                            
+                            
+                            <bibl>
+                                <title> A Family Archive from Thebes: Demotic Papyri in the Philadelphia and Cairo Museums from
+                                    the Ptolemaic Peri</title>
+                                <author>M. El-Amir</author>
+                                <date>1959</date>
+                                <placeName>Cairo</placeName> 
+                               </bibl>
+                            
+                            <bibl>
+                                <title>The Eponymous Priesthoods of the Ptolemaic Period: A Study of the Demotic Evidence (M. Phil. thesis)</title>
+                                <author>M. Minas</author>
+                                <date>1933</date>
+                                <placeName>Oxford</placeName> 
+                                 <abbr>M.Minas</abbr>
+                            </bibl>
+                            
+                            
+                        </listBibl>
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+        
+        <revisionDesc>
+            <change when="2021-04-06" who="OCV">Populated template</change>
+            <change when="2021-03-11" who="#AP">Created template for Wellcome Egyptian MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
