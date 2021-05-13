@@ -22,6 +22,12 @@
                   <repository>Wellcome Collection</repository>
                   <collection> Manuscripts in Arabic</collection>
                   <idno>MS Arabic 81</idno>
+                  <altIdentifier type="former">
+                     <idno>WMS. Or. 81 (Iskandar)</idno>
+                  </altIdentifier>
+                  <altIdentifier type="former">
+                     <idno>WMS. Or. 81</idno>
+                  </altIdentifier>
                </msIdentifier>
               
                <msPart xml:id="WMS_Arabic_81-part1">
@@ -278,6 +284,9 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change when="2021-04-28">
+            <persName>Mark El Khuri</persName>Added altIdentifer tag
+         </change>
          <change when="2018-11-01"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">
             <persName>Andrew Morrison</persName> Updated key attributes using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/conversion_scripts/update-keys.xsl">update-keys.xsl</ref>
