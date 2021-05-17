@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 11.3.21 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Egyptian_MS_1">
+       
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Wellcome Egyptian MS 1</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="QT">
+                    <resp when="1994">Cataloguer</resp>
+                    <persName>S. G. J. Quirke and W. J. Tait</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2021-03-11">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="MM">
+                    <resp when="2021-05-17">TEI Encoder</resp>
+                    <persName>Miten Mistry</persName>
+                </respStmt>
+                    </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Egyptian MS 1</idno>
+                <idno type="catalogue">Egyptian Manuscripts in the Wellcome Collection</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">Egyptian MS 1</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b32714889</idno>
+                        </altIdentifier>                       
+                                 </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Fragments from a New Kingdom papyrus containing prescriptions.</summary>
+                        
+                        <textLang mainLang="egy" source="IANA">Egyptian (Ancient)</textLang>
+                        
+                        <msItem n="1" xml:id="Egyptian_MS_1_1">
+                            <title>Fragments from a New Kingdom papyrus containing prescriptions.</title>
+                            <note>medical papyrus fragment</note>
+                            
+                        </msItem>
+                                                                     
+                    </msContents>
+                    
+                    <physDesc>
+                               <objectDesc form="sheet">
+                            
+                            <supportDesc material="papyrus">
+                                
+                                <support>This small group of darkened fragments had been glued together and 
+                                    stuck onto linen.</support>
+                                <extent>Small group</extent>
+                                                          
+                                <condition>It is currently in course of conservation by Alan Donnithorne, Department of Conservation, British Museum. At this stage of treatment 
+                                    it is possible to make out only occasional signs of the hieratic text, and no photograph can be given.</condition>
+                                
+                            </supportDesc>
+                                                      
+                            
+                        </objectDesc>
+                        
+                        <handDesc>                             
+                            <handNote>From a preliminary inspection the hand appears to be of the late Eighteenth or early Nineteenth Dynasty.</handNote>
+                        </handDesc>  
+                          </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Egypt</country>
+                                   </origPlace>
+                            <origDate calendar="Gregorian">8000 BC<note>According to a note of <date when="1940-07-02">2 July 1940</date>, the item had been shown to Glanville and to the British Museum, where Spiegelberg had identified it as a medical papyrus fragment 
+                                and dated it to 8,000 BC. That date is presumably an error in transmission.</note></origDate>
+                                                    </origin>
+                        <provenance notBefore="1930-10" notAfter="1931-03">According to a note of <date when="1940-07-02">2 July 1940</date>, Mr W. W. P. Falconer, who said that it had been 
+                            brought from Egypt by his uncle who had worked there on excavations. This uncle was presumably 
+                            Mr Harold Falconer, a member of the Matmar team for October 1930 to March 1931 (G. Brunton, Matmar (London 1948)). Although Harold Falconer worked in Egypt on at least that occasion, he may have acquired the fragments elsewhere. 
+                        </provenance>
+                        
+                        <acquisition>According to a note of <date when="1940-07-02">2 July 1940</date> in the Wellcome collection files, the papyrus was purchased on that 
+                            date from a Mr W. W. P. Falconer.</acquisition>
+                        
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Egyptian Manuscripts in the Wellcome Collection in The Journal of Egyptian Archaeology, vol. 80</title>
+                                        <author>S. G. J. Quirke and W. J. Tait</author>
+                                        <date>1994</date>
+                                        <note>Pp. 145-158</note>
+                                    </bibl>
+                                    <!-- Might include link to catalogue source -->
+                                    <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                                </source>
+                            </recordHist>
+                            <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+                        
+                        <listBibl>
+                              <head>Bibliography</head>
+                            <bibl>
+                                <title>Matmar British Museum Expedition To Middle Egypt, 1929-1931</title>
+                                <author>Guy Brunton</author>
+                                <date>1948</date>
+                                <placeName>London</placeName>
+                                <publisher>B. Quaritch</publisher>
+                                <abbr>G. Brunton, Matmar (London 1948)</abbr>
+                            </bibl>
+                            
+                        </listBibl>
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+       
+        
+        <revisionDesc>
+            <change when="2021-05-17" who="#MM">Created XML file.</change>
+            <change when="2021-03-11" who="#AP">Created template for Wellcome Egyptian MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
