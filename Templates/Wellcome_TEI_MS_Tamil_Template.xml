@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 25.5.21 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="">
+    <!-- Give xml:id in the  format  'Tamil_[MS number]' -the file name should be identical -->
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title><!-- Give title in the format 'Tamil [ms number]  --></title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SG">
+                <resp when="1990">Cataloguer</resp>
+                <persName>S. Gunasingam</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-25">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="">
+                <resp when="">TEI Encoder</resp>
+                <persName><!-- Insert name --></persName>
+            </respStmt>
+            <!-- Add another <respStmt> for every resp -->
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID"><!-- Give the shelfmark of the manuscript --></idno>
+            <idno type="catalogue">Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark"></idno>
+                    <altIdentifier type="Sierra">
+                        <idno></idno>
+                    </altIdentifier>
+                    <!-- Use further <altIdentifier> if former or alternative <idno> is available -->
+                    <altIdentifier type="">
+                        <idno></idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary><!-- Any top-level description of the manuscript as a whole --></summary>
+                   
+                    <textLang mainLang="" source="IANA"><!-- Use if only one language in manuscript. For Tamil, give mainLang value "ta" --> </textLang>
+                    
+                    <msItem n="" xml:id="">
+                        <locus from="" to=""><!-- Give the locations for the item, if available --></locus>
+                        <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
+                        <title key=""><!-- Insert viaf code as attribute value, if available, and enter title here --></title>
+                        
+                        <!-- Use comment to note Tamil text to be picked up in late-stage editing -->
+                        
+                        <!-- Use as needed, or delete -->
+                        <textLang mainLang="" source="IANA"><!-- Enter BCP 47  IANA language code as attribute value and full language name here. For Tamil, value is "ta". For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry --></textLang>
+                        <textLang otherLangs="" source="IANA"><!-- Enter BCP 47 IANA language code as attribute value and full language name here . For Tamil, value is "ta". For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry--></textLang>
+                       
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <explicit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        
+                        <colophon><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                        <note><!-- insert --></note>
+                        
+                    </msItem>
+                    
+                    <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+                    
+                </msContents>
+                
+                <physDesc>
+                    <!-- Insert and delete as needed -->
+                    <objectDesc form="">
+                       
+                        <supportDesc material="">
+                                                    
+                            <support><!-- Insert prose description -->
+                                <watermark><!-- Insert description, if available --></watermark>
+                                <measure type="chainline"><!-- Insert, if available -->.</measure>
+                            </support>
+                            <extent><!-- Insert details on extent -->
+                                <dimensions unit="mm" ><!-- Add if available -->
+                                    <dim type="diameter"></dim>
+                                    <dim type="length"></dim>
+                                    <!-- Add or delete dimensions as needed -->
+                                </dimensions>
+                            </extent>
+                            
+                             <foliation>
+                                 <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                             </foliation>
+                            
+                            <collation>
+                                <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                <signatures><!-- Use to record quire signatures, if available --></signatures>
+                            </collation>
+                            
+                            <condition>
+                                <!-- Use to record information on the manuscript's condition -->
+                            </condition>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="">
+                                <!-- Add description or further elements -->                                        
+                            </layout>
+                            
+                            <layout rulingMedium="">
+                                <!-- Add any information on ruling -->
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <!-- Add or delete <handNote> elements as needed -->
+                        <handNote scope=""></handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote></decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p></p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p></p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country><!-- insert --></country>,
+                            <region><!-- insert --></region>,
+                            <settlement><!-- insert --></settlement>,
+                            <orgName><!-- insert --></orgName>
+                        </origPlace>
+                        <origDate calendar=""><!-- insert --></origDate>
+                        <!-- use additional origPlace and origDate elements if necessary -->
+                    </origin>
+                    <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                    <!-- use additional provenance elements if necessary -->
+                    <acquisition><!-- insert --></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine' in Journal of the Royal Asiatic Society, volume 2.</title>
+                                    <author>S. Gunasingam</author>
+                                    <date>1990</date>
+                                    <note>Pp. 359-369</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <!-- The following records the bibliographical entries catalogue referenced in the catalogue - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>
+                        <!-- Enter in the following formats -->
+                        <!--  Book -->
+                        <bibl>
+                            <title></title>
+                            <date></date>
+                            <placeName></placeName>
+                            <publisher></publisher>
+                            <abbr></abbr>
+                        </bibl>
+                       <!-- Website -->
+                        <bibl>
+                            <title></title>
+                           <ref target=""></ref>
+                            <abbr></abbr>
+                        </bibl>
+                        <!-- Journal article -->
+                        <bibl>
+                            <title></title>
+                            <author></author>
+                            <date></date>
+                            <abbr></abbr>
+                        </bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+        <change when=""><!-- Make an entry to record your starting work on the file and then a new <change> for later edits, following the below format --></change>
+        <change when="2021-05-25" who="#AP">Created template for Wellcome Tamil MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
