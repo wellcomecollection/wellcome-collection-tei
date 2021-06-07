@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_374">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_375">
     <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
@@ -28,15 +28,19 @@
                     <email>library@wellcome.ac.uk</email>
                 </distributor>
                 <availability>
-                    <licence>This TEI description is based on unpublished cataloguing notes by David E. Pingree kindly provided under a CC BY 4.0 license by the American Philosophical Society (APS), which holds the rights to Pingree’s unpublished materials. 
-                        The TEI file itself is made available under a CC BY 4.0 license by the Wellcome Collection, allowing researchers and audiences to continue to make use of and build on Pingree’s work.</licence>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
                 </availability>
                 <idno type="msID">Alpha_375</idno>
                 <idno type="catalogue">David Pingree cataloguing</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    
+
                     <msIdentifier>
                         <country>United Kingdom</country>
                         <settlement>London</settlement>
@@ -44,80 +48,90 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Indic Alpha 375</idno>
                         <altIdentifier type="former">
-                            <idno>K.3.j.x</idno>
+                            <idno>K.3.j.l</idno>
                         </altIdentifier>
-                        <idno type="Sierra">b14881846</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b14881846</idno>
+                        </altIdentifier>
                     </msIdentifier>
-                    
-                    
-                    
+
+
+
                     <msContents>
-                        
-                        <summary>A <title>Śarīrarakṣamantra</title> ('Mantra for Protection of the Body') and an unidentified verse.</summary>
-                        
+
+                        <summary>A <title>Śarīrarakṣamantra</title> ('Mantra for Protection of the
+                            Body') and an unidentified verse.</summary>
+
                         <textLang mainLang="sa">Sanskrit</textLang>
-                        
+
                         <msItem xml:id="Alpha_375_i">
                             <title>Śarīrarakṣamantra</title>
                             <textLang mainLang="sa">Sanskrit</textLang>
                             <textLang otherLangs="hi">Hindi</textLang>
-                            
-                            <note>A <title>Śarīrarakṣamantra</title> (vss. 1-8) and a continuation (vss. 9-13) in Sanskrit and bhāṣā.</note>
-                            
+
+                            <note>A <title>Śarīrarakṣamantra</title> (vss. 1-8) and a continuation
+                                (vss. 9-13) in Sanskrit and bhāṣā.</note>
+
                             <incipit>
                                 <!-- future transcript -->
                             </incipit>
-                            
+
                             <explicit>
                                 <!-- future transcript -->
                             </explicit>
-                            
-                        </msItem> 
-                        
-                        <msItem xml:id="Alpha_375_ii">
-                            
-                            <textLang mainLang="sa">Sanskrit</textLang>
-                            
-                            <incipit> <locus>F. 4b</locus>
-                                <!-- transcript -->
-                                mahātmane vāmāya viśvarupāya svapnādhipataye
-                                namaḥ svapne kathaya me tathyaṃ
-                                sarvakāryyeṣv aśeṣataḥ
-                                kriyāsiddhividhā svāmi tvatpraśādān maheśvaraḥ ||1||
-                                dame śulatāna śara umada ahamade pakāra śehara ...
-                                dohā iśāhaṣarakā ||1||
-                            </incipit>
-                            
+
                         </msItem>
-                        
+
+                        <msItem xml:id="Alpha_375_ii">
+
+                            <textLang mainLang="sa">Sanskrit</textLang>
+
+                            <incipit>
+                                <locus>F. 4b</locus>
+                                <!-- transcript --> mahātmane vāmāya viśvarupāya svapnādhipataye
+                                namaḥ svapne kathaya me tathyaṃ sarvakāryyeṣv aśeṣataḥ
+                                kriyāsiddhividhā svāmi tvatpraśādān maheśvaraḥ ||1|| dame śulatāna
+                                śara umada ahamade pakāra śehara ... dohā iśāhaṣarakā ||1|| </incipit>
+
+                        </msItem>
+
                     </msContents>
-                    
+
                     <physDesc>
                         <objectDesc form="folio">
                             <supportDesc material="paper">
-                                <extent>4 ff.</extent>
+                                <extent>4 ff. <dimensions type="folia" unit="in">
+                                        <height atMost="6">Up to 6 inches</height>
+                                        <width atMost="11">Up to 11 inches</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                             <layoutDesc>
-                                <layout writtenLines="30">30-34 lines, ca. 20 akṣaras. Writing parallel to shorter sides.</layout>
-                            </layoutDesc> 
+                                <layout writtenLines="30">30-34 lines, ca. 20 akṣaras. Writing
+                                    parallel to shorter sides.</layout>
+                            </layoutDesc>
                         </objectDesc>
                     </physDesc>
-                    
+
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        
+
         <revisionDesc>
             <change when="2020-01-16" who="#AP">Added licensing statement.</change>
             <change when="2019-06-10" who="#AP">Created XML file and added @summary.</change>
+            <change when="2021-04-23" who="#SC">Updated end TEI tag and Sierra ID for validation.
+                Added estimated size of alpha manuscripts.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
+        <surface/>
         <!-- For future addition -->
     </facsimile>
     <text>
         <body>
-            <!-- For future full transcript -->  
+            <p/>
+            <!-- For future full transcript -->
         </body>
     </text>
 </TEI>
