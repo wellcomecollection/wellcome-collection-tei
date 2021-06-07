@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 06.01.21 -->
+
+<!-- Multipart template for Greek manuscripts -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_354">
+    <!-- Give xml:id in the  format  'Greek_[MS number]' -the file name should be identical -->
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Greek MS.354</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="PBV">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Petros Bouras-Vallianatos</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-10-05">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="TTT">
+                <resp when="">TEI Encoder</resp>
+                <persName>The TEI Team</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">Greek MS.354</idno>
+            <idno type="catalogue">Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS.354</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b1968972x</idno>
+                    </altIdentifier>
+                    <!-- Use further <altIdentifier> if former or alternative <idno> is available -->
+                    <altIdentifier type="accession">
+                        <idno>24902</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Composite manuscript containing a commentaries on and a work by Hippocrates.</summary>
+                   
+                    <textLang mainLang="gre" source="IANA">Ancient Greek</textLang>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <!-- Insert and delete as needed -->
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>i + 107 + i
+                               <watermark><!-- Insert description, if available --></watermark>
+                                <measure type="chainline"><!-- Insert, if available -->.</measure>
+                            </support>
+                            <extent><!-- Insert details on extent -->
+                                <dimensions unit="mm" ><!-- Add if available -->
+                                    <dim type="diameter">274</dim>
+                                    <dim type="length">210</dim>
+                                    <!-- Add or delete dimensions as needed -->
+                                </dimensions>
+                            </extent>
+                        </supportDesc>
+                    
+                    </objectDesc>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Of white parchment over cardboard; flyleaves and pastedowns conjoint, unidentified watermark with escutcheon and the motto ‘J ROIG FA DIA SERRA’ [?], countermark ‘F - S - MERCADE’ [?]</p>
+                        </binding>
+                    </bindingDesc>
+                   
+                </physDesc>
+                
+                <history>
+                    <provenance notBefore="" notAfter="">(front pastedown) ‘24902’, ‘59. F. 19 / 1246’, ‘Rosenthal 9|10’ – (front flyaleaf Ir) ‘Hippocrates Aphorismi / Lez. XXIII 440335 / M ONJ’, ‘Aphorismi Hipocratis’.</provenance>
+                    <acquisition>Purchased by the Wellcome library in 1910 (accession number 24902)</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Greek Manuscripts at the Wellcome Library in London: A Descriptive Catalogue' in Medical History,  vol. 59 (2)</title>
+                                    <author>Petros Bouras-Vallianatos</author>
+                                    <date>2015</date>
+                                    <note>Pp. 275-326</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <!-- The folloing records the bibliographical entries Allan's catalogue refers to - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>Bibliotheca Askeviana manu scripta, sive catalogus librorum manuscriptorum Antonii Askew</title>
+                            <date>1785</date>
+                            <placeName>London</placeName>
+                            <publisher>Leigh and Sotheby</publisher>
+                            <abbr>Bibl. Askev.</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A Catalogue of Books Contained in the Library of the Medical Society of London, Instituted AD 1773</title>
+                            <date>1803</date>
+                            <placeName>London</placeName>
+                            <publisher>Medical Society of London</publisher>
+                            <abbr>Cat. Med. Soc. 1803</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>A Catalogue of Books Contained in the Library of the Medical Society of London, Instituted AD 1773</title>
+                            <date>1829</date>
+                            <placeName>London</placeName>
+                            <publisher>Medical Society of London</publisher>
+                            <abbr>Cat. Med. Soc. 1829</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Corpus Medicorum Graecorum</title>
+                           <ref target="http://cmg.bbaw.de">http://cmg.bbaw.de</ref>
+                            <abbr>CMG</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Notices et extraits des manuscrits médicaux grecs, latins et français des principales bibliothèques de l’Europe</title>
+                            <author>Charles Victor Daremberg</author>
+                            <date>1853</date>
+                            <placeName>Paris</placeName>
+                            <publisher>J.-B. Baillière</publisher>
+                            <abbr>Daremberg</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Manuscripta Medica: A Descriptive Catalogue of the Manuscripts in the Library of the Medical Society of London</title>
+                            <author>Warren Royal Dawson</author>
+                            <date>1932</date>
+                            <placeName>London</placeName>
+                            <publisher>J. Bale, Sons and Danielsson</publisher>
+                            <abbr>Dawson</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Die Handschriften der antiken Ärzte, 3 vols</title>
+                            <author>Hermann Diels</author>
+                            <date>1905-8</date>
+                            <placeName>Berlin</placeName>
+                            <abbr>Diels</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library, 3 vols</title>
+                            <author>Samuel Arthur Joseph Moorat</author>
+                            <date>1962-73</date>
+                            <placeName>London</placeName>
+                            <publisher>Wellcome Institute</publisher>
+                            <abbr>Moorat</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘Special Report on the Greek MSS in the Society’s Library’, Transactions of the Medical Society of London, 27, lii–lvii</title>
+                            <author>Joseph Baldwin Nias</author>
+                            <date>1905</date>
+                            <abbr>Nias</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘The Legacy of Hippocrates: Greek Medicine int he Library of the Medical Society of London’, Transactions of the Medical Society of London, 103, 21–30</title>
+                            <author>Vivian Nutton</author>
+                            <date>1986-7</date>
+                            <abbr>Nutton</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘A Wellcome Manuscript of a Medical Practitioner’, in Véronique Boudon-Millot et al. (eds), Storia della tradizione e edizione dei medici greci: Atti del VI Colloquio Internazionale, Paris 12–14 Aprile 2008, 259-70</title>
+                            <author>Vivian Nutton and Barbara Zipser</author>
+                            <date>2010</date>
+                            <placeName>Naples</placeName>
+                            <publisher>D'Auria</publisher>
+                            <abbr>Nutton and Zipster</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>The Oxford Classical Dictionary, 4th edn</title>
+                            <editor>Simon Hornblower, Anthony Spawforth and Esther Eidinow</editor>
+                            <date>2012</date>
+                            <placeName>Oxford</placeName>
+                            <publisher>Oxford University Press</publisher>
+                            <abbr>OCD</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>The Oxford Dictionary of Byzantium, 3 vols</title>
+                            <editor>Alexander Kazhdan</editor>
+                            <date>1991</date>
+                            <placeName>Oxford</placeName>
+                            <publisher>Oxford University Press</publisher>
+                            <abbr>ODB</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Wasserzeichenkartei Piccard</title>
+                            <ref target="http://www.piccard-online.de">http://www.piccard-online.de</ref>
+                            <abbr>Piccard</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Repertorium der griechischen Kopisten, 800–1600, 3 vols in 9 pts.</title>
+                            <editor>Herbert Hunger</editor>
+                            <date>1981-97</date>
+                            <placeName>Oxford</placeName>
+                            <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                            <note>Cited with volume no. followed by catalogue no., eg. RGKI 213</note>
+                            <abbr>RKG</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Thesaurus Linguae Graecae</title>
+                            <ref target="http://www.tlg.uci.edu">http://www.tlg.uci.edu</ref>
+                            <abbr>TLG</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>‘Byzantine Medical Manuscripts: Towards a New Catalogue, with a Specimen for an Annotated Checklist of Manuscripts Based on an Index of Diels’ Catalogue’, Byzantion, 79, 453–595</title>
+                            <author>Alain Touwaide</author>
+                            <date>2009</date>
+                            <abbr>Touwaide</abbr>
+                        </bibl>
+                    </listBibl>
+                
+                </additional>
+                
+                <msPart n="1" xml:id="MS_354_A">
+                    <msIdentifier>
+                        <idno>Greek MS.354.A</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Contains the first two distinct items of the manuscript, Damascius' Commentary... and Hippocrates' Prognosticon </summary>
+                        
+                        <msItem>
+                            
+                            <msItem n="1" xml:id="MS_354_A_1">
+                                <locus from="1r" to="18v">1r-18v</locus>
+                                <author key="">Damascius</author>
+                                <title key="">Αφορισμῶν ῾Ιπποκράτους (Commentary on the Aphorisms of Hippocrates)</title>
+                                                                                               
+                                <incipit>῾Ο βίος βραχύς· ἡ δὲ τέχνη μακρή· ὁ δὲ καιρὸς ὁξύς· ἡ δὲ πεῖρα σφαλερή· ἡ δὲ κρίσις χαλεπή·
+                                </incipit>
+                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                                <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                                <note>(TLG 0728.001)</note>
+                                
+                                
+                            </msItem>
+                            
+                            <msItem n="2" xml:id="MS_354_A_2">
+                                <locus from="18v" to="21v">18v-21v</locus>
+                                <author key="">Hippocrates</author>
+                                <title key="">Προγνωστικὸν (Prognosticon)</title>
+                                                                                               
+                                <incipit>Τὸν ἰητρὸν δοκέει μοι ἄριστον εἶναι, πρόνοιαν ἐπιτηδεύειν</incipit>
+                                  
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                                <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                                <note>(TLG 0627.003)</note>
+                                
+                            </msItem>
+                            
+                            <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <!-- Insert and delete as needed -->
+                        <objectDesc form="">
+                            
+                            <supportDesc material="">
+                                
+                                <support>Folded in 2.
+                                    <watermark>Watermark very similar to Piccard 150435, 150483, 150564, 150755 (three hills), attested in 1408–27</watermark>
+                                    <measure type="chainline">Chain distance 35 mm</measure>
+                                </support>
+                                <extent>1r-21v
+                                    <dimensions unit="mm" ><!-- Add if available -->
+                                        <dim type="diameter"></dim>
+                                        <dim type="length"></dim>
+                                        <!-- Add or delete dimensions as needed -->
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                </foliation>
+                                
+                                <collation>
+                                    <formula>2 × 8 (f. 16), 1 + 4 (f. 21) [no text lost]</formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout writtenLines="40"> Linn. 40
+                                    <note>D 32D</note>
+                                    <dimensions unit="mm">
+                                    <dim type="height">220</dim>
+                                        <dim type="length">153</dim>
+                                    </dimensions>                                       
+                                </layout>
+                                
+                                <layout writtenLines="45">
+                                    <note>Unruled, by scribe B.</note>
+                                </layout>
+                                
+                                <layout rulingMedium="">
+                                    <!-- Add any information on ruling -->
+                                </layout>
+                                
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="major">1r-18v supra</handNote>
+                            <handNote scope="minor">18v infra-21v</handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        
+                        <additions>
+                            <p><locus>18r</locus>Scribal annotation: δι΄ ἐμέτων added in the margin.</p>
+                        </additions>
+                        
+                        <bindingDesc>
+                            <binding>
+                                <p></p>
+                            </binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <region>Byzantine Empire</region>
+                            </origPlace>
+                            <origDate calendar="">Ca. 1400-30 AD (from watermarks)</origDate>
+                            <!-- use additional origPlace and origDate elements if necessary -->
+                        </origin>
+                        <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                        <!-- use additional provenance elements if necessary -->
+                        <acquisition><!-- insert --></acquisition>
+                    </history>
+                    
+                </msPart>
+                
+                <msPart n="2" xml:id="MS_354_B">
+                    <msIdentifier>
+                        <idno>Greek MS.354.B</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Contains the second distinct item of the manuscript, Stephen's Commentary on the Prognosticon of Hippocrates </summary>
+                        
+                        <msItem>
+                            
+                            <msItem n="1" xml:id="MS_354_B_1">
+                                <locus from="22r" to="107v">22r--107v</locus>
+                                <author key="">Stephen</author>
+                                <title key="">Δαμασκίου φιλοσόφου ἐξήγησις εἰς τὸ προγνωστικὸν τοῦ
+                                ῾Ιπποκράτους (Commentary on the Prognosticon of Hippocrates)</title>
+                                                                                              
+                                <incipit>Τὰ προλεγόμενα ἤως εἰωθότα ἐπὶ ἑκάστου συγγράμματος</incipit>
+                                                                
+                                <explicit><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </explicit>
+                                
+                                <colophon><!-- insert --> <locus></locus>
+                                    <!-- Use <note> to add general comment -->
+                                </colophon>
+                                
+                                <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                                <note>(TLG 0728.001)</note>
+                                
+                                
+                            </msItem>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <!-- Insert and delete as needed -->
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="paper">
+                                
+                                <support>Folded in 2.
+                                    <watermark>Watermark identical with Sosower croix latine 45–46.</watermark>
+                                    <measure type="chainline">Chain distance 32 mm</measure>
+                                </support>
+                                <extent>1r-21v
+                                    <dimensions unit="mm" ><!-- Add if available -->
+                                        <dim type="diameter"></dim>
+                                        <dim type="length"></dim>
+                                        <!-- Add or delete dimensions as needed -->
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                </foliation>
+                                
+                                <collation>
+                                    <formula>6 × 12 (f. 105), 2 × 1 (f. 107)</formula>
+                                    <catchwords>Scribal: horizontal, Ii3</catchwords>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout writtenLines="40"> Linn. 20
+                                    <note>Unclear ruling.</note>
+                                    <dimensions unit="mm">
+                                        <dim type="height">212</dim>
+                                        <dim type="length">153</dim>
+                                    </dimensions>                                       
+                                </layout>
+                                
+                                <layout writtenLines="45">
+                                    <note>Unruled, by scribe B.</note>
+                                </layout>
+                                
+                                <layout rulingMedium="">
+                                    <!-- Add any information on ruling -->
+                                </layout>
+                                
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="sole">Attributed by Otto Kresten to Andreas Darmarios (RGK I 13, II 21, III 22)</handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        
+                        <additions>
+                            <p>Scribal annotations: 
+                               <locus>64v</locus>γρ(άφεται) φαίνονται
+                               <locus>83v</locus>γρ(άφεται) γεννᾶσθαι
+                               <locus>85r</locus>γρ(άφεται) ψυχήν
+                               <locus>(105v)</locus>περὶ ἡπατηρᾶς δυσεντερίας
+                               <locus>(106r)</locus>addition to the text: μεταξύ
+                               <locus>(107v)</locus>ἐλλιπὲς ἦν τὸ τέλος ὑπὸ τῆς ἀρχαιότητος</p>
+                        </additions>
+                        
+                        <bindingDesc>
+                            <binding>
+                                <p></p>
+                            </binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <region>Byzantine Empire</region>
+                            </origPlace>
+                            <origDate calendar="">Ca. 1400-30 AD (from watermarks)</origDate>
+                            <!-- use additional origPlace and origDate elements if necessary -->
+                        </origin>
+                        <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                        <!-- use additional provenance elements if necessary -->
+                        <acquisition><!-- insert --></acquisition>
+                    </history>
+                    
+                </msPart>
+                
+                
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_sh 85083142">Medicine, Greek and Roman</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+          <change when="2021-06-07" who="#BLE">Added Greek script.</change>
+          <change when="2021-02-04" who="#TTT">Populated template.</change>
+          <change when="2020-06-01" who="#AP">Created multipart template for Wellcome Greek MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
