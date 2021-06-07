@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_712">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 712</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-06-01">TEI encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">Alpha_712</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="Shelfmark">MS Indic Alpha 712</idno>
+                        <altIdentifier type="Raghavan">
+                            <idno>G.74.q.</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno><!--add--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+                    <msContents>
+
+                        <summary>The <title>Sindūraprakara</title>, an anthology of 100 verses
+                            composed by the Jaina Somaprabha, the pupil of Vijayasiṃha; incomplete,
+                            99 verses. Copied by <persName role="scr">Rūpā</persName> at
+                                <placeName>Jahannāvāda</placeName> on <date type="gregorian"
+                                >Saturday 15 January 1726</date>.</summary>
+                        <textLang mainLang="sa">Sanskrit</textLang>
+
+                        <msItem n="1" xml:id="Alpha_712">
+                            <title>Sindūraprakara</title>
+                            <incipit><locus>F.1v </locus>siṃdūraprakaras tapaḥkarisiraḥkrodhe
+                                kaṣāyāṭavī</incipit>
+                            <explicit><locus>F.12 </locus>iti śrīsiṃdūraprakarakāvyasūtraṃ
+                                samāptaṃ...śrīsaṃvat 1782 varṣe māghamāse kṛṣṇapakṣe navamyaṃ tithau
+                                śanivāre likhitaṃ jahannāvāde rūpā paṭhanārthaṃ</explicit>
+                            <note>Following the explicit is written: yādṛśaṃ pustakaṃ pustakaṃ
+                                dṛṣṭvā tādṛśaṃ liṣataṃ mayā yadi aśuddhaṃ bā mama doṣo na dīyate
+                                1</note>
+                            <filiation>See Madras D 12122 held by Government Oriental Manuscripts
+                                Library and Research Centre, Chennai; M.Krishnamachariar, History of
+                                Classical Sanskrit Literature, 3rd Edition, Delhi 1974, p.318, no.
+                                267; <abbr>HIL:SGDL</abbr>, 36 and fn.297; and Winterint<unclear/>
+                                Vol.2, p.573.</filiation>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>12 ff.<dimensions type="folia" unit="in">
+                                        <height atMost="6">Up to 6 inches</height>
+                                        <width atMost="11">Up to 11 inches</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole">
+                                <persName role="scr">Rūpā</persName>
+                            </handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <p>Jain Nāgarī</p>
+                        </scriptDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <placeName>Jahannāvāda</placeName>
+                                <country>India</country>
+                            </origPlace>
+                            <origDate calendar="Vikram_Samvat" when="1782-01-15">15 January
+                                1782</origDate>
+                            <origDate calendar="Gregorian" when="1726-01-15">15 January
+                                1726</origDate>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information.</title>
+                                        <author>David Pingree.</author>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head>Bibliographical abbreviations</head>
+                            <bibl>
+                                <title>Subhāṣita, Gnomic and Didactic Literature</title>
+                                <author>Ludwik Sternbach</author>
+                                <editor>Jan Gonda</editor>
+                                <placeName>Wiesbaden</placeName>
+                                <publisher>Otto Harrassowitz</publisher>
+                                <date>1974</date>--> <abbr>HIL: SGDL</abbr>
+                                <note>Volume 4, Part 1 of History of Indian literature, p.36 and
+                                    fn.297</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2021-06-01" who="#SC">Populated template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

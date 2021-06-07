@@ -28,15 +28,19 @@
                     <email>library@wellcome.ac.uk</email>
                 </distributor>
                 <availability>
-                    <licence>This TEI description is based on unpublished cataloguing notes by David E. Pingree kindly provided under a CC BY 4.0 license by the American Philosophical Society (APS), which holds the rights to Pingree’s unpublished materials. 
-                        The TEI file itself is made available under a CC BY 4.0 license by the Wellcome Collection, allowing researchers and audiences to continue to make use of and build on Pingree’s work.</licence>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
                 </availability>
                 <idno type="msID">Alpha_399</idno>
                 <idno type="catalogue">David Pingree cataloguing</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                    
+
                     <msIdentifier>
                         <country>United Kingdom</country>
                         <settlement>London</settlement>
@@ -48,69 +52,89 @@
                             <idno>K.3.J.bbb.</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    
-                    
-                    
+
+
+
                     <msContents>
-                        
-                        <summary>An astrological work similar to the <title>Siddhāntatithinirṇaya</title>.</summary>
+
+                        <summary>An astrological work similar to the
+                                <title>Siddhāntatithinirṇaya</title>.</summary>
                         <textLang mainLang="sa">Sanskrit</textLang>
-                        
+
                         <msItem xml:id="Alpha_399">
-                            <note>This fragment goes from Āśvina kṛṣṇa through Kārttika śukla.</note>
-                            
-                            <incipit> <locus>K.3.J.g.B.</locus>
-                                <!-- transcript -->
-                                āśvinakṛṣṇe pakṣe pitṛtarpaṇa śrāddhād<unclear>h</unclear>
+                            <note>This fragment goes from Āśvina kṛṣṇa through Kārttika
+                                śukla.</note>
+
+                            <incipit>
+                                <locus>K.3.J.g.B.</locus>
+                                <!-- transcript --> āśvinakṛṣṇe pakṣe pitṛtarpaṇa
+                                    śrāddhād<unclear>h</unclear>
                             </incipit>
-                            
+
                             <explicit>
-                                <!-- transcript -->
-                                vaikalyā dhananāśāya putranāśāya jambukī
-                                tripaṭā dharmanāśāya sarvanāśāya mohini 2
-                            </explicit>
-                            
+                                <!-- transcript --> vaikalyā dhananāśāya putranāśāya jambukī tripaṭā
+                                dharmanāśāya sarvanāśāya mohinī 2 </explicit>
+
+                            <filiation>Similar work Cf.
+                                    <idno><!--<ref target="ADD URL">K.3.J.g.B.</ref>--></idno></filiation>
                         </msItem>
-                        
+
                     </msContents>
-                    
+
                     <physDesc>
                         <objectDesc form="folio">
                             <supportDesc material="paper">
-                                <extent>1 folio</extent>
+                                <extent>1 f. <dimensions type="folia" unit="in">
+                                        <height atMost="6">Up to 6 inches</height>
+                                        <width atMost="11">Up to 11 inches</width>
+                                    </dimensions>
+                                </extent>
                             </supportDesc>
                             <layoutDesc>
-                                <layout writtenLines="33">Writing parallel to shorter sides. 33 lines, ca 25 akṣaras.</layout>
-                            </layoutDesc> 
+                                <layout writtenLines="33">33 lines, ca 25 akṣaras. Writing parallel
+                                    to shorter sides.</layout>
+                            </layoutDesc>
                         </objectDesc>
                     </physDesc>
-                    
+
                     <additional>
                         <adminInfo>
-                            <note>Alternate identification in <ref target="https://archive.org/details/b20456645M002"> <persName>Wujastyk</persName> Handlist 2</ref> as <title>Gaṇitanāmamālā</title>
-                                with the alternate title <title>Jyotiṣanāmamāla</title> by <persName role="aut">Haridatta</persName>, son of <persName>Śrīpati</persName> of the Kaṇḍūla jāti, 
-                                copied by <persName role="scr">Paṃdit Abhaysoma Muni</persName> in Jaina Nāgarī script. Manuscript checked by <persName>AP</persName> on <date when="2019-06-06">6 June 2019</date>,
-                                confirming Pingree's identification.</note>
+                            <note>Alternate identification in <ref
+                                    target="https://archive.org/details/b20456645M002">
+                                    <persName>Wujastyk</persName> Handlist 2</ref> as
+                                    <title>Gaṇitanāmamālā</title> with the alternate title
+                                    <title>Jyotiṣanāmamāla</title> by <persName role="aut"
+                                    >Haridatta</persName>, son of <persName>Śrīpati</persName> of
+                                the Kaṇḍūla jāti, copied by <persName role="scr">Paṃdit Abhaysoma
+                                    Muni</persName> in Jaina Nāgarī script. Manuscript checked by
+                                    <persName>AP</persName> on <date when="2019-06-06">6 June
+                                    2019</date>, confirming Pingree's identification.</note>
                         </adminInfo>
                     </additional>
-                    
+
                 </msDesc>
             </sourceDesc>
         </fileDesc>
 
         <revisionDesc>
             <change when="2020-01-16" who="#AP">Added licensing statement.</change>
-            <change when="2019-06-07" who="#AP">Added confirmation to Pingree's identification in @additional.</change>
-            <change when="2019-05-13" who="#AP">Created XML file. Added attribute as astrological work in @summary and recorded alternate Wujastyk identification in @additional.</change>
+            <change when="2019-06-07" who="#AP">Added confirmation to Pingree's identification in
+                @additional.</change>
+            <change when="2019-05-13" who="#AP">Created XML file. Added attribute as astrological
+                work in @summary and recorded alternate Wujastyk identification in
+                @additional.</change>
+            <change when="2021-04-23" who="#SC">Updated end TEI tag and Sierra ID for validation.
+                Added filiation note. Added estimated size of alpha manuscripts.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
+        <surface/>
         <!-- For future addition -->
     </facsimile>
     <text>
         <body>
-            <!-- For future full transcript -->  
+            <p/>
+            <!-- For future full transcript -->
         </body>
     </text>
 </TEI>
-

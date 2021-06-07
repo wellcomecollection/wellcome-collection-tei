@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Wellcome_Alpha_557">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>MS Indic Alpha 557</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-05-28">TEI encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David
+                        E. Pingree kindly provided under a CC BY 4.0 license by the American
+                        Philosophical Society (APS), which holds the rights to Pingree’s unpublished
+                        materials. The TEI file itself is made available under a CC BY 4.0 license
+                        by the Wellcome Collection, allowing researchers and audiences to continue
+                        to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">Alpha_557</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="Shelfmark">MS Indic Alpha 557</idno>
+                        <altIdentifier type="Raghavan">
+                            <idno>G.72.a.II</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno><!--add--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+                    <msContents>
+
+                        <summary>A <title>Bṛhacchānti</title> in 5 verses, incomplete at beginning,
+                            a prose passage, and 6 verses; and a <title>Laghuśānti</title> in 19
+                            verses.</summary>
+
+                        <textLang mainLang="sa">Sanskrit</textLang>
+
+                        <msItem n="1" xml:id="Alpha_557_1">
+                            <locus from="2" to="3">F.2-3</locus>
+                            <title>A Bṛhacchānti in 5 verses, prose passage and 6 verses</title>
+                            <incipit><locus>F.2 </locus>ṇaṃ asmiṃś ca bhūmaṇḍalāy[ā]ṃ...</incipit>
+                            <colophon><locus>F.3 </locus>iti śrībṛhacchāṃti saṃpūrṇaṃ ||</colophon>
+                            <filiation>Cf.
+                                    <idno><!--<ref target="ADD URL">G.11.t and G.11.u</ref>--></idno></filiation>
+                        </msItem>
+
+                        <msItem n="2" xml:id="Alpha_557_2">
+                            <locus from="3" to="3v">F.3-3v</locus>
+                            <title>Laghuśānti</title>
+                            <incipit><locus>F.3 </locus>śāṃtiṃ śāṃtiniśāṃtaṃ śāṃtiṃ śāṃtāśivaṃ
+                                namaskṛtya...</incipit>
+                            <colophon><locus>F.3v </locus>iti laghuśāṃti</colophon>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <extent>2 ff.<dimensions type="folia" unit="in">
+                                        <height atMost="6">Up to 6 inches</height>
+                                        <width atMost="11">Up to 11 inches</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation><note>Original foliation numbers: 2-3.</note>
+                                </foliation>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="9">9 lines, ca. 40 akṣaras.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information.</title>
+                                        <author>David Pingree.</author>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2021-05-28" who="#SC">Populated template.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
