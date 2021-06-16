@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS191">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>MS191</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="SAJM">
+                    <resp when="1962">Cataloguer</resp>
+                    <persName>S.A.J. Moorat</persName>
+                </respStmt>
+                <respStmt xml:id="RM">
+                    <resp when="2002">Catalogue entry transcribed into database</resp>
+                    <persName>Ross Macfarlane</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2021">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="WG">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Will Greenacre</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS191</idno>
+                <idno type="catalogue">Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS191</idno>
+                        <altIdentifier type="PublicRef">
+                            <idno>MS.191</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b1902602x</idno>
+                        </altIdentifier>
+                        <altIdentifier type='accession'>
+                            <idno>66264</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Juan de Gavarri contra Domingo Grissoli y Pedro de Salaçar. Originals and copies of documents relating to a dispute on mining rights at Parida in Chile.</summary>
+                        
+                        
+                        <textLang mainLang="es-ES">Spanish Spain</textLang>
+                        
+                        <msItem n="1" xml:id="MS_191_1">
+                            
+                            <title>Chinchon, Luis Jeronimo De ( -1647)</title>
+                                                        
+                            <note>Juan de Gavarri contra Domingo Grissoli y Pedro de Salaçar. Originals and copies of documents relating to a dispute on mining rights at Parida in Chile.</note>
+                            
+                        </msItem>
+                        
+                        
+                    </msContents>
+                    
+                    <physDesc>
+
+                        <objectDesc form="folio">
+                            
+                            <supportDesc material="vellum">
+                                
+                                <extent>90 leaves
+                                    <dimensions unit="cm">
+                                        <dim type="diameter">22</dim>
+                                        <dim type="length">31</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <collation>
+                                    <formula>1 l. + 89 ff.</formula>
+                                    <signatures>With the signature of Court Chinchon, Viceroy of Chile on Fol. 68.</signatures>
+                                </collation>
+                                
+                                <condition>First four leaves damaged.</condition>
+                                
+                            </supportDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote>Written by various hands.</handNote>
+                        </handDesc>
+                        
+                        <bindingDesc>
+                            <binding>
+                                <p>Original vellum covers, with two tape ties.</p>
+                            </binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Peru</country>,
+                                <settlement>Lima</settlement>,
+                            <note>Produced in Lima.</note>
+                            </origPlace>
+                            <origDate calendar="Gregorian">1629</origDate>
+                        </origin>
+                        <acquisition>Purchased 1933. Accession no. 66264.</acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                                        <author>S.A.J. Moorat</author>
+                                        <date>1962-1973</date>
+                                        <note>Pp. 122-123</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="unknown"><p></p></availability> 
+                        </adminInfo>
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+                
+        <revisionDesc>
+            <change when="2021-04-14">WG created XML file.</change>
+            
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
