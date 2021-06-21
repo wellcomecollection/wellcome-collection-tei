@@ -18,7 +18,8 @@
 | TEI| API |  
 | ----------- | ----------- | 
 |textLang	| notes [language]	|
-|handDesc	| hand [language]	|
+|handDesc	| notes [hand]	|
+|additional/adminInfo/recordHist/source | notes [source] |
 
 ## Access Conditions?
 | TEI| API |  
