@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 11.3.21 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Egyptian_4">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Wellcome Egyptian 4</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="QT">
+                    <resp when="1994">Cataloguer</resp>
+                    <persName>S. G. J. Quirke and W. J. Tait</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2021-03-11">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="MK">
+                    <resp when="2021-05-04">TEI Encoder</resp>
+                    <persName>Miriam Keaveny</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">Egypitan MS 4</idno>
+                <idno type="catalogue">Egyptian Manuscripts in the Wellcome Collection</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">Egyptian MS 4</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b32714919</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>A Ptolemaic Book of the Dead </summary>
+
+                        <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+
+                       
+                        
+                        <msItem n="1" xml:id="Egyptian_4_1"> 
+                             <title key="">A Ptolemaic Book of the Dead</title>
+                             <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation> Columns in this manuscript corresopond with 'style 2' Late Period Book of the Dead manuscripts <ref>Mosher</ref></filiation>
+                            
+                            <note> <damage> <locus> column 1 and 29 - 33</locus> destroyed</damage></note>
+                            <note> the name of the owner is not clearly legible anywhere, but it appears to start <!-- Here be Egyptian Script!  -->!</note>
+                            <note> The fact the Wellcome Book of the Dead only includes chapters from 16 - 125 could suggest that the roll was found, damaged, but more complete in modern times and then divided into more marketable vignette fragments. However, there is no evidence of modern cutting.   </note>
+                           
+                         
+                            <msItem n="1" xml:id="Egyptian_4_1_1">
+                                <locus>Column 2</locus>
+                                <filiation>Book of the Dead Chapter 17</filiation>
+                                
+                                <incipit></incipit>
+                                
+                                <explicit> ink Mnw m prt. f
+                                    <note> the last legible line is the 10th line from the top and the penulitmate line of the column. This corresponds to <ref> Lepsius</ref> 17, line 11 </note>
+                                </explicit>
+                            </msItem>
+                        
+                        
+                        <msItem n="2" xml:id="Egyptian_4_1_2"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 3 to 6 </locus></note>
+        
+                            <incipit> tp.fwn. i
+                                <note> The first legible group in column 3 begins on the 2nd line from the top. This corresponds to <ref> Lepsius</ref> 17, line 14 </note>
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 17</filiation>
+                            
+                            <note> name-space in column 3 left blank in the 5th and 6th lines from the top</note>
+                            <note> in column 4 the name of the owner has been added in the 10th line from the top</note>
+                            <note> in column 5 the name of the owner has been added in the 8th line from the top and in the 5th line it states that they born of !Here be Egyptian script!</note>
+                            <note> a small amount of solid resinous matter (from embalming materials)visible below column 3</note>
+                            
+                  
+                           
+                        </msItem>
+                        
+                        <msItem n="3" xml:id="Egyptian_4_1_3"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 7 to 13 </locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 18</filiation>
+                            
+                        </msItem>
+                        
+                        <msItem n="4" xml:id="Egyptian_4_1_4"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 14</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <note> garbled and incomplete </note>
+                            <filiation>Book of the Dead Chapter 26</filiation>
+                            <note> a small amount of solid resinous matter (from embalming materials)visible below column 14</note>
+                            
+                        </msItem>
+                        
+                        <msItem n="5" xml:id="Egyptian_4_1_5"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 15</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 30A</filiation>
+
+                            <note> name-space left blank in the 10th line from the top</note>
+                            
+                        </msItem>
+                        
+                        <msItem n="6" xml:id="Egyptian_4_1_6"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 16</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 28</filiation>
+                            
+                        </msItem>
+                        
+                        <msItem n="7" xml:id="Egyptian_4_1_7"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 17</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 77</filiation>
+                            
+                        </msItem>
+                            
+                        <msItem n="8" xml:id="Egyptian_4_1_8"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 18</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 83</filiation>
+                            
+                        </msItem>
+                        
+                        <msItem n="9" xml:id="Egyptian_4_1_9"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 19</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 81A</filiation>
+                            
+                        </msItem>
+                              
+                        <msItem n="10" xml:id="Egyptian_4_1_10"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 20</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 87</filiation>
+                            <note> the name of the owner is missing but in the 1st and 2nd lines from the top they are said to be born of !Here be Egyptian script!</note>
+                            
+                        </msItem>
+      
+                              
+                        <msItem n="11" xml:id="Egyptian_4_1_11"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 21</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 88</filiation>
+                            <note> a small amount of solid resinous matter (from embalming materials)visible below column 21</note>
+                            
+                        </msItem>
+                              
+                        <msItem n="12" xml:id="Egyptian_4_1_12"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 22</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 86</filiation>
+                            
+                        </msItem>
+                              
+                        <msItem n="13" xml:id="Egyptian_4_1_13"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 23</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 56</filiation>
+                            
+                        </msItem> 
+                        
+                        <msItem n="14" xml:id="Egyptian_4_1_14"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 24</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 58</filiation>
+                            
+                            <note>False join between <ref>Egyptian_4_1_15</ref> and <ref>Egyptian_4_1_16</ref></note>
+                            
+                        </msItem>
+                        
+                        <msItem n="15" xml:id="Egyptian_4_1_15"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 25</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                           
+                            <note>False join between <ref>Egyptian_4_1_15</ref> and <ref>Egyptian_4_1_16</ref></note>
+                            <note> filaition is unidentified </note>
+                            
+                        </msItem>
+                        
+                        <msItem n="16" xml:id="Egyptian_4_1_16"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 26</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 74</filiation>
+                            <note> name-space left blank in the 10th line from the top</note>
+                            <note> the name of the owner has been added in the 3rd line from the top</note>
+                            
+                        </msItem>
+                              
+                        <msItem n="17" xml:id="Egyptian_4_1_17"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 27</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 92</filiation>
+                            
+                            <note> <damage> a fragment at the top of this column is misplaced</damage></note>
+                            
+                        </msItem>
+                              
+                        <msItem n="18" xml:id="Egyptian_4_1_18"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 28</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 93</filiation>
+                            
+                        </msItem>
+                              
+                        <msItem n="19" xml:id="Egyptian_4_1_19"> 
+                            <title key="">A Ptolemaic Book of the Dead</title>
+                            <textLang mainLang="egy" source="IANA">Ancient Egyptian</textLang>
+                            <note> <locus>Column 34</locus></note>
+                            <incipit>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <filiation>Book of the Dead Chapter 125 (introduction)</filiation>
+                            
+                        </msItem>
+                              
+                        </msItem>
+  
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <!-- Insert and delete as needed -->
+                        <objectDesc form="roll">
+                            
+                            <supportDesc material="papyrus"> 
+                                
+                                <support>Only the lower half of the papyrus roll remains. This has been unrolled and glued to linen, in <date>19th or 20th century</date> 
+          
+                                </support>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <dim type="length">207cm</dim>
+                                        <dim type="height">maximum 17cm</dim>
+                                    </dimensions>
+                                    <note> maximum height at <locus> columns 3 to 6 and 20 to 21</locus></note>
+                                </extent>
+
+                                <condition> Only the lower half of the papyrus roll is preserved. At some point in the <date>20th century</date> this has been unrolled and glued to linen, but in the process some fragments have been mis- placed. Since this treatment, parts of the surface and edges have flaked away. The flaking and discoloration prevent the identification of any joins. Stains from embalming materials poured over the body darken parts of the surface.
+                                </condition>
+                                
+                                
+                            </supportDesc>
+                            
+                            
+                            
+                            <layoutDesc>
+                                
+                                <layout columns="34">
+                                    Text is borded by a double line with a blank space of 250mm between this and the bottom of the original roll. Columns are divided by 33 vertical double lines.                                
+                                    <note> Between column 2 and column 3 there is a 190mm gap. This gap is not large enough for the lines that are missing between column 2 and column 3. This gap appears original to the layout, as there are no breaks to the fibres of the papyrus. </note>
+                                    <note> New formulae and sub-sections begin in a new column and this is typical of <ref>Mosher</ref> 'Style 2' and Late Period Book of the Dead manuscripts.   </note>
+                                
+                                </layout>
+                                
+                              
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        
+                        <decoDesc>
+                                 <decoNote>The text is entirely in carbon black</decoNote>
+                            <decoNote>Full-height vignettes of Book of the Dead 16 (the adoration of the sun), Book of the Dead 110, 125, 143 (Orisis Litany) and Book of the Dead 152 and 161. No other vignettes remain, but other <ref>Mosher</ref> style 2 mansucripts had these across the upper margin of the roll. </decoNote>
+                        </decoDesc>
+                        
+                        <additions>
+                            <p></p>
+                        </additions>
+                        
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Egypt</country>,
+                            </origPlace>
+                            <origDate calendar="Gregorian">not before 200BC </origDate>
+                            <note> Funerary manuscripts from later than the ninth century BC remain difficult to date, but recent research by <ref>Mosher</ref> and <ref>Verhoeven</ref> of similar 'style 2' Books of the Dead suggests they are from the late Ptolemaic Period </note>
+                        </origin>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Egyptian Manuscripts in the Wellcome Collection in The Journal of Egyptian Archaeology, vol. 80</title>
+                                        <author>S. G. J. Quirke and W. J. Tait</author>
+                                        <date>1994</date>
+                                        <note>Pp. 145-158</note>
+                                    </bibl>
+                          
+                                </source>
+                            </recordHist>
+                          
+                        </adminInfo>
+                        
+                        <listBibl>
+                            <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                            <!-- The following records the bibliographical entries Allan's catalogue refers to - delete any that are not mentioned in the file -->
+                            <head>Bibliographical abbreviations</head>
+                            <bibl>
+                                <title>Das saitische Totenbuch der Iahtesnacht, P. Colon. Aeg. so207, mit einem Beitrag von P.Dils </title>
+                                <author>Ursula Verhoeven</author>
+                                <date>1993</date>
+                                <placeName>Bonn</placeName>
+                                <extent> 3 volumes</extent>
+                                <abbr>Verhoeven</abbr>
+                            </bibl>
+                            <bibl>
+                                <title>Journal of the American Research Centre in Egypt</title>
+                                <note>Volume 29</note>
+                                <date>1992</date>
+                                <note><locus>p.149-150</locus></note>
+                                <author>Malcom Mosher</author>
+                                <abbr>Mosher</abbr>
+                            </bibl>
+                            <bibl>
+                                <title>Das todtenbuch der Agypter nach dem hieroglyphischen papyrus in Turin.</title>
+                                <date>1842</date>  
+                                <author>Karl Richard Lepsius</author>
+                                <abbr>Lepsius</abbr>
+                            </bibl>
+     
+                        </listBibl>
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+ 
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="sh85018080">
+                            <term ref="subject_sh85018080">Burial</term>
+                        </item>
+                        <item facs="sh85041367">
+                            <term ref="subject_sh85041367">Egyptology</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+        
+        <revisionDesc>
+            <change when="2020-06-25" who = "MK"></change>
+            <change when="2021-03-11" who="#AP">Created template for Wellcome Egyptian MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        <graphic url="https://www.jstor.org/stable/3821857"> <desc> Images are at the end of <persName>S. G. J. Quirke and W. J. Tait</persName> catalogue  <locus> plates XV, XVI - XXI</locus></desc></graphic>
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
