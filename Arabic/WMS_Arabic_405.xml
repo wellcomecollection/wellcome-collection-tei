@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16048">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wellcome Library</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Library; Bibliotheca Alexandrina; King's College London</publisher>
+                <idno>UkLW</idno>
+                <idno type="msID">WMS_Arabic_405</idno>
+                <idno type="catalogue">Fihrist</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="WMS_Arabic_405" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Trust</institution>
+                        <repository>Wellcome Collection</repository>
+                        <collection>Manuscripts in Arabic</collection>
+                        <idno>MS Arabic 405</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 63(Shelf-mark: 510/678 Nml / 787 /76)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msPart xml:id="WMS_Arabic_405-part1">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>1</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>A well-known commentary on Ibn Sīnā's al-Qānūn</summary>
+                            
+                            <msItem xml:id="WMS_Arabic_405-part1-item1">
+                                <author key="person_17316331">
+                                    <persName xml:lang="en">Ibn al-Nafīs, ʻAlī ibn Abī al-Ḥazm, 1210 or 1211-1288</persName>
+                                    <persName xml:lang="ar">على ال‍دين على بن ابي ال‍حزم ال‍قرشي ال‍معروف ب‍ابن ال‍نفيس</persName>
+                                </author>
+                                <title xml:lang="ar-Latn-x-lc">Mūǧiz al-Qānūn</title>
+                                <title xml:lang="ar">موجز ال‍قانون</title>
+                                <title xml:lang="en">Abstract of Al-Qānūn</title>
+                                
+                                <incipit xml:lang="ar">
+                                    <locus>Fol. 1b.1</locus>
+                                    قال ال‍شيخ الامام ال‍عالم ال‍حبر ال‍كامل قدوة ال‍علماء رئيس
+                                    ل‍حكماء ابو ال‍حسن علاء ال‍دين على ابن ابى ال‍حزم ال‍قرشى
+                                    ل‍متطبب قد رتبت هذا ال‍كتاب على اربع فنون
+                                </incipit>
+                                
+                                <explicit xml:lang="ar">
+                                    <locus>Fol. 246a.1--2</locus>
+                                    مات وكان تدبيرهم فى ال‍علاج واحد واستعملوا دواء جالينوس
+                                    و‌غيره من ال‍علاج ال‍مذكور
+                                </explicit>
+                                
+                                <colophon>و من ههنا  فلنختم ال‍كلام حامدين ل‍له ومصلين على خير
+                                    خلقه محمد واله اجمعين  فرغ من تسويده احقر عباد ال‍لّه ال‍لطيف ابن
+                                    شكر ال‍له محمّد شريف في عشرين من شهر رمضان ال‍مبارك سنه ستين
+                                    وتسعمايه</colophon>
+                                
+                                <textLang mainLang="ar">Arabic</textLang>
+                                
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item1">
+                                    <locus>Fol. 2a.7</locus>
+                                    <title type="original">ال‍فن الاول يشتمل على جملتين</title>
+                                </msItem>
+
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item2">
+                                    <locus>Fol. 2a.8</locus>
+                                    <title type="original">ال‍جملة الاولى فى قواعد ال‍جزء ال‍نظرىّ من ال‍طب  ويشتمل على
+                                        ربعة اجزاء</title>
+                                </msItem>
+                                
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item3">
+                                    <locus>Fol. 2a.9</locus>
+                                    <title type="original">ال‍جزء الاوول من اجزاء ال‍جزء ال‍نظرى فى الامور ال‍طبيعية</title>
+                                </msItem>
+                                
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item4">
+                                    <locus>Fol. 7a.8</locus>
+                                    <title type="original">ال‍جزء ال‍ثانى من اجزاء ال‍نظرى احوال بدن الانسان</title>
+                                </msItem>
+                                
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item5">
+                                    <locus>Fol. 10a.4</locus>
+                                    <title type="original">ال‍جزء ال‍ثالث من اجزاء ال‍نظرى فى الاسباب</title>
+                                </msItem>
+                                
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item6">
+                                    <locus>Fol. 21a.3</locus>
+                                    <title type="original">ال‍جمله ال‍ثانيه فى قواعد ال‍جزء ال‍علمى من
+                                        ل‍طبّ يقول كلى وال‍جزء ال‍علمى ينقسم على علم حفظ ال‍صحّه
+                                        والى علم ال‍علاج</title>
+                                </msItem>
+                                
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item7">
+                                    <locus>Fol.31b.7</locus>
+                                    <title type="original">ال‍جزء ال‍ثانى من جزئى ال‍جزء ال‍عملى من
+                                        ل‍طب  فى معالجات ال‍مرضى</title>
+                                </msItem>
+                                
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item8">
+                                    <locus>Fol. 39b.3</locus>
+                                    <title type="original">ال‍فن ال‍ثانى يشتمل على جملتين</title>
+                                </msItem>
+                                
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item9">
+                                    <locus>Fol. 39b.3</locus>
+                                    <title type="original">ال‍جملة الاولى فى احكام الادويه والاغذيه
+                                        ل‍مفرده وتشتمل على بابين</title>
+                                </msItem>
+                                
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item10">
+                                    <locus>Fol. 39b.4</locus>
+                                    <title type="original">ال‍باب الاول كلام كلى فى الادويه ال‍مفرده</title>
+                                </msItem>
+                                
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item11">
+                                    <locus>Fol. 43b.4</locus>
+                                    <title type="original">ال‍باب ال‍ثانى فى احكام الادويه والاغذيه
+                                        ل‍مفرده وقد رتبناه على حروف الابجد</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item12">
+                                    <locus>Fol. 43b.6</locus>
+                                    <title type="original">حرف ال‍همزة ابريسم </title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item13">
+                                    <locus>Fol. 47a.9</locus>
+                                    <title type="original">حرف ال‍بآ بابونج</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item14">
+                                    <locus>Fol. 50b.5</locus>
+                                    <title type="original"> حرف ال‍جيم جوز
+                                    </title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item15">
+                                    <locus>Fol. 51a.5</locus>
+                                    <title type="original">حرف ال‍دالدارصينى </title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item16">
+                                    <locus>Fol. 51b.8</locus>
+                                    <title type="original"> حرف ال‍هآ هندبا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item17">
+                                    <locus>Fol. 52b.1</locus>
+                                    <title type="original"> حرف ال‍واو وج</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item18">
+                                    <locus>Fol. 52b.11</locus>
+                                    <title type="original">حرف ال‍زآءزعفران</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item19">
+                                    <locus>Fol. 53b.3</locus>
+                                    <title type="original">(sic!)حرف ال‍حآء حضّر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item20">
+                                    <locus>Fol. 55b.1</locus>
+                                    <title type="original"> حرف ال‍طا طباشير </title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item21">
+                                    <locus>Fol. 56a.1</locus>
+                                    <title type="original">حرف ال‍ياء ياسمين</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item22">
+                                    <locus>Fol. 56a.3</locus>
+                                    <title type="original">حرف ال‍كاف كافور</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item23">
+                                    <locus>Fol. 57b.2</locus>
+                                    <title type="original">حرف ال‍لام لسان ال‍ثور</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item24">
+                                    <locus>Fol. 59b.6</locus>
+                                    <title type="original">حرف ال‍ميم مصطكى</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item25">
+                                    <locus>Fol. 60b.4</locus>
+                                    <title type="original">حرف ال‍نون نرجس</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item26">
+                                    <locus>Fol. 61b.2</locus>
+                                    <title type="original">حرف ال‍سين سدر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item27">
+                                    <locus>Fol. 62b.11</locus>
+                                    <title type="original">حرف ال‍عين عنبر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item28">
+                                    <locus>Fol. 63a.12</locus>
+                                    <title type="original">حرف ال‍فا فضة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item29">
+                                    <locus>Fol. 64a.2</locus>
+                                    <title type="original">حرف ال‍صاد صندل</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item30">
+                                    <locus>Fol. 64a.9</locus>
+                                    <title type="original">حرف ال‍قاف قنا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item31">
+                                    <locus>Fol. 65a.6</locus>
+                                    <title type="original">حرف ال‍رآء ريحان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item32">
+                                    <locus>Fol. 65b.12</locus>
+                                    <title type="original">حرف ال‍شين شعير</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item33">
+                                    <locus>Fol. 66b.3</locus>
+                                    <title type="original">حرف ال‍تا تمر هندى</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item34">
+                                    <locus>Fol. 67b.6</locus>
+                                    <title type="original">حرف ال‍ثاء ثوم</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item35">
+                                    <locus>Fol. 68a.6</locus>
+                                    <title type="original">حرف ال‍خآء خشخاش</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item36">
+                                    <locus>Fol. 69b.9</locus>
+                                    <title type="original">حرف ال‍ذال ذهب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item37">
+                                    <locus>Fol. 70a.9</locus>
+                                    <title type="original">ال‍جملة ال‍ثانيه فى الادويه ال‍مركبه ويشتمل
+                                        على بابين</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item38">
+                                    <locus>Fol. 70a.10</locus>
+                                    <title type="original">ال‍باب الاول فى قوانين مركب الادوية</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item39">
+                                    <locus>Fol. 71b.10</locus>
+                                    <title type="original">ال‍باب ال‍ثانى فى جمله من الادويه ال‍مركبة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item40">
+                                    <locus>Fol. 74a.5</locus>
+                                    <title type="original">ال‍فن ال‍ثالث  فى الامراض ال‍مختصّه ب‍عضو عضو واسبابها
+                                        و‌علاماتها و‌معالجاتها</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item41">
+                                    <locus>Fol. 74a.8</locus>
+                                    <title type="original">علامات امزجة ال‍دماغ, علامات ال‍مزاج ال‍حار</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item42">
+                                    <locus>Fol. 74a.11</locus>
+                                    <title type="original">علامات ال‍مزاج ال‍بارد</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item43">
+                                    <locus>Fol. 74b.5</locus>
+                                    <title type="original">علامات لامزجه ال‍مركبة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item44">
+                                    <locus>Fol. 74b.9</locus>
+                                    <title type="original">علامات ال‍دم</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item45">
+                                    <locus>Fol. 76b.11</locus>
+                                    <title type="original">علاج ال‍صداع ال‍حار</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item46">
+                                    <locus>Fol. 78a.9</locus>
+                                    <title type="original">علاج ال‍صداع ال‍يابس</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item47">
+                                    <locus>Fol. 78b.12</locus>
+                                    <title type="original">علاج ال‍صداع ال‍رطب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item48">
+                                    <locus>Fol. 79a.2</locus>
+                                    <title type="original">علاج ال‍صداع ال‍مادي</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item49">
+                                    <locus>Fol. 82a.9</locus>
+                                    <title type="original">ال‍سبات ال‍سهري</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item50">
+                                    <locus>Fol. 82b.7</locus>
+                                    <title type="original">ال‍نسيان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item51">
+                                    <locus>Fol. 82b.10</locus>
+                                    <title type="original">ال‍مانيا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item52">
+                                    <locus>Fol. 83a.2</locus>
+                                    <title type="original">دا ال‍كلب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item53">
+                                    <locus>Fol. 83a.11</locus>
+                                    <title type="original">ال‍ماليخوليا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item54">
+                                    <locus>Fol. 85a.12</locus>
+                                    <title type="original">ال‍عشق</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item55">
+                                    <locus>Fol. 86a.3</locus>
+                                    <title type="original">ال‍سبات</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item56">
+                                    <locus>Fol. 86b.4</locus>
+                                    <title type="original">ال‍سهر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item57">
+                                    <locus>Fol. 87b.11</locus>
+                                    <title type="original">ال‍كابوس</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item58">
+                                    <locus>Fol. 90a.12</locus>
+                                    <title type="original">ال‍سكتة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item59">
+                                    <locus>Fol. 90b.6</locus>
+                                    <title type="original">ال‍سهلة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item60">
+                                    <locus>Fol. 91a.10</locus>
+                                    <title type="original">ال‍فالج</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item61">
+                                    <locus>Fol. 93b. 7</locus>
+                                    <title type="original">ال‍تشنّج</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item62">
+                                    <locus>Fol. 94a.4</locus>
+                                    <title type="original">ال‍تمدّد</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item63">
+                                    <locus>Fol. 94a.9</locus>
+                                    <title type="original">ال‍لقوة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item64">
+                                    <locus>Fol. 94b.5</locus>
+                                    <title type="original">ال‍رعشة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item65">
+                                    <locus>Fol. 94b.11</locus>
+                                    <title type="original">ال‍خدر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item66">
+                                    <locus>Fol. 95a.11</locus>
+                                    <title type="original">امراض ال‍عين</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item67">
+                                    <locus>Fol. 96a.3</locus>
+                                    <title type="original">علامات ال‍دم</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item68">
+                                    <locus>Fol. 96a.4</locus>
+                                    <title type="original">علامات ال‍صفراء</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item69">
+                                    <locus>Fol. 96a.6</locus>
+                                    <title type="original">علامات ال‍بلغم</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item70">
+                                    <locus>Fol. 96a.7</locus>
+                                    <title type="original">علامات ال‍سوداء</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item71">
+                                    <locus>Fol. 96a.7</locus>
+                                    <title type="original">علامات  الامزجة ال‍ساذجة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item72">
+                                    <locus>Fol. 96a.8</locus>
+                                    <title type="original">علامات ال‍تكدّر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item73">
+                                    <locus>Fol. 96a.11</locus>
+                                    <title type="original">ال‍رمد</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item74">
+                                    <locus>Fol. 98a.6</locus>
+                                    <title type="original">ال‍وردنيج</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item75">
+                                    <locus>Fol. 98b.5</locus>
+                                    <title type="original">قروح ال‍عين</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item76">
+                                    <locus>Fol. 99a.10</locus>
+                                    <title type="original">ال‍طرفة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item77">
+                                    <locus>Fol. 99b.3</locus>
+                                    <title type="original">ال‍سبل</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item78">
+                                    <locus>Fol. 99b.9</locus>
+                                    <title type="original">ال‍ظفرة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item79">
+                                    <locus>Fol. 100a.2</locus>
+                                    <title type="original">ال‍قمقم</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item80">
+                                    <locus>Fol. 100a.6</locus>
+                                    <title type="original">ال‍سلاق</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item81">
+                                    <locus>Fol. 100b.2</locus>
+                                    <title type="original">ال‍بردة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item82">
+                                    <locus>Fol. 100b.3</locus>
+                                    <title type="original">ال‍شعير</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item83">
+                                    <locus>Fol. 100b.7</locus>
+                                    <title type="original">ال‍شرناق</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item84">
+                                    <locus>Fol. 100b.12</locus>
+                                    <title type="original">ال‍شعير ال‍منقلب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item85">
+                                    <locus>Fol. 101a.2</locus>
+                                    <title type="original">ضعف ال‍بصر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item86">
+                                    <locus>Fol. 102a.4</locus>
+                                    <title type="original">ال‍خيلات</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item87">
+                                    <locus>Fol. 103a.5</locus>
+                                    <title type="original">ال‍ماء</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item88">
+                                    <locus>Fol. 103a.12</locus>
+                                    <title type="original">امراض الانف</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item89">
+                                    <locus>Fol. 103b.1</locus>
+                                    <title type="original">نقصان ال‍شم وبطلانه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item90">
+                                    <locus>Fol. 103b.7</locus>
+                                    <title type="original">ال‍رايحه ال‍كريهة في الانف واستلذاذ بها
+                                        واقتصار على ادراكها</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item91">
+                                    <locus>Fol. 104a.4</locus>
+                                    <title type="original">دوام ادراك ال‍رايحة ال‍طيبه واقتصار على ادراكها</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item92">
+                                    <locus>Fol. 104a.7</locus>
+                                    <title type="original">جفاف الانف</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item93">
+                                    <locus>Fol. 104b.1</locus>
+                                    <title type="original">قروح الانف</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item94">
+                                    <locus>Fol. 104b.8</locus>
+                                    <title type="original">ال‍رعاف</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item95">
+                                    <locus>Fol. 105b.5</locus>
+                                    <title type="original">ال‍زكام وال‍نزلة علامات ال‍حارة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item96">
+                                    <locus>Fol. 105b.8</locus>
+                                    <title type="original">علامات ال‍باردة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item97">
+                                    <locus>Fol. 107a.1</locus>
+                                    <title type="original">امراض ال‍لثة والاسنان وال‍شفتين</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item98">
+                                    <locus>Fol. 107b.10</locus>
+                                    <title type="original">ضعف الاسنان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item99">
+                                    <locus>Fol. 108a.1</locus>
+                                    <title type="original">دود الاسنان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item100">
+                                    <locus>Fol. 108a.6</locus>
+                                    <title type="original">ال‍لثة ال‍دامية</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item101">
+                                    <locus>Fol. 108a.7</locus>
+                                    <title type="original">نقصان لحم ال‍لثة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item102">
+                                    <locus>Fol. 108a.9</locus>
+                                    <title type="original">استرخا ال‍لثة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item103">
+                                    <locus>Fol. 108a.11</locus>
+                                    <title type="original">وجع الاسنان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item104">
+                                    <locus>Fol. 109b.3</locus>
+                                    <title type="original">ال‍بخر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item105">
+                                    <locus>Fol. 110a.10</locus>
+                                    <title type="original">ال‍قلاع</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item106">
+                                    <locus>Fol. 110b.8</locus>
+                                    <title type="original">قلع الاسنان وتفتيتها</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item107">
+                                    <locus>Fol. 110b.10</locus>
+                                    <title type="original">سيلان ال‍لعاب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item108">
+                                    <locus>Fol. 111a.3</locus>
+                                    <title type="original">شقوق ال‍شفه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item109">
+                                    <locus>Fol. 111a.5</locus>
+                                    <title type="original">اورام ال‍شفه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item110">
+                                    <locus>Fol. 111a.7</locus>
+                                    <title type="original">امراض ال‍وجه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item111">
+                                    <locus>Fol. 111a.11</locus>
+                                    <title type="original">ال‍بادشنام</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item112">
+                                    <locus>Fol. 111b.3</locus>
+                                    <title type="original">امراض ال‍لسان شقوق ال‍لسان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item113">
+                                    <locus>Fol. 111b.5</locus>
+                                    <title type="original">جفاف ال‍لسان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item114">
+                                    <locus>Fol. 111b.10</locus>
+                                    <title type="original">استرخا ال‍لسان وثقله وال‍تمتمة والفافاة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item115">
+                                    <locus>Fol. 112a.11</locus>
+                                    <title type="original">امراض الاذن ال‍طرش</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item116">
+                                    <locus>Fol. 113b.11</locus>
+                                    <title type="original">ال‍طنين والدوي</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item117">
+                                    <locus>Fol. 114b.4</locus>
+                                    <title type="original">وجع الاذن</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item118">
+                                    <locus>Fol. 115b.5</locus>
+                                    <title type="original">قروح الاذن</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item119">
+                                    <locus>Fol. 115b.9</locus>
+                                    <title type="original">دخول ال‍حيوان فى الاذن وتولّد ال‍دود فيها</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item120">
+                                    <locus>Fol. 115b.12</locus>
+                                    <title type="original">دخول ال‍ماء فى الاذن</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item121">
+                                    <locus>Fol. 116a.6</locus>
+                                    <title type="original">امراض ال‍حلق ال‍خناق</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item122">
+                                    <locus>Fol. 118a.9</locus>
+                                    <title type="original">استرخآء ال‍لهاة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item123">
+                                    <locus>Fol. 118a.10</locus>
+                                    <title type="original">ضيق ال‍نفس</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item124">
+                                    <locus>Fol. 119a.3</locus>
+                                    <title type="original">ال‍ربو</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item125">
+                                    <locus>Fol. 120a.12</locus>
+                                    <title type="original">نفس الانتصاب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item126">
+                                    <locus>Fol. 120b.3</locus>
+                                    <title type="original">بحة ال‍صوت</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item127">
+                                    <locus>Fol. 121b.11</locus>
+                                    <title type="original">نفث ال‍دم</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item128">
+                                    <locus>Fol. 123a.9</locus>
+                                    <title type="original">ال‍علق ال‍ناشب فى ال‍حلق</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item129">
+                                    <locus>Fol. 124a.5</locus>
+                                    <title type="original">امراض ال‍صدر وال‍رية</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item130">
+                                    <locus>Fol. 124a.12</locus>
+                                    <title type="original">ذات ال‍جنب وذات ال‍رية</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item131">
+                                    <locus>Fol. 128b.6</locus>
+                                    <title type="original">امراض ال‍قلب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item132">
+                                    <locus>Fol. 129b.2</locus>
+                                    <title type="original">ال‍خفقان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item133">
+                                    <locus>Fol. 132a.9</locus>
+                                    <title type="original">امراض ال‍ثدي</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item134">
+                                    <locus>Fol. 132b.3</locus>
+                                    <title type="original">انفاء ال‍ثدي على صغره</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item135">
+                                    <locus>Fol. 132b.5</locus>
+                                    <title type="original">قلة ال‍لبن</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item136">
+                                    <locus>Fol. 133a.8</locus>
+                                    <title type="original">امراض ال‍معدة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item137">
+                                    <locus>Fol.133b.9</locus>
+                                    <title type="original">وجع ال‍معدة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item138">
+                                    <locus>Fol. 136a.6</locus>
+                                    <title type="original">ال‍تخمة وفساد ال‍غذا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item139">
+                                    <locus>Fol. 136b.2</locus>
+                                    <title type="original">نقصان ال‍شهوة وبطلانها</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item140">
+                                    <locus>Fol. 137b.3</locus>
+                                    <title type="original"></title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item141">
+                                    <locus>Fol. 138a.5</locus>
+                                    <title type="original">ال‍شهوة ال‍كلتية</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item142">
+                                    <locus>Fol. 138a.11</locus>
+                                    <title type="original">ال‍عطش</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item143">
+                                    <locus>Fol. 139a.3</locus>
+                                    <title type="original">نقصان ال‍هضم وبطلانه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item144">
+                                    <locus>Fol. 139b.8</locus>
+                                    <title type="original">فساد ال‍هضم</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item145">
+                                    <locus>Fol. 140a.4</locus>
+                                    <title type="original">ل‍فواق</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item146">
+                                    <locus>Fol. 142a.1</locus>
+                                    <title type="original">القىء وال‍تهووع وال‍غيثان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item147">
+                                    <locus>Fol. 142a.12</locus>
+                                    <title type="original">امراض ال‍كبد</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item148">
+                                    <locus>Fol. 142b.8</locus>
+                                    <title type="original">ضعف ال‍كبد</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item149">
+                                    <locus>Fol. 143b.1</locus>
+                                    <title type="original">سدد ال‍كبد</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item150">
+                                    <locus>Fol. 144b.12</locus>
+                                    <title type="original">ال‍نفخة وال‍ريح فى ال‍كبد</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item151">
+                                    <locus>Fol. 145a.5</locus>
+                                    <title type="original">وجع ال‍كبد</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item152">
+                                    <locus>Fol. 145a.6</locus>
+                                    <title type="original">اورام ال‍كبد</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item153">
+                                    <locus>اورام ال‍كبد</locus>
+                                    <title type="original">سوء ال‍قنية هو تقدم الاستسقا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item154">
+                                    <locus>Fol. 147a.7</locus>
+                                    <title type="original">الاستسقا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item155">
+                                    <locus>Fol. 150a.2</locus>
+                                    <title type="original">امراض الامعآء</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item156">
+                                    <locus>Fol. 156b.2</locus>
+                                    <title type="original">ال‍سحج وقروح الامعا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item157">
+                                    <locus>Fol. 157b.2</locus>
+                                    <title type="original">ال‍قولنج</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item158">
+                                    <locus>Fol. 160a.4</locus>
+                                    <title type="original">ال‍دود</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item159">
+                                    <locus>Fol. 161b.8</locus>
+                                    <title type="original">امراض ال‍مقعدة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item160">
+                                    <locus>Fol. 162a.9</locus>
+                                    <title type="original">استرخا ال‍مقعدة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item161">
+                                    <locus>Fol. 162b.7</locus>
+                                    <title type="original">خروج ال‍مقعده</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item162">
+                                    <locus>Fol. 163a.1</locus>
+                                    <title type="original">حكه ال‍مقعدة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item163">
+                                    <locus>Fol. 163a.4</locus>
+                                    <title type="original">اورام ال‍مقعدة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item164">
+                                    <locus>Fol. 163a.11</locus>
+                                    <title type="original">ال‍بواسير</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item165">
+                                    <locus>Fol. 165a.7</locus>
+                                    <title type="original">ال‍زحير</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item166">
+                                    <locus>Fol. 166b.2</locus>
+                                    <title type="original">مراض ال‍طحال وال‍مرارة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item167">
+                                    <locus>Fol. 166b.3</locus>
+                                    <title type="original">ال‍يرقان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item168">
+                                    <locus>Fol. 168a.7</locus>
+                                    <title type="original">ورم ال‍طحال</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item169">
+                                    <locus>Fol. 169b.6</locus>
+                                    <title type="original">امراض ال‍كلى وال‍مثانة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item170">
+                                    <locus>Fol. 170a.6</locus>
+                                    <title type="original">ال‍حصاة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item171">
+                                    <locus>Fol. 170b.3</locus>
+                                    <title type="original">حصا ال‍كلى وال‍مثانة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item172">
+                                    <locus>Fol. 172b.2</locus>
+                                    <title type="original">قروح ال‍كلية وال‍مثانة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item173">
+                                    <locus>Fol. 173a.2</locus>
+                                    <title type="original">اورام ال‍كلى</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item174">
+                                    <locus>Fol. 173b.9</locus>
+                                    <title type="original">اورام ال‍مثانة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item175">
+                                    <locus>Fol. 175a.2</locus>
+                                    <title type="original">جرّب ال‍مثانة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item176">
+                                    <locus>Fol. 175a.4</locus>
+                                    <title type="original">جمود ال‍دم فى ال‍مثانه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item177">
+                                    <locus>Fol. 175a.10</locus>
+                                    <title type="original">خلع ال‍مثانة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item178">
+                                    <locus>Fol. 175b.4</locus>
+                                    <title type="original">حرقة ال‍بول</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item179">
+                                    <locus>Fol. 175b.11</locus>
+                                    <title type="original">عسر ال‍بول</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item180">
+                                    <locus>Fol. 176b.10</locus>
+                                    <title type="original">سلس ال‍بول</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item181">
+                                    <locus>Fol. 177b.10</locus>
+                                    <title type="original">ديانيطر ديابيطس</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item182">
+                                    <locus>Fol. 178a.8</locus>
+                                    <title type="original">تقطير ال‍بول</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item183">
+                                    <locus>Fol. 178b.1</locus>
+                                    <title type="original">امراض اعضا ال‍تناسل</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item184">
+                                    <locus>Fol. 178b.7</locus>
+                                    <title type="original">كلام فى ال‍منى</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item185">
+                                    <locus>Fol. 179a.11</locus>
+                                    <title type="original">نقصان ال‍باه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item186">
+                                    <locus>Fol. 182a.7</locus>
+                                    <title type="original">كثرة ال‍شهوة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item187">
+                                    <locus>Fol. 182b.5</locus>
+                                    <title type="original">كثرة الاحتلام</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item188">
+                                    <locus>Fol. 182b.10</locus>
+                                    <title type="original">سرعة الانزال</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item189">
+                                    <locus>Fol. 183a.2</locus>
+                                    <title type="original">كثرة الانعاظ</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item190">
+                                    <locus>Fol. 183a.7</locus>
+                                    <title type="original">ال‍عذيوط</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item191">
+                                    <locus>Fol. 183a.11</locus>
+                                    <title type="original">الابنة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item192">
+                                    <locus>Fol. 184a.1</locus>
+                                    <title type="original">تدبير من استكثر من ال‍جماع فاضرّه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item193">
+                                    <locus>Fol. 184a.6</locus>
+                                    <title type="original">معظمات ال‍ذكر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item194">
+                                    <locus>Fol. 184a.8</locus>
+                                    <title type="original">معالجة تخصّ ب‍ال‍نساءِ تضيق ال‍قبل</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item195">
+                                    <locus>Fol. 184a.12</locus>
+                                    <title type="original">مسخنات ال‍قبل</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item196">
+                                    <locus>Fol. 184b.2</locus>
+                                    <title type="original">ال‍ملذّذات</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item197">
+                                    <locus>Fol. 184b.5</locus>
+                                    <title type="original">امراض ال‍رحم</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item198">
+                                    <locus>Fol. 185b.8</locus>
+                                    <title type="original">اورام ال‍رحم</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item199">
+                                    <locus>Fol. 190b.12</locus>
+                                    <title type="original">اورام ال‍خصية وما يليها من ال‍شرج</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item200">
+                                    <locus>Fol. 191b.6</locus>
+                                    <title type="original">قروح ال‍ذكر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item201">
+                                    <locus>Fol. 191b.12</locus>
+                                    <title type="original">ال‍فتق</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item202">
+                                    <locus>Fol. 193a.2</locus>
+                                    <title type="original">ال‍حدبة و‌رياح الافرسة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item203">
+                                    <locus>Fol. 193a.11</locus>
+                                    <title type="original">وجع ال‍ظهر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item204">
+                                    <locus>Fol. 194a.5</locus>
+                                    <title type="original">امراض الاعضآ ال‍طرفيه ال‍دوالى</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item205">
+                                    <locus>Fol. 194b.4</locus>
+                                    <title type="original">دآ ال‍فيل</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item206">
+                                    <locus>Fol. 194b.12</locus>
+                                    <title type="original">اوجاع ال‍مفاصل</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item207">
+                                    <locus>Fol. 195b.7</locus>
+                                    <title type="original">عرق ال‍نسآء</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item208">
+                                    <locus>Fol. 196a.6</locus>
+                                    <title type="original">ال‍نقرس</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item209">
+                                    <locus>Fol. 199b.5</locus>
+                                    <title type="original">ال‍فن ال‍رابع فى الامراض التي لا يختصّ
+                                        ب‌عضو دون عضو</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item210">
+                                    <locus>Fol. 199b.12</locus>
+                                    <title type="original">ال‍باب الاول في ال‍حميات</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item211">
+                                    <locus>Fol. 200a.11</locus>
+                                    <title type="original">ال‍حمى ال‍عفنيّة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item212">
+                                    <locus>Fol. 200b.12</locus>
+                                    <title type="original">ال‍حمى الدّقية</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item213">
+                                    <locus>Fol. 201a.12</locus>
+                                    <title type="original">ال‍حمى ال‍مركّبة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item214">
+                                    <locus>Fol. 201b.5</locus>
+                                    <title type="original">ال‍حمى ال‍يوميّة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item215">
+                                    <locus>Fol. 202a.5</locus>
+                                    <title type="original">سونوخس</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item216">
+                                    <locus>Fol. 202a.12</locus>
+                                    <title type="original">ال‍حمى ال‍دموية ال‍عفنيّة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item217">
+                                    <locus>Fol. 203a.10</locus>
+                                    <title type="original">ال‍حمىّ ال‍صفراوية</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item218">
+                                    <locus>Fol. 207a.3</locus>
+                                    <title type="original">ال‍حمىّ ال‍بلغميّة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item219">
+                                    <locus>Fol. 209a.4</locus>
+                                    <title type="original">ال‍حمى ال‍سوداوية</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item220">
+                                    <locus>Fol. 209b.12</locus>
+                                    <title type="original">ال‍ربع ال‍صيفيّة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item221">
+                                    <locus>Fol. 211b.6</locus>
+                                    <title type="original">حمى ال‍خمس وال‍سدس وال‍سبع وهلم جرّا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item222">
+                                    <locus>Fol. 211b.9</locus>
+                                    <title type="original">حمى ال‍دق</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item223">
+                                    <locus>Fol. 213b.8</locus>
+                                    <title type="original">ال‍حميات ال‍مركبة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item224">
+                                    <locus>Fol. 214b.5</locus>
+                                    <title type="original">ال‍باب ال‍ثاني فى ال‍بحران وايّامه وتفسير ال‍برحان وتحقيقه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item225">
+                                    <locus>Fol. 216b.12</locus>
+                                    <title type="original">ال‍بحران ال‍محمود</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item226">
+                                    <locus>Fol. 219b.11</locus>
+                                    <title type="original">ال‍باب ال‍ثالث فى الاورام وال‍بثور وال‍جذام  وال‍وباء
+                                        وال‍تحرز عنه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item227">
+                                    <locus>Fol. 220a.11</locus>
+                                    <title type="original">ال‍بثور</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item228">
+                                    <locus>Fol. 221b.9</locus>
+                                    <title type="original">الاورام ال‍بلغميّة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item229">
+                                    <locus>Fol. 222a.5</locus>
+                                    <title type="original">ال‍ورم ال‍سوداوى</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item230">
+                                    <locus>Fol. 222a.10</locus>
+                                    <title type="original">ال‍دبيلة وال‍خراج</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item231">
+                                    <locus>Fol. 223a.2</locus>
+                                    <title type="original">ال‍دماميل</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item232">
+                                    <locus>Fol. 223a.8</locus>
+                                    <title type="original">ال‍بثور</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item233">
+                                    <locus>Fol. 223a.12</locus>
+                                    <title type="original">ال‍شرّا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item234">
+                                    <locus>Fol. 223b.8</locus>
+                                    <title type="original">ال‍نملة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item235">
+                                    <locus>Fol. 224a.5</locus>
+                                    <title type="original">ال‍جمرة ب‍ال‍جيم وال‍نار ال‍فارسيه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item236">
+                                    <locus>Fol. 224b.11</locus>
+                                    <title type="original">ال‍جدري وال‍حصبة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item237">
+                                    <locus>Fol. 225b.7</locus>
+                                    <title type="original">ال‍حكّة وال‍جرب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item238">
+                                    <locus>Fol. 226b.3</locus>
+                                    <title type="original">ال‍جذام</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item239">
+                                    <locus>Fol. 228a.4</locus>
+                                    <title type="original">ال‍وباء والاحتراز عنه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item240">
+                                    <locus>Fol. 229a.1</locus>
+                                    <title type="original">ال‍باب ال‍رابع فى ال‍كسر وال‍وثى وال‍سقط وال‍صدمة وال‍ضربة
+                                        وال‍سجاح وال‍سحج</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item241">
+                                    <locus>Fol. 230a.11</locus>
+                                    <title type="original">ال‍باب ال‍خامس فى ال‍زينة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item242">
+                                    <locus>Fol. 230b.6</locus>
+                                    <title type="original">قلة شعر ال‍راس وعدمه وعدم نبات ال‍لحية</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item243">
+                                    <locus>Fol. 231a.9</locus>
+                                    <title type="original">داء ال‍حية ودآء ال‍ثعلب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item244">
+                                    <locus>Fol. 231b.7</locus>
+                                    <title type="original">افراط جعودة ال‍شعر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item245">
+                                    <locus>Fol. 232a.12</locus>
+                                    <title type="original">تشقق ال‍شعر وتقصّفه</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item246">
+                                    <locus>Fol. 232b.8</locus>
+                                    <title type="original">ال‍شيب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item247">
+                                    <locus>Fol. 233b.2</locus>
+                                    <title type="original">ال‍صلع</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item248">
+                                    <locus>Fol. 234a.10</locus>
+                                    <title type="original">ال‍كلف وال‍برش وال‍نمش</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item249">
+                                    <locus>Fol.234b.11</locus>
+                                    <title type="original">ال‍بهق وال‍برص الابيضان والاسودان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item250">
+                                    <locus>Fol. 235b.1</locus>
+                                    <title type="original">حفظ ال‍لون عن تاثير ال‍شمس وال‍ريح وال‍برد</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item251">
+                                    <locus>Fol. 236a.8</locus>
+                                    <title type="original">ال‍قوبا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item252">
+                                    <locus>Fol. 236a.11</locus>
+                                    <title type="original">فى احوال ال‍بدن في كميه ال‍هزال ال‍مفرط</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item253">
+                                    <locus>Fol. 238a.4</locus>
+                                    <title type="original">افراط ال‍سمن</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item254">
+                                    <locus>Fol. 238b.8</locus>
+                                    <title type="original">ال‍باب ال‍سادس فى ال‍سموم والاحتراز عنها</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item255">
+                                    <locus>Fol. 240a.1</locus>
+                                    <title type="original">تدبير من شرب ال‍سمّ</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item256">
+                                    <locus>Fol. 240b.1</locus>
+                                    <title type="original">الاحتراز من ال‍حيوانات ال‍ردية وطردها من ال‍بيت</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item257">
+                                    <locus>Fol. 241a.8</locus>
+                                    <title type="original">طرد ال‍حيات</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item258">
+                                    <locus>Fol. 241a.10</locus>
+                                    <title type="original">طرد ال‍عقارب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item259">
+                                    <locus>Fol. 241b.1</locus>
+                                    <title type="original">طرد ال‍براغيث</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item260">
+                                    <locus>Fol. 241b.6</locus>
+                                    <title type="original">طرد ال‍بعوض وال‍بق</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item261">
+                                    <locus>Fol. 241b.10</locus>
+                                    <title type="original">طرد ابن عرس</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item262">
+                                    <locus>Fol. 241b.11</locus>
+                                    <title type="original">طرد ال‍فارة وقتلها</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item263">
+                                    <locus>Fol. 242a.3</locus>
+                                    <title type="original">طرد ال‍نمل</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item264">
+                                    <locus>Fol. 242a.5</locus>
+                                    <title type="original">طرد ال‍ذباب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item265">
+                                    <locus>Fol. 242a.7</locus>
+                                    <title type="original">طرد ال‍ذنابير</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item266">
+                                    <locus>Fol. 242a.8</locus>
+                                    <title type="original">طرد ال‍خنافس</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item267">
+                                    <locus>Fol. 242a.10</locus>
+                                    <title type="original">طرد ال‍سوس</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item268">
+                                    <locus>Fol. 242a.11</locus>
+                                    <title type="original">طرد سام ابرص</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item269">
+                                    <locus>Fol. 242a.12</locus>
+                                    <title type="original">اصناف ال‍حيات</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item270">
+                                    <locus>Fol. 243b.5</locus>
+                                    <title type="original">صفات ال‍كلب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part1-item1-item271">
+                                    <locus>Fol. 244a.3</locus>
+                                    <title type="original">ما يعرض لمن عضّه ال‍كلب</title>
+                                </msItem>
+                             </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="paper">
+                                    <support><p>Oriental paper</p></support>
+                                    <extent>03+ 252+ 001 folios
+                                        <dimensions unit="mm" type="leaf">
+                                            <height>115</height>
+                                            <width>190</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation>
+                                        <catchwords>Catchwords are written underneath the text block</catchwords></foliation>
+                                    <condition>Good</condition>
+                                </supportDesc>
+                                <layoutDesc> 
+                                    <layout writtenLines="20">
+                                        20 lines to a page
+                                    </layout>
+                                </layoutDesc>                    
+                            </objectDesc>
+                            <handDesc>
+                                <handNote script="naskh" scope="major">
+                                    <p><label>Script:</label> Naskh</p>
+                                    <p><label>Ink:</label> Black, headings and dividers are highlighted in red</p>
+                                    <p><label>Scribe</label></p> Ibn Šakr Allāh Muḥammad Šarīf (ابن شكر ال‍لّه محمد شريف)
+                                </handNote>
+                            </handDesc>    
+                            <additions>
+                                <list>
+                                    <item>
+                                        <label>Binding:</label> modern, European type. Leather spine with title of the book, the name
+                                        of the author, and of last owner Sāmī Ḥaddād tooled in gold</item>
+                                </list>
+                                <list>
+                                    <item>
+                                        <label>Orthography:</label> Tā' marbūṭa is missing; --'i--‍إ‍ is replaced by --y-- ‍ي‍; instead of --A'--‍اء is written --A--‍ا or --A~--آ .</item>
+                                </list> 
+                            </additions>
+                            <accMat>
+                                1. Fol. 1a~-- 10a bear evidences of later restoration.
+                                2. Marginal notes and corrections on fols 10a~-- 43a, 65a, 195b.
+                                3. Fol. 1a contains a title of the book and the name of the
+                                author. Fol. 1b~-- a blank space left for `unwān.
+                            </accMat>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate calendar="Gregorian" type="exact">30 August 1553</origDate>
+                                <origDate calendar="Hijri" type="exact">20 Ramaḍān 960</origDate>
+                            </origin>
+                            <provenance>Known owners: Sāmī Ibrāhīm Ḥaddād (1986)</provenance>
+                            <acquisition><p>Sotheby's lot 462 (22/21.11.85</p></acquisition>
+                        </history>
+                        <additional>
+                            <listBibl>
+                                <bibl>Ullmann Medizin p. 173, Ḥaddād/Biesterfeld no. 63
+                                    (Shelf-mark: 510/678 Nml / 787 /76) Cf. WMS Arabic nos 435~-- 437.</bibl>
+                            </listBibl>
+                        </additional>
+                    </msPart>
+                            
+                    <msPart xml:id="WMS_Arabic_405-part2">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>2</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>Medical advice</summary>
+                        
+                        <msItem xml:id="WMS_Arabic_405-part2-item1"> 
+                            <author key="person_96446777 ">
+                                    <persName xml:lang="en">Hippocrates</persName>
+                                    <persName xml:lang="ar">ابقراط</persName>
+                                </author>
+                            <title xml:lang="ar-Latn-x-lc">Kitāb al-Ḥuqqa</title>
+                            <title xml:lang="ar">كتاب ال‍حقّة</title>
+                            <title xml:lang="en">Book discovered in an ivory box</title>
+                            <title xml:lang="gr">Capsula eburne</title>
+                                
+                               
+                            <incipit xml:lang="ar"><locus>Fol.247a.1--3</locus>هو ٭ بسم ال‍لّه ال‍رحمن ال‍رحيم هذا ما ابتدانا من تراجمة كتاب ابقراط
+                                
+                                عالم ال‍يونانى الذى وجد فى قبره قيل لما حضر ابقراط  ال‍وفاة امر ان يجعل
+                                هذه ال‍مسايل ال‍مكتوبه فى حقة عاج وتوضع فى قبره لئلا يطلع
+                                عليها احد فلما امر قيصر بعمارة قبره واحد ان يعل</incipit>
+                                
+                            <explicit xml:lang="ar"><locus>Fol. 248a.20</locus>
+                                فهذه ال‍قضايا هى التى وجدت
+                                فى قبر ابقراط فى حقة عاج وهى اربعة و‌عشرون</explicit> 
+                           
+                            <textLang mainLang="ar">Arabic</textLang> 
+                            
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item1">
+                                <locus>Fol. 247a.8</locus>
+                                <title type="original">اذا كان فى وصبه ال‍مريض ورم</title>
+                                </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item2">
+                                <locus>Fol. 247a.9</locus>
+                                <title type="original">اذا كانت فى ركبتى ال‍مريض كلهما اورام</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item3">
+                                <locus>Fol. 247a.10</locus>
+                                <title type="original">اذا كانت على ال‍عرق الذى فى ال‍رقبة الذى يولد بثرة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item4">
+                                <locus>Fol.  247a.12</locus>
+                                <title type="original">اذا كانت على ال‍لسان بثرة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item5">
+                                <locus>Fol. 247a.14</locus>
+                                <title type="original">اذا كانت على بعض الاصابع بثرة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item6">
+                                <locus>Fol. 247a.16</locus>
+                                <title type="original">اذا كانت فى ابهام ال‍يد ال‍يسرى بثرة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item7">
+                                <locus>Fol. 247a.19</locus>
+                                <title type="original">اذا كانت فى اصبع ال‍وسطى من ال‍رجل ال‍يمين
+                                    بثرة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item8">
+                                <locus>Fol. 247b.5</locus>
+                                <title type="original">اذا كانت اظفار الاصابع كمدة ال‍لون</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item9">
+                                <locus>Fol. 247b.7</locus>
+                                <title type="original">اذا كانت فى ابهام ال‍رجلين  حكة شديدة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item10">
+                                <locus>Fol. 247b.9</locus>
+                                <title type="original">اذا كانت على جفن ال‍مريض</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item11">
+                                <locus>Fol. 247b.11</locus>
+                                <title type="original">اذا كانت على جفن احدى ال‍عينين بثرة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item12">
+                                <locus>Fol. 247b.13</locus>
+                                <title type="original">اذا سال من منخرى ال‍مريض دم يضرب</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item13">
+                                <locus>Fol. 247b.14</locus>
+                                <title type="original">اذا ظهرت فى ال‍فخذ ال‍يسرى من ال‍مريض حمرة
+                                    شديدة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item14">
+                                <locus>Fol. 247b.17</locus>
+                                <title type="original">اذا كانت خلف الاذن ال‍يسرى بثرة سودا</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item15">
+                                <locus>Fol. 247b.19</locus>
+                                <title type="original">اذا كانت خلف الاذن ال‍يسرى بثرة جاسية
+                                    بيضا</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item16">
+                                <locus>Fol. 247b.22</locus>
+                                <title type="original">اذا كانت خلف الاذن ال‍يمين بثرة حمرا</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item17">
+                                <locus>Fol. 248a.3</locus>
+                                <title type="original">اذا كانت تحت ال‍لحية بثرة حمرا</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item18">
+                                <locus>Fol. 248a.5</locus>
+                                <title type="original">قد يعرض لبعض ال‍ناس وجع فى ال‍حشفة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item19">
+                                <locus>Fol. 248a.7</locus>
+                                <title type="original">اذا كانت على ال‍جانب الايمن بثرة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item20">
+                                <locus>Fol. 248a.8</locus>
+                                <title type="original">اذا كانت تحت الابط الايسر بثرة كمدة ال‍لون</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item21">
+                                <locus>Fol. 248a.10</locus>
+                                <title type="original">اذا كانت على ال‍كعب بثور كثيرة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item22">
+                                <locus>Fol. 248a.12</locus>
+                                <title type="original">اذا كانت على ال‍صدر الايسر بثرة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item23">
+                                <locus>Fol. 248a.15</locus>
+                                <title type="original">اذا كانت فى وسط ال‍راس بثرة</title>
+                            </msItem>
+                            <msItem xml:id="WMS_Arabic_405-part2-item1-item24">
+                                <locus>Fol. 248a.17</locus>
+                                <title type="original">اذا كانت تحت ال‍رقبة بثرة</title>
+                            </msItem>
+                                  
+                        </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="paper">
+                                    <support><p>Oriental paper</p></support>
+                                    <extent>03+ 252+ 001 folios
+                                        <dimensions unit="mm" type="leaf">
+                                            <height>115</height>
+                                            <width>190</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation>
+                                        <catchwords>Catchwords are written underneath the text block</catchwords></foliation>
+                                    <condition>Good</condition>
+                                </supportDesc>
+                                <layoutDesc> 
+                                    <layout writtenLines="20">
+                                        20 lines to a page
+                                    </layout>
+                                </layoutDesc>                    
+                            </objectDesc>
+                            <handDesc>
+                                <handNote script="naskh" scope="major">
+                                    <p><label>Script:</label> Naskh</p>
+                                    <p><label>Ink:</label> Black, headings and dividers are highlighted in red</p>
+                                    <p><label>Scribe</label></p> Ibn Šakr Allāh Muḥammad Šarīf (ابن شكر ال‍لّه محمد شريف)
+                                </handNote>
+                            </handDesc>    
+                            <additions>
+                                <list>
+                                    <item>
+                                        <label>Binding:</label> modern, European type. Leather spine with title of the book, the name
+                                        of the author, and of last owner Sāmī Ḥaddād tooled in gold</item>
+                                </list>
+                                <list>
+                                    <item>
+                                        <label>Orthography:</label> Tā' marbūṭa is missing; --'i--‍إ‍ is replaced by --y-- ‍ي‍; instead of --A'--‍اء is written --A--‍ا or --A~--آ .</item>
+                                </list> 
+                            </additions>
+                            <accMat>
+                                1. Fol. 1a~-- 10a bear evidences of later restoration.
+                                2. Marginal notes and corrections on fols 10a~-- 43a, 65a, 195b.
+                                3. Fol. 1a contains a title of the book and the name of the
+                                author. Fol. 1b~-- a blank space left for `unwān.
+                            </accMat>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate calendar="Gregorian" type="exact">30 August 1553</origDate>
+                                <origDate calendar="Hijri" type="exact">20 Ramaḍān 960</origDate>
+                            </origin>
+                            <provenance>Known owners: Sāmī Ibrāhīm Ḥaddād (1986)</provenance>
+                            <acquisition><p>Sotheby's lot 462 (22/21.11.85</p></acquisition>
+                        </history>
+                        <additional>
+                            <listBibl>
+                                <bibl>Ullmann Medizin p. 173, Ḥaddād/Biesterfeld no. 63
+                                    (Shelf-mark: 510/678 Nml / 787 /76) Cf. WMS Arabic nos 435~-- 437.</bibl>
+                            </listBibl>
+                        </additional>
+                    </msPart>
+
+                    <msPart xml:id="WMS_Arabic_405-part3">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>3</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>A List of Diseases which can be
+                                treated in one Hour</summary>
+                            <textLang mainLang="ar">Arabic</textLang> 
+                            
+                            <msItem xml:id="WMS_Arabic_405-part3-item1"> 
+                                <author key="person_95154093">
+                                    <persName xml:lang="en">Abū Bakr Muḥammad Zakariyā' ar-Rāzī</persName>
+                                    <persName xml:lang="ar">ابو بكر محمد زكريا الرّازى</persName>
+                                </author>
+                                <title xml:lang="ar-Latn-x-lc">Bur' as-Sā`a</title>
+                                <title xml:lang="ar">برء ال‍ساعة</title>
+                                <title xml:lang="en">Healing within an Hour</title>
+                                
+                                <incipit xml:lang="ar"><locus>Fol. 248b.1--6</locus>
+                                    بُر ال‍ساعة تاليف ال‍فيلسوف ال‍بارع ال‍حاذق محمد بن زكريا ال‍رازى
+                                
+                                بسم ال‍لّه ال‍رحمن ال‍رحيم قال ال‍حكيم ال‍فاضل ال‍فيلسوف
+                                ل‍واصل محمد بن زكريا ال‍رازى كنت عند ال‍وزير ابى ال‍حسين ال‍قاسم
+                                بن عبيد ال‍لّه ف‍جرى ب‍حضرته ذكر شى من ال‍طبّ وهناك جماعة من
+                                ل‍طباء</incipit>
+                                
+                                <explicit xml:lang="ar">Fol. 252a.22<locus></locus>
+                                    عربى لقد ُعطيت علّما
+                                    وخصصتُ به من بين ال‍حقمى وفطنة وفهما ثم امر ب‍اعطائه
+                                    وصلته وقضى حوايجه</explicit> 
+                                
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item1">
+                                    <locus>Fol. 248.19</locus>
+                                    <title type="original">باب ال‍صداع</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item2">
+                                    <locus>Fol. 248.33</locus>
+                                    <title type="original">في هيجان ال‍عين</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item3">
+                                    <locus>Fol. 249a.7</locus>
+                                    <title type="original">فى ال‍زكام</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item4">
+                                    <locus>Fol. 249a.10</locus>
+                                    <title type="original">وجع الاسنان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item5">
+                                    <locus>Fol. 249a.13</locus>
+                                    <title type="original">فى قلع الاسنان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item6">
+                                    <locus>Fol. 249a.16</locus>
+                                    <title type="original">فى ال‍بخر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item7">
+                                    <locus>Fol. 249a.17</locus>
+                                    <title type="original">فى ال‍خوانيق</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item8">
+                                    <locus>Fol. 249a.18</locus>
+                                    <title type="original">فى ال‍علق</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item9">
+                                    <locus>Fol. 249a.20</locus>
+                                    <title type="original">فى ال‍شقيقة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item10">
+                                    <locus>Fol. 249a.25</locus>
+                                    <title type="original">فى ال‍صرع</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item11">
+                                    <locus>Fol. 249a.27</locus>
+                                    <title type="original">فى ال‍طنين</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item12">
+                                    <locus>Fol. 249a.31</locus>
+                                    <title type="original">فى ال‍رعاف</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item13">
+                                    <locus>Fol. 249b.5</locus>
+                                    <title type="original">فى ال‍بواسير</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item14">
+                                    <locus>Fol. 249b.7</locus>
+                                    <title type="original">فى ال‍نواصير</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item15">
+                                    <locus>Fol. 249b.8</locus>
+                                    <title type="original">فى خروج ال‍مقعدة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item16">
+                                    <locus>Fol. 249b.11</locus>
+                                    <title type="original">فى ال‍جراحات ال‍عسرة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item17">
+                                    <locus>Fol. 249b.12</locus>
+                                    <title type="original">فى ال‍جراحات ال‍طرية</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item18">
+                                    <locus>Fol. 249b.14</locus>
+                                    <title type="original">فى ال‍سقطة وال‍ضربة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item19">
+                                    <locus>Fol. 249b.16</locus>
+                                    <title type="original">فى حرق ال‍نار</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item20">
+                                    <locus>Fol. 249b.19</locus>
+                                    <title type="original">فى ال‍قولنج</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item21">
+                                    <locus>Fol. 249b.26</locus>
+                                    <title type="original">فى ال‍خلفة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item22">
+                                    <locus>Fol. 249b.29</locus>
+                                    <title type="original">فى زحير ال‍صبيان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item23">
+                                    <locus>Fol. 250a.5</locus>
+                                    <title type="original">فى خلفة ال‍صبيان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item24">
+                                    <locus>Fol. 250a.6</locus>
+                                    <title type="original">فى عرق ال‍نسا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item25">
+                                    <locus>Fol. 250a.11</locus>
+                                    <title type="original">فى الاعيا</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item26">
+                                    <locus>Fol. 250a.15</locus>
+                                    <title type="original">فى برد الاطراف</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item27">
+                                    <locus>Fol. 250a.17</locus>
+                                    <title type="original">فى لدغ ال‍عقرب</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item28">
+                                    <locus>Fol. 250b.11</locus>
+                                    <title type="original">علة ال‍ورم فى ال‍منخرين</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item29">
+                                    <locus>Fol. 250b.11</locus>
+                                    <title type="original">علة وجع ال‍فم</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item30">
+                                    <locus>Fol. 250b.11</locus>
+                                    <title type="original">علة وجع ال‍راس</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item31">
+                                    <locus>Fol. 250b.12</locus>
+                                    <title type="original">علة ورم ال‍جسد وال‍فتق</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item32">
+                                    <locus>Fol. 250b.13</locus>
+                                    <title type="original">علة ظلمة ال‍عينين</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item33">
+                                    <locus>Fol. 250b.13</locus>
+                                    <title type="original">علة وجع الاذنين</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item34">
+                                    <locus>Fol. 250b.14</locus>
+                                    <title type="original">علة بحوحة ال‍صوت</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item35">
+                                    <locus>Fol. 250b.14</locus>
+                                    <title type="original">علة تناشر ال‍شعر</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item36">
+                                    <locus>Fol. 250b.14</locus>
+                                    <title type="original">علة وجع ال‍رية</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item37">
+                                    <locus>Fol. 250b.15</locus>
+                                    <title type="original">علة وجع ال‍معدة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item38">
+                                    <locus>Fol. 250b.15</locus>
+                                    <title type="original">علة وجع ال‍كبد</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item39">
+                                    <locus>Fol. 250b.16</locus>
+                                    <title type="original">علة ال‍يرقان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item40">
+                                    <locus>Fol. 250b.17</locus>
+                                    <title type="original">لة انطلاق ال‍بطن</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item41">
+                                    <locus>Fol. 250b.18</locus>
+                                    <title type="original">علة امساك ال‍بطن</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item42">
+                                    <locus>Fol. 250b.19</locus>
+                                    <title type="original">علة ورم ال‍طحال</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item43">
+                                    <locus>Fol. 250b.19</locus>
+                                    <title type="original">علة ال‍قولنج</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item44">
+                                    <locus>Fol. 250b.20</locus>
+                                    <title type="original">علة ال‍ناصور</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item45">
+                                    <locus>Fol. 250b.21</locus>
+                                    <title type="original">علة وجع ال‍مفاصل</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item46">
+                                    <locus>Fol. 250b.22</locus>
+                                    <title type="original">علة ال‍ذوبان</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item47">
+                                    <locus>Fol. 250b.23</locus>
+                                    <title type="original">علة ال‍لقوة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item48">
+                                    <locus>Fol. 250b.24</locus>
+                                    <title type="original">علة ال‍فالج</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item49">
+                                    <locus>Fol. 250b.24</locus>
+                                    <title type="original">علة ال‍جدري</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item50">
+                                    <locus>Fol. 250b.25</locus>
+                                    <title type="original">علة ال‍حصاة فى ال‍مثانة</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item51">
+                                    <locus>Fol. 250b.26</locus>
+                                    <title type="original">علة مشا ال‍دم</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item52">
+                                    <locus>Fol. 250b.27</locus>
+                                    <title type="original">علة ال‍نقرس</title>
+                                </msItem>
+                                <msItem xml:id="WMS_Arabic_405-part3-item1-item53">
+                                    <locus>Fol. 250b.27</locus>
+                                    <title type="original">علة وجع ال‍حلق</title>
+                                </msItem>
+                                  
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="paper">
+                                    <support><p>Oriental paper</p></support>
+                                    <extent>03+ 252+ 001 folios
+                                        <dimensions unit="mm" type="leaf">
+                                            <height>115</height>
+                                            <width>190</width>
+                                        </dimensions>
+                                    </extent>
+                                    <foliation>
+                                        <catchwords>Catchwords are written underneath the text block</catchwords></foliation>
+                                    <condition>Good</condition>
+                                </supportDesc>
+                                <layoutDesc> 
+                                    <layout writtenLines="20">
+                                        20 lines to a page
+                                    </layout>
+                                </layoutDesc>                    
+                            </objectDesc>
+                            <handDesc>
+                                <handNote script="naskh" scope="major">
+                                    <p><label>Script:</label> Naskh</p>
+                                    <p><label>Ink:</label> Black, headings and dividers are highlighted in red</p>
+                                    <p><label>Scribe</label></p> Ibn Šakr Allāh Muḥammad Šarīf (ابن شكر ال‍لّه محمد شريف)
+                                </handNote>
+                            </handDesc>    
+                            <additions>
+                                <list>
+                                    <item>
+                                        <label>Binding:</label> modern, European type. Leather spine with title of the book, the name
+                                        of the author, and of last owner Sāmī Ḥaddād tooled in gold</item>
+                                </list>
+                                <list>
+                                    <item>
+                                        <label>Orthography:</label> Tā' marbūṭa is missing; --'i--‍إ‍ is replaced by --y-- ‍ي‍; instead of --A'--‍اء is written --A--‍ا or --A~--آ .</item>
+                                </list> 
+                            </additions>
+                            <accMat>
+                                1. Fol. 1a~-- 10a bear evidences of later restoration.
+                                2. Marginal notes and corrections on fols 10a~-- 43a, 65a, 195b.
+                                3. Fol. 1a contains a title of the book and the name of the
+                                author. Fol. 1b~-- a blank space left for `unwān.
+                            </accMat>
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate calendar="Gregorian" type="exact">30 August 1553</origDate>
+                                <origDate calendar="Hijri" type="exact">20 Ramaḍān 960</origDate>
+                            </origin>
+                            <provenance>Known owners: Sāmī Ibrāhīm Ḥaddād (1986)</provenance>
+                            <acquisition><p>Sotheby's lot 462 (22/21.11.85</p></acquisition>
+                        </history>
+                        <additional>
+                            <listBibl>
+                                <bibl>Ullmann Medizin p. 173, Ḥaddād/Biesterfeld no. 63
+                                    (Shelf-mark: 510/678 Nml / 787 /76) Cf. WMS Arabic nos 435~-- 437.</bibl>
+                            </listBibl>
+                        </additional>
+                    </msPart>                  
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress
+                            Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-07-05"><persName>Lara Salha</persName>Updated old XML file into TEI schema</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
+
+<!-- In the previous XML version, there was the following information that may/may not be of use:
+        <WMSpace>
+          <WMSpacelines>12</WMSpacelines>
+          <WMSpacedensity>240</WMSpacedensity>
+          <WMSpaceratio>1:1,3</WMSpaceratio>
+          <WMSpaceanglealef>110</WMSpaceanglealef>
+          <WMSpaceanglekaf>30</WMSpaceanglekaf>
+        </WMSpace>
+-->
+
+

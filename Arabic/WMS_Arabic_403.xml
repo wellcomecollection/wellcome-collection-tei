@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16046">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wellcome Library</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Library; Bibliotheca Alexandrina; King's College London</publisher>
+            <idno>UkLW</idno>
+            <idno type="msID">WMS_Arabic_403</idno>
+            <idno type="catalogue">Fihrist</idno>
+         </publicationStmt>
+         <sourceDesc>
+             <msDesc xml:id="WMS_Arabic_403" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Trust</institution>
+                  <repository>Wellcome Collection</repository>
+                  <collection>Manuscripts in Arabic</collection>
+                  <idno>MS Arabic 403</idno>
+                  <altIdentifier type="former">
+                      <idno>Ḥaddād/Biesterfeld no.8 (Shelf-mark: 517 /... m /... /146)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+                 
+               <msPart xml:id="WMS_Arabic_403-part1">
+                  <msIdentifier>
+                     <altIdentifier type="internal">
+                        <idno>1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                      <summary>An exposé of some diseases and their symptoms presented in form of
+                          questions and answers. Ascribed to Ḥunayn b. Isḥāq, although in
+                          the title the author is named as Galen.</summary>
+
+                     <msItem xml:id="WMS_Arabic_403-part1-item1">
+                         <author key="person_19690624">
+                             <persName xml:lang="en">Ḥunayn ibn Isḥāq al-ʻIbādī, 809?-873</persName>
+                             <persName xml:lang="ar">حنين بن اسحاق</persName>
+                         </author>
+                         <title xml:lang="ar-Latn-x-lc">Masā'il Ṭibbiyya wa-Aǧwiba</title>
+                         <title xml:lang="ar">مسائل طبيه واجوبة</title>
+                         <title xml:lang="en">Questions and Answers on Medicine</title>
+
+
+                        <incipit xml:lang="ar">
+                            <locus>Fol. 1b.1</locus> قال ان من الاعضاء ما له فعل فقط ومنها ما له
+                            منفعة ومنها ما له فعل
+                        </incipit>
+
+                        <explicit xml:lang="ar">
+                            <locus>Fol. 8b.26</locus> ب‍غير نفث عن ورم ال‍كبد
+                        </explicit>
+                         
+                         <colophon xml:lang="ar">تمت ال‍مسايل ب‍حمد ال‍لّه وعونه وحسن توفيقه</colophon> 
+                         
+                        <msItem xml:id="WMS_Arabic_403-part1-item1-item1">
+                            <locus>Fol. 1b.7</locus>
+                            <title type="original">  sic!اي الاعضا قڻيا
+                                يخدم خدمة مهية وايها يخدم خدمة
+                                مودية وما اسم ال‍خدمة ال‍مهية وما اسم ال‍خدمة ال‍مودية</title>
+                        </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item2">
+                             <locus>Fol. 1b.11</locus>
+                             <title type="original">اي ال‍قوى والارواح ال‍ثلثه ال‍طبيعى وال‍حيوانى وال‍نفسانى
+                                 ذا عدمه ال‍جسم فسد وايتها اذا عدمه لم يفسد واي منها بقاوه
+                                 ووجودهُ ب‍وجود الاخر</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item3">
+                             <locus>Fol. 1b.20</locus>
+                             <title type="original">متى يصير ال‍مرض سببًا وال‍معرض سبابًا وال‍عرض نفسه مرضًا
+                                 وسببًا</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item4">
+                             <locus>Fol. 2a.7</locus>
+                             <title type="original">اذا حدث ب‍ال‍كبد ودم في ال‍جانب ال‍مقعر او ال‍جانب ال‍محدب منها فبما
+                                 يستدل على كل واحد منها من الاعراض فهل ذلك سالم او مهلك</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item5">
+                             <locus>Fol. 2a.17</locus>
+                             <title type="original">قد يمتد الالم من ورم ال‍كبد وال‍سعال الى تحت الاضلاع فيظن ذات
+                                 ل‍جانب يظهر اعراض ذات ال‍جانب من سعال وضيق نفس وحمى لازمة
+                                 وتحس فما ال‍فرق بينهما</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item6">
+                             <locus>Fol. 2a.21</locus>
+                             <title type="original">قد يجتمع ال‍قولنج ال‍بارد وال‍يرقان الاصفر في ال‍شخص وهما
+                                 ضدان هذا مرض حار وهذا مرض بارد ف‌متى سقيته الادوية ال‍باردة
+                                 ل‍ليرقان قوى ال‍قولنج و‌متى سقيته الادوية ال‍حارة اضرت
+                                 بال‍يرقان فاى ال‍مريض يقدم وما هو ال‍سبب متى وجب الاخر عنه
+                                 وايهما يداوى في الاول</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item7">
+                             <locus>Fol. 2b.2</locus>
+                             <title type="original">اوجاع ال‍مفاصل وال‍نقرس في الاكثر لا يكون الا عن خلا بلغمى
+                                 ورطوبات ال‍دم وال‍صفرا وال‍صبيان وال‍نسوان وال‍خصيان
+                                 ڻستعدون الامزجة لذلك ل‍غلبة ال‍رطوبة عليهم وتراهم لا يحدث بهم
+                                 ذلك الا نادرًا فكيف خلصوا من ذلك</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item8">
+                             <locus>Fol. 2b.16</locus>
+                             <title type="original">اذا وجدنا جسمًا مريضًا او عضوًا  ماووفا وكان ال‍مرض اما
+                                 حارًا او باردًا فاوردنا على ال‍بارد ما يسخنه من داخل ومن خارج
+                                (sic!) فزاد في ال‍مه
+                                وكذلك على ال‍حار ما يبرده فزاد الالم
+                                وتضاعف ولم يڭگب منه لا دواء حار ولا بارد ولا معتدله مسكنًا ولا
+                                غدا موافق فما الذى صنع ذلك حتى لا يقبل ال‍علاج وما هو علاجه</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item9">
+                             <locus>Fol. 2b.23</locus>
+                             <title type="original">كيف يستدل على ال‍مرض ب‍مادة او غير مادة</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item10">
+                             <locus>Fol. 3a.4</locus>
+                             <title type="original">في اى اوقات ال‍مرض يكون ال‍عطاس وفي ايها يحمد من نفسه  او
+                                 بال‍ستدعا وفي ايه يكره ان لا يوجد ب‍ال‍ستدعا اذا دعي</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item11">
+                             <locus>Fol. 3a.11</locus>
+                             <title type="original">كيف يمكن ان تعفن ال‍مرة ال‍صفرا وال‍مرة ال‍سودا وهما يابسان</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item12">
+                             <locus>Fol. 3a.17</locus>
+                             <title type="original">ما ال‍فرق بين فرانيطس وليترغس وفاكاخوس</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item13">
+                             <locus>Fol. 3a.25</locus>
+                             <title type="original">ما ال‍فرق بين ال‍سرسام ال‍حقيقي وما معنى ال‍سرسام وال‍برسام وهل يكون
+                                 برسام وسرسام في مرض واحد</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item14">
+                             <locus>Fol. 3b.5</locus>
+                             <title type="original">ما هو ال‍سرسام ال‍قاتل من ال‍يوم الاول الى ال‍رابع ولا يخلص منه احد ولا
+                                 حمى معه</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item15">
+                             <locus>Fol. 3b.13</locus>
+                             <title type="original">ما هو ال‍سبب الذي تدوم ب‍صلاحه ال‍حيوة وبفساده يكون ال‍موت ضرورة</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item16">
+                             <locus>Fol. 3b.18</locus>
+                             <title type="original">ما هى الاسباب ال‍خارجة عن ال‍طبيعة ال‍مضرة بها</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item17">
+                             <locus>Fol. 3b.21</locus>
+                             <title type="original">كيف تقسم ال‍عل‍ل والامراض من ال‍جنس الاعلى الذي ليس فوقه جنس
+                                 لى ال‍نوع الذى ليس تحته نوع غير الاشخاص من علم ال‍منطق</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item18">
+                             <locus>Fol. 3b.29</locus>
+                             <title type="original">كيف يوجد ال‍شيب في الانسان في سن ال‍شباب في حال ال‍شدائد وال‍محق
+                                 وليس هذه مادة ترد على ال‍جسم فتوجب بياض ال‍شعر في غير وقته كما يوجد
+                                 في ال‍شعر لمن استكتر من الاغذية ال‍باردة وال‍سكر ال‍دائم</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item19">
+                             <locus>Fol. 4a.7</locus>
+                             <title type="original">لمَ صارت الادوية ال‍باردة كالافيون وال‍يبروح وال‍سوكران  و‌ما
+                                 مثله اذا صادفت الامزاج ال‍حارة قتلت سريعًا واذا صادفت
+                                 ل‍مزجة ال‍باردة لم تقتل وتبطؤ واذا ابطاءت لم تضر والادوية
+                                 ل‍حارة اذا ابطاءت قتلت</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item20">
+                             <locus>Fol. 4a.25</locus>
+                             <title type="original">قد اجمع الاطبا على ان كل مر حار كال‍صبر وشحم ال‍حنظل وغيره
+                                 ونرى الافيون مرًا وال‍كافور مرًا وادوية كثيرة شديدة ال‍برودة
+                                 مرة</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item21">
+                             <locus>Fol. 4b.1</locus>
+                             <title type="original">كم هى مراتب الابدان فيما بين ال‍صحة وال‍مرض</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item22">
+                             <locus>Fol. 4b.4</locus>
+                             <title type="original">كم هى اقسام حفظ ال‍صحه في جسم الامراض التى قد ازمعت على
+                                 ل‍حدوث في الابدان</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item23">
+                             <locus>Fol. 4b.10</locus>
+                             <title type="original">ما ال‍سبب فى ان الثلج يعطش حتى يخيل ل‍لعوام و‌جهال ال‍ناس من
+                                 ل‍طبا انه حار ونجد ال‍عضو من بعد مباشرته ملتهبًا</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item24">
+                             <locus>Fol. 4b.19</locus>
+                             <title type="original">ما بال ال‍ثلج وال‍خل باردان يابسان يوجد فيها دود</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item25">
+                             <locus>Fol. 4b.27</locus>
+                             <title type="original">لم صارت لحوم ال‍خصيان اخيرًا من لحوم ال‍فحول وال‍نعاج  والذ
+                                 طعمًا واسرع هضمًا</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item26">
+                             <locus>Fol. 5a.3</locus>
+                             <title type="original">ما ال‍فرق بين حمى ربع لازمة و‌نائبة ومثلثة ومضعفة ومادة ال‍جميع
+                                 واحدة</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item27">
+                             <locus>Fol. 5a.10</locus>
+                             <title type="original">ليس لنا غير اربعة اخلاط اذا عفنت حدثت عنها اربعة حميات وال‍ربع
+                                 غلظها  وقد ذكر ابقراط وغيره حميات فسمى سدسًا وخمسًا وسبعًا
+                                 وتسعًا فهل لنا اخلاط غير هذه الاربعة الاخلاط توجد في بعض
+                                 ل‍بدان فكيف يقتضي ان يكون خلطا اغلظ من ال‍سودا يفعل هذه ال‍حميات</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item28">
+                             <locus>Fol. 5a.21</locus>
+                             <title type="original">نوائب ال‍حميات ال‍حاده كيف تكون اسهل اقلاعًا واقرب ب‍حرانًا وكيف
+                                 تكون اعسر بحرانًا وابعد اقلاعًا</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item29">
+                             <locus>Fol. 5a.26</locus>
+                             <title type="original">ما هما ال‍حميتان  ال‍متضادتان ال‍لتان اخذ احدهما ثلاثة اضعاف
+                                 ترك اخذها</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item30">
+                             <locus>Fol. 5a.30</locus>
+                             <title type="original">اي الامراض اذا حدثت كانت شفا من امراض اخرى صعبة</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item31">
+                             <locus>Fol. 5b.5</locus>
+                             <title type="original">اى الامراض اذا انتقل الى اخر كان به هلاك صاحبه</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item32">
+                             <locus>Fol. 5b.8</locus>
+                             <title type="original">انا نرى من حمى ال‍صفرا ناقص بارد وفى حمى ال‍بلغم مثله وفي ال‍سودا
+                                 كذلك وال‍بلغم وال‍سودا باردان وال‍صفرا حارة فما ال‍سبب في عرض
+                                 واحد عن مادتين متضادتين</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item33">
+                             <locus>Fol. 5b.13</locus>
+                             <title type="original">ما ال‍فرق بين ال‍مليلة وال‍قشعريرة وال‍نافض وال‍صالبة وال‍برد
+                                 في ال‍حميات ال‍بلغمية وفي اى ال‍حميات يقدم وكيف  حاله في ال‍تقدم</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item34">
+                             <locus>Fol. 6a.5</locus>
+                             <title type="original">(sic!)في اى ال‍حميات اذا فصد فيها اوجبت اسهالا ودم سنطاريا</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item35">
+                             <locus>Fol. 6b.9</locus>
+                             <title type="original">فى اى الامراض يخرج ال‍دم حتى يغشى عليه ولا يقطعه</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item36">
+                             <locus>Fol. 6a.13</locus>
+                             <title type="original">كم هى ال‍مضار ال‍حادثه عن الاستفراغ ب‍ال‍دواء ال‍مسهل قبل
+                                 ل‍تصبح و‌دخول ال‍حمام</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item37">
+                             <locus>Fol. 6a.19</locus>
+                             <title type="original">فى اى الامراض يوجد ال‍بول اترجيًا كابوال الاصحا وال‍مرض
+                                 مهلك</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item38">
+                             <locus>Fol. 6a.25</locus>
+                             <title type="original">(lacuna)اى ال‍بول الاحمر يحمد وايه يذم</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item39">
+                             <locus>Fol. 6b.3</locus>
+                             <title type="original">قد يكون بول ابيض وال‍ميزاج حار صفراوى وقد يكون بول احمر وال‍ميزاج
+                                 بارد بلغمى وكثير ما يوجد ذلك في الامراض ال‍باردة بول احمر وفي
+                                 ل‍حارة بول ابيض</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item40">
+                             <locus>Fol. 6b.14</locus>
+                             <title type="original">اذا دام ال‍بول ال‍رقيق فى امراض ال‍صبيان فعلى ماذا يدل</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item41">
+                             <locus>Fol. 6b.21</locus>
+                             <title type="original">في (...) ال‍مرض يعرض عن طلب ال‍رسوب في ال‍قارورة وفي ايهم 
+                                 يستقصى طلب ال‍رسوب فيها</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item42">
+                             <locus>Fol. 6b.25</locus>
+                             <title type="original">ما بال ال‍بول فى ال‍شتا وال‍حرارة كثيرة فى ال‍باطن ابيض وهو مع قلة
+                                 شرب ال‍ماء كثير وفي ال‍صيف يكون قليل اصغر مع كثرة شرب ال‍ماء
+                                 وال‍بياض بارد</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item43">
+                             <locus>Fol. 7a.2</locus>
+                             <title type="original">ما هى الاشيا التى تصنع ابوال الاصحا</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item44">
+                             <locus>Fol. 7a.5</locus>
+                             <title type="original">كم هى اجناس ال‍دلايل ال‍ماخوذة ال‍مستدل بها من ال‍بول</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item45">
+                             <locus>Fol. 7a.8</locus>
+                             <title type="original">على ماذا يدل عدم ال‍رايحة في ال‍بول في الامراض</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item46">
+                             <locus>Fol. 7a.12</locus>
+                             <title type="original">لمَ جعلت ال‍طبيعة الات ال‍بول في الانسان وال‍حيوان ذوات
+                                 ل‍ربع ولم تجعل ذلك في ال‍طاير</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item47">
+                             <locus>Fol. 7a.29</locus>
+                             <title type="original">لمَ صارت شطر ال‍غب اعسر ال‍حميات علاجًا واقتل لصاحبها
+                                 جدًا</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item48">
+                             <locus>Fol. 7b.7</locus>
+                             <title type="original">ما ال‍فرق بين ال‍بول ال‍كدر وال‍خاتر ب‍ال‍برد من خارج</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item49">
+                             <locus>Fol. 7b.11</locus>
+                             <title type="original">ما هى علامة الاسهال ال‍كاين من ضعف ال‍قوة ال‍هاضمة</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item50">
+                             <locus>Fol. 7b.15</locus>
+                             <title type="original">ما علامة الاسهال من ضعف ال‍قوة ال‍ماسكة</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item51">
+                             <locus>Fol. 7b.16</locus>
+                             <title type="original">ما علامة الاسهال من شدة ال‍قوة ال‍دافعة وصحة ال‍هاضمة</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item52">
+                             <locus>Fol. 7b.19</locus>
+                             <title type="original">ما علامة الاسهال من قبل ضعف ال‍قوة ال‍هاضمة وال‍ماسكة وشدة ال‍دافعة</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item53">
+                             <locus>Fol. 7b.24</locus>
+                             <title type="original">ما علامة الاسهال من قبل ضعف ال‍قوة ال‍ممسكة وضعف ال‍دافعة معًا</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item54">
+                             <locus>Fol. 7b.26</locus>
+                             <title type="original">ما علامة الاسهال من قبل ضعف ال‍قوة ال‍دافعة  وشدة ال‍قوة ال‍هاضمة</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item55">
+                             <locus>Fol. 7b.30</locus>
+                             <title type="original">(lacuna) ما علامة الاسهال ال‍ضعف ال‍قوة ال‍هاضمة مع شدة ال‍دافعة وصحة</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item56">
+                             <locus>Fol. 8a.2</locus>
+                             <title type="original">ما علامة الاسهال من قبل ضعف ال‍قوة ال‍هاضمة وضعف ال‍ماسكة وضعف
+                                 ل‍دافعة</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item57">
+                             <locus>Fol. 8a.5</locus>
+                             <title type="original">ما هى وجوه الاستدلال التى يستدل بها على احوال ال‍عرق كيف هى وكم هى
+                                 علامته</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item58">
+                             <locus>Fol. 8a.11</locus>
+                             <title type="original">ان فى ال‍دم قد يكون من ال‍معدة فى الاكثر وقد ينصب اليها من ال‍كبد
+                              (..) وايضًا قد ينصب اليها من ال‍طحال فكيف يستدل على انه
+                              حد هذه الاعضا ال‍ثلثه</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item59">
+                             <locus>Fol. 8a.12</locus>
+                             <title type="original">الى كم قسم ينقسم مسكنات الاوجاع في عضو من الاعضا</title>
+                         </msItem>
+                         <msItem xml:id="WMS_Arabic_403-part1-item1-item60">
+                             <locus>Fol. 8a.23</locus>
+                             <title type="original">اى اصناف ال‍سعال لا يكون عن ال‍صدر وال‍رية ولا يوجد معه نفث وهو
+                                 يابس ولا ينقع بمداوات ال‍صدر وهو خطر يودى الى ال‍سل</title>
+                         </msItem>
+                         
+                        <textLang mainLang="ar">Arabic</textLang>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="paper">
+                            <support><p>European paper</p></support>
+                            <extent>
+                                <dimensions unit="mm" type="leaf">
+                                    <height>220</height>
+                                    <width>157</width>
+                                </dimensions>
+                                </extent>
+                            <foliation>Pages (not folios) are numbered in Arabic
+                                <catchwords>Catchwords are written underneath the text-block</catchwords></foliation>
+                            <collation>16, fols 01~06 and 001-003 are blank</collation>
+                            <condition>Fair</condition>
+                        </supportDesc>
+                        <layoutDesc> 
+                            <layout writtenLines="25 31">
+                                25 to 31 lines to a page
+                            </layout>
+                        </layoutDesc>                    
+                     </objectDesc>
+                     <handDesc>
+                        <handNote script="naskh" scope="major">
+                           <p><label>Script:</label> Naskh</p>
+                            <p><label>Ink:</label> Black, occasional words are highlighted in violet</p>
+                         </handNote>
+                         <handNote script="ruq_ah" scope="minor">
+                            <p><label>Script:</label>Ruq'ag, elements of this script is found in manuscript</p> 
+                         </handNote>
+                         <handNote><p>Similar handwriting occurs in WMS Arabic Nos 466, 477. All three
+                             manuscripts used to be one.</p></handNote>
+                     </handDesc>                    
+                     <additions>
+                        <list>
+                           <item>
+                               <label>Binding:</label> European (cardboard</item>
+                        </list>
+                        <list>
+                           <item>
+                               <label>Orthography:</label> The ḥamza is occasionally missing. Sometimes yā' and ḥamza are written together. Tā' marbūṭa is not written. 
+                               Instead of لما , it is written as لم.
+                           </item>
+                        </list> 
+                     </additions>
+                     <accMat>
+                         <p>1. Fols 1a, 8b contain scribbles in Arabic. </p>
+                         <p>2. Fol. 01a contains the title of the book repeated in pencil.</p>                         
+                         <p>3. Fols 3a~-- 5b contain corrections on the margins which were made while the manuscript was prepared for publication.</p> 
+                         <p>4. Fol. 8b contains a fragment of an unknown poem.</p>
+                     </accMat> 
+                  </physDesc>
+                  <history>
+                      <origin>
+                          <origDate calendar="Gregorian" type="approxDate">18th century</origDate>
+                      </origin>
+                      <provenance>Known owners:1. Iskandar al-Bārūdī, 2. H̱ālid Efendī al-Ḥimṣī 1988 (sic!), 3. Sāmī Ibrāhīm Ḥaddād (1986)</provenance>
+                      <acquisition><p>Sotheby's lot 523 (22/21.11.85)</p></acquisition>
+                  </history>
+                  <additional>
+                     <listBibl>
+                         <bibl>GAL SBI 895; Ed.: Maǧallat aṭ-Ṭibb 12 (1900)
+                             149~-- 153, 180~-- 188 ; Maǧallat aṭ-Ṭibb 13 (1901) 86~--
+                             89.</bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress
+                     Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term key="subject_sh85083116">Medicine, Arab</term>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-06-16"><persName>Lara Salha</persName>Updated old XML file into TEI schema</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
+
+<!-- In the previous XML version, there was the following information that may/may not be of use:
+        <WMSpace>
+          <WMSpacelines>30</WMSpacelines>
+          <WMSpacedensity>870</WMSpacedensity>
+          <WMSpaceratio>1:1,6</WMSpaceratio>
+          <WMSpaceanglealef>90</WMSpaceanglealef>
+          <WMSpaceanglekaf>45</WMSpaceanglekaf>
+        </WMSpace>
+-->
+
