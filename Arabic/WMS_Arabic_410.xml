@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16053">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wellcome Library</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Library; Bibliotheca Alexandrina; King's College London</publisher>
+            <idno>UkLW</idno>
+            <idno type="msID">WMS_Arabic_410</idno>
+            <idno type="catalogue">Fihrist</idno>
+         </publicationStmt>
+         <sourceDesc>
+             <msDesc xml:id="WMS_Arabic_410" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Trust</institution>
+                  <repository>Wellcome Collection</repository>
+                  <collection>Manuscripts in Arabic</collection>
+                  <idno>MS Arabic 410</idno>
+                  <altIdentifier type="former">
+                      <idno>Ḥaddād/Biesterfeld no. 19 (Shelf-mark: 510/384 Mk2/126)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+                 
+               <msPart xml:id="WMS_Arabic_410-part1">
+                  <msIdentifier>
+                     <altIdentifier type="internal">
+                        <idno>1</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                      <summary>Two chapters (nos. 3 and 4) on fevers from the 2d part of Kāmil
+                          aṣ-Ṣinā`at aṭ-Ṭibbiyya al-ma`rūf bi-l-Malakī.</summary>
+
+                     <msItem xml:id="WMS_Arabic_410-part1-item1">
+                         <author key="person_19690624">
+                             <persName xml:lang="en">Majūsī, ʻAlī ibn al-ʻAbbās, active 10th century-11th century</persName>
+                             <persName xml:lang="ar">على بن ال‍عباس ال‍مجوسى</persName>
+                         </author>
+                         <title xml:lang="ar-Latn-x-lc">Kāmil aṣ-Ṣinā`aṭ-Ṭibbiyya al-ma`rūf bi-l-Malakī</title>
+                         <title xml:lang="ar">كامل ال‍صناعة ال‍طبيةل‍معروف ب‍ال‍ملكى</title>
+                         <title xml:lang="en">A Complete Course in the Art of Medicine, known as al-Malakī</title>
+
+
+                        <incipit xml:lang="ar">
+                            <locus>Fol. 1a.1</locus> ... وهى اربعة وثلثون بابًا  
+                            ال‍باب الاول في مداواة حمي يوم
+                            ل‍حادثة من حر ال‍شمس</incipit>
+
+                        <explicit xml:lang="ar">
+                            <locus>Fol. 55b.30</locus>يشفى به من تلك الا فيه ليكون كتابى هذا تاما غير ناقص
+                            فاعلم ذلك
+                        </explicit>
+                         
+                         <colophon xml:lang="ar"><locus>Fol. 55b.31--33</locus>
+                             تمت ال‍مقاله ال‍رابعه من ال‍جزء ال‍ثانى من ال‍ملكى
+                             وال‍حمد ل‍لّه وحده  ويتلوه فى ال‍جزء ال‍ثانى ال‍مقاله ال‍خامسه من
+                             هذا ال‍كتاب وهو كامل ال‍صناعه ال‍طبيه وهى اثنان وثمانون بابا</colophon>                         
+                    <textLang mainLang="ar">Arabic</textLang>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="paper">
+                            <support><p>European paper</p>
+                            <watermark>Tre lune</watermark></support>
+                            <extent>55 folios
+                                <dimensions unit="mm" type="leaf">
+                                    <height>265</height>
+                                    <width>190</width>
+                                </dimensions>
+                                </extent>
+                            <condition>Good</condition>
+                        </supportDesc>
+                        <layoutDesc> 
+                            <layout writtenLines="21">
+                                21 lines to a page
+                            </layout>
+                        </layoutDesc>                    
+                     </objectDesc>
+                     <handDesc>
+                        <handNote script="naskh" scope="major">
+                           <p><label>Script:</label> Naskh</p>
+                            <p><label>Ink:</label> black, headings and dividers are highlighted in red</p>
+                         </handNote>
+                         <handNote script="ruq_ah" scope="minor">
+                            <p><label>Script:</label>Ruq'ag, elements of this script is found in manuscript</p> 
+                         </handNote>
+                         <handNote><p>Similar handwriting occurs in WMS Arabic Nos 466, 477. All three
+                             manuscripts used to be one.</p></handNote>
+                     </handDesc>                    
+                     <additions>
+                        <list>
+                           <item>
+                               <label>Binding:</label> Modern, European type. Leather spine with title of the book, the name
+                               of the author, and of last owner Sāmī Ḥaddād tooled in gold</item>
+                        </list>
+                     </additions>
+                     <accMat>
+                         <p>1.Fol. 1a contains incorrect title: كتاب فى ال‍حميات لابن سينا</p>
+                         <p>2. Table of contents.</p>
+                         <p>3. Fol. 55b has an impression of a seal of Libraire al-Arab in Cairo.</p>    
+                     </accMat> 
+                  </physDesc>
+                  <history>
+                      <origin>
+                          <origDate calendar="Gregorian" type="approxDate">15th century</origDate>
+                      </origin>
+                      <provenance>Known owners: 1. Libraire al-Arab (47 al-Faḥḥāla street in Cairo), 2. Sāmī Ibrāhīm Ḥaddād (1986)</provenance>
+                      <acquisition><p>Sotheby's lot 467 (22/21.11.85</p></acquisition>
+                  </history>
+                  <additional>
+                     <listBibl>
+                         <bibl>Ḥaddād/Biesterfeld no. 19 (Shelf-mark: 510/384 Mk2/126)</bibl>
+                     </listBibl>
+                  </additional>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress
+                     Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term key="subject_sh85083116">Medicine, Arab</term>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-07-06"><persName>Lara Salha</persName>Updated old XML file into TEI schema</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <text>
+      <body>
+         <p><!--Body paragraph provided for validation and future transcription--></p>
+      </body>
+   </text>
+</TEI>
+
+<!-- In the previous XML version, there was the following information that may/may not be of use:
+        <WMSseals>+</WMSseals>
+        
+                  <WMSpacelines>21</WMSpacelines>
+          <WMSpacedensity>420</WMSpacedensity>
+          <WMSpaceratio>1:1,5</WMSpaceratio>
+          <WMSpaceanglealef>100</WMSpaceanglealef>
+          <WMSpaceanglekaf>45</WMSpaceanglekaf>
+          
+          <WMSquires>due to the binding could not be established exactly</WMSquires>
+          
+                  <WMScontents>
+          <WMSiline n='1'>
+            <WMSlattext>Cf. WMS Arabic 409</WMSlattext>
+          </WMSiline>
+        </WMScontents>
+
+-->
+
