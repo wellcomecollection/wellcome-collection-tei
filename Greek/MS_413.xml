@@ -54,7 +54,7 @@
                     <repository>Wellcome Library</repository>
                     <idno type="shelfmark">MS_413</idno>
                     <altIdentifier type="Sierra">
-                        <idno>b1918372</idno>
+                        <idno>b19183720</idno>
                     </altIdentifier>
                     <altIdentifier type="accession ">
                         <idno>66627</idno>
@@ -68,12 +68,33 @@
                     <textLang mainLang="grc" source="IANA">Ancient Greek</textLang>
                     
                     <msItem n="1" xml:id="MS_413_1">
-                        <locus from="1r" to="8v">1<hi rend="superscript">r</hi>-8<hi rend="superscript">v</hi></locus>
+                        <locus>1r-8v</locus>
                         <author key="">Pseudo-Leo VI the Wise</author>
                         <title key="">Oracles</title>
                         
-                        <!-- Greek text to be picked up in late-stage editing -->
-                        
+                        <note>
+                            <list>
+                                <head>Table of contents</head>
+                                <item n="1">᾿Αντίγραφον | Λέοντος τοῦ σοφοτάτου βασιλέως τῆς
+                                    Κωνσταντινουπόλεως<locus>1r</locus></item>
+                                <item n="2">Μετάνιας<locus>1v</locus></item>
+                                <item n="3">No title<locus>2r</locus></item>
+                                <item n="4">῎Επαρσις<locus>2v</locus></item>
+                                <item n="5">No title<locus>3r</locus></item>
+                                <item n="6">No title<locus>3v</locus></item>
+                                <item n="7">Μελησμός<locus>4r</locus></item>
+                                <item n="8">Αἰμα<locus>4v</locus></item>
+                                <item n="9">Εὐχαρηστία<locus>5r</locus></item>
+                                <item n="10">No title<locus>5v</locus></item>
+                                <item n="11">No title<locus>6r</locus></item>
+                                <item n="12">No title<locus>6v</locus></item>
+                                <item n="13">Εὐσέβεια<locus>7r</locus></item>
+                                <item n="14">Προτήρησις<locus>7v</locus></item>
+                                <item n="15">Προχείρισις<locus>8r</locus></item>
+                                <item n="16">No title<locus>8v</locus></item>
+                            </list>
+                        </note>
+                                                
                         <incipit><!-- insert --> <locus></locus>
                             <!-- Use <note> to add general comment -->
                         </incipit>
@@ -92,11 +113,18 @@
                         
                     </msItem>
                     <msItem n="2" xml:id="MS_413_2">
-                        <locus from="10r" to="10v">10<hi rend="superscript">r</hi>-<hi rend="superscript">v</hi></locus>
+                        <locus>10r-10v</locus>
                         <author key="">Arsenios Markellos</author>
                         <title key="">Oracles</title>
                         
-                        <!-- Greek text to be picked up in late-stage editing -->
+                        <note>
+                            <list>
+                                <head>Table of contents</head>
+                                <item n="1">Κύρου ᾿Αρσενίου τοῦ Λα λ καὶ προτονότου
+                                    πατριάρχου<locus>10r</locus></item>
+                                <item n="2">No title<locus>10v</locus></item>
+                            </list>
+                        </note>
                         
                         <incipit><!-- insert --> <locus></locus>
                             <!-- Use <note> to add general comment -->
@@ -116,12 +144,23 @@
 
                     </msItem>
                     <msItem n="3" xml:id="MS_413_3">
-                        <locus from="9r" to="9v">1<hi rend="superscript">r</hi>-8<hi rend="superscript">v</hi></locus>
-                        <locus> from= </locus>
+                        <locus>9r-9v, 11r-13v</locus>
                         <author key="">Anonymous</author>
                         <title key="">Anonymous collection of oracles.</title>
                         
-                        <!-- Greek text to be picked up in late-stage editing -->
+                        <note>
+                            <list>
+                                <head>Table of contents</head>
+                                <item n="1">Εἰς τὸ εὔδομον καὶ πέμπτον ᾿Ισμαὴλ τὸ τέλος ἀποκαληφθήσεται<locus>9r</locus></item>
+                                <item n="2">No title<locus>9r-9v</locus></item>
+                                <item n="3">No title<locus>11r</locus></item>
+                                <item n="4">No title<locus>11v</locus></item>
+                                <item n="5">No title<locus>12r</locus></item>
+                                <item n="6">No title<locus>12r-12v</locus></item>
+                                <item n="7">No title<locus>13r</locus></item>
+                                <item n="8">No title<locus>13v</locus></item>
+                                <item n="9">ΤΕΛΟΣ<locus>14r</locus></item>
+                            </list>
                         
                         <incipit><!-- insert --> <locus></locus>
                             <!-- Use <note> to add general comment -->
@@ -321,8 +360,9 @@
         </profileDesc>    
     
         <revisionDesc>
+            <change when="2021-07-12" who="BLE"> Added Greek script.</change>
             <change when="2020-01-12" who="YK">Populated template</change>
-        <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS project.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS project.</change>
         </revisionDesc>
 
     </teiHeader>    
