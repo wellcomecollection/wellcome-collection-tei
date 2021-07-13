@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Tamil_1">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Tamil 1</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SG">
+                <resp when="1990">Cataloguer</resp>
+                <persName>S. Gunasingam</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2021-05-25">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2021">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">MS Tamil 1</idno>
+            <idno type="catalogue">Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Tamil 1</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32724317</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Three didactic works.</summary>
+                   
+                    <textLang mainLang="ta" source="IANA">Tamil</textLang>
+                    
+                    <msItem n="1" xml:id="Tamile_1_1">
+                        <locus from="1" to="5">Folios 1-5</locus>
+                        <author key="person_268916285"><!-- Tamil text to be picked up in late-stage editing --></author>
+                        <title key=""><!-- Tamil text to be picked up in late-stage editing --></title>
+                        <note>A work of didactic aphorisms meant for children, by the famous Tamil poetess <!-- Tamil text to be picked up in late-stage editing -->. It dates from about the fourth century A.D.</note>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Tamile_1_2">
+                        <locus from="6" to="10">Folios 6-10</locus>
+                        <author key="person_268916285"><!-- Tamil text to be picked up in late-stage editing --></author>
+                        <title key=""><!-- Tamil text to be picked up in late-stage editing --></title>
+                        <note>A moral code by the same author as the first item. The work is named after the opening word <!-- Tamil text to be picked up in late-stage editing -->, which is also an invocation.</note>
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Tamile_1_3">
+                        <locus from="11" to="15">Folios 11-15</locus>
+                        <author key="person_101302291"><!-- Tamil text to be picked up in late-stage editing --></author>
+                        <title key=""><!-- Tamil text to be picked up in late-stage editing --></title>
+                        <note>A didactic poem by aphorisms meant for children, by <!-- Tamil text to be picked up in late-stage editing -->, a king of <!-- Tamil text -->, ascribed to the sixteenth century A.D.
+                        This work enjoys the same status and popularity as the first two works.</note>
+                        <note>Folio 16 blank.</note>
+                    </msItem>
+                    
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="other">
+                       
+                        <supportDesc material="palm">
+                                                    
+                            <support>Palm leaf.</support>
+                            <extent>16 folios
+                                <dimensions unit="mm">
+                                    <dim type="diameter">200</dim>
+                                    <dim type="length">40</dim>
+                                </dimensions>
+                            </extent>
+                            
+                             <foliation>
+                                 <note>The introductory folio containing the title is unpaged and the text starts on the second folio, paged one in the Tamil character.</note>
+                             </foliation>
+                            
+                            <condition>
+                                <note>Complete, legible and in good condition.</note>                            
+                            </condition>
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout>
+                                <note>For the most part inscribed on both sides of the page.</note>                                      
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+ 
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate calendar="Gregorian">Undated. Based on the assumed dating of the work it cannot be earlier than the sixteenth century.</origDate>
+                    </origin>
+                    <acquisition notBefore="1990">Acquired by the Wellcome Library, or its predecessor the Wellcome Historical Medical Museum.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine' in Journal of the Royal Asiatic Society, volume 2.</title>
+                                    <author>S. Gunasingam</author>
+                                    <date>1990</date>
+                                    <note>Pp. 359-369</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+  
+        <revisionDesc>
+        <change when="2021-06-02" who="#VS">Added data from the catalogue</change>
+        <change when="2021-05-25" who="#AP">Created template for Wellcome Tamil MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
