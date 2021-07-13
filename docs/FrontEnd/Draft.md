@@ -7,6 +7,7 @@
 | msIdentifier/idno | identifiers | 
 | msIdentifier/idno | ReferenceNumber |  
 | msIdentifier/altIdentifier | identifiers |
+| msIdentifier/altIdentifier type="Sierra" | Sierra identifier |
 
 ## Description
 | TEI| API |  
