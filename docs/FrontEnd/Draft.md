@@ -21,6 +21,8 @@
 | ----------- | ----------- | 
 |handDesc	| notes [hand]	|
 |additional/adminInfo/recordHist/source | notes [source] |
+|provenance | notes [ownership] |
+|acquisition | 	notes [acquisition]
 
 ## Access Conditions?
 | TEI| API |  
