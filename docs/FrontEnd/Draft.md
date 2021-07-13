@@ -13,11 +13,11 @@
 | ----------- | ----------- |  
 | titleStmt/title | title |  
 | mscontents/summary | description |
+| textLang | languages |
 
 ## Notes
 | TEI| API |  
 | ----------- | ----------- | 
-|textLang	| notes [language]	|
 |handDesc	| notes [hand]	|
 |additional/adminInfo/recordHist/source | notes [source] |
 
