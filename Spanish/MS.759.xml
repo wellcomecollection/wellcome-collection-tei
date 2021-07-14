@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_759">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS99</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SAJM">
+               <resp when="1962">Cataloguer</resp>
+               <persName>S.A.J. Moorat</persName>
+            </respStmt>
+            <respStmt xml:id="RM">
+               <resp when="2002">Catalogue entry transcibed into database</resp>
+               <persName>Ross MacFarlane</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="WG">
+               <resp when="2021">TEI Encoder</resp>
+               <persName>Will Greenacre</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS.759</idno>
+            <idno type="catalogue">Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">MS.759</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b18587975</idno>
+                  </altIdentifier>
+                  <altIdentifier type='accession'>
+                     <idno>10561</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>El juego de las suertes, corregido y a la intencion de su primer Autor reducido.</summary>
+                  <textLang mainLang="es-ES">Spanish Spain</textLang>
+                  <msItem n="1" xml:id="MS_759_1">
+                     <title key="work_203749954 ">El juego de las suertes</title>
+                     <author key="person_444670">Spirito, (Gualtieri) Lorenzo, 1430?-1496.</author>
+                     <note>Lorenzo Spirito - whose real surname was Gualtieri - was an Italian poet and satirist. His works were forbidden by the Inquisition.</note>
+                     <filiation>A Spanish version of a fortune-telling work originally published as 'Delle sorti' at Vicenza about 1473 [Hain 14657.], in Italian. A Spanish translation was issued in Milan in 1502, and at Valencia in 1528 [Salva 2522.]; there were later editions, but the one mentioned in the title of this MS. is apparently not recorded.</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="vellum">
+                        <extent>1 volume<dimensions unit="cm">
+                              <dim type="diameter">20.5</dim>
+                              <dim type="length">29.5</dim>
+                           </dimensions>
+                        </extent>
+                        <collation>
+                           <formula>44 ff. + 3 bl. ll.</formula>
+                        </collation>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote>Illustrated with rough pen-drawn figures and diagrams.</decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Under the title in this MS. is written 'Todo quanto se dice en este libro sea de tomar a burlas y juego que de otra manera seria pernicioso el libro, y assi lo protesta el autor en el prologo y lo mismo dice su dueño'.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Original vellum covers with flap, defective.</p>
+                        <condition>Some corners damaged.</condition>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>Spain</country>,
+                        <region>Castile</region>,
+                        <settlement>Valladolid</settlement>,
+                     </origPlace>
+                     <origDate>Late 16th century</origDate>
+                     <note>Impresso en Valladolid. Por Francisco Fernandez de Cordova en este año de MDLii.</note>
+                  </origin>
+                  <acquisition>Purchased 1903.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>'Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                              <author>S.A.J. Moorat</author>
+                              <date>1962-1973</date>
+                              <note>P. 559</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="unknown">
+                        <p></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2021-07-14">WG created XML file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
