@@ -59,9 +59,8 @@
                         
                         <summary>A bound booklet containing four works in three different and anonymous hands.</summary>
                         
-                        <textLang mainLang="sa" otherLangs="hi">Sanskrit with some early Hindi.</textLang>
-                        
                         <msItem xml:id="Alpha_91_i">
+                            <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
                             
                             <note>A <persName role="aut">Kerali</persName> on praśnaśāstra; see the several works in <bibl>NCC, vol. 5, pp. 43-49</bibl>.</note>
                             
@@ -85,7 +84,7 @@
                         
                         <msItem xml:id="Alpha_91_ii">
                             <title>Praśnacintāmaṇi</title>
-                            
+                           <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
                             <note>A <title>Praśnacintāmaṇi</title> based on a work of Īśvara/Śiva.</note>
                             
                             <incipit> <locus>F. 8v</locus>
@@ -113,8 +112,8 @@
                         
                         <msItem xml:id="Alpha_91_iii">
                             
-                            <note>An untitled tantric text on yantras in a vernacular. With many diagrams, illustrations, and magic squares.</note>
-                            <textLang otherLangs="hi">Hindi</textLang>
+                            <note>An untitled tantric text on yantras in a vernacular, possibly early Hindi. With many diagrams, illustrations, and magic squares.</note>
+                            <textLang mainLang="hi" source="IANA">Hindi</textLang>
                             
                             <incipit>
                                 <!-- future transcript -->
@@ -130,7 +129,7 @@
                             <title>Pañcāśadakṣaraphala</title>
                             <title type="alt">Varṇamālā</title>
                             <author>Nārada</author>
-                            
+                            <textLang mainLang="sa" source="IANA">Sanskrit</textLang>
                             <note>In 54 verses. See <bibl>CESS A3, 149b</bibl>.</note>
                             
                             
@@ -205,6 +204,7 @@
         </fileDesc>
         
         <revisionDesc>
+            <change when="2021" who="#AP">Minor edits for front-end.</change>
             <change when="2020-01-16" who="#AP">Added licensing statement.</change>
             <change when="2019-06-05" who="#AP">Created XML file. Added content description to @summary based on seeing manuscript.</change>
         </revisionDesc>

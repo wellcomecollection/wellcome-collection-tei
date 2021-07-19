@@ -47,10 +47,11 @@
                     
                     <msContents>
                         <summary>nakṣatra kaṣṭāvalī, an astrological treatise. Anonymous; undated composition; copied 1871, possibly Ambikapur, Chhattisgarh</summary>
-                        <textLang mainLang="sa" otherLangs="hi">Sanskrit with Hindi in explicit.</textLang>
+                        
                         <msItem xml:id="Alpha_113">
                             <locus>Folio 1; 1A-2B</locus>
-                            
+                            <textLang mainLang="sa" source="IANA">Sanskrit.</textLang>
+                            <textLang otherLangs="hi" source="IANA">Hindi in explicit.</textLang>
                             <title type="main" key="Alpha_113">nakṣatra kaṣṭāvalī</title>
                             
                             <incipit> <locus>1A</locus>
@@ -96,6 +97,7 @@
         </fileDesc>
         
         <revisionDesc>
+            <change when="2021" who="#AP">Minor edits for front-end.</change>
             <change when="2019-06-02" who="#AP">Added MS copying date based on calculation of VS date given in MS colophon transcript in summary, as well as potential site. 
                 Also suggested @explicit text as Hindi and noted non-standard transcription of numerical figures. Created XML file.</change>
         </revisionDesc>
