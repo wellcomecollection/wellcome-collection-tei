@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS 363">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_363">
     
     <teiHeader>
         
         <fileDesc>
             
             <titleStmt>
-                <title></title>
+                <title>MS363</title>
                 <title type="collection">Wellcome Collection</title>
                 <respStmt xml:id="">
                     <resp when="2002-08-10">creator</resp>
@@ -18,8 +18,12 @@
                     <resp when="2021-02-24">Cataloguer</resp>
                     <persName>Sloyanv</persName>
                 </respStmt>
-                <respStmt xml:id="">
-                    <resp when="2021-03-01">OCV</resp>
+                <respStmt xml:id="AP">
+                    <resp when="2021">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="OCV">
+                    <resp when="2021-03-01">TEI Encoder</resp>
                     <persName>Odalys Caballero</persName>
                 </respStmt>
             </titleStmt>
@@ -143,7 +147,6 @@
                             </origPlace>
                             <origDate calendar="Gregorian">1637</origDate>
                              </origin>
-                        <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
                          <acquisition>Particular acquisition not known <note>7584</note></acquisition>
                     </history>
                     
@@ -151,24 +154,18 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <!-- insert text, if relevant -->
-                                    <bibl><!-- insert if necesary --></bibl>
-                                    <!-- Might include link to catalogue source -->
-                                    <!--<listBibl>
-                              <bibl> </bibl>
-                           </listBibl>-->
+                              <bibl>
+                                <title>'Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                                <author>S.A.J. Moorat</author>
+                                 <date>1962-1973</date>
+                              </bibl>
+                                   
                                 </source>
                             </recordHist>
                             <availability status=""><p> The papers are available subject to the usual conditions of access to Archives and Manuscripts material, 
                                 after the completion of a Reader's Undertaking</p></availability> 
                         </adminInfo>
-                        <!-- Enter bibliographical info, if needed -->
-                        <listBibl>
-                            <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
-                            <head><!-- use to provide a heading if required, otherwise delete --></head>
-                            <bibl><!-- insert bibliography, links to online resource, etc., otherwise delete--></bibl>
-                        </listBibl>
-                        
+                       
                     </additional>
                     
                 </msDesc>
