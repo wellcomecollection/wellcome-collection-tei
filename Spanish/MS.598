@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS 598">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_598">
     
     <teiHeader>
         
         <fileDesc>
             
             <titleStmt>
-                <title></title>
+                <title>MS598</title>
                 <title type="collection">Wellcome Collection</title>
                 <respStmt xml:id="">
                     <resp when="2003-12-22">Creator</resp>
@@ -18,10 +18,14 @@
                     <resp when="2021-02-24">Cataloguer</resp>
                     <persName>Sloyanv</persName>
                 </respStmt>
-                <respStmt xml:id="">
-                    <resp when="2021-03-10">OCV</resp>
-                    <persName>Odalys Caballero</persName>
-                </respStmt>
+               <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2021-04-09">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt>
             </titleStmt>
             
             <publicationStmt>
@@ -170,13 +174,12 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <!-- insert text, if relevant -->
-                                    <bibl><!-- insert if necesary --></bibl>
-                                    <!-- Might include link to catalogue source -->
-                                    <!--<listBibl>
-                              <bibl> </bibl>
-                           </listBibl>-->
-                                </source>
+                                    <bibl>
+                                        <title>'Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                                        <author>S.A.J. Moorat</author>
+                                        <date>1962-1973</date>
+                                     </bibl>
+                                  </source>
                             </recordHist>
                             <availability status=""><p> <!-- Insert if relevant --></p></availability> 
                         </adminInfo>
