@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Tamil_13">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Tamil 13</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SG">
+                <resp when="1990">Cataloguer</resp>
+                <persName>S. Gunasingam</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2021-05-25">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2021">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">MS Tamil 13</idno>
+            <idno type="catalogue">Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Tamil 13</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32724433</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary><title>Kokkōkam</title>, a treatise on erotics.</summary>
+                   
+                    <textLang mainLang="ta" source="IANA">Tamil</textLang>
+                    
+                    <msItem n="1" xml:id="Tamil_13_1">
+                        <title key="">Kokkōkam</title>
+                        <author key=""><!-- Tamil text to be picked up in late-stage editing --></author>
+                        <author key="person_86598733"><!-- Tamil text to be picked up in late-stage editing --></author>
+                        <note>A treatise on erotics, one of sixty-four arts and sciences, originally written in Sanskrit by <!-- Tamil text to be picked up in late-stage editing --> and translated into Tamil 
+                            by <!-- Tamil text to be picked up in late-stage editing --></note>
+                        <filiation>The work is the same as <ref>MS Tamil 4</ref>.</filiation>
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="other">
+                       
+                        <supportDesc material="palm">
+                                                    
+                            <support>Palm leaf.</support>
+                            <extent>109 folios
+                                <dimensions unit="mm">
+                                    <dim type="diameter">276</dim>
+                                    <dim type="length">32</dim>
+                                </dimensions>
+                            </extent>
+                            
+                            <condition>
+                                <note>At the beginning and end a few leaves have been damaged by moths.</note>                            
+                            </condition>
+                        </supportDesc>
+                                      
+                        <layoutDesc>
+                            
+                            <layout>
+                                <note>Inscribed on both sides.</note>                                      
+                            </layout>
+                            
+                        </layoutDesc> 
+                        
+                    </objectDesc>
+ 
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate calendar="Gregorian">Undated.</origDate>
+                    </origin>
+                    <acquisition notBefore="1990">Acquired by the Wellcome Library, or its predecessor the Wellcome Historical Medical Museum.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine' in Journal of the Royal Asiatic Society, volume 2.</title>
+                                    <author>S. Gunasingam</author>
+                                    <date>1990</date>
+                                    <note>Pp. 359-369</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+  
+        <revisionDesc>
+        <change when="2021-08-11" who="#VS">Added data from the catalogue</change>
+        <change when="2021-05-25" who="#AP">Created template for Wellcome Tamil MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
