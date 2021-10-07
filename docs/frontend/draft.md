@@ -8,14 +8,19 @@
 | msIdentifier/idno | ReferenceNumber |
 | msIdentifier/altIdentifier | identifiers |
 | msIdentifier/altIdentifier type="Sierra" | Sierra identifier |
+| msIdentifier/altIdentifier type="accession" | Accession identifier |
+| msIdentifier/altIdentifier type="former" | Former identifier |
 
 ## Description
 
 | TEI | API |
 | :--- | :--- |
-| titleStmt/title | title |
+| publicationStmt/idno type="msID" | title |
 | mscontents/summary | description |
 | textLang | languages |
+| msItem/locus | description |
+| msItem/author | contributor |
+| physDesc/handDesc/handNote | contributor |
 
 ## Notes
 
