@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 25.5.21 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Tamil_19">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Tamil 19</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="SG">
+                    <resp when="1990">Cataloguer</resp>
+                    <persName>S. Gunasingam</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-05-25">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="MK">
+                    <resp when="2021-07-10">TEI Encoder</resp>
+                    <persName>Miriam Keaveny</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Tamil 19</idno>
+                <idno type="catalogue">Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Tamil 19</idno>
+                        <altIdentifier type="Sierra"> 
+                            <idno>b32724494</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Encuvatietu - multiplication table</summary>
+                        
+                        <textLang mainLang="ta" source="IANA">Tamil</textLang>
+                        
+                        <msItem n="1" xml:id="Tamil_19_1">
+                            <locus from="1f" to="14f"></locus>
+                            <title key="">Encuvatietu></title>   
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="other">
+                            
+                            <supportDesc material="palm">
+                                
+                                <support>Palm leaf </support>
+                                <extent>14ff
+                                    <dimensions unit="mm">
+                                        <dim type="diameter">30mm</dim>
+                                        <dim type="length">583mm</dim>
+                                    </dimensions>
+                                    <note>Each folio is made up of two leaves, presumably for added strength.</note>
+                                </extent>
+                                
+                              
+                                
+                                <condition>
+                                    Good condition, complete. 
+                                </condition>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout>
+                                    Inscribed on both sides.                                     
+                                </layout>
+ 
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote>Legible</handNote>
+                        </handDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>,
+                                <region><!-- insert --></region>,
+                                <settlement><!-- insert --></settlement>,
+                                <orgName><!-- insert --></orgName>
+                            </origPlace>
+                            <origDate calendar="Gregorian">Undated</origDate>
+                        </origin>
+                        <acquisition>Acquired by <persName>Dr Paira Mill</persName> who was employed by <persName>Henry Wellcome</persName> between 1910 and 1936</acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine' in Journal of the Royal Asiatic Society, volume 2.</title>
+                                        <author>S. Gunasingam</author>
+                                        <date>1990</date>
+                                        <note>Pp. 359-369</note>
+                                    </bibl>
+                                    <bibl>
+                                    <title>'The Oriental Collections in the Wellcome Institute for the History of Medicine, London' in Journal of the Royal Asiatic Society </title>
+                                    <author>N.Allen </author>
+                                    <date>1981</date>
+                                    <note>pp.11-25</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status=""><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="sh85082139">Mathematics</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+        
+        <revisionDesc>
+            <change when="2021-10-07" who="MK">Populated template</change>
+            <change when="2021-05-25" who="#AP">Created template for Wellcome Tamil MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
