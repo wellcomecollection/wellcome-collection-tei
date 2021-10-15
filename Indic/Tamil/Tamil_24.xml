@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Tamil_24">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Tamil 24</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SG">
+                <resp when="1990">Cataloguer</resp>
+                <persName>S. Gunasingam</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2021-05-25">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2021">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">MS Tamil 24</idno>
+            <idno type="catalogue">Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Tamil 24</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32724548</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Three texts with the five-lettered Saivite mantra repeated several times.</summary>
+                   
+                    <textLang mainLang="ta" source="IANA">Tamil</textLang>
+                    
+                    <msItem n="1" xml:id="Tamil_24_1">
+                        <locus from="1" to="17">Folios 1-17</locus>
+                        <title key=""><!-- Tamil text to be picked up in late-stage editing --></title>
+                        <note>30 verses which stress the importance of worshipping Umai (Lord Siva's consort) and of almsgiving.</note>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Tamil_24_2">
+                        <locus from="18" to="80">Folios 18-80</locus>
+                        <title>Cure for snake bite</title>
+                        <note>A detailed account of some medical preparations which constitute a cure for snake bite.</note>
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Tamil_24_3">
+                        <locus from="81" to="96">Folios 81-96</locus>
+                        <title>Astrological text describing various aspects of astrology.</title>
+                        <note>Folios 97-100 are blank.</note>
+                    </msItem>
+                        
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="other">
+                       
+                        <supportDesc material="palm">
+                                                    
+                            <support>Palm leaf.</support>
+                            <extent>100 folios
+                                <dimensions unit="mm">
+                                    <dim type="diameter">120</dim>
+                                    <dim type="length">25</dim>
+                                </dimensions>
+                            </extent>
+                            
+                            <condition>
+                                <note>In good condition.</note>                            
+                            </condition>
+                        </supportDesc>
+                                      
+                        <layoutDesc>
+                            
+                            <layout>
+                                <note>Complete and legible.</note>                                      
+                            </layout>
+                            
+                        </layoutDesc> 
+                        
+                    </objectDesc>
+                    
+                    <handDesc hands="3">
+                        <handNote>It is possibly the three texts are written by three different scribes.</handNote>
+                    </handDesc>
+ 
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate calendar="Gregorian">Undated.</origDate>
+                    </origin>
+                    <acquisition notBefore="1990">Acquired by the Wellcome Library, or its predecessor the Wellcome Historical Medical Museum.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine' in Journal of the Royal Asiatic Society, volume 2.</title>
+                                    <author>S. Gunasingam</author>
+                                    <date>1990</date>
+                                    <note>Pp. 359-369</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p></p>
+                        </availability> 
+                    </adminInfo>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+  
+        <revisionDesc>
+        <change when="2021-10-15" who="#VS">Added data from the catalogue</change>
+        <change when="2021-05-25" who="#AP">Created template for Wellcome Tamil MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
