@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_<!-- Insert manuscript number here (ask Lara for it) -->">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic <!-- insert MSS number here --></title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id=" <!-- Insert initials here --> ">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName> <!-- Insert your name here --> </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">WMS Arabic <!-- insert MSS number here --> </idno>
+                <idno type="catalogue"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic <!-- insert MSS number here --> </idno>
+                        <altIdentifier type="former">
+                            <idno> <!-- Insert former identifier here, it will look something like "Ḥaddād/Biesterfeld no. 53 (Shelf-mark:521/646 Bmf/.../n6)" --></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary> <!-- Insert summary from file here --></summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_<!-- MSS number here -->-part1">
+                            <author key="person_ <!-- You will find this person number on VIAF, usually found in the permalink when you search for the author -->">
+                                <persName xml:lang="eng"> <!-- Author name in latin letters --></persName>
+                                <persName xml:lang="ar"> <!-- Author name in Arabic letters --> </persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc"> <!-- Transliterated title --></title>
+                            <title xml:lang="ar"> <!-- Arabic title --> </title>
+                            <title xml:lang="en"> <!-- English translated title -->  </title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            <textLang otherLangs=""> <!-- Insert other languages if there are any here --></textLang>
+                            
+                            <incipit>
+                                <locus> <!-- This is the location in the manuscript, it will look something like "Fol. 1a.1" --></locus>
+                                <!-- Insert contents here -->
+                            </incipit>
+                            
+                            <explicit>
+                                <locus><!-- This is the location in the manuscript, it will look something like "Fol. 1a.1" --></locus>
+                                <!-- Insert contents here -->
+                            </explicit>
+                            
+                            <colophon> <!-- Insert colophon here if there is one, otherwise delete --> </colophon>
+                            
+                            <msItem n="1" xml:id="WMS_Arabic_<!-- Insert MSS number here -->-part1-item<!-- Insert item number here -->">
+                                <locus> <!-- This is the location in the manuscript, it will look something like "Fol. 1a.1" --> </locus>
+                                <title> <!-- Insert contents here --> </title>
+                            </msItem>
+                            <msItem n="1" xml:id="WMS_Arabic_<!-- Insert MSS number here -->-part1-item2">
+                                <locus> <!-- This is the location in the manuscript, it will look something like "Fol. 1a.1" --> </locus>
+                                <title> <!-- Insert contents here --> </title>
+                            </msItem>
+                            <msItem n="1" xml:id="WMS_Arabic_<!-- Insert MSS number here -->-part1-item">
+                                <locus></locus>
+                                <title></title>
+                            </msItem>
+                            
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> <!-- Sometimes the type of paper will be described aka 'Oriental paper' -->
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter"> <!-- Insert diameter here --> </dim>
+                                        <dim type="length"> <!-- Insert length here --> </dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios:</label> <!-- Insert whatever is found in collation section here, it will look something like "127+01" -->
+                                    <formula> <!-- Insert any further information here, this might be more substantial and go over more than one line, that's totally normal --></formula>
+                                </collation>
+                                <condition> <!-- You will find this information in the tag "<WMSstateofpres>", it will most likely be things like 'Good' or 'Mediocre' etc. --> </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="<!-- Insert number here -->"><!-- Repeat number here --></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="<!-- Insert script name here, it'll be something like 'naskh' -->" scope="<!-- Unless there's more than one script, this should be 'major' If there' more scripts then create another tag and those will be 'minor' -->">
+                                <p><label>Script:</label><!-- Insert script name here -->/p>
+                                <p><label>Ink:</label><!-- Insert information relating to ink and colour etc. here --></p>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="<!-- Insert calendar type here, it will either be Gregorian or Hijri -->"><!-- Insert date/period here e.g 18th century. This will be the date the manuscript is copied. --></origDate>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here -->
+                        </provenance>
+                        <acquisition>
+                            <!-- Insert acquisition information here, e.g Sotheby's lot 486 (22/21.11.85) -->
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl> <!-- Insert bibliographic information here, it will look something like: Ullmann Medizin p. 281, Ḥaddād/Biesterfeld no. 53 (Shelf-mark:
+                                        521/646 Bmf /.../n6). --> </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="<!-- Insert date of completion here -->"><persName><!-- Insert your name here -->/persName>Updated old XML file into TEI schema"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
