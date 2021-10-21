@@ -18,8 +18,13 @@
 | publicationStmt/idno type="msID" | title |
 | mscontents/summary | description |
 | textLang | languages |
+| msItem/textLang | languages |
 | msItem/locus | description |
 | msItem/author | contributor |
+| msItem/title type="original" | title |
+| msItem/incipit | notes /[begins]/ |
+| msItem/explicit | notes /[ends]/ |
+| msItem/colophon | notes /[colophon]/ |
 | physDesc/handDesc/handNote | contributor |
 
 ## Notes
