@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16049">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 406</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">WMS Arabic 406</idno>
+                <idno type="catalogue"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 406</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 15  (Shelf-mark: 510/369Gz)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>A short fragment of b. al-Ǧazzār's book which contains medical
+                            opinions on various diseases. A table of contents, preserved at the
+                            beginning of the fragment gives a detailed information on the book.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_406_part1">
+                            <author key="person_ 74653052">
+                                <persName xml:lang="eng" type="standard">Abū Ǧa`far Aḥmad b. Ibrāhīm b. Abī Hālid b. al-Ǧazzār</persName>
+                                <persName xml:lang="ar" type="original">ابو جعفر احمد بن ابرهيم بن ابي خالد بن ال‍جزار</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" type="standard"> Zād al-Musāfir wa-Qūt al-Ḥāḍir</title>
+                            <title xml:lang="ar" type="original">زاد ال‍مسافر و‌قوت ال‍حاضر</title>
+                            <title xml:lang="en" type="standard">Provisions for the Traveller and Nourishment for the Sedentary</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <incipit>
+                                <locus>Fol.  1a. 1--11</locus>
+                                    علي حسن ال‍نية دون بلوغ ال‍همة فلما انتهت من عقاب الانتباه
+                                    ل‍زلل ووثقت ب‍تراب الاحسان علي الاجابة كان ذلك سبَبًا
+                                    ل‍وضعه وسببه موجب ال‍تعريف  به, وال‍لّه اساله ان يجعل ممن
+                                    يقبله رايك ويقدمه اختيارك وينفع من الامور ب‍موافقتك ويجري منها
+                                    علي سبيل طاعتك وان يحسن في عينك ويزين في سمعك ما يقربنا به اليك
+                                    ونلتمس به ال‍دنو منك  انه قريب م‍جيب وقد قسمنا كتابنا هذا على
+                                    سبع مقالات وفصلنا بعضها من بعض وسميناه زاد ال‍مسافر ورتبنا في
+                                    كل مقالة ابوابا معروفة لما في ذلك من ظهور معاني ال‍كتاب وقرب
+                                    ماخذه وسهولة استخراج ما فصّل منه
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol. 30b.15--16</locus>
+                                ال‍راس  مآء ال‍بقلة ال‍حمقا ومآ ال‍حي ال‍عالم ومآء
+                                    جرادة ال‍قرع مع دهن ال‍لينوسفر ودهن ال‍بنفسج او ادهن ال‍ورد ويجعل
+                                    علي ال‍راس
+                            </explicit>
+                                                        
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p>European paper</p></support>
+                                <extent>30
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">155</dim>
+                                        <dim type="length">210</dim>
+                                    </dimensions>
+                                </extent>
+                                <collation>
+                                    <label>Folios:</label>30
+                                    <formula>due to the binding could not be established exactly</formula>
+                                </collation>
+                                <condition>Mediocre</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="17">17</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="sole">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>Black, headings are highlighted in red</p>
+                            </handNote>
+                        </handDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>modern, European type. Leather spine with title of the book, the name
+                                    of the author, and of last owner Sāmī Ḥaddād
+                                    tooled in gold</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian">Ca. 16~-- 17 cent.</origDate>
+                        </origin>
+                        <provenance>Known owners: Sāmī Ibrāhīm Ḥaddād (1986).
+                        </provenance>
+                        <acquisition>
+                            Sotheby's Lot 463
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ullmann Medizin p. 147~-- 148, Ḥaddād/Biesterfeld no. 15
+                                        (Shelf-mark: 510/369Gz / <!-- Does this need any cleaning up? -->/182b). Partial publication (books 6 and
+                                        7): Zad al-musafir wa-qut al-hadir. Provisions for the Traveller and
+                                        Nourishment for the Sedentary, Book 6. The original Arabic text, with an
+                                        English translation, introduction and commentary by G. Bos [The Sir Henry
+                                        Wellcome Asian Series] (London,  1998). Ibn Al-Jazzar on fevers. A critical
+                                        edition of Zad al-musafir wa-qut al-hadir. Provisions for the traveller and
+                                        the nourishment for the sedentary. Bk. 7, chs. 1~-- 6. the original Arabic
+                                        text with an English translation, introduction and commentary by G. Bos
+                                        [The Sir Henry Wellcome Asian Series] (London,  2000) </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-10-25" who="#AP"><persName>Adrian Plau </persName>Updated old XML file into TEI schema</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
+
+<!-- In the previous XML version, there was the following information that may/may not be of use:
+
+<WMSpace>
+          <WMSpacelines>17</WMSpacelines>
+          <WMSpacedensity>320</WMSpacedensity>
+          <WMSpaceratio>1:0,8</WMSpaceratio>
+          <WMSpaceanglealef>105</WMSpaceanglealef>
+          <WMSpaceanglekaf>30</WMSpaceanglekaf>
+        </WMSpace>
+
+
+-->
