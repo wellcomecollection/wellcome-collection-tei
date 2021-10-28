@@ -23,18 +23,26 @@
 | msItem/author | contributor |
 | msItem/title type="original" | title |
 | msItem/incipit | notes /[begins]/ |
+| msItem/incipit/locus | notes /[begins]/ |
 | msItem/explicit | notes /[ends]/ |
+| msItem/explicit/locus | notes /[ends]/ |
 | msItem/colophon | notes /[colophon]/ |
+| msItem/colophon/locus | notes /[colophon]/ |
+| history/origin/origPlace | production |
+| history/origin/origDate | production |
+| history/provenance | notes \[ownership\] |
+| history/acquisition | notes \[acquisition\] |
 | physDesc/handDesc/handNote | contributor |
+| physDesc/objectDesc/object/support | ? |
+| physDesc/objectDesc/object/extent | ? |
+| handDesc | notes \[hand\] |
+
 
 ## Notes
 
 | TEI | API |
 | :--- | :--- |
-| handDesc | notes \[hand\] |
 | additional/adminInfo/recordHist/source | notes \[source\] |
-| provenance | notes \[ownership\] |
-| acquisition | notes \[acquisition\] |
 
 ## Access Conditions?
 
