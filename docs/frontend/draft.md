@@ -33,8 +33,8 @@
 | history/provenance | notes \[ownership\] |
 | history/acquisition | notes \[acquisition\] |
 | physDesc/handDesc/handNote | contributor |
-| physDesc/objectDesc/object/support | ? |
-| physDesc/objectDesc/object/extent | ? |
+| physDesc/objectDesc/object/support | physicalDescription |
+| physDesc/objectDesc/object/extent |physicalDescription |
 | handDesc | notes \[hand\] |
 
 
