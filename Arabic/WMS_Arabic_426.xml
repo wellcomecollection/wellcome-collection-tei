@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16069">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 426</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">WMS Arabic 426</idno>
+                <idno type="catalogue">Fihrist</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 426</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 48 (Shelf-mark: 510/604 Si2 / 1777 AD /123)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Essential medical knowledge, arranged in ten chapters in the form of questions and answers.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_426-part1">
+                            <author key="person_32302701">
+                                <persName xml:lang="eng" type="standard">Muwaffaq ad-Dīn `Abd al-`Azīz al-Sulamī</persName>
+                                <persName xml:lang="ar" type="original">موفق ال‍دين عبد ال‍عزيز بن عبد ال‍جبّار ال‍سلمي</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Imtiḥān al-Alibbā' li-Kaffati l-Aṭibbā'</title>
+                            <title xml:lang="ar" type="original">امتحان ال‍لبّاء ل‍كافة الاطبّاء</title>
+                            <title xml:lang="en" type="standard">An Examination of intelligent [Men] of what is necessary for Physicians to
+                                know</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <incipit>
+                                <locus>Fol. 1a.1</locus>
+                                هل يمكن ال‍طبيب ان يعرف من ال‍نبض اسم ال‍مشوق وكيف ذلك
+                                ج
+                                هذا منقول من جزيات ال‍قانون لابن سينا حيث قال ال‍عشق مرض
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol. 32b.3--7</locus>
+                                تخلخل جرم ال‍قابل 
+                                ل‍سادس فيرحجن ال‍مجاري التي تدفع ال‍قابل وفضوله فيها وال‍له اعلم صح تمت
+                            </explicit>
+                            
+                            <colophon>وقد ثم نسخ هذا ال‍كتاب فى اربعة و‌عشرين يوم خلت من شهر اب
+                                ل‍مبارك الذي هو من شهور سنة ١٧٧٧ مسيحية سبعة وسبعين و‌سبعماية بعد
+                                ل‍لف صح صح صح وذلك وقفًا موبدًا برسم الاب ال‍قس ديمتريوس 
+                                بسيليس ال‍قانوني ال‍باسيلي
+                            </colophon>
+                                                        
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p>European paper</p>
+                                    <p><watermark>Obscure (fols 28, 29, letter V is visible)</watermark></p>
+                                </support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="height">160</dim>
+                                        <dim type="width">105</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="height">130</dim>
+                                        <dim type="width">80</dim>
+                                    </dimensions>                                
+                                </extent>
+                                <foliation>
+                                    <catchwords>Catchwords are written underneath the text block.</catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios:</label> 33
+                                    <formula>1+1, 2+6, 3+10, 4+16</formula>
+                                </collation>
+                                <condition>Good.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="16">16</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label>Black, headings and dividers are highlighted in red.</p>
+                                <note>Diacritical dots for tā' marbūṭa and yā' are occasionally missing or misplaced. Dialectal features: instead of ث is ت, instead of ذ is د. Ḥamzas are
+                                    misplaced with alīfs and yā's.</note>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <p><locus>Fol. 33a</locus>: a recipe</p> 
+                            <p><locus>Fol. 33b</locus>: a recipe written in blue ink in a
+                                hand identical to that found on fol. 03a in WMS Arabic nos 422, 435.</p>
+                            <p>The title page is missing but originally may not have existed. <locus>Fol. 1b</locus> contains the title of the work written in pencil.
+                            </p>
+                        </additions>
+
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian">24th Āb (August) 1777</origDate>
+                        </origin>
+                        <provenance>Known owners: 1. Fr. Dīmitriyūs Basīliyūs al-Qānūnī al-Bāsīlī (cf. WMS Arabic 422), 2. Sāmī Ibrāhīm Ḥaddād (1986)
+                        </provenance>
+                        <acquisition>
+                            <p>Sotheby's lot 483 (22/21.11.1985)</p>
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ḥaddād/Biesterfeld no. 48 (Shelf-mark: 510/604 Si2 / 1777 AD /123), Dietrich Medicinalia no.91</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-10-29"><persName>Victoria Sloyan</persName> Updated old XML file into TEI schema</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
+
+<!-- In the previous XML version, there was the following information that may/may not be of use:
+ <WMSpace>
+          <WMSpacelines>16</WMSpacelines>
+          <WMSpacedensity>320</WMSpacedensity>
+          <WMSpaceratio>1:1,25</WMSpaceratio>
+          <WMSpaceanglealef>100</WMSpaceanglealef>
+          <WMSpaceanglekaf>35</WMSpaceanglekaf>
+        </WMSpace>
+
+
+
+-->
