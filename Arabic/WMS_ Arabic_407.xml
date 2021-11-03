@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16050">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 407</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="BLE">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Branwen Lloyd-Evans</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">WMS Arabic 407</idno>
+                <idno type="catalogue"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 407</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b20296782</idno>
+                        </altIdentifier>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 16 (Shelf-mark: 510/369Gt)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Medicine for the Poor and Destitute by Abū Ǧàfar Aḥmad b. Ibrāhīm b. Abī Hālid b. al-Ǧazzār</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_407-part1">
+                            <author key="person_27313450">
+                                <persName xml:lang="eng" type="standard">Abū Ǧàfar Aḥmad b. Ibrāhīm b. Abī Hālid b. al-Ǧazzār</persName>
+                                <persName xml:lang="ar" type="original">ابو جعفر احمد بن ابرهيم بن ابي خالد بن الجزار</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Kitāb Ṭibbal-Fuqarā' wa-l-Masākīn</title>
+                            <title xml:lang="ar" type="original">كتاب طب الفقراء والمساكين</title>
+                            <title xml:lang="en" type="standard">Medicine for the Poor and Destitute</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <incipit>
+                                <locus>Fol. 1b.1 - 2a.13</locus>
+                                بسم اللّه الرحمن الرحيم
+                            </incipit>                                               
+                                                     
+                            <explicit>
+                                <locus>Fol.44a.12 - 13</locus>
+                                وينتفع من الاورام الذى يكون فى الركبتين والرجلين ان يوخذ ببعر المعز جزو
+                            </explicit>
+                                                                                                            
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p>European paper</p></support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">215</dim>
+                                        <dim type="length">155</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <catchwords>Catchwords are written underneath the text block</catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios:</label>01+44+001
+                                    <formula>due to the binding could not be established exactly</formula>
+                                </collation>
+                                <condition>Good</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="15">15</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>naskh with elements of ruq`a</p>
+                                <p><label>Ink:</label>black, headings and dividers are highlighted in red</p>
+                                <note>The ḥamza and tā' marbūṭa are occasionally omitted and the diacritical dots misplaced.</note>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <p><locus>Fol. 1b</locus>A title (erased): كتاب طب الفقرا والمساكين تاليف الشيخ الحكيم الرئس الحافظ ابو جعفر احمد بن ابراهيم بن خالد القيروانى رحمه الله تعالى</p>
+                            <p><locus>Fol. 44b</locus>contains a magic recipe with the title باب من كتب تسعة عشر طآء</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>modern, European type. Leather spine with title of the book, the name of the author, and of last owner, Sāmī Ḥaddād, tooled in gold</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" type="approxDate" notAfter="1900" notBefore="1700">18th-19th century</origDate>
+                        </origin>
+                        <provenance>known owners: Sāmī Ibrāhīm Ḥaddād (1986)
+                        </provenance>
+                        <acquisition>Sotheby's Lot 464
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ullmann Medizin p.148, Ḥaddād/Biesterfeld no. 16 (Shelf-mark: 510/369Gt).
+                                        Ibn al-Jazzar on Medicine for the Poor and Destitute in: Journal of the American
+                                        Oriental Society 118 (1998)</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                   </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                        <item>
+                            <term key="subject_sh85104834">Poor</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-10-29"><persName>Branwen Lloyd-Evans</persName>Updated old XML file into TEI schema"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16051">
+    
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 408</title>
+                <title> type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="MK">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Miriam Keaveny</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">WMS Arabic 408 </idno>
+                <idno type="catalogue"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 408</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 17 (Shelf-mark: 510/380 Qg / 1030 /129)</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20296794</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary> A biography of al-Qumrī (taken from Ibn Abī Uṣabi`a) written on a piece of the 20th century paper and a scribbled note attached containing two recipes; نسخة ال‍كحل and نسخة ال‍حمره <!--Insert English translations here--></summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_408_part1">
+                            <author key="person_5001147270468235700009">
+                                <persName xml:lang="eng" type="standard">Abū Manṣūr al-Ḥasan b. Nūḥ al-Qumrī</persName>
+                                <persName xml:lang="ar" type="original">ابو منصور ال‍حسن بن نوح ال‍قمري</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Kitāb al-Ġinā wa-l-Munā</title>
+                            <title xml:lang="ar" type="original">كتاب ال‍غنى وال‍منى</title>
+                            <title xml:lang="en" type="standard">The translated title into English will go here</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+ 
+                            <incipit>
+                                <locus>Fol. 1b.1</locus>
+                                قال ابو منصور ال‍حسن بن نوح ال‍قمرى رحمه ال‍لّه انى لم ازل فى
+                                صباي ومنذ عقلي احب ال‍علوم ال‍طبيعية وتنازعنى نفسى اليها
+                                وخصوصًا  علم ال‍طب لما كنت اري فيه من اراحة الانفس 
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol. 228b.5--7</locus>
+                                ثم يصب عليه ثلاثة ارطال دهن ال‍شيرج ويحرك حتى يستوي ثم
+                                يدر عليه الادوية ويخلط وشربته من ثلاثة مثاقيل الى اربعة 
+                            </explicit>
+                            
+                            <colophon>ال‍غنى وال‍منى في ال‍طبّ ب‍توفيق ال‍لّه تبارك
+                                وتعالى في ال‍سادس عشر من ال‍محرم ال‍حرام افتتاح شهور سنة
+                                ثلاثين والف هجريه وال‍حمد ل‍لّه على توفيقه واعانته ايانا
+                                وحبنا ل‍له ونعم ال‍وكيل 
+                            </colophon>
+                            
+                        </msItem>
+ 
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p>European paper</p>
+                                    <watermark>Letters B and C <locus>Fol. 234</locus></watermark>
+                                </support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">135mm</dim>
+                                        <dim type="length">190mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="height">150</dim>
+                                        <dim type="width">80</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    Pages (not folios) are numbered in Arabic numerals, whereas the hundreds are indicated in full, i.e. instead of '221' is written '2021' The last folio bears a wrong number 2026(should be 2028, i.e. 228)
+                                    <catchwords> Are written underneath the text block.</catchwords>
+                                </foliation>
+
+                                <collation>
+                                    <label>Folios:01 + 228</label>
+                                    <formula>Due to the binding quires could not be established exactly.</formula>
+                                </collation>
+                                <condition>Good</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="17">17</layout> 
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>naskh></p>
+                                <p><label>Ink:black, red headings</label></p>
+                                <p> The ḥamza is occasionally missing or replaced by madda <locus>(fol.206a.10)</locus>. Diacritical dots for tā' marbūṭa and yā' are missing.</p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <additions>
+                            <p>Numerous lacunae as apparent from the sequence of the chapters. <locus>Fol. 186</locus> on the margins bears evidences of the ruling for inserting a commentary. <locus>Fol. 205b </locus> contains a long glossa on
+                                the margins about دهن ال‍ق‍قلاد <locus>Fol. 221</locus> contains a strip of paper, indicating lacuna, attached by one of the previous owners. </p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>Modern, European type. Leather spine with title of the book, the name of the author, and of last owner <persName>Sāmī Ḥaddād</persName> tooled in gold</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijiri">6 Muḥarram 1030</origDate>
+                            <origDate calendar="Gregorian">11 December 1620</origDate>
+                        </origin>
+                        <provenance>Known owners: 1. Anonymous  1090 AH / 1679~-- 1680 AD (The name is erased). 2. <persName>Luṭfī Ṭabīb Abī Sulaymān</persName> 1214 AH / 1799~-- 1800 AD 3. <persName>Sāmī Ibrāhīm Ḥaddād</persName>(1986).
+                        </provenance>
+                        <acquisition>
+                            Sotheby's lot 465 (21.11.85 - 22.11.85)
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ullmann Medizin p. 147, Ḥaddād/Biesterfeld no. 17 (Shelf-mark: 510/380 Qg / 1030 /129).</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-02"> <persName>Miriam Keaveny</persName> Updated old XML file into TEI schema"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
+
+<!-- In the previous XML version, there was the following information that may/may not be of use:
+    
+    
+    
+    <WMSmistara>12mm</WMSmistara> - given in the layout section, under written lines. 
+    
+    <WMSpace>
+          <WMSpacelines>17</WMSpacelines>
+          <WMSpacedensity>220</WMSpacedensity>
+          <WMSpaceratio>1:1</WMSpaceratio>
+          <WMSpaceanglealef>100</WMSpaceanglealef>
+          <WMSpaceanglekaf>15</WMSpaceanglekaf>
+   </WMSpace>
+        
+        
+
+
+
+-->

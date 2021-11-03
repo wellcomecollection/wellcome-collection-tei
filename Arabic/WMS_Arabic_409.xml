@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16052">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 409</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">WMS Arabic 409 </idno>
+                <idno type="catalogue"></idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic409 </idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b21417441</idno>
+                        </altIdentifier>
+                        <altIdentifier type="former">
+                            <idno> Ullmann Medizin p. 140~-- 146, Ḥaddād/Biesterfeld no.18(Shelf-mark: 510/384 Mkl / 838 /124) --></idno>
+                        </altIdentifier>
+                    </msIdentifier>                    
+                    <msContents>
+                        <summary> A medical compendium, parst 1 and two.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                    <msItem n="1" xml:id="WMS_Arabic_409_part1">
+                            <author key="person_ 9955882">
+                                <persName xml:lang="eng">Alī b. al-`Abbās al-Maǧūsī</persName>
+                                <persName xml:lang="ar">على بن ال‍عباس ال‍مجوسى</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc">Kāmil aṣ-Ṣinā`at aṭ-Ṭibbiyya al-ma`rūf bi-l-Malakī</title>
+                            <title xml:lang="ar">كامل ال‍صناعة ال‍طبية ال‍معروف ب‍ال‍ملكى</title>
+                            <title xml:lang="en">A Complete Course in the Art of Medicine, known as al-Malak (part 1)</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            <textLang otherLangs="fa">Persian</textLang>
+                            
+                            <incipit>
+                                <locus>Fol. 1b.1~-- 2a.3</locus>
+                                بسم ال‍لّه ال‍رحمن ال‍رحيم  وعليه توكلى
+                                ال‍مقالة ل‍ولى
+                                من كتاب كامل ال‍صناعة ال‍طبية ال‍معروف ب‍ال‍ملكى
+                                تصنيف
+                                بى ال‍حسن على بن ال‍عباس ال‍مجوسى الارجانى ال‍طبيب تلميذ ابى ماهر
+                                نوسى بن سيار ل‍لملك ال‍جليل عضد ال‍دولة وهى خمسة و‌عشرون
+                                ال‍باب
+                                ل‍ول فى صدر ال‍كتاب قال علي بن ال‍عباس ان احق ما ابتدىء به في جميع
+                                ل‍مور والاصول حمد ال‍لّه وال‍ثناء عليه وال‍شكر له فله ال‍حمد
+                                خالق ال‍خلق
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol. 154a.14</locus>
+                                ويتاخر ب‍حسب مقدار طول ال‍مرض ولذلك ينبغى   
+                                    ن ت‍ت‍ف‍قد احوالها فى كل اربوع
+                            </explicit>
+                            
+                            <colophon>فهذا ما اردت ان ابينه من امر ال‍علامات
+                                ل‍منذرة وهو تمام ال‍جزء الاول تمت ال‍مقاله ال‍عاشرة من ال‍جزو
+                                ل‍ول من كتاب كامل ال‍صناعة ال‍طبية ال‍معروف ب‍ال‍ملكى ويتلوه
+                                ل‍مقاله الاولى من ال‍جز ال‍ثانى وهو ال‍جز ال‍علمى فى يوم
+                                ل‍ثنين ال‍واقع فى ال‍خامس من شهر ال‍مبارك رمضان لسنة ثمان
+                                وثلثين وثمانمايه وال‍حمد ل‍لّه رب ال‍عالمين وال‍صلوة وال‍سلام
+                                على خير خلقه محمد و‌آله ال‍طاهرين</colophon>    
+                        </msItem>
+                        
+                        <msItem n="1" xml:id="WMS_Arabic_409-part2">
+                            <author key="person_ 9955882">
+                                <persName xml:lang="eng">Alī b. al-`Abbās al-Maǧūsī</persName>
+                                <persName xml:lang="ar">على بن ال‍عباس ال‍مجوسى</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc">Kāmil aṣ-Ṣinā`at aṭ-Ṭibbiyya al-ma`rūf bi-l-Malakī</title>
+                            <title xml:lang="ar">كامل ال‍صناعة ال‍طبية ال‍معروف ب‍ال‍ملكى</title>
+                            <title xml:lang="en">A Complete Course in the Art of Medicine, known as al-Malak (part 2)</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <incipit>
+                                <locus>Fol. 154b.1</locus>
+                                بسم ال‍لّه ال‍رحمن ال‍رحيم
+                                ال‍مقالة الاولى
+                                من ال‍جزء ال‍ثانى من كتاب كامل
+                                ل‍صناعة ال‍طبّيه ال‍معروف ب‍ال‍ملكى
+                                تاليف على بن ال‍عباس ال‍مجوسى تلميذ ابى مامر موسى بن سيار فى
+                                حفظ ال‍صحة                               
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol. 211a.23</locus>
+                                يقطع شهوة ال‍طين يوخذ انيسون وبزر ال‍كرفس وكمون كرمانى
+                                وناخواه مكل جز فلفل ابيض ربع جز قرنفل نصف جز يدق ال‍جميع ناعما
+                                ويوحذ منه عدوه وعشية مثقال مع شىء من شراب ال‍عسل فانه نافع                               
+                            </explicit>
+                            
+                            <colophon> تمت ال‍مقالة ال‍عاشرة من جزء ال‍ثانى من كتاب كامل ال‍صناعة
+                                ل‍طبيه وبتمامها تم ال‍كتاب ب‍عون ال‍لّه ال‍كريم ال‍وهاب
+                                (lacuna)
+                                ال‍عبد ال‍محتاج الى ال‍لّه ال‍مجيب
+                                ال‍طبيب غفر ال‍لّه له ولوالديه ب‍رحمته فى يوم
+                                ل‍خميس ال‍واقع فى ال‍سادس وال‍عشرون من شهر ال‍محرم سنه احدى
+                                واربعين و‌ثمانمايه                                
+                            </colophon>
+                            
+                        </msItem>
+                    </msContents>
+                      <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="paper">
+                                    <support><p>Non-Western</p></support>
+                                    <extent>
+                                        <dimensions unit="mm" type="leaf">
+                                            <dim type="diameter">175</dim>
+                                            <dim type="length">265</dim>
+                                        </dimensions>
+                                    </extent>
+                                    <collation>
+                                        <label>Folios:</label> 154 (part 1)
+                                        <label>Folios:</label> 211 + 004 (part 2)
+                                        <formula>Due to the binding quires could not be established exactly</formula>
+                                    </collation>
+                                    <condition>good</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="32">32</layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote script="naskh" scope="major">
+                                    <p><label>Script:</label>Naskh</p>
+                                    <p><label>Ink:</label>black, red headings</p>
+                                </handNote>
+                            </handDesc>
+                            <additions>
+                                <list>
+                                    <item>
+                                        <label>Binding: Modern, European type. Leather spine with title of the book, the name of the author, and of last owner Sāmī Ḥaddād tooled in gold </label>
+                                    </item>
+                                    <item>
+                                        <label>Orthography: The ḥamza is occasionally missing or replaced by yā'.
+                                            Diacritical dots for tā' marbūṭa and yā' are missing. 
+                                            The scribe wrote rather carelessly, many diacritical dots are misplaced.
+                                            Thus fol. 36a.18 has ثن‍نى (read تبنى), fol. 80b.16 has لذعة (read لدغة) etc.</label>
+                                    </item>
+                                </list>
+                            </additions>
+                            <accMat>
+                                <p>Fol. 1a. Owners' notes:</p>
+                                <p>1) دخل فى نوبة ال‍عبد الاتم هاشم بن مرتضى</p>    
+                                <p>2) صار من مملكات اقل عباد ال‍لّه ابن محمد
+                                    حسين بن محمد باقر بن محمود ال‍طبيب عماد ال‍دين محمود ال‍طه</p>
+                                <p>3) انتقل ل‍لّي ب‍بيع شرعي حرره ل‍لعبد ال‍محتاج
+                                    ل‍لى رحمه ال‍له</p>
+                                <p>4) Other inscriptions are erased.</p>
+                                <p>5. Seals: Iranian censorship seal (1309 AH / 1891~-- 1892 AD
+                                    and 1314 AH / 1896~-- 1897 AD) with added verification در تاريخ
+                                    ١٣١٤ نيز بحص ملاحظه ~مده
+                                    جواز صادر شد
+                                    Arabic nos. 414, 432, 433. Other seals are either hardly visible or
+                                    erased. Persian verses and the name of the owner
+                                    سپس از شبها در كتبه اشعار شعارى تصاحب شعار محترمين سير
+                                    وتماشا ميكردم اين رباعى را فراخور احوال حود ديدم كردر خور
+                                    وجودخويش زردشتمى ننگى زميان خلق برداشتمى ساق شجر تمام ين
+                                    برگان را ازبر عطاى خويش برداشتمى
+                                    اقل عباد
+                                    ضعف
+                                    برحمت پناه مرضى اسماعيل يزدي اصل اسفهانى ال‍مسكن بتاريخ ١٢٣٩ شهر
+                                    رمضان
+                                </p>
+                                <p>6. fols 211b~-- 004 contain recipes and erased seals.</p>
+                            </accMat> 
+                        </physDesc>
+                        <history>
+                            <origin>
+                                <origDate calendar="hijri">5 Ramaḍān 838 (part 1)</origDate>
+                                <origDate calendar="gregorian">4 April 1435 (part 1)</origDate>
+                                <origDate calendar="hijri">26 Muḥarram 841 (part 2)</origDate>
+                                <origDate calendar="gregorian">28 July 1437 (part 2)</origDate>
+                                <note>This manuscript has two copy dates, with a gap of just over 2 years between the two parts. The reason for this is unknown.</note>
+                            </origin>
+                            <provenance>
+                                Known owners: 1. Hāšim b. Murtaḍā al-Ḥusaynī, 2.
+                                `Ibād Allāh b. Muḥammad Ḥusayn b. Muḥammad Bāqir b.
+                                Muḥammad aṭ-Ṭabīb `Imād ad-Dīn Muḥammad
+                                aṭ-Ṭaha, 3. Mirzā Ismā`īl (1824), 4. Sāmī
+                                Ibrāhīm Ḥaddād (1986)
+                            </provenance>
+                            <acquisition>
+                                Sotheby's lot 466 (22/21.11.85)
+                            </acquisition>
+                        </history>
+                        <additional>
+                            <adminInfo>
+                                <recordHist>
+                                    <source>
+                                        <bibl> Ullmann Medizin p. 140~-- 146, Ḥaddād/Biesterfeld no.18
+                                            (Shelf-mark: 510/384 Mkl / 838 /124) </bibl>
+                                    </source>
+                                </recordHist>
+                                <availability status="free">
+                                    <p></p>
+                                </availability>
+                            </adminInfo>
+                        </additional>                     
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-02"><persName>Lara Salha</persName>Updated old XML file into TEI schema"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
