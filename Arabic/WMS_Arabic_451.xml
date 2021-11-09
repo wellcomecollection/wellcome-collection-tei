@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16094">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 451</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Lara</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">WMS Arabic 451 </idno>
+                <idno type="catalogue"></idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 451 </idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 92 (Shelf-mark: 521/1008 An / /n13)</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b21417453</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Six different texts all relating to medicine and health. The name of the author and the title of the book are unidentified. F. Ḥaddād and H.H. Biesterfeld (Ḥaddād/Biesterfeld p. 130)
+                            consider the poem on fol. 76 to be an independent work.</summary>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support><p>Non-Western paper</p></support>
+                                <extent>
+                                    76 folios
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">140</dim>
+                                        <dim type="length">190</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <catchwords>Catchwords are written underneath the text block</catchwords>
+                                </foliation>
+                               <collation>
+                                   <formula>Due to the poor condition of the manuscript, quires could not be established</formula>
+                               </collation>
+                                <condition>Poor. Lack of order, water-stained folios; text is not always readable. fols 14~-- 35 in poor state of preservation.</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="15">15, with a ruler width of 10mm</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="maġrībī" scope="major">
+                                <p><label>Script:</label>maġrībī</p>
+                                <p><label>Ink: black, headings and dividers are highlighted in red</label></p>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <list>
+                                <item>
+                                    <label>Orthography: Diacritical dots are occasionally missing or misplaced. In the whole
+                                        MS letter ض is replaced by ظ , the letter ط is replaced by ص .</label>
+                                </item>
+                            </list>
+                            <note>fol. 14a. A recipe which mentions the use of the poppy خشخاش</note>
+                            <note>lacuna between fols 75 and 76.</note>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>modern, cardboard, partly disintegrated</p>
+                            </binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="gregorian">18th century</origDate>
+                        </origin>
+                        <provenance>
+                            Known owners: Sāmī Ibrāhīm Ḥaddād (1986)
+                        </provenance>
+                        <acquisition>
+                            Sotheby's lot 507 (22/21.11.85)
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ḥaddād/Biesterfeld no. 92 (Shelf-mark: 521/1008 An / /n
+                                        13).</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    
+                    <msPart n="1" xml:id="WMS_Arabic_451_part1">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>1</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>A list of diseases and their treatment.</summary>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem>
+                                
+                                <author>Anonymous</author>
+                                <title xml:lang="ar-Latn-x-lc">Risālat fī l-`Ilāǧ kutibat li-l-Amīr Darwīš</title>
+                                <title xml:lang="ar">رسالة في ال‍علاج كتبت ل‍ل‍مير درويش</title>
+                                <title xml:lang="en">An epistle about treatment of diseases written for Amīr
+                                    Darwīš</title>
+                                
+                                <textLang mainLang="ar">Arabic</textLang>
+                                
+                                <incipit>
+                                    <locus>Fol. 1b.1</locus>
+                                    بسم ال‍له ال‍رحمن ال‍رحيم وصلى ال‍له على سيدنا محمد واله
+                                    باسمك ال‍لهمَّ نطلب ال‍نجاة وال‍شفا وباشارات ذكرك و‌حمدك
+                                    نسالك الارشاد الى قانون ال‍صحة وال‍دواء من الادواية من اودع
+                                    ل‍خواص فيما ابدع من ال‍عجايب وال‍مهم ال‍خواص استخرجها
+                                    وال‍تجارب
+                                    نسالك اجل صلاة وسلام علة توال ال‍مدد ب‍اتم
+                                    ل‍مدد على افضل من ختمت به ادوار ال‍مراتب ال‍فاضلة وجمعت به
+                                    شتات ال‍خصال ال‍كاملة وربعته اقوم معراج واكمل درك منهاج وعلى
+                                    من سلك منحاجه الاقوم من اله وصحبه و‌شيعته وحزبه ما تعاقبت
+                                    ل‍جسام ال‍صحه وال‍سقام
+                                    لما لفظتنى يد
+                                    ل‍زمان ورعت بى الى ال‍غربة  وطوار فال‍خدثان تناولتي اكفا من
+                                    خدمته ال‍سعادة وحفظته ال‍سيادة وسارت به الالوية ال‍خاقانية
+                                    وال‍دولة ال‍عثمانية ف‌وكلت الامير درويش دامت ايامه ال‍فاجرة
+                                    ودولته ال‍زاهرة وكان من تمام ال‍توفيق  الذي حصل ب‍نسبه وال‍سعادة
+                                    لتى هى نتيجة الاجتماع به
+                                    
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol.13a.7</locus>
+                                    فقالت اعو‌د ب‍ال‍له من ال‍شيطان ال‍رجيم و‌جزاهم ب‍ما جروا جنةًا
+                                    وحريرًا
+                                    (sic!)
+                                    (the rest is not clear) متكين في‌ها على الا
+                                </explicit>
+                                
+                                <colophon>
+                                    <locus>Fol. 13a.10</locus>
+                                    (not clear) انتهت قصة ال‍جارية رحمة اله عليها مع
+                                    ال‍له ال‍مبارك رضى ال‍له عنه
+                                </colophon>    
+                            </msItem>
+                        </msContents>                        
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="WMS_Arabic_451_part2">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>2</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>Two pages with recipes and instructions about the use of assafoetida</summary>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem>
+                                
+                                <author>Anonymous
+                                </author>
+                                <title xml:lang="ar-Latn-x-lc">Asrār al-maktūma`inda al-.Ḥukamā'</title>
+                                <title xml:lang="ar">الاسرار ال‍مكتومة عند ال‍حكوما</title>
+                                <title xml:lang="en">Secrets which the Wise men keep</title>
+                                
+                                <textLang mainLang="ar">Arabic</textLang>
+                                
+                                <incipit>
+                                    <locus>Fol. 13b.1</locus>
+                                    حب ال‍خلثيث نافع ل‍حمى ال‍ثالث
+                                    و‌ساير ال‍حميات
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 14a.5</locus>
+                                    (not clear) ال‍شعير التي من
+                                    ال‍مذكورة الى تمام وهو
+                                </explicit>
+                                
+                                <colophon>و‌هو من الاسرار ال‍مكتومة عند ال‍حكما</colophon>         
+                                
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="3" xml:id="WMS_Arabic_451_part3">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>3</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>An extract from al-Anṭākī's Nuzhat al-Aḏhān fī Iṣlāḥ al-Abdān</summary>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem>
+                                
+                                <author key="person_90075818">
+                                    <persName xml:lang="eng">داوود بن عمر الانطاكى</persName>
+                                    <persName xml:lang="ar">Dā'ūd b. `Umar al-Anṭākī</persName>
+                                </author>
+                                <title xml:lang="ar-Latn-x-lc">Fawā'id fī ṭ-Ṭibb(Nuzhat al-Aḏhān fī Iṣlāḥ al-Abdān)</title>
+                                <title xml:lang="ar">( فوايد في ال‍طب (نزهة الاذهان في اصلاح ل‍بدان</title>
+                                <title xml:lang="en">Pleasantness of Oils for [human] Health.</title>
+                                
+                                <textLang mainLang="ar">Arabic</textLang>
+                                
+                                <incipit>
+                                    <locus>Fol.14b.1</locus>
+                                    فوايد في ال‍طب مختصرة منقولة من نزهة الادهان ل‍ل‍شيخ داوود
+                                    ل‍نطاكى رحمة ال‍له تعالى
+                                    امراض ال‍قلب وهو اما ب‍ال‍غشى
+                                    ويكون من جوع
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 31b.13</locus>
+                                    من ال‍رمد وال‍سلاف وال‍جرب فهذا اخر ما يخص من ال‍علاجت وال‍له
+                                    ل‍شاي ب‍فضله امين
+                                </explicit>
+                            </msItem>
+                        </msContents>      
+                    </msPart>
+                    
+                    <msPart n="4" xml:id="WMS_Arabic_451_part4">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>4</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>An unidentified fragment of a medical poem</summary>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem>
+                                
+                                <author key="person_">
+                                    <persName xml:lang="eng"></persName>
+                                    <persName xml:lang="ar"></persName>
+                                </author>
+                                <title xml:lang="ar-Latn-x-lc">Urǧūza</title>
+                                <title xml:lang="ar">ارجوزة</title>
+                                
+                                
+                                <textLang mainLang="ar">Arabic</textLang>
+                                
+                                <incipit>
+                                    <locus>Fol. 36a.1</locus>
+                                    ويهظم ال‍طعام هظمًا حسنًا ٭ كما يدر ال‍بول درابينا
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 41b.16</locus>
+                                    ل‍ل‍كبدة ال‍حارة والاستسقى ا
+                                </explicit> 
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="16">16</layout>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                        
+                    </msPart>
+                    
+                    <msPart n="5" xml:id="WMS_Arabic_451_part5">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>5</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>A fragment of a medical (magical?) work.</summary>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem>
+                                
+                                <author>Anonymous
+                                </author>
+                                <title xml:lang="ar-Latn-x-lc">Ṣifāt</title>
+                                <title xml:lang="ar">صفات</title>
+                                <title xml:lang="en">[Medical] Qualities</title>
+                                
+                                <textLang mainLang="ar">Arabic</textLang>
+                                
+                                <incipit>
+                                    <locus>Fol. 42a.6</locus>
+                                    حمر فانه يسْكر سكرا عظيما
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 68b.15</locus>
+                                    وهى ذاهلة ال‍عقل تاخذ دم
+                                </explicit>
+                                
+                                <note>Fragment is in poor state of preservation, only those chapters and
+                                    quotations which could be deciphered are cited in the detailed contents.</note>                           
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <condition>poor, folios are water stained and mostly illegible</condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="15">15</layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            
+                        </physDesc>
+                        
+                    </msPart>
+                    
+                    <msPart n="6" xml:id="WMS_Arabic_451_part6">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>1</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>Prophetic medicine (?). Extracts from H̱awāṣṣ by Nūr ad-Dīn ad-Dimyāṭī</summary>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem>
+                                
+                                <author>
+                                    <persName xml:lang="eng">Abū
+                                        `Abd Allāh Aḥmad b. Muḥammad b. `Abd Allāh
+                                        al-Fāsī al-Marrākušī</persName>
+                                    <persName xml:lang="ar">ابو عبد ال‍له احمد بن محمد بن
+                                        عبد ال‍له ال‍فاسى ال‍مراكشى</persName>
+                                </author>
+                                <title xml:lang="ar-Latn-x-lc">Risālat fī al-Rūḥāniyāt</title>
+                                <title xml:lang="ar">رسالة في ال‍رحانيات</title>
+                                <title xml:lang="en">Epistle on Spirituality</title>
+                                
+                                <textLang mainLang="ar">Arabic</textLang>
+                                
+                                <incipit>
+                                    <locus>Fol. 69b.1</locus>
+                                    بسم ال‍له ال‍رحمن ال‍رحيم  صلى ال‍له على سيدنا وهو محمد وسلم
+                                    قال ال‍شيخ الامام ال‍عالم ال‍علامة ال‍مفسر ال‍محق‍ق
+                                    ل‍مكاشف ال‍ربانى ابو عبد ال‍له احمد بن محمد بن عبد ال‍له ال‍فاسى
+                                    مولدا ومتسكنا
+                                    ال‍مراكشى
+                                    رحمه  ال‍له
+                                    ال‍حمد ل‍له
+                                    لذى تنزه عن ال‍تكبيه
+                                    (not clear)
+                                    وال‍تحريد
+                                    وبعد فقد سالنى مولانا
+                                    مير ال‍مدينتين ال‍عظيمتين مراكش وفاس وما عداهما من ال‍مدن وال‍قرى
+                                    من سيدنا ومولانا ابو عبد ال‍له محمد بن ساداتنا وهو الينا اشرف
+                                    ل‍سلاطين ال‍معظمين  ال‍مختري‍ين
+                                    (not clear) سلاتهم
+                                    (not clear) ب‍اسيد المرسلين صلى ال‍له عليهم وسلم ان اجعل لهم خواصا
+                                    على نضم ال‍شيخ
+                                    ال‍صوفى نور ال‍دين ال‍ضمياطى رضى
+                                    ل‍له عنه
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 76b.12</locus>
+                                    وعلى ال‍له اجل ال‍برايا
+                                    و‌على صحبه اجمعين ال‍سلام
+                                </explicit>
+
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="21">21</layout>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                        
+                    </msPart>               
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-09"><persName>Lara Salha</persName>Updated old XML file into TEI schema</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
+
