@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16070">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 427</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">WMS Arabic 427</idno>
+                <idno type="catalogue">Fihrist</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 427</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 49 (Shelf-mark: 510/618 Ǧq / 1258 /80)</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20296976</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>An abridgement of Avicenna's Canon</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_427-part1">
+                            <author key="person_7160725527610180419">
+                                <persName xml:lang="eng" type="standard">Maḥmūd b. `Umar al-Ǧaġmīnī</persName>
+                                <persName xml:lang="ar" type="original">محمود بن عمر ال‍جغميني</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Qānūnǧa fī-ṭ-Ṭibb</title>
+                            <title xml:lang="ar" type="original">قنونجه فى ال‍طبّ</title>
+                            <title xml:lang="en" type="standard">A résumé of Kitāb al-Qānūn</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            <textLang otherLangs="fa">Persian</textLang>
+                            
+                            <incipit>
+                                <locus>Folio 1a</locus>
+                                بسم ال‍له ال‍رحمن ال‍رحيم
+                                ال‍حمد ل‍لّه رب ال‍عالمين
+                                وال‍صلوة على محمد ال‍مصطفى واله اجمعين
+                                اما بعد
+                                فهذا مختصر يشتمل على زبدة ما يجب استحصاره من صناعة
+                                ل‍طب انتخبته واخترته من كتب ال‍متقدمين ورتبته على عشرة مقالات
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Folio 56a.10</locus>
+                                وال‍متخذ من ال‍مياه ال‍معتصرة كماء ال‍حصرم وال‍رمان وال‍سماق
+                                فقوتها مثل قوة عصاراتها واما ال‍حلو فال‍عسلي معين ل‍لهضم
+                                وال‍عجيني
+                                مولد ل‍لساد وخصوصا
+                                ل‍متخذ من رقيق الارز واما ال‍متخذ من ال‍سكر فهو اجود من ساير
+                                ل‍حلاوي ال‍حمد ل‍لّه على ال‍توفيق ب‍ال‍تمام وال‍صلاة على خير
+                                ل‍نام وعلى اله اجمعين
+                            </explicit>
+                            
+                            <colophon> ل‍رساله ال‍مسمى بقانونجه فى عشر اول من
+                                جمادى ال‍ثانى من شهور تسعه وخمسين مايتين بعد الالف سنة ١٢٥٩
+                                حقير كاتب ال‍حروف محمد رضا بن مرحوم حاجى</colophon>
+                            
+                            <colophon><locus>Folio 56b</locus>: a second colophon in Persian.</colophon>
+                                                        
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p>Oriental paper</p></support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">105</dim>
+                                        <dim type="length">170</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="height">56</dim>
+                                        <dim type="width">108</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <catchwords>Catchwords are written underneath the text block</catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios:</label>01+56+001
+                                    <formula>due to the binding could not be established exactly</formula>
+                                </collation>
+                                <condition>Good</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="12">12</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="nasta" scope="major">
+                                <p><label>Script:</label> nasta`līq</p>
+                                <p><label>Scribe:</label>  <persName xml:lang="eng" type="standard">Muḥammad Riḍā'</persName>
+                                    <persName xml:lang="ar" type="original">محمد رضى</persName></p>
+                                <p><label>Ink:</label> black, headings are highlighted by a red line above the relevant word</p>
+                                <note>Folios 9a, 26a, 27b, 32a, 33a, 34a, 36a, 37b, 38a, 43b, 44a, 45ab, 50b: notes and occasional corrections on margins.
+                                </note>
+                                <note>Diacritical dots for tā' marbūṭa and yā' are occasionally missing or misplaced. Sometimes alifs are missing: <locus>Folio 39b.1</locus>. Dialectal features: instead of بوقي is بواقي</note>
+                            </handNote>
+                            <handNote script="naskh" scope="minor">
+                                <p><label>Script:</label> naskh. Captions in red on the margins.</p>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <p>1. Fol. 1b. Seal (oval 19 x 17) with the legend ل‍موسوى ١٢٨٩محمد تقى</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>European type, black leather</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian">10 Ǧumadā II 1259 / 8 July 1843</origDate>
+                        </origin>
+                        <provenance>Known owners: 1. Muḥammad Taqī al-Mūsawī (1872/1873~--seal), 2. Sāmī Ibrāhīm Ḥaddād (1986).
+                        </provenance>
+                        <acquisition>
+                            <p>Sotheby's lot 484 (22/21.11.85)</p>
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ullmann Medizin p. 154, Ḥaddād/Biesterfeld no. 49(Shelf-mark: 510/618 Ǧq / 1258 /80).
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-09"><persName>Victoria Sloyan</persName> updated old XML file into TEI schema</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
+
+<!-- In the previous XML version, there was the following information that may/may not be of use:
+        <WMSpace>
+          <WMSpacelines>12</WMSpacelines>
+          <WMSpacedensity>140</WMSpacedensity>
+          <WMSpaceratio>1:1,6</WMSpaceratio>
+          <WMSpaceanglealef>80</WMSpaceanglealef>
+          <WMSpaceanglekaf>55</WMSpaceanglekaf>
+        </WMSpace>
+
+
+-->
