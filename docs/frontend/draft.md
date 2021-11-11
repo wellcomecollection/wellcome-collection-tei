@@ -2,47 +2,47 @@
 
 ## Identification
 
-| TEI | API |
-| :--- | :--- |
+| TEI | API | Status | Required to remove toggle |
+| :--- | :--- |:--- |:--- |
 | msIdentifier/idno | identifiers |
 | msIdentifier/idno | ReferenceNumber |
 | msIdentifier/altIdentifier | identifiers |
-| msIdentifier/altIdentifier type="Sierra" | Sierra identifier |
+| msIdentifier/altIdentifier type="Sierra" | Sierra identifier | Done | yes
 | msIdentifier/altIdentifier type="accession" | Accession identifier |
 | msIdentifier/altIdentifier type="former" | Former identifier |
 
 ## Description
 
-| TEI | API |
-| :--- | :--- |
-| publicationStmt/idno type="msID" | title |
-| mscontents/summary | description |
-| textLang | languages |
-| msItem/textLang | languages |
-| msItem/locus | description |
-| msItem/author | contributor |
-| msItem/title type="original" | title |
-| msItem/incipit | notes /[begins]/ |
-| msItem/incipit/locus | notes /[begins]/ |
-| msItem/explicit | notes /[ends]/ |
-| msItem/explicit/locus | notes /[ends]/ |
-| msItem/colophon | notes /[colophon]/ |
-| msItem/colophon/locus | notes /[colophon]/ |
-| history/origin/origPlace | production |
-| history/origin/origDate | production |
-| history/provenance | notes \[ownership\] |
+| TEI | API | Status | Required for toggle |
+| :--- | :--- |:--- |:--- |
+| publicationStmt/idno type="msID" | title | Done | yes
+| mscontents/summary | description | Done | yes
+| textLang | languages | Done | yes
+| msItem/textLang | languages | Done | yes
+| msItem/locus | description | | yes
+| msItem/author | contributor | Done | yes
+| msItem/title type="original" | title | Done | yes
+| msItem/incipit | notes /[begins]/ | | yes
+| msItem/incipit/locus | notes /[begins]/ | | yes
+| msItem/explicit | notes /[ends]/ | | yes
+| msItem/explicit/locus | notes /[ends]/ | | yes
+| msItem/colophon | notes /[colophon]/ | | yes
+| msItem/colophon/locus | notes /[colophon]/ | | yes
+| history/origin/origPlace | production | Done | yes
+| history/origin/origDate | production | Done | yes
+| history/provenance | notes \[ownership\] | 
 | history/acquisition | notes \[acquisition\] |
-| physDesc/handDesc/handNote | contributor |
-| physDesc/objectDesc/object/support | physicalDescription |
-| physDesc/objectDesc/object/extent |physicalDescription |
+| physDesc/handDesc/handNote | contributor | Done | yes
+| physDesc/objectDesc/object/support | physicalDescription | in progress| yes
+| physDesc/objectDesc/object/extent |physicalDescription | in progress | yes
 | handDesc | notes \[hand\] |
 
 
 ## Notes
 
-| TEI | API |
-| :--- | :--- |
-| additional/adminInfo/recordHist/source | notes \[source\] |
+| TEI | API | Status | Required for toggle |
+| :--- | :--- |:--- |:--- |
+| additional/adminInfo/recordHist/source | notes \[source\] | | 
 
 ## Access Conditions?
 
