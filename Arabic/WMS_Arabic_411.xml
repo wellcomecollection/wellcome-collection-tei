@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16052">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 411</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="MM">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Miten Mistry</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">WMS_Arabic_411</idno>
+                <idno type="catalogue">Fihrist</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 411</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 20 (Shelf-mark: 514 / 400 Kt / 1858 AD / 101).</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>A Manual on Ophthalmology</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_411-part1">
+                            <author key="person_66856503">
+                                <persName xml:lang="eng" type="standard">Šaraf ad-Dīn `Alī b. `Īsā al-Kaḥḥāl</persName>
+                                <persName xml:lang="ar" type="original"></persName> <!-- I cannot find the arabic in the orignal TEI file, there is this tag in the original file
+                                    <WMSauthorarab><WMStu><WMStex>^srf al-dyn `lY bn `ysY al-k.hAl</WMStex><WMSutf></WMSutf></WMStu></WMSauthorarab>
+                                    but I am not sure what that is. I could not copy and paste from the pdf on sharepiont-->
+                                
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Taḏkirat al-Kaḥḥālīn</title>
+                            <title xml:lang="ar" type="original">شرف ال‍دين على بن عيسى ال‍كحال</title>
+                            <title xml:lang="en" type="standard">A Memorandum for Oculists</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <incipit xml:lang="ar">
+                                <locus> Fol. 1a.1</locus>
+                                جوابًا عما ساءله
+                                بعض اخوانه عن تعريفة امراض ال‍عين وعلاجاتها وارويتها واصل
+                                كتابك ايها الاخ عن جوامع كتب جالينوس فى امراض ال‍عين وعلاج كل
+                                مرضٍ منها لان الاسكندراني‍ين ذكروا عدد الامراض ولم يذكروا
+                                علاجها وقد رايت اسعدك ال‍لّه ان اولف لك كتابًا في ال‍عين اذكر فيه
+                                جميع ما ساءلت عنه ب‍اختصار وايجاز فان الاختصار اذا جمع
+                                تلتة اشياء احدهما الاستقصا فى ال‍صفة وال‍تانى فى الاتمام
+                                ل‍لعين وال‍تالت الايحاد ل‍لكلام
+                            </incipit>
+                            
+                            <explicit >
+                                <locus>Fol. 197b.6</locus>
+                                وسخ الاذن اذن الانسان اذا جعل منه يسير في ميل واكتحل به من
+                                لا ينظر ب‍ال‍ليل ثلاثة ليالى نفعه مجرب
+                            </explicit>
+                            
+                            <colophon xml:lang="ar">تم وكمل هذه ال‍تذكره وكاتبه بيده
+                                ل‍فانية يعقوب ال‍خورى ابراهيم ابي جوده من غابة برمانا وحرر
+                                عن ال‍نسخة فى ٢١ تشرين اول سنه ١٨٥٨</colophon>
+                                                        
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p>Oriental paper</p></support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">115 (75)</dim> <!-- it had some dimensions in brackets like this, not if how i have move it across is correct? <WMSdimensions>115x180 (75x120)</WMSdimensions>  -->
+                                        <dim type="length">180 (120)</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <catchwords>+</catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios:</label>201
+                                    <formula>Not possible to identify quires.</formula>
+                                </collation>
+                                <condition>Good</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="13">13</layout>
+                                <layout><label>Mistara:</label> <dimensions unit="mm"><dim>9</dim></dimensions></layout> <!-- added Mistara here, if this is not needed or in the wrong place, please delete or remove -->
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>naskh</p>
+                                <p><label>Ink:</label>black, red headings</p>
+                                <persName xml:lang="ar" type="copyist">يعقوب ال‍خورى ابراهيم ابي جوده 
+                                    (من غابة برمانا)</persName> <!-- I have put a 'copyist' in here (should it go under author?), not sure if this makes sense (or if we do not need this
+                                        ,please delete if i have got it wrong?-->
+                            </handNote>
+                                                    </handDesc>
+                        <additions>
+                            <list>
+                               <item>1. Fols 1a, 38a, 65a, 69a, 92a, 134a,135a, 151a, 153a, 162a, 166a,
+                                   170a, 176a, 181a, 185a have the mark impressed: <foreign xml:lang="ar">ا ثر جديد عهده يون</foreign>(?)</item>
+                                <item>2. Fols 200b-201a-contain an index of recipes and remedies with references to the main text.</item>
+                          <item> 3. Lacuna between fol. 4 and fol. 5</item>
+                               <item>4. Fols 198a, 199a, 200a, 201b - blank.</item>
+                                <item>5. Fol. 198b. - table of contents writtenby the copyist's hand.</item>
+                                <item>6. Fols 100 and 117~-- traces of space calculation by the copyist.</item>
+                                <item>Diacritical dots, tā marbūṭa and ḥamza are occasionally missing. Dialectal features: 
+                                    instead of <foreign xml:lang="ar">ذ</foreign> is written <foreign xml:lang="ar">د</foreign> and 
+                                    instead of <foreign xml:lang="ar">ث</foreign> is constantly written <foreign xml:lang="ar">ت</foreign>.</item>
+                            </list>                         
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>Leather with tooling. Christian type.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian"><date when="1858-10-21">21st October 1858</date></origDate>
+                        </origin>
+                        <provenance>Known owners: Impossible to establish since the first folios have
+                            been torn away (the book was obviously stolen).</provenance>
+                        <acquisition>Sotheby's lot 468 <date notBefore="1985-11-21" notAfter="1985-11-22">(22/21.11.85)</date></acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ullmann Medizin p. 208; Ḥaddād/Biesterfeld no. 20(Shelf-mark: 514 / 400 Kt / 1858 AD / 101).</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-12"><persName>Miten Mistry</persName>Updated old XML file into TEI schema</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
+
+<!-- In the previous XML version, there was the following information that may/may not be of use:
+
+<WMSpace>
+          <WMSpacelines>13</WMSpacelines>
+          <WMSpacedensity>100</WMSpacedensity>
+          <WMSpaceratio>1:2</WMSpaceratio>
+          <WMSpaceanglealef>95</WMSpaceanglealef>
+          <WMSpaceanglekaf>30</WMSpaceanglekaf>
+        </WMSpace>
+        
+<WMScontents>
+          <WMSiline n='1'>
+            <locus>Fol. 2b.13</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-mqAlT al-awlY whY a.hdY w`^srwn bAb"aN</WMStex>
+                <WMSutf>ال‍مقالة الاولى وهى احدى وعشرون بابًا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='2'>
+            <locus>Fol. 4b.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-awl fY .hd al-`yn</WMStex>
+                <WMSutf>ال‍باب الاول فى حد ال‍عين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='3'>
+            <locus>Fol. (missing)</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_tAnY fy mnf`T al-`yn wf`lhA</WMStex>
+                <WMSutf>ال‍باب ال‍ثانى في منفعة ال‍عين وفعلها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='4'>
+            <locus>Fol. (missing)</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_tAl_t fy .tb` al-`yn wmzA^ghA</WMStex>
+                <WMSutf>ال‍باب ال‍ثالث في طبع ال‍عين ومزاجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='5'>
+            <locus>Fol. 5a.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-rAb` a_dkr fyh km mn sbab tkwn al-`yn k.hlA</WMStex>
+                <WMSutf>ال‍باب ال‍رابع اذكر فيه كم من سبب تكون ال‍عين كحلا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='6'>
+            <locus>Fol. 5b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_hAms a_dkr fyh sbab tkwn zrqh</WMStex>
+                <WMSutf>ال‍باب ال‍خامس اذكر فيه سبب تكون زرقه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='7'>
+            <locus>Fol. 6a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAds a_dkr fyh km hY .tbqAt</WMStex>
+                <WMSutf>ال‍باب ال‍سادس اذكر فيه كم هى طبقات</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='8'>
+            <locus>Fol. 7a.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAb` a_dkr fyh km hY r.twbAt al-`yn
+w-a`.sAbhA w`.dlAthA</WMStex>
+                <WMSutf>ال‍باب ال‍سابع اذكر فيه كم هى رطوبات ال‍عين
+واعصابها وعضلاتها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='9'>
+            <locus>Fol. 7b.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAmn a_dkr fyh amr al-r.twbT al-^glydyT</WMStex>
+                <WMSutf>ال‍باب ال‍تامن اذكر فيه امر ال‍رطوبة ال‍جليدية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='10'>
+            <locus>Fol. 9a.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAs` a_dkr fyh amr al-r.twbT al-z^gA^gyT</WMStex>
+                <WMSutf>ال‍باب ال‍تاسع اذكر فيه امر ال‍رطوبة ال‍زجاجية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='11'>
+            <locus>Fol. 10a.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-`A^sr a_dkr fyh al-.tbqT al-^sbkyT wmA
+mnf`thA</WMStex>
+                <WMSutf>ال‍باب ال‍عاشر اذكر فيه ال‍طبقة ال‍شبكية وما
+منفعتها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='12'>
+            <locus>Fol. 11a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-.hAdY `^sr a_dkr fyh al-.tbqT al-m^symyT</WMStex>
+                <WMSutf>ال‍باب ال‍حادى عشر اذكر فيه ال‍طبقة ال‍مشيمية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='13'>
+            <locus>Fol. 12a.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_tAnY `^sr a_dkr fyh amr al-.tbqT
+al-.slbh</WMStex>
+                <WMSutf>ال‍باب ال‍ثانى عشر اذكر فيه امر ال‍طبقة
+ل‍صلبه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='14'>
+            <locus>Fol. 12b.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAlt `^sr a-dkr fyh amr al-.tbqT
+al-`nkbwtyh</WMStex>
+                <WMSutf>ال‍باب ال‍تالت عشر ا‌دكر فيه امر ال‍طبقة
+ل‍عنكبوتيه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='15'>
+            <locus>Fol. 13a.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-rAb` `^sr a_dkr fyh amr al-r.twbT
+al-by.dyT</WMStex>
+                <WMSutf>ال‍باب ال‍رابع عشر اذكر فيه امر ال‍رطوبة
+ل‍بيضية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='16'>
+            <locus>Fol. 14a.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_hAms `^sr a_dkr fyh amr al-.tbqT
+al-`nbyT</WMStex>
+                <WMSutf>ال‍باب ال‍خامس عشر اذكر فيه امر ال‍طبقة
+ل‍عنبية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='17'>
+            <locus>Fol. 14b.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAds `^sr a_dkr fyh amr al-.tbqT
+al-qrnyT</WMStex>
+                <WMSutf>ال‍باب ال‍سادس عشر اذكر فيه امر ال‍طبقة
+ل‍قرنية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='18'>
+            <locus>Fol. 15a.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAb` `^sr adkr fyh amr al-.tbqT al-mlt.hmT</WMStex>
+                <WMSutf>ال‍باب ال‍سابع عشر ادكر فيه امر ال‍طبقة ال‍ملتحمة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='19'>
+            <locus>Fol. 15b.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAmn `^sr a_dkr fyh `dad `.dl al-`yn wrbA.tAthA w-ayn mn^sAh
+w-ayn mw.d`h</WMStex>
+                <WMSutf>ال‍باب ال‍تامن عشر اذكر فيه عدد عضل ال‍عين ورباطاتها واين منشاه
+واين موضعه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='20'>
+            <locus>Fol. 16b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAs` `^sr a_dkr fyh amr al-`.sb al-nwrY
+wkyf ykwn mn^sAh</WMStex>
+                <WMSutf>ال‍باب ال‍تاسع عشر اذكر فيه امر ال‍عصب ال‍نورى
+وكيف يكون منشاه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='21'>
+            <locus>Fol. 18a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-`^srwn a_dkr fyh mn ayn abtdA' al-rw.h
+al-nfsAnY wkyf ykwn twldh wkyf ykwn bh al-b.sr</WMStex>
+                <WMSutf>ال‍باب ال‍عشرون اذكر فيه من اين ابتداء ال‍روح
+ل‍نفسانى وكيف يكون تولده وكيف يكون به ال‍بصر</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='22'>
+            <locus>Fol. 20a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-.hAdY w-al-`^srwn a_dkr fyh amr `.dl al-`yn w-al-a^gfAn
+w-al-a^sfAr wmnf`thA</WMStex>
+                <WMSutf>ال‍باب ال‍حادى وال‍عشرون اذكر فيه امر عضل ال‍عين والاجفان
+وال‍شفار ومنفعتها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='23'>
+            <locus>Fol. 21a.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-mqAlT al-tAnyT a_dkr fyhA amrA.d al-.zAhrT l|-l.hs </WMStex>
+                <WMSutf>ال‍مقالة ال‍تانية اذكر فيها امراض ال‍ظاهرة ل‍لحس</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex>
+w`lAmAthA w-asbAbhA w`lAmT kl mr.d"iN mnhA</WMStex>
+                <WMSutf>وعلاماتها واسبابها وعلامة كل مرضٍ منها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='24'>
+            <locus>Fol. 24a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-awl fY amwr wdstwrAt y`ml `lyhA fY `lA^g
+amrA.d al-`yn</WMStex>
+                <WMSutf>ال‍باب الاول فى امور ودستورات يعمل عليها فى علاج
+مراض ال‍عين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='25'>
+            <locus>Fol. 36b.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAnY fY al-qwAnyn al-dY y^gb `lY al-.tbyb an yst`mlhA `nd kl
+astfrA`</WMStex>
+                <WMSutf>ال‍باب ال‍تانى فى ال‍قوانين ال‍دى يجب على ال‍طبيب ان يستعملها عند كل
+ستفراع</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='26'>
+            <locus>Fol. 39b.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAlt fY `dad amrA.d al-^gfn whY ts`T
+w`^sryn mr.d</WMStex>
+                <WMSutf>ال‍باب ال‍تالت فى عدد امراض ال‍جفن وهى تسعة
+وعشرين مرض</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='27'>
+            <locus>Fol. 40b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-rAb` fY a.snAf al-^grb w`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍رابع فى اصناف ال‍جرب وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='28'>
+            <locus>Fol. 46b.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-nw` al-_hAms </WMStex>
+                <WMSutf>ال‍نوع ال‍خامس</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> fY al-.nrd w-`lA^gh</WMStex>
+                <WMSutf>فى ال‍ڻرد و‌علاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='29'>
+            <locus>Fol. 47a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAds </WMStex>
+                <WMSutf>ال‍باب ال‍سادس</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> fY al-t.h^gr w`lA^gh</WMStex>
+                <WMSutf>فى ال‍تحجر وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='30'>
+            <locus>Fol. 48a.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAb` fY al-alt.sAq w`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍سابع فى الالتصاق وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='31'>
+            <locus>Fol. 49b.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAmn fY al-^strh</WMStex>
+                <WMSutf>ال‍باب ال‍تامن فى ال‍شتره</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='32'>
+            <locus>Fol. 52a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAs` fY al-^s`rT w`lA^ghA</WMStex>
+                <WMSutf>ال‍باب ال‍تاسع فى ال‍شعرة وعلاجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='33'>
+            <locus>Fol. 52b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-`A^sr fY al-^s`r al-zAyd w`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍عاشر فى ال‍شعر ال‍زايد وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='34'>
+            <locus>Fol. 58b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-.hAdY `^sr fY anqlAb al-^s`r</WMStex>
+                <WMSutf>ال‍باب ال‍حادى عشر فى انقلاب ال‍شعر</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='35'>
+            <locus>Fol. 59a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_tAnY `^sr fY fY ant^sAr al-h_db</WMStex>
+                <WMSutf>ال‍باب ال‍ثانى عشر فى فى انتشار ال‍هذب</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='36'>
+            <locus>Fol. 61b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAlt `^sr fY byA.d al-a^sfAr w-ant^sAr
+al-.hwA^gb</WMStex>
+                <WMSutf>ال‍باب ال‍تالت عشر فى بياض الاشفار وانتشار
+ل‍حواجب</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='37'>
+            <locus>Fol. 62a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-rAb` `^sr fY al-qml w-al-qmqAm
+w-al-qrdAn</WMStex>
+                <WMSutf>ال‍باب ال‍رابع عشر فى ال‍قمل وال‍قمقام
+وال‍قردان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='38'>
+            <locus>Fol. 63a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_hAms `^sr fY anwA` al-wrdyn^g w`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍خامس عشر فى انواع ال‍وردينج وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='39'>
+            <locus>Fol. 65b.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAds [`^sr] fY al-slAq w`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍سادس [عشر] فى ال‍سلاق وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='40'>
+            <locus>Fol. 66b.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAb` `^srfY al-.hkT al-`Ar.dh fY
+al-^gfn</WMStex>
+                <WMSutf>ال‍باب ال‍سابع عشرفى ال‍حكة ال‍عارضه فى
+ل‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='41'>
+            <locus>Fol. 67a.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAmn `^sr fY al-^gsA' al-`Ar.d fY al-^gfn</WMStex>
+                <WMSutf>ال‍باب ال‍تامن عشر فى ال‍جساء ال‍عارض فى ال‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='42'>
+            <locus>Fol. 68a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAs` `^sr fY .gl.z al-a^gfAn w`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍تاسع عشر فى غلظ الاجفان وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='43'>
+            <locus>Fol. 68b.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-`^sryn fY al-dml al-`Ar.d fY al-^gfn</WMStex>
+                <WMSutf>ال‍باب ال‍عشرين فى ال‍دمل ال‍عارض فى ال‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='44'>
+            <locus>Fol. 69a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-.hAdY w-al-`^srwn fY al-^srnAq w`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍حادى وال‍عشرون فى ال‍شرناق وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='45'>
+            <locus>Fol. 71b.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAnY w-al-`^srwn fY al-twth al-`Ar.dh l|-l^gfn</WMStex>
+                <WMSutf>ال‍باب ال‍تانى وال‍عشرون فى ال‍توته ال‍عارضه ل‍لجفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='46'>
+            <locus>Fol. 72b.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAlt w-al-`^srwn fY al-kmnT al-`Ar.dT fY
+al-^gfn</WMStex>
+                <WMSutf>ال‍باب ال‍تالت وال‍عشرون فى ال‍كمنة ال‍عارضة فى
+ل‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='47'>
+            <locus>Fol. 73a.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-rAb` w-al-`^sryn fY al-^srY al-`Ar.d fY
+al-^gfn</WMStex>
+                <WMSutf>ال‍باب ال‍رابع وال‍عشرين فى ال‍شرى ال‍عارض فى
+ل‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='48'>
+            <locus>Fol. 73b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_hAms w-al-`^srwn fY al-nmlT al-`Ar.dT
+fY al-^gfn</WMStex>
+                <WMSutf>ال‍باب ال‍خامس وال‍عشرون فى ال‍نملة ال‍عارضة
+فى ال‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='49'>
+            <locus>Fol. 74b.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAb` </WMStex>
+                <WMSutf>ال‍باب ال‍سابع</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> w-al-`^srwn fY al-s`fT
+al-`Ar.dh fY al-^gfn</WMStex>
+                <WMSutf>وال‍عشرون فى ال‍سعفة
+ل‍عارضه فى ال‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='50'>
+            <locus>Fol. 75a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAb` w-al-`^sryn fY al-tAlyl al-`Ar.d fY
+al-^gfn</WMStex>
+                <WMSutf>ال‍باب ال‍سابع وال‍عشرين فى ال‍تاليل ال‍عارض فى
+ل‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='51'>
+            <locus>Fol. 75b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAmn w-al-`^sryn fY al-antfA_h al-`Ar.d
+fY al-^gfn</WMStex>
+                <WMSutf>ال‍باب ال‍تامن وال‍عشرين فى الانتفاخ ال‍عارض
+فى ال‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='52'>
+            <locus>Fol. 76a.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAs` w-al-`^srwn fY al-tAkl w-al-qrw.h
+al-`Ar.dT fY al-^gfn</WMStex>
+                <WMSutf>ال‍باب ال‍تاسع وال‍عشرون فى ال‍تاكل وال‍قروح
+ل‍عارضة فى ال‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='53'>
+            <locus>Fol. 78a.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_tlAtwn fY al-sl` al-`Ar.d fY al-^gfn</WMStex>
+                <WMSutf>ال‍باب ال‍ثلاتون فى ال‍سلع ال‍عارض فى ال‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='54'>
+            <locus>Fol. 79b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-.hAdY w-al-tlAtwn fY astr_hA al-^gfn
+w-`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍حادى وال‍تلاتون فى استرخا ال‍جفن
+و‌علاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='55'>
+            <locus>Fol. 80a.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAnY w-al-tlAtwn fY mwt al-dm
+w-al-_h.drh fY al-^gfn</WMStex>
+                <WMSutf>ال‍باب ال‍تانى وال‍تلاتون فى موت ال‍دم
+وال‍خضره فى ال‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='56'>
+            <locus>Fol. 80b.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAlt w-al-tlAtyn fY `dad amrA.d al-mAq whY al-.gdT
+w-al-.grb w-al-sylAn</WMStex>
+                <WMSutf>ال‍باب ال‍تالت وال‍تلاتين فى عدد امراض ال‍ماق وهى ال‍غدة
+وال‍غرب وال‍سيلان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='57'>
+            <locus>Fol. 80b.13</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-rAb` w-al-tlAtwn fY `lA^g al-.grb</WMStex>
+                <WMSutf>ال‍باب ال‍رابع وال‍تلاتون فى علاج ال‍غرب</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='58'>
+            <locus>Fol. 84b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_hAms w-al-tlAtyn fY al-.gdT w`lA^ghA</WMStex>
+                <WMSutf>ال‍باب ال‍خامس وال‍تلاتين فى ال‍غدة وعلاجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='59'>
+            <locus>Fol. 85a.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAds w-al-tlAtwn fY al-slAq w`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍سادس وال‍تلاتون فى ال‍سلاق وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='60'>
+            <locus>Fol. 86a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAb` w-al-_tlAtwn fY `dad amrA.d
+al-mlt.hm</WMStex>
+                <WMSutf>ال‍باب ال‍سابع وال‍ثلاتون فى عدد امراض
+ل‍ملتحم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='61'>
+            <locus>Fol. 86a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAmn w-al-tlAtyn fY anwA` al-rmd</WMStex>
+                <WMSutf>ال‍باب ال‍تامن وال‍تلاتين فى انواع ال‍رمد</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='62'>
+            <locus>Fol. 97b.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAs` w-al-tlAtwn fY `lA^g al-.trfT</WMStex>
+                <WMSutf>ال‍باب ال‍تاسع وال‍تلاتون فى علاج ال‍طرفة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='63'>
+            <locus>Fol. 99a.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-arb`wn fY `lA^g mA qd wq` fY al-`yn</WMStex>
+                <WMSutf>ال‍باب الاربعون فى علاج ما قد وقع فى ال‍عين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='64'>
+            <locus>Fol. 99b.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-.hAdY w-al-arb`yn fY al-.zfrT w-`lA^ghA</WMStex>
+                <WMSutf>ال‍باب ال‍حادى والاربعين فى ال‍ظفرة و‌علاجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='65'>
+            <locus>Fol. 102b.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAnY w-al-arb`wn fY al-antfA_h w`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍تانى والاربعون فى الانتفاخ وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='66'>
+            <locus>Fol. 104b.13</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAlt w-al-arb`yn fY al-^gsA' al-`Ar.d l|-lmlt.hm</WMStex>
+                <WMSutf>ال‍باب ال‍تالت والاربعين فى ال‍جساء ال‍عارض ل‍لملتحم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='67'>
+            <locus>Fol. 105b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-rAb` w-al-arb`yn fY al-.hkT</WMStex>
+                <WMSutf>ال‍باب ال‍رابع والاربعين فى ال‍حكة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='68'>
+            <locus>Fol. 105b.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_hAms w-al-arb`yn fY al-sbl w-`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍خامس والاربعين فى ال‍سبل و‌علاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='69'>
+            <locus>Fol. 111b.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAds w-al-arb`wn fY al-wdqT w`lA^ghA</WMStex>
+                <WMSutf>ال‍باب ال‍سادس والاربعون فى ال‍ودقة وعلاجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='70'>
+            <locus>Fol. 112a.13</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAb` w-al-arb`yn fy al-dm`T w-`lA^ghA</WMStex>
+                <WMSutf>ال‍باب ال‍سابع والاربعين في ال‍دمعة و‌علاجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='71'>
+            <locus>Fol. 115a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAmn w-al-arb`yn fY al-dbylh al-`Ar.dh l|-lmlt.hm</WMStex>
+                <WMSutf>ال‍باب ال‍تامن والاربعين فى ال‍دبيله ال‍عارضه ل‍لملتحم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='72'>
+            <locus>Fol. 116a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAs` w-al-arb`yn fY al-twth al-.hAd_th
+fY al-mlt.hm</WMStex>
+                <WMSutf>ال‍باب ال‍تاسع والاربعين فى ال‍توته ال‍حادثه
+فى ال‍ملتحم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='73'>
+            <locus>Fol. 116b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_hmsyn fY `lA^g al|-l.hm al-zAyd</WMStex>
+                <WMSutf>ال‍باب ال‍خمسين فى علاج ال‍لحم ال‍زايد</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='74'>
+            <locus>Fol. 117a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAmn w-al-arb`yn fY al-dbylh al-`Ar.dh l|-lmlt.hm
+</WMStex>
+                <WMSutf>ال‍باب ال‍تامن والاربعين فى ال‍دبيله ال‍عارضه ل‍لملتحم</WMSutf>
+              </WMStu>
+              <WMSLR>(crossed out)</WMSLR>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='75'>
+            <locus>Fol. 117a.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-.hAdy w-al-_hmsyn fY tfrq al-alt.sAq al-`Ar.d l|-lmlt.hm</WMStex>
+                <WMSutf>ال‍باب ال‍حادي وال‍خمسين فى تفرق الالتصاق ال‍عارض ل‍لملتحم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='76'>
+            <locus>Fol. 117b.87</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_tAnY w-al-_hmsyn fY amrA.d al-.h^gAb
+al-qrnY</WMStex>
+                <WMSutf>ال‍باب ال‍ثانى وال‍خمسين فى امراض ال‍حجاب
+ل‍قرنى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='77'>
+            <locus>Fol. 117b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_tAlt w-al-_hmsyn fy anwA` al-qrw.h altY t`r.d fy al-qrnyT</WMStex>
+                <WMSutf>ال‍باب ال‍ثالت وال‍خمسين في انواع ال‍قروح التى تعرض في ال‍قرنية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='78'>
+            <locus>Fol. 121b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-rAb` w-al-_hmsyn fY al-b_trh
+al-.hAd_th fY al-qrnyh w`lA^ghA</WMStex>
+                <WMSutf>ال‍باب ال‍رابع وال‍خمسين فى ال‍بثره
+ل‍حادثه فى ال‍قرنيه وعلاجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='79'>
+            <locus>Fol. 124b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_hAms w-al_hmsyn fY al-a_tr</WMStex>
+                <WMSutf>ال‍باب ال‍خامس والخمسين فى الاثر</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='80'>
+            <locus>Fol. 127a.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAds w-al-_hmsyn fY .sb.g al-a_tr w-zrqT al-`yn</WMStex>
+                <WMSutf>ال‍باب ال‍سادس وال‍خمسين فى صبغ الاثر و‌زرقة ال‍عين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='81'>
+            <locus>Fol. 127b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAb` w-al-_hmsyn fY al-sA^g</WMStex>
+                <WMSutf>ال‍باب ال‍سابع وال‍خمسين فى ال‍ساج</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='82'>
+            <locus>Fol. 128a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAmn w-al-_hmsyn fY al-dbylT al-`Ar.dT
+fY al-qrnyT</WMStex>
+                <WMSutf>ال‍باب ال‍تامن وال‍خمسين فى ال‍دبيلة ال‍عارضة
+فى ال‍قرنية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='83'>
+            <locus>Fol. 128a.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAs` w-al-_hmsyn fY al-sr.tAn al-`Ar.d l|-lqrnyT</WMStex>
+                <WMSutf>ال‍باب ال‍تاسع وال‍خمسين فى ال‍سرطان ال‍عارض ل‍لقرنية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='84'>
+            <locus>Fol. 128b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-stwn fY al-sr.tAn al-`Ar.d fY al-qrnyT whY `lT t`r.d sfAq al-qrnY</WMStex>
+                <WMSutf>ال‍باب ال‍ستون فى ال‍سرطان ال‍عارض فى ال‍قرنية وهى علة تعرض سفاق ال‍قرنى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='85'>
+            <locus>Fol. 130a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-.hAdY w-al-styn fY al-.hfr al-`Ar.d</WMStex>
+                <WMSutf>ال‍باب ال‍حادى وال‍ستين فى ال‍حفر ال‍عارض</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='86'>
+            <locus>Fol. 130b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAnY w-al-styn fY t.gyr lwn al-qrnyT
+w`lA^ghA</WMStex>
+                <WMSutf>ال‍باب ال‍تانى وال‍ستين فى تغير لون ال‍قرنية
+وعلاجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='87'>
+            <locus>Fol. 131a.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAlt w-al-styn fY r.twbT al-.h^gAb
+al-qrnY</WMStex>
+                <WMSutf>ال‍باب ال‍تالت وال‍ستين فى رطوبة ال‍حجاب
+ل‍قرنى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='88'>
+            <locus>Fol. 131b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-rAb` w-al-styn fY ybs al-.h^gAb
+al-qrnY w`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍رابع وال‍ستين فى يبس ال‍حجاب
+ل‍قرنى وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='89'>
+            <locus>Fol. 132a.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_hAms w-alstyn fY kmnT al-mdT _hlf
+al-qrnyT w`lA^ghA</WMStex>
+                <WMSutf>ال‍باب ال‍خامس والستين فى كمنة ال‍مدة خلف
+ل‍قرنية وعلاجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='90'>
+            <locus>Fol. 134b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAds w-al-styn fY ntwA al-qrnyT
+w-al-frq byn ntwhA</WMStex>
+                <WMSutf>ال‍باب ال‍سادس وال‍ستين فى نتوا ال‍قرنية
+وال‍فرق بين نتوها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='91'>
+            <locus>Fol. 135a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAb` w-al-styn fY an.hlAl al-frd </WMStex>
+                <WMSutf>ال‍باب ال‍سابع وال‍ستين فى انحلال ال‍فرد</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex>  al-`Ar.d
+l|-lqrnyT whw an.hrAfhA</WMStex>
+                <WMSutf>ال‍عارض
+ل‍لقرنية وهو انحرافها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='92'>
+            <locus>Fol. 135b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAmn w-al-styn fY `dad amrA.d al-`nbyT</WMStex>
+                <WMSutf>ال‍باب ال‍تامن وال‍ستين فى عدد امراض ال‍عنبية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='93'>
+            <locus>Fol. 135b.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAs` w-al-styn fY al-atsA` al-`Ar.d fY al-.hdqh</WMStex>
+                <WMSutf>ال‍باب ال‍تاسع وال‍ستين فى الاتساع ال‍عارض فى ال‍حدقه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='94'>
+            <locus>Fol. 137a.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sb`yn fY .dyq al-.hdqT w`lA^ghA</WMStex>
+                <WMSutf>ال‍باب ال‍سبعين فى ضيق ال‍حدقة وعلاجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='95'>
+            <locus>Fol. 139a.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-.hAdY w-al-sb`wn fY al-ntw al-`Ar.d fY
+al-`nbyT</WMStex>
+                <WMSutf>ال‍باب ال‍حادى وال‍سبعون فى ال‍نتو ال‍عارض فى
+ل‍عنبية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='96'>
+            <locus>Fol. 141a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAnY w-al-sb`yn fY an.hrAf al-.hdqh whw an.hlAl al-qrd
+al-`Ar.d l|-l`nbyT</WMStex>
+                <WMSutf>ال‍باب ال‍تانى وال‍سبعين فى انحراف ال‍حدقه وهو انحلال ال‍قرد
+ل‍عارض ل‍لعنبية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='97'>
+            <locus>Fol. 141b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAlt w-al-sb`yn fY al-frq byn ntw
+al-`nbyh wbyn al-btr al-.hAd_t fY al-qrnyT</WMStex>
+                <WMSutf>ال‍باب ال‍تالت وال‍سبعين فى ال‍فرق بين نتو
+ل‍عنبيه وبين ال‍بتر ال‍حادث فى ال‍قرنية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='98'>
+            <locus>Fol. 142a.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-rAb` w-al-sb`yn fY al-mA' wqd.hh
+w`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍رابع وال‍سبعين فى ال‍ماء وقدحه
+وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='99'>
+            <locus>Fol. 153a.13</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-mqAlT al-tAlth mn t_dkrT al-k.hAlyn fY amrA.d al-`yn al-_hfyT `n al-.hs
+w-asbAbhA w`lAmT kl mr.d mnhA w`lA^ghA</WMStex>
+                <WMSutf>ال‍مقالة ال‍تالته من تذكرة ال‍كحالين فى امراض ال‍عين ال‍خفية عن ال‍حس
+واسبابها وعلامة كل مرض منها وعلاجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='100'>
+            <locus>Fol. 154b.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-awl fY al-frq byn al-_hyAlAt</WMStex>
+                <WMSutf>ال‍باب الاول فى ال‍فرق بين ال‍خيالات</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='101'>
+            <locus>Fol. 157a.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_tAnY fy _dkr al-r.twbT al-by.dyT</WMStex>
+                <WMSutf>ال‍باب ال‍ثانى في ذكر ال‍رطوبة ال‍بيضية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='102'>
+            <locus>Fol. 159a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAlt fY amrA.d al-r.twbT al-^glydyh
+w-al-`nkbwtyh</WMStex>
+                <WMSutf>ال‍باب ال‍تالت فى امراض ال‍رطوبة ال‍جليديه
+وال‍عنكبوتيه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='103'>
+            <locus>Fol. 160b.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY amrA.d al-rw.h al-bA.sr al-afT</WMStex>
+                <WMSutf>فى امراض ال‍روح ال‍باصر الافة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='104'>
+            <locus>Fol. 162a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY mn yrY mn qryb wlA yrY mn b`yd wfY mn yrY mA
+.s.gr wlA yrY mA kbr</WMStex>
+                <WMSutf>فى من يرى من قريب ولا يرى من بعيد وفى من يرى ما
+صغر ولا يرى ما كبر</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='105'>
+            <locus>Fol. 162b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-^sfA' whw al-^sbkwr whw mn yb.sr nhAr"aN
+wlA yb.sr lyl"aN</WMStex>
+                <WMSutf>فى ال‍شفاء وهو ال‍شبكور وهو من يبصر نهارًا
+ولا يبصر ليلًا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='106'>
+            <locus>Fol. 163b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAmn </WMStex>
+                <WMSutf>ال‍باب ال‍تامن</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> fY al-^ghwr whw
+al-dwrkwrY whw mn yb.sr b-al-lyl wlA yb.sr b-al-nhAr</WMStex>
+                <WMSutf>فى ال‍جهور وهو
+ل‍دوركورى وهو من يبصر ب‍ال‍ليل ولا يبصر ب‍ال‍نهار</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='107'>
+            <locus>Fol. 164a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAs` fY `dad amrA.d al-r.twbT
+al-z^gA^gyT</WMStex>
+                <WMSutf>ال‍باب ال‍تاسع فى عدد امراض ال‍رطوبة
+ل‍زجاجية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='108'>
+            <locus>Fol. 165b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amrA.d al-.tbqT al-^sbkyT wqd y`r.d lhdh
+al-.tbqT al-mr.d mn fsAd mzA^g</WMStex>
+                <WMSutf>امراض ال‍طبقة ال‍شبكية وقد يعرض لهده
+ل‍طبقة ال‍مرض من فساد مزاج</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='109'>
+            <locus>Fol. 166a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.hAdY `^sr fY `dad amrA.d al-`.sb al-nwrY</WMStex>
+                <WMSutf>ال‍حادى عشر فى عدد امراض ال‍عصب ال‍نورى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='110'>
+            <locus>Fol. 166b.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAnY `^sr fY al-ant^sAr w`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍تانى عشر فى الانتشار وعلاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='111'>
+            <locus>Fol. 168a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-_tAlt `^sr fY al-sdT w-al-.d.g.t w-al-wrm
+aldY y`r.d fY al-`.sb al-nwrY</WMStex>
+                <WMSutf>ال‍ثالت عشر فى ال‍سدة وال‍ضغط وال‍ورم
+لدى يعرض فى ال‍عصب ال‍نورى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='112'>
+            <locus>Fol. 169a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAmn `^sr fY amrA.d al-.tbqT al-m^symyT</WMStex>
+                <WMSutf>ال‍باب ال‍تامن عشر فى امراض ال‍طبقة ال‍مشيمية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='113'>
+            <locus>Fol. 169b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-tAs` `^sr fY amrA.d al-.tbqh al-.slbT</WMStex>
+                <WMSutf>ال‍باب ال‍تاسع عشر فى امراض ال‍طبقه ال‍صلبة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='114'>
+            <locus>Fol. 170a.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-`^sryn fY amrA.d al-`.dl al-m.hrk l|-l`yn</WMStex>
+                <WMSutf>ال‍باب ال‍عشرين فى امراض ال‍عضل ال‍محرك ل‍لعين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='115'>
+            <locus>Fol. 170b.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-.hAdY w-al-`^sryn fY `lA^g al-.hwl</WMStex>
+                <WMSutf>ال‍باب ال‍حادى وال‍عشرين فى علاج ال‍حول</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='116'>
+            <locus>Fol. 171a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_tAnY w`^sryn fY .d`f al-b.sr w-`lA^gh</WMStex>
+                <WMSutf>ال‍باب ال‍ثانى وعشرين فى ضعف ال‍بصر و‌علاجه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='117'>
+            <locus>Fol. 173b.13</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY .hf.z .s.hT al-`yn</WMStex>
+                <WMSutf>فى حفظ صحة ال‍عين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='118'>
+            <locus>Fol. 175a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_hAms w-al-`^sryn fY al-.sdA` wfy al-^sqyqT al-tAb`T lw^g`
+al-`ynyn</WMStex>
+                <WMSutf>ال‍باب ال‍خامس وال‍عشرين فى ال‍صداع وفي ال‍شقيقة ال‍تابعة لوجع
+ل‍عينين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='119'>
+            <locus>Fol. 182b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-_hAms w-al-`^sryn </WMStex>
+                <WMSutf>ال‍باب ال‍خامس وال‍عشرين</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> fY
+al-^sryAnY al-.sd.gyn</WMStex>
+                <WMSutf>فى
+ل‍شريانى ال‍صدغين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='120'>
+            <locus>Fol. 183b.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAds w-`^sryn fY `lA^g `Am l|-lmwAd al-mn.hdrT alY al-`yn</WMStex>
+                <WMSutf>ال‍باب ال‍سادس و‌عشرين فى علاج عام ل‍لمواد ال‍منحدرة الى ال‍عين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='121'>
+            <locus>Fol. 186a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bAb al-sAb` w-`^sryn fY qwY al-adwyT al-mfrdT</WMStex>
+                <WMSutf>ال‍باب ال‍سابع و‌عشرين فى قوى الادوية ال‍مفردة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+        </WMScontents>        
+
+
+-->
