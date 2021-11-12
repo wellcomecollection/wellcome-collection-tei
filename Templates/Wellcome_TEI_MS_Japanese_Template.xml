@@ -63,10 +63,11 @@
                     <msContents>
                         <summary> <!-- Insert full, or combined summaries from catalogues here --></summary>
                         
-                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
-                        <textLang otherLangs="" source="IANA"><!-- Insert other languages if there are any here, including Chinese if Kanbun text --></textLang> 
-                        
                         <msItem n="1" xml:id="Japanese_<!-- MSS number here -->">
+                            
+                            <textLang mainLang="ja" source="IANA">Japanese</textLang>
+                            <textLang otherLangs="" source="IANA"><!-- Insert other languages if there are any here, including Chinese if Kanbun text --></textLang> 
+                            
                             <author key="person_ <!-- person number on VIAF -->" source="VIAF">
                                 <persName xml:lang="ja" source="IANA"> <!-- Author name in Japanese kanji and/or kana --> </persName>
                                 <persName xml:lang="ja-Latn" source="IANA"> <!-- Author name in romaji, or latin letters --></persName>
@@ -95,12 +96,18 @@
                                         <dim type="width"> <!-- Insert width indicated by specific format --> </dim>
                                     </dimensions>
                                 </extent>
+                                <foliation>
+                                    <!-- Any information about numbering system here. If numering is given is given for an incomplete copy ie. 1-4, 9-18, use collation here instead -->
+                                </foliation>
                             </supportDesc>  
+                            <layoutDesc>
+                                    <p><!--Extra Info not in existing catalogue: how many vertical lines?--></p>
+                            </layoutDesc>
                         </objectDesc>
                         
                         <handDesc>
                                 <handNote scope="sole"><!-- Insert scribe name if given--></handNote>
-                                <note><p><!-- Insert information about ink type and/or colour--></p></note>
+                                <handNote><p><!-- Insert information about ink type and/or colour--></p></handNote>
                             </handDesc>
 
                             <scriptDesc>
@@ -113,13 +120,16 @@
                         </decoDesc>
                         
                         <additions>
-                            <p><!-- Insert information about marginalia, or annotations. If quoting direcrly use <q xml:lang="ja"> </q> tag --></p>
+                            <p><!-- Insert information about marginalia, or annotations. If quoting directly use <q xml:lang="ja"> </q> tag --></p>
                         </additions>
                         
                             <bindingDesc>
                                 <!-- If binding is determined origianl set status as "true", if known to be not "false", if elemnt is used but origin of binding not mentioned, use "unknown" -->
                                 <binding contemporary="">
                                     <p><!-- Insert binding information here including type of binding ,if given, in Japanese and English. --></p>
+                                <condition>
+                                    <p><!--Free text for information on loss and other conditions that might affect access or interpretation--></p>
+                                </condition> 
                                 </binding>
                             </bindingDesc>
                             
@@ -127,21 +137,9 @@
                                 <p><!-- Insert seal information here --></p>
                             </sealDesc>  
                             
-                            <layoutDesc>
-                                    <p><!--Extra Info not in existing catalogue: how many vertical lines?--></p>
-                                </layoutDesc>
-                                <foliation>
-                                    <!-- Any information about numbering system here -->
-                                </foliation>
-                                <collation>
-                                    <p> <!--If numbering is given for an incomplete copy ie. 1-4, 9-18.--></p>
-                                </collation>
-                                <condition>
-                                    <p><!--Free text for information on loss and other conditions that might affect access or interpretation--></p>
-                                </condition>                                                     
-
-                           
-                      
+                            <accMat>
+                                <p><!-- Insert loose material information if is contained within the item --></p>
+                            </accMat>
                         
                     </physDesc>
 
@@ -195,7 +193,7 @@
                         <listBibl>
                             <head/>
                             <bibl><!-- Insert bibliographic information here if given - usually underneath English description and before section in Japanese --> 
-                            <bibl/>
+                            </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
