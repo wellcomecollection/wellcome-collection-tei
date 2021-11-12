@@ -48,19 +48,22 @@
                         <msItem n="1" xml:id="WMS_Arabic_411-part1">
                             <author key="person_66856503">
                                 <persName xml:lang="eng" type="standard">Šaraf ad-Dīn `Alī b. `Īsā al-Kaḥḥāl</persName>
-                                <persName xml:lang="ar" type="original"></persName> <!-- I cannot find the arabic in the orignal TEI file, there is this tag in the original file
+                                <persName xml:lang="ar" type="original">شرف ال‍دين على بن عيسى ال‍كحال</persName> 
+                                
+                                <!-- I cannot find the arabic in the orignal TEI file, there is this tag in the original file
                                     <WMSauthorarab><WMStu><WMStex>^srf al-dyn `lY bn `ysY al-k.hAl</WMStex><WMSutf></WMSutf></WMStu></WMSauthorarab>
                                     but I am not sure what that is. I could not copy and paste from the pdf on sharepiont-->
                                 
                             </author>
                             <title xml:lang="ar-Latn-x-lc" type="standard">Taḏkirat al-Kaḥḥālīn</title>
-                            <title xml:lang="ar" type="original">شرف ال‍دين على بن عيسى ال‍كحال</title>
+                            <title xml:lang="ar" type="original">تذكيرة ال‍كحالين</title>
                             <title xml:lang="en" type="standard">A Memorandum for Oculists</title>
                             
                             <textLang mainLang="ar">Arabic</textLang>
                             
                             <incipit xml:lang="ar">
                                 <locus> Fol. 1a.1</locus>
+                                بسم ال‍لّه ال‍رحمن ال‍رحيم وبه نستعين
                                 جوابًا عما ساءله
                                 بعض اخوانه عن تعريفة امراض ال‍عين وعلاجاتها وارويتها واصل
                                 كتابك ايها الاخ عن جوامع كتب جالينوس فى امراض ال‍عين وعلاج كل
@@ -89,9 +92,13 @@
                                 <support><p>Oriental paper</p></support>
                                 <extent>
                                     <dimensions unit="mm" type="leaf">
-                                        <dim type="diameter">115 (75)</dim> <!-- it had some dimensions in brackets like this, not if how i have move it across is correct? <WMSdimensions>115x180 (75x120)</WMSdimensions>  -->
+                                        <dim type="diameter">115 (75)</dim>  <WMSdimensions>115x180 (75x120)</WMSdimensions>  -->
                                         <dim type="length">180 (120)</dim>
                                     </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="height">180</dim>
+                                        <dim type="width">115</dim>
+                                    </dimensions>    
                                 </extent>
                                 <foliation>
                                     <catchwords>+</catchwords>
@@ -104,7 +111,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout writtenLines="13">13</layout>
-                                <layout><label>Mistara:</label> <dimensions unit="mm"><dim>9</dim></dimensions></layout> <!-- added Mistara here, if this is not needed or in the wrong place, please delete or remove -->
+                                <layout><label>Mistara:</label> <dimensions unit="mm"><dim>9</dim></dimensions></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
@@ -112,8 +119,7 @@
                                 <p><label>Script:</label>naskh</p>
                                 <p><label>Ink:</label>black, red headings</p>
                                 <persName xml:lang="ar" type="copyist">يعقوب ال‍خورى ابراهيم ابي جوده 
-                                    (من غابة برمانا)</persName> <!-- I have put a 'copyist' in here (should it go under author?), not sure if this makes sense (or if we do not need this
-                                        ,please delete if i have got it wrong?-->
+                                    (من غابة برمانا)</persName>
                             </handNote>
                                                     </handDesc>
                         <additions>
