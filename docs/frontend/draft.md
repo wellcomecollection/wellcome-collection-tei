@@ -22,12 +22,12 @@
 | msItem/locus | description | | yes
 | msItem/author | contributor | Done | yes
 | msItem/title type="original" | title | Done | yes
-| msItem/incipit | notes /[begins]/ | | yes
-| msItem/incipit/locus | notes /[begins]/ | | yes
-| msItem/explicit | notes /[ends]/ | | yes
-| msItem/explicit/locus | notes /[ends]/ | | yes
-| msItem/colophon | notes /[colophon]/ | | yes
-| msItem/colophon/locus | notes /[colophon]/ | | yes
+| msItem/incipit | notes /[begins]/ | waiting for reindex | yes
+| msItem/incipit/locus | notes /[begins]/ | waiting for reindex | yes
+| msItem/explicit | notes /[ends]/ | waiting for reindex | yes
+| msItem/explicit/locus | notes /[ends]/ | waiting for reindex | yes
+| msItem/colophon | notes /[colophon]/ | waiting for reindex | yes
+| msItem/colophon/locus | notes /[colophon]/ | waiting for reindex | yes
 | history/origin/origPlace | production | Done | yes
 | history/origin/origDate | production | Done | yes
 | history/provenance | notes \[ownership\] | 
