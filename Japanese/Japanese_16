@@ -1,1 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_16">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 16</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 16</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 16</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b31623323</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A manuscript copy of the anatomical sections of an early
+                            14th-century work by <persName>Kajiwara Shōzen</persName>, possibly
+                                <title xml:lang="ja-Latn" source="IANA">Ton’ishō</title> | <title
+                                xml:lang="ja" source="IANA">頓医抄</title>, containing polychrome and
+                            line illustrations showing internal organs and acupuncture charts, with
+                            text in katakana-majiri. The cover, which gives the title <title
+                                xml:lang="ja" source="IANA">五臓六府十二経脉</title>, is not contemporary
+                            with the text and was added later.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_16">
+                            <author key="person_18764240" source="VIAF">
+                                <persName xml:lang="ja" source="IANA">梶原性全</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Kajiwara
+                                    Shōzen</persName>
+                                <note><p><persName>Kajiwara Shōzen</persName>,<date from="1266"
+                                            to="1337">1266-1337</date>, was a Buddhist monk and
+                                        doctor who lived in <placeName>Kamakura</placeName>, to the
+                                        south of modern <placeName>Tokyo</placeName>. His <title
+                                            xml:lang="ja-Latn" source="IANA">Ton’ishō</title> |
+                                            <title xml:lang="ja" source="IANA">頓医抄</title> and
+                                            <title xml:lang="ja-Latn" source="IANA">Man’anpō</title>
+                                        | <title xml:lang="ja" source="IANA">万安方</title> are the two
+                                        best-known medical treatises of the <date from="1192"
+                                            to="1333">Kamakura period</date>: the former, unusually
+                                        for the time, was written in katakana-majiri so as to be
+                                        more accessible and thus help alleviate suffering, while the
+                                        latter was written in kanbun and was thus aimed as fellow
+                                        medical scholars. Both cover the whole range of medicine as
+                                        it was known at the time and bespeak the author’s extensive
+                                        familiarity with Chinese medical literature, but neither
+                                        work was printed before modern times.</p></note>
+                            </author>
+
+                            <title type="gedai">
+                                <title type="main" xml:lang="ja" source="IANA">五臓六府十二経脉</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Gozō roppu
+                                    jūnikeimyaku</title>
+                                <title type="alt" xml:lang="en" source="IANA">The meridians with the
+                                    five viscera and six bowels</title>
+                                <note><p>外題: The title is taken from the outside cover.</p></note>
+                            </title>
+
+                            <filiation><p>Illustrations of dissections were derived from a lost
+                                    Chinese work on the dissection of executed prisoners, <title
+                                        xml:lang="ja-Latn" source="IANA">Cunzhen huanzong tu</title>
+                                    | <title xml:lang="ja" source="IANA">存真環中図</title>,
+                                        <date>1113</date>, by <persName type="aut"
+                                        xml:lang="ja-Latn" source="IANA">Yang Jie</persName> |
+                                        <persName type="aut" xml:lang="ja" source="IANA"
+                                        >楊介.</persName></p></filiation>
+
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent>中１冊 １巻 | 1 medium satsu (volume) with 1 maki (section)
+                                        <dimensions unit="mm" type="binding">
+                                        <dim type="height">196mm</dim>
+                                        <dim type="width">137mm</dim>
+                                        <dim type="depth">8mm</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <handDesc>
+                            <handNote><p>Written in black ink</p></handNote>
+                        </handDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">Katakana</scriptNote>
+                            <scriptNote scope="minor">Kanji</scriptNote>
+                        </scriptDesc>
+
+                        <decoDesc>
+                            <p>Drawings and illustrations painted with yellow watercolour.</p>
+                        </decoDesc>
+
+                        <additions>
+                            <p>Contains a loose Biden grass sample</p>
+                        </additions>
+
+                        <bindingDesc>
+                            <binding contemporary="false">
+                                <p>袋綴 | Fukotoji style binding. Red cover dates from the middle Edo
+                                    period</p>
+                            </binding>
+                        </bindingDesc>
+
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" from="1596-10-27" to="1615-07-13">慶長 | Keicho
+                                Era</origDate>
+                            <origDate calendar="gregorian" from="1596-10-27" to="1615-07-13">27th
+                                October 1596 to 13 July 1615</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">鎌倉時代医学史の研究</title>
+                                <title xml:lang="ja-Latn">Kamakura jidai igakushino kenkyū</title>
+                                <author xml:lang="ja">服部敏良</author>
+                                <author xml:lang="ja-Latn">Hattori Toshirō</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Yoshikawa Kōbunkan</publisher>
+                                <date>1964</date>
+                                <note>pp. 93-133</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh99002319">Anatomy</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-11"><persName>"#SC"</persName>Created template.</change>
+            <change when="2021-11-11"><persName>"#SC"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
 
