@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 25.5.21 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Tamil_ MS 26">
+    <!-- Give xml:id in the  format  'Tamil_[MS number]' -the file name should be identical -->
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Tamil  26</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="SG">
+                    <resp when="1990">Cataloguer</resp>
+                    <persName>S. Gunasingam</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-05-25">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="OCV">
+                    <resp when="2021-11-12">TEI Encoder</resp>
+                    <persName>Odalys Caballero</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Tamil 26</idno>
+                <idno type="catalogue">Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">Tamil 26</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b32724561</idno>
+                        </altIdentifier>
+                         </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Vayiräkkiya Dipam: philosophical treatise on the absence of worldly
+                            passion. The self-illusion of 'I' and 'mine' is compared to darkness, and
+                            mind and renunciation to a house and to light respectively. The mind is
+                            illuminated by the light of renunciation which in turn dispels the darkness of
+                            self-illusion. This treatise may be identical with the work of Säntalinga
+                            Désikar of Tirutturaiyür entitled Vayiräkkiya Catakam, a poem of one
+                            hundred verses on self-control.</summary>
+                        
+                        <textLang mainLang="ta" source="IANA">Tamil </textLang>
+                        
+                        <msItem n="1" xml:id="M_26_1">
+                            <locus from="1" to="164"> Ff 1-164</locus> 
+                            <note>ff 1-4 blank)</note>
+                            
+                            <title key="">Vayiräkkiya Dipam</title>
+                            
+                                                                                   
+                        </msItem>
+                        
+                                            
+                    </msContents>
+                    
+                    <physDesc>
+                       
+                        <objectDesc form="other">
+                            
+                            <supportDesc material="leaf">
+                                
+                                <support>palm_leaf                              
+                                  </support>
+                                <extent><!-- Insert details on extent -->
+                                    <dimensions unit="cm" >
+                                        <dim type="width">16.5 cm</dim>
+                                        <dim type="length">3cm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation></foliation>
+                                
+                              <condition>
+                                  in good condition,  complete
+                                </condition>
+                                
+                            </supportDesc>
+                            
+                                                     
+                        </objectDesc>
+                        
+                                               
+                        <additions>
+                            <p></p>
+                        </additions>
+                        
+                                              
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>,
+                                <region><!-- insert --></region>,
+                                <settlement><!-- insert --></settlement>,
+                                <orgName><!-- insert --></orgName>
+                            </origPlace>
+                            <origDate >Undated;</origDate>
+                        </origin>
+                       <acquisition><!-- insert --></acquisition>
+                            
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine' in Journal of the Royal Asiatic Society, volume 2.</title>
+                                        <author>S. Gunasingam</author>
+                                        <date>1990</date>
+                                        <note>Pp. 359-369</note>
+                                    </bibl>
+                                    <!-- Might include link to catalogue source -->
+                                    <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                                </source>
+                            </recordHist>
+                            <availability status=""><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+                        <!-- Enter bibliographical info, if needed -->
+                        <listBibl>
+                            <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                            <!-- The following records the bibliographical entries catalogue referenced in the catalogue - delete any that are not mentioned in the file -->
+                            <head>Bibliographical abbreviations</head>
+                            <!-- Enter in the following formats -->
+                            <!--  Book -->
+                            <bibl>
+                                <title></title>
+                                <date></date>
+                                <placeName></placeName>
+                                <publisher></publisher>
+                                <abbr></abbr>
+                            </bibl>
+                            <!-- Website -->
+                            <bibl>
+                                <title></title>
+                                <ref target=""></ref>
+                                <abbr></abbr>
+                            </bibl>
+                            <!-- Journal article -->
+                            <bibl>
+                                <title></title>
+                                <author></author>
+                                <date></date>
+                                <abbr></abbr>
+                            </bibl>
+                        </listBibl>
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+        
+        <revisionDesc>
+            <change when="2021-11-12" who="#OCV">Populated template</change>
+            <change when="2021-05-25" who="#AP">Created template for Wellcome Tamil MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+         
+        </body>
+        
+    </text>    
+    
+</TEI>
+
