@@ -19,22 +19,23 @@
 | mscontents/summary | description | Done | yes
 | textLang | languages | Done | yes
 | msItem/textLang | languages | Done | yes
-| msItem/locus | description | | yes
+| msItem/locus | notes [locus] | Done | yes
 | msItem/author | contributor | Done | yes
 | msItem/title type="original" | title | Done | yes
-| msItem/incipit | notes /[begins]/ | waiting for reindex | yes
-| msItem/incipit/locus | notes /[begins]/ | waiting for reindex | yes
-| msItem/explicit | notes /[ends]/ | waiting for reindex | yes
-| msItem/explicit/locus | notes /[ends]/ | waiting for reindex | yes
-| msItem/colophon | notes /[colophon]/ | waiting for reindex | yes
-| msItem/colophon/locus | notes /[colophon]/ | waiting for reindex | yes
+| msItem/incipit | notes /[begins]/ | Done | yes
+| msItem/incipit/locus | notes /[begins]/ | Done | yes
+| msItem/explicit | notes /[ends]/ |Done | yes
+| msItem/explicit/locus | notes /[ends]/ | Done | yes
+| msItem/colophon | notes /[colophon]/ | Done | yes
+| msItem/colophon/locus | notes /[colophon]/ | Done | yes
 | history/origin/origPlace | production | Done | yes
 | history/origin/origDate | production | Done | yes
 | history/provenance | notes \[ownership\] | 
 | history/acquisition | notes \[acquisition\] |
 | physDesc/handDesc/handNote | contributor | Done | yes
-| physDesc/objectDesc/object/support | physicalDescription | in progress| yes
-| physDesc/objectDesc/object/extent |physicalDescription | in progress | yes
+| physDesc/objectDesc/object/support | physicalDescription | Done| yes
+| physDesc/objectDesc/object/extent |physicalDescription | Done | yes
+| profileDesc/keywords |subjects | In progress | |
 | handDesc | notes \[hand\] |
 
 
