@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16110">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 467</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">WMS Arabic 467</idno>
+                <idno type="catalogue"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 467</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 108 (Shelf-mark: 520/ /  n 30)</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>2029736</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>A glossary of materia medica.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_467-part1">
+                            <author>
+                                <persName>Anonymous</persName>
+                            </author>
+                            <title type="original">Unidentified</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <incipit>
+                                <locus>Fol. 1a.1~-- 2</locus>
+                                وبعده فتفاصل  افلا ال‍نوع
+                                (sic!)
+                                الاسانى على بعطها بعضا
+                                طهر ان فتاح
+                                (lacuna)
+                                وال‍فضل و‌تكميل ال‍قاصرين ولو
+                                (lacunae)
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol. 18b.5</locus>
+                                وصنعته ورد احمر  منزوع صندل وعود وجادي وساق حمام سوى تعجب ب‍ما
+                                ل‍ورد ال‍زنجبيل فيه ال‍غبر
+                                (sic!)
+                                وان كان بما ال‍مر تسوى كان
+                                غاية ويقطع فتيلا دقاقا
+                            </explicit>                      
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p>Non-Western</p></support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">165</dim>
+                                        <dim type="length">210</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">130</dim>
+                                        <dim type="length">165</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <catchwords>Catchwords are written underneath the text block</catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios:</label> 66
+                                    <formula>Not possible to identify exactly since many folios are missing and
+                                        the rest has been pasted together. Altogether there are five quires
+                                        visible, each one comprises ca. 10 folios</formula>
+                                </collation>
+                                <condition> Mediocre </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="22">18-22</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>black, headings and dividers are highlighted in red</p>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <p>1. Fol. 66b~-- an owner's statement (the name has been erased).
+                               2. On the inner side of the back cover~--occasional verses
+                                and a shahāda.
+                               3. Lacunae: between fols 1 and 2, 4
+                                and 5, 9 and 10, 34 and 35, 46 and 47. 
+                               4. Fol. 18b~--a recipe.  Notes and corrections on margins: fols 19a~--20b,
+                                23a~--25b, 50a, 56b, 60b, 62b, 63a~--64a.
+                               5. Fol. 56b (upside down) an inscription which gives an equation of the eras: سنة الف مايتين وا‌تنين وثمانين كان اول شهر رمضان ال‍خميس
+                                ل‍موفق عيد ال‍غطاس عند ال‍نصراره ال‍موافق ٦ كانون ال‍ثانى و ٦٢
+                            (sic!)
+                            فى ال‍مربعانيه    </p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>Cardboard with evidence of leather. Only the back cover has survived.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian">18th century</origDate>
+                        </origin>
+                        <provenance>Known owners: Sāmī Ibrāhīm Ḥaddād (1986)
+                        </provenance>
+                        <acquisition>
+                            Sotheby's lot 522 (22/21.11.85)
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ḥaddād/Biesterfeld no. 108 (Shelf-mark: 520/ /  / n 30).</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-16"><persName>Lara Salha</persName>Updated old XML file into TEI schema"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
+
+<!-- In the previous XML version, there was the following information that may/may not be of use:
+
+
+
+-->
