@@ -5,7 +5,7 @@
 | TEI | API | Status | Required to remove toggle |
 | :--- | :--- |:--- |:--- |
 | msIdentifier/idno | identifiers |
-| msIdentifier/idno | ReferenceNumber |
+| msIdentifier/idno | ReferenceNumber | Done |
 | msIdentifier/altIdentifier | identifiers |
 | msIdentifier/altIdentifier type="Sierra" | Sierra identifier | Done | yes
 | msIdentifier/altIdentifier type="accession" | Accession identifier |
@@ -22,6 +22,7 @@
 | msItem/locus | notes [locus] | Done | yes
 | msItem/author | contributor | Done | yes
 | msItem/title type="original" | title | Done | yes
+| msItem/title | alternativeTitles |  | 
 | msItem/incipit | notes /[begins]/ | Done | yes
 | msItem/incipit/locus | notes /[begins]/ | Done | yes
 | msItem/explicit | notes /[ends]/ |Done | yes
@@ -35,7 +36,7 @@
 | physDesc/handDesc/handNote | contributor | Done | yes
 | physDesc/objectDesc/object/support | physicalDescription | Done| yes
 | physDesc/objectDesc/object/extent |physicalDescription | Done | yes
-| profileDesc/keywords |subjects | In progress | |
+| profileDesc/keywords |subjects | Done | |
 | handDesc | notes \[hand\] |
 
 
