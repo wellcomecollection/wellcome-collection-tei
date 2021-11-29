@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_58">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 58</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 58</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 58</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>
+                                <!--No Sierra number currently-->
+                            </idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>A herbal manuscript titled <title xml:lang="nl" source="IANA">Kruid
+                                Boek getrokken uyt Dodoneaus</title>, containing copied extracts
+                            from a <date>1644</date> edition of <title>Cruydt-Boeck</title> by
+                                <persName type="aut">Rembert Dodoens</persName>. It includes
+                            hand-coloured illustrations of plants with names given in Kanji, as well
+                            as Latin and Dutch with Katakana transliteration, and additional notes
+                            in Dutch.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_58">
+
+                            <textLang otherLangs="nl" source="IANA">Dutch</textLang>
+                            <textLang otherLangs="la" source="IANA">Latin</textLang>
+
+                            <author key="person_17321426" source="VIAF">
+                                <persName>Rembert Dodoens</persName>
+                                <note><p><persName> Rembert Dodoens</persName>, <date>1517
+                                            -1585</date>), was a Flemish physician best known for
+                                        his illustrated botanical publications, especially his
+                                            <title>De stirpium historia</title> (Antwerp, 1554),
+                                        which appeared in a Dutch version the same year, and
+                                            <title>Stirpium historiae pemptades sex</title>
+                                        (Antwerp, 1583), which was translated into Dutch by
+                                            <persName>Françoys van Ravelingen</persName> (Leiden,
+                                        1608; reissued in 1618 and 1644).</p></note>
+                            </author>
+
+                            <title>
+                                <title type="main" xml:lang="nl" source="IANA">Kruid Boek getrokken
+                                    uyt Dodoneaus</title>
+                                <title type="alt" xml:lang="en" source="IANA">Herbal extracted from
+                                    Dodoneas</title>
+                            </title>
+
+                            <note><p>There is a note in pencil on the manuscript which
+                                    reads:‘Chinese Herbal ab(ou)t 1620 A.D. date so decided at the
+                                    Kensington Natural History Museum A.D. 1902’. This has been
+                                    deemed inaccurate due to the date of Dodonaeus's illustrations
+                                    and differences between the illustrations in the 1618 and 1644
+                                    editions (illutstrations that only appear in the 1644 work have
+                                    been copied to this manuscript).</p></note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent>１冊 １巻 | 1 satsu (volume) with 1 maki (section) on 和紙 | washi
+                                    paper <dimensions unit="mm" type="binding">
+                                        <dim type="height">245mm</dim>
+                                        <dim type="width">168mm</dim>
+                                        <dim type="depth">44mm</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope="major" xml:lang="ja-Latn">Kogyu Yoshio</handNote>
+                            <handNote><p>Scribe identified by <abbr>Walravens</abbr></p></handNote>
+                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote scope="major">Kanji</scriptNote>
+                            <scriptNote scope="major">Katakana</scriptNote>
+                            <scriptNote scope="major">Latin</scriptNote>
+                        </scriptDesc>
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p>洋装本 | Western style binding. Quarter bound in vellum with ties on
+                                    the foredge.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="gregorian" from="1700" to="1800">Mid to late 18th
+                                century</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                        <provenance><p>An inscription at the front of the manuscript reads ‘Present
+                                van J.Gonnosky’, a note which has been attributed to
+                                    <persName>Yoshio Gennosuke</persName> (<date>1785-1831</date>),
+                                one of the Nagasaki interpreters by <abbr>Walravens</abbr>.</p>
+                        </provenance>
+
+                        <acquisition> Purchased by the Wellcome Library at <name type="auction"
+                                >Hodgson</name> Auction Room, November 1908. </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+
+                            <custodialHist>
+                                <custEvent type="exhibition" from="2004-10" to="2004-12">
+                                    <p>Exhibited as part of the Asia: Body,Mind and Spirit
+                                        exhibition at the Brunei Gallery, School of Oriental and
+                                        African Studies (SOAS), October-December 2004.</p>
+                                </custEvent>
+                            </custodialHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title>A Japanese herbal in the Wellcome Institute for the History
+                                    of Medicine : a contribution to the history of the transfer of
+                                    scientific knowledge from Europe to Japan</title>
+                                <author>Harmut Walravens</author>
+                                <placeName>Wiesbaden</placeName>
+                                <publisher>Harrassowitz</publisher>
+                                <date>2005</date>
+                                <abbr>Walravens</abbr>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">洋学史事典</title>
+                                <title xml:lang="ja-Latn">Yōgakushi jiten</title>
+                                <author xml:lang="ja-Latn">Nichran Gakkai</author>
+                                <publisher>Yūshōdō Shuppan</publisher>
+                                <date>1984</date>
+                                <note>p. 506</note>
+                            </bibl>
+                            <bibl>
+                                <title>Dictionary of scientific biography, Vol.4.</title>
+                                <placeName>New York</placeName>
+                                <publisher>Charles Scribner's Sons</publisher>
+                                <date>1971</date>
+                                <note>pp. 138-40</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85060336">Herbals</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-11"><persName>"#SC"</persName>Created template.</change>
+            <change when="2021-11-29"><persName>"#SC"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

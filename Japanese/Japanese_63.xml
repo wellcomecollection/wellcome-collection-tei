@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_63">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese_63</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 63</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 63</idno>
+                        <altIdentifier type="Sierra">
+                            <idno> b20662944</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> An incomplete manuscript entitled <title type="main" xml:lang="ja"
+                                source="IANA">痘疹精要</title> | <title type="alt" xml:lang="ja-Latn"
+                                source="IANA">Toshin seiyo</title> | <title type="alt" xml:lang="en"
+                                source="IANA">The essentials of smallpox</title>, including coloured
+                            illustrations of different symptoms of smallpox. An inscription on the
+                            title page of the second volume attributes the work to <persName
+                                type="aut" xml:lang="ja" source="IANA">神田玄泉</persName> | <persName
+                                type="aut" xml:lang="ja-Latn" source="IANA">Kanda, Gensen</persName>
+                            <date>(c.1670-1746)</date> with revisions and supplements by <persName
+                                xml:lang="ja" source="IANA">榎本玄昌新</persName> | <persName
+                                xml:lang="ja-Latn" source="IANA">Enomoto, Gensho</persName>, a
+                            doctor in <placeName>Kiyomizu</placeName> domain (modern
+                                <placeName>Gifu</placeName> Prefecture). </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_63">
+
+                            <author key="person_259185764" source="VIAF">
+                                <persName xml:lang="ja" source="IANA">神田 玄泉</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Kanda, Gensen</persName>
+                                <note><p>Gensen produced a number of illustrated albums on subjects
+                                        such as fishes, whaling, materia medica and a couple of
+                                        medical works including a study of dietetics. Many of these
+                                        works survive in a number of copies, although none were
+                                        published, suggesting that he was deliberately avoiding
+                                        publication and restricting circulation to his
+                                        followers.</p></note>
+                            </author>
+
+                            <title>
+                                <title type="main" xml:lang="ja" source="IANA">痘疹精要</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Toshin
+                                    seiyo</title>
+                                <title type="alt" xml:lang="en" source="IANA">The essentials of
+                                    smallpox</title>
+                            </title>
+
+                            <filiation><p>There does not appear to be any record of a manuscript
+                                    with this title in Japan, though there are records of a work by
+                                    him bearing a similar title, <title xml:lang="ja" source="IANA"
+                                        >痘疹口訣</title> | <title xml:lang="ja-Latn" source="IANA"
+                                        >Tōshin kuketsu</title>, in collections that are now
+                                    lost</p></filiation>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent> ２冊 ２巻 | 2 satsu (volumes) with 2 maki(sections) <dimensions
+                                        unit="mm" type="binding">
+                                        <dim type="height">
+                                            <!-- Insert height indicated by specific format -->
+                                        </dim>
+                                        <dim type="width">
+                                            <!-- Insert width indicated by specific format -->
+                                        </dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <p>The manuscript appears incomplete; the first volume begins
+                                        part way through and the second with an internal title
+                                        identifying it as the second volume.</p>
+                                </foliation>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <decoDesc>
+                            <p>The illustrations were executed on separate sheets of paper in the
+                                18th century and were cut out and pasted into the manuscript at a
+                                later date in the early 19th century, possibly from Gensen's
+                                holograph or a copy of it.</p>
+                        </decoDesc>
+
+                        <bindingDesc>
+
+                            <binding contemporary="unknown">
+                                <p>半 |</p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" from="1603" to="1868">江戸中期 | Edo
+                                Period</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+
+                        <provenance>An inscription at the end of the second volume indicates they
+                            belonged to the Ishibashi family, possibly in the early 19th century. </provenance>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja" source="IANA">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en" source="IANA">Japanese medical and
+                                            scientific books in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date>--> </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85123612">Smallpox</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
+            <change when="2021-11-29"><persName>"#SC"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

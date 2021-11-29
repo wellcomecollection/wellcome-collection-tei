@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_61">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 61</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 61</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <idno type="catalogue"/>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 61</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> An unillustrated 18th century manuscript copy of <title
+                                xml:lang="ja" source="IANA">続御拾遺和歌集</title> | <title
+                                xml:lang="ja-Latn" source="IANA">Shokugoshūi wakashū</title>, the
+                            sixteenth imperially commissioned anthology of waka (court poetry),
+                            compiled by <persName type="aut">Nijō, Tamefuji</persName>
+                            <date>(1275-1324)</date> and <persName type="aut">Nijō,
+                                Tamesada</persName>
+                            <date>(1293-1360)</date>, and commissioned at the command of
+                                <persName>Emperor Go-Daigo</persName> between <date>1323 and
+                                1326</date>. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_61">
+
+                            <author key="person_56452031" source="VIAF">
+                                <persName xml:lang="ja" source="IANA">二条 為藤</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Nijō, Tamefuji</persName>
+                            </author>
+                            <author key="person_53989863" source="VIAF">
+                                <persName xml:lang="ja" source="IANA">二条 為定</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Nijō, Tamesada</persName>
+                            </author>
+
+                            <title>
+                                <title type="main" xml:lang="ja" source="IANA">続御拾遺和歌集</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Shokugoshūi
+                                    wakashū</title>
+                            </title>
+
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent> 2冊 20巻 | 2 satsu (volumes) with 20 maki (sections) on 鳥子紙 |
+                                    toriko-gomi paper <dimensions unit="mm" type="binding">
+                                        <dim type="height">247mm</dim>
+                                        <dim type="width">164mm</dim>
+                                        <dim type="depth">36mm</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p>半 | </p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" from="1603" to="1868">江戸中期 | Edo
+                                Period</origDate>
+                            <origDate calendar="gregorian" from="1700" to="1750">Early eighteenth
+                                century.</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+
+                        <provenance><p>A printed edition of all 21 imperially commissioned
+                                anthologies was published in 1647, but for the most part they
+                                circulated in manuscript until modern times. The manuscripts were
+                                often produced by Kyoto aristocrats and frequently served as bridal
+                                gifts.</p>
+                        </provenance>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
+            <change when="2021-11-29"><persName>"#SC"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
