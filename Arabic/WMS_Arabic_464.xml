@@ -1,0 +1,2952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16107">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 464</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="MM">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Miten Mistry</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">WMS_Arabic_464</idno>
+                <idno type="catalogue">Fihrist</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="WMS_Arabic_464">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 464</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 114 (Shelf-mark: 510/.../ 1339 /n21)</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>A defective volume which contains a commentary on a general work on
+                            medicine. The contents are abridged and described according to the
+                            rubrications on the margins.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_464_part1">
+                            <author>
+                                <persName xml:lang="eng" type="standard">Anonymous</persName>                                
+                            </author>
+                            <title xml:lang="ar" type="original">غير مشخص </title>
+                            <title xml:lang="en" type="standard">Unidentified</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <incipit>
+                                <locus>Fol. 1a.1</locus>
+                                وال‍مجانين الذين ليس عندهم شيء من ال‍معاني  (lacuna) من
+                                    ل‍صوره   (lacuna) وما من ال‍كفر فل‍نه ترتيب معانى معلومه
+                                        محفوظ ل‍ليادى الى مجهول(lacuna) انما يتم ب‍ال‍حفظ
+                                            وال‍ثبات وايضا ان هذا ال‍قسم
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol. 372b.22</locus>
+                                حدة ال‍بول ولا ينسيح  ال‍مجرى وتولّدها عن غدة موضوعة بقرب عنق 
+                                (lacuna) ال‍مثانة
+                            </explicit>
+                                                                                   
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p>Oriental paper</p></support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">175 (180)</dim> < <WMSdimensions>245x175 (105x180)</WMSdimensions>
+                                        <dim type="length">245 (105)</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>Pages (not folios) are numbered in Arabic numerals
+                                    <catchwords>are written underneath the text block </catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios:</label>372
+                                    <formula>1i, 2viii, 3vi, 4iv, 5xv, 6x, 7xvii, 8xii, 9viii, 10xiv, fols 111-121
+                                        the quires are difficult to identify; individual folios are pasted
+                                        together. The general number of folios in a quire between 10 and 12</formula>
+                                </collation>
+                                <condition>mediocre</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="21">21</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>naskh</p>
+                                <p><label>Ink:</label>black, headings and dividers are highlighted in red</p>
+                                <seg type="lines">21</seg>
+                                <seg type="density">440</seg>
+                                <seg type="ratio">1:1</seg>
+                                <seg type="anglealef">90</seg>
+                                <seg type="anglekaf">30</seg>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <list>
+                               <item>1. Notes on margins: Fol. 1b (upside down) <foreign xml:lang="ar">رمتبه نبة</foreign>
+                                (?)
+                                 <foreign xml:lang="ar">اخضر محمد حسن ابن رنيب</foreign>
+                                Fol. 2a (upside down)
+                                 <foreign xml:lang="ar">قد ولد ال‍مولود ال‍مبارك احمد ابن محمد ابن خليل سعد في ليلة
+                                    ل‍جمعه ال‍ساعه ال‍خامسه في ١٥ رجب سنه ١٣٣٩ هجريه
+                                قد ولد اخوه خليل ابن مهمد نهار ال‍ثلاثه ال‍ساعه احدى عشر فى
+                                    ١٨ جماد ‌تاني سنه ١٣٤٣ هجريه
+                                قد ولد ال‍مولود ال‍مبارك
+                                    ولدنا على ابن محمد خليل ابن محمد سعد في ال‍ساعه ال‍خامسه من ليله
+                                    ل‍ثلثاء في غرة ذي ال‍قعده ١٣٤٥ سنه خمسه واربعون و‌ثلاثمايه
+                                    بعد الالف هجريه
+                                قد ولدت ال‍مولوده امنه بنت محمد
+                                    خليل في غرة رمضان سنه ١٣٤٨ هجريه على صاحبها افضل ال‍سلام
+                                    وافضل من تحيه</foreign> 
+                                    below in a violet pencil-note is ascribed
+                                 <foreign xml:lang="ar">وكان
+                                    مولودها نهار اربعه ال‍ساعه ال‍عاشر في ال‍نهار</foreign>
+                                Fol. 2b
+                                (upside down) 
+                                 <foreign xml:lang="ar">قد ولدت ال‍مولوده ال‍مباركه زينب بنت كاتبه محمد
+                                    خليل سعد ال‍ساعه ال‍سادسه من ليله ال‍ثلاثه فى ١٧ شعبان المبارك
+                                    سنه ١٣٥٠ هجريه على صاحبها افضل ال‍صلات واتم ال‍تحيه</foreign>
+                                Bottom cover (inner side) 
+                                 <foreign xml:lang="ar">قد نبدا</foreign>
+                                (crossed out)
+                                 <foreign xml:lang="ar">بن عير خليل
+                                    هزيمه من تبنين</foreign>(sic!)
+                                 <foreign xml:lang="ar">نهار ال‍سبت  في
+                                
+                                اخر في سعه
+                                    في اشهر وفرص ال‍حاح ال‍حسن
+                                
+                                كيف اقول ملك وال‍ملك
+                                    ل‍له ال‍واحد ال‍قهار وانا ال‍فقير ال‍معڻ‍ڻرف ب‍ال‍ذنب
+                                    وال‍تقصير محمد اسعد
+                                قد تملك هذا ال‍كتاب حليل سعد
+                                    بن محمد سعد ابن خليل سعد ابن مصتف سعد ابن ال‍حاج سعد رحمه
+                                    ل‍له<foreign xml:lang="ar"></item> 
+                                <item>2. Rubrication is given throughout on the margins
+                                resembling ta`līq. Evidence of another hand in
+                                rubrications at the top of folios.</item> 
+                                <item>3. Marginal notes (mainly
+                                additions from Dāwūd al-Anṭākī's Nuzha--
+                                Ullmann Medizin p. 181.) are on fols 11ab, 13b, 14b, 15b, 16a,
+                                20a, 21a, 24b, 26b, 29ab, 35a, 46b, 51b, 54a, 66b, 78a, 82a, 96a,
+                                113b, 115b, 117b, 120a, 163a, 168a, 186b, 188a, 192a~-- 193a, 249a,
+                                339a (also a recipe), 340a~-- 341b, 343ab, 349ab, 359b, 363b, 364b,
+                                366b~-- 369b, 370b, 371a, 373ab.</item> 
+                                <item>4. Corrections on fols 82a,
+                                84a, 88a, 111a, 123a, 127a, 124b, 125b, 179b, 187b, 223a, 230a, 234a,
+                                253b, 257b, 271b, 275a, 281b.</item> 
+                                <item>5. Fol. 96a contains a note
+                                (probably a corrector's note as the text of the MS was compared to
+                                another (printed(?) text): 
+                                  <foreign xml:lang="ar">ورقه ٦٤ ص ١٢٨</foreign></item>
+                                <item>6. Lacunae between fols 4 and 5, 11 and 12, 16 and 17, 20 and 21, 43 and 44, 76
+                                and 77. Ḥaddād and Biesterfeld (Ḥaddād/Biesterfeld p.
+                                150) suggest that fols 37~-- 43 should be placed at the end of the
+                                MS. Diacritical dots for tā' marbūṭa and yā' as well as the
+                                ḥamzas are occasionally missing or misplaced. Tā' marbūṭa
+                                is occasionally replaced by tā' maftūḥa.</item>  
+                            </list>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>leather and cardboard; bottom cover has survived.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian">the earliest date mentioned is the <date>15 Raǧab 1339</date> / <date when="1921-03-25">25 March 1921</date>,
+                                however the MS probably dates from the <date>mid 19th cent</date>.</origDate>
+                        </origin>
+                        <provenance>Known owners:  1. Family of H̱alīl Sa`d, 2. Sāmī
+                            Ibrāhīm Ḥaddād (1986).
+                        </provenance>
+                      <acquisition>Sotheby's lot 520 (<date notBefore="1985-11-21" notAfter="1985-11-22">22/21.11.85</date>)</acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ḥaddād/Biesterfeld no. 114 (Shelf-mark: 510/.../ 1339 /n21)</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-12-06"><persName>Miten Mistry</persName>Updated old XML file into TEI schema"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
+
+<!-- In the previous XML version, there was the following information that may/may not be of use:
+ <WMScontents>
+          <WMSiline n='1'>
+            <locus>Fol.  10b.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.sdA` mn ryA.h .gly.zh</WMStex>
+                <WMSutf>ال‍صداع من رياح غليظه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='2'>
+            <locus>Fol.  11b.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.sdA` al-^srky</WMStex>
+                <WMSutf>ال‍صداع ال‍شركي</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='3'>
+            <locus>Fol.  12a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amA l-mrAr fy fm al-m`dT</WMStex>
+                <WMSutf>اما ل‍مرار في فم ال‍معدة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='4'>
+            <locus>Fol.  12b.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>nf_h al-m`dh</WMStex>
+                <WMSutf>نفخ ال‍معده</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='5'>
+            <locus>Fol.  13a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>ryA.h .hAd_tT fy al-m`dT</WMStex>
+                <WMSutf>رياح حادثة في ال‍معدة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='6'>
+            <locus>Fol.  13b.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.sdA` mn .d`f al-dmA.g</WMStex>
+                <WMSutf>ال‍صداع من ضعف ال‍دماغ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='7'>
+            <locus>Fol.  14a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>ykwn mn qwT .hsn al-dmA.g</WMStex>
+                <WMSutf>يكون من قوة حسن ال‍دماغ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='8'>
+            <locus>Fol.  14b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>ykwn mn al-_hwA' w-al-ybs wysmY al-_hfh</WMStex>
+                <WMSutf>يكون من ال‍خواء وال‍يبس ويسمى ال‍خفه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='9'>
+            <locus>Fol.  15a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wykwn al-.sdA` `r.dA l|-l.hmyAt</WMStex>
+                <WMSutf>ويكون ال‍صداع عرضا ل‍لحميات</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='10'>
+            <locus>Fol.  15b.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>sbab thy^g al-b_hArAt alY al-dmA.g</WMStex>
+                <WMSutf>سبب تهيج ال‍بخارات الى ال‍دماغ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='11'>
+            <locus>Fol.  15b.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-tqwyh al-dmA.g qd y.hd_t mn ^srb al-^srAb</WMStex>
+                <WMSutf>و‌تقويه ال‍دماغ قد يحدث من شرب ال‍شراب</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='12'>
+            <locus>Fol.  16b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.sdA` wykwn mn .dryh aw sq.th</WMStex>
+                <WMSutf>ال‍صداع ويكون من ضريه او سقطه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='13'>
+            <locus>Fol.  17b.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-fAl^g</WMStex>
+                <WMSutf>ال‍فالج</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='14'>
+            <locus>Fol.  21a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.sdA` yqAl lh al-by.dyh</WMStex>
+                <WMSutf>ال‍صداع يقال له ال‍بيضيه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='15'>
+            <locus>Fol.  23b.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.sdA` fy al-amrA.d al-.hArT al-`fwnyh `nd al-b.hrAn</WMStex>
+                <WMSutf>ال‍صداع في الامراض ال‍حارة ال‍عفونيه عند ال‍بحران</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='16'>
+            <locus>Fol.  25a.21</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.sdA` al-dwdy</WMStex>
+                <WMSutf>ال‍صداع ال‍دودي</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='17'>
+            <locus>Fol.  25b.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.sdA` mn tz.gr al-dmA.g</WMStex>
+                <WMSutf>ال‍صداع من تزغر ال‍دماغ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='18'>
+            <locus>Fol.  26a.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.sdA` yqAl lhA al-^sqyqh</WMStex>
+                <WMSutf>ال‍صداع يقال لها ال‍شقيقه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='19'>
+            <locus>Fol.  28b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.sdA` mn wrm fy al-r.hm</WMStex>
+                <WMSutf>ال‍صداع من ورم في ال‍رحم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='20'>
+            <locus>Fol.  28b.19</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.sdA` mn al-klytyn</WMStex>
+                <WMSutf>ال‍صداع من ال‍كليتين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='21'>
+            <locus>Fol.  29b.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-srsAm qAl al-.tbry h_dA al-asm fArsy wtfsyrh mr.d al-rAs</WMStex>
+                <WMSutf>ال‍سرسام قال ال‍طبري هذا الاسم فارسي وتفسيره مرض ال‍راس</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='22'>
+            <locus>Fol.  30b. 21</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-srsAm mn al-dm ysmY qrAny.ts</WMStex>
+                <WMSutf>ال‍سرسام من ال‍دم يسمى قرانيطس</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='23'>
+            <locus>Fol.  34b.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>l_tr.gs wtr^gmth al-nsyAn qAlt </WMStex>
+                <WMSutf>لثرغس وترجمته ال‍نسيان قالت</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> _tAbt bn qrh .h_dw_t
+ly_tr.gs</WMStex>
+                <WMSutf>ثابت بن قره حذوث
+ليثرغس</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='24'>
+            <locus>Fol.  45b.21</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-nsyAn asm al|-lAzm hw amA fsAd al-_dkr w-amA fsAd al-fkr</WMStex>
+                <WMSutf>ال‍نسيان اسم ال‍لازم هو اما فساد ال‍ذكر واما فساد ال‍فكر</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='25'>
+            <locus>Fol.  49b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fy al-mAly_hwlyA smY b-asm sbabh f-an m`nAh b-al-ywnAnyT al-_hl.t al-aswd</WMStex>
+                <WMSutf>في ال‍ماليخوليا سمى ب‍اسم سببه فان معناه ب‍ال‍يونانية ال‍خلط الاسود</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='26'>
+            <locus>Fol.  56a.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>mn al-mAly_hwlyA ysmY al-mrAqY</WMStex>
+                <WMSutf>من ال‍ماليخوليا يسمى ال‍مراقى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='27'>
+            <locus>Fol.  60a.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wnw` a_hr mn al-mAly_hwlyA ysmY al-mAnyA lt^sbhA l-.sA.hbh b-al-sb`</WMStex>
+                <WMSutf>ونوع اخر من ال‍ماليخوليا يسمى ال‍مانيا لتشبها ل‍صاحبه ب‍ال‍سبع</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='28'>
+            <locus>Fol.  63a.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-`^sq whw m^stq mn al-`^sqT whw nw` al|-lblAb</WMStex>
+                <WMSutf>ال‍عشق وهو مشتق من ال‍عشقة وهو نوع ال‍لبلاب</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='29'>
+            <locus>Fol.  64b.19</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-kAbws smY bh l-an al-b_hArAt al-.gly.zh</WMStex>
+                <WMSutf>ال‍كابوس سمى به لان ال‍بخارات ال‍غليظه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='30'>
+            <locus>Fol.  66b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.sr` whw fy al|-l.gT al-sqw.t smY bh tsmyh l|-lmlzwm</WMStex>
+                <WMSutf>ال‍صرع وهو في ال‍لغة ال‍سقوط سمى به تسميه ل‍لملزوم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='31'>
+            <locus>Fol.  75a.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-skth smY al-mr.d b-asm al|-lAzm</WMStex>
+                <WMSutf>ال‍سكته سمى ال‍مرض ب‍اسم ال‍لازم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='32'>
+            <locus>Fol.  77a.</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-fAl^g </WMStex>
+                <WMSutf>ال‍فالج</WMSutf>
+              </WMStu>
+              <WMSLR>(the actual beginning of the chapter is missing due to
+lacuna)</WMSLR>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='33'>
+            <locus>Fol.  79a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-t^sn^g smY b-asm al|-lAzm `lT `.sbyT</WMStex>
+                <WMSutf>ال‍تشنج سمى ب‍اسم ال‍لازم علة عصبية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='34'>
+            <locus>Fol.  82a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-al-kzAz al-tmdud hw n^s_h </WMStex>
+                <WMSutf>وال‍كزاز ال‍تمدد هو نشخ</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> al-`.sb mn al-^gAnbyn</WMStex>
+                <WMSutf>ال‍عصب من ال‍جانبين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='35'>
+            <locus>Fol.  83b.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-r`^sh whY fy al|-l.gT al-r`dT</WMStex>
+                <WMSutf>ال‍رعشه وهى في ال‍لغة ال‍رعدة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='36'>
+            <locus>Fol.  86a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-_hdr smY b-asm lAzmh l-an al-_hdr fY al|-l.gh al-`.nwr</WMStex>
+                <WMSutf>ال‍خدر سمى ب‍اسم لازمه لان ال‍خدر فى ال‍لغه ال‍عڻور</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='37'>
+            <locus>Fol.  87b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al|-lqwT hY asm l|-l`qAb smyt al-`lh bhA t^sbyh--hA</WMStex>
+                <WMSutf>ال‍لقوة هى اسم ل‍لعقاب سميت ال‍عله بها تشبيه‍ها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='38'>
+            <locus>Fol.  91b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-zkAm hw t^gllb f.dwl r.tbT mn b.tnY al-dmA.g</WMStex>
+                <WMSutf>ال‍زكام هو تجلّب فضول رطبة من بطنى ال‍دماغ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='39'>
+            <locus>Fol.  96a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fy amrA.d al-`yn a`lAl al-.tbqT al-.slbT whY .tbqT mnn^sA'hA</WMStex>
+                <WMSutf>في امراض ال‍عين اعلال ال‍طبقة ال‍صلبة وهى طبقة منّشاءها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='40'>
+            <locus>Fol. 97b.21</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>a`lAl al-.tbqT al-m^symh whY .tbqh tnss^g mn a.trAf</WMStex>
+                <WMSutf>اعلال ال‍طبقة ال‍مشيمه وهى طبقه تنسّج من اطراف</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='41'>
+            <locus>Fol.  98a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>a`lAl al-.tbqh al-^sbkyh whY .tbqh mn^sAhA a.trAf</WMStex>
+                <WMSutf>اعلال ال‍طبقه ال‍شبكيه وهى طبقه منشاها اطراف</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='42'>
+            <locus>Fol.  102a.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>a`lAl al-r.twbT al-^glydyT hY al-r.twbT al-ws.tY</WMStex>
+                <WMSutf>اعلال ال‍رطوبة ال‍جليدية هى ال‍رطوبة ال‍وسطى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='43'>
+            <locus>Fol.  104a.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>a`lAl al-.tbqT al-`nkbwtyh whY .tbqh m_tl ns^g al-`nkbwt</WMStex>
+                <WMSutf>اعلال ال‍طبقة ال‍عنكبوتيه وهى طبقه مثل نسج ال‍عنكبوت</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='44'>
+            <locus>Fol.  105a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>a`lAl al-r.twbh al-by.dyh whY r.twbh ^sbyh--h byA.d</WMStex>
+                <WMSutf>اعلال ال‍رطوبه ال‍بيضيه وهى رطوبه شبيه‍ه بياض</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='45'>
+            <locus>Fol.  106b.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>a`lAl al-.tbqT al-`nbyT</WMStex>
+                <WMSutf>اعلال ال‍طبقة ال‍عنبية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='46'>
+            <locus>Fol.  108a.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>a`lAl al-.tbqT al-qrnyT whY .tbqT .slbT</WMStex>
+                <WMSutf>اعلال ال‍طبقة ال‍قرنية وهى طبقة صلبة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='47'>
+            <locus>Fol.  110b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>a`lAl al-.tbqh al-mlt.hmh whY .h^gAb</WMStex>
+                <WMSutf>اعلال ال‍طبقه ال‍ملتحمه وهى حجاب</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='48'>
+            <locus>Fol.  113b.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wnw` mn al-rmd ysmY al-wrdyn^g  wqd _dkr fY a`lAn al.tbqh al-^sbkyh</WMStex>
+                <WMSutf>ونوع من ال‍رمد يسمى ال‍وردينج  وقد ذكر فى اعلان الطبقه ال‍شبكيه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='49'>
+            <locus>Fol.  116b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w`n t^sn^g al-`.dl al-m.tbqh l|-l^gfn</WMStex>
+                <WMSutf>وعن تشنج ال‍عضل ال‍مطبقه ل‍لجفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='50'>
+            <locus>Fol.  117b.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wfyh n.zr l-an al-sbl nw`An</WMStex>
+                <WMSutf>وفيه نظر لان ال‍سبل نوعان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='51'>
+            <locus>Fol.  119a.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-^srnAq zyAdT mAdT ^s.hmyT</WMStex>
+                <WMSutf>ال‍شرناق زيادة مادة شحمية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='52'>
+            <locus>Fol.  119b.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-al-`lT al-m`rwfT b-al-bww al-tyn hY an ynq.tr mn al-`yn fy kl qlyl mn
+al-zmAn q.trAt mn al-mA'"i</WMStex>
+                <WMSutf>وال‍علة ال‍معروفة ب‍ال‍بوو ال‍تين هى ان ينقطر من ال‍عين في كل قليل من
+ل‍زمان قطرات من ال‍ماءِ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='53'>
+            <locus>Fol.  120a.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-`qdT altY t.hd_t fY al-^gfn al-a`lY t.ht al-^gldT al-.zAhrT</WMStex>
+                <WMSutf>ال‍عقدة التى تحدث فى ال‍جفن الاعلى تحت ال‍جلدة ال‍ظاهرة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='54'>
+            <locus>Fol.  122a.13</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.trfh a^stq h_dA al-asm mn .trfh</WMStex>
+                <WMSutf>ال‍طرفه اشتق هذا الاسم من طرفه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='55'>
+            <locus>Fol.  123b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-qrw.h y_hr^g mn fy sAyr al-.tbqAt alA an mA y_hr^g fy .gyr al-mlt.hmT
+w-al-qrnyT</WMStex>
+                <WMSutf>ال‍قروح يخرج من في ساير ال‍طبقات الا ان ما يخرج في غير ال‍ملتحمة
+وال‍قرنية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='56'>
+            <locus>Fol.  125a.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-byA.d whw byA.d rqyq fY .zAhrT wysmY a_trA w.gmAm"aN ws_hAb"aN</WMStex>
+                <WMSutf>ال‍بياض وهو بياض رقيق فى ظاهرة ويسمى اثرا وغمامًا وسخابًا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='57'>
+            <locus>Fol.  125b.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-b-al-.hzm al-.s.gyr whw an yw_h_d q^sr al-by.d</WMStex>
+                <WMSutf>و‌بال‍حزم ال‍صغير وهو ان يوخذ قشر ال‍بيض</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='58'>
+            <locus>Fol.  125b.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.hzm al-kbyr whw an yw_h_d q^sr al-by.d</WMStex>
+                <WMSutf>ال‍حزم ال‍كبير وهو ان يوخذ قشر ال‍بيض</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='59'>
+            <locus>Fol.  125b.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.hzm al-m`sl whw an yw_h_d  b`r al-.dyt </WMStex>
+                <WMSutf>ال‍حزم ال‍معسل وهو ان يوخذ  بعر ال‍ضيت</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> wq^swr by.d</WMStex>
+                <WMSutf>وقشور بيض</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='60'>
+            <locus>Fol.  126b.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w.drbAn fy byA.d al-`yn b-sbab al-wrm al-.hAr</WMStex>
+                <WMSutf>وضربان في بياض ال‍عين ب‍سبب ال‍ورم ال‍حار</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='61'>
+            <locus>Fol.  127a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-ksryn qyl m`nAh al-^sAfy</WMStex>
+                <WMSutf>ال‍كسرين قيل معناه ال‍شافي</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='62'>
+            <locus>Fol.  128a.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.zfrT `n al-mlt.hmAt kAnt mltzqT</WMStex>
+                <WMSutf>ال‍ظفرة عن ال‍ملتحمات كانت ملتزقة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='63'>
+            <locus>Fol.  128b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-.hwl ykwn amA mwlwd"aN</WMStex>
+                <WMSutf>فى ال‍حول يكون اما مولودًا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='64'>
+            <locus>Fol.  129b.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-^grb _tlA_tT anwA`</WMStex>
+                <WMSutf>ال‍جرب ثلاثة انواع</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='65'>
+            <locus>Fol.  131b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY .slAbT al-a^gfAn w.gl.zhA</WMStex>
+                <WMSutf>فى صلابة الاجفان وغلظها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='66'>
+            <locus>Fol.  132a.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-`^sA' whw al-^sykwrT</WMStex>
+                <WMSutf>فى ال‍عشاء وهو ال‍شيكورة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='67'>
+            <locus>Fol.  133b.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-^ghr wyqAl lh al-rwzkwr</WMStex>
+                <WMSutf>فى ال‍جهر ويقال له ال‍روزكور</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='68'>
+            <locus>Fol.  134b.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-ant^sAr whw an y.srr al-_tqbT al-`nbyT</WMStex>
+                <WMSutf>الانتشار وهو ان يصرّ ال‍ثقبة ال‍عنبية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='69'>
+            <locus>Fol.  135a.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-atsA` hw an yts` al-`.sbT</WMStex>
+                <WMSutf>الاتساع هو ان يتسع ال‍عصبة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='70'>
+            <locus>Fol.  137a.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.dyq hw an y.syr al-_tqbT</WMStex>
+                <WMSutf>ال‍ضيق هو ان يصير ال‍ثقبة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='71'>
+            <locus>Fol.  138b.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-mA' yzwl al-mA' fy al-`yn</WMStex>
+                <WMSutf>فى ال‍ماء يزول ال‍ماء في ال‍عين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='72'>
+            <locus>Fol.  142a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wyb.tl al-_hyAlAt b-^srb al-ayAr^g</WMStex>
+                <WMSutf>ويبطل ال‍خيالات ب‍شرب الايارج</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='73'>
+            <locus>Fol.  147b.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-t_hbylAt </WMStex>
+                <WMSutf>فى ال‍تخبيلات</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> al-^sA_dT aY al-nAdrT</WMStex>
+                <WMSutf>ال‍شاذة اى ال‍نادرة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='74'>
+            <locus>Fol.  154a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY sll al-`yn hw hzAl al-`yn</WMStex>
+                <WMSutf>فى سلّ ال‍عين هو هزال ال‍عين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='75'>
+            <locus>Fol.  155a.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY _dhAb al-b.sr fY al-m.tAyr whY al-.h"uf"ar</WMStex>
+                <WMSutf>فى ذهاب ال‍بصر فى ال‍مطاير وهى ال‍حُفَر</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='76'>
+            <locus>Fol.  155b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-.drbT altY t.syb al-`yn</WMStex>
+                <WMSutf>فى ال‍ضربة التى تصيب ال‍عين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='77'>
+            <locus>Fol.  155b.21</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>.slAbT al-a^gfAn</WMStex>
+                <WMSutf>صلابة الاجفان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='78'>
+            <locus>Fol.  156a.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>^sdT al-.hkT</WMStex>
+                <WMSutf>شدة ال‍حكة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='79'>
+            <locus>Fol.  156b.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>.h^gw.z </WMStex>
+                <WMSutf>حجوظ</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> sbabh</WMStex>
+                <WMSutf>سببه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='80'>
+            <locus>Fol.  157b.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>zyAdT  l.hm al-mAq</WMStex>
+                <WMSutf>زيادة  لحم ال‍ماق</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='81'>
+            <locus>Fol.  158a.15</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY qrw.h al-^gfn</WMStex>
+                <WMSutf>فى قروح ال‍جفن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='82'>
+            <locus>Fol.  160a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amrA.d al-^gfn mnhA mA hY</WMStex>
+                <WMSutf>امراض ال‍جفن منها ما هى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='83'>
+            <locus>Fol.  160a.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amrA.d al-mAq  _tlA_tT</WMStex>
+                <WMSutf>امراض ال‍ماق  ثلاثة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='84'>
+            <locus>Fol.  160a.19</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amrA.d al-qrnyT mnhA mA y_ht.s.s</WMStex>
+                <WMSutf>امراض ال‍قرنية منها ما يختصّ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='85'>
+            <locus>Fol.  160b.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amrA.d al-a_dn</WMStex>
+                <WMSutf>امراض الاذن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='86'>
+            <locus>Fol.  167a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>qd y.hd_t al-.tr^s  lsdT fY al-.smA.h ymn` w.swl al-hwA'</WMStex>
+                <WMSutf>قد يحدث ال‍طرش  لسدة فى ال‍صماح يمنع وصول ال‍هواء</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='87'>
+            <locus>Fol.  167b.19</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-.tnyn w-al-dwY al-.tnyn</WMStex>
+                <WMSutf>فى ال‍طنين وال‍دوى ال‍طنين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='88'>
+            <locus>Fol.  169a.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY anf^gAr aldm mn al-a_dn</WMStex>
+                <WMSutf>فى انفجار الدم من الاذن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='89'>
+            <locus>Fol.  169b.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-awrAm altY y.hd_t fY a.sl al-a_dn</WMStex>
+                <WMSutf>فى الاورام التى يحدث فى اصل الاذن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='90'>
+            <locus>Fol.  171a.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY amrA.d al-anf fY al-_hy^sm</WMStex>
+                <WMSutf>فى امراض الانف فى ال‍خيشم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='91'>
+            <locus>Fol.  175a.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY fsAd al-^sm</WMStex>
+                <WMSutf>فى فساد ال‍شم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='92'>
+            <locus>Fol.  176b.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-qrw.h fy al-anf</WMStex>
+                <WMSutf>ال‍قروح في الانف</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='93'>
+            <locus>Fol.  176b.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-r`Af ykwn amA l-b.hrAn w`lAmth</WMStex>
+                <WMSutf>فى ال‍رعاف يكون اما ل‍بحران وعلامته</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='94'>
+            <locus>Fol.  178a.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY r.d al-anf kAn .hfyfA</WMStex>
+                <WMSutf>فى رض الانف كان حفيفا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='95'>
+            <locus>Fol.  178b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-`.tAs  .hrkT _hAmyh</WMStex>
+                <WMSutf>فى ال‍عطاس  حركة خاميه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='96'>
+            <locus>Fol.  179a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY ^gfAn al-anf sbabh .hrArT</WMStex>
+                <WMSutf>فى جفان الانف سببه حرارة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='97'>
+            <locus>Fol.  179b.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY .hkT al-anf hw an y^gd al-ansAn</WMStex>
+                <WMSutf>فى حكة الانف هو ان يجد الانسان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='98'>
+            <locus>Fol.  179b.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY amrA.d al|-lsAn w-al-fm w-al-^sftyn</WMStex>
+                <WMSutf>فى امراض ال‍لسان وال‍فم وال‍شفتين</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='99'>
+            <locus>Fol.  180b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY b.tlAn al-_drq wfsAdh aY t.gyrh</WMStex>
+                <WMSutf>فى بطلان ال‍ذرق وفساده اى تغيره</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='100'>
+            <locus>Fol.  181a.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY _tql al|-lsAn wt.gyr al-klAm</WMStex>
+                <WMSutf>فى ثقل ال‍لسان وتغير ال‍كلام</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='101'>
+            <locus>Fol.  183a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY ^sqAa al|-lsAn h_dh al-`lT t.zhr</WMStex>
+                <WMSutf>فى شقا ال‍لسان هذه ال‍علة تظهر</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='102'>
+            <locus>Fol.  183b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY .hrqh al|-lsAn</WMStex>
+                <WMSutf>فى حرقه ال‍لسان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='103'>
+            <locus>Fol.  183b.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY .hkh al|-lsAn</WMStex>
+                <WMSutf>فى حكه ال‍لسان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='104'>
+            <locus>Fol.  183b.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY tq^sr al|-lsAn</WMStex>
+                <WMSutf>فى تقشر ال‍لسان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='105'>
+            <locus>Fol.  184a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-b_twr fy al-fm sbabhA</WMStex>
+                <WMSutf>ال‍بثور في ال‍فم سببها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='106'>
+            <locus>Fol.  184a.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fy al-qlA` qr.hT tkwn fy al-.tbqT al-_hAr^gT</WMStex>
+                <WMSutf>في ال‍قلاع قرحة تكون في ال‍طبقة ال‍خارجة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='107'>
+            <locus>Fol.  185a.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-aklT fY al-fm</WMStex>
+                <WMSutf>فى الاكلة فى ال‍فم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='108'>
+            <locus>Fol.  185a.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>k_trT al|-lqAt wsbab</WMStex>
+                <WMSutf>كثرة ال‍لقات وسبب</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='109'>
+            <locus>Fol.  185b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-b_hr ykwn amA mn .hrArT</WMStex>
+                <WMSutf>فى ال‍بخر يكون اما من حرارة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='110'>
+            <locus>Fol.  187a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>byA.d al-^sfT</WMStex>
+                <WMSutf>بياض ال‍شفة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='111'>
+            <locus>Fol.  187b.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>a_htlA^g al-^sfT</WMStex>
+                <WMSutf>اختلاج ال‍شفة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='112'>
+            <locus>Fol.  187b.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>tql.s al-^sftyn h_dh al-`lT bmA kAnt</WMStex>
+                <WMSutf>تقلص ال‍شفتين هذه ال‍علة بما كانت</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='113'>
+            <locus>Fol.  188a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-bwAsyr fy al-^sfT</WMStex>
+                <WMSutf>ال‍بواسير في ال‍شفة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='114'>
+            <locus>Fol.  188b.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>awrAm al-^sftyn ykwn mn zyAdT al-a_hlA.t</WMStex>
+                <WMSutf>اورام ال‍شفتين يكون من زيادة الاخلاط</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='115'>
+            <locus>Fol.  188b.13</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-b_twr w-al-qrw.h fY al-^sfT amA al-b-twr ftkwn mn dm</WMStex>
+                <WMSutf>ال‍بثور وال‍قروح فى ال‍شفة اما ال‍ب‌تور فتكون من دم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='116'>
+            <locus>Fol.  188b.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY amrA.d al-asnAn w-al|-l_tT</WMStex>
+                <WMSutf>فى امراض الاسنان وال‍لثة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='117'>
+            <locus>Fol.  191b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.drs _hd"ad mA y`r.d l|-lsnn</WMStex>
+                <WMSutf>ال‍ضرس خدَد ما يعرض ل‍لسنّ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='118'>
+            <locus>Fol.  192a.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY tAkl al-asnAn wt_tqbhA wtft--thA</WMStex>
+                <WMSutf>فى تاكل الاسنان وتثقبها وتفت‍تها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='119'>
+            <locus>Fol.  192b.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.hfr ^sY' y^sbh al-_hzf sry` al-tft--t k-al-rml</WMStex>
+                <WMSutf>ال‍حفر شىء يشبه ال‍خزف سريع ال‍تفت‍ت كال‍رمل</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='120'>
+            <locus>Fol.  193b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY t.hrk al-asnAn w-sqw.thA h_dA ykwn mn s`T</WMStex>
+                <WMSutf>فى تحرك الاسنان و‌سقوطها هذا يكون من سعة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='121'>
+            <locus>Fol.  195a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY tzyd al-sn</WMStex>
+                <WMSutf>فى تزيد ال‍سن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='122'>
+            <locus>Fol.  195b.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>.hkT al-asnAn h_dh al-`lT y.hd_t</WMStex>
+                <WMSutf>حكة الاسنان هذه ال‍علة يحدث</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='123'>
+            <locus>Fol.  196a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>tshyl nbAt al-asnAn ynb`Y an ydlk</WMStex>
+                <WMSutf>تسهيل نبات الاسنان ينبعى ان يدلك</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='124'>
+            <locus>Fol.  196a.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>_dhAb mA' al-asnAn hw an</WMStex>
+                <WMSutf>ذهاب ماء الاسنان هو ان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='125'>
+            <locus>Fol.  196b.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>awrAm al|-l_th y.hd_t fyh al-wrm al-.hAd_t</WMStex>
+                <WMSutf>اورام ال‍لثه يحدث فيه ال‍ورم ال‍حادث</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='126'>
+            <locus>Fol.  197a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al|-l_tT al-dAmyT</WMStex>
+                <WMSutf>ال‍لثة ال‍دامية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='127'>
+            <locus>Fol.  197a.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>qrw.h al|-l_th</WMStex>
+                <WMSutf>قروح ال‍لثه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='128'>
+            <locus>Fol.  197b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>nq.sAn al|-l.hm l|-l_th w-astr_hAwhA</WMStex>
+                <WMSutf>نقصان ال‍لحم ل‍لثه واسترخاوها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='129'>
+            <locus>Fol.  197b.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY amrA.d al-.hlq</WMStex>
+                <WMSutf>فى امراض ال‍حلق</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='130'>
+            <locus>Fol.  197b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w^g` al|-lhAT</WMStex>
+                <WMSutf>وجع ال‍لهاة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='131'>
+            <locus>Fol.  198b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wqd y`r.d lhA aY al|-lhAT al-astr_hA' wysmY sqw.t al|-lhAT</WMStex>
+                <WMSutf>وقد يعرض لها اى ال‍لهاة الاسترخاء ويسمى سقوط ال‍لهاة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='132'>
+            <locus>Fol.  199b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fy al-_hwAnyq w-al-_db.h</WMStex>
+                <WMSutf>في ال‍خوانيق وال‍ذبح</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='133'>
+            <locus>Fol.  202b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-_hnAq al-klbY</WMStex>
+                <WMSutf>ال‍خناق ال‍كلبى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='134'>
+            <locus>Fol.  203b.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-_db.hT fhY wrm .hAr fY al-`.dlAt</WMStex>
+                <WMSutf>واما ال‍ذبحة فهى ورم حار فى ال‍عضلات</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='135'>
+            <locus>Fol.  205b.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-b-twr fy al-.hlq rbmA _hr^gt fY al-.hlq</WMStex>
+                <WMSutf>ال‍ب‌تور في ال‍حلق ربما خرجت فى ال‍حلق</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='136'>
+            <locus>Fol.  206a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fy al-`lq</WMStex>
+                <WMSutf>في ال‍علق</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='137'>
+            <locus>Fol.  207a.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fy antbAq al-mrY</WMStex>
+                <WMSutf>في انتباق ال‍مرى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='138'>
+            <locus>Fol. 207b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>.hkAk al-mrY y.zhr fY fm al-mrY</WMStex>
+                <WMSutf>حكاك ال‍مرى يظهر فى فم ال‍مرى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='139'>
+            <locus>Fol.  207b.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-a_htlA^g w-al-art`A^s al-`Ar.dyn l-q.sbh al-ryh</WMStex>
+                <WMSutf>فى الاختلاج والارتعاش ال‍عارضين ل‍قصبه ال‍ريه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='140'>
+            <locus>Fol.  208a.15</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-`ryq al-m_htwq b-al-whq</WMStex>
+                <WMSutf>فى ال‍عريق ال‍مختوق ب‍ال‍وهق</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='141'>
+            <locus>Fol.  209a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY b.hw.hT al-.swt</WMStex>
+                <WMSutf>فى بحوحة ال‍صوت</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='142'>
+            <locus>Fol.  210a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>`sr al-bl` sbabh sw' mzA^g</WMStex>
+                <WMSutf>عسر ال‍بلع سببه سوء مزاج</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='143'>
+            <locus>Fol.  211a.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>awrAm al-mrY ykwn amA .hArT</WMStex>
+                <WMSutf>اورام ال‍مرى يكون اما حارة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='144'>
+            <locus>Fol.  211a.21</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>qrw.h  al-mrY sbabhA</WMStex>
+                <WMSutf>قروح  ال‍مرى سببها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='145'>
+            <locus>Fol.  211b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY a`lAl al-ryT w-al-.sdr w-ant.sAb al-nfs</WMStex>
+                <WMSutf>فى اعلال ال‍رية وال‍صدر وانتصاب ال‍نفس</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='146'>
+            <locus>Fol.  213b.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-s`Al .hrkT mn al-.sdr</WMStex>
+                <WMSutf>ال‍سعال حركة من ال‍صدر</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='147'>
+            <locus>Fol.  214a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wrm fY al-ryT</WMStex>
+                <WMSutf>ورم فى ال‍رية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='148'>
+            <locus>Fol.  214a.13</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wrm al-kbd</WMStex>
+                <WMSutf>ورم ال‍كبد</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='149'>
+            <locus>Fol.  214a.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>_hl.t .gly.z `lAmth</WMStex>
+                <WMSutf>خلط غليظ علامته</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='150'>
+            <locus>Fol.  217a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY nf_t al-dm </WMStex>
+                <WMSutf>فى نفث ال‍دم</WMSutf>
+              </WMStu>
+              <WMSsep/>
+              <WMStu>
+                <WMStex> al-dm al_dy y_hr^g mn al-fm</WMStex>
+                <WMSutf>ال‍دم الذي يخرج من ال‍فم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='151'>
+            <locus>Fol.  219a.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY _dAt al-ryT whY wrm .hAr yAbs</WMStex>
+                <WMSutf>فى ذات ال‍رية وهى ورم حار يابس</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='152'>
+            <locus>Fol.  221a.21</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-sl wnf_t al-mdT</WMStex>
+                <WMSutf>فى ال‍سل ونفث ال‍مدة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='153'>
+            <locus>Fol.  224b.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-mdT al-m.htqnh fY al-.sdr sbabhA</WMStex>
+                <WMSutf>ال‍مدة ال‍محتقنه فى ال‍صدر سببها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='154'>
+            <locus>Fol.  226b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-^sw.sT _dAt al-^gnb al-_hAl.s wrm fY al-`^sA</WMStex>
+                <WMSutf>ال‍شوصة ذات ال‍جنب ال‍خالص ورم فى ال‍عشا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='155'>
+            <locus>Fol.  228a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amA dm al-.sfrAwY w`lAmthA</WMStex>
+                <WMSutf>اما دم ال‍صفراوى وعلامتها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='156'>
+            <locus>Fol.  228b.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amA dm swdAwY m.htrq w`lAmth</WMStex>
+                <WMSutf>اما دم سوداوى محترق وعلامته</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='157'>
+            <locus>Fol.  229b.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-^sw.sT fhY al-wrm al_dY y.hd_t fY al-.h^gAb</WMStex>
+                <WMSutf>ال‍شوصة فهى ال‍ورم الذى يحدث فى ال‍حجاب</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='158'>
+            <locus>Fol.  231b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY ^gmwd al-.sdr h_dh al-`lT y`rf b--brd al-.sdr</WMStex>
+                <WMSutf>فى جمود ال‍صدر هذه ال‍علة يعرف ب‍برد ال‍صدر</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='159'>
+            <locus>Fol.  232a.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY amrA.d al-qlb sw' mzA^g al-qlb ykwn</WMStex>
+                <WMSutf>فى امراض ال‍قلب سوء مزاج ال‍قلب يكون</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='160'>
+            <locus>Fol.  233a.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-_hfqAn .hrkT a_htlA^gyT y`r.d l|-lqlb</WMStex>
+                <WMSutf>ال‍خفقان حركة اختلاجية يعرض ل‍لقلب</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='161'>
+            <locus>Fol.  234a.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-.g^sY hw t`.tl ^gl al-qwY</WMStex>
+                <WMSutf>فى ال‍غشى هو تعطل جل ال‍قوى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='162'>
+            <locus>Fol.  239a.19</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY wrm adnY al-qlb hmA zAydtAn `.sbytAn</WMStex>
+                <WMSutf>فى ورم ادنى ال‍قلب هما زايدتان عصبيتان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='163'>
+            <locus>Fol.  240a.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>.d.g.t al-qlb h_dh `lT swdAwyT</WMStex>
+                <WMSutf>ضغط ال‍قلب هذه علة سوداوية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='164'>
+            <locus>Fol.  240a.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>tq^syr al-qlb h_dh `lT y^gd al-ansAn</WMStex>
+                <WMSutf>تقشير ال‍قلب هذه علة يجد الانسان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='165'>
+            <locus>Fol.  240b.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>q_df al-qlb h_dh `lt y.hsn al-ansAn</WMStex>
+                <WMSutf>قذف ال‍قلب هذه علت يحسن الانسان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='166'>
+            <locus>Fol.  241a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY a.htwA' al-r.twbT fY al-qlb</WMStex>
+                <WMSutf>فى احتواء ال‍رطوبة فى ال‍قلب</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='167'>
+            <locus>Fol.  241a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>^g_db al-qlb h_dh `lT</WMStex>
+                <WMSutf>جذب ال‍قلب هذه علة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='168'>
+            <locus>Fol.  241b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fy amrA.d al-_tdY qlT al|-lbn</WMStex>
+                <WMSutf>في امراض ال‍ثدى قلة ال‍لبن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='169'>
+            <locus>Fol.  242a.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>k_trT al|-lbn wdrwrh</WMStex>
+                <WMSutf>كثرة ال‍لبن ودروره</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='170'>
+            <locus>Fol.  242b.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>awrAm al-_tdy--yn qd y.hd_t fy al-_tdy--yn anwA` al-awrAm</WMStex>
+                <WMSutf>اورام ال‍ثدي‍ين قد يحدث في ال‍ثدي‍ين انواع الاورام</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='171'>
+            <locus>Fol.  243a.19</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fy amrA.d al-m`dT sw' mzA^g al-m`dT</WMStex>
+                <WMSutf>في امراض ال‍معدة سوء مزاج ال‍معدة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='172'>
+            <locus>Fol.  247a.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w^g` al-m`dT sbabh amA sw' mzA^ghA</WMStex>
+                <WMSutf>وجع ال‍معدة سببه اما سوء مزاجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='173'>
+            <locus>Fol.  248a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA .d`f al-m`dT `n h.dm al-.g_dA'</WMStex>
+                <WMSutf>واما ضعف ال‍معدة عن هضم ال‍غذاء</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='174'>
+            <locus>Fol.  248a.19</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY .d`f al-h.dm wsw' al-h.dm</WMStex>
+                <WMSutf>فى ضعف ال‍هضم وسوء ال‍هضم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='175'>
+            <locus>Fol.  248b.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>sw' al-h.dm wfsAdh</WMStex>
+                <WMSutf>سوء ال‍هضم وفساده</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='176'>
+            <locus>Fol.  249a.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-t_hmh fhY an lA ynh.dm al-.t`Am</WMStex>
+                <WMSutf>واما ال‍تخمه فهى ان لا ينهضم ال‍طعام</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='177'>
+            <locus>Fol.  249b.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA .d`f al-m`dT ^grm al-m`dT wthlhl</WMStex>
+                <WMSutf>واما ضعف ال‍معدة جرم ال‍معدة وتهلهل</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='178'>
+            <locus>Fol.  250b.19</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-hy.dh hY .hrkT mn al-mwAd al-fAsdT al-.gyr al-mnh.dmT alY anf.sAl</WMStex>
+                <WMSutf>ال‍هيضه هى حركة من ال‍مواد ال‍فاسدة ال‍غير ال‍منهضمة الى انفصال</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='179'>
+            <locus>Fol.  252b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY nq.sAn al-^shwT</WMStex>
+                <WMSutf>فى نقصان ال‍شهوة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='180'>
+            <locus>Fol.  255b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-w.hm wfsAd al-^shwT lA frq bynhmA `nd al-^gmhwr</WMStex>
+                <WMSutf>ال‍وحم وفساد ال‍شهوة لا فرق بينهما عند ال‍جمهور</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='181'>
+            <locus>Fol.  258a.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-^shwT al-klbyT hY zyAdT al-^shwT w-a^stdAdhA</WMStex>
+                <WMSutf>ال‍شهوة ال‍كلبية هى زيادة ال‍شهوة واشتدادها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='182'>
+            <locus>Fol.  260b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY ^gw` al-bqrY h_dA hw al_dy ysmY bwlymws whw ^gw` al-a`.dA</WMStex>
+                <WMSutf>فى جوع ال‍بقرى هذا هو الذي يسمى بوليموس وهو جوع الاعضا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='183'>
+            <locus>Fol.  262b.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-`.t^s al-mfr.t ykwn amA</WMStex>
+                <WMSutf>فى ال‍عطش ال‍مفرط يكون اما</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='184'>
+            <locus>Fol.  263b.13</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA mn .hrArT al-m`dT kmA y`r.d fy al-.hmyAt</WMStex>
+                <WMSutf>واما من حرارة ال‍معدة كما يعرض في ال‍حميات</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='185'>
+            <locus>Fol.  266a.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY awrAm al-m`dT wrm al-m`dh ykwn amA .hArA</WMStex>
+                <WMSutf>فى اورام ال‍معدة ورم ال‍معده يكون اما حارا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='186'>
+            <locus>Fol.  266b.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA bl.gmyA whw al-wrm al-r_hw ytwld mn r.twbT</WMStex>
+                <WMSutf>واما بلغميا وهو ال‍ورم ال‍رخو يتولد من رطوبة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='187'>
+            <locus>Fol.  267b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY dbylT al-m`dT wqrw.hhA k_tyrA mA y^gm` al-wrm al-.hAr</WMStex>
+                <WMSutf>فى دبيلة ال‍معدة وقروحها كثيرا ما يجمع ال‍ورم ال‍حار</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='188'>
+            <locus>Fol.  268a.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA qrw.h al-m`dT w_tbwrhA f`lA</WMStex>
+                <WMSutf>واما قروح ال‍معدة وثبورها فعلا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='189'>
+            <locus>Fol.  268a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-nf_hh w-al-^g^sA' w-al-t^sAwb</WMStex>
+                <WMSutf>ال‍نفخه وال‍جشاء وال‍تشاوب</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='190'>
+            <locus>Fol.  269a.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-qY w-al-thw` .hrkT mn al-m`dT</WMStex>
+                <WMSutf>ال‍قى وال‍تهوع حركة من ال‍معدة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='191'>
+            <locus>Fol.  271a.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-an y_hr^g al-dm a.hyAnA mn al-mn_hryn w-al-fm</WMStex>
+                <WMSutf>وان يخرج ال‍دم احيانا من ال‍منخرين وال‍فم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='192'>
+            <locus>Fol.  272a.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>ry.h .gly.z m^gtsbh </WMStex>
+                <WMSutf>ريح غليظ مجتسبه</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> fy fm al-m`dT</WMStex>
+                <WMSutf>في فم ال‍معدة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='193'>
+            <locus>Fol.  273b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wbm^sArkT al-kbd lwrm y.hd_t</WMStex>
+                <WMSutf>وبمشاركة ال‍كبد لورم يحدث</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='194'>
+            <locus>Fol.  275a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-krb w-al-qlq al-m`dY</WMStex>
+                <WMSutf>ال‍كرب وال‍قلق ال‍معدى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='195'>
+            <locus>Fol.  275b.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>a_htlA^g al-m`dT qd y.hd_t fY al-m`dT .hrkT</WMStex>
+                <WMSutf>اختلاج ال‍معدة قد يحدث فى ال‍معدة حركة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='196'>
+            <locus>Fol.  276a.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w^g` al-fwAd h_dh al-`lh hY w^g` y`r.d</WMStex>
+                <WMSutf>وجع ال‍فواد هذه ال‍عله هى وجع يعرض</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='197'>
+            <locus>Fol.  276a.15</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>.hrqT al-m`dT sbabhA tnAwl a.g_dyh</WMStex>
+                <WMSutf>حرقة ال‍معدة سببها تناول اغذيه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='198'>
+            <locus>Fol.  277a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>.hkAk al-m`dT wd.gd.gthA sbabhmA amA _hl.t .hryq</WMStex>
+                <WMSutf>حكاك ال‍معدة ودغدغتها سببهما اما خلط حريق</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='199'>
+            <locus>Fol.  277a.13</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>astr_hA' al-m`dT wthlhl ns^ghA</WMStex>
+                <WMSutf>استرخاء ال‍معدة وتهلهل نسجها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='200'>
+            <locus>Fol.  278a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>t^sn^g al-m`dT qd y`r.d l|-lm`dT fY ^gz'hA</WMStex>
+                <WMSutf>تشنج ال‍معدة قد يعرض ل‍لمعدة فى جزءها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='201'>
+            <locus>Fol.  278b.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY ^gsAdT al-m`dT</WMStex>
+                <WMSutf>فى جسادة ال‍معدة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='202'>
+            <locus>Fol.  279b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-_drb whw an.tlAq al-b.tn</WMStex>
+                <WMSutf>فى ال‍ذرب وهو انطلاق ال‍بطن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='203'>
+            <locus>Fol.  279b.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-_hlfT whY an lA ylb_t al-.t`Am</WMStex>
+                <WMSutf>فى ال‍خلفة وهى ان لا يلبث ال‍طعام</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='204'>
+            <locus>Fol.  281b.21</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA alnwAdl ynzl mn al-rAs</WMStex>
+                <WMSutf>واما النوادل ينزل من ال‍راس</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='205'>
+            <locus>Fol.  284a.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wnw` mn al-_hlfT ysmY dwr al-b.tn</WMStex>
+                <WMSutf>ونوع من ال‍خلفة يسمى دور ال‍بطن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='206'>
+            <locus>Fol.  285a.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>qd y.hd_t al-_drb mn sdT y`r.d fY al-`rwq</WMStex>
+                <WMSutf>قد يحدث ال‍ذرب من سدة يعرض فى ال‍عروق</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='207'>
+            <locus>Fol.  286b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY amrA.d al-kbd sw' mzA^g al-kbd ykwn amA</WMStex>
+                <WMSutf>فى امراض ال‍كبد سوء مزاج ال‍كبد يكون اما</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='208'>
+            <locus>Fol.  287a.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amA bArd aw `lAm_th al-_hlfh l-an</WMStex>
+                <WMSutf>اما بارد او علامثه ال‍خلفه لان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='209'>
+            <locus>Fol.  287a.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wqlT al-`.t^s wbyA.d al|-lsAn w-al-^sftyn wftwr al-nb.d</WMStex>
+                <WMSutf>وقلة ال‍عطش وبياض ال‍لسان وال‍شفتين وفتور ال‍نبض</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='210'>
+            <locus>Fol.  288a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>.d`f al-kbd whw _hlal fY ^gmy` qwAhA</WMStex>
+                <WMSutf>ضعف ال‍كبد وهو خلل فى جميع قواها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='211'>
+            <locus>Fol.  288a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA amrA.d alyh y`r.d lhA k-al-.sqr w-al-sdad</WMStex>
+                <WMSutf>واما امراض اليه يعرض لها كال‍صقر وال‍سدد</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='212'>
+            <locus>Fol.  290a.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>sdad  al-kbd sbabhA a_hlA.t .gly.zh</WMStex>
+                <WMSutf>سدد  ال‍كبد سببها اخلاط غليظه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='213'>
+            <locus>Fol.  291a.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY nf.hh al-kbd qd y^gtm` fY a^gzA' al-kbd</WMStex>
+                <WMSutf>فى نفحه ال‍كبد قد يجتمع فى اجزاء ال‍كبد</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='214'>
+            <locus>Fol.  291b.11</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>awrAm al-kbd wawrm al-`.dlAt</WMStex>
+                <WMSutf>اورام ال‍كبد وورم ال‍عضلات</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='215'>
+            <locus>Fol.  293b.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA .sfrAwyA w_dlk y.hd_t `nd k_trT twldhA</WMStex>
+                <WMSutf>واما صفراويا وذلك يحدث عند كثرة تولدها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='216'>
+            <locus>Fol.  294b.15</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA swdAwyA .slbA wh_dA amA an y.hd_t `n al-wrm</WMStex>
+                <WMSutf>واما سوداويا صلبا وهذا اما ان يحدث عن ال‍ورم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='217'>
+            <locus>Fol.  296b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-dbylT fY al-kbd ak_tr mA y.hd_t al-dbylT fY al-kbd</WMStex>
+                <WMSutf>ال‍دبيلة فى ال‍كبد اكثر ما يحدث ال‍دبيلة فى ال‍كبد</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='218'>
+            <locus>Fol.  298a.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>tb^sr </WMStex>
+                <WMSutf>تبشر</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> s.t.h al-kbd h_dh al-`lt y.hd_t nAdrT</WMStex>
+                <WMSutf>سطح ال‍كبد هذه ال‍علت يحدث نادرة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='219'>
+            <locus>Fol.  298a.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>_hfqT al-kbd h_dh `lh .grybh</WMStex>
+                <WMSutf>خفقة ال‍كبد هذه عله غريبه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='220'>
+            <locus>Fol.  299a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.h.sAh altY ytwld fY al-kbd sbabh hw sbab twldhA fY al-klY</WMStex>
+                <WMSutf>ال‍حصاه التى يتولد فى ال‍كبد سببه هو سبب تولدها فى ال‍كلى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='221'>
+            <locus>Fol.  300a.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-qyAm al-kbdY smY bh al-ashAl</WMStex>
+                <WMSutf>ال‍قيام ال‍كبدى سمى به الاسهال</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='222'>
+            <locus>Fol.  302b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY sw' al-qnyh m`nAh rdA'T add_hAr al-.g_dA</WMStex>
+                <WMSutf>فى سوء ال‍قنيه معناه رداءة ادّخار ال‍غذا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='223'>
+            <locus>Fol.  303a.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-astqsA fhw mr.d al-.hAdY</WMStex>
+                <WMSutf>واما الاستقسا فهو مرض ال‍حادى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='224'>
+            <locus>Fol.  206a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-zqY fhw an y^gtm` al-mA'</WMStex>
+                <WMSutf>واما ال‍زقى فهو ان يجتمع ال‍ماء</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='225'>
+            <locus>Fol.  308a.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-.tblY fhw an y^gtm` al-ryA.h al-`ly.zh</WMStex>
+                <WMSutf>واما ال‍طبلى فهو ان يجتمع ال‍رياح ال‍عليظه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='226'>
+            <locus>Fol.  309a.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY amrA.d al-.t.hAl w-al-mrAzT al-yrqAn</WMStex>
+                <WMSutf>فى امراض ال‍طحال وال‍مرازة ال‍يرقان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='227'>
+            <locus>Fol.  309a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-yrqAn al-a.sfr</WMStex>
+                <WMSutf>واما ال‍يرقان الاصفر</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='228'>
+            <locus>Fol.  309b.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA mn sw' mzA^g .hAr y`r.d l|-lkbd fy.hyl al-.g_dA</WMStex>
+                <WMSutf>واما من سوء مزاج حار يعرض ل‍لكبد فيحيل ال‍غذا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='229'>
+            <locus>Fol.  310a.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA mn sw' mzA^g .hAr y.hd_t fY al-mrArT</WMStex>
+                <WMSutf>واما من سوء مزاج حار يحدث فى ال‍مرارة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='230'>
+            <locus>Fol.  311a.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA mn .hrArh ^gmy` al-bdn w-al-`rwq</WMStex>
+                <WMSutf>واما من حراره جميع ال‍بدن وال‍عروق</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='231'>
+            <locus>Fol.  311a.15</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amA mn wrm al-kbd</WMStex>
+                <WMSutf>اما من ورم ال‍كبد</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='232'>
+            <locus>Fol.  311a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA mn sdad fY al-kbd</WMStex>
+                <WMSutf>واما من سدد فى ال‍كبد</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='233'>
+            <locus>Fol.  311b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>mn ls` al-.hywAn _dY smm</WMStex>
+                <WMSutf>من لسع ال‍حيوان ذى سمّ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='234'>
+            <locus>Fol.  311b.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA mn ^srb dwA' qtAl .hAr kmrArT al-nmr</WMStex>
+                <WMSutf>واما من شرب دواء قتال حار كمرارة ال‍نمر</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='235'>
+            <locus>Fol.  312a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA lwrm y.hd_t l|-lmrArT fy.d`f `n ^g_db al-mrAr</WMStex>
+                <WMSutf>واما لورم يحدث ل‍لمرارة فيضعف عن جذب ال‍مرار</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='236'>
+            <locus>Fol.  312a.21</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-sdT y.hd_t fY al-m^grY</WMStex>
+                <WMSutf>واما ال‍سدة يحدث فى ال‍مجرى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='237'>
+            <locus>Fol.  312b.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-sdT fY al-m^grY al_dY fyh tdf` al-mrArT</WMStex>
+                <WMSutf>واما ال‍سدة فى ال‍مجرى الذى فيه تدفع ال‍مرارة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='238'>
+            <locus>Fol.  313b.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>`r.d al-yrqAn b-sbab al-qwln^g</WMStex>
+                <WMSutf>عرض ال‍يرقان ب‍سبب ال‍قولنج</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='239'>
+            <locus>Fol.  314a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amA al-yrqAn al-aswd whw al_dY yqAl lh yrqAn</WMStex>
+                <WMSutf>اما ال‍يرقان الاسود وهو الذى يقال له يرقان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='240'>
+            <locus>Fol.  314b.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-^sdT .hrArT al-kbd fy.hrq al-dm alY al-swdA'</WMStex>
+                <WMSutf>واما ال‍شدة حرارة ال‍كبد فيحرق ال‍دم الى ال‍سوداء</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='241'>
+            <locus>Fol.  315a.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-.d`f  </WMStex>
+                <WMSutf>واما ال‍ضعف</WMSutf>
+              </WMStu>
+              <WMSLR>( lacuna )</WMSLR>
+              <WMStu>
+                <WMStex> al-.t.hAl fy^grY al-swdA</WMStex>
+                <WMSutf>ال‍طحال فيجرى ال‍سودا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='242'>
+            <locus>Fol.  315b.19</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY amrA.d al-.t.hAl sw' mzA^g al-.t.hAl</WMStex>
+                <WMSutf>فى امراض ال‍طحال سوء مزاج ال‍طحال</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='243'>
+            <locus>Fol.  317b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>awrAm al-.t.hAl w.slAbT ak_tr mA ykwn awrAm al-.t.hAl</WMStex>
+                <WMSutf>اورام ال‍طحال وصلابة اكثر ما يكون اورام ال‍طحال</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='244'>
+            <locus>Fol.  319b.13</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>tqy.h al-.t.hAl an al-wrm al-.slb fY al-.t.hAl</WMStex>
+                <WMSutf>تقيح ال‍طحال ان ال‍ورم ال‍صلب فى ال‍طحال</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='245'>
+            <locus>Fol.  320a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>.d`f al-.t.hAl</WMStex>
+                <WMSutf>ضعف ال‍طحال</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='246'>
+            <locus>Fol.  320b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>sdad al-.t.hAl `lAmthA al-_tql fY al-.t.hAl</WMStex>
+                <WMSutf>سدد ال‍طحال علامتها ال‍ثقل فى ال‍طحال</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='247'>
+            <locus>Fol.  320b.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>nf.hh al-.t.hAl sbabhA brd mzA^g al-.t.hAl</WMStex>
+                <WMSutf>نفحه ال‍طحال سببها برد مزاج ال‍طحال</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='248'>
+            <locus>Fol.  321a.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-.h^gArT fY al-.t.hAl qd ytwld fY al-nAdr rml a.gbrA w-aswdA</WMStex>
+                <WMSutf>ال‍حجارة فى ال‍طحال قد يتولد فى ال‍نادر رمل اغبرا واسودا</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='249'>
+            <locus>Fol.  321b.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amrA.d al-am`A' w-al-mq`dT</WMStex>
+                <WMSutf>امراض الامعاء وال‍مقعدة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='250'>
+            <locus>Fol.  322a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amA al-b_twr fy s.thA </WMStex>
+                <WMSutf>اما ال‍بثور في سطها</WMSutf>
+              </WMStu>
+              <WMSLR>(sic!)</WMSLR>
+              <WMStu>
+                <WMStex> al-_hAr^g</WMStex>
+                <WMSutf>ال‍خارج</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='251'>
+            <locus>Fol.  322b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA ltrhl al-am`A' w-abtlAlhA</WMStex>
+                <WMSutf>واما لترهل الامعاء وابتلالها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='252'>
+            <locus>Fol.  323a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-ashAl w-al-s.h^g qd -dkr k_tyr mn anwA`</WMStex>
+                <WMSutf>فى الاسهال وال‍سحج قد ‌دكر كثير من انواع</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='253'>
+            <locus>Fol.  325b.15</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amA al-swdAwY y.hd_t mn swdA'</WMStex>
+                <WMSutf>اما ال‍سوداوى يحدث من سوداء</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='254'>
+            <locus>Fol.  327a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-z.hyr hw .hrkT mn al-m`A' al-mstqym</WMStex>
+                <WMSutf>ال‍زحير هو حركة من ال‍معاء ال‍مستقيم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='255'>
+            <locus>Fol.  328a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-m.g.s al-m.g.s hw w^g` al-am`A wsbabh</WMStex>
+                <WMSutf>فى ال‍مغص ال‍مغص هو وجع الامعا وسببه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='256'>
+            <locus>Fol.  328b.14</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-qrAqr ykwn amA bsbab al-a.g_dyT</WMStex>
+                <WMSutf>فى ال‍قراقر يكون اما بسبب الاغذية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='257'>
+            <locus>Fol.  329b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-qwln^g al-qwln^g whw mr.d m`wY</WMStex>
+                <WMSutf>فى ال‍قولنج ال‍قولنج وهو مرض معوى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='258'>
+            <locus>Fol.  330b.2</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wqd y^stbh w^g` al-qwln^g ay.dA lw^g` al-klyT</WMStex>
+                <WMSutf>وقد يشتبه وجع ال‍قولنج ايضا لوجع ال‍كلية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='259'>
+            <locus>Fol.  332b.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amA ry.hY sbabh ryA.h .gly.zT</WMStex>
+                <WMSutf>اما ريحى سببه رياح غليظة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='260'>
+            <locus>Fol.  334b.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-twA'iY wsbabh al-twA'</WMStex>
+                <WMSutf>ال‍توائى وسببه ال‍تواء</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='261'>
+            <locus>Fol.  337a.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-dydAn sbab twldhA r.twbAt bl.gmyt</WMStex>
+                <WMSutf>فى ال‍ديدان سبب تولدها رطوبات بلغميت</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='262'>
+            <locus>Fol.  339b.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY al-bwAsyr hY zyAdT m_tl al|-l.hm</WMStex>
+                <WMSutf>فى ال‍بواسير هى زيادة مثل ال‍لحم</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='263'>
+            <locus>Fol.  341a.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>ry.h al-bwAsyr whY ry.h .gly.zT</WMStex>
+                <WMSutf>ريح ال‍بواسير وهى ريح غليظة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='264'>
+            <locus>Fol.  341a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>al-nwA.syr qrw.h .gAyrT y.hd_t fY al-mq`dT</WMStex>
+                <WMSutf>ال‍نواصير قروح غايرة يحدث فى ال‍مقعدة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='265'>
+            <locus>Fol.  342a.8</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>awrAm al-mq`dT qd y`r.d al-wrm al-.hAr</WMStex>
+                <WMSutf>اورام ال‍مقعدة قد يعرض ال‍ورم ال‍حار</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='266'>
+            <locus>Fol.  342a.20</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>^sqAq al-mq`dT ykwn lybwsT w.hrArT t`r.d</WMStex>
+                <WMSutf>شقاق ال‍مقعدة يكون ليبوسة وحرارة تعرض</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='267'>
+            <locus>Fol.  342b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>astr_hA' al-^sr.h hw an y_hr^g al-tfl w-al-ry.h</WMStex>
+                <WMSutf>استرخاء ال‍شرح هو ان يخرج ال‍تفل وال‍ريح</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='268'>
+            <locus>Fol.  343a.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>_hrw^g al-mq`dT ykwn amA sbab wrmhA an bl.g</WMStex>
+                <WMSutf>خروج ال‍مقعدة يكون اما سبب ورمها ان بلغ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='269'>
+            <locus>Fol.  343b.4</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>qrw.h al-mq`dT y`Al^g b-al-m^gf--fAt al-qwyT</WMStex>
+                <WMSutf>قروح ال‍مقعدة يعالج ب‍ال‍مجف‍فات ال‍قوية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='270'>
+            <locus>Fol.  343b.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY .hkT al-mq`dT qd ykwn b-sbab al-dydAn an</WMStex>
+                <WMSutf>فى حكة ال‍مقعدة قد يكون ب‍سبب ال‍ديدان ان</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='271'>
+            <locus>Fol.  343b.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY amrA.d al-klyT sw' mzA^g al-klyT ykwn amA .hAr</WMStex>
+                <WMSutf>فى امراض ال‍كلية سوء مزاج ال‍كلية يكون اما حار</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='272'>
+            <locus>Fol.  344b.5</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY hzAl al-klyT qd y`r.d al-klyT an yhzl</WMStex>
+                <WMSutf>فى هزال ال‍كلية قد يعرض ال‍كلية ان يهزل</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='273'>
+            <locus>Fol.  345a.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>.d`f al-klyT sbabh amA sw' mzA^ghA w-amA hzAlhA</WMStex>
+                <WMSutf>ضعف ال‍كلية سببه اما سوء مزاجها واما هزالها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='274'>
+            <locus>Fol.  346b.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>ry.h al-klyT qd ytwld fY al-klyT ry.h .gly.z</WMStex>
+                <WMSutf>ريح ال‍كلية قد يتولد فى ال‍كلية ريح غليظ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='275'>
+            <locus>Fol.  346b.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w^g` al-klyT  sbabh amA ry.h aw .d`f</WMStex>
+                <WMSutf>وجع ال‍كلية  سببه اما ريح او ضعف</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='276'>
+            <locus>Fol.  346b.16</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>wrm al-klyT ykwn amA .hAr mn dm  .gly.z</WMStex>
+                <WMSutf>ورم ال‍كلية يكون اما حار من دم  غليظ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='277'>
+            <locus>Fol.  349a.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>qrw.h al-klyT al-qr.ht tfrq at.sAl</WMStex>
+                <WMSutf>قروح ال‍كلية ال‍قرحت تفرق اتصال</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='278'>
+            <locus>Fol.  350b.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>ynAdq al-bzwr w.sfhA bzr al-b.ty_h</WMStex>
+                <WMSutf>ينادق ال‍بزور وصفها بزر ال‍بطيخ</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='279'>
+            <locus>Fol.  350b.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>d.h--.hAny.ts hw an y-hr^g al-mA' kmA y^srb</WMStex>
+                <WMSutf>دح‍حانيطس هو ان ي‌هرج ال‍ماء كما يشرب</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='280'>
+            <locus>Fol.  351a.15</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>aqrA.s al-kAfwr al-m`mwlh mn al-.tbA^syr w-al-.sndl</WMStex>
+                <WMSutf>اقراص ال‍كافور ال‍معموله من ال‍طباشير وال‍صندل</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='281'>
+            <locus>Fol.  353a.9</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>aqrA.s al-kAkn^g w.sn.ghA bzr al-_hyAr</WMStex>
+                <WMSutf>اقراص ال‍كاكنج وصنغها بزر ال‍خيار</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='282'>
+            <locus>Fol.  354a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w^g` al-m_tAnh ykwn amA sbab al-wrm w-al-qrw.h</WMStex>
+                <WMSutf>وجع ال‍مثانه يكون اما سبب ال‍ورم وال‍قروح</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='283'>
+            <locus>Fol.  354b.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY ry.h al-m_tAnh sbabhA a.g_dyT nAq.hT</WMStex>
+                <WMSutf>فى ريح ال‍مثانه سببها اغذية ناقحة</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='284'>
+            <locus>Fol.  357a.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>amA .h.sAT al-m_tAnT f-asbAb twldhA m_tl sbab twld .h.sAT al-klyT</WMStex>
+                <WMSutf>اما حصاة ال‍مثانة فاسباب تولدها مثل سبب تولد حصاة ال‍كلية</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='285'>
+            <locus>Fol.  359a.6</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>.hrqh al-bwl ykwn amA sbab mdT y_hr^g wyl_d` l-.hddthA</WMStex>
+                <WMSutf>حرقه ال‍بول يكون اما سبب مدة يخرج ويلذع ل‍حدّتها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='286'>
+            <locus>Fol.  359a.21</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>a.htbAs al-bwl w`srh ykwn  amA al-wrm fY al-klY</WMStex>
+                <WMSutf>احتباس ال‍بول وعسره يكون  اما ال‍ورم فى ال‍كلى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='287'>
+            <locus>Fol.  361b.18</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-b_twr w-qrw.h fY al-m^gArY fklmA arAd an ybwl aw^g`</WMStex>
+                <WMSutf>واما ال‍بثور و‌قروح فى ال‍مجارى فكلما اراد ان يبول اوجع</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='288'>
+            <locus>Fol.  362a.3</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-.drbT yq` `lY al-m_tAnT fy.d`f qwAhA</WMStex>
+                <WMSutf>واما ال‍ضربة يقع على ال‍مثانة فيضعف قواها</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='289'>
+            <locus>Fol.  363a.1</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY tq.tyr al-bwl sbabh amA .hdT fY al-bwl t.hrq w-al-m^grY</WMStex>
+                <WMSutf>فى تقطير ال‍بول سببه اما حدة فى ال‍بول تحرق وال‍مجرى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='290'>
+            <locus>Fol.  363b.10</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>fY sls al-bwl hw an y_hr^g  al-bwl blA arAdt</WMStex>
+                <WMSutf>فى سلس ال‍بول هو ان يخرج  ال‍بول بلا ارادت</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='291'>
+            <locus>Fol.  364a.17</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>w-amA al-bwl fY al-frA^s fsbabh ay.dA astr_hA' al-`.dlt</WMStex>
+                <WMSutf>واما ال‍بول فى ال‍فراش فسببه ايضا استرخاء ال‍عضلت</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='292'>
+            <locus>Fol.  364b.15</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>bwl al-dm ykwn amA lAnftA.h `rq fY al-klY</WMStex>
+                <WMSutf>بول ال‍دم يكون اما لانفتاح عرق فى ال‍كلى</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='293'>
+            <locus>Fol.  466a.7</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>`l|-l  a`.dA al-tnAsl mn al-_dkrAt nq.sAn al-bAh</WMStex>
+                <WMSutf>عل‍ل  اعضا ال‍تناسل من ال‍ذكرات نقصان ال‍باه</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+          <WMSiline n='294'>
+            <locus>Fol.  371a.12</locus>
+            <WMSartext>
+              <WMStu>
+                <WMStex>k_trT al-^shwT ykwn amA al-amtlA' al-bdn</WMStex>
+                <WMSutf>كثرة ال‍شهوة يكون اما الامتلاء ال‍بدن</WMSutf>
+              </WMStu>
+            </WMSartext>
+          </WMSiline>
+        </WMScontents>
+
+
+-->

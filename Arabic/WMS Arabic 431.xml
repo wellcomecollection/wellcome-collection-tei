@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16074">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 431</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="MK">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Miriam Keaveny</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">WMS Arabic 431</idno>
+                <idno type="catalogue"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 431</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b20297014</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>A compendium of medicines with instructions relating to their preparation</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_431-part1">
+                            <author key="person_477144647704194284080"> 
+                                <persName xml:lang="eng" type="standard">Abū l-Munā b. Abī Naṣr al-Kūhīn al-`Aṭṭār al-Isrā'īlī</persName>
+                                <persName xml:lang="ar" type="original">ابو ال‍منى بن ابى نصر بن ال‍حافظ ل‍معروف ب‍ال‍كوهين الاسرائيلى ال‍عطار ال‍هارونى</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Kitāb Minhāǧ ad-Dukkān</title>
+                            <title xml:lang="ar" type="original">كتاب منهاج ال‍دكان</title>
+                            <title xml:lang="en" type="standard">Guidance for an Apothecary Shop</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            <textLang otherLangs=""> <!-- Insert other languages if there are any here --></textLang>
+                            
+                            <incipit>
+                                <locus>Fol. 1a.1</locus>
+                                ال‍باب ال‍ثانى عشر فى الاكحال و‌سحقها ال‍باب ال‍ثالث عشر فى
+                                    ل‍شيافات وعجنها ال‍باب ال‍رابع عشر في ال‍مراهم وطبخها
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol. 169b.6</locus>
+                                فى ما حار ربع رطل مڦرور فى حزقه
+                                    وڻمرس ڻاكر ثلثين درهم من ال‍شراب ويشرب بعد ال‍حذر
+                                    وال‍توقى فانه مامون ال‍عاقبه وال‍له اعلم اخر ال‍كتاب
+                            </explicit>
+                            
+                            <colophon> وكان ال‍فراغ من نسخه نهار الاثنين تاسع شهر ربيع الاخر من
+                                شهور سنه تسع عشر وتسعمايه ب‍خط ال‍فقير ال‍معرف ب‍ال‍تفصر
+                                ل‍راجي غفور به ال‍عين ال‍فقير عبد ال‍معين بن عمر بن ناصر ال‍دين
+                                ل‍مقري ال‍شافعى غفر ال‍له له ولوالديه ول‍جميع ال‍مسلمين</colophon>
+                            
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p>Oriental paper</p></support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">175mm</dim>
+                                        <dim type="length">255mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="height">120</dim>
+                                        <dim type="width">180</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <catchwords>are written underneath the text block</catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios:01+169+001</label>
+                                    <formula>due to the binding could not be established exactly</formula>
+                                </collation>
+                                <condition>mediocre</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="19">19</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>naskh</p>
+                                <p><label>Ink:</label>black, headings and dividers are highlighted in red, green and brown</p>
+                                <p> Diacritical dots for tā' marbūṭa and yā' are occasionally missing or misplaced:_dذ is written instead of dد cf. fol.
+                                    82a.10 at.hA_d اتحاذ etc.</p>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <p>1. Lacuna between fols 67--68
+                               2. Notes on margins: fols 19a, 20a, 39a, 43a, 46a, 47a, 53a, 54a, 57ab, 73a, 74a, 76a, 78ab, 79ab, 83ab, 84a, 86a, 87ab, 88a, 89a, 90a, 91b, 95b, 97a, 102b, 104a, 115a, 116a, 117a,169b.
+                               3. Fol. 169b~-- fragments of a recipe and the number of the final page:169</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p> modern, European type. Leather spine with title of the book, the name
+                                    of the author, and of last owner <persName>Sāmī Ḥaddād</persName></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">9 Rabī` II 919</origDate>
+                            <origDate calendar="Gregorian">14 June 1513</origDate>
+                        </origin>
+                        <provenance>Known owners:Sāmī Ibrāhīm Ḥaddād (1986)
+                        </provenance>
+                        <acquisition>
+                            Sotheby's lot 488 (22/21.11.85)
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl> Ullmann Medizin p. 309, Ḥaddād/Biesterfeld no. 57 (Shelf-mark:
+                                        521/658 `Am / 919 /n8) </bibl>
+                                    <bibl> A Dietrich (Dietrich Medicinalia no. 62) describes the same
+                                        work, whose title is: Kitāb Minhāǧ ad-Dukkān fī Adwiyat Naw` al-Insān</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-12-02"> <persName>Miriam Keaveny </persName>Updated old XML file into TEI schema</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
+
+<!-- In the previous XML version, there was the following information that may/may not be of use:
+    
+     <WMSpace>
+          <WMSpacelines>19</WMSpacelines>
+          <WMSpacedensity>590</WMSpacedensity>
+          <WMSpaceratio>1:1</WMSpaceratio>
+          <WMSpaceanglealef>95</WMSpaceanglealef>
+          <WMSpaceanglekaf>20</WMSpaceanglekaf>
+        </WMSpace>
+
+
+
+-->
+
