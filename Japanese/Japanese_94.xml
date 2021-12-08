@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_94">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 94</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 94</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue"/>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 94</idno>
+                        <altIdentifier type="sierra">
+                            <idno>
+                                <!-- Insert Sierra b-number if record exists--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> An autograph manuscript produced in <date>1795</date> by <persName
+                                type="aut">Ikeda, Zuisen</persName>
+                            <date>(1734-1816)</date> on smallpox lesions on the lips and tongue with
+                            colour illustrations. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_94">
+
+                            <author key="person_12246716" source="VIAF">
+                                <persName xml:lang="ja" source="IANA">池田瑞仙</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Ikeda, Zuisen</persName>
+                                <note><p>The author was born in a village in what is now Yamaguchi
+                                        Prefecture in the south-west of Japan and learnt what he
+                                        knew of medicine there. He developed an interest in smallpox
+                                        but since the domain in which he lived had a strict
+                                        segregation policy for smallpox sufferers he had few
+                                        opportunities to observe the symptoms until he had the
+                                        chance to stem an outbreak on the island of Itsukushima. As
+                                        a result, his fame spread and in 1797 he entered the service
+                                        of the Bakufu in Edo as a specialist in smallpox. He wrote a
+                                        number of works on smallpox but none of them were ever
+                                        published.</p></note>
+                            </author>
+
+                            <title key="3615552" source="kotenseki">
+                                <title type="main" xml:lang="ja" source="IANA">痘瘡唇舌図</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Tōsō
+                                    shinzetsuzu</title>
+                                <title type="alt" xml:lang="en" source="IANA">Illustrations of
+                                    smallpox on the lips and tongue</title>
+                                <note><p>序題: Title given at the beginning of the preface.</p></note>
+                            </title>
+
+                            <explicit><locus/>天明八年歳次戊申秋八月門人紀伊弱［ママ］山斎藤順謹撰／東都長瀬轍書 </explicit>
+
+                            <colophon><locus/>寛政七乙卯年秋九月／錦橋散人池田瑞仙識 </colophon>
+
+                            <filiation><p>There is one copy extant in Japan and a further one in the
+                                    library of UCLA.</p></filiation>
+
+                            <note>Mark:「池田独美」「善卿」</note>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent>１帖 １巻 | 1 jō (volume) and 1 maki (section); 38 pages, text
+                                    on top paper layer with illustrations pasted on to bottom paper
+                                    layer. <dimensions unit="mm" type="binding">
+                                        <dim type="height">247mm</dim>
+                                        <dim type="width">157mm</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+                            <handNote scope="major"><persName xml:lang="ja" source="IANA"
+                                    >池田瑞仙</persName> | <persName xml:lang="ja-Latn" source="IANA"
+                                    >Ikeda, Zuisen</persName></handNote>
+                            <handNote scope="minor">
+                                <persName xml:lang="ja-Latn" source="IANA">Naguse,
+                                Tetsu</persName></handNote>
+                            <handNote><p>Naguse, Tetsu wrote the preface.</p></handNote>
+                        </handDesc>
+
+                        <decoDesc>
+                            <p>Gold trim around the paper edge. Oval shapes cut out of the top paper
+                                layer to show illustrations pasted on layer underneath.</p>
+                        </decoDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p>折本 | Orihon. Has green decorative cover boards with a diamond and
+                                    leaf motif. </p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" from="1788" to="1795">天明8から寛政７枚</origDate>
+                            <origDate calendar="gregorian" from="1788" to="1795"> between
+                                1788-1795</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja" source="IANA">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en" source="IANA">Japanese medical and
+                                            scientific books in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date>--> </bibl>
+                                </source>
+                            </recordHist>
+
+                            <custodialHist>
+                                <custEvent type="exhibition" from="2004-10" to="2004-12">
+                                    <p>Exhibited as part of the Asia: Body,Mind and Spirit
+                                        exhibition at the Brunei Gallery, School of Oriental and
+                                        African Studies (SOAS), October-December 2004.</p>
+                                </custEvent>
+                            </custodialHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title>Pearls of the Orient: Asian Treasures from the Wellcome
+                                    Library</title>
+                                <author>Nigel Allan</author>
+                                <placeName>London</placeName>
+                                <publisher>Wellcome Institute</publisher>
+                                <date>2003</date>
+                                <note>p. 200</note>
+                            </bibl>
+                            <bibl>
+                                <title>A galaxy of old Japanese medical books with miscellaneous
+                                    notes on early medicine in Japan. Part V. Biblio-historical
+                                    addenda. Corrections. Postscript. Acknowledgments</title>
+                                <author>Gordon E. Mestler</author>
+                                <publisher>Bulletin of the Medical Library Association
+                                    45</publisher>
+                                <date>1957</date>
+                                <note>pp. 164-219</note>
+                            </bibl>
+                        </listBibl>
+
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85123612">Smallpox</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
+            <change when="2021-12-02"><persName>"#SC"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

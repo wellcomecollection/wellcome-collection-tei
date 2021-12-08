@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_79">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_82">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Japanese 79</title>
+                <title>Japanese 82</title>
                 <title type="collection">Wellcome Collection</title>
 
                 <respStmt xml:id="PFK">
@@ -29,9 +29,10 @@
                 <distributor>
                     <email>library@wellcomecollection.org</email>
                 </distributor>
-                <idno type="msID">MS Japanese 79</idno>
+                <idno type="msID">MS Japanese 82</idno>
                 <idno type="catalogue">Japanese medical and scientific books in the Wellcome
                     Library</idno>
+                <idno type="catalogue"/>
                 <availability>
                     <licence><!-- Licensing statement to come in late-stage editing --></licence>
                 </availability>
@@ -44,43 +45,31 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS Japanese 79</idno>
+                        <idno type="shelfmark">MS Japanese 82</idno>
+                        <altIdentifier type="sierra">
+                            <idno>
+                                <!-- Insert Sierra b-number if record exists--></idno>
+                        </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> A manuscript copy of <title xml:lang="ja" source="IANA"
-                                >産科探頷図訣</title> | <title xml:lang="ja-Latn" source="IANA">Sanka
-                                tangan zuketsu</title> | <title xml:lang="en" source="IANA"
-                                >Obstetric instruments illustrated</title> by <persName
-                                xml:lang="ja" source="IANA">水原義博</persName> | <persName
-                                xml:lang="ja-Latn" source="IANA">Mizuhara, Yoshihiro</persName>. </summary>
+                        <summary> An anonymous manuscript in katakana-majiri concerning acupuncture
+                            and moxibustion in cases of carbuncles, boils and other skin eruptions,
+                            and other matters; it was copied in <date>1671</date> but composed much
+                            earlier. 　　 </summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
-                        <msItem n="1" xml:id="Japanese_79">
-
-                            <author key="person_51626791" source="VIAF">
-                                <persName xml:lang="ja" source="IANA">水原義博</persName>
-                                <persName xml:lang="ja-Latn" source="IANA">Mizuhara,
-                                    Yoshihiro</persName>
-                                <note><p>Mizuhara wrote several works on obstetrics, the most
-                                        important of which was <title>San’iku zensho</title>,
-                                        published in 1848. <title>Sanka tangan zuketsu</title> deals
-                                        with some traction instruments invented by the author and
-                                        their use is shown in the illustrations.</p></note>
-                            </author>
-
-                            <title key="1004928" source="Kotenseki">
-                                <title xml:lang="ja" source="IANA">産科探頷図訣</title>
-                                <title xml:lang="ja-Latn" source="IANA">Sanka tangan zuketsu</title>
-                                <title xml:lang="en" source="IANA">Obstetric instruments
-                                    illustrated</title>
+                        <msItem n="1" xml:id="Japanese_82">
+                            <title>
+                                <title type="main" xml:lang="ja" source="IANA">鍼灸療治書</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Shinkyū
+                                    ryōchisho</title>
+                                <title type="alt" xml:lang="en" source="IANA">Treatment by
+                                    acupuncture and moxibustion</title>
+                                <note><p>This is a descriptive title given by the cataloguer and is
+                                        not present on the manuscript itself.</p></note>
                             </title>
-
-                            <filiation><p>Cf. <abbr>Blondelet</abbr> #27.</p></filiation>
-
-                            <note><p>At the end of the first volume is written: 安政六己未正月下旬 猶林龍石
-                                    冩之</p></note>
 
                         </msItem>
                     </msContents>
@@ -88,26 +77,34 @@
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent> ２冊 ２巻 | 2 satsu (volumes) with 2 maki(sections). 1st
-                                    volume: 63 pages. 2nd volume: 54 pages.<dimensions unit="mm"
+                                <extent> １冊 １巻 | 1 satsu (volume) with 1 maki(section); 32 pages
+                                    containing 18 plate illustrations. <dimensions unit="mm"
                                         type="binding">
-                                        <dim type="height">247mm</dim>
-                                        <dim type="width">169mm</dim>
+                                        <dim type="height">254mm</dim>
+                                        <dim type="width">198mm</dim>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
 
-                        <handDesc>
-                            <handNote scope="sole">Narabayashi</handNote>
-                            <handNote><p><!-- Insert information about ink type and/or colour--></p></handNote>
-                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote scope="major">Katakana</scriptNote>
+                            <scriptNote scope="major">Kanji</scriptNote>
+                        </scriptDesc>
+
+                        <decoDesc>
+                            <p>4 illustrations have been hand coloured.</p>
+                        </decoDesc>
 
                         <bindingDesc>
-                            <binding contemporary="unknown">
-                                <p>袋綴 | fukurotoji. Binding of the first volume has been removed and
-                                    rebound. A sample of the original thread has been kept and is
-                                    stored in melinex with the item.</p>
+                            <binding contemporary="false">
+                                <p>袋綴 | Fukurotoji. Binding thread has been removed and rebound. A
+                                    sample of the original thread has been kept and is stored in
+                                    melinex with the item.</p>
+                                <condition>
+                                    <p>Shows signs of insect damage throughout with loss to some of
+                                        the text and illustrations.</p>
+                                </condition>
                             </binding>
                         </bindingDesc>
 
@@ -115,7 +112,8 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="gregorian" when="1859">1859</origDate>
+                            <origDate calendar="nengō" when="1671">寛文十一辛亥 歳二月十五日</origDate>
+                            <origDate calendar="gregorian" when="1671">1671</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -136,21 +134,6 @@
                                 </source>
                             </recordHist>
                         </adminInfo>
-
-                        <listBibl>
-                            <head/>
-                            <bibl>
-                                <title>Bibliothèque sino-japonaise de Jean Blondelet: médicine,
-                                    histoire naturelle, littérature et beaux-arts. Manuscrits et
-                                    livres anciens</title>
-                                <author>Bernard Clavreuil</author>
-                                <placeName>Paris</placeName>
-                                <publisher>Tajan</publisher>
-                                <date>2001</date>
-                                <abbr>Blondelet</abbr>
-                                <note>Blondelet 27</note>
-                            </bibl>
-                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -171,7 +154,8 @@
                 <keywords scheme="#LCSH">
                     <list>
                         <item>
-                            <term key="subject_sh85093768">Obstetrics</term>
+                            <term key="subject_sh85000761">Acupuncture</term>
+                            <term key="subject_sh85000764">Acupuncture points</term>
                         </item>
                     </list>
                 </keywords>
@@ -180,7 +164,7 @@
 
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
-            <change when="2021-11-29"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2021-11-30"><persName>"#SC"</persName>Populated template.</change>
         </revisionDesc>
 
     </teiHeader>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_79">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_100">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Japanese 79</title>
+                <title>Japanese 100</title>
                 <title type="collection">Wellcome Collection</title>
 
                 <respStmt xml:id="PFK">
@@ -29,9 +29,10 @@
                 <distributor>
                     <email>library@wellcomecollection.org</email>
                 </distributor>
-                <idno type="msID">MS Japanese 79</idno>
+                <idno type="msID">MS Japanese 100</idno>
                 <idno type="catalogue">Japanese medical and scientific books in the Wellcome
                     Library</idno>
+                <idno type="catalogue"/>
                 <availability>
                     <licence><!-- Licensing statement to come in late-stage editing --></licence>
                 </availability>
@@ -44,70 +45,83 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS Japanese 79</idno>
+                        <idno type="shelfmark">MS Japanese 100</idno>
+                        <altIdentifier type="sierra">
+                            <idno>
+                                <!-- Insert Sierra b-number if record exists--></idno>
+                        </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> A manuscript copy of <title xml:lang="ja" source="IANA"
-                                >産科探頷図訣</title> | <title xml:lang="ja-Latn" source="IANA">Sanka
-                                tangan zuketsu</title> | <title xml:lang="en" source="IANA"
-                                >Obstetric instruments illustrated</title> by <persName
-                                xml:lang="ja" source="IANA">水原義博</persName> | <persName
-                                xml:lang="ja-Latn" source="IANA">Mizuhara, Yoshihiro</persName>. </summary>
+                        <summary>A manuscript scroll with text in both kanbun and katakana-majiri
+                            including coloured diagrams of the human body with acupuncture points
+                            and some internal organs named, copied in the <date>first half of 19th
+                                century</date>. According to the notes in English accompanying this
+                            item, it was executed by <persName>Yoshida, Ikiu</persName> in
+                                <date>1688</date> and was formerly property of the Yoshida family
+                                <date>(1500-1910)</date>, but there is no evidence to support any of
+                            these claims. </summary>
 
-                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+                        <textLang mainLang="lzh" source="IANA">Literary Chinese</textLang>
 
-                        <msItem n="1" xml:id="Japanese_79">
+                        <msItem n="1" xml:id="Japanese_100">
 
-                            <author key="person_51626791" source="VIAF">
-                                <persName xml:lang="ja" source="IANA">水原義博</persName>
-                                <persName xml:lang="ja-Latn" source="IANA">Mizuhara,
-                                    Yoshihiro</persName>
-                                <note><p>Mizuhara wrote several works on obstetrics, the most
-                                        important of which was <title>San’iku zensho</title>,
-                                        published in 1848. <title>Sanka tangan zuketsu</title> deals
-                                        with some traction instruments invented by the author and
-                                        their use is shown in the illustrations.</p></note>
-                            </author>
+                            <textLang otherLangs="ja" source="IANA">Japanese</textLang>
 
-                            <title key="1004928" source="Kotenseki">
-                                <title xml:lang="ja" source="IANA">産科探頷図訣</title>
-                                <title xml:lang="ja-Latn" source="IANA">Sanka tangan zuketsu</title>
-                                <title xml:lang="en" source="IANA">Obstetric instruments
-                                    illustrated</title>
+                            <title>
+                                <title type="desc" xml:lang="ja" source="IANA">十四経五蔵六府</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Jūshikei gozō
+                                    roppu</title>
+                                <title type="alt" xml:lang="en" source="IANA">The fourteen
+                                    meridians, the five viscera and the six bowels</title>
+                                <note><p>仮題: This is a descriptive title given by the cataloguer for
+                                        the purposes of identification.</p></note>
                             </title>
 
-                            <filiation><p>Cf. <abbr>Blondelet</abbr> #27.</p></filiation>
+                            <title>
+                                <title type="main" xml:lang="ja" source="IANA">十四経絡之図</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Jūshikeiryaku no
+                                    zū</title>
+                                <title type="alt" xml:lang="en" source="IANA">Fourteen
+                                    meridians</title>
+                                <note><p>箱題: Title written on wooden box lid.</p></note>
+                            </title>
 
-                            <note><p>At the end of the first volume is written: 安政六己未正月下旬 猶林龍石
-                                    冩之</p></note>
+                            <title>
+                                <title type="main" xml:lang="lzh" source="IANA">禁灸之部、禁鍼之部</title>
+                                <note><p>内題: An internal title.</p></note>
+                            </title>
 
+                            <note><p>図中に「天道」「針殺」などと題する文章あり.</p>
+                            </note>
                         </msItem>
                     </msContents>
 
                     <physDesc>
-                        <objectDesc form="Codex">
+                        <objectDesc form="Scroll">
                             <supportDesc material="paper">
-                                <extent> ２冊 ２巻 | 2 satsu (volumes) with 2 maki(sections). 1st
-                                    volume: 63 pages. 2nd volume: 54 pages.<dimensions unit="mm"
-                                        type="binding">
-                                        <dim type="height">247mm</dim>
-                                        <dim type="width">169mm</dim>
+                                <extent> １軸 | 1 scroll in protective wooden box. <dimensions
+                                        unit="mm" type="binding">
+                                        <dim type="height">280mm</dim>
+                                        <dim type="width">6930mm</dim>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
 
-                        <handDesc>
-                            <handNote scope="sole">Narabayashi</handNote>
-                            <handNote><p><!-- Insert information about ink type and/or colour--></p></handNote>
-                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote scope="major">Kanji</scriptNote>
+                            <scriptNote scope="major">Katakana</scriptNote>
+                        </scriptDesc>
+
+                        <decoDesc>
+                            <p>Illustrations are hand coloured.</p>
+                        </decoDesc>
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>袋綴 | fukurotoji. Binding of the first volume has been removed and
-                                    rebound. A sample of the original thread has been kept and is
-                                    stored in melinex with the item.</p>
+                                <p>巻子装 | kansusō. Outer side covered in decorative blue and gold
+                                    floral pattern. Inner side has slight shimmer.</p>
                             </binding>
                         </bindingDesc>
 
@@ -115,7 +129,9 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="gregorian" when="1859">1859</origDate>
+                            <origDate calendar="nengō" from="1800" to="1850">江戸後期</origDate>
+                            <origDate calendar="gregorian" from="1800" to="1850">First half of 19th
+                                century</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -136,21 +152,6 @@
                                 </source>
                             </recordHist>
                         </adminInfo>
-
-                        <listBibl>
-                            <head/>
-                            <bibl>
-                                <title>Bibliothèque sino-japonaise de Jean Blondelet: médicine,
-                                    histoire naturelle, littérature et beaux-arts. Manuscrits et
-                                    livres anciens</title>
-                                <author>Bernard Clavreuil</author>
-                                <placeName>Paris</placeName>
-                                <publisher>Tajan</publisher>
-                                <date>2001</date>
-                                <abbr>Blondelet</abbr>
-                                <note>Blondelet 27</note>
-                            </bibl>
-                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -171,7 +172,8 @@
                 <keywords scheme="#LCSH">
                     <list>
                         <item>
-                            <term key="subject_sh85093768">Obstetrics</term>
+                            <term key="subject_sh85000761">Acupuncture</term>
+                            <term key="subject_sh85000764">Acupuncture points</term>
                         </item>
                     </list>
                 </keywords>
@@ -180,7 +182,7 @@
 
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
-            <change when="2021-11-29"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2021-12-02"><persName>"#SC"</persName>Populated template.</change>
         </revisionDesc>
 
     </teiHeader>

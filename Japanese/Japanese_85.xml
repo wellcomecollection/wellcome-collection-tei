@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_79">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_85">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Japanese 79</title>
+                <title>Japanese 85</title>
                 <title type="collection">Wellcome Collection</title>
 
                 <respStmt xml:id="PFK">
@@ -29,9 +29,10 @@
                 <distributor>
                     <email>library@wellcomecollection.org</email>
                 </distributor>
-                <idno type="msID">MS Japanese 79</idno>
+                <idno type="msID">MS Japanese 85</idno>
                 <idno type="catalogue">Japanese medical and scientific books in the Wellcome
                     Library</idno>
+                <idno type="catalogue"/>
                 <availability>
                     <licence><!-- Licensing statement to come in late-stage editing --></licence>
                 </availability>
@@ -44,78 +45,86 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS Japanese 79</idno>
+                        <idno type="shelfmark">MS Japanese 85</idno>
+                        <altIdentifier type="sierra">
+                            <idno>
+                                <!-- Insert Sierra b-number if record exists--></idno>
+                        </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> A manuscript copy of <title xml:lang="ja" source="IANA"
-                                >産科探頷図訣</title> | <title xml:lang="ja-Latn" source="IANA">Sanka
-                                tangan zuketsu</title> | <title xml:lang="en" source="IANA"
-                                >Obstetric instruments illustrated</title> by <persName
-                                xml:lang="ja" source="IANA">水原義博</persName> | <persName
-                                xml:lang="ja-Latn" source="IANA">Mizuhara, Yoshihiro</persName>. </summary>
+                        <summary>An anonymous manuscript in Katakana majiri titled <title
+                                type="main" xml:lang="ja" source="IANA">神農皇帝癰疔口伝之巻</title> | <title
+                                type="alt" xml:lang="ja-Latn" source="IANA">Shinnō kōtei yōchō kuden
+                                no maki</title> | <title type="alt" xml:lang="en" source="IANA"
+                                >Emperor Shennong’s advice on carbuncles</title>, containing advice
+                            on carbuncles, boils and other skin eruptions including hand coloured
+                            illustrations, probably made in the late 16th century. </summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
-                        <msItem n="1" xml:id="Japanese_79">
+                        <msItem n="1" xml:id="Japanese_85">
 
-                            <author key="person_51626791" source="VIAF">
-                                <persName xml:lang="ja" source="IANA">水原義博</persName>
-                                <persName xml:lang="ja-Latn" source="IANA">Mizuhara,
-                                    Yoshihiro</persName>
-                                <note><p>Mizuhara wrote several works on obstetrics, the most
-                                        important of which was <title>San’iku zensho</title>,
-                                        published in 1848. <title>Sanka tangan zuketsu</title> deals
-                                        with some traction instruments invented by the author and
-                                        their use is shown in the illustrations.</p></note>
-                            </author>
-
-                            <title key="1004928" source="Kotenseki">
-                                <title xml:lang="ja" source="IANA">産科探頷図訣</title>
-                                <title xml:lang="ja-Latn" source="IANA">Sanka tangan zuketsu</title>
-                                <title xml:lang="en" source="IANA">Obstetric instruments
-                                    illustrated</title>
+                            <title>
+                                <title type="main" xml:lang="ja" source="IANA">神農皇帝癰疔口伝之巻</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Shinnō kōtei
+                                    yōchō kuden no maki</title>
+                                <title type="alt" xml:lang="en" source="IANA">Emperor Shennong’s
+                                    advice on carbuncles</title>
                             </title>
 
-                            <filiation><p>Cf. <abbr>Blondelet</abbr> #27.</p></filiation>
-
-                            <note><p>At the end of the first volume is written: 安政六己未正月下旬 猶林龍石
-                                    冩之</p></note>
-
+                            <note><p>One of the recommended treatments is cautery, and the initial
+                                    portion of the text states that 300 leeches are needed to deal
+                                    with the after-effects. </p>
+                            </note>
                         </msItem>
                     </msContents>
 
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent> ２冊 ２巻 | 2 satsu (volumes) with 2 maki(sections). 1st
-                                    volume: 63 pages. 2nd volume: 54 pages.<dimensions unit="mm"
-                                        type="binding">
-                                        <dim type="height">247mm</dim>
-                                        <dim type="width">169mm</dim>
+                                <extent> 1 帖 １巻 | 1 jō (volume) and 1 maki (section); 90 pages.
+                                        <dimensions unit="cm" type="binding">
+                                        <dim type="height">233mm</dim>
+                                        <dim type="width">180mm</dim>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
 
-                        <handDesc>
-                            <handNote scope="sole">Narabayashi</handNote>
-                            <handNote><p><!-- Insert information about ink type and/or colour--></p></handNote>
-                        </handDesc>
+                        <scriptDesc>
+                            <scriptNote scope="major">Katakana</scriptNote>
+                            <scriptNote scope="minor">Kanji</scriptNote>
+                        </scriptDesc>
+
+
+                        <additions>
+                            <p>Parts of the texts have been highlighted with a red ink line, dot,
+                                triangle or stamp beside, above or on the text itself.</p>
+                            <p>An inscription is attributed to the seal bearer's mother in law. </p>
+                        </additions>
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>袋綴 | fukurotoji. Binding of the first volume has been removed and
-                                    rebound. A sample of the original thread has been kept and is
-                                    stored in melinex with the item.</p>
+                                <p>綴葉装 | tetsuyōsō. Black cover </p>
+                                <condition>
+                                    <p>Pages throughout show signs of insect damage with minor loss
+                                        to text and illustrations.</p>
+                                </condition>
                             </binding>
                         </bindingDesc>
+
+                        <sealDesc>
+                            <p>A black seal at the end of the book: ☐☐満井☐左門正広 </p>
+                        </sealDesc>
 
                     </physDesc>
 
                     <history>
                         <origin>
-                            <origDate calendar="gregorian" when="1859">1859</origDate>
+                            <origDate calendar="nengō">室町末期</origDate>
+                            <origDate calendar="gregorian" from="1500" to="1573">16th
+                                century</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -135,20 +144,18 @@
                                         <date>2018</date>--> </bibl>
                                 </source>
                             </recordHist>
+
                         </adminInfo>
 
                         <listBibl>
                             <head/>
                             <bibl>
-                                <title>Bibliothèque sino-japonaise de Jean Blondelet: médicine,
-                                    histoire naturelle, littérature et beaux-arts. Manuscrits et
-                                    livres anciens</title>
-                                <author>Bernard Clavreuil</author>
-                                <placeName>Paris</placeName>
-                                <publisher>Tajan</publisher>
-                                <date>2001</date>
-                                <abbr>Blondelet</abbr>
-                                <note>Blondelet 27</note>
+                                <title xml:lang="ja">有林福田方</title>
+                                <author xml:lang="ja-Latn">Yūrin Fukudenhō</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Kagaku Shoin</publisher>
+                                <date>1987</date>
+                                <note>p. 808</note>
                             </bibl>
                         </listBibl>
                     </additional>
@@ -171,7 +178,8 @@
                 <keywords scheme="#LCSH">
                     <list>
                         <item>
-                            <term key="subject_sh85093768">Obstetrics</term>
+                            <term key="subject_sh85021470">Cautery</term>
+                            <term key="subject_sh85123180">Skin--Infections</term>
                         </item>
                     </list>
                 </keywords>
@@ -180,7 +188,7 @@
 
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
-            <change when="2021-11-29"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2021-12-01"><persName>"#SC"</persName>Populated template.</change>
         </revisionDesc>
 
     </teiHeader>
