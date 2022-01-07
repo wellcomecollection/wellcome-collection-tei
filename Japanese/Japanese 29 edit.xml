@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_29">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 29</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-11-11">Template</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+                <respStmt xml:id="AR">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Adam Rose</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 29</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 29</idno>
+                        <altIdentifier type="sierra">
+                            <idno>
+                                <!-- Insert Sierra b-number if record exists--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>Illustrated manuscript representing the Chūjō school of midwifery
+                            and perinatal medicine supposedly founded by <persName>Chūjō
+                                Takewaki</persName> in the <date>late sixteenth century</date>. This
+                            copy was made in 1830 by <persName role="scr">Tōunzan
+                                Gyokusui</persName>.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_29">
+                            <author>
+                                <persName xml:lang="ja" source="IANA">中条帯刀</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Chūjō Takewaki</persName>
+                                <note><p>Supposed founder of the the Chūjō school of midwifery and
+                                        perinatal medicine</p></note>
+                            </author>
+
+                            <title>
+                                <title type="main" xml:lang="ja" source="IANA">中条秘伝前后一円集</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Zengo ichien
+                                    shū</title>
+                                <title type="alt" xml:lang="en" source="IANA"/>
+                                <note><p>外題: The title is taken from the outside cover.</p></note>
+                            </title>
+
+                            <colophon><locus/>文政第十三寅八月中浣書写終登雲山玉水</colophon>
+
+                            <note><p>The techniques of the school, which were based on Chinese
+                                    pharmacology and expounded in <title xml:lang="ja-Latn"
+                                        source="IANA">Chūjōryū sanka zensho</title> | <title
+                                        xml:lang="ja" source="IANA">中条流産科全書</title> (compiled 1668,
+                                    published 1751) remained for the most part a hiden or secret
+                                    tradition passed on to pupils orally. No other manuscript of the
+                                    same title survives, but related works also in manuscript are
+                                    recorded such as <title xml:lang="ja-Latn" source="IANA"
+                                        >Sanzengo hiden</title>, <title xml:lang="ja-Latn"
+                                        source="IANA">(Chūjōryū) Samzen sango kuden hisho</title>
+                                    and <title xml:lang="ja-Latn" source="IANA">Chūjōryū sanka
+                                        zensho</title>.</p></note>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent>1冊 4巻 | 1 satsu (volume) 4 maki (sections) <dimensions
+                                        unit="cm" type="binding">
+                                        <dim type="height">24 cm</dim>
+                                        <dim type="width">16.5 cm</dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <handDesc>
+                            <handNote scope="sole">Tōunzan Gyokusui</handNote>
+                        </handDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p>結び綴 | musubitoji (knot-binding)</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1830">文政13</origDate>
+                            <origDate calendar="gregorian" when="1830">1830</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja" source="IANA">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en" source="IANA">Japanese medical and
+                                            scientific books in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date>
+                                    </bibl>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">国史大辞典</title>
+                                <title xml:lang="ja-Latn">Kokushi daijiten </title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Yoshikawa Kōbunkan</publisher>
+                                <date>1979-93</date>
+                                <note>Vol 9, p. 501</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">国書総目録</title>
+                                <title xml:lang="ja-Latn">Kokusho sōmokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Iwanami Shoten</publisher>
+                                <date>1963-76</date>
+                                <note>Vol 5, pp. 661-2</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">日本産科学史</title>
+                                <title xml:lang="ja-Latn">Nihon sankagakushi</title>
+                                <author xml:lang="ja">緒方正清</author>
+                                <author xml:lang="ja-Latn">Ogata Masakiyo</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Kagaku Shoin</publisher>
+                                <date>1980</date>
+                                <note>pp.69-70</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh96006072">Midwifery</term>
+                            <term key="sh86003112">Perinatology</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
+            <change when="2021-12-21"><persName>"#AR"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

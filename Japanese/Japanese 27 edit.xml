@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_27">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 27></title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-11-11">Template</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+                <respStmt xml:id="AR">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Adam Rose</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 27</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 27</idno>
+                        <altIdentifier type="sierra">
+                            <idno>
+                                <!-- Insert Sierra b-number if record exists--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>Illustrated manuscript on acupuncture with text in katakana-majiri,
+                            lacks any title and the title given is purely conjectural.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_27">
+                            <title>
+                                <title type="main" xml:lang="ja" source="IANA">鍼灸秘伝書</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Shinkyu
+                                    hidensho</title>
+                                <title type="alt" xml:lang="en" source="IANA">"Hidden text" on
+                                    Acupuncture and Moxibustion</title>
+                                <note><p>外題・内題なし | No external or internal title given.</p></note>
+                                <note><p>English translation given by A Rose</p></note>
+                            </title>
+
+                            <incipit><locus/><!-- insert -->
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+
+                            <explicit><locus/><!-- insert -->
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+
+                            <colophon><locus/>于時慶長庚戌年 <note>本奥書 | Colophon written by the author
+                                        <note>Contains a colophon giving <date>1610</date> as the
+                                        year of composition and <date>1722</date> as the date of
+                                        copying.</note>
+                                </note></colophon>
+
+                            <colophon><locus/>右此一冊篠原氏ヨリ中村氏伝授仕☐☐代々秘伝之妙☐ト云々／于時享保七壬寅／（中略）／内藤氏
+                                    <note>書写奥書 | Colophon written by the copyist <note>Contains a
+                                        colophon giving <date>1610</date> as the year of composition
+                                        and <date>1722</date> as the date of copying.</note>
+                                </note></colophon>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent> 1冊 | 1 satsu (volume) <dimensions unit="cm" type="binding">
+                                        <dim type="height">
+                                            <!-- Insert height indicated by specific format -->
+                                        </dim>
+                                        <dim type="width">
+                                            <!-- Insert width indicated by specific format -->
+                                        </dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <handDesc>
+                            <handNote scope="sole">Possibly attributed to a member of 内藤氏 | Naitō
+                                clan </handNote>
+                        </handDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="sole">Katakana-majiri</scriptNote>
+                        </scriptDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p><!-- Insert binding information here including type of binding ,if given, in Japanese and English. --></p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1722">享保７</origDate>
+                            <origDate calendar="gregorian" when="1722">1722</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja" source="IANA">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en" source="IANA">Japanese medical and
+                                            scientific books in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date>--> </bibl>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85000761">Acupuncture</term>
+                            <term key="sh85000764">Acupuncture Points</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
+            <change when="2021-12-21"><persName>"#AR"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

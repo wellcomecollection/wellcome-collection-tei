@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_52">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 52</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-11-11">Template</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+                <respStmt xml:id="AR">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Adam Rose</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 52</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 52</idno>
+                        <altIdentifier type="sierra">
+                            <idno>
+                                <!-- Insert Sierra b-number if record exists--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>The first of the 21 imperially commissioned anthologies of court
+                            poetry, originally compiled by <persName>Ki no Tsurayuki</persName>
+                                (c.<date>872-945</date>), on the order of emperor Daigo in
+                                <date>905</date>. This is a manuscript copy of the first ten of
+                            twenty volumes, executed probably in the <date>seventeenth
+                                century</date>.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_52">
+
+                            <author key="person_1606145856885622920249" source="VIAF">
+                                <persName xml:lang="ja" source="IANA"> 紀貫之</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Ki no
+                                    Tsurayuki</persName>
+                                <note><p>Japanese author, poet and courtier of the Heian period,
+                                        (c.872-945)</p></note>
+                            </author>
+
+                            <title>
+                                <title type="main" xml:lang="ja" source="IANA">古今和歌集</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Kokin
+                                    wakashū</title>
+                                <title type="alt" xml:lang="en" source="IANA">Collection of Japanese
+                                    Poems of Ancient and Modern Times</title>
+                            </title>
+
+                            <incipit><locus/><!-- insert -->
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+
+                            <explicit><locus/><!-- insert -->
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+
+                            <colophon><locus/><!-- insert -->
+                                <!-- Use <note> to add general comment -->
+                            </colophon>
+
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <support>鳥子紙使用 | fine Torinoko paper</support>
+                                <extent> 1冊 | 1 satsu (volume) <dimensions unit="cm" type="binding">
+                                        <dim type="height">
+                                            <!-- Insert height indicated by specific format -->
+                                        </dim>
+                                        <dim type="width">
+                                            <!-- Insert width indicated by specific format -->
+                                        </dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation> 存巻1-10 | Volumes 1-10 </foliation>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p>金襴表紙 | Gold brocade cover, suggesting it may have been intended
+                                    as a bridal gift.</p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" from="1600" to="1700">江戸前期</origDate>
+                            <origDate calendar="gregorian" from="1600" to="1700">17th
+                                century</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
+            <change when="2021-12-20"><persName>"#AR"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
