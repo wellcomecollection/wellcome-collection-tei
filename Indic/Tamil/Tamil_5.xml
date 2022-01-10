@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 25.5.21 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Tamil_5">
+       
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Tamil 5</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="SG">
+                    <resp when="1990">Cataloguer</resp>
+                    <persName>S. Gunasingam</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-05-25">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="MM">
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Miten Mistry</persName>
+                </respStmt>
+               
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Tamil 5</idno>
+                <idno type="catalogue">Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Tamil 5</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b32724354</idno>
+                        </altIdentifier>
+                                            </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>A medical work including details about the preparation of medicaments
+                            such as acalypha, indica, cinnabar, the preparation of mercury with sulphur,
+                            etc., and different diseases such as windy humour, flatulence from indigestion,
+                            etc.</summary>
+                        
+                        <textLang mainLang="ta" source="IANA">Tamil</textLang>
+                        
+                        <msItem n="1" xml:id="Tamil_5_1">
+                            <note>In certain cases, the names of the people who invented the medicines are given.</note>
+                            <note>inscribed on both sides and complete</note>                        
+                        </msItem>
+                        
+                        
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        
+                        <objectDesc form="other">
+                            
+                            <supportDesc material="palm">
+                                
+                                <support>Palm leaf.</support>
+                                <extent>
+                                    <dimensions unit="mm" >
+                                        <dim type="diameter">25</dim>
+                                        <dim type="length">265</dim>
+                                                                            </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                  39 ff (ff 1-6 blank)
+                                </foliation>
+                                
+                                                                
+                                <condition>
+                                    <p>The first twelve folios are damaged on the right side.</p>
+                                    <p>Legible and in satisfactory condition.</p>
+                                </condition>
+                                
+                            </supportDesc>
+                            
+                                                       
+                        </objectDesc>
+                     
+                        
+                                               
+                                               
+                                                
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            
+                            <origDate>Undated</origDate>
+                            
+                        </origin>
+                        
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine' in Journal of the Royal Asiatic Society, volume 2.</title>
+                                        <author>S. Gunasingam</author>
+                                        <date>1990</date>
+                                        <note>Pp. 359-369</note>
+                                    </bibl>
+                                    
+                                </source>
+                            </recordHist>
+                            <availability status="unknown"><p></p></availability> 
+                        </adminInfo>
+                        
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        
+        
+        <revisionDesc>
+            <change when="2022-01-10" who="#MM">Added data from the catalogue</change>
+            <change when="2021-05-25" who="#AP">Created template for Wellcome Tamil MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
