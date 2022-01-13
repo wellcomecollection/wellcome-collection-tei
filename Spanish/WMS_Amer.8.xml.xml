@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MSAmer8">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MSAmer8</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-02-24">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2022-01-11">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MSAmer8</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">WMS/Amer.8</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b1967188x</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <msContents>
+                  
+                  <summary>Remedios singulares usado por los Misioneros de tierra firme, q[u]e se allan en el Apendice 1°. de la H[istori]a del Orinoco del Abate Felipe Salvador Gilij. 
+                     tomo 3° en Roma año 1782. 
+                     <note> The extract describes indigenous vegetable remedies for gangrene, certain skin conditions, burns, measles and smallpox, dysentery, 
+                        delayed afterbirth, and fevers; it ends by describing antidotes for poisoning by curare quoted by Gilij from the 
+                     Annual Register for 1769 (Dublin ed., 1773, at p. 522).</note>
+                  </summary>
+                  
+                  <textLang mainLang="es">Spanish</textLang>
+                  
+                  <msItem n="1" xml:id="MSAmer8_1">
+                     
+                     <author key="">GILIJ, Felipe Salvador, 1721-89.</author>
+                     <title key="">GILIJ, Felipe Salvador (1721-89)</title>
+                     
+                     <textLang otherLangs="en">English</textLang>        
+                     
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper">
+                        <support/>
+                        <extent>3 ll.
+                           <dimensions unit="cm" type="cm">
+                              <dim type="width">15.5 cm</dim>
+                              <dim type="length">21.5 cm</dim>
+                           </dimensions>
+                        </extent>                                              
+                        
+                    </supportDesc>
+                    
+                  </objectDesc>                                 
+                            
+                  <additions>
+                     Formerly part of the Guerra Collection. <note>A translation and paraphrase from the Italian of the former Jesuit missionary Gilij (his name is variously spelt), 
+                   Saggio di storia americana, 4 vols., Rome, 1780-84 (vol. 3, pp. 214-217, 
+                        and paraphrased from vol. 2, pp. 388-389). 
+                      </note>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>bound</p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>[? Mexico]</country>
+                        <region>North America</region>
+                                                         
+                     </origPlace>
+                     <origDate calendar="Gregorian">[c.1785]</origDate>
+                  </origin>
+                 
+                  <acquisition>Purchased 1962.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of medical Americana in the Library of the  Wellcome Institute for the History of Medicine</title>
+                              <author>Robin Price.</author>
+                              <date>1557-1821<note>from Latin America and the Caribbean Islands</note>1575-1927<note>manuscripts from the Americas</note></date>
+                              <note>P. 219</note>
+                              <note>https://wellcomecollection.org/works/grwhkxyf</note>
+                              </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="unknown">
+                        <p/>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-01-11" who="Odalys Caballero">Populated the template</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
