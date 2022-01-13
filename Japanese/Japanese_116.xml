@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_116">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 116</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-11-11">Template</resp>
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 116</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue"/>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 116</idno>
+                        <altIdentifier type="former">
+                            <idno>Rudolph #24</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> A manuscript copy of a catalogue of the exhibits at a materia
+                            medica exhibition held in <placeName>Nagoya</placeName> on 15th day of
+                            the 3rd month of 1835 by the Shōhyaku-sha 甞百社. The exhibition was
+                            organised by Ishiguro Saian 石黒済庵 (1787-1836), Ōkōchi Sonshin 大河内存真
+                            (1796-1883), Yoshida Takanori 吉田高憲, Ōkubo Masaaki 大窪昌章 (1802-1841) and
+                            Itō Keisuke 伊藤圭介 (1803-1901), the last of whom was active as a botanist
+                            before the Meiji Restoration, subsequently became, in 1881, a professor
+                            at the newly-established Tokyo University and was, in 1888, the first
+                            person in Japan to receive the degree of Doctor of Science. The
+                            exhibitors were the five organisers and 27 other individuals. This copy
+                            is based on the printed edition, but it only includes the botanical
+                            exhibits. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_116">
+
+                            <title key="4022188" source="kotenseki">
+                                <title type="main" xml:lang="ja" source="IANA">本草会物品目録</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Honzōkai buppin
+                                    mokuroku</title>
+                                <title type="alt" xml:lang="en" source="IANA">Catalogue of exhibits
+                                    at the materia medica exhibition of 1835</title>
+                                <note><p>外題: The title is taken from the outside cover.</p></note>
+                            </title>
+
+                            <incipit>尾州ニテ天保六年乙未春三月十五日会日／同年初秋七月写之</incipit>
+                            <explicit>此者大河内存真</explicit>
+
+                            <filiation><p>There is a facsimile of the 1835 edition in Nagoya sōsho
+                                    sanpen 名古屋叢書三編, vol. 19 (Nagoya: Nagoya-shi Kyōiku Iinkai,
+                                    1982).</p></filiation>
+
+                            <note><p>Inscription: 魯徳福</p></note>
+
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent>１冊 １巻 | 1 satsu (volume) and 1 maki (section) <dimensions
+                                        unit="cm" type="binding">
+                                        <dim type="height">
+                                            <!-- Insert height indicated by specific format -->
+                                        </dim>
+                                        <dim type="width">
+                                            <!-- Insert width indicated by specific format -->
+                                        </dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p><!-- To be added -->
+                                </p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō">天保６</origDate>
+                            <origDate calendar="gregorian">July 1835</origDate>
+                            <note><p>Date taken from note on the cover</p></note>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja" source="IANA">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en" source="IANA">Japanese medical and
+                                            scientific books in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date>--> </bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title>Japanese botany during the period of wood-block
+                                    printing</title>
+                                <author>Harley Harris Bartlett and Hide Shohara</author>
+                                <placeName>Los Angeles</placeName>
+                                <publisher>Dawson's Book Shop</publisher>
+                                <date>1961</date>
+                                <note><p>p.138</p></note>
+                            </bibl>
+                            <bibl>
+                                <title>A collection of Japanese medical and scientific books from
+                                    the library of Richard C. Rudolph, founder of Asian Studies at
+                                    UCLA </title>
+                                <placeName>Novato</placeName>
+                                <publisher>Jeremy Norman and company</publisher>
+                                <date>2006</date>
+                                <note><p>Rudolph #24</p></note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja" source="IANA">明治前日本生物学史</title>
+                                <title xml:lang="ja-Latn" source="IANA">Meijizen nihon seibutsugaku
+                                    shi</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Nihon Gakujutsu Shinkōkai</publisher>
+                                <date>1960-1963</date>
+                                <note><p>Vol. 1, p. 392-402</p></note>
+                            </bibl>
+                            <bibl>
+                                <title>The premise of fidelity: science, visuality, and the
+                                    representing the real in nineteenth-century Japan</title>
+                                <author>Maki Fukuoka</author>
+                                <placeName>Stanford</placeName>
+                                <publisher>Stanford University Press</publisher>
+                                <date>2012</date>
+                                <note><p>Chapter 3</p></note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85015976">Botany</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
+            <change when="2022-01-04"><persName>"#SC"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

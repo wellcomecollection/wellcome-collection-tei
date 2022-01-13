@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_119">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 119</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021-11-11">Template</resp>
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 119</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue"/>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 119</idno>
+                        <altIdentifier type="former">
+                            <idno>Rudolph #28</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> A Japanese translation by <persName type="trans">Ogata
+                                Kōan</persName>, after an <date>1816</date> Dutch translation by
+                                <persName type="trans">Henricus Franciscus Thĳssen</persName> titled
+                                <title>Praktikale verhandeling over eene ziekelĳke gevoeligheid van
+                                het oog, gewoonlĳk zwakheid van gezigt genaamd</title>, of the
+                            English work, <title>On the morbid sensibility of the eye</title>,
+                            commonly called weakness of sight, by <persName>John
+                                Stevenson</persName>, first published in <date>1810</date>. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_119">
+
+                            <author key="person_67783141" source="VIAF">
+                                <persName xml:lang="ja" source="IANA">緒方, 洪庵</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Ogata Kōan</persName>
+                                <note><p>Ogata Kōan (1810-1963) was a scholar of Dutch and Western
+                                        medicine who founded the Tekijuku school in Osaka, which
+                                        survives to this day.</p></note>
+                            </author>
+
+                            <title key="1033234" source="kotenseki">
+                                <title type="main" xml:lang="ja" source="IANA">視力乏弱病論</title>
+                                <title type="alt" xml:lang="ja-Latn" source="IANA">Shiryoku bōjaku
+                                    byōron</title>
+                                <title type="alt" xml:lang="en" source="IANA">On weakness of
+                                    sight</title>
+                            </title>
+
+                            <note><p>内題下に「第二板和蘭一千八百十六年鏤行／暗尼利西ヨーンステヘンソン著／和蘭テイスセン訣註／備中緒方章公裁訣稿」</p></note>
+                            <note><p>印記「魯徳福印」</p>
+                            </note>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent> １冊 １巻 | 1 satsu (volume) and 1 maki (section) <dimensions
+                                        unit="mm" type="binding">
+                                        <dim type="height"> 249mm </dim>
+                                        <dim type="width"> 164mm </dim>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p><!-- Insert binding information here including type of binding ,if given, in Japanese and English. --></p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō">江戸後期</origDate>
+                            <origDate calendar="gregorian">late 18th-mid 19th century</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja" source="IANA">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en" source="IANA">Japanese medical and
+                                            scientific books in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date>--> </bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title>A collection of Japanese medical and scientific books from
+                                    the library of Richard C. Rudolph, founder of Asian Studies at
+                                    UCLA </title>
+                                <placeName>Novato</placeName>
+                                <publisher>Jeremy Norman and company</publisher>
+                                <date>2006</date>
+                                <note><p>Rudolph #28</p></note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85095071">Ophthalmology</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
+            <change when="2022-01-04"><persName>"#SC"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
