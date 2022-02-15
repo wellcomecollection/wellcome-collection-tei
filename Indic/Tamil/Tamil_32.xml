@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 25.5.21 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Tamil_32">
+    
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Tamil 32</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="SG">
+                    <resp when="1990">Cataloguer</resp>
+                    <persName>S. Gunasingam</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-05-25">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="MM">
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Miten Mistry</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Tamil 32</idno>
+                <idno type="catalogue">Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Tamil 32</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b32724627</idno>
+                        </altIdentifier>
+                        
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Includes the preparation of different medical substances 
+                            for the purification of the human body, which cure a variety of diseases</summary>
+                        
+                        <textLang mainLang="ta" source="IANA">Tamil</textLang>
+                        
+                        <msItem n="1" xml:id="Tamil_32_1">
+                            <title><!-- Tamil text to be added --> (150 stanzas on purifying  medical substances named 
+                                after the sage Agastiyar)</title>
+                            <note>inscribed on both sides and complete</note>  
+                           
+                            
+                        </msItem>
+                        
+                        
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <!-- Insert and delete as needed -->
+                        <objectDesc form="other">
+                            
+                            <supportDesc material="palm">
+                                
+                                <support>Palm leaf.
+                                                                   </support>
+                                <extent>
+                                    <dimensions unit="mm" >
+                                        <dim type="diameter">34</dim>
+                                        <dim type="length">220</dim>
+                                      
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>55 ff</foliation>
+                                
+                                                                
+                                <condition>
+                                    <p>The last few leaves have been damaged by moths</p>
+                                </condition>
+                                
+                            </supportDesc>
+                            
+                           
+                            
+                        </objectDesc>
+                        
+                        
+                        
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        
+                        <additions>
+                            <p></p>
+                        </additions>
+                        
+                        <bindingDesc>
+                            <binding>
+                                <p></p>
+                            </binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                           
+                            <origDate>Undated</origDate>
+                            
+                        </origin>
+                        
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine' in Journal of the Royal Asiatic Society, volume 2.</title>
+                                        <author>S. Gunasingam</author>
+                                        <date>1990</date>
+                                        <note>Pp. 359-369</note>
+                                    </bibl>
+                                    
+                                </source>
+                            </recordHist>
+                            <availability status="unknown"><p></p>
+                            </availability> 
+                        </adminInfo>
+                      
+                       
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        
+            
+        <revisionDesc>
+            <change when="2022-02-15" who="#MM">Added data from the catalogue</change>
+            <change when="2021-05-25" who="#AP">Created template for Wellcome Tamil MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
