@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 11.3.21 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Egyptian_3">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Wellcome Egyptian 3</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="QT">
+                    <resp when="1994">Cataloguer</resp>
+                    <persName>S. G. J. Quirke and W. J. Tait</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2021-03-11">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="YK">
+                    <resp when="2021-03-18">TEI Encoder</resp>
+                    <persName>Yoshika Kobayashi</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Egyptian MS 3</idno>
+                <idno type="catalogue">Egyptian Manuscripts in the Wellcome Collection</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark"></idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b32714907</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>A Third Intermediate Period Amduat</summary>
+                        
+                        <textLang mainLang="egy" source="IANA">Egyptian (Ancient)</textLang>
+                        
+                        <msItem n="1" xml:id="Egyptian_MS_3_1">
+                            <title key="">A Third Intermediate Period Amduat</title>
+                            
+                            <textLang mainLang="egy" source="IANA">Egyptian (Ancient)</textLang>
+                            
+                            <incipit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <colophon><!-- insert --> <locus></locus>
+                                <note>In manuscripts of this type, an offering vignette is sometimes provided at one end of the papyrus. It is possible that this papyrus contained such a vignette, supplying the name of the owner, 
+                                    but it is equally likely that the manuscript is complete and that the name of the owner would have been supplied by other items in the burial, notably the Book of the Dead which it complemented.</note>
+                            </colophon>
+                            
+                            <filiation></filiation>
+                            
+                            <note>In contrast to all examples in the Amduat categories discussed by Niwiinski, this manuscript includes elements of the First
+                                and Third Hours in addition to the Eleventh and Twelfth.</note>
+                            
+                        </msItem>
+                        
+                        <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="roll">
+                            
+                            <supportDesc material="papyrus">
+                                
+                                <support><!-- Insert prose description -->
+                                    <measure type="chainline"><!-- Insert, if available -->.</measure>
+                                </support>
+                                <extent><!-- Insert details on extent -->
+                                    <dimensions unit="mm" ><!-- Add if available -->
+                                        <dim type="height">243</dim>
+                                        <dim type="length">1505</dim>
+                                    </dimensions>
+                                    <note>There is a vertical fold about 0.5 cm in width at 39.5 cm from the right edge; this fold conceals
+                                        perhaps 1 cm of the total width</note>
+                                </extent>
+                                
+                                <foliation>
+                                </foliation>
+                                
+                                <collation>Sheet joins, right over left, occur 20.5 cm from the right edge, 52.5 cm from the right edge (presumably an intervening join is obscured by the modern fold), and then at the following intervals: 19.7 cm, 20.0 cm, 19.8 cm, and 19.8 cm.
+                                    The last preserved join is 22.0 cm from the left edge, but the vertical breaks 2 to 3 cm from the left edge may conceal another final join.
+                                </collation>
+                                
+                                <condition>
+                                    The papyrus is a light brown hue, with staining at the right end and at points along the edges. The staining may be due to damp,
+                                    and seems to involve no resinous matter.
+                                </condition>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout>
+                                    <!-- Add description or further elements - writtenLines often given as 'linn.' in catalogue -->                                        
+                                </layout>
+                                
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        
+                        <additions>
+                            <p></p>
+                        </additions> 
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Egypt</country>,
+                                <settlement>Thebes</settlement>,
+                                <note>Although the Wellcome papyrus has neither acquisition details nor provenance, it is clear from the research of Niwinski that all extant funerary papyri of this period came from Thebes</note>
+                            </origPlace>
+                            <origDate calendar=""><!-- insert --></origDate>
+                            <note>Other examples of this style of Amduat date to the late Twenty-first to early Twenty-second Dynasties</note>
+                        </origin>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Egyptian Manuscripts in the Wellcome Collection in The Journal of Egyptian Archaeology, vol. 80</title>
+                                        <author>S. G. J. Quirke and W. J. Tait</author>
+                                        <date>1994</date>
+                                        <note>Pp. 145-158</note>
+                                    </bibl>
+                                    <!-- Might include link to catalogue source -->
+                                    <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                                </source>
+                            </recordHist>
+                            <availability status=""><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+
+                        <listBibl>
+                            <head>Bibliography</head>
+                            <bibl>
+                                <title>Studies on the Illustrated Theban Funerary Papyri of the 11th and 10th Centuries B.C.</title>
+                                <author>Andrzej Niwinski</author>
+                                <date>1989</date>
+                                <placeName>Freiburg</placeName>
+                            </bibl>
+                        </listBibl>
+                    
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="sh85041367">
+                            <term ref="subject_sh85041367">Egyptology</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+        
+        <revisionDesc>
+            <change when="2022-01-10" who="#YK">Created XML file.</change>
+            <change when="2021-03-11" who="#AP">Created template for Wellcome Egyptian MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
