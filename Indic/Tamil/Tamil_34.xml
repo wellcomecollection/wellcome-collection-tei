@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 25.5.21 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Tamil_34">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Tamil 34</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="SG">
+                    <resp when="1990">Cataloguer</resp>
+                    <persName>S. Gunasingam</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-05-25">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="YK">
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Yoshika Kobayashi</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Tamil 34</idno>
+                <idno type="catalogue">Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Tamil 34</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b32724640</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Alphabets: the available text contains consonant signs. The missing first
+                            leaf must have contained the vowel signs.
+                        </summary>
+                        
+                        <textLang mainLang="ta" source="IANA">Tamil</textLang>
+                        
+                        <msItem n="1" xml:id="Tamil_34_1">
+                            <locus from="1" to="9">9 ff.</locus>
+                            <title key="">Alphabets</title>
+                        </msItem>
+                                                
+                    </msContents>
+                    
+                    <physDesc>
+                        
+                        <objectDesc form="other">
+                            
+                            <supportDesc material="palm">
+                                
+                                <support>Palm leaf.
+                                </support>
+                                <extent>The first leaf is missing
+                                    <dimensions unit="mm" >
+                                        <dim type="diameter">525</dim>
+                                        <dim type="length">22</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <condition>
+                                    <p>Good condition </p>
+                                </condition>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout>
+                                    <note>Inscribed on both sides</note>                                     
+                                </layout>
+                                
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <decoDesc>
+                            <decoNote>The left end of each leaf is knotted</decoNote>
+                        </decoDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian">Undated</origDate>
+                        </origin>
+                        <acquisition notBefore="1990">Acquired by the Wellcome Library, or its predecessor the Wellcome Historical Medical Museum.</acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine' in Journal of the Royal Asiatic Society, volume 2.</title>
+                                        <author>S. Gunasingam</author>
+                                        <date>1990</date>
+                                        <note>Pp. 359-369</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status=""><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2022-03-04" who="#YK">Added data from catalogue</change>
+            <change when="2021-05-25" who="#AP">Created template for Wellcome Tamil MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
