@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MSAmer17">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MSAmer17</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-02-24">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2022-02-03">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt>          
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MSAmer17</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">WMS/Amer.17</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b18967073</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  <summary>Noticia de varias plantas y sus virtudes.Brief notes on some 140 remedies, primarily of plant origin, growing in Yucatán
+                     <note>A closely related MS was printed, with introductory comments, by Nicolas Leon, "Terapeutica popular de losantiguos Mayas,"Gaceta 1\1.edica de Mexico,1919- 20, 1, 4 ser., 217-226. 
+                        The absence of the index of plants, <locus>(ff. 17-18) </locus>from Leon's printed version, some textual omissions and variations, and differences of order,spelling and punctuation make it highly probable that Leon's source 
+                        (i.e. a MS of the same title from a photographic copy supplied by William E. Gates) was not identical. Neither MS bears close relation to the MS illustrating 20 Yucatn plants written by a Franciscan friar of Campeche in the early 19th century once in the collection of William E. Gates, 
+                        and translated and edited by Elizabeth C. Stewart, Apuntes sobre algunas plantas medicinales de Yucatan [Maya Society Publication No. 10), Baltimore, 1935.
+                     </note></summary>
+                     
+                     
+                  <textLang mainLang="">Spanish</textLang>
+                  
+                  <msItem n="1" xml:id="MSAmer8_17">
+                     
+                                       
+                     <title key="">Mexico, 19th century: medical uses of plants growing in Yucatán <!-- Real tittle "NOTICIA" --></title>
+                     
+                     <textLang otherLangs="en">English</textLang>                       
+                                     
+                  </msItem>
+                  
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper">
+                        <support/>
+                        <extent>1 l., ff. 19
+                           <dimensions unit="cm" type="cm">
+                              <dim type="width">15 cm</dim>
+                              <dim type="length">21 cm</dim>
+                           </dimensions>
+                        </extent>
+                        
+                        <foliation>19 ff</foliation>
+                        
+                      </supportDesc>
+                                         
+                  </objectDesc>
+                  
+                  <decoDesc>
+                     <p>Red clothes in binding with Initials JR. de R. in gold</p>
+                  </decoDesc>
+                  
+                  <additions>
+                     <p>Formerly part of the Guerra Collection</p> 
+                    </additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>Bound in red cloth, initialled JR. de R. in gold,<note>in slip case.</note></p>
+                     </binding>
+                  </bindingDesc>
+                  
+        
+                                   
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>Yuucatan, Mexico</country>
+                        <region>North America</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">c.1815</origDate>
+                  </origin>
+               
+                  <acquisition>Purchased 1962.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of medical Americana in the Library of the  Wellcome Institute for the History of Medicine</title>
+                              <author>Robin Price.</author>
+                              <date>1557-1821<note>from Latin America and the Caribbean Islands</note>1575-1927<note>manuscripts from the Americas</note></date>
+                              <note>P. 260</note>
+                              <note>https://wellcomecollection.org/works/grwhkxyf</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="unknown">
+                        <p>Probably unpublished</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-02-03" who="Odalys Caballero">Populated the template</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
