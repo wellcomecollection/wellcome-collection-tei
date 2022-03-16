@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MSAmer19.">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MSAmer19</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-02-24">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2022-03-16">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt>         
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MSAmer19</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">WMS/Amer.18</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b19582122</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>A formal proposal for the establishment of a resident medical college. 
+                     The proposal, addressed to the Protomedicato, is primarily intended to relieve the poverty of medical students.  Chairs (including a chair in surgery), the training of midwives and of nurses for women, are proposed under the direction of the Protomedicato. 
+                     The College is to be funded by a tax on playing-cards, by a lottery, or by the Minería or Consulados. A seven year course is envisaged for medical students. 
+                     There is no evidence that this or another copy was in fact received by the Protomedicato. </summary>
+                 
+                  <textLang mainLang="es">Spanish</textLang>
+                  
+                  <msItem n="1" xml:id="MSAmer8_19">
+                     
+                     <author key="">Arachederreta y Escalada, Juan Batista, 1771-1835, medical practitioner</author>
+                     
+                     <title key="">Arechederreta y Escalada, Juan Batista (1771-1835)</title>
+                     
+                     <textLang otherLangs="en">English</textLang>      
+                     
+                                       
+                     <filiation>[See M.5].</filiation>
+                    
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper">
+                        <support/>
+                        <extent>22 ll. (first last leaves bl.)
+                           <dimensions unit="cm" type="cm">
+                              <dim type="width">15 cm</dim>
+                              <dim type="length">21 cm</dim>
+                           </dimensions>
+                        </extent>
+                        
+                     
+                        <collation>
+                           <signatures>Signature, rúbrica, and insertions in author's hand.</signatures>
+                        </collation>
+                        
+                        
+                     </supportDesc>
+                    
+                  </objectDesc>
+
+                 
+                  <handDesc><p>Signature, rúbrica, and insertions in author's hand.</p></handDesc>
+                  
+                  
+                  <additions>
+                     <p>Formerly part of the Guerra Collection</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>Unbound <note>in contem porary leather cover in modern slip-case.</note></p>
+                     </binding>
+                  </bindingDesc>
+                  
+                 
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>Mexico</country>
+                        <region>North America</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">c.1802</origDate>
+                  </origin>
+                   <acquisition>Purchased 1962.</acquisition>
+               </history>
+               
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of medical Americana in the Library of the  Wellcome Institute for the History of Medicine</title>
+                              <author>Robin Price.</author>
+                              <date>1557-1821<note>from Latin America and the Caribbean Islands</note>1575-1927<note>manuscripts from the Americas</note></date>
+                              <note>P. 192</note>
+                              <note>https://wellcomecollection.org/works/grwhkxyf</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="unknown">
+                        <p></p>
+                       </availability>
+                  </adminInfo>
+                  
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-03-16" who="Odalys Caballero">Populated the template</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
