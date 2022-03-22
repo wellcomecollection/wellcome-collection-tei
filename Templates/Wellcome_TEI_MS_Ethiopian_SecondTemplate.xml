@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 01.03.22 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="">
+    <!-- Give xml:id in the  format  'Ethiopian_[MS number]' -the file name should be identical -->
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title><!-- Give title in the format 'Wellcome Ethiopian [ms number]'  --></title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RK">
+                <resp when="2005">Cataloguer</resp>
+                <persName>R. Kidane</persName>
+            </respStmt>
+            <respStmt xml:id="KG">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Ekaterina Gusarova</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2022-03-01">Template</resp>
+                <resp when="2022">Provenance research</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+            <respStmt xml:id="">
+                <resp when="">TEI Encoder</resp>
+                <persName><!-- Insert name --></persName>
+            </respStmt>
+            <!-- Add another <respStmt> for every resp -->
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID"><!-- Give the shelfmark of the manuscript --></idno>
+            <idno type="catalogue">Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London.</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark"></idno>
+                    <altIdentifier type="Sierra">
+                        <idno></idno>
+                    </altIdentifier>
+                    <!-- Use further <altIdentifier> if former or alternative <idno> is available -->
+                    <altIdentifier type="">
+                        <idno></idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary><!-- Any top-level description of the manuscript as a whole --></summary>
+                   
+                    <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                    
+                    <msItem n="" xml:id="">
+                        <locus from="" to=""><!-- Give the locations for the item, if available --></locus>
+                        <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
+                        <title key=""><!-- Insert viaf code as attribute value, if available, and enter title here --></title>
+                        
+                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <note><!-- insert --></note>
+                        
+                    </msItem>
+                    
+                    <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+                    
+                </msContents>
+                
+                <physDesc>
+                    <!-- Insert and delete as needed -->
+                    <objectDesc form="roll">
+                       
+                        <supportDesc material="perg">                     
+                            <support>Vellum</support>
+                            
+                            <extent><!-- Insert details on extent -->
+                                <dimensions type="roll" unit="mm" ><!-- Add if available -->
+                                    <dim type="diameter"></dim>
+                                    <dim type="length"></dim>
+                                    <!-- Add or delete dimensions as needed -->
+                                </dimensions>
+                            </extent>
+
+                            <condition>
+                                <!-- Use to record any information about the condition of the manuscript, if known -->
+                            </condition>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="">
+                                <!-- Add description or further elements - writtenLines often given as 'linn.' in catalogue -->                                        
+                            </layout>
+                            
+                            <layout columns="">
+                                <!-- Add number of columns -->
+                            </layout>
+                            
+                            <layout rulingMedium="">
+                                <!-- Add any information on ruling -->
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <!-- Add or delete <handNote> elements as needed -->
+                        <handNote scope=""></handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote></decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p></p>
+                    </additions>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country><!-- insert --></country>,
+                            <region><!-- insert --></region>,
+                            <settlement><!-- insert --></settlement>,
+                            <orgName><!-- insert --></orgName>
+                        </origPlace>
+                        <origDate calendar=""><!-- insert --></origDate>
+                        <!-- use additional origPlace and origDate elements if necessary -->
+                    </origin>
+                    <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                    <!-- use additional provenance elements if necessary -->
+                    <acquisition><!-- insert --></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London</title>
+                                    <author>R. Kidane</author>
+                                    <date>c.2005</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian manuscripts</title>
+                                    <author>Ekaterina Gusarova</author>
+                                    <date>2015</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- The following records the bibliographical entries Kidane's catalogue refers to - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>Ethiopian Magic Scrolls</title>
+                            <author>Jacques Mercier</author>
+                            <date>1979</date>
+                            <abbr>Mercier</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>An introduction to the medical history of Ethiopia</title>
+                            <author>Richard Pankhurst</author>
+                            <date>1990</date>
+                            <publisher>Trenton, N.J.</publisher>
+                            <abbr>Pankhurst</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>'Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London', in Bulletin of the School of Oriental and African Studies. University of London, 35(1)</title>
+                            <author>Stefan Strelcyn</author>
+                            <date>1972</date>
+                            <note>Pp. 27-55</note>
+                            <abbr>Strelcyn, 1972</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue  of Ethiopian manuscripts  in the John Rylands, Manchester</title>
+                            <author>Stefan Strelcyn</author>
+                            <date>1974</date>
+                            <abbr>Strelcyn, 1974</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Catalogue of Ethiopian manuscripts in the Cambridge University Library</title>
+                            <author>Edward Ullendorff</author>
+                            <abbr>Ullendorff</abbr>
+                        </bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+        <change when=""><!-- Make an entry to record your starting work on the file and then a new <change> for later edits, following the below format --></change>
+        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
