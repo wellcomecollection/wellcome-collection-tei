@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 01.03.22 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_1">
+    <!-- Give xml:id in the  format  'Ethiopian_[MS number]' -the file name should be identical -->
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Ethiopian 1</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SS">
+                <resp when="1972">Cataloguer</resp>
+                <persName>Stefan Strelcyn</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2022-03-01">Template</resp>
+                <resp when="2022">Provenance research</resp>
+                <resp when="2022-03-07">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">WMS Ethiopian 1</idno>
+            <idno type="catalogue">Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark"></idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b23063956</idno>
+                    </altIdentifier>
+                    <altIdentifier type="accession">
+                        <idno>36969</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>18th century prayers of magical character</summary>
+                   
+                    <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                    
+                    <msItem n="1" xml:id="Wellcome_Ethiopian_1_1">
+                        <locus from="1" to="16">Line 1-16</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayers against vaginal haemorrhage</title>
+                        
+                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        <note><!-- insert --></note>
+                    </msItem>
+                        
+                    <msItem n="2" xml:id="Wellcome_Ethiopian_1_2">
+                        <locus from="17" to="37">Line 17-37</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer against vaginal haemorrhage, "The drowner of devils"</title>
+                        
+                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        <note><!-- insert --></note> 
+                    </msItem>
+      
+                    <msItem n="3" xml:id="Wellcome_Ethiopian_1_3">
+                        <locus from="38" to="86">Line 38-86</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayers against vaginal haemorrhage, barya and legewon</title>
+                        
+                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        <note>Barya are a people believed to serve the demon or spirit provoking epilepsy and therefore barya is identified with this disease. Legewon is a name for Satan, chief of the barya and one of the
+                        most frequently occurring devils in Ethiopic magical literature (<ref>Strelcyn</ref>)</note>      
+                    </msItem>
+                            
+                    <msItem n="4" xml:id="Wellcome_Ethiopian_1_4">
+                        <locus from="87" to="124">Line 87-124</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayers given by God to Eve against vaginal haemorrhage</title>
+                        
+                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit> 
+                    </msItem>                        
+                    
+                    <msItem n="5" xml:id="Wellcome_Ethiopian_1_5">
+                        <locus from="124" to="158">Line 124-158</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Salam to Phanuel, the expeller of devils</title>
+                        
+                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>   
+                    </msItem>
+                </msContents>
+                
+                <physDesc>
+                    <!-- Insert and delete as needed -->
+                    <objectDesc form="roll">
+                       
+                        <supportDesc material="perg">                     
+                            <support>Vellum</support>
+                            
+                            <extent>Scroll composed of three strips.
+                                <dimensions type="roll" unit="mm" >
+                                    <dim type="diameter">1255</dim>
+                                    <dim type="length">120</dim>
+                                </dimensions>
+                            </extent>
+
+                            <condition>
+                                Top of the first strip seems to be missing.
+                            </condition>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="158">158 lines in black and red ink.</layout>
+                            
+                            <layout columns="1">1 column
+                                <dimensions unit="mm"><dim type="diameter">115</dim></dimensions>
+                            </layout>
+                            
+                            <layout>No mistara visible</layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote>The texts in the three strups were written by different scribed, at least two different hands.</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote type="miniature"><locus>After line 36</locus>: magical letters' frame</decoNote>
+                        <decoNote type="miniature"><locus>After line 158</locus>: Demon Legewon bound with a red cord. It is written in the miniature: "As Legewon was reduced to disgrace".</decoNote>
+                        <decoNote>Miniatures are made in colour. There were originally three but the first one was cut off.</decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p></p>
+                    </additions>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Ethiopia</country>,
+                        </origPlace>
+                        <origDate calendar="Gregorian" notBefore="1700" notAfter="1800">18th century</origDate>
+                    </origin>
+                    <provenance notAfter="1868">Three consecutive owners are named: <!-- Ge'ex text to be added --></provenance>
+                    <provenance notBefore="1855" notAfter="1868">Part of the library of Tewodros II, Emperor of Ethiopian at Maqdala.</provenance>
+                    <provenance when="1868-04">Taken from Maqdala by the British armed forces following the British Expedition to Abyssinia in April 1868.</provenance>
+                    <acquisition when="1915-12-20">Purchased at auction by the Wellcome Historical Medical Museum at Stevens sale 12,725, 14 December 1915, lot 386.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London', in Bulletin of the School of Oriental and African Studies. University of London, 35(1)</title>
+                                    <author>Stefan Strelcyn</author>
+                                    <date>1972</date>
+                                    <note>Pp. 27-55</note>
+                                    <abbr>Strelcyn</abbr>
+                                    <note>Includes an extensive index-glossary and bibliography</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+          
+        <revisionDesc>
+        <change when="2022-03-07" who ="#VS">Added data from the catalogue.</change>
+        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
