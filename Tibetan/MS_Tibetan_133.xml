@@ -14,9 +14,9 @@
                 <resp when="">Cataloguer</resp>
                 <persName><!-- Insert name --></persName>
             </respStmt>
-            <respStmt xml:id="">
-                <resp when="">TEI Encoder</resp>
-                <persName><!-- Insert name --></persName>
+            <respStmt xml:id="BA">
+                <resp when="2022">TEI Encoder</resp>
+                <persName>Branwen and Adrian</persName>
             </respStmt>
             <!-- Add another <respStmt> for every resp -->
         </titleStmt>
@@ -55,7 +55,7 @@
                 
                 <msContents>
                   
-                    <summary><!-- Any top-level description of the manuscript as a whole --></summary>
+                    <summary>Illustrations of Tibetan materia medica, plant and animal, used in the production of medicine. Title: 'A Selection of Substances used for the Production of Medicine based on the Teaching of the four (medical) Tantras' This anonymous manuscript is written in the 'Trungpa' ('khrungs dpe) genre of Tibetan medical literature. Entitled, 'Sman bla'i dgongs rgyan rgud bzhi'i nang gi 'khrungs dpe re zhig', it deals with various material medica, plant and animal, used in the production of medicine. The book comprises unbound sheets of thick (perhaps Russian?) paper held together by two boards and wrapped in a piece of cloth. The medical illustrations are finished in colour. The manuscript is very rare and obviously very expensive. Its owner made a significant effort to obtain illustrations for every medicine mentioned, including plants, stones and animals. There are several suggestions about the origin of the manuscript. It might well be a copy from Sangye Gyatso's 'tankas', possibly written by a painter or doctor who travelled from Mongolia to Lhasa. It could have been transcribed in Tibet and subsequently sold to Mongolia. There is a similarity between the images of material medica in this manuscript and those found in the 19th century Tibetan xylographs of medical works, like the 'Mdzes mtshar mig rgyan', which circulated in the territory of Mongolia in the nineteenth century.</summary>
                    
                    
                     <textLang mainLang=""><!-- Use if only one language in manuscript --> <!-- Enter BCP 47 language code as attribute value and full language name here --> </textLang>
@@ -95,12 +95,12 @@
                        
                         <supportDesc material="">
                                                     
-                            <support><!-- Insert prose description --></support>
+                            <support>Unbound, ink and watercolour</support>
                             <extent><!-- Insert details on extent -->
-                                <dimensions unit="" type=""><!-- Add if available -->
+                                <dimensions unit="mm" type="">
                                
-                                    <dim type="diameter"></dim>
-                                    <dim type="length"></dim>
+                                    <dim type="diameter">85</dim>
+                                    <dim type="length">310</dim>
                                     <!-- Add or delete dimensions as needed -->
                                 </dimensions>
                             </extent>
@@ -134,7 +134,8 @@
                         <origDate calendar=""><!-- insert --></origDate>
                         <!-- use additional origPlace and origDate elements if necessary -->
                     </origin>
-                    <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                    <provenance notBefore="" notAfter=""><!-- insert, otherwise delete -->
+                        <note>Displayed in Ayurvedic Man and at Rubin Museum</note></provenance>
                     <!-- use additional provenance elements if necessary -->
                     <acquisition><!-- insert --></acquisition>
                 </history>
@@ -176,7 +177,9 @@
     </teiHeader>    
 
     <facsimile>
-        <surface></surface>
+        <surface>
+            <figure>https://wellcomecollection.org/works/a35rshyx</figure>
+        </surface>
 
     </facsimile>    
 
