@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Karshuni_3">
+    <!-- Give xml:id in the  format  'Greek_[MS number]' -the file name should be identical -->
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>Karshuni_3</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2021-09-23">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Karshuni 3<!-- Give the shelfmark of the manuscript --></idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark"/>
+                        <altIdentifier type="Sierra">
+                            <idno/>
+                        </altIdentifier>
+                        <!-- Use further <altIdentifier> if former or alternative <idno> is available -->
+                        <altIdentifier type="accession">
+                            <idno>Karshuni acc. 66599</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>Hexaemeron by Jacob of Edessa,‏ ‎d. approximately 640-708 </summary>
+
+
+                        <msItem xml:id="Karshuni_3-item1">
+
+                            <author key="50027842">
+                                <persName xml:lang="en">Jacob of Edessa,‏ ‎d. approximately
+                                    640-708</persName>
+                                <persName xml:lang="ar"> ܝܥܩܘܒ ܐܠܪܗܐܘܝ </persName>
+                            </author>
+                            <title type="desc" xml:lang="en">Hexaemeron</title>
+
+
+
+
+                            <!-- Use as needed, or delete -->
+                            <textLang mainLang="ar" source="IANA">Arabic [Karshuni]</textLang>
+                            <!-- Enter BCP 47 IANA language code as attribute value and full language name here . For Hebrew, value is "he". For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry-->
+
+                            <incipit xml:lang="ar"> ܢܒܕܐ ܘܢܟܬܒ ܡܢ ܒܥܛ ܐܠܥܠܘܡ ... ܘܛܥܗܐ ܝܥܩܘܒ ܐܠܪܗܐܘܝ
+                                ܐܠܡܒܝܢ ܦܝܗ... ܟܠܩܗܵ ܐܠܡܠܐܝܟܗ ܘܐܠܥܐܠܡ ܘܐܠܐܦܠܐܟ ܘܐܠܢܝܪܐܬ ܘܐܠܡܟܘܢܐܬ... </incipit>
+
+
+
+                       
+
+                            <note>This work was originally composed in Syriac. The current version is incomplete.</note>
+
+                        </msItem>
+
+                        <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
+                                    <measure type="chainline"
+                                        ><!-\- Insert, if available -\->.</measure>-->
+                                </support>
+                                <!-- <extent><!-\- Insert details on extent -\->
+                                    <dimensions unit="mm">
+                                        <!-\- Add if available -\->
+                                        <dim type="diameter"/>
+                                        <dim type="length"/>
+                                        <!-\- Add or delete dimensions as needed -\->
+                                    </dimensions>
+                                </extent>-->
+
+                                <foliation> MS lacks foliation. 
+                                </foliation>
+
+                                <!-- <collation>
+                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
+                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
+                                </collation>-->
+
+                                <condition>Paper torn and stained.</condition>
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" writtenLines="18"> 1 column, 18 lines. </layout>
+
+                                <!-- <layout rulingMedium="">
+                                    <!-\- Add any information on ruling -\->
+                                </layout>
+-->
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major">
+                                <p><label>Script:</label> Syriac, Serṭo</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+                        </decoDesc>
+
+                        <additions>
+                            <p>Marginal note in Arabic script: 
+                                <quote>وهذا يدل من ان هذا الكلام ليس للرهاوي المتوفي ٨ ٠ ٧</quote>
+                            </p>
+                         
+                        </additions>
+
+                        <bindingDesc>
+                            <binding>
+                                <p>Paper boards; brown leather covers.</p> <condition>Insect damage to binding.</condition>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin> MS undated. 
+                              
+                        </origin>
+                        <!-- <provenance></provenance>-->
+
+                        <acquisition>Wellcome Library accession number: 66599</acquisition>
+                    </history>
+
+                    <!--<additional>-->
+                    <!-- <adminInfo>
+                           <!-\- <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Greek Manuscripts at the Wellcome Library in London:
+                                            A Descriptive Catalogue' in Medical History, vol. 59
+                                            (2)</title>
+                                        <author>Petros Bouras-Vallianatos</author>
+                                        <date>2015</date>
+                                        <note>Pp. 275-326</note>
+                                    </bibl>
+                                    <!-\\- Might include link to catalogue source -\\->
+                                    
+                                </source>
+                            </recordHist>-\->
+                          <!-\-  <availability status="">
+                                <p>
+                                    <!-\\- Insert if relevant -\\-></p>
+                            </availability>-\->
+                        </adminInfo>-->
+                    <!-- Enter bibliographical info, if needed -->
+                    <!-- <listBibl>-->
+                    <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                    <!-- The following records the bibliographical entries catalogue referenced in the catalogue - delete any that are not mentioned in the file -->
+                    <!-- <head>Bibliographical abbreviations</head>
+                            <bibl>
+                                <title>Bibliotheca Askeviana manu scripta, sive catalogus librorum
+                                    manuscriptorum Antonii Askew</title>
+                                <date>1785</date>
+                                <placeName>London</placeName>
+                                <publisher>Leigh and Sotheby</publisher>
+                                <abbr>Bibl. Askev.</abbr>
+                            </bibl>
+                           
+
+                        </listBibl>
+
+                    </additional>-->
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85013597">Bible--Commentaries</term>
+                            <term ref="subject_sh85134665">Christian theology</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-09-23" who="#RM">Completed TEI description for Karshuni MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>
