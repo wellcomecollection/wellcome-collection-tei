@@ -6,5 +6,3 @@
   * [TEI cataloguing mapping](frontend/draft.md)
 * [OldVersions](oldversions/README.md)
   * [readme](oldversions/oldversions.md)
-* [Test a la Test](test-a-la-test.md)
-
