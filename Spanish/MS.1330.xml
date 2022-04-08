@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_1330">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS.1330</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SAJM">
+               <resp when="1962">Cataloguer</resp>
+               <persName>S.A.J. Moorat</persName>
+            </respStmt>
+            <respStmt xml:id="RM">
+               <resp when="2002">Catalogue entry transcribed into database</resp>
+               <persName>Ross MacFarlane</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="WG">
+               <resp when="2022">TEI Encoder</resp>
+               <persName>Will Greenacre</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS.1330</idno>
+            <idno type="catalogue">Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">MS.1330</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b19151391</idno>
+                  </altIdentifier>
+                  <altIdentifier type="accession">
+                     <idno>51017</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>De la excellencia, i dignidad de la medicina.</summary>
+                  <textLang mainLang="es-ES">Spanish Spain</textLang>
+                  <msItem n="1" xml:id="MS_1330_1">
+                     <author key="person_86636816">Bosch y Cardellach, Antonio, 1758-1829.</author>
+                     <note>The author was a general practitioner of Sabadell, where he was born and where he died. He wrote on epidemic diseases.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>Paper</support>
+                        <extent>1 volume<dimensions unit="cm">
+                              <dim type="diameter">13.5</dim>
+                              <dim type="length">19</dim>
+                           </dimensions>
+                        <measure>Octavo</measure>   
+                        </extent>
+                        <collation>
+                           <formula>pp. 3-24</formula>
+                           <note>The first leaf is wanting, but the text is complete.</note>
+                        </collation>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Author's holograph MS.</handNote>
+                  </handDesc>
+                  <additions>
+                     <p>Written above the title is 'Usu et opera Antonii Bosch M.D.'</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Unbound</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>Spain</country>,
+                        <region>Catalonia</region>,
+                        <settlement>Sabadell</settlement>
+                        <note>Produced in Sabadell, Barcelona.</note>
+                     </origPlace>
+                     <origDate calendar="Gregorian">Late 18th century</origDate>
+                  </origin>
+                  <acquisition>Purchased 1929.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>'Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                              <author>S.A.J. Moorat</author>
+                              <date>1962-1973</date>
+                              <note>Vol. 2, pp. 135-136</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="unknown">
+                        <p></p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item>
+                     <term ref="subject_D006666">History of Medicine</term>
+                  </item>
+                  <item>
+                     <term ref="subject_D011364">Professional Practice</term>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-03-29">WG created XML file</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface></surface>
+   </facsimile>
+   <text>
+      <body>
+         <p></p>
+      </body>
+   </text>
+</TEI>
