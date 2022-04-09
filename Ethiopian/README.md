@@ -8,8 +8,4 @@ The collection has been catalogued in 3 stages:
 * Manuscripts 18-25 were catalogued in c.2005 by R. Kidane.
 * Manuscripts 1-25 were re-catalogued and manuscripts 26 and 27 were catalogued in 2015 by Ekaterina Gusarova. 
 
-The files in this repository are based on cataloguing information from the following catalogue:
-
-* Allan N, "Catalogue of Hebrew manuscripts in the Wellcome Institute, London," in **Journal of Semitic Studies** 27 (2) (1982): 193-220.
-
 The TEI files in this repository were created by members of teams from across Wellcome Collection.
