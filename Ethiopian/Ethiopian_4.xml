@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 01.03.22 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_4">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Ethiopian 4</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SS">
+                <resp when="1972">Cataloguer</resp>
+                <persName>Stefan Strelcyn</persName>
+            </respStmt>
+            <respStmt xml:id="KG">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Ekaterina Gusarova</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2022-03-01">Template</resp>
+                <resp when="2022">Provenance research</resp>
+                <resp when="2022-03-28">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">WMS Ethiopian 4</idno>
+            <idno type="catalogue">Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Ethiopian 4</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b23978107</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>18th century prayers of magical character</summary>
+                   
+                    <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                    
+                    <msItem n="1" xml:id="Wellcome_Ethiopian_4_1">
+                        <locus from="1" to="54">Column 1, lines 1-54</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer for undoing charms</title>
+                        
+                        <incipit><locus>Line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Wellcome_Ethiopian_4_2">
+                        <locus from="54" to="73">Column 1, lines 54-73</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer against vaginal haemorrhage</title>
+                        
+                        <incipit><locus>Line 54</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Wellcome_Ethiopian_4_3">
+                        <locus from="74" to="102">Column 1, lines 74-102</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer against vaginal haemorrhage</title>
+                        
+                        <incipit><locus>Line 74</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+
+                    <msItem n="4" xml:id="Wellcome_Ethiopian_4_4">
+                        <locus from="103" to="6">Column 1, line 103 to column 2, line 6</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer against colic</title>
+                        
+                        <incipit><locus>Line 103</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+
+                    <msItem n="5" xml:id="Wellcome_Ethiopian_4_5">
+                        <locus from="6" to="53">Column 2, lines 6-53</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">"The drowner of devils"</title>
+                        
+                        <incipit><locus>Line 6</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+
+                    <msItem n="6" xml:id="Wellcome_Ethiopian_4_6">
+                        <locus from="54" to="122">Column 2, lines 54-122</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer for protecting suckling infants and their mothers with the legend of St. Susenyos and the witch Warzelya</title>
+                        
+                        <incipit><locus>Line 54</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="roll">
+                       
+                        <supportDesc material="perg">                     
+                            <support>Vellum</support>
+                            
+                            <extent>Scroll composed of three strips.
+                                <dimensions type="roll" unit="mm" >
+                                    <dim type="diameter">165</dim>
+                                    <dim type="length">2065</dim>   
+                                </dimensions>
+                            </extent>
+
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="122">121 lines in column 1. 122 lines in column 2. In black and red ink.
+                            </layout>
+                            
+                            <layout columns="2">2 columns
+                                <dimensions><dim type="diameter">The two columns together are 140mm in width with 15mm of intercolumn space.</dim></dimensions>
+                            </layout>
+                            
+                            <layout>
+                                Mistara visible.
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">Written in a current but careless script.</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote type="miniature"><locus>After line 1</locus>: an archangel and a protected person</decoNote>
+                        <decoNote type="miniature"><locus>After line 52</locus>: St Susenyos on the horse killing Wurzelya</decoNote>
+                        <decoNote type="miniature"><locus>After line 101 of column 1</locus>: "the captured demon"</decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p>Housed in a cylindrical leather case.</p>
+                    </additions>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Ethiopia</country>
+                        </origPlace>
+                        <origDate calendar="Gregorian" notBefore="1700" notAfter="1800">18th century</origDate>
+                    </origin>
+                    <provenance notBefore="1700">Two consecutive owners are named: <!-- Ge'ex text to be added --></provenance>
+                    <acquisition notAfter="1972">Acquired by the Wellcome Historical Medical Museum.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London', in Bulletin of the School of Oriental and African Studies. University of London, 35(1)</title>
+                                    <author>Stefan Strelcyn</author>
+                                    <date>1972</date>
+                                    <note>Pp. 27-55</note>
+                                    <note>Includes an extensive index-glossary and bibliography</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian manuscripts</title>
+                                    <author>Ekaterina Gusarova</author>
+                                    <date>2015</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <revisionDesc>
+        <change when="2022-03-28" who="#VS">Added data from the catalogue.</change>
+        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
