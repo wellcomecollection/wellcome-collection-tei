@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 01.03.22 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_6">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Ethiopian 6</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SS">
+                <resp when="1972">Cataloguer</resp>
+                <persName>Stefan Strelcyn</persName>
+            </respStmt>
+            <respStmt xml:id="KG">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Ekaterina Gusarova</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2022-03-01">Template</resp>
+                <resp when="2022">Provenance research</resp>
+                <resp when="2022-04-13">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">WMS Ethiopian 6</idno>
+            <idno type="catalogue">Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Ethiopian 6</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b23978132</idno>
+                    </altIdentifier>
+                    <altIdentifier type="accession">
+                        <idno>88614</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>18-19th century prayers of magical character</summary>
+                   
+                    <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                    
+                    <msItem n="1" xml:id="Wellcome_Ethiopian_6_1">
+                        <locus from="1" to="27">Lines 1-27 on recto</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer for binding devils by the virtue of the secret names pronounced by the king Alexander before Gog and Magog</title>
+                        
+                        <incipit><locus>Line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Wellcome_Ethiopian_6_2">
+                        <locus from="27" to="53">Lines 27-53 on recto</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer for binding Satan</title>
+                        
+                        <incipit><locus>Line 27</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Wellcome_Ethiopian_6_3">
+                        <locus from="53" to="108">Lines 53-108 on recto</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer for undoing charms</title>
+                        
+                        <incipit><locus>Line 53</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="4" xml:id="Wellcome_Ethiopian_6_4">
+                        <locus from="108" to="148">Lines 108-148 on recto</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer against vaginal haemorrhage and against spontaneous abortion</title>
+                        
+                        <incipit><locus></locus> <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="5" xml:id="Wellcome_Ethiopian_6_5">
+                        <locus from="1" to="21">Lines 1-21 on verso</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer against Barya and rheumatism</title>
+                        
+                        <incipit><locus>Line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                        <note>According to Strelcyn, barya are a people believed to serve the demon or spirit provoking epilepsy and therefore barya is identified with this disease (<ref>Strelcyn</ref>).</note>
+                    </msItem>
+                    
+                    <msItem n="6" xml:id="Wellcome_Ethiopian_6_6">
+                        <locus from="21" to="30">Lines 21-30 on verso</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer for expelling demons</title>
+                        
+                        <incipit><locus>Line 21</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="7" xml:id="Wellcome_Ethiopian_6_7">
+                        <locus from="30" to="62">Lines 30-62 on verso</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Prayer against Legewon by the virtue of the names of the nails of the Cross</title>
+                        
+                        <incipit><locus>30</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                        <note>According to Strelcyn, Legewon is a name for Satan, chief of the barya and one of the most frequently occurring devils in Ethiopic magical literature (<ref>Strelcyn</ref>).</note>
+                    </msItem>
+                    
+                    <msItem n="8" xml:id="Wellcome_Ethiopian_6_8">
+                        <locus from="62" to="91">Lines 62-91 on verso</locus>
+                        <author key="">Anonymous</author>
+                        <title key="">Salam to Phanuel, the expeller of devils</title>
+                        
+                        <incipit><locus>Line 62</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="roll">
+                       
+                        <supportDesc material="perg">                     
+                            <support>Vellum</support>
+                            
+                            <extent>Scroll composed of 2 strips. Traces of sewing indicates there was originally a third strip.
+                                <dimensions type="roll" unit="mm" >
+                                    <dim type="diameter">80</dim>
+                                    <dim type="length">1275</dim>
+                                </dimensions>
+                            </extent>
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            <layout writtenLines="239">239 lines in black and red ink; 148 on recto, 91 on verso.</layout>
+                            
+                            <layout columns="1">1 column
+                                <dimensions unit="mm"><dim type="diameter">74</dim></dimensions>
+                            </layout>
+                            
+                            <layout>No mistara visible</layout>                           
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">Rather tall, thin and careful handwriting</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote type="miniature"><locus>Before line 1 (recto)</locus>: an angel with a sword</decoNote>
+                        <decoNote type="miniature"><locus>After line 20 (recto)</locus>: a magical picture</decoNote>
+                        <decoNote type="miniature"><locus>After line 52 (recto)</locus>: a magical picture</decoNote>
+                        <decoNote type="miniature"><locus>After line 106 (recto)</locus>: "The captured demon"</decoNote>
+                        <decoNote type="miniature"><locus>After line 148 (recto)</locus>: a magical picture</decoNote>
+                        <decoNote type="miniature"><locus>Before line 1 (verso)</locus>: an angel with a sword</decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p>Preserved in a cylindrical leather container.</p>
+                    </additions>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Ethiopia</country>
+                        </origPlace>
+                        <origDate calendar="Gregorian" notBefore="1700" notAfter="1868">18-19th century</origDate>
+                    </origin>
+                    <provenance notAfter="1868">Two previous owners are named: <!-- Ge'ez text to be picked up in late-stage editing--> and <!-- Ge'ez text to be picked up in late-stage editing-->.</provenance>
+                    <provenance notBefore="1855" notAfter="1868">Part of the library of Tewodros II, Emperor of Ethiopian at Maqdala.</provenance>
+                    <provenance when="1868-04">Taken from Maqdala by the British armed forces following the British Expedition to Abyssinia in April 1868.</provenance>
+                    <acquisition when="1924-07-29">Purchased at auction by the Wellcome Historical Medical Museum at Stevens, 29 July 1924, lot 199.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London', in Bulletin of the School of Oriental and African Studies. University of London, 35(1)</title>
+                                    <author>Stefan Strelcyn</author>
+                                    <date>1972</date>
+                                    <note>Pp. 27-55</note>
+                                    <note>Includes an extensive index-glossary and bibliography</note>
+                                    <abbr>Strelcyn</abbr>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian manuscripts</title>
+                                    <author>Ekaterina Gusarova</author>
+                                    <date>2015</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2022-04-13" who="#VS">Added data from the catalogue.</change>
+        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
