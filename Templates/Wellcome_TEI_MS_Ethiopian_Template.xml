@@ -80,13 +80,12 @@
                     <msItem n="" xml:id="">
                         <locus from="" to=""><!-- Give the locations for the item, if available --></locus>
                         <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
-                        <title key=""><!-- Insert viaf code as attribute value, if available, and enter title here --></title>
+                        <title key="" type="desc"><!-- Insert viaf code as attribute value, if available, and enter title here --></title>
                         
-                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
-                            <!-- Use <note> to add general comment -->
+                        <incipit><locus></locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
                         </incipit>
                         
-                        <note><!-- insert --></note>
+                        <note><!-- insert general comments and definitions taken from Strelcyn --></note>
                         
                     </msItem>
                     
@@ -107,6 +106,8 @@
                                     <dim type="length"></dim>
                                     <!-- Add or delete dimensions as needed -->
                                 </dimensions>
+                                <note>The scroll would have been designed to be equal in length to the height of the person the scroll was composed for, in order that the entirety of the person was protected against demons 
+                                    and the return of evil spirits (<ref>Mercier</ref>)  <!-- Delete this note and the Mercier ref in the bibliography if the MS is not a scroll --></note>
                             </extent>
 
                             <condition>
@@ -180,6 +181,13 @@
                                     <author>Ekaterina Gusarova</author>
                                     <date>2015</date>
                                     <note>Unpublished catalogue</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian Magic Scrolls</title>
+                                    <author>Jacques Mercier</author>
+                                    <date>1979</date>
+                                    <pubPlace>New York</pubPlace>
+                                    <abbr>Mercier</abbr>
                                 </bibl>
                             </source>
                         </recordHist>
