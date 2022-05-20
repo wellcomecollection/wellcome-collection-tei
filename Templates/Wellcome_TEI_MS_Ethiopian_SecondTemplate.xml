@@ -80,12 +80,11 @@
                     <msItem n="" xml:id="">
                         <locus from="" to=""><!-- Give the locations for the item, if available --></locus>
                         <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
-                        <title key=""><!-- Insert viaf code as attribute value, if available, and enter title here --></title>
+                        <title key="" type="desc"><!-- Insert viaf code as attribute value, if available, and enter title here --></title>
                         
-                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
-                            <!-- Use <note> to add general comment -->
+                        <incipit><locus></locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
                         </incipit>
-                        
+
                         <note><!-- insert --></note>
                         
                     </msItem>
@@ -96,18 +95,27 @@
                 
                 <physDesc>
                     <!-- Insert and delete as needed -->
-                    <objectDesc form="roll">
+                    <objectDesc form="">
                        
                         <supportDesc material="perg">                     
                             <support>Vellum</support>
                             
                             <extent><!-- Insert details on extent -->
-                                <dimensions type="roll" unit="mm" ><!-- Add if available -->
+                                <dimensions type="" unit="mm" ><!-- Add if available -->
                                     <dim type="diameter"></dim>
                                     <dim type="length"></dim>
                                     <!-- Add or delete dimensions as needed -->
                                 </dimensions>
                             </extent>
+                            
+                            <foliation>
+                                 <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                            </foliation>
+                            
+                            <collation>
+                                <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                <signatures><!-- Use to record quire signatures, if available --></signatures>
+                            </collation>
 
                             <condition>
                                 <!-- Use to record any information about the condition of the manuscript, if known -->
@@ -121,12 +129,14 @@
                                 <!-- Add description or further elements - writtenLines often given as 'linn.' in catalogue -->                                        
                             </layout>
                             
-                            <layout columns="">
-                                <!-- Add number of columns -->
+                            <layout columns=""><!-- Add number of columns -->
+                                <dimensions unit="mm"><dim type="diameter">60</dim></dimensions>
+                                <dimensions unit="mm"><dim type="length">86</dim></dimensions>
+                                <!-- Add dimensions of columns -->
                             </layout>
                             
-                            <layout rulingMedium="">
-                                <!-- Add any information on ruling -->
+                            <layout>
+                                <!-- Add any information on ruling (mistara) -->
                             </layout>
                                                         
                         </layoutDesc> 
@@ -146,15 +156,18 @@
                         <p></p>
                     </additions>
                     
+                    <bindingDesc>
+                        <binding>
+                            <p><!-- Add any info on the binding, if applicable --></p>
+                        </binding>
+                    </bindingDesc>
+                    
                 </physDesc>
                 
                 <history>
                     <origin>
                         <origPlace>
-                            <country><!-- insert --></country>,
-                            <region><!-- insert --></region>,
-                            <settlement><!-- insert --></settlement>,
-                            <orgName><!-- insert --></orgName>
+                            <country>Ethiopia</country>,
                         </origPlace>
                         <origDate calendar=""><!-- insert --></origDate>
                         <!-- use additional origPlace and origDate elements if necessary -->
