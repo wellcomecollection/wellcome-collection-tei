@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<!-- Template updated 01.03.22 -->
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_12">
 
     <teiHeader>
@@ -23,7 +21,7 @@
             <respStmt xml:id="VS">
                 <resp when="2022-03-01">Template</resp>
                 <resp when="2022">Provenance research</resp>
-                <resp when="2022-04-13">TEI Encoder</resp>
+                <resp when="2022-05-20">TEI Encoder</resp>
                 <persName>Victoria Sloyan</persName>
             </respStmt>
         </titleStmt>
@@ -74,7 +72,7 @@
                     <msItem n="1" xml:id="Wellcome_Ethiopian_12_1">
                         <locus from="1" to="28">Lines 1-28</locus>
                         <author key="">Anonymous</author>
-                        <title key="">Prayer against malicious demons and evil spirits, pleurisy, malarial fever, chest pain, colic, migraine, rheumatism, blacksmiths - male and female, and diviners - male and female.</title>
+                        <title key="" type="desc">Prayer against malicious demons and evil spirits, pleurisy, malarial fever, chest pain, colic, migraine, rheumatism, blacksmiths - male and female, and diviners - male and female.</title>
                         
                         <incipit><locus>Line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
                         </incipit>
@@ -83,7 +81,7 @@
                     <msItem n="2" xml:id="Wellcome_Ethiopian_12_2">
                         <locus from="28" to="35">Lines 28-35</locus>
                         <author key="">Anonymous</author>
-                        <title key="">Prayers against migraine</title>
+                        <title key="" type="desc">Prayers against migraine</title>
                         
                         <incipit><locus>Line 28</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
                         </incipit>
@@ -92,7 +90,7 @@
                     <msItem n="3" xml:id="Wellcome_Ethiopian_12_3">
                         <locus from="35" to="41">Lines 35-41</locus>
                         <author key="">Anonymous</author>
-                        <title key="">Prayer against chest pain</title>
+                        <title key="" type="desc">Prayer against chest pain</title>
                         
                         <incipit><locus></locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
                         </incipit>
@@ -189,7 +187,7 @@
     </fileDesc>
     
         <revisionDesc>
-        <change when="2022-05-03" who="#VS">Added data from the catalogue.</change>
+        <change when="2022-05-20" who="#VS">Added data from the catalogue.</change>
         <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
         </revisionDesc>
 
