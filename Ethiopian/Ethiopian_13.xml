@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 01.03.22 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_13">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Ethiopian 13</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SS">
+                <resp when="1972">Cataloguer</resp>
+                <persName>Stefan Strelcyn</persName>
+            </respStmt>
+            <respStmt xml:id="KG">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Ekaterina Gusarova</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2022-03-01">Template</resp>
+                <resp when="2022">Provenance research</resp>
+                <resp when="2022-05-20">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">WMS Ethiopian 13</idno>
+            <idno type="catalogue">Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Ethiopian 13</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b2439077x</idno>
+                    </altIdentifier>
+                    <altIdentifier type="accession">
+                        <idno>36970</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>19th century prayers of magical character</summary>
+                   
+                    <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                    
+                    <msItem n="1" xml:id="Wellcome_Ethiopian_13_1">
+                        <locus from="1" to="2">Lines 1-2</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer against chest pain (second part)</title>
+                        
+                        <incipit><locus>Line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                        <note>Possibly a continuation of a prayer at the end of WMS Ethiopian 12.</note>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Wellcome_Ethiopian_13_2">
+                        <locus from="2" to="12">Lines 2-12</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer against colic</title>
+                        
+                        <incipit><locus>Line 2</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Wellcome_Ethiopian_13_3">
+                        <locus from="12" to="49">Lines 12-49</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer against malicious demons and evil eye of men and women, of Christians, Muslins, and Jews, of white and black people of Satan, devils and blacksmiths</title>
+                        
+                        <incipit><locus>Line 12</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="roll">
+                       
+                        <supportDesc material="perg">                     
+                            <support>Vellum</support>
+                            
+                            <extent>Scroll composed of 1 strip
+                                <dimensions type="roll" unit="mm" >
+                                    <dim type="diameter">117</dim>
+                                    <dim type="length">600</dim>
+                                </dimensions>
+                            </extent>
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="49">49 lines in black and red ink                                    
+                            </layout>
+                            
+                            <layout columns="1">1 column
+                                <dimensions unit="mm"><dim type="diameter">111</dim></dimensions>
+                            </layout>
+                            
+                            <layout>
+                                No mistara visible
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">Large, mediocre handwriting</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote type="miniature"><locus>Before line 1</locus>: an ornamental band with anthropomorphic motifs (human eyes) </decoNote>
+                        <decoNote type="miniature"><locus>After line 49</locus>: "the captured demon"</decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p>Preserved in a cylindrical leather case.</p>
+                    </additions>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Ethiopia</country>
+                        </origPlace>
+                        <origDate calendar="Gregorian" notBefore="1800" notAfter="1868">19th century</origDate>
+                    </origin>
+                    <provenance notAfter="1868">Three consecutive owners named as <!-- Ge'ez text to be picked up in late-stage editing-->.</provenance>
+                    <provenance notBefore="1855" notAfter="1868">Part of the library of Tewodros II, Emperor of Ethiopian at Maqdala.</provenance>
+                    <provenance when="1868-04">Taken from Maqdala during the British Expedition to Abyssinia in April 1868.</provenance>
+                    <acquisition when="1915-12-14">Purchased at auction by the Wellcome Historical Medical Museum at Stevens sale 12,725, 14 December 1915, lot 387. Accessioned on 20 December 1915, accession number 36970.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London', in Bulletin of the School of Oriental and African Studies. University of London, 35(1)</title>
+                                    <author>Stefan Strelcyn</author>
+                                    <date>1972</date>
+                                    <note>Pp. 27-55</note>
+                                    <note>Includes an extensive index-glossary and bibliography</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian manuscripts</title>
+                                    <author>Ekaterina Gusarova</author>
+                                    <date>2015</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+ 
+        <revisionDesc>
+        <change when="2022-05-20" who="#VS">Added data from the catalogue.</change>
+        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
