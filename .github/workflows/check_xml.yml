@@ -1,4 +1,4 @@
-name: "check XML"
+name: check_xml
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    name: Build the website
+    name: Check the XML
     runs-on: ubuntu-latest
     steps:
       - name: "Check out the repo"
