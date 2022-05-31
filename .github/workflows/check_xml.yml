@@ -3,10 +3,10 @@ name: check_xml
 on:
   push:
     branches:
-    - live
+    - main
   pull_request:
     branches:
-    - live
+    - main
 
 jobs:
   build:
