@@ -1,7 +1,15 @@
 #!/usr/bin/env python
+"""
+This script looks at every XML file in the repo, and checks whether it
+can be parsed as valid XML.
+
+This doesn't mean it can be parsed and used in the catalogue pipeline
+by the Digital Engagement team, but it's a useful first pass.
+"""
 
 import os
 import subprocess
+import sys
 from xml.etree import ElementTree as ET
 
 
@@ -43,3 +51,4 @@ if __name__ == '__main__':
         print(f"{GREEN}🎉 All files checked, no errors!{RESET}")
     else:
         print(f"{RED}⚠️ All files checked, {errors}{'s' if errors > 0 else ''} errors found!{RESET}")
+        sys.exit(1)
