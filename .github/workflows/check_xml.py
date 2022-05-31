@@ -54,5 +54,5 @@ if __name__ == '__main__':
     if errors == 0:
         print(f"{GREEN}🎉 All files checked, no errors!{RESET}")
     else:
-        print(f"{RED}⚠️ All files checked, {errors}{'s' if errors > 0 else ''} errors found!{RESET}")
+        print(f"{RED}⚠️ All files checked, {errors} error{'s' if errors > 0 else ''} found!{RESET}")
         sys.exit(1)
