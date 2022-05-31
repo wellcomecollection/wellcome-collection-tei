@@ -34,11 +34,11 @@ if __name__ == '__main__':
 
     errors = 0
 
-    for path in get_file_paths_under(root, suffix='.xml'):
+    for path in sorted(get_file_paths_under(root, suffix='.xml')):
 
         # We don't parse the contents of the Templates directory as XML;
         # it's meant for humans to read, not computers
-        if path.startswith('Templates/'):
+        if os.path.relpath(path, start=root).startswith('Templates/'):
             continue
 
         try:
