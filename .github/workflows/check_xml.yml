@@ -1,0 +1,17 @@
+name: check_xml
+
+on:
+  push:
+    branches:
+    - live
+  pull_request:
+    branches:
+    - live
+
+jobs:
+  build:
+    name: Check the XML
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Check out the repo"
+        uses: actions/checkout@v2
