@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 25.5.21 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Tamil_36">
+    <!-- Give xml:id in the  format  'Tamil_[MS number]' -the file name should be identical -->
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title><!-- Give title in the format 'Tamil [ms number]  --></title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="SG">
+                    <resp when="1990">Cataloguer</resp>
+                    <persName>S. Gunasingam</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-05-25">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="MM">
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Miten Mistry</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Tamil 36</idno>
+                <idno type="catalogue">Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Tamil 36</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b32724664</idno>
+                        </altIdentifier>
+                        
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Contains two different texts, Cin&#x0113;ntira-m&#x0101;lai mukavuraiccurukkatn and details on 
+                            astrology and medical science.</summary>
+                        
+                       
+                        
+                        <msItem n="1" xml:id="Tamil_36_1">
+                            <locus from="22" to="22">Folio 22</locus>
+                            <author key="">Up&#x0113;ntir&#x0101;ciriyar</author>
+                            <title key="">Cin&#x0113;ntira-m&#x0101;lai mukavuraiccurukkatn (introductory
+                                rules of Cin&#x0113;ntira-m&#x0101;lai)</title>
+                            
+                       
+                            
+                          
+                            <textLang mainLang="ta" source="IANA">Tamil</textLang>
+                            <textLang otherLangs="gran" source="IANA">Grantha</textLang>
+                            
+                            
+                            <note>
+                                <p>Interspersed with Grantha characters\ and very badly damaged.</p>
+                               <p>Cin&#x0113;tira-m&#x0101;lai, a treatise on astrology</p>
+                                written by Up&#x0113;ntir&#x0101;ciriyar. 
+                               <p>The text lists various sections (k&#x0101;&#x1E47;&#x1E6D;am) of the work.</p></note>
+                            
+                        </msItem>
+                        
+                        <msItem n="2" xml:id="Tamil_36_2">
+                            
+                            
+                            <locus from="39" to="39">Folio 39</locus>
+                            
+                                                                              
+                              <textLang mainLang="gran" source="IANA">Grantha</textLang>
+                            <textLang otherLangs="ta" source="IANA">Tamil</textLang>
+                            
+                            <note>Written in Grantha, interspersed with Tamil characters; it
+                                contains details on astrology, as well as on medical science.</note>
+                            
+                        </msItem>
+                        
+                        
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                      
+                        <objectDesc form="other">
+                            
+                            <supportDesc material="palm">
+                                
+                                <support>Palm leaf.
+                                    
+                                </support>
+                                <extent>
+                                    <dimensions unit="mm" >
+                                        <dim type="diameter">38</dim>
+                                        <dim type="length">316</dim>
+                                        
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <p>61 folios</p>
+                                </foliation>
+                                
+                                
+                                
+                                <condition>
+                                   <p>Folio 22 very badly damaged</p>
+                                    <p>Inscribed on both sides</p>
+                                </condition>
+                                
+                            </supportDesc>
+                            
+                            
+                            
+                        </objectDesc>
+                        
+                       
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            
+                            <origDate>Undated</origDate>
+                            
+                        </origin>
+                        
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine' in Journal of the Royal Asiatic Society, volume 2.</title>
+                                        <author>S. Gunasingam</author>
+                                        <date>1990</date>
+                                        <note>Pp. 359-369</note>
+                                    </bibl>
+                                    
+                                </source>
+                            </recordHist>
+                            <availability status="unknown"><p></p>
+                            </availability> 
+                        </adminInfo>
+                       
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        
+        
+        <revisionDesc>
+            <change when="2022-06-01">Added data from catalogue</change>
+            <change when="2021-05-25" who="#AP">Created template for Wellcome Tamil MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
