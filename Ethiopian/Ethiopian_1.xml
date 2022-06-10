@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<!-- Template updated 01.03.22 -->
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_1">
-    <!-- Give xml:id in the  format  'Ethiopian_[MS number]' -the file name should be identical -->
 
     <teiHeader>
     
@@ -71,32 +68,27 @@
                     <msItem n="1" xml:id="Wellcome_Ethiopian_1_1">
                         <locus from="1" to="16">Line 1-16</locus>
                         <author key="">Anonymous</author>
-                        <title key="">Prayers against vaginal haemorrhage</title>
+                        <title key="" type="desc">Prayers against vaginal haemorrhage</title>
                         
-                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
-                            <!-- Use <note> to add general comment -->
+                        <incipit><locus>Line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing--> 
                         </incipit>
-                        <note><!-- insert --></note>
                     </msItem>
                         
                     <msItem n="2" xml:id="Wellcome_Ethiopian_1_2">
                         <locus from="17" to="37">Line 17-37</locus>
                         <author key="">Anonymous</author>
-                        <title key="">Prayer against vaginal haemorrhage, "The drowner of devils"</title>
+                        <title key="" type="desc">Prayer against vaginal haemorrhage, "The drowner of devils"</title>
                         
-                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
-                            <!-- Use <note> to add general comment -->
+                        <incipit><locus>Line 17</locus>: <!-- Ge'ez text to be picked up in late-stage editing--> 
                         </incipit>
-                        <note><!-- insert --></note> 
                     </msItem>
       
                     <msItem n="3" xml:id="Wellcome_Ethiopian_1_3">
                         <locus from="38" to="86">Line 38-86</locus>
                         <author key="">Anonymous</author>
-                        <title key="">Prayers against vaginal haemorrhage, barya and legewon</title>
+                        <title key="" type="desc">Prayers against vaginal haemorrhage, barya and legewon</title>
                         
-                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
-                            <!-- Use <note> to add general comment -->
+                        <incipit><locus>Line 38</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
                         </incipit>
                         <note>According to Strelcyn Barya are a people believed to serve the demon or spirit provoking epilepsy and therefore barya is identified with this disease. Legewon is a name for Satan, chief of the barya and one of the
                         most frequently occurring devils in Ethiopic magical literature (<ref>Strelcyn</ref>)</note>      
@@ -105,26 +97,23 @@
                     <msItem n="4" xml:id="Wellcome_Ethiopian_1_4">
                         <locus from="87" to="124">Line 87-124</locus>
                         <author key="">Anonymous</author>
-                        <title key="">Prayers given by God to Eve against vaginal haemorrhage</title>
+                        <title key="" type="desc">Prayers given by God to Eve against vaginal haemorrhage</title>
                         
-                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
-                            <!-- Use <note> to add general comment -->
+                        <incipit><locus>Line 87</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
                         </incipit> 
                     </msItem>                        
                     
                     <msItem n="5" xml:id="Wellcome_Ethiopian_1_5">
                         <locus from="124" to="158">Line 124-158</locus>
                         <author key="">Anonymous</author>
-                        <title key="">Salam to Phanuel, the expeller of devils</title>
+                        <title key="" type="desc">Salam to Phanuel, the expeller of devils</title>
                         
-                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
-                            <!-- Use <note> to add general comment -->
+                        <incipit><locus>Line 124</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
                         </incipit>   
                     </msItem>
                 </msContents>
                 
                 <physDesc>
-                    <!-- Insert and delete as needed -->
                     <objectDesc form="roll">
                        
                         <supportDesc material="perg">                     
@@ -135,6 +124,7 @@
                                     <dim type="diameter">1255</dim>
                                     <dim type="length">120</dim>
                                 </dimensions>
+                                <note>The scroll length would have been designed to be equal to the height of the person it was written for.</note>
                             </extent>
 
                             <condition>
@@ -167,10 +157,6 @@
                         <decoNote>Miniatures are made in colour. There were originally three but the first one was cut off.</decoNote>
                     </decoDesc>
                     
-                    <additions>
-                        <p></p>
-                    </additions>
-                    
                 </physDesc>
                 
                 <history>
@@ -197,6 +183,12 @@
                                     <note>Pp. 27-55</note>
                                     <abbr>Strelcyn</abbr>
                                     <note>Includes an extensive index-glossary and bibliography</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian manuscripts</title>
+                                    <author>Ekaterina Gusarova</author>
+                                    <date>2015</date>
+                                    <note>Unpublished catalogue</note>
                                 </bibl>
                             </source>
                         </recordHist>
