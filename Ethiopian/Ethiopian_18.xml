@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_18">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Ethiopian 18</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RK">
+                <resp when="2005">Cataloguer</resp>
+                <persName>R. Kidane</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2022-03-01">Template</resp>
+                <resp when="2022">Provenance research</resp>
+                <resp when="2022-06-10">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">WMS Ethiopian 18</idno>
+            <idno type="catalogue">Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Ethiopain 18</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b24724464</idno>
+                    </altIdentifier>
+                    <altIdentifier type="ordernumber">
+                        <idno>o1001293x</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>19th century prayers of megical character</summary>
+                   
+                    <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                    
+                    <msItem n="1" xml:id="Wellcome_Ethiopian_18_1">
+                        <locus from="1" to="33">Lines 1-33</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">“The drowner of devils”</title>
+                        
+                        <incipit><locus>Line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                        <note></note>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Wellcome_Ethiopian_18_2">
+                        <locus from="33" to="59">Lines </locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer against the evil eye</title>
+                        
+                        <incipit><locus>Line 33</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                        <note></note>
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Wellcome_Ethiopian_18_3">
+                        <locus from="59" to="110">Lines </locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer for protecting suckling infants and their mothers with the legend of St. Susenyos and the witch Warzelya</title>
+                        
+                        <incipit><locus>Line 59</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                        <note></note>
+                    </msItem>
+                    
+                    <msItem n="4" xml:id="Wellcome_Ethiopian_18_4">
+                        <locus from="110" to="197">Lines </locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer for the salvation of the flesh</title>
+                        
+                        <incipit><locus>Line 110</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                        <note></note>
+                    </msItem>
+                    
+                    <msItem n="5" xml:id="Wellcome_Ethiopian_18_5">
+                        <locus from="197" to="226">Lines </locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer for obstructing devils</title>
+                        
+                        <incipit><locus>Line 197</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                        <note></note>
+                    </msItem>
+
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="roll">
+                       
+                        <supportDesc material="perg">                     
+                            <support>Vellum</support>
+                            
+                            <extent>Scroll composed of three strips sewn together.
+                                <dimensions type="roll" unit="mm" >
+                                    <dim type="diameter">1655</dim>
+                                    <dim type="length">113</dim>
+                                </dimensions>
+                                <note>The scroll length would have been designed to be equal to the height of the person it was written for.</note>
+                            </extent>
+
+                            <condition>
+                                The end of the scroll is missing.
+                            </condition>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="226">226 lines in black and red ink. The five headings and the Trinitarian formuulae are written in red ink with the remainder of the text in black ink.</layout>
+                            
+                            <layout columns="1">1 column
+                                <dimensions unit="mm"><dim type="diameter">94</dim></dimensions>
+                            </layout>
+                            
+                            <layout>Partially visible mistara.</layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">Written in a good, clear hand.</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote type="miniature"><locus>Before line 1</locus>: angel with a sword.</decoNote>
+                        <decoNote type="miniature"><locus>After line 91</locus>: schematic representation of four Evangelists.</decoNote>
+                        <decoNote type="miniature">The last illustration comprises a talismanic magical drawing sadur; asadur; danat; adura and roduso.</decoNote>
+                        <decoNote>The three magical drawings above are in red, yellow and green pigments. Several black and white drawings are present in the text.</decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p>Stored in a modern box.</p>
+                    </additions>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Ethiopia</country>,
+                        </origPlace>
+                        <origDate calendar="Gregorian">Thought to be 19th century.</origDate>
+                    </origin>
+                    <provenance notAfter="1972">Previous owner of the scroll was Walata Giyorgis.</provenance>
+                    <acquisition>Purchased by Wellcome Library from Smitskamp Oriental Antiquarium in <date when="2000-05">May 2000</date></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London</title>
+                                    <author>R. Kidane</author>
+                                    <date>c.2005</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian manuscripts</title>
+                                    <author>Ekaterina Gusarova</author>
+                                    <date>2015</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+   
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+            <change when="2022-06-10" who="#VS">Added data from the catalogue.</change>
+        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>

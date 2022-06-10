@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 01.03.22 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_16">
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Ethiopian 16</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SS">
+                <resp when="1972">Cataloguer</resp>
+                <persName>Stefan Strelcyn</persName>
+            </respStmt>
+            <respStmt xml:id="KG">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Ekaterina Gusarova</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2022-03-01">Template</resp>
+                <resp when="2022">Provenance research</resp>
+                <resp when="2022-05-03">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">WMS Ethiopian 16</idno>
+            <idno type="catalogue">Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Ethiopian 16</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b24723769</idno>
+                    </altIdentifier>
+                    <altIdentifier type="accession">
+                        <idno>86622</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>19th century prayers of magical character</summary>
+                   
+                    <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                    
+                    <msItem n="1" xml:id="Wellcome_Ethiopian_16_1">
+                        <locus from="1" to="88">Lines 1-88</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">“Solomon’s net”, a prayer for catching demons</title>
+                        
+                        <incipit><locus>Line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Wellcome_Ethiopian_16_2">
+                        <locus from="88" to="146">Lines </locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer against blacksmiths, devils, Barya and Legewon</title>
+                        
+                        <incipit><locus>Line 88</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                        <note>According to Strelcyn, barya are a people believed to serve the demon or spirit provoking epilepsy and therefore barya is identified with this disease. Legewon is a name for Satan, chief of the barya and 
+                            one of the most frequently occurring devils in Ethiopic magical literature (<ref>Strelcyn</ref>).</note>
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Wellcome_Ethiopian_16_3">
+                        <locus from="146" to="189">Lines </locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer against devils</title>
+                        
+                        <incipit><locus>Line 146</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="4" xml:id="Wellcome_Ethiopian_16_4">
+                        <locus from="190" to="260">Lines 190-260</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer against the designs of devils</title>
+                        
+                        <incipit><locus>Lin 190</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="5" xml:id="Wellcome_Ethiopian_16_5">
+                        <locus from="261" to="282">Lines </locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer against blacksmiths</title>
+                        
+                        <incipit><locus>Line 261</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="6" xml:id="Wellcome_Ethiopian_16_6">
+                        <locus from="283" to="292">Lines </locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Beginning of a prayer against devils, black Barya, Dask others</title>
+                        
+                        <incipit><locus>Line 283</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                        <note>According to Strelcyn, barya are a people believed to serve the demon or spirit provoking epilepsy and therefore barya is identified with this disease. Dask is the name of a devil (<ref>Strelcyn</ref>).</note>
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="roll">
+                       
+                        <supportDesc material="perg">                     
+                            <support>Vellum</support>
+                            
+                            <extent>Scroll composed of 3 strips, though traces of sewing indicate there was originally a fourth strip.
+                                <dimensions type="roll" unit="mm" >
+                                    <dim type="diameter">95</dim>
+                                    <dim type="length">2265</dim>
+                                </dimensions>
+                                <note>The scroll length would have been designed to be equal to the height of the person it was written for.</note>
+                            </extent>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="292">292 lines in black and red ink                                     
+                            </layout>
+                            
+                            <layout columns="1">1 column
+                                <dimensions unit="mm"><dim type="diameter">87</dim></dimensions>
+                            </layout>
+                            
+                            <layout>No mistara visible
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">Mediocre handwriting</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote type="miniature"><locus>Before line 1</locus>: two human figures between ornamental bands above and below</decoNote>
+                        <decoNote type="miniature"><locus>After line 104</locus>: four human heads (of Angels or Apostles)</decoNote>
+                        <decoNote type="miniature"><locus>After line 213</locus>: human figure on the left framed by ornamental bands</decoNote>
+                        <decoNote type="miniature"><locus>After line 292</locus>: an ornamental band</decoNote>
+                    </decoDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Ethiopia</country>
+                        </origPlace>
+                        <origDate calendar="Gregorian" notBefore="1800" notAfter="1868">19th century</origDate>
+                    </origin>
+                    <provenance notAfter="1931">The name of the first owner has been erased and replaced by <!-- Ge'ez text to be picked up in late-stage editing-->.</provenance>
+                    <acquisition when="1931-02-21">Purchased at auction by the Wellcome Historical Medical Museum at Hodgson's, 20 February 1931, part of lot 918. Accessioned on in January 1937, accession number 86622.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London', in Bulletin of the School of Oriental and African Studies. University of London, 35(1)</title>
+                                    <author>Stefan Strelcyn</author>
+                                    <date>1972</date>
+                                    <note>Pp. 27-55</note>
+                                    <note>Includes an extensive index-glossary and bibliography</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian manuscripts</title>
+                                    <author>Ekaterina Gusarova</author>
+                                    <date>2015</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+   
+        <revisionDesc>
+        <change when="2022-05-04" who="#VS">Added data from the catalogue.</change>
+        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
