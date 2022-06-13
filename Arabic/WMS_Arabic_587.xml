@@ -23,9 +23,6 @@
             <repository>Wellcome Collection</repository>
             <collection> Manuscripts in Arabic</collection>
             <idno>MS Arabic 587</idno>
-            <altIdentifier type="former">
-               <idno>WMS. Or. 566</idno>
-           </altIdentifier>
           </msIdentifier>
 
           <msContents>
@@ -34,12 +31,12 @@
             <msItem xml:id="WMS_Arabic_587-item1">
               <locus facs="#i0003 #i0074"/>
 
-              <author key="">
-                <persName xml:lang="ar-Latn-x-lc" type="standard">Shihāb al-Dīn Aḥmad al-Bayrūtī</persName>
-                <persName xml:lang="ar" facs="#i0002" type="original">شهاب الدين احمد البيروتي</persName>
+              <author key="person_f6384">
+                <persName xml:lang="ar-Latn-x-lc">Shihāb al-Dīn Aḥmad al-Bayrūtī</persName>
+                <persName xml:lang="ar" facs="#i0002">شهاب الدين احمد البيروتي</persName>
               </author>
-              <title xml:lang="ar-Latn-x-lc" type="standard">Kitāb sharḥ al-nuzhah </title>
-              <title facs="#i0002" xml:lang="ar" type="original"> كتاب شرح النزهة <locus>f.1r.1</locus>
+              <title xml:lang="ar-Latn-x-lc" key="work_21300">Kitāb sharḥ al-nuzhah </title>
+              <title facs="#i0002" xml:lang="ar" key="work_21300"> كتاب شرح النزهة <locus>f.1r.1</locus>
               </title>
               <incipit type="basmala" facs="#i0003" xml:lang="ar">
                 <locus>f.1v.1</locus> بسم الله الرحمن الرحيم وبه ںسٿعٹں </incipit>
@@ -128,11 +125,11 @@
               Note of ownership: محمد ٹحٹٹ الاسلامبولى  <locus>f. 1v</locus></provenance>
             <provenance facs="#i0002">
               Note of ownership: تملكه الفقير الى الله تعالى محمد يحيى
-              الاسلامبولى <persName xml:lang="ar-Latn-x-lc" role="fmo" key="">Muḥammad Yaḥyá al-Islāmbūlī</persName>
+              الاسلامبولى <persName xml:lang="ar-Latn-x-lc" role="fmo" key="person_f6385">Muḥammad Yaḥyá al-Islāmbūlī</persName>
               <locus>f. 1v</locus></provenance>
             <provenance facs="#i0002">
               Note of ownership: صاحب هذه <sic/> الكتاب سٹد حسن مصطفى حلبي
-                <persName xml:lang="ar-Latn-x-lc" role="fmo" key="">Ḥasan Muṣṭafá Ḥalabī</persName>
+              <persName xml:lang="ar-Latn-x-lc" role="fmo" key="person_f638">Ḥasan Muṣṭafá Ḥalabī</persName>
               <gap reason="omitted"/> ١٠١٩   <locus>f. 1r</locus></provenance>
           </history>
         </msDesc>
@@ -162,9 +159,6 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2021-04-28">
-            <persName>Mark El Khuri</persName>Added altIdentifer tag
-         </change>
       <change when="2020" who="Rosie Maxton"/>
       <change when="2011-06-05T11:56:38+03:00"> Committed to SVN. To view the changes in detail use
         SVN diff. SVN

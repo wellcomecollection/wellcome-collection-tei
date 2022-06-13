@@ -45,8 +45,7 @@
                         <title type="other" xml:lang="ar" facs="#i0004" key="work_9958">هذا الكتاب
                            كامل الصناعت الطبية في حد الجراحة وذكر الاخلاط للرئيس ابن</title>
                         <note>A treatise on the humours, human skeleton and various treatments,
-                           ascribed to <persName xml:lang="en" key="person_89770781"
-                              >Avicenna</persName>. However, the work is much later since syphilis
+                           ascribed to <persName xml:lang="en" key="person_89770781" role="att" change="#role-assignment">Avicenna</persName>. However, the work is much later since syphilis
                            is mentioned (fol. 31a.14).</note>
                         <incipit type="basmala" facs="#i0005">
                            <locus>Fol.1b.1</locus> بسم الله الرحمان الرحيم</incipit>
@@ -333,9 +332,9 @@
                            وصلي اللّه علي سيدنا محمد وعلي اله وصحبه اجمعين والحمد للّه رب
                            العالمين</quote>
                      </origin>
-                     <provenance facs="#i0004">1. Library of the Shaykh Yūsuf Tūmā al-Bustānī, Fajāla
+                     <provenance facs="#i0004">1. Library of the <persName key="person_2803852" role="fmo" change="#prov-markup">Shaykh Yūsuf Tūmā al-Bustānī</persName>, Fajāla
                         Street, Cairo.</provenance>
-                     <provenance>2. Sāmī Ibrāhīm Ḥaddād (1986).</provenance>
+                     <provenance>2. <persName key="person_64218974" role="fmo" change="#prov-markup">Sāmī Ibrāhīm Ḥaddād</persName> (1986).</provenance>
                      <acquisition>Sotheby's lot 510 (22/21.11.85)</acquisition>
                   </history>
                   <additional>
@@ -377,6 +376,12 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
          <change when="2019"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">
             <persName>Andrew Morrison</persName> Updated key attributes using <ref

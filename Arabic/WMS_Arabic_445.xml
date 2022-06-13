@@ -33,7 +33,6 @@
                   <msContents class="#commentary">
                      <summary>1 copy of Sharḥ mūjiz al-qanūn by Nafīs ibn ʻIwaḍ, d. ca.
                         1449</summary>
-
                      <msItem xml:id="WMS_Arabic_445-part1-item1" defective="false"
                         class="sh85083064">
                         <author key="person_53995534">
@@ -42,17 +41,13 @@
                            <persName xml:lang="ar" type="original">نفيس بن عوض</persName>
                         </author>
 
-                        <title type="normalised" xml:lang="ar-Latn-x-lc" key="work_9791">Sharḥ mūjiz
+                        <title type="normalised" xml:lang="ar-Latn-x-lc" key="work_21150" change="#ids-cleanup">Sharḥ mūjiz
                            al-qanūn</title>
-                        <title xml:lang="ar" key="work_9791">شرح موجز القانون</title>
+                        <title xml:lang="ar" key="work_21150" change="#ids-cleanup">شرح موجز القانون</title>
 
-                        <note>A commentary on <title xml:lang="ar-Latn-x-lc" key="work_3529"
-                              >al-Mūjiz</title> by <persName xml:lang="ar-Latn-x-lc"
-                              key="person_17316331">Ibn al-Nafīs, ʻAlī ibn Abī
-                              al-Ḥazm</persName>, which in turn is an abridgement of <title
-                              xml:lang="ar-Latn-x-lc" key="work_3001"> al-Qānūn fī al-ṭibb</title>
-                           by <persName xml:lang="ar-Latn-x-lc" key="person_89770781"
-                              >Avicenna</persName>.</note>
+                        <note>A commentary on <title xml:lang="ar-Latn-x-lc" key="work_2635" change="#ids-cleanup">al-Mūjiz</title> by <persName xml:lang="ar-Latn-x-lc" key="person_17316331" role="ant" change="#role-assignment">Ibn al-Nafīs, ʻAlī ibn Abī
+                              al-Ḥazm</persName>, which in turn is an abridgement of <title xml:lang="ar-Latn-x-lc" key="work_1009" change="#ids-cleanup"> al-Qānūn fī al-ṭibb</title>
+                           by <persName xml:lang="ar-Latn-x-lc" key="person_89770781" role="ant" change="#role-assignment">Avicenna</persName>.</note>
 
                         <note>A. Dietrich (Dietrich <hi rend="italic">Medicinalia</hi> no. 35)
                            quotes a variant form of the colophon: لنا كانت ليالٍ بالعراقسرقناهنّ من
@@ -1848,7 +1843,7 @@
                      <provenance facs="#i0010">Fol. 1a Anonymous (name erased);</provenance>
                      <provenance facs="#i0010">Fol. 1a. 2. Anonymous 1227 AH / 1812 AD (name
                         erased);</provenance>
-                     <provenance>Sāmī Ibrāhīm Ḥaddād (1986).</provenance>
+                     <provenance><persName key="person_64218974" role="fmo" change="#prov-markup">Sāmī Ibrāhīm Ḥaddād</persName> (1986).</provenance>
                      <acquisition>Sotheby's lot 501 (22/21.11.85)</acquisition>
                   </history>
                   <additional>
@@ -1890,6 +1885,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
          <change when="2018"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">
             <persName>Andrew Morrison</persName> Updated key attributes using <ref

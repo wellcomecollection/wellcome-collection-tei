@@ -22,12 +22,6 @@
                   <repository>Wellcome Collection</repository>
                   <collection> Manuscripts in Arabic</collection>
                   <idno>MS Arabic 171</idno>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 171 (Iskandar)</idno>
-                  </altIdentifier>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 171</idno>
-                  </altIdentifier>
                </msIdentifier>
 
                <msPart xml:id="WMS_Arabic_171-part1">
@@ -43,21 +37,20 @@
                      <msItem xml:id="WMS_Arabic_171-part1-item1" defective="false">
                         <locus facs="#i0002">fol.2a.7</locus>
                         <author key="person_f5273">
-                           <persName xml:lang="ar-Latn-x-lc" type="standard">Muḥammad Yūsuf b. ʿAbd
+                           <persName xml:lang="ar-Latn-x-lc">Muḥammad Yūsuf b. ʿAbd
                               al-Laṭīf</persName>
-                           <persName xml:lang="ar" facs="#i0015" type="original">محمد يوسف بن عبد اللطيف</persName>
+                           <persName xml:lang="ar" facs="#i0015">محمد يوسف بن عبد اللطيف</persName>
                            <addName type="laqab" facs="#i0015">الطبيب</addName>
                         </author>
 
-                        <title xml:lang="ar-Latn-x-lc" key="work_9955" type="standard">Sharḥ al-risālah
+                        <title xml:lang="ar-Latn-x-lc" key="work_9955">Sharḥ al-risālah
                            al-qabrīyah</title>
-                        <title xml:lang="ar" key="work_9955" type="original">شرح الرسالة القبرية</title>
+                        <title xml:lang="ar" key="work_9955">شرح الرسالة القبرية</title>
                         <title type="alt" xml:lang="ar-Latn-x-lc">al-Ṣādiqīyah</title>
                         <title type="alt" xml:lang="ar" facs="#i0002"
                               >الصادقية<locus>fol.2a.7</locus></title>
 
-                        <note>A commentary on the Tomb Treatise of <persName xml:lang="en"
-                              key="person_287984736">Hippocrates</persName>.</note>
+                        <note>A commentary on the Tomb Treatise of <persName xml:lang="en" key="person_287984736" role="ant" change="#role-assignment">Hippocrates</persName>.</note>
 
 
                         <msItem xml:id="WMS_Arabic_171-part1-item1-item1" n="toc">
@@ -315,9 +308,9 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-27">
-            <persName>Mark El Khuri</persName>Added altIdentifer tag
-         </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
          <change when="2018-11-08"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">
             <persName>Andrew Morrison</persName> Updated key attributes using <ref

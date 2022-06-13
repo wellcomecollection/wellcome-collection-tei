@@ -27,14 +27,14 @@
 
           <msContents><summary>Fragments of Avicenna's al-Qānūn fī al-ṭibb</summary>
             <msItem xml:id="WMS_Arabic_473-item1">
-              <author key="person_97166546">
+              <author key="person_89770781" change="#ids-cleanup">
                 <persName xml:lang="en">Avicenna, 980-1037</persName>
                 <persName xml:lang="ar" type="original">ابو على الحسين ابن عبد الله ابن
                   سينا</persName>
               </author>
 
-              <title xml:lang="ar-Latn-x-lc" key="work_3001">Kitāb al-Qānūn fī al-ṭibb</title>
-              <title type="original" facs="#i0001" xml:lang="ar" key="work_3001"> كتاب القانون في
+              <title xml:lang="ar-Latn-x-lc" key="work_1009" change="#ids-cleanup">Kitāb al-Qānūn fī al-ṭibb</title>
+              <title type="original" facs="#i0001" xml:lang="ar" key="work_1009" change="#ids-cleanup"> كتاب القانون في
                 الطبّ </title>
 
               <incipit type="beginning" facs="#i0002" xml:lang="ar">
@@ -101,7 +101,7 @@
               <origDate calendar="#Gregorian" type="approxDate" notBefore="1400">15th century</origDate>
             
             </origin>
-            <provenance>Known owners: Sāmī Ibrāhīm Ḥaddād (1986).</provenance>
+            <provenance>Known owners: <persName key="person_64218974" role="fmo" change="#prov-markup">Sāmī Ibrāhīm Ḥaddād</persName> (1986).</provenance>
             <acquisition>Sotheby's lot 523 (22/21.11.85)</acquisition>
           </history>
           <additional>
@@ -143,6 +143,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2011-04-01T16:21:31+01:00"> Conversion from WMSmaster to WAMCP
           <persName>gbrey</persName>

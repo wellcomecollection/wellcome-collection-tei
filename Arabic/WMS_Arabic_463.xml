@@ -30,9 +30,9 @@
             al-Sayqalī </summary>
             <msItem xml:id="WMS_Arabic_463-item1">
               <author key="person_f6229">
-                <persName xml:lang="ar-Latn-x-lc" type="standard">Qazaḥīyā b. Bashārah
+                <persName xml:lang="ar-Latn-x-lc" type="standard" role="scr" change="#role-assignment">Qazaḥīyā b. Bashārah
                   al-Sayqalī, d. 1931 </persName>
-                <persName xml:lang="ar" type="original">قزحيا بن بشارة السيقلي</persName>
+                <persName xml:lang="ar" type="original" role="scr" change="#role-assignment">قزحيا بن بشارة السيقلي</persName>
               </author>
 
               <title type="normalised" xml:lang="ar-Latn-x-lc" key="work_11427">Mukhtārāt min kutub
@@ -1221,7 +1221,7 @@
               <handNote script="naskh" scope="major">
                 <p><label>Script:</label> Naskh with elements of ruqʿah</p>
                <p><label>Scribe:</label> 
-               <persName xml:lang="ar" role="scr" key="">
+               <persName xml:lang="ar" role="scr" key="person_f6229" change="#ids-cleanup">
                  قزاحيا بن بشاره السيقلي (<foreign xml:lang="ar-Latn-x-lc">Qazaḥīyā b. Bashārah
                    al-Sayqalī</foreign>)
                </persName>
@@ -1267,13 +1267,13 @@
             
             </origin>
             <provenance>MS was copied in the village of Mi'a wa-Mi'a.</provenance>
-            <provenance>Qazaḥīyā b. Bashārah
-              al-Sayqalī (d. 1931)</provenance>
-            <provenance>Mūsá Jabbūr Ḥannā Mūsā (d. 1965)</provenance>
-            <provenance>Ḥabīb Ṣādir (Ḥaddād/Biesterfeld p. 149)</provenance>
-            <provenance>Sāmī Ibrāhīm Ḥaddād (1986)</provenance>
-            <provenance>exlibris: Ḥannā Mūsá Jabbūr</provenance>
-            <acquisition><p>The book was sold in 1965 for 30 Lebanese pounds (Ḥaddād/Biesterfeld p.
+            <provenance><persName key="person_f6229" role="fmo" change="#prov-markup">Qazaḥīyā b. Bashārah
+              al-Sayqalī (d. 1931)</persName></provenance>
+            <provenance><persName key="person_f6805" role="fmo" change="#prov-markup">Mūsá Jabbūr Ḥannā Mūsā (d. 1965)</persName></provenance>
+            <provenance><persName key="person_f6724" role="fmo" change="#prov-markup">Ḥabīb Ṣādir</persName> (<persName key="person_234449006" role="cataloguer" change="#prov-markup">Ḥaddād</persName>/<persName key="person_309566536" role="cataloguer" change="#prov-markup">Biesterfeld</persName> p. 149)</provenance>
+            <provenance><persName key="person_64218974" role="fmo" change="#prov-markup">Sāmī Ibrāhīm Ḥaddād</persName> (1986)</provenance>
+            <provenance>exlibris: <persName key="person_f6726" role="fmo" change="#prov-markup">Ḥannā Mūsá Jabbūr</persName></provenance>
+            <acquisition><p>The book was sold in 1965 for 30 Lebanese pounds (<persName key="person_234449006" role="cataloguer" change="#prov-markup">Ḥaddād</persName>/<persName key="person_309566536" role="cataloguer" change="#prov-markup">Biesterfeld</persName> p.
               149).</p>
               <p>Sotheby's lot 519 (22/21.11.85)</p>
             </acquisition>
@@ -1314,6 +1314,15 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2011-04-01T16:21:27+01:00"> Conversion from WMSmaster to WAMCP
           <persName>gbrey</persName>

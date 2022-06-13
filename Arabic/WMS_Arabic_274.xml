@@ -22,9 +22,6 @@
                   <repository>Wellcome Collection</repository>
                   <collection> Manuscripts in Arabic</collection>
                   <idno>MS Arabic 274</idno>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 253</idno>
-                  </altIdentifier>
                </msIdentifier>
 
                <msPart xml:id="WMS_Arabic_274-part1">
@@ -39,9 +36,9 @@
                      <msItem xml:id="WMS_Arabic_274-part1-item1" defective="true" n="1">
                         <locus facs="#i0002 #i0019">Fol.1b to Fol.19a</locus>
                         <author key="person_f407">
-                           <persName xml:lang="en">Anonymous</persName>
+                           <persName type="standard" xml:lang="en">Anonymous</persName>
                         </author>
-                        <title xml:lang="en" key="work_9889">No title</title>
+                        <title type="normalised" xml:lang="en" key="work_21154" change="#ids-cleanup">No title</title>
 
                         <incipit type="basmala" facs="#i0002">
                            <locus>fol.1a.1</locus> بسم الله الرحمن الرحيم</incipit>
@@ -62,21 +59,19 @@
                      <msItem xml:id="WMS_Arabic_274-part1-item2" n="2">
                         <locus facs="#i0021 #i0055">Fol.20b to Fol.53a</locus>
                         <author key="person_66326321">
-                           <persName xml:lang="ar-Latn-x-lc" type="standard">Ṣafatī, Yūsuf ibn Saʻīd,‏ ‎d.
+                           <persName xml:lang="ar-Latn-x-lc">Ṣafatī, Yūsuf ibn Saʻīd,‏ ‎d.
                               active 18th century‏</persName>
-                           <persName xml:lang="ar" facs="#i0021" type="original">يوسف بن الشيخ سعيد الصفتي
+                           <persName xml:lang="ar" facs="#i0021">يوسف بن الشيخ سعيد الصفتي
                               المالكي</persName>
                         </author>
 
-                        <title type="standard" xml:lang="ar-Latn-x-lc" key="work_9959">Kalimāt
+                        <title type="normalised" xml:lang="ar-Latn-x-lc" key="work_9959">Kalimāt
                            ʻalá Sharḥ Ibn Turkī ʻalá al-ʻAshmāwīyah</title>
                         <title type="original" facs="#i0021" key="work_9959" xml:lang="ar">كلمات على
                            شرح العلامة بن تركي على العشماوية <locus>Fol.20b.8</locus>
                         </title>
-                        <note>al-Ṣafatī's commentary on the commentary by <persName
-                              key="person_46619376" xml:lang="ar-Latn-x-lc">Aḥmad ibn
-                              Turkī</persName> on the work of <persName key="person_46609286"
-                              xml:lang="ar-Latn-x-lc">ʻAshmāwī</persName>.</note>
+                        <note>al-Ṣafatī's commentary on the commentary by <persName key="person_46619376" xml:lang="ar-Latn-x-lc" role="ant" change="#role-assignment">Aḥmad ibn
+                              Turkī</persName> on the work of <persName key="person_298774194" xml:lang="ar-Latn-x-lc" role="ant" change="#role-assignment #ids-cleanup">ʻAshmāwī</persName>.</note>
 
 
 
@@ -138,9 +133,12 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-28">
-            <persName>Mark El Khuri</persName>Added altIdentifer tag
-         </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
          <change when="2019"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">
             <persName>Andrew Morrison</persName> Updated key attributes using <ref

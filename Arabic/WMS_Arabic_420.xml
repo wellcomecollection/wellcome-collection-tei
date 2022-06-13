@@ -33,19 +33,20 @@
                   <msContents>
                      <summary>1 copy of al-Ṣafwah by Ibn Abī al-Khayr, Abū Naṣr Saʻīd
                         al-Masīḥī</summary>
-
                      <msItem xml:id="WMS_Arabic_420-part1-item1" defective="false"
                         class="sh85083064">
 
 
 
-                        <author key="person_f1376">
-                           <persName xml:lang="ar-Latn-x-lc" type="standard">Ibn Abī al-Khayr, Abū Naṣr Saʻīd
+                        <author key="person_45156495284817561048" change="#ids-cleanup">
+                           <persName xml:lang="ar-Latn-x-lc">Ibn Abī al-Khayr, Abū Naṣr Saʻīd
                               al-Masīḥī, d. 1193</persName>
-                           <persName xml:lang="ar" facs="#i0005" type="original">ابن أبي خير أبو نصر ساعد
-                           </persName>
-                              </author>
-                        <title type="original" key="work_9953">الصفوة <locus facs="#i0005">02b.1</locus>
+                           <persName xml:lang="ar" facs="#i0005">ابن أبي خير أبو نصر ساعد
+                              المسيحي</persName>
+                        </author>
+                        <title xml:lang="ar-Latn-x-lc" key="work_9953">al-Ṣafwah</title>
+                        <title type="original" key="work_9953">الصفوة <locus facs="#i0005"
+                              >02b.1</locus>
                         </title>
                         <note>A compendium of medicine.</note>
                         <incipit facs="#i0005">
@@ -2106,9 +2107,8 @@
                               من كتاب الصفوه فى المراهم</title>
                         </msItem>
                         <textLang mainLang="ar">Arabic</textLang>
-                              
-                   </msItem>
-                </msContents>
+                     </msItem>
+                  </msContents>
                   <physDesc>
                      <objectDesc form="codex">
                         <supportDesc material="chart">
@@ -2227,7 +2227,7 @@
                            انه القس بن سعيد المتطب الموصلى غفر اللّه تعالى له ولوالده ولجميع من قرا
                            ودعا له بالعفو والمغفره ودلك بمدينه بغداد حرسها اللّه تعالى</quote>
                      </origin>
-                     <provenance facs="#i0149">Known owners: Sāmī Ibrāhīm Ḥaddād
+                     <provenance facs="#i0149">Known owners: <persName key="person_64218974" role="fmo" change="#prov-markup">Sāmī Ibrāhīm Ḥaddād</persName>
                         (1986).</provenance>
                      <acquisition>Sotheby's lot 477 (22/21.11.85)</acquisition>
                   </history>
@@ -2270,6 +2270,12 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
          <change when="2018"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">
             <persName>Andrew Morrison</persName> Updated key attributes using <ref

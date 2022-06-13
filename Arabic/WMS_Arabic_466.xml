@@ -30,13 +30,13 @@
             <summary>1 copy of Kitāb al-tashwīq al-ṭibbī by Sāʻid ibn al-Ḥasan</summary>
             <msItem xml:id="WMS_Arabic_466-item1">
               <author key="person_41732155">
-                <persName xml:lang="ar-Latn-x-lc" type="standard">Sāʻid ibn al-Ḥasan,‏ ‎d. active 11th
+                <persName xml:lang="ar-Latn-x-lc">Sāʻid ibn al-Ḥasan,‏ ‎d. active 11th
                   century‏</persName>
-                <persName xml:lang="ar" type="original">ابو العلاء صعيد بن الحسن</persName>
+                <persName xml:lang="ar">ابو العلاء صعيد بن الحسن</persName>
               </author>
 
-              <title xml:lang="ar-Latn-x-lc" key="work_11429" type="standard">Kitāb al-tashwīq al-ṭibbī</title>
-              <title facs="#i0002" xml:lang="ar" key="work_11429" type="original"> كتاب التشويق الطبي </title>
+              <title xml:lang="ar-Latn-x-lc" key="work_11429">Kitāb al-tashwīq al-ṭibbī</title>
+              <title facs="#i0002" xml:lang="ar" key="work_11429"> كتاب التشويق الطبي </title>
               <note>Thirteen chapters in which the professional conduct of a medical practitioner is
                 discussed. Cf. MS Arabic 403, 477.</note>
               <incipit type="basmala" facs="#i0002" xml:lang="ar">
@@ -165,7 +165,7 @@
               <list>
                 <item facs="#i0002">The text is written at an angle sloping to the right.</item>
                 <item facs="#i0002">Fol. 1b.: A reference to the author Sāʻid ibn al-Ḥasan as
-                  found in the MS copy of <persName xml:lang="ar-Latn-x-lc" key="person_272709554">Ibn Abī Uṣaybiʻah</persName> (vol. 1., p. 126) and the date of the
+                  found in the MS copy of <persName xml:lang="ar-Latn-x-lc" key="person_272709554" role="oth" change="#role-assignment">Ibn Abī Uṣaybiʻah</persName> (vol. 1., p. 126) and the date of the
                   composition of the work is Rajab 464 AH / July 1072 AD.</item>
                 <item facs="#i0013">Fols. 13 - 16 are blank.</item>
               </list>
@@ -176,7 +176,7 @@
               <origDate calendar="#Gregorian" type="approxDate" notBefore="1700">18th century</origDate>
             
             </origin>
-            <provenance>Known owners: Sāmī Ibrāhīm Ḥaddād (1986); See also the owners mentioned in
+            <provenance>Known owners: <persName key="person_64218974" role="fmo" change="#prov-markup">Sāmī Ibrāhīm Ḥaddād</persName> (1986); See also the owners mentioned in
               MS Arabic 403.</provenance>
             <acquisition>Sotheby's lot 522 (22/21.11.85)</acquisition>
           </history>
@@ -211,6 +211,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2011-04-01T16:21:28+01:00"> Conversion from WMSmaster to WAMCP
           <persName>gbrey</persName>

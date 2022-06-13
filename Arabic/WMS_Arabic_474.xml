@@ -37,8 +37,7 @@
               <title type="original" facs="#i0002" key="work_2385" xml:lang="ar"> مجمع المنافع
                 البدنية <locus>2a.19</locus>
               </title>
-              <note>A fragment of a medical compendium, falsely ascribed to <persName
-                  key="person_90075818" xml:lang="ar-Latn-x-lc">Dawūd al-Anṭākī</persName>, cf. MS
+              <note>A fragment of a medical compendium, falsely ascribed to <persName key="person_90075818" xml:lang="ar-Latn-x-lc" role="att" change="#role-assignment">Dawūd al-Anṭākī</persName>, cf. MS
                 Arabic 478. </note>
               <incipit type="basmala" facs="#i0002" xml:lang="ar">
                 <locus>Fol. 1b.1</locus> بسم الله الرحمن الرحيم وصلي الله على سيدنا محمد وعلى اله
@@ -320,7 +319,7 @@
               <origDate calendar="#Gregorian" type="approxDate" notBefore="1700">18th
                 century</origDate>
             </origin>
-            <provenance>Known owners: Sāmī Ibrāhīm Ḥaddād (1986).</provenance>
+            <provenance>Known owners: <persName key="person_64218974" role="fmo" change="#prov-markup">Sāmī Ibrāhīm Ḥaddād</persName> (1986).</provenance>
             <acquisition>Sotheby's lot 523 (22/21.11.85)</acquisition>
           </history>
           <additional>
@@ -359,6 +358,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2011-04-01T16:21:32+01:00"> Conversion from WMSmaster to WAMCP
           <persName>gbrey</persName>

@@ -34,11 +34,11 @@
                   
                      <msItem xml:id="WMS_Arabic_413-part1-item1" defective="false" class="sh85083064">
                         <author key="person_89770781">
-                           <persName xml:lang="en" type="original">Avicenna,‏ ‎d.  980-1037‏</persName>
-                           <persName xml:lang="ar" type="standard">ابن سينا، ابو علي الحسين‏</persName>
+                           <persName xml:lang="en">Avicenna,‏ ‎d.  980-1037‏</persName>
+                           <persName xml:lang="ar">ابن سينا، ابو علي الحسين‏</persName>
                            
                         </author>
-                        <title xml:lang="ar-Latn-x-lc" key="work_5819" type="standard">Dafʻ al-maḍārr al-kullīyah lil-abdān al-insānīyah</title>
+                        <title xml:lang="ar-Latn-x-lc" key="work_5819">Dafʻ al-maḍārr al-kullīyah lil-abdān al-insānīyah</title>
                         <title type="original" key="work_5819" xml:lang="ar">دفع المضار الكلية عن الابدان الانسانية <locus>1b.12</locus>
                         </title>
                         <title type="other" facs="#i0003" xml:lang="ar">تدارك الخطاء</title>
@@ -545,7 +545,7 @@
                      <origin change="#fix-dates">
                         <origDate notBefore="1500" notAfter="1600" calendar="#Gregorian" type="approxDate">16th century</origDate>
                      </origin>
-                     <provenance>Known owners: Sāmī Ibrāhīm Ḥaddād (1986).</provenance>
+                     <provenance>Known owners: <persName key="person_64218974" role="fmo" change="#prov-markup">Sāmī Ibrāhīm Ḥaddād</persName> (1986).</provenance>
                      <acquisition>Sotheby's lot 470 (22/21.11.85)</acquisition>
                   </history>
                   <additional>
@@ -579,6 +579,9 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
          <change when="2018"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">
             <persName>Andrew Morrison</persName> Updated key attributes using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/conversion_scripts/update-keys.xsl">update-keys.xsl</ref>

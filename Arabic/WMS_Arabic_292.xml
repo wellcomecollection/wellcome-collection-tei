@@ -22,9 +22,6 @@
                   <repository>Wellcome Collection</repository>
                   <collection> Manuscripts in Arabic</collection>
                   <idno>MS Arabic 292</idno>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 271</idno>
-                  </altIdentifier>
                </msIdentifier>
 
                <msPart xml:id="WMS_Arabic_292-part1">
@@ -50,8 +47,7 @@
                            حررتها اثنآء المذاكرة على الحاشية اللآرية في الحكمة
                               <locus>fol.1b.4</locus>
                         </title>
-                        <note>Glosses to <title xml:lang="ar-Latn-x-lc">Ḥāshiyah ʻalá sharḥ al-hidāyah</title> by <persName
-                           xml:lang="ar-Latn-x-lc" key="person_9700904">Muṣliḥ al-Dīn al-Lārī, Muḥammad ibn
+                        <note>Glosses to <title xml:lang="ar-Latn-x-lc">Ḥāshiyah ʻalá sharḥ al-hidāyah</title> by <persName xml:lang="ar-Latn-x-lc" key="person_9700904" role="ant" change="#role-assignment">Muṣliḥ al-Dīn al-Lārī, Muḥammad ibn
                               Ṣalāḥ, d. 1571 or 2</persName>.</note>
 
 
@@ -186,7 +182,7 @@
                            ولوالديه واحسن اليها ولجميع المؤمنين والمؤمنات والحمد لله رب
                            العالمين</quote>
                      </origin>
-                     <provenance facs="#i0003">Owned by Muḥammad Sayīd ʿAbd al-Raḥīm Zādah.</provenance>
+                     <provenance facs="#i0003">Owned by <persName key="person_f6785" role="fmo" change="#prov-markup">Muḥammad Sayīd ʿAbd al-Raḥīm Zādah</persName>.</provenance>
                   </history>
                </msPart>
             </msDesc>
@@ -216,9 +212,12 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-28">
-            <persName>Mark El Khuri</persName>Added altIdentifer tag
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
          </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
          <change when="2019"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">
             <persName>Andrew Morrison</persName> Updated key attributes using <ref

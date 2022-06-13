@@ -21,12 +21,6 @@
                   <repository>Wellcome Collection</repository>
                   <collection> Manuscripts in Arabic</collection>
                   <idno>MS Arabic 24</idno>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 24 (Iskandar)</idno>
-                  </altIdentifier>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 24</idno>
-                  </altIdentifier>
                </msIdentifier>
 
 
@@ -44,16 +38,15 @@
                         <locus>Fol.1a to Fol.21b</locus>
 
                         <author key="person_79444240">
-                           <persName xml:lang="ar-Latn-x-lc" type="standard">Ḥalabī, Ṣāliḥ Naṣr Allāh ibn
+                           <persName xml:lang="ar-Latn-x-lc">Ḥalabī, Ṣāliḥ Naṣr Allāh ibn
                               Sallūm</persName>
-                           <persName xml:lang="ar" type="original">صالح نصر الله بن سلوم الحلبي</persName>
+                           <persName xml:lang="ar">صالح نصر الله بن سلوم الحلبي</persName>
                         </author>
-                        <title xml:lang="ar-Latn-x-lc" key="work_1056" type="standard">Kitāb al-ṭibb al-jadīd
+                        <title xml:lang="ar-Latn-x-lc" key="work_1056">Kitāb al-ṭibb al-jadīd
                            al-kīmīyāʼī alladhī ikhtara᾽ahu Barākilsūs</title>
-                        <title xml:lang="ar" key="work_1056" type="original">كتاب الطب الجديد الكيميائي الذي اخترعه
+                        <title xml:lang="ar" key="work_1056">كتاب الطب الجديد الكيميائي الذي اخترعه
                            براكلسوس</title>
-                        <note>New chemical medicine invented by <persName xml:lang="en"
-                              key="person_12313247">Paracelcus</persName>.</note>
+                        <note>New chemical medicine invented by <persName xml:lang="en" key="person_12313247" role="ant" change="#role-assignment">Paracelcus</persName>.</note>
                         <incipit type="basmala" facs="#i0006">
                            <locus>fol.1b.1</locus> بسم الله الرحمن الرحيم</incipit>
                         <incipit facs="#i0006">
@@ -225,15 +218,16 @@
                      </msItem>
                      <msItem xml:id="WMS_Arabic_24-part1-item2" defective="false" n="2">
                         <locus>Fol.21b to Fol.41a</locus>
-                        <author key="person_88064235">
-                           <persName xml:lang="en" type="standard"> Croll, Oswald,‏ ‎d.  approximately 1560-1609‏</persName>
-                           <persName xml:lang="ar" facs="#i0026" type="original">قروليوس</persName>
+                        <author key="person_22267241" change="#ids-cleanup">
+                           <persName xml:lang="en"> Croll, Oswald,‏ ‎d.  approximately 1560-1609‏</persName>
+                           <persName xml:lang="ar" facs="#i0026">قروليوس</persName>
                           
                         </author>
                         <title type="original" facs="#i0026" key="work_9924">الكيمياء الملكية
                               <locus>Fol.21b.5</locus>
                         </title>
-                        <title type="standard" facs="#i0026" xml:lang="lat" key="work_9924">Basilica Chymica</title>
+                        <title type="other" facs="#i0026" xml:lang="lat" key="work_9924"
+                           >Basilica Chymica</title>
                        
                        
                         <title type="normalised" xml:lang="ara-Latn" key="work_9924">Royal
@@ -497,9 +491,12 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-27">
-            <persName>Mark El Khuri</persName>Added altIdentifer tag
-         </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
          <change when="2018-10-29">
             <persName>Rosie Maxton</persName>
          </change>

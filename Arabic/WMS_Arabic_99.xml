@@ -22,12 +22,6 @@
                   <repository>Wellcome Collection</repository>
                   <collection> Manuscripts in Arabic</collection>
                   <idno>MS Arabic 99</idno>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 99 (Iskandar)</idno>
-                  </altIdentifier>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 99</idno>
-                  </altIdentifier>
                </msIdentifier>
               
               
@@ -42,11 +36,11 @@
                      <msItem xml:id="WMS_Arabic_99-part1-item1">
                         <locus>Fol.1a</locus>
                         <author key="person_24571510">
-                           <persName xml:lang="en" type="standard">Hermes,‏ ‎Trismegistus</persName>
-                           <persName xml:lang="ar" facs="#i0003" type="original">هرمس الحكيم</persName>
+                           <persName xml:lang="en">Hermes,‏ ‎Trismegistus</persName>
+                           <persName xml:lang="ar" facs="#i0003">هرمس الحكيم</persName>
                         </author>
-                        <title  xml:lang="ar-Latn-x-lc" key="work_9951" type="standard">Kitāb Hirmis al-Hakīm</title>
-                        <title  facs="#i0002" key="work_9951" xml:lang="ar" type="original">كتاب هرمس الحكيم <locus>Fol.1a</locus>
+                        <title  xml:lang="ar-Latn-x-lc" key="work_9951">Kitāb Hirmis al-Hakīm</title>
+                        <title  facs="#i0002" key="work_9951" xml:lang="ar">كتاب هرمس الحكيم <locus>Fol.1a</locus>
                         </title>
                        
                         
@@ -282,9 +276,6 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-27">
-            <persName>Mark El Khuri</persName>Added altIdentifer tag
-         </change>
          <change when="2018-11-01"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">
             <persName>Andrew Morrison</persName> Updated key attributes using <ref target="https://github.com/bodleian/fihrist-mss/tree/master/processing/conversion_scripts/update-keys.xsl">update-keys.xsl</ref>

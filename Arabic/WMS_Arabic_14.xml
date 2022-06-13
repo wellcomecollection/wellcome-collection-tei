@@ -23,9 +23,6 @@
             <collection> Manuscripts in Arabic</collection>
             <idno>MS Arabic 14</idno>
             <altIdentifier type="former">
-              <idno>WMS. Or. 14a (Iskandar)</idno>
-            </altIdentifier>
-            <altIdentifier type="former">
               <idno>WMS. Or. 14a</idno>
             </altIdentifier>
           </msIdentifier>
@@ -33,12 +30,12 @@
          <msContents><summary>1 copy of al-Aʿḍāʾ al-ālimah by Galen</summary>
               <msItem xml:id="WMS_Arabic_14-item1">
                 <author key="person_44299175">
-                  <persName xml:lang="en" type="standard">Galen</persName>
-                  <persName xml:lang="ar" type="original">جالينوس</persName>
+                  <persName xml:lang="en">Galen</persName>
+                  <persName xml:lang="ar">جالينوس</persName>
                 </author>
                
-                <title xml:lang="ar-Latn-x-lc" type="standard" key="work_11457">al-Aʿḍāʾ al-ālimah</title>
-                <title xml:lang="ar" type="original" key="work_11457">الاعضاء الآلمة</title>
+                <title xml:lang="ar-Latn-x-lc" key="work_11457">al-Aʿḍāʾ al-ālimah</title>
+                <title xml:lang="ar" key="work_11457">الاعضاء الآلمة</title>
                 <note> A list of diseases and their descriptions.</note>
                
               
@@ -291,7 +288,7 @@ out) الهدي وهلال كل نشر الشهر بدر الظلام شمس
                   <p><label>Script:</label> Naskh</p>
                   <p><label>Ink:</label> Brown</p>
                   <p><label>Scribe:</label>
-                    <persName xml:lang="ar" role="scr" key="">ابو نصر عبد السلام بن ابي منصور الاسرائيلي
+                    <persName xml:lang="ar" role="scr" key="person_f6317">ابو نصر عبد السلام بن ابي منصور الاسرائيلي
                     (<foreign xml:lang="ar-Latn-x-lc">Abū Naṣr ʿAbd al-Salām b. Abī Manṣūr
                       al-Isrāʾilī
                     </foreign>)
@@ -376,17 +373,17 @@ out) الهدي وهلال كل نشر الشهر بدر الظلام شمس
                 <origDate calendar="#Gregorian" type="approxDate" notBefore="1300">14th century CE</origDate>
                
               </origin>
-              <provenance>Known owners and readers: <p>ʿAlī b. Ḥamza al-Mutaṭabbib
+              <provenance>Known owners and readers: <p><persName key="person_f6871" role="fmo" change="#prov-markup">ʿAlī b. Ḥamza al-Mutaṭabbib</persName>
                 (fol. 1a); </p>
-              <p>  Muḥammad Karīm [...] (AH 21 Ramaḍān 1269 /
+              <p>  <persName key="person_f6800" role="fmo" change="#prov-markup">Muḥammad Karīm [...]</persName> (AH 21 Ramaḍān 1269 /
                 AD 28 June 1853 fol. 2a); </p>
                <p> Anonymous (fol. 2a); </p>
-               <p> Isḥaq ʿAlī
-                Kāfī b. Abī al-ʿIzz al-Isrāʾilī al-Mawsūsī
+               <p> <persName key="person_f6732" role="fmo" change="#prov-markup">Isḥaq ʿAlī
+                Kāfī b. Abī al-ʿIzz al-Isrāʾilī al-Mawsūsī</persName>
                 (fol. 2a.); </p>
-               <p> ʿAlā al-Dīn b. Walī al-Dīn Awbalī
-                (?) al-Mutaṭabbib (fol. 2a); </p>
-               <p> Shamʿūn b. Yaḥyá (fol.
+               <p> <persName key="person_f6869" role="fmo" change="#prov-markup">ʿAlā al-Dīn b. Walī al-Dīn Awbalī
+                (?) al-Mutaṭabbib</persName> (fol. 2a); </p>
+               <p> <persName key="person_f6841" role="fmo" change="#prov-markup">Shamʿūn b. Yaḥyá</persName> (fol.
                 177a).</p>
               </provenance>
               <acquisition><hi rend="bold">Wellcome Library accession number: 30970</hi></acquisition>
@@ -414,9 +411,9 @@ out) الهدي وهلال كل نشر الشهر بدر الظلام شمس
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022"> <persName>Lara Salha</persName> AltIdentifiers added in</change>
-      <change when="2021-05-06">AltIdentifier tag updated<persName>Mark El Khuri</persName></change>
-      <change when="2021">AltIdentifier added in<persName>Lara Salha</persName></change>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2011-03-31T17:57:03+01:00">
         Conversion from WMSmaster to WAMCP

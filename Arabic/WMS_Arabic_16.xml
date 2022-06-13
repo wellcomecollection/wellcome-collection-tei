@@ -23,9 +23,6 @@
             <collection> Manuscripts in Arabic</collection>
             <idno>MS Arabic 16</idno>
             <altIdentifier type="former">
-              <idno>WMS. Or. 16 (Iskandar)</idno>
-            </altIdentifier>
-            <altIdentifier type="former">
               <idno>WMS. Or. 16</idno>
             </altIdentifier>
           </msIdentifier>
@@ -34,12 +31,12 @@
               <msItem xml:id="WMS_Arabic_16-item1" n="1">
                 <locus from="1b" to="69b">ff. 1b-69b</locus>
                 <author key="person_89770781">
-                  <persName xml:lang="en" type="standard">Avicenna,‏ ‎d.  980-1037‏ </persName>
-                  <persName xml:lang="ar" type="original"> ابن سينا، ابو علي الحسين‏</persName>
+                  <persName xml:lang="en">Avicenna,‏ ‎d.  980-1037‏ </persName>
+                  <persName xml:lang="ar"> ابن سينا، ابو علي الحسين‏</persName>
                 </author>
                
-                <title xml:lang="ar-Latn-x-lc" type="standard" key="work_3001">Kitāb al-Qānūn fī al-ṭibb</title>
-                <title xml:lang="ar" type="original" key="work_3001">كتاب القانون في الطبّ</title>
+                <title xml:lang="ar-Latn-x-lc" key="work_1009" change="#ids-cleanup">Kitāb al-Qānūn fī al-ṭibb</title>
+                <title xml:lang="ar" key="work_1009" change="#ids-cleanup">كتاب القانون في الطبّ</title>
               
                 <note>
                   The first book of Avicenna's <hi rend="italic">Canon</hi>. 
@@ -65,12 +62,12 @@
               <msItem xml:id="WMS_Arabic_16-item2" n="2">
                 <locus from="70a" to="131a">ff. 70a-131a</locus>
                 <author key="person_89770781">
-                  <persName xml:lang="en" type="standard">Avicenna,‏ ‎d.  980-1037‏ </persName>
-                  <persName xml:lang="ar" type="original"> ابن سينا، ابو علي الحسين‏</persName>
+                  <persName xml:lang="en">Avicenna,‏ ‎d.  980-1037‏ </persName>
+                  <persName xml:lang="ar"> ابن سينا، ابو علي الحسين‏</persName>
                 </author>
                
-                <title xml:lang="ar-Latn-x-lc" key="work_3001" type="standard">Kitāb al-Qānūn fī al-ṭibb</title>
-                <title xml:lang="ar" key="work_3001" type="original">كتاب القانون في الطبّ</title>
+                <title xml:lang="ar-Latn-x-lc" key="work_1009" change="#ids-cleanup">Kitāb al-Qānūn fī al-ṭibb</title>
+                <title xml:lang="ar" key="work_1009" change="#ids-cleanup">كتاب القانون في الطبّ</title>
               
                 <note>
                  The second book of Avicenna's <hi rend="italic">Canon</hi>.
@@ -94,12 +91,12 @@
               <msItem xml:id="WMS_Arabic_16-item3" n="3">
                 <locus from="131a" to="314b">ff. 131a-314b</locus>
                 <author key="person_89770781">
-                  <persName xml:lang="en" type="standard">Avicenna,‏ ‎d.  980-1037‏ </persName>
-                  <persName xml:lang="ar" type="original"> ابن سينا، ابو علي الحسين‏</persName>
+                  <persName xml:lang="en">Avicenna,‏ ‎d.  980-1037‏ </persName>
+                  <persName xml:lang="ar"> ابن سينا، ابو علي الحسين‏</persName>
                 </author>
                 
-                <title xml:lang="ar-Latn-x-lc" key="work_3001" type="standard">Kitāb al-Qānūn fī al-ṭibb</title>
-                <title xml:lang="ar" key="work_3001" type="original">كتاب القانون في الطبّ</title>
+                <title xml:lang="ar-Latn-x-lc" key="work_1009" change="#ids-cleanup">Kitāb al-Qānūn fī al-ṭibb</title>
+                <title xml:lang="ar" key="work_1009" change="#ids-cleanup">كتاب القانون في الطبّ</title>
                
                 <note>
                  The third book of Avicenna's <hi rend="italic">Canon</hi>.
@@ -162,7 +159,7 @@
                   <p><label>Script:</label> Naskh</p>
                   <p><label>Ink:</label> Black, red headings </p>
                 <p><label>Scribe:</label> 
-                  <persName xml:lang="ar" role="scr" key=""> احمد بن ابراهيم التبريزي
+                  <persName xml:lang="ar" role="scr" key="person_f6318"> احمد بن ابراهيم التبريزي
                     (<foreign xml:lang="ar-Latn-x-lc"> Aḥmad b. Ibrāhīm al-Tabrīzī</foreign>)
                 </persName>
                 </p>
@@ -223,9 +220,7 @@
                   h. Two red stamps
                   (erased).
                   <lb />
-                 
                   <lb />
-                 
                   <lb />
                   Fols 3 - 4, 6a, 7a, 57a, 61b, 67b, 77b, 89b, 99b,
                   103a, 106b, 107a, 115b, 118a, 123b, 132b - 134b, 140a, 142b, 152b,
@@ -257,12 +252,10 @@
               
               </origin>
               <provenance>
-                Known owners and readers: [Everardus] Schedius (1769)
-               <p> Khalīl b. al-Muttaqī bi-Allāh al-ʿAlāʾī</p>
-              <p>  Ayman al-Anātulī </p>              <p>Khalīl b. al-Sanadī Badr al-Dīn.</p>
-                
+                Known owners and readers: <persName key="person_17993253" role="fmo" change="#prov-markup">[Everardus] Schedius</persName> (1769)
+               <p> <persName key="person_f6742" role="fmo" change="#prov-markup">Khalīl b. al-Muttaqī bi-Allāh al-ʿAlāʾī</persName></p>
+              <p>  <persName key="person_f6677" role="fmo" change="#prov-markup">Ayman al-Anātulī</persName> </p>              <p><persName key="person_f6743" role="fmo" change="#prov-markup">Khalīl b. al-Sanadī Badr al-Dīn</persName>.</p>
                
-           
               </provenance>
               <acquisition>Welcome Library Accession Number: 41582</acquisition>
             </history>
@@ -289,8 +282,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022"> <persName>Lara Salha</persName>Title edits made for standard and original</change>
-      <change when="2021">AltIdentifier added in<persName>Lara Salha</persName>.</change>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2011-03-31T17:57:03+01:00">
         Conversion from WMSmaster to WAMCP
@@ -1282,4 +1279,3 @@
     </body>
   </text>
 </TEI>
-

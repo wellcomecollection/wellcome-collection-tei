@@ -34,11 +34,11 @@
             <msItem xml:id="WMS_Arabic_379-item1" n="1" class="#commentary">
               <locus facs="#i0003 #i0055" from="1b" to="50b">ff. 1b.-50b.</locus>
               <author key="person_90039514">
-                <persName xml:lang="ar-Latn-x-lc" type="standard">Mirightī, Muḥammad ibn Saʻīd d.1598 or 1599-1678
+                <persName xml:lang="ar-Latn-x-lc">Mirightī, Muḥammad ibn Saʻīd d.1598 or 1599-1678
                   or 1679</persName>
-                <persName xml:lang="ar" facs="#i0003" type="original">مرغتي، محمد بن سعيد</persName>
+                <persName xml:lang="ar" facs="#i0003">مرغتي، محمد بن سعيد</persName>
               </author>
-              <title xml:lang="ar-Latn-x-lc" key="work_6458" type="standard">Sharḥ al-muqniʿ</title>
+              <title xml:lang="ar-Latn-x-lc" key="work_6458">Sharḥ al-muqniʿ</title>
               <title type="original" facs="#i0003" key="work_6458"> شرح المقنع</title>
               <note>The authorʼs commentary on his own <title xml:lang="ar-Latn-x-lc">al-Muqniʻ fī
                   ʻilm Abī Muqriʻ</title>.</note>
@@ -69,13 +69,13 @@
             <msItem xml:id="WMS_Arabic_379-item2" n="2">
               <locus facs="#i0055 #i0058" from="50b" to="53b">ff. 50b.-53b.</locus>
               <author key="person_90039514">
-                <persName xml:lang="ar-Latn-x-lc" type="standard">Mirightī, Muḥammad ibn Saʻīd d.1598 or 1599-1678
+                <persName xml:lang="ar-Latn-x-lc">Mirightī, Muḥammad ibn Saʻīd d.1598 or 1599-1678
                   or 1679</persName>
-                <persName xml:lang="ar" facs="#i0055" type="original">مرغتي، محمد بن سعيد</persName>
+                <persName xml:lang="ar" facs="#i0055">مرغتي، محمد بن سعيد</persName>
               </author>
 
-              <title xml:lang="ar-Latn-x-lc" key="work_11401" type="standard">al-Muqniʻ fī ʻilm Abī Muqriʻ</title>
-              <title type="original" facs="#i0058" key="work_11401" xml:lang="ar"> المقنع فى علم ابي مقرع </title>
+              <title xml:lang="ar-Latn-x-lc" key="work_6458" change="#ids-cleanup">al-Muqniʻ fī ʻilm Abī Muqriʻ</title>
+              <title type="original" facs="#i0058" key="work_6458" xml:lang="ar" change="#ids-cleanup"> المقنع فى علم ابي مقرع </title>
 
               <note>An urjūzah (poetical composition) on chronometry, or the science of time
                 measurement.</note>
@@ -240,6 +240,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2011-05-16T13:51:39+03:00"> Committed to SVN. To view the changes in detail use
         SVN diff. SVN

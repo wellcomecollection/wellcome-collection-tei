@@ -31,10 +31,10 @@
               other anonymous works on medicine.</summary>
             <msItem xml:id="WMS_Arabic_418-item1" n="1">
               <author key="person_93768036">
-                <persName xml:lang="ar-Latn-x-lc" type="standard">Ibn Jazlah, Yaḥyá ibn ʻĪsá, d. 1100</persName>
-                <persName xml:lang="ar" type="original">ابو على يحيى ابن عيسى ابن جزلة</persName>
+                <persName xml:lang="ar-Latn-x-lc">Ibn Jazlah, Yaḥyá ibn ʻĪsá, d. 1100</persName>
+                <persName xml:lang="ar">ابو على يحيى ابن عيسى ابن جزلة</persName>
               </author>
-              <title xml:lang="ar-Latn-x-lc" key="work_3445" type="standard">Taqwīm al-abdān fī tadbīr
+              <title xml:lang="ar-Latn-x-lc" key="work_3445">Taqwīm al-abdān fī tadbīr
                 al-insān</title>
               <title type="original" facs="#i0006" xml:lang="ar" key="work_3445"> تقويم الابدان في
                 تدبير الانسان </title>
@@ -326,9 +326,9 @@
                 <persName xml:lang="en" key="person_f407">Anonymous</persName>
               </author>
 
-              <title xml:lang="ar-Latn-x-lc" key="work_11396" type="standard">Waṣīyat Ibn Sīnā</title>
+              <title xml:lang="ar-Latn-x-lc" key="work_11396">Waṣīyat Ibn Sīnā</title>
               <title type="original" facs="#i0055" xml:lang="ar" key="work_11396">وصية ابن سينا</title>
-              <note>Instructions of <persName key="person_97166546">Avicenna</persName>.</note>
+              <note>Instructions of <persName key="person_89770781" role="ant" change="#role-assignment #ids-cleanup">Avicenna</persName>.</note>
 
               <incipit facs="#i0055" xml:lang="ar">
                 <locus>Fol. 50b.1</locus> اسمع جميع وصيتى واعمل بها <pb/> فاطبّ مجموع بنظم كلامى
@@ -351,9 +351,9 @@
                 <persName xml:lang="en" type="standard">Anonymous</persName>
               </author>
 
-              <title key="work_11397" xml:lang="ar-Latn-x-lc" type="standard">Waṣīyat Ibn al-Bayṭār</title>
+              <title key="work_11397" xml:lang="ar-Latn-x-lc">Waṣīyat Ibn al-Bayṭār</title>
               <title type="original" xml:lang="ar" key="work_11397">وصية ابن البيطار</title>
-              <note>Instructions of <persName xml:lang="ar-Latn-x-lc" key="person_94095759">Ibn al-Bayṭār</persName>.</note>
+              <note>Instructions of <persName xml:lang="ar-Latn-x-lc" key="person_94095759" role="ant" change="#role-assignment">Ibn al-Bayṭār</persName>.</note>
 
               <incipit facs="#i0055" xml:lang="ar">
                 <locus>Fol. 50b.15</locus> لابن البيطار رحمه الله وبرّد مضجعه <lb/> اسمع بُنى وصيتى
@@ -407,7 +407,7 @@
               <handNote script="naskh" scope="major">
                 <p><label>Script:</label> Very small naskh</p>
                 <p><label>Scribe:</label>
-                  <persName xml:lang="ar" role="scr" key="" facs="#i0054">عبد الّله محمد بن ابو بكر
+                  <persName xml:lang="ar" role="scr" key="person_f6327" facs="#i0054">عبد الّله محمد بن ابو بكر
                       (<foreign xml:lang="ar-Latn-x-lc">ʿAbd Allāh Muḥammad b. Abū Bakr</foreign>)
                   </persName>
                 </p>
@@ -454,8 +454,8 @@
               <origDate calendar="#Hijri-qamari" when="1585">994 A.H.</origDate>
               <origDate calendar="#Gregorian" when="1585">1585</origDate>
             </origin>
-            <provenance> Known owners: 1. A certain <hi rend="italic">Amīr</hi> (Ḥaddād/Biesterfeld
-              p. 64); 2. Sāmī Ibrāhīm Ḥaddād (1986). </provenance>
+            <provenance> Known owners: 1. A certain <hi rend="italic">Amīr</hi> (<persName key="person_234449006" role="cataloguer" change="#prov-markup">Ḥaddād</persName>/<persName key="person_309566536" role="cataloguer" change="#prov-markup">Biesterfeld</persName>
+              p. 64); 2. <persName key="person_64218974" role="fmo" change="#prov-markup">Sāmī Ibrāhīm Ḥaddād</persName> (1986). </provenance>
             <acquisition>Sotheby's lot 475 (22/21.11.85)</acquisition>
           </history>
 
@@ -500,6 +500,15 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2010-10-14T14:58:41+01:00"> Conversion from WMSmaster to WAMCP
           <persName>gbrey</persName>

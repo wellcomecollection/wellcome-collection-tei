@@ -22,12 +22,6 @@
                   <repository>Wellcome Collection</repository>
                   <collection> Manuscripts in Arabic</collection>
                   <idno>MS Arabic 29</idno>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 29a (Iskandar)</idno>
-                  </altIdentifier>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 29a</idno>
-                  </altIdentifier>
                </msIdentifier>
 
 
@@ -42,15 +36,15 @@
                         Aydamar ibn ʻAbd Allāh, fl. 1349-1361</summary>
 
                      <msItem xml:id="WMS_Arabic_29-part1-item1" class="sh85009003">
-                        <author key="person_60662251">
-                           <persName xml:lang="ar-Latn-x-lc" type="standard">Jaldakī, Aydamar ibn ʻAbd Allāh, fl.
+                        <author key="person_311788594" change="#ids-cleanup">
+                           <persName xml:lang="ar-Latn-x-lc">Jaldakī, Aydamar ibn ʻAbd Allāh, fl.
                               1349-1361 </persName>
-                           <persName xml:lang="ar" facs="#i0223" type="original">جلدكي، ايدمر بن عبد
+                           <persName xml:lang="ar" facs="#i0223">جلدكي، ايدمر بن عبد
                               الله‏</persName>
                         </author>
-                        <title xml:lang="ar-Latn-x-lc" key="work_3347" type="standard">Kitāb al-Burhān fī asrār ʻilm
+                        <title xml:lang="ar-Latn-x-lc" key="work_3347">Kitāb al-Burhān fī asrār ʻilm
                            al-mīzān</title>
-                        <title xml:lang="ar" key="work_3347" facs="#i0006" type="original">كتاب البرهان في أسرار علم
+                        <title xml:lang="ar" key="work_3347" facs="#i0006">كتاب البرهان في أسرار علم
                            الميزان <locus>fol.3b.13</locus></title>
                         <note>This work consists of four parts, but this manuscript contains only
                            the first one.</note>
@@ -354,9 +348,9 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-27">
-            <persName>Mark El Khuri</persName>Added altIdentifer tag
-         </change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
          <change when="2018-10-29"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">
             <persName>Andrew Morrison</persName> Updated key attributes using <ref

@@ -33,9 +33,9 @@
                   الكرماني</persName>
               </author>
 
-              <title xml:lang="ar-Latn-x-lc" key="work_11436">Sharḥ mūjiz al-qānūn</title>
-              <title xml:lang="ar" key="work_11436"> شرح موجز القانون </title>
-              <note>A fragment of commentary on <persName xml:lang="ar-Latn-x-lc" key="person_17316331">Ibn al-Nafīs</persName>' commentary on <hi rend="italic">al-Qānūn</hi> by <persName key="person_97166546" xml:lang="ar-Latn-x-lc">Ibn
+              <title xml:lang="ar-Latn-x-lc" key="work_21150" change="#ids-cleanup">Sharḥ mūjiz al-qānūn</title>
+              <title xml:lang="ar" key="work_21150" change="#ids-cleanup"> شرح موجز القانون </title>
+              <note>A fragment of commentary on <persName xml:lang="ar-Latn-x-lc" key="person_17316331" role="ant" change="#role-assignment">Ibn al-Nafīs</persName>' commentary on <hi rend="italic">al-Qānūn</hi> by <persName key="person_89770781" xml:lang="ar-Latn-x-lc" role="ant" change="#role-assignment #ids-cleanup">Ibn
                   Sīnā</persName>. The text and its authorship were not identified either by F.
                 Ḥaddād or by H.H. Biesterfeld. cf. MS Arabic 445.</note>
 
@@ -109,7 +109,7 @@
               <origDate calendar="#Gregorian" type="approxDate" notBefore="1700">18th century</origDate>
              
             </origin>
-            <provenance>Sāmī Ibrāhīm Ḥaddād (1986).</provenance>
+            <provenance><persName key="person_64218974" role="fmo" change="#prov-markup">Sāmī Ibrāhīm Ḥaddād</persName> (1986).</provenance>
             <acquisition>Sotheby's lot 525 (22/21.11.85)</acquisition>
           </history>
           <additional>
@@ -144,6 +144,15 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
       <change when="2011-04-01T16:21:34+01:00"> Conversion from WMSmaster to WAMCP
           <persName>gbrey</persName>
       </change>

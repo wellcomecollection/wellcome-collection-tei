@@ -23,9 +23,6 @@
             <collection> Manuscripts in Arabic</collection>
             <idno>MS Arabic 10</idno>
             <altIdentifier type="former">
-              <idno>WMS. Or. 10c (Iskandar)</idno>
-            </altIdentifier>
-            <altIdentifier type="former">
               <idno>WMS. Or. 10c</idno>
             </altIdentifier>
           </msIdentifier>
@@ -35,20 +32,20 @@
               al-ṭibb by Ibn al-Nafīs, ʻAlī ibn Abī al-Ḥazm </summary>
             <msItem xml:id="WMS_Arabic_10-item1">
               <author key="person_17316331">
-                <persName xml:lang="ar-Latn-x-lc" type="standard">Ibn al-Nafīs, ʻAlī ibn Abī al-Ḥazm, 1210 or
+                <persName xml:lang="ar-Latn-x-lc">Ibn al-Nafīs, ʻAlī ibn Abī al-Ḥazm, 1210 or
                   11-1288</persName>
-                <persName xml:lang="ar" type="original">ابن النفيس، علي ابن أبي الحزم</persName>
+                <persName xml:lang="ar">ابن النفيس، علي ابن أبي الحزم</persName>
               </author>
 
-              <title xml:lang="ar-Latn-x-lc" type="standard" key="work_272">Mūjiz al-qānūn fī ʻilm
+              <title xml:lang="ar-Latn-x-lc" key="work_2635" change="#ids-cleanup">Mūjiz al-qānūn fī ʻilm
                 al-ṭibb</title>
-              <title type="original" xml:lang="ar" key="work_272" facs="#i0009"> موجز القانون في علم
+              <title type="original" xml:lang="ar" key="work_2635" facs="#i0009" change="#ids-cleanup"> موجز القانون في علم
                 الطب </title>
 
               <note>Abridgement of <hi rend="italic">al-Qānūn fī al-ṭibb القانون في
-                  الطب</hi> of <persName key="person_89770781">Avicenna</persName>. </note>
-
-
+                  الطب</hi> of <persName key="person_89770781" role="ant" change="#role-assignment">Avicenna</persName>. </note>
+            
+           
 
               <incipit type="basmala" facs="#i0010" xml:lang="ar">
                 <locus>Fol. 2b.1</locus> بسم الله الرحمن الرحيم <pb/>
@@ -68,7 +65,7 @@
               <colophon facs="#i0211" xml:lang="ar">ڦد وڦع الڦراع مڻ كڻابة هذا الكڻاب فى ڻوم الاربعاء فى سبع شعر
                 الصفر فى وقت الظهر على ڻدى العبد الضعيف عدڻم الاحسان وكثر العصيان حواجه قلى بن على
                 قلى غفر الله له ولوالديه وصاحبه وقاريه امڻّ رڀ العلمڻن سنه ٩٨٨</colophon>
-
+            
 
               <textLang mainLang="ar">Arabic</textLang>
             </msItem>
@@ -108,27 +105,27 @@
             <handDesc>
               <handNote script="naskh" scope="major">
                 <p><label>Script:</label> Naskh</p>
-                <p><label>Scribe:</label>
-                  <persName xml:lang="ar" role="scr" key=""> قلي بن علي قلي
+                <p><label>Scribe:</label> 
+                  <persName xml:lang="ar" role="scr" key="person_f6313"> قلي بن علي قلي
                     (<foreign xml:lang="ar-Latn-x-lc">Qulī b. ʿAlī Qulī</foreign>)
                   </persName>
-
+                  
                 </p>
                 <p><label>Ink:</label> Black; headings and dividers are highlighted in red.</p>
-
+               
                   <seg type="density">340</seg>
                   <seg type="ratio">1:1</seg>
                   <seg type="anglealef">90</seg>
                   <seg type="anglekaf">30</seg>
-
+              
               </handNote>
             </handDesc>
-
+          
             <bindingDesc>
               <binding contemporary="true">
                 <p> Brown leather, Oriental type with a centrepiece
                   (115 x 180). Blind tooling.
-                  <seg type="board">
+                  <seg type="board"> 
                     <dimensions type="binding" unit="mm">
                       <height>183</height>
                       <width>122</width>
@@ -146,7 +143,7 @@
               </seal>
             </sealDesc>
             <accMat>
-              <p> Fols. 01a - 2a, 205b - 004b contain recipes and medical advice.
+              <p> Fols. 01a - 2a, 205b - 004b contain recipes and medical advice. 
                 <lb/> Fols. 2b - 205a on the margins contain many comments comments marked by the
                 letter <hi rend="italic">ṣād</hi> (ص) for صحيح or the numeral ١٢. <lb/> Fols. 2b -
                 205a contain interlinear translation into Persian of separate words and expressions.
@@ -165,14 +162,14 @@
             <origin>
               <origDate calendar="#Hijri-qamari" when="1580" facs="#i0211">988 A.H.</origDate>
               <origDate calendar="#Gregorian" when="1580">1580</origDate>
-
-
+            
+             
             </origin>
-            <provenance facs="#i0126">Known owners and readers: <persName xml:lang="ar-Latn-x-lc">Ḥakīm ʿAlī Ḥusayn</persName> (fol.
+            <provenance facs="#i0126">Known owners and readers: <persName key="person_f6725" role="fmo" change="#prov-markup">ar-Latn-x-lcḤakīm ʿAlī Ḥusayn</persName> (fol.
               119a)</provenance>
           </history>
           <additional>
-
+          
             <listBibl>
               <bibl> Iskandar <hi rend="italic">Catalogue</hi> p. 144 (Shelf-mark: WMS Or. 10a).
               </bibl>
@@ -197,7 +194,7 @@
           <list>
             <item>
               <term key="subject_sh85083116">Medicine, Arab</term></item>
-
+         
 
 
           </list>
@@ -205,8 +202,15 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022"> <persName>Lara Salha</persName>Title type edited</change>
-      <change when="2021"> <persName>Lara Salha</persName> AltIdentifiers added in</change>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2011-03-31T17:57:02+01:00"> Conversion from WMSmaster to WAMCP
           <persName>gbrey</persName>

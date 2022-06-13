@@ -25,7 +25,7 @@
 
             <idno>MS Arabic 6</idno>
             <altIdentifier type="former">
-              <idno>WMS Or.6a (Iskandar)</idno>
+              <idno>Iskandar 6a</idno>
             </altIdentifier>
           </msIdentifier>
 
@@ -35,15 +35,14 @@
               Ḥalabī, Ṣāliḥ Naṣr Allāh ibn Sallūm</summary>
             <msItem xml:id="MS_Arabic_6-item1">
               <author key="person_79444240">
-                <persName xml:lang="ar-Latn-x-lc" type="standard"> Ḥalabī, Ṣāliḥ Naṣr Allāh ibn Sallūm</persName>
-                <persName xml:lang="ar" type="original">صالح نصر الله بن سلوم الحلبي</persName>
+                <persName xml:lang="ar-Latn-x-lc"> Ḥalabī, Ṣāliḥ Naṣr Allāh ibn Sallūm</persName>
+                <persName xml:lang="ar">صالح نصر الله بن سلوم الحلبي</persName>
               </author>
 
-              <title xml:lang="ar-Latn-x-lc" type="standard" key="work_4814">al-Ṭibb al-jadīd al-kīmiyāʼī alladhī ikhtaraʻahu Barākelsūs</title>
-              <title xml:lang="ar" type="original" key="work_4814"> الطبّ الجديد الكيميائى الذى اخترعه براكلسوس <locus
-                  facs="#i0012">10b</locus>
+              <title xml:lang="ar-Latn-x-lc" key="work_1056" change="#ids-cleanup">al-Ṭibb al-jadīd al-kīmiyāʼī alladhī ikhtaraʻahu Barākelsūs</title>
+              <title xml:lang="ar" key="work_1056" change="#ids-cleanup"> الطبّ الجديد الكيميائى الذى اخترعه براكلسوس <locus facs="#i0012">10b</locus>
               </title>
-              <note>New chemical medicine invented by <persName xml:lang="en" key="person_12313247">Paracelsus</persName>.</note>
+              <note>New chemical medicine invented by <persName xml:lang="en" key="person_12313247" role="ant" change="#role-assignment">Paracelsus</persName>.</note>
               <incipit type="basmala" facs="#i0012" xml:lang="ar">
                 <locus>Fol. 10b.1</locus> بسم اللّه الرحمن الرحيم <lb/>
               </incipit>
@@ -834,7 +833,7 @@
             <handDesc>
               <handNote scope="major" script="taliq"><p><label>Script:</label> Clear taʿlīq</p>
                 <p><label>Scribe:</label>
-                  <persName xml:lang="ar" role="scr" key="">سيد سُهير شاه
+                  <persName xml:lang="ar" role="scr" key="person_f6340">سيد سُهير شاه
                     (<foreign xml:lang="ar-Latn-x-lc">Sayīd Suhayr Shāh</foreign>)
                   </persName></p>
                 <p><label>Ink:</label> Black, red headings</p>
@@ -889,7 +888,7 @@
             <origin>
               <date calendar="Gregorian" type="approxDate">Before 1906 AD (see fol. 1a)</date>
             </origin>
-            <provenance>Sold by Ghay Ḥāfiẓ Sapās</provenance>
+            <provenance>Sold by <persName key="person_f6713" role="fmo" change="#prov-markup">Ghay Ḥāfiẓ Sapās</persName></provenance>
           </history>
          
           <additional>
@@ -925,8 +924,15 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2021-05-06">
-        <persName>Mark El Khuri</persName>altIdentifier tag updated</change>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="role-assignment">
+			<persName>Julian Cook</persName> Assigned role(s) to every person having an id (Fihrist data cleanup project).
+		</change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
       <change when="2019">Rosie Maxton</change>
       <change when="2011-03-31T17:56:59+01:00"> Conversion from WMSmaster to WAMCP
           <persName>gbrey</persName>

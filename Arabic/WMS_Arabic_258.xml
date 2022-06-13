@@ -22,9 +22,6 @@
                   <repository>Wellcome Collection</repository>
                   <collection> Manuscripts in Arabic</collection>
                   <idno>MS Arabic 258</idno>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 237</idno>
-                  </altIdentifier>
                </msIdentifier>
 
                <msPart xml:id="WMS_Arabic_258-part1">
@@ -47,7 +44,7 @@
                         <title type="original" facs="#i0084 #i0009" key="work_1056">الطب الكيميائي
                               <locus>Fol.40a.1</locus>
                         </title>
-                        <title type="standard" xml:lang="ar-Latn-x-lc" key="work_1056">Kitāb
+                        <title type="normalised" xml:lang="ar-Latn-x-lc" key="work_1056">Kitāb
                            al-ṭibb al-jadīd al-kīmīyāʼī</title>
                         <incipit type="beginning" facs="#i0008">
                            <locus>fol.1a.1</locus> المقدمه فى تعريف الكيماوياة لحاجة اليها والغرض
@@ -67,10 +64,10 @@
                      <msItem xml:id="WMS_Arabic_258-part1-item2" n="2">
                         <locus facs="#i0010 #i0074">Fol.2a to Fol.35a</locus>
                         <author key="person_f407">
-                           <persName xml:lang="en">Anonymous</persName>
+                           <persName type="standard" xml:lang="en">Anonymous</persName>
                         </author>
 
-                        <title xml:lang="en" key="work_9889">No title</title>
+                        <title type="normalised" xml:lang="en" key="work_21154" change="#ids-cleanup">No title</title>
                         <note>Anonymous medical tract.</note>
                         <incipit type="beginning" facs="#i0010">
                            <locus>fol.2a.1</locus> مفصليهما اللدينلهما مع الساقين اثنان وخمسون ما هى
@@ -88,12 +85,12 @@
                      <msItem xml:id="WMS_Arabic_258-part1-item3" defective="false" n="3">
                         <locus facs="#i0181 #i0213">Fol.88b to Fol.104b</locus>
                         <author key="person_241921227">
-                           <persName xml:lang="ar-Latn-x-lc" type="standard"> Ebulfeyz Mustafa Efendi,‏ ‎d.
+                           <persName xml:lang="ar-Latn-x-lc"> Ebulfeyz Mustafa Efendi,‏ ‎d.
                               -1744</persName>
-                           <persName type="original" xml:lang="ar" facs="#i0181"> فيضى مصطفى
+                           <persName type="standard" xml:lang="ar" facs="#i0181"> فيضى مصطفى
                               افندى</persName>
                         </author>
-                        <title type="standard" xml:lang="ar-Latn-x-lc" key="work_9963">Al-Risālah
+                        <title type="normalised" xml:lang="ar-Latn-x-lc" key="work_9963">Al-Risālah
                            al-mushfīyah lil-amrāḍ al-mushkilah</title>
                         <title type="original" facs="#i0181" key="work_9963">الرسالة المشفية للامراض
                            المشكلة <locus>fol.88b.18</locus>
@@ -127,7 +124,7 @@
                         <author key="person_f407">
                            <persName type="standard" xml:lang="en">Anonymous</persName>
                         </author>
-                        <title type="standard" xml:lang="ara-Latn" key="work_9964">Mukhtaṣar
+                        <title type="normalised" xml:lang="ara-Latn" key="work_9964">Mukhtaṣar
                            ghāyat al-itqān ʿalá qadr al-imkān</title>
                         <title type="original" facs="#i0228" key="work_9964">مختصر غاية الاتقان على
                            قدر الإمكان <locus>fol.112a.2</locus>
@@ -255,9 +252,9 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-27">
-            <persName>Mark El Khuri</persName>Added altIdentifer tag
-         </change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
          <change when="2019"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">
             <persName>Andrew Morrison</persName> Updated key attributes using <ref

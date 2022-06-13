@@ -22,9 +22,6 @@
                   <repository>Wellcome Collection</repository>
                   <collection> Manuscripts in Arabic</collection>
                   <idno>MS Arabic 286</idno>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 265</idno>
-                  </altIdentifier>
                </msIdentifier>
 
                <msPart xml:id="WMS_Arabic_286-part1">
@@ -299,7 +296,7 @@
                      </sealDesc>
                   </physDesc>
                   <history>
-                     <provenance facs="#i0014 #i0057 #i0069">Owned by al-Sayīd Aḥmad.</provenance>
+                     <provenance facs="#i0014 #i0057 #i0069">Owned by <persName key="person_f6668" role="fmo" change="#prov-markup">al-Sayīd Aḥmad</persName>.</provenance>
                   </history>
                </msPart>
             </msDesc>
@@ -330,8 +327,8 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-28">
-            <persName>Mark El Khuri</persName>Added altIdentifer tag
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
          </change>
          <change when="2019"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">

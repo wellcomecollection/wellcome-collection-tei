@@ -30,14 +30,14 @@
             <summary>1 copy of ʻUyūn al-anbāʼ fī ṭabaqāt
               al-aṭibbāʼ by Ibn Abī Uṣaybiʻah, Aḥmad ibn al-Qāsim </summary>
             <msItem xml:id="WMS_Arabic_432-item1">
-              <author key="person_96980790">
-                <persName xml:lang="ar-Latn-x-lc" type="standard">Ibn Abī Uṣaybiʻah, Aḥmad ibn al-Qāsim, d. 1269
+              <author key="person_272709554" change="#ids-cleanup">
+                <persName xml:lang="ar-Latn-x-lc">Ibn Abī Uṣaybiʻah, Aḥmad ibn al-Qāsim, d. 1269
                   or 70</persName>
-                <persName xml:lang="ar" type="original">ابن أبي أصيبعة، أحمد بن القاسم</persName>
+                <persName xml:lang="ar">ابن أبي أصيبعة، أحمد بن القاسم</persName>
               </author>
-              <title xml:lang="ar-Latn-x-lc" key="work_2711" type="standard">ʻUyūn al-anbāʼ fī ṭabaqāt
+              <title xml:lang="ar-Latn-x-lc" key="work_2711">ʻUyūn al-anbāʼ fī ṭabaqāt
                 al-aṭibbāʼ</title>
-              <title xml:lang="ar" facs="#i0246" key="work_2711" type="original"> عيون الانباء في طبقات الاطباء </title>
+              <title xml:lang="ar" facs="#i0246" key="work_2711"> عيون الانباء في طبقات الاطباء </title>
               <title type="other" facs="#i0250" xml:lang="ar">طبقات الاطباء</title>
               <note>Medical biographies, vol. 1 (cf. MS Arabic 433).</note>
               <incipit type="basmala" facs="#i0006" xml:lang="ar">
@@ -238,7 +238,7 @@
                   anchored="false">The date is given as seen, i.e. 1309 AH. This is, however,
                   incorrect: cf. the date of WMS Arabic 434</note> ١٣٠٩ </quote>
             </origin>
-            <provenance facs="#i0250">Sāmī Ibrāhīm Ḥaddād (1986).</provenance>
+            <provenance facs="#i0250"><persName key="person_64218974" role="fmo" change="#prov-markup">Sāmī Ibrāhīm Ḥaddād</persName> (1986).</provenance>
           </history>
           <additional>
           
@@ -274,6 +274,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2010-10-14T14:58:49+01:00"> Conversion from WMSmaster to WAMCP
           <persName>gbrey</persName>

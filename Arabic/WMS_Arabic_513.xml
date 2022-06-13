@@ -23,20 +23,17 @@
             <repository>Wellcome Collection</repository>
             <collection> Manuscripts in Arabic</collection>
             <idno>MS Arabic 513</idno>
-           <altIdentifier type="former">
-               <idno>WMS. Or. 492</idno>
-           </altIdentifier>
           </msIdentifier>
 
           <msContents>
             <summary>1 copy of Jawharat al-tawḥīd by Laqānī, Ibrāhīm b. Ibrāhīm </summary>
             <msItem xml:id="WMS_Arabic_513-item1">
               
-              <author key="person_19537439">
-                <persName type="standard">Laqānī, Ibrāhīm b. Ibrāhīm (Abū al-Imdād Ibrāhīm b. Ibrāhīm), d. -1631</persName>
-                <persName type="original">ابراهيم بن ابراهيم اللقاني</persName>
+              <author key="person_305969651" change="#ids-cleanup">
+                <persName>Laqānī, Ibrāhīm b. Ibrāhīm (Abū al-Imdād Ibrāhīm b. Ibrāhīm), d. -1631</persName>
+                <persName>ابراهيم بن ابراهيم اللقاني</persName>
               </author>
-              <title key="work_4800" xml:lang="ar-Latn-x-lc" type="standard">Jawharat al-tawḥīd</title>
+              <title key="work_4800" xml:lang="ar-Latn-x-lc">Jawharat al-tawḥīd</title>
               <title type="original" facs="#i0001" key="work_4800" xml:lang="ar"> جوهرة التوحيد 
               </title>
               <note>Poetic composition on the doctrine of 'Oneness' in Islamic theology.</note>
@@ -155,9 +152,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-     <change when="2021-04-28">
-            <persName>Mark El Khuri</persName>Added altIdentifer tag
-         </change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2011-05-22T11:55:48+03:00"> Committed to SVN. To view the changes in detail use
         SVN diff. SVN

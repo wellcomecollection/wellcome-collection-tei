@@ -22,21 +22,6 @@
                   <repository>Wellcome Collection</repository>
                   <collection> Manuscripts in Arabic</collection>
                   <idno>MS Arabic 62</idno>
-                  <!-- <<<<< HEAD  -->
-                   <altIdentifier type="former">
-                    <idno>WMS. Or. 62 (Iskandar)</idno>
-                  </altIdentifier>
-                  <altIdentifier type="former">
-                    <idno>WMS. Or. 62</idno>
-                  </altIdentifier>
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 62 (Iskandar)</idno>
-                  </altIdentifier>
-                     <!--  
->>>>>>> 27633f1056787885271c0b82c866e8cb0e6f016c -->
-                  <altIdentifier type="former">
-                     <idno>WMS. Or. 62</idno>
-                  </altIdentifier>
                </msIdentifier>
 
                <msPart xml:id="WMS_Arabic_62-part1">
@@ -52,14 +37,14 @@
                         <locus>fol.2b.2</locus>
 
                         <author key="person_44299175">
-                           <persName xml:lang="en" type="standard">Galen</persName>
-                           <persName xml:lang="ar" type="original">جالينوس</persName>
+                           <persName xml:lang="en">Galen</persName>
+                           <persName xml:lang="ar">جالينوس</persName>
                         </author>
                         <editor role="translator" key="person_19690624" xml:lang="ar-Latn-x-lc">Ḥunayn ibn Isḥāq
                            al-ʻIbādī, 809?-873</editor>
-                        <editor role="translator" xml:lang="ar">حنين بن اسحق العبادي</editor>
-                        <title xml:lang="ar-Latn-x-lc" key="work_9908" type="standard">Ilá Ighlūqun</title>
-                        <title xml:lang="ar" key="work_9908" facs="#i0005" type="original">إلى اغلوقن</title>
+                        <editor role="translator" xml:lang="ar" key="person_19690624">حنين بن اسحق العبادي</editor>
+                        <title xml:lang="ar-Latn-x-lc" key="work_9908">Ilá Ighlūqun</title>
+                        <title xml:lang="ar" key="work_9908" facs="#i0005">إلى اغلوقن</title>
                        
                        
                         <incipit type="basmala" facs="#i0005">
@@ -212,9 +197,6 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-04-28">
-            <persName>Mark El Khuri</persName>Added altIdentifer tag
-         </change>
          <change when="2018-10-31"><persName>Rosie Maxton</persName></change>
          <change when="2018-06-08">
             <persName>Andrew Morrison</persName> Updated key attributes using <ref

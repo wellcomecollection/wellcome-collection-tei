@@ -23,12 +23,6 @@
             <collection> Manuscripts in Arabic</collection>
 
             <idno>MS Arabic 71</idno>
-            <altIdentifier type="former">
-                     <idno>WMS. Or. 71 (Iskandar)</idno>
-            </altIdentifier>
-            <altIdentifier type="former">
-                     <idno>WMS. Or. 71</idno>
-            </altIdentifier>
           </msIdentifier>
 
           <msContents class="#multipleworks">
@@ -37,12 +31,12 @@
             <msItem xml:id="MS_Arabic_71-item1" n="1">
               <locus from="1b" to="92b">ff. 1b-92a</locus>
               <author key="person_f6172">
-                <persName xml:lang="ar-Latn-x-lc" type="standard">Muḥammad b. ʿAlī al-Isfarāʼinī</persName>
-                <persName xml:lang="ar" type="original">محمّد بن علي الاسفرائني</persName>
+                <persName xml:lang="ar-Latn-x-lc">Muḥammad b. ʿAlī al-Isfarāʼinī</persName>
+                <persName xml:lang="ar">محمّد بن علي الاسفرائني</persName>
               </author>
 
-              <title key="work_929" xml:lang="ar-Latn-x-lc" type="standard">Taqwīm al-adwīyah</title>
-              <title key="work_929" xml:lang="ar" type="original"> تقويم الادوية <locus>92b</locus>
+              <title key="work_21135" xml:lang="ar-Latn-x-lc" change="#ids-cleanup">Taqwīm al-adwīyah</title>
+              <title key="work_21135" xml:lang="ar" change="#ids-cleanup"> تقويم الادوية <locus>92b</locus>
               </title>
               <note>The tabulation of drugs.</note>
 
@@ -684,9 +678,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2021-04-27">
-            <persName>Mark El Khuri</persName>Added altIdentifer tag
-         </change>
+		<change when="2020-07-06" xml:id="ids-cleanup">
+			<persName>Julian Cook</persName> Changed person and work ids (Fihrist data cleanup project).
+		</change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2011-03-31T17:57:12+01:00"> Conversion from WMSmaster to WAMCP
           <persName>gbrey</persName>

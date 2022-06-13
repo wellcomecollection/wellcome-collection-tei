@@ -31,14 +31,14 @@
               wa-maʿādinihā by Ibn Māsawayh, Yūḥannā </summary>
             <msItem xml:id="WMS_Arabic_468-item1">
               <author key="person_112670997">
-                <persName xml:lang="ar-Latn-x-lc" type="standard">Ibn Māsawayh, Yūḥannā,‏ ‎d. -857 or
+                <persName xml:lang="ar-Latn-x-lc">Ibn Māsawayh, Yūḥannā,‏ ‎d. -857 or
                   858‏</persName>
-                <persName xml:lang="ar" type="original">يوحنا بن ماسويه</persName>
+                <persName xml:lang="ar">يوحنا بن ماسويه</persName>
               </author>
 
-              <title xml:lang="ar-Latn-x-lc" key="work_11424" type="standard">Jawāhir al-ṭibb al-mufrada bi-ṣifātihā
+              <title xml:lang="ar-Latn-x-lc" key="work_11424">Jawāhir al-ṭibb al-mufrada bi-ṣifātihā
                 wa-maʿādinihā</title>
-              <title xml:lang="ar" key="work_11424" facs="#i0001" type="original"> جواهر الطيب المفردة بصفاتها ومعادنها </title>
+              <title xml:lang="ar" key="work_11424" facs="#i0001"> جواهر الطيب المفردة بصفاتها ومعادنها </title>
 
               <note> A treatise on aromatic substances. </note>
               <incipit type="basmala" facs="#i0004" xml:lang="ar">
@@ -151,7 +151,7 @@
               <handNote script="naskh" scope="major">
                 <p><label>Script:</label> Naskh</p>
                 <p><label>Scribe:</label>
-                  <persName xml:lang="ar" key="" role="scr" facs="#i0013"> محمود صدقي (<foreign xml:lang="ar-Latn-x-lc">Maḥmūd Ṣadaqī</foreign>) </persName>
+                  <persName xml:lang="ar" key="person_f6330" role="scr" facs="#i0013"> محمود صدقي (<foreign xml:lang="ar-Latn-x-lc">Maḥmūd Ṣadaqī</foreign>) </persName>
                   <note>A scribe employed by the Dār al-Kutub in Egypt in 1936.</note>
                 </p>
                 <p><label>Ink:</label> Black; headings and dividers are occasionally highlighted in
@@ -183,7 +183,7 @@
              
              
             </origin>
-            <provenance>Known owners: Sāmī Ibrāhīm Ḥaddād (1986). <p>Place of copying: Cairo.</p>
+            <provenance>Known owners: <persName key="person_64218974" role="fmo" change="#prov-markup">Sāmī Ibrāhīm Ḥaddād</persName> (1986). <p>Place of copying: Cairo.</p>
             </provenance>
             <acquisition>Sotheby's lot 522 (22/21.11.85)</acquisition>
           </history>
@@ -224,6 +224,9 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+         <change when="2021-10-23" xml:id="prov-markup">
+            <persName>Julian Cook</persName> Marked up with persName elements free-format names related to provenance.
+         </change>
       <change when="2019"><persName>Rosie Maxton</persName></change>
       <change when="2011-04-01T16:21:29+01:00"> Conversion from WMSmaster to WAMCP
           <persName>gbrey</persName>
