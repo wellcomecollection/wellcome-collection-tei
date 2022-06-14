@@ -22,7 +22,7 @@
 | msItem/locus | notes [locus] | Done | yes
 | msItem/author | contributor | Done | yes
 | msItem/title type="original" | title | Done | yes
-| msItem/title | alternativeTitles |  | 
+| msItem/title | alternativeTitles | Done | 
 | msItem/incipit | notes /[begins]/ | Done | yes
 | msItem/incipit/locus | notes /[begins]/ | Done | yes
 | msItem/explicit | notes /[ends]/ |Done | yes
