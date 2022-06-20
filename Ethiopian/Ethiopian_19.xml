@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_19">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Ethiopian 19</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RK">
+                <resp when="2005">Cataloguer</resp>
+                <persName>R. Kidane</persName>
+            </respStmt>
+            <respStmt xml:id="KG">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Ekaterina Gusarova</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2022-03-01">Template</resp>
+                <resp when="2022">Provenance research</resp>
+                <resp when="2022-06-20">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">WMS Ethiopian 19</idno>
+            <idno type="catalogue">Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London.</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Ethiopian 19</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b24724476</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>19th century prayers of magical character</summary>
+                   
+                    <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                    
+                    <msItem n="1" xml:id="Wellcome_Ethiopian_19_1">
+                        <locus from="1" to="58">Column 1, lines 1-58</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer against the evil eye</title>
+                        
+                        <incipit><locus>Column 1, line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Wellcome_Ethiopian_19_2">
+                        <locus from="59" to="141">Column 1, lines 59-141</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer against the evil spirits Barya and Legewon</title>
+                        
+                        <incipit><locus>Column 1, line 59</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                        <note>According to Strelcyn, barya are a people believed to serve the demon or spirit provoking epilepsy and therefore barya is identified with this disease. Legewon is a name for Satan, chief of the barya and 
+                            one of the most frequently occurring devils in Ethiopic magical literature (<ref>Strelcyn</ref>).</note>  
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Wellcome_Ethiopian_19_3">
+                        <locus from="1" to="129">Column 2, lines 1-128</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Prayer against the evil eye and evil spirits and demons, containing the legend of St. Susenyos and Warzelya</title>
+                        
+                        <incipit><locus>Column 2, line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="roll">
+                       
+                        <supportDesc material="perg">                     
+                            <support>Fine vellum</support>
+                            
+                            <extent>Scroll composed of 3 strips
+                                <dimensions type="roll" unit="mm">
+                                    <dim type="diameter">115</dim>
+                                    <dim type="length">1700</dim>
+                                </dimensions>
+                                <note>The scroll would have been designed to be equal in length to the height of the person the scroll was composed for, in order that the entirety of the person was protected against demons 
+                                    and the return of evil spirits (<ref>Mercier</ref>)</note>
+                            </extent>
+
+                            <condition>
+                                <!-- Use to record any information about the condition of the manuscript, if known -->
+                            </condition>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="128">141 lines in column 1, 128 lines in column 2. In black and red ink. The text in red ink is almost illegible.                                      
+                            </layout>
+                            
+                            <layout columns="2">2 columns
+                                <dimensions><dim type="diameter">The two columns together are 105mm in width with 4mm of intercolumn space.</dim></dimensions>
+                            </layout>
+                            
+                            <layout>Mistara partially visible</layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="major">The handwriting is pure and crude. The letters are quite large and irregular. </handNote>
+                        <handNote scope="minor">The name of the owner was added by a different kind of ink in a crude writing.</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote type="miniature"><locus>Before line 1</locus>: a long miniature representing two “Captured demons” on the top, four human faces, probably of the Evangelists, rich ornamental frame</decoNote>
+                        <decoNote type="miniature"><locus>After column 1, line 58</locus>: an angel with a sword</decoNote>
+                        <decoNote type="miniature"><locus>After column 1, line 141</locus>: "The Captured Demon"</decoNote>
+                    </decoDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Ethiopia</country>
+                        </origPlace>
+                        <origDate calendar="Gregorian" notBefore="1800" notAfter="1900">19th century</origDate>
+                    </origin>
+                    <provenance notBefore="1800" notAfter="1900">The name of the owner is illegible.</provenance>
+                    <acquisition notBefore="1972" notAfter="2005">Acquired by the Wellcome Historical Medical Museum, or its predecessor Wellcome Library, at some point between 1972 and 2005.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London</title>
+                                    <author>R. Kidane</author>
+                                    <date>c.2005</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian manuscripts</title>
+                                    <author>Ekaterina Gusarova</author>
+                                    <date>2015</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <listBibl>
+                        <head>Bibliographical abbreviations</head>
+                        <bibl>
+                            <title>'Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London', in Bulletin of the School of Oriental and African Studies. University of London, 35(1)</title>
+                            <author>Stefan Strelcyn</author>
+                            <date>1972</date>
+                            <note>Pp. 27-55</note>
+                            <note>Includes an extensive index-glossary and bibliography</note>
+                            <abbr>Strelcyn</abbr>
+                        </bibl>
+                        <bibl>
+                            <title>Ethiopian Magic Scrolls</title>
+                            <author>Jacques Mercier</author>
+                            <date>1979</date>
+                            <pubPlace>New York</pubPlace>
+                            <abbr>Mercier</abbr>
+                        </bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <revisionDesc>
+        <change when="2022-06-20" who="#VS">Added data from the catalogue.</change>
+        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
