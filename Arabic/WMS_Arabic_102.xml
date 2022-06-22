@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15747">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 102</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template and TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+                <respStmt xml:id="MK">
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Miriam Keaveny</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 102</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 102</idno>
+                        <altIdentifier type="former">
+                            <idno> WMS.Or.102 </idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno> b14840042</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary> Al-Qalānisī's pharmacopoeia </summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_102_1">
+                            
+                            <author key="person_88345215">
+                                <persName xml:lang="eng" type="standard"> Badr-addīn Muhammad Bahrām b. Muhammad al-Qalānisī as Samarqandī <date>6th - 12th century</date></persName>
+                                <persName xml:lang="ar" type="original">بدر الدين محمد بهرام بن محمد القلانسى السمر قندي</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original"> أقرابدين القلانسى </title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">AQRĀBĀDHĪN-L-QALĀNISĪ</title>
+                            <title xml:lang="en" type="standard"> Al-Qalānisī's pharmacopoeia </title>
+                           
+                            <incipit>
+                                 ... الحمد لله الحكيم القاهر العزيز القادؤ المنفرد ...
+                                [sic] أما بعد فقد دعاني إلى جمع هذا المختصر أني رأيت جلّ قراباذينات نت نسخة 
+                                ... الأدوية المركبة التي يندر وقوع الحاجة إليها 
+                            </incipit>
+                            
+                            <explicit>
+                                مغناطيس... 
+                               قال سلمويه إنه ينفع من الّقرس في الدين والرجلين إذا أسمك في اليد
+                               و ينفع في الكزاز
+                              : و قال الإسكندر
+                              ... المغناطيس والنشادر إن لُبِسا نفها من وجع المفاصل و قال سلمويه
+                            </explicit>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="height">215</dim>
+                                        <dim type="width">130</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="height">170</dim>
+                                        <dim type="width">80</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <collation>
+                                    <label>Folios:</label> 204
+                                </collation>
+                                
+                                <condition>Leaves wanting at the end</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="13">13
+                                    <p><locus>1f - 3f</locus> and <locus>11f - 13f</locus> are blank. <locus>4f - 8f</locus> and <locus>26f</locus> are modern.</p>
+                                </layout>
+                                
+                            </layoutDesc>
+                            
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="major">
+                                <p><label>Script:</label>ta'līq</p>    
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="Rubrications">Rubrications</decoNote>
+                        </decoDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian">undated, estimated 16th century</origDate>
+                        </origin> 
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>page 79 - 80</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free"><p></p>
+                            </availability> 
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
+
