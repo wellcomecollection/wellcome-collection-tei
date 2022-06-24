@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15752">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 107</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template and TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+                <respStmt xml:id="BLE">
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Branwen Lloyd-Evans</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 107</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 107</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS Or.107</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295303</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Al-aqwāl-l-kāfiya wa-l-fuṣūl-sh-shāfiya (Sufficient accounts and aphorisms on healing) 
+                            by Alī b. Dā'ūd b. Yūsuf b. Omar b. Alī b. Rasūl ar-Rasūlī, Al-Malik al-Mujāhid.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        
+                        <msItem n="1" xml:id="WMS_Arabic_107_1">
+                            
+                            <author key="person_15077634">
+                                <persName xml:lang="eng" type="standard">Alī b. Dā'ūd b. Yūsuf b. Omar b. Alī b. Rasūl ar-Rasūlī, Al-Malik al-Mujāhid</persName>
+                                <persName xml:lang="ar" type="original"> علي بن داود بن يوسف بن عمر بن علي بن رسول الرسولي الملك المجاهد </persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">الأقوال الكافية والفصول الشافية</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Al-aqwāl-l-kāfiya wa-l-fuṣūl-sh-shāfiya</title>
+                            <title xml:lang="en" type="standard">Sufficient accounts and aphorisms on healing</title>
+                            
+                            <incipit>
+                               ... أما بعد فإني نظرت بنظار القلب وتمييز العقل فيما أنعم الله به على عباده من النعم الَافية والمنن الصافية ...
+                            </incipit>
+                            
+                            <explicit>
+                                قبل أن يمرض طويل ...
+                                فمات الفيل في تلك السنة ولم تطل مدة الخليفة بعد ذلك
+                                وقيل إن عمر الفيل ثلاثمائة سنة
+                                : قالو  
+                                ظهر فيل في أيام المتوكل فعاش أربعمائة سنة
+                                و أكثر ما يعيش الفيل عندنا في اليمن خمسين أو ستسن سنة فما دونها
+                                والله سبحانه و تعالى أعلم... تم الكتاب
+                            </explicit>
+                            
+                          <note>Follio pages 129b-146a are "valuable accounts which were found written by the Sultan's hand"
+                          Begins:
+                           : نكت مستحسنة ...
+                           وجدت تعاليق بخط السلطان الملك الوئيد بالله المجاهد قدس الله سره
+                           ...وأما خدمة السيس لهل أعنى الدواب كافة والخيل خاصة وقد علمت أمورهم وما يفعلون من خدمتهم بالنظافة العظيمة
+                           
+                          Ends:
+                           ... والحصان إذا جرى كان بنفس واحد فإذا طال عليه الجرى فهو...
+                           والله تعالى أعلم
+                          </note>                                                         
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">160</dim>
+                                        <dim type="length">210</dim>
+                                    </dimensions>
+                                </extent>
+                                                                                               
+                                <collation>
+                                    <label>Folios:</label>125
+                                </collation>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="20">20</layout>
+                            </layoutDesc>
+                                                                                   
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="Maghribi" scope="major">
+                                <p><label>Script:</label>Maghribi</p>
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="eng" type="standard">ash-Sharīf Muhammad as-Sunusī b. 'Abd-Allāh as-Suhaylī al-Maghribī</persName>
+                                    <persName xml:lang="ar" type="original"></persName></p>
+                            </handNote>
+                        </handDesc>
+                                                
+                        <additions>
+                            <p>There is an index of contents.</p>
+                        </additions>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">1193</origDate>
+                            <origDate calendar="Gregorian">1779</origDate>
+                        </origin>    
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>p.81</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free"><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85143046">Veterinary medicine</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-03-04"><persName>Branwen Lloyd-Evans</persName>Created XML file</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
