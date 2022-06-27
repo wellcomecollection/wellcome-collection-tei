@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 01.03.22 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_25">
+   
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Wellcome Ethiopian 25</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="RK">
+                    <resp when="2005">Cataloguer</resp>
+                    <persName>R. Kidane</persName>
+                </respStmt>
+                <respStmt xml:id="KG">
+                    <resp when="2015">Cataloguer</resp>
+                    <persName>Ekaterina Gusarova</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2022-03-01">Template</resp>
+                    <resp when="2022">Provenance research</resp>
+                    <resp when="2022-06-27">TEI Encoder</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">WMS Ethiopian 25</idno>
+                <idno type="catalogue">Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London.</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Ethiopian 25</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b24738815</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Kidane">
+                             <idno>MS XIX</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>18th century prayers of magical character</summary>
+                        
+                        <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                        
+                        
+                        <msItem n="1" xml:id="Wellcome_Ethiopian_25_1">
+                            <locus from="1" to="181">Lines 1-181</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">“Bandlet of Righteousness” – a scroll containing magic names</title>
+                            
+                            <incipit><locus>Line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                        </msItem>
+                        
+                        <msItem n="2" xml:id="Wellcome_Ethiopian_25_2">
+                            <locus from="182" to="206">Lines 182-206</locus>
+                            <author key="">Anonymous</author>
+                            <title type="desc">Prayer against mortal diseases caused by evil spirits</title>
+                            
+                            <incipit><locus>Line 182</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                            
+                        </msItem>
+                        
+                        <msItem n="3" xml:id="Wellcome_Ethiopian_25_3">
+                            <locus from="206" to="223">Lines 206-223</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Prayer of the heaven’s way</title>
+                            
+                            <incipit><locus>Line 206</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                                                        
+                        </msItem>
+                        
+                        <msItem n="4" xml:id="Wellcome_Ethiopian_25_4">
+                            <locus from="224" to="242">Lines 147-166</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Prayer for the mercy for the people</title>
+                            
+                            <incipit><locus>Line 224</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                            
+                        </msItem>
+                        
+                        <msItem n="5" xml:id="Wellcome_Ethiopian_25_5">
+                            <locus from="243" to="258">Lines 243-258</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Prayer of the heaven’s way</title>
+                            
+                            <incipit><locus>Line 243</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                            
+                        </msItem>                                               
+                        
+                    </msContents>
+                    
+                    
+                    <physDesc>
+                        
+                        <objectDesc form="roll">
+                            
+                            <supportDesc material="perg">                     
+                                <support>Vellum</support>
+                                
+                                <extent>Scroll composed of 3 strips
+                                    <dimensions type="roll" unit="mm" >
+                                        <dim type="diameter">75-95</dim>
+                                        <dim type="length">1665</dim>
+                                    </dimensions>
+                                    <note>The scroll would have been designed to be equal in length to the height of the person the scroll was composed for, in order that the entirety of the person was protected against demons 
+                                        and the return of evil spirits (<ref>Mercier</ref>)</note>
+                                </extent>
+                               
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout writtenLines="258">258 lines in black and red ink.</layout>
+                                
+                                <layout columns="1">1 column
+                                    <dimensions unit="mm"><dim type="diameter">85</dim></dimensions>
+                                </layout>
+                                
+                                <layout>No mistara visible</layout>
+                                
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote>Written by two different scribes</handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="miniature"><locus>Before line 1</locus>: a big cross on the left, a human figure on the right and three other figures (animals with human head) </decoNote>
+                            <decoNote type="miniature"><locus>After line 223</locus>: Crosses, an Angel with a sword, another figure and an ornamental band below </decoNote>
+                            <decoNote type="miniature"><locus>After line 258</locus>: Two crosses and two figures</decoNote>
+                        </decoDesc>
+                        
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Ethiopia</country>,
+                            </origPlace>
+                            <origDate calendar="Gregorian" notBefore="1700" notAfter="1800">18 century</origDate>
+                        </origin>
+                        <provenance>The name of the owner of the scroll Walata Iyasus <!-- spelling of name will need checking --></provenance>
+                     
+                        <acquisition notBefore="1972">Acquired by the Wellcome Historical Medical Museum, or its predecessor Wellcome Library at some point after 1972.</acquisition>
+                        
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London</title>
+                                        <author>R. Kidane</author>
+                                        <date>c.2005</date>
+                                        <note>Unpublished catalogue</note>
+                                    </bibl>
+                                    <bibl>
+                                        <title>Ethiopian manuscripts</title>
+                                        <author>Ekaterina Gusarova</author>
+                                        <date>2015</date>
+                                        <note>Unpublished catalogue</note>
+                                    </bibl>
+                                    <bibl>
+                                        <title>Ethiopian Magic Scrolls</title>
+                                        <author>Jacques Mercier</author>
+                                        <date>1979</date>
+                                        <pubPlace>New York</pubPlace>
+                                        <abbr>Mercier</abbr>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+                      
+                        
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        
+        
+        <revisionDesc>
+            <change when="2022-06-27" who="#VS">Added data from the catalogue.</change>
+            <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+       
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
