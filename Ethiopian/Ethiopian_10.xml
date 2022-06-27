@@ -78,10 +78,9 @@
                     <msItem n="1" xml:id="Ethiopian_10_1">
                         <locus from="1" to="89">Column 1, line 1 - column 2, line 89</locus>
                         <author>Anonymous</author>
-                        <title>“The drowner of devils” in its long version</title>
+                        <title type="desc">“The drowner of devils” in its long version</title>
                         
-                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
-                            <!-- Use <note> to add general comment -->
+                        <incipit><locus>Column 1, line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing--> 
                         </incipit>
                       
                     </msItem>
@@ -89,10 +88,9 @@
                     <msItem n="2" xml:id="Ethiopian_10_2">
                         <locus from="90" to="115">Column 2, lines 90-115</locus>
                         <author>Anonymous</author>
-                        <title>Prayer for expelling demons</title>
+                        <title type="desc">Prayer for expelling demons</title>
                         
-                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
-                            <!-- Use <note> to add general comment -->
+                        <incipit><locus>Column 2, line 90</locus>: <!-- Ge'ez text to be picked up in late-stage editing--> 
                         </incipit>
                         
                     </msItem>
@@ -100,9 +98,8 @@
                     <msItem n="3" xml:id="Ethiopian_10_3">
                         <locus from="115" to="141">Column 2, lines 115-141</locus>
                         <author>Anonymous</author>
-                        <title>Prayer for expelling Satan, demons etc.</title>
-                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
-                            <!-- Use <note> to add general comment -->
+                        <title type="desc">Prayer for expelling Satan, demons etc.</title>
+                        <incipit><locus>Column 2, line 115</locus>: <!-- Ge'ez text to be picked up in late-stage editing--> 
                         </incipit>
                         
                     </msItem>
@@ -110,9 +107,8 @@
                     <msItem n="4" xml:id="Ethiopian_10_4">
                         <locus from="141" to="174">Column 2, lines 141-174</locus>
                         <author key="">Anonymous</author>
-                        <title>Greetings to Archangel Fanuel, expeller of devils</title>
-                        <incipit><!-- Ge'ez text to be picked up in late-stage editing--> <locus></locus>
-                            <!-- Use <note> to add general comment -->
+                        <title type="desc">Greetings to Archangel Fanuel, expeller of devils</title>
+                        <incipit><locus>Column 2, line 141</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
                         </incipit>
                         
                     </msItem>
@@ -126,11 +122,13 @@
                         <supportDesc material="vellum">                     
                             <support>vellum</support>
                             
-                            <extent>3 strips
+                            <extent>Scroll composed of 3 strips
                                 <dimensions unit="mm">
                                     <dim type="diameter">165</dim>
                                     <dim type="length">1945</dim>
                                 </dimensions>
+                                <note>The scroll would have been designed to be equal in length to the height of the person the scroll was composed for, in order that the entirety of the person was protected against demons 
+                                   and the return of evil spirits (<ref>Mercier</ref>)</note>
                             </extent>
                                                        
                         </supportDesc>
@@ -158,9 +156,9 @@
                     </handDesc>
                     
                     <decoDesc>
-                        <decoNote type="miniature"><locus>Before line 1:</locus>King David singing psalms</decoNote>
-                        <decoNote type="miniature"><locus>After line 73:</locus>An Equestrian Saint</decoNote>
-                        <decoNote type="miniature"><locus>After line 144:</locus>“The Captured demon” in a frame of two angels</decoNote>
+                        <decoNote type="miniature"><locus>Before line 1:</locus> King David singing psalms</decoNote>
+                        <decoNote type="miniature"><locus>After line 73:</locus> An Equestrian Saint</decoNote>
+                        <decoNote type="miniature"><locus>After line 144:</locus> “The Captured demon” in a frame of two angels</decoNote>
                         <decoNote>There are several coloured crosses and magical figures in the text.</decoNote>
                     </decoDesc>
                    
@@ -172,12 +170,12 @@
                             <country>Ethiopia</country>
                         </origPlace>
                         <origDate calendar="Gregorian">19th century</origDate>
-                        <!-- use additional origPlace and origDate elements if necessary -->
                     </origin>
                     <provenance>Three owners are named: <persName>Gäbrä Samu'el</persName>, <persName>Täsfa Giyorgis</persName>,
                         <persName>Walättä Maryam</persName></provenance>
                     
-                    <acquisition>Bought in 1934.</acquisition>
+                    <acquisition when="1934-08-38">Purchased at auction by the Wellcome Historical Medical Museum at Glendining's, 27-28 August 1934, lot 284. Accessioned in <date when="1934-11">November 1934</date>, 
+                       accession number 79061.</acquisition>
                 </history>
                 
                 <additional>
@@ -196,6 +194,13 @@
                                     <author>Ekaterina Gusarova</author>
                                     <date>2015</date>
                                     <note>Unpublished catalogue</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian Magic Scrolls</title>
+                                    <author>Jacques Mercier</author>
+                                    <date>1979</date>
+                                    <pubPlace>New York</pubPlace>
+                                    <abbr>Mercier</abbr>
                                 </bibl>
                             </source>
                         </recordHist>
@@ -233,7 +238,7 @@
         </profileDesc>    
     
         <revisionDesc>
-            <change when="2022-06-24" who="#BLE">Created XML file</change>
+        <change when="2022-06-24" who="#BLE">Created XML file</change>
         <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
         </revisionDesc>
 
