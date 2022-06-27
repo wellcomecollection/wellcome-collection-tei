@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_17">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Ethiopian 17</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SS">
+                <resp when="1972">Cataloguer</resp>
+                <persName>Stefan Strelcyn</persName>
+            </respStmt>
+            <respStmt xml:id="KG">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Ekaterina Gusarova</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2022-03-01">Template</resp>
+                <resp when="2022">Provenance research</resp>
+                <resp when="2022-05-16">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">WMS Ethiopian 17</idno>
+            <idno type="catalogue">Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Ethiopian 1</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b24724221</idno>
+                    </altIdentifier>
+                    <altIdentifier type="accession">
+                        <idno>52283</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>19th century manuscript containing numerous treatises of divination (hasab), magical prayers, and magico-medical prescriptions</summary>
+ 
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="perg">
+                                                    
+                            <support>Vellum</support>
+                            <extent>93 folios
+                                <dimensions unit="mm" >
+                                    <dim type="diameter">62-80</dim>
+                                    <dim type="length">115-125</dim>
+                                </dimensions>
+                            </extent>
+                            
+                            <foliation></foliation>
+                               
+                            <collation>
+                                <formula>13 (A+12): A 2 (1-2), I 10 (3-12), II 12 (13-24), III 10 (25-34), IV 10 (35-44), V 8 (45-52), VI 8 (53-60), VI 12 (61-72), VII 6 (73-78), VIII 2 (79-80), IX 2 (81-82), X 4 (83-86), XI 6 
+                                    ((87-92), + 1</formula>
+                                <note>Quires A, I-VI are original, the others are or different size and were added to the manuscript later. Most of these additional quires are only attached to the manuscript by string but not bound 
+                                    together with the main part of the manuscript.</note>
+                                <note>The quires are followed by an unattached folio of a smaller size.</note>
+                            </collation>
+                            
+                            <condition>
+                                Binding is partly damaged.
+                            </condition>
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="41">15-19 lines per folio written in black and red ink</layout>
+                            
+                            <layout columns="1">1 column.
+                                <dimensions unit="mm"><dim type="diameter">60</dim></dimensions>
+                                <dimensions unit="mm"><dim type="length">86</dim></dimensions>
+                            </layout>
+                            
+                            <layout>Mistara present</layout>
+                            
+                            <layout>No chapter separators or protective strips of parchment.</layout>
+                            
+                        </layoutDesc>
+                        
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="major">Poor handwriting</handNote>
+                    </handDesc>
+
+                    <bindingDesc>
+                        <binding>
+                            <p>Wooden boards covered with linen.</p>
+                        </binding>
+                    </bindingDesc>
+                   
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Ethiopia</country>
+                        </origPlace>
+                        <origDate calendar="Gregorian" notBefore="1800" notAfter="1899">19th century</origDate>
+                    </origin>
+                    <provenance notAfter="1900">The colophon on <locus>folio 71v</locus> provides the name of the owner <!-- Ge'ez text to be picked up in late-stage editing--> from Askwena in Agau region. The name of the governor is 
+                        given: Walda Tsagga. A note on <locus>folio 92r</locus> similar to the colophon also mentions the Agau region.</provenance>
+                    <acquisition when="1929-12-12">Purchased at auction by the Wellcome Historical Medical Museum at Sotheby's, 12 December 1929, lot 84. Accessioned in December 1929, accession number 52283.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London', in Bulletin of the School of Oriental and African Studies. University of London, 35(1)</title>
+                                    <author>Stefan Strelcyn</author>
+                                    <date>1972</date>
+                                    <note>Pp. 27-55</note>
+                                    <note>Includes an extensive index-glossary and bibliography</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian manuscripts</title>
+                                    <author>Ekaterina Gusarova</author>
+                                    <date>2015</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                            </source>
+                        </recordHist>  
+                    </adminInfo>
+                </additional>
+                
+                <msPart n="1" xml:id="Ethiopian_17_1">
+                    <msIdentifier>
+                        <idno>Wellcome Ethiopian 17 part 1</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Selection of hasab, magical prayers and magico-medical prescriptions</summary>
+                        
+                        <msItem n="1" xml:id="Wellcome_Ethiopian_17_1_1">
+                            <locus from="1" to="2">Folios 1-2</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Short magical prayers, recipes and a <!-- Ge'ez text to be picked up in late-stage editing--></title>
+                        </msItem>
+                        
+                        <msItem n="2" xml:id="Wellcome_Ethiopian_17_1_2">
+                            <locus from="3" to="72">Folios 3r-41r</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc"><!-- Ge'ez text to be picked up in late-stage editing-->, or "calculation of the stars" composed of 12 chapters corresponding to the signs of the zodiac.</title>
+                            
+                            <incipit><locus>Fol. 3r</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                        </msItem>
+                        
+                        <msItem n="3" xml:id="Wellcome_Ethiopian_17_1_3">
+                            <locus from="41v" to="47r">Folios 41v-47r</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Twenty-nine hasab, or calculations, of sickness and diagnosis, of wealth and poverty, of fate and of fertility</title>
+                            
+                            <incipit><locus>Fol. 47r</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                        </msItem>
+                        
+                        <msItem n="4" xml:id="Wellcome_Ethiopian_17_1_4">
+                            <locus from="47r" to="57r">Folios 47r-57r</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Magical prayers for love, for goods and for birth and against various ailments and demons</title>
+                            
+                            <incipit><locus>Fol. 57r</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                        </msItem>
+                        
+                        <msItem n="5" xml:id="Wellcome_Ethiopian_17_1_5">
+                            <locus from="57r" to="62r">Folios 57r-62r</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Magico-medical prescriptions against magical diseases, demons and various ailments</title>
+                            
+                            <incipit><locus>Fol. 57r</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                        </msItem>
+                        
+                        <msItem n="6" xml:id="Wellcome_Ethiopian_17_1_6">
+                            <locus from="62r" to="62v">Folios 62r-62v</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Treatise of divination</title>
+                            
+                            <incipit><locus>Fol. 62v</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                        </msItem>
+                        
+                        <msItem n="7" xml:id="Wellcome_Ethiopian_17_1_7">
+                            <locus from="62v" to="67v">Folios 62v-67v</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Magical prayers and prescriptions against various devils and ailments</title>
+                            
+                            <incipit><locus>Fol. 62v</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                        </msItem>
+                        
+                        <msItem n="8" xml:id="Wellcome_Ethiopian_17_1_8">
+                            <locus from="67v" to="71v">Folios 67v-71v</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Chronological notes and notes concerning the <!-- Ge'ez text to be picked up in late-stage editing--> "Hymnary"</title>
+                            
+                            <incipit><locus>Fol. 67v</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                            
+                            <colophon><locus>Fol.71v</locus>: the colophon gives the name of the owner and diviner, <!-- Ge'ez text to be picked up in late-stage editing--> from <!-- Ge'ez text to be picked up in late-stage editing--> 
+                                in <!-- Ge'ez text to be picked up in late-stage editing--> who wrote the manuscript himself at the time of governor <!-- Ge'ez text to be picked up in late-stage editing--></colophon>
+                        </msItem>
+                        
+                        <msItem n="9" xml:id="Wellcome_Ethiopian_17_1_9">
+                            <locus from="72r" to="72v">Folios 72r-v</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Two Hasab</title>
+                            
+                            <incipit><locus>Fol. 72r</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="perg">
+                                
+                                <support>Vellum</support>
+                                <extent>72 folios
+                                    <dimensions unit="mm" >
+                                        <dim type="diameter">80</dim>
+                                        <dim type="length">120</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation></foliation>
+                                
+                                <collation>
+                                    <formula>A 2 (1-2), I 10 (3-12), II 12 (13-24), III 10 (25-34), IV 10 (35-44), V 8 (45-52), VI 8 (53-60), VI 12 (61-72)</formula>
+                                </collation>
+                            </supportDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="major">The writing in <locus>fol. 1r</locus> and <locus>fol. 2v</locus> is illegible in places</handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="miniature"><locus>3r</locus>: Ornamental band in red and black colour</decoNote>
+                            <decoNote type="miniature"><locus>41r</locus>: Ornamental band in red and black colour</decoNote>
+                            <decoNote type="miniature"><locus>49r</locus>: Crude drawings of three crosses and a table of magical letters</decoNote>
+                            <decoNote type="miniature"><locus>52v</locus>: Crude drawings of magical character</decoNote>
+                            <decoNote type="miniature"><locus>53r</locus>: Crude drawings of magical character</decoNote>
+                            <decoNote type="miniature"><locus>54r</locus>: A table of magical letters, crude drawings of magical character</decoNote>
+                            <decoNote type="miniature"><locus>54v</locus>: Crude drawings of magical character</decoNote>
+                            <decoNote type="miniature"><locus>64v</locus>: A table of magical letters</decoNote>
+                            <decoNote type="miniature"><locus>65v</locus>: Crude drawing of the “captured demon”</decoNote>
+                            <decoNote type="miniature"><locus>66r</locus>: Different crude drawings</decoNote>
+                            <decoNote type="miniature"><locus>71v</locus>: Crude drawings of three crosses </decoNote>
+                        </decoDesc>
+
+                    </physDesc>
+                                        
+                </msPart>
+                
+                <msPart n="2" xml:id="Ethiopian_17_2">
+                    <msIdentifier>
+                        <idno>Wellcome Ethiopian 17 part 2</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary></summary>
+                        
+                        <msItem n="1" xml:id="Wellcome_Ethiopian_17_2_1">
+                            <locus from="73r" to="73v">Folios 73r-73v</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Two hasab of the sick</title>
+                            
+                            <incipit><locus>Fol. 73r</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                        </msItem>
+                        
+                        <msItem n="2" xml:id="Wellcome_Ethiopian_17_2_2">
+                            <locus from="73v" to="80v">Folios 73v-80v</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Medico-magical prescriptions for a variety of things including for a good journey, for causing love and for causing emnity, for undoing charms, against thieves and against a variety 
+                            of ailments and diseases</title>
+                            
+                            <incipit><locus>Fol. 73v</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                        </msItem>
+                        
+                        <msItem n="3" xml:id="Wellcome_Ethiopian_17_2_3">
+                            <locus from="80v" to="92r">Folios 80v-92r</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Various hasab, a short treatises of divination and magical prayers and recipes against devils</title>
+                            
+                            <incipit><locus>Fol. 80v</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                        </msItem>
+                        
+                        <msItem n="4" xml:id="Wellcome_Ethiopian_17_2_4">
+                            <locus from="92r" to="92r">Folio 92r</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Note, similar to a colophon, that mentions the Agau region.</title>
+                            <note>Fol. 92v is blank</note>
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="perg">
+                                
+                                <support>Vellum</support>
+                                <extent>20 folios
+                                    <dimensions unit="mm">
+                                        <dim type="diameter">62-80</dim>
+                                        <dim type="length">75-125</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <collation>
+                                    <formula>VII 6 (73-78), VIII 2 (79-80), IX 2 (81-82), X 4 (83-86), XI 6 ((87-92)</formula>
+                                </collation>
+                            </supportDesc>
+                             
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="major">The writing in <locus>fol. 80v</locus> and <locus>fol. 83r</locus> is illegible in places</handNote>
+                            <handNote scope="minor">Folios <locus>80r-v</locus>, <locus>81r-82v</locus> and <locus>87r-92r</locus> are probably written in different hands.</handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="miniature"><locus>77v</locus>: Different crude drawings</decoNote>
+                            <decoNote type="miniature"><locus>78r</locus>: Different crude drawings</decoNote>
+                            <decoNote type="miniature"><locus>85v</locus>: Crude drawing of the frame of magical letters</decoNote>
+                        </decoDesc>
+                        
+                    </physDesc>
+                    
+                </msPart>
+                
+                <msPart n="3" xml:id="Ethiopian_17_3">
+                    <msIdentifier>
+                        <idno>Wellcome Ethiopian 17 part 3</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary></summary>
+                        
+                        <msItem n="1" xml:id="Wellcome_Ethiopian_17_3_1">
+                            <locus from="93r" to="93v">Folio 93</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Magical spell on the recto, verso is blank</title>
+                        </msItem>
+                       
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="perg">
+                                
+                                <support>Vellum</support>
+                                <extent>1 folio
+                                    <dimensions unit="mm">
+                                        <dim type="diameter"></dim>
+                                        <dim type="length"></dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <condition>Folio is detatched from the rest of the manuscript</condition>
+                                
+                            </supportDesc>
+                            
+                        </objectDesc>
+
+                    </physDesc>
+                    
+                </msPart>
+             
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+   
+        <revisionDesc>
+        <change when="2020-06-20" who="#VS">Added data from the catalogue.</change>
+        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
