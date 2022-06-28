@@ -6,3 +6,5 @@ The manual is not meant to be a detailed introduction to the msDesc schema, but 
 
 Earlier versions are stored in the OldVersions folder.
 
+For GitBook readers, the link to the PDF of the manual is [here](TEI\_Manual\_2020\_V1.pdf).
+
