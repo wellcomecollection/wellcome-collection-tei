@@ -1,2 +1,0 @@
-# Manuscript Inventory
-
