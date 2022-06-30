@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15652">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 2</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 2</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 2</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 2</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20294621</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Commentary on "The questions of Hunain b. Ishaq"</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_2">
+                            
+                            <author key="person_ 4405945">
+                                <persName xml:lang="eng" type="standard">Abu-l Qasim 'Abd-arrahman b. 'Ali b. Abi Sadiq an-Nisaburi (d. after 460H/1068AD)</persName>
+                                <persName xml:lang="ar" type="original">أبوالقاسم عبد الرحمن بن علي بن أبي صادق النيشابوري</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">شرح مسائل حنين بن اسحق</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Sharh Masa'il Hunain b. Ishaq</title>
+                            <title xml:lang="en" type="standard">Commentary on "The questions of Hunain b. Ishaq"</title>
+                            
+                            <incipit>
+                             ...  عبد الرحمن بن على بن أبي صادق النيسابوري [sic] قال الشيخ أبو القسم  ...
+                             ... إن أرباب المعرفة بصناعة الطبّ قد تواطئوا على أن الراغب في هذا العلم يجب أن يفتتح تعلمه بكتاب المسائل لحنين بن اسحق لأنه عمله مدخلا للمتعلمين 
+                            </incipit>
+                            
+                            <explicit>
+                               فيصير البول ذا دلالة أوليّة على سائر الأعضاء و الله أعلم  ...
+                               ... تم شرح مسائل حنين وزيادات حبيش للشيخ 
+                               ... أبي القسم عبد الرحمن بن أبي صادق النيسابوري 
+                            </explicit>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">203mm</dim>
+                                        <dim type="length">281mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">130mm</dim>
+                                        <dim type="length">220mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords>Catchwords in red</catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 264 foll.
+                                    <label>Chapters:</label> 10 chapters
+                                </collation>
+                                
+                                <condition>Damp-stained leaves. The first ten pages are badly damaged.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="24">24 lines</layout>
+                            </layoutDesc>
+
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>Black ink</p>
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="eng" type="standard"></persName>
+                                    <persName xml:lang="ar" type="original"></persName></p>
+                            </handNote>
+                        </handDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate>Undated. Approximated to be 8th century Hijri or 14th century AD.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: Ilyas b. Yusuf (physician in Cairo) in A.H 1190/A.D 1776, Sulayman al-Khuri, and Istafan al-Khuri
+                        </provenance>
+                        <acquisition>
+                            Accession number 36038. This manuscript was ccessioned into the Wellcome Collection on 12th March 1915 with 23 other books and manuscripts. They were bought in Beirut, Lebanon, from Murad Baroody. This manuscript was purchased for the price of £2.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
