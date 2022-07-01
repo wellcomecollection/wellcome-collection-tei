@@ -4,6 +4,7 @@ The 'by TEI' procedure records the following elements:
 
 * Unique no
 * Object name
+  * Might need separate table in Quickbase?
 * Number of objects
 * Basic desc
   * This is taken directly from the \<summary> field in the corresponding TEI file
