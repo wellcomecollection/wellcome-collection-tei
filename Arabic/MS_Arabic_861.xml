@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16505">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS_Arabic_861</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-03-11">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Arabic_861</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_861" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 861</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 840</idno>
+                        </altIdentifier>
+
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>1 copy of Nūr al-īḍāḥ wa-najāt al-arwāḥ by Shurunbulālī, Ḥasan ibn
+                            ʻAmmār,‏ ‎d. 1585 or 1586-1659</summary>
+
+
+                        <msItem xml:id="MS_Arabic_861-item1">
+
+                            <author key="person_113758429">
+                                <persName xml:lang="ar-Latn-x-lc">Shurunbulālī, Ḥasan ibn
+                                    ʻAmmār,‏ ‎d. 1585 or 1586-1659</persName>
+                                <persName xml:lang="ar" facs="#i0003">حسن الوفاي الشرنبلالي
+                                    الحنفي</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc">Nūr al-īḍāḥ wa-najāt al-arwāḥ</title>
+                            <title type="original" xml:lang="ar" facs="#i0003">نور الإيضاح ونجاة
+                                الأرواح</title>
+
+                            <incipit facs="#i0003" xml:lang="ar">
+                                <locus>f.1v.4</locus> قَالَ الْعَبْدُ اْلفَقِيرُ اِلَي مَوْلَاهُ
+                                اْلَغَنِيِّ حَسَنُ اْلوَفَائِي اْلشُّرُنْبُلَالِي اْلحَنَفِي اَنّه
+                                الْتَمسَ مِنِّي بَعْضُ اْلأَخِلَّاءِ <gap reason="omitted"/> اَنْ
+                                اَعْمَلَ مُقَدِّمَةً فَي اْلعِبَاَداتِ تَقْرِّبُ عَلَي اْلمُبْتَدِي
+                                مَا تَشَتَّتَ مِنَ اْلمَسَاٺِلِ فِي اْلمُطَوَّلَاتِ فَاسْتَعَنْتُ
+                                بِاْللهِ واجبته <gap reason="omitted"/> وسميته نُورَ اْلإِيضَاحِ
+                                وَنَجَاةَ اْلأَرْوَاحِ <gap reason="omitted"/> كتابُ اْلطَّهاَرَه </incipit>
+
+                            <explicit facs="#i0071" xml:lang="ar">
+                                <locus>f.70r.6</locus> مَحَاسِنِه اَنَّ فِيهِ تَفْرِيغُ اْلقَلْبِ
+                                مِنْ أمُورِ الدُّنْيَا وَتَسلِيمَ النَّفْس الَىِ الْمَوْلَى
+                                وَمَلَازَمَةِ عِبَادَتِهِ وبَيْتِهِ وَالتَحصُّنِ بِحِصْنِهِ وَقَالَ
+                                    <gap reason="omitted"/> مَثَلُ اْلمُعْتَكِفِ مَثَلُ رَجُلٍ
+                                يَخْتَلِفُ عَلَي بَابٍ عَظِيمٍ لِحَاجَةٍ كَانَّهُ يَقُولُ لَاَ
+                                أَبرَحُ حَتَّى يَغْفِرَ لِيِ </explicit>
+                            <colophon facs="#i0071" xml:lang="ar">
+                                <locus>f.70r.13</locus> وَهَذَا مَاَ تيَّسَرَ لِلعَاجِزِ الْحَقِيرِ
+                                بِعَنَايَةٍ مَوْلَاهْ الْقَوَىِ القديرِ الحَمَدُ لِلهِ الديِ <sic/>
+                                هَدَانَا لِهَذَا وَمَا كنَا لَنَهتَديَ لَوْلَا اَنْ هَدَاَنا اْللهُ
+                                    <gap reason="omitted"/> والحمد لله رَب العالمينَ تَمَّ </colophon>
+
+
+
+                            <textLang mainLang="ar" source="IANA">Arabic</textLang>
+                            <!-- Enter BCP 47 IANA language code as attribute value and full language name here . For Hebrew, value is "he". For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry-->
+
+
+
+                        </msItem>
+
+                        <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
+                                    <measure type="chainline"
+                                        ><!-\- Insert, if available -\->.</measure>-->
+                                </support>
+                                <extent>70 ff.
+                               <!-- Insert details on extent -->
+                                    <dimensions unit="mm">
+                                        <!-- Add if available -->
+                                      <!--  <dim type="diameter"/>-->
+                                        <dim type="length">225</dim>
+                                        <!-- Add or delete dimensions as needed -->
+                                    </dimensions></extent>
+                                
+
+                                <foliation> Eastern Arabic pagination in pencil. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                                <!-- <collation>
+                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
+                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
+                                </collation>-->
+
+                              <!--  <condition>Fair C</condition>-->
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" writtenLines="15"> 1 column, 15 lines. </layout>
+
+                                <!-- <layout rulingMedium="">
+                                    <!-\- Add any information on ruling -\->
+                                </layout>
+-->
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                               
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+                            <decoNote type="border">Green and blue border <locus>f. 1v</locus></decoNote>
+                            <decoNote type="unwan">ʿUnwān  <locus>f. 1v</locus> </decoNote>
+                           
+                        </decoDesc>
+                        <additions>
+                            <list>
+                                <item facs="#i0003">Marginal invocation in blue ink  <locus>f. 2r</locus>.</item>
+                                <item facs="#i0004">Fāʾidah in blue ink  <locus>ff. 2v-3r</locus>.</item>
+                                <item facs="#i0072">
+                                
+                                    Arabic poetic verse:
+                                  <quote xml:lang="ar">  قال الشاعرُ: لاَ تَجْعَلَنْ رَمَضانَ شَهْرَ فَاكِهَةٍ</quote>
+                                    <locus>f.70v</locus>.
+                                </item>
+                            </list>
+                        </additions>
+
+                        <bindingDesc>
+                            <binding>
+                                <p>Paper boards; black fabric and patterned paper covers.</p>
+                                <condition>Spine mostly intact; appears MS was partially rebound in lilac paper.</condition>
+                            </binding>
+                        </bindingDesc>
+
+
+                    </physDesc>
+
+                    <history>
+                        <origin> MS is undated. </origin>
+                      
+                           
+                    </history>
+
+                    <additional>
+                        <listBibl>
+                            
+                            <bibl><hi rend="italic">Muʿjam al-muʾallifīn</hi>: 1, p. 575.</bibl>
+                            <bibl><hi rend="italic">Kashf al-ẓunūn</hi>: p. 1882.</bibl>
+                            <bibl>Brockelmann: S, 2, p. 430.</bibl>
+
+
+                        </listBibl>
+                    </additional>
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85068396">Islam--Doctrines</term>
+                            <term ref="subject_sh2008105466">Hanafites--Early works to 1800</term>
+                            <term ref="subject_sh85071088">Jurisprudence</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2022-03-11" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>

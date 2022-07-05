@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16506">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS_Arabic_862</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-03-12">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Arabic_862</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_862" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 862</idno>
+                      
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 841</idno>
+                        </altIdentifier>
+
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>Assorted texts on geomancy and
+                            astronomy</summary>
+
+
+                        <msItem xml:id="MS_Arabic_862-item1" n="1">
+                            <locus facs="#i0002 #i0034">ff. 1r-32v</locus>
+                            <author>
+                                <persName xml:lang="en">Anonymous</persName>
+                            </author>
+                            <title xml:lang="en" type="desc">Assorted texts on geomancy and
+                                astronomy</title>
+
+
+
+                            <incipit facs="#i0002" xml:lang="ar">
+                                <locus>f1r.2</locus> نبتدي بعون الله تعالى وحسن توفيقه بكتب كتاب
+                                يشتمل على علم الرمل وبعض شيء من الفلك </incipit>
+
+                            <explicit facs="#i0034" xml:lang="ar">
+                                <locus>f.32v.9</locus> فيكون لك اربعين وعلي هذا الصورة كمالة جميع
+                                الاسم كل حرف بحرفه على الابجدية وعلى هذه الصورة كما مرَّ تفعل لكل
+                                اسم تم وكمل </explicit>
+                            <colophon facs="#i0034" xml:lang="ar">
+                                <locus>f.32v.11</locus> قد تم نقل هذا الكتاب بحمد الله تعالى وحسن
+                                توفيقه من يد العبد الفقير الذي ليسَ يَستحق ان يذكر اسمه من كثرة
+                                خطاياه ووفور اثامهِ اسعد ولد جرجس جبور الخوري المعلوف من كفر عقاب
+                                وهو كتابًا مفيدًا مختصرًا علي جميع علوم الفلك قد تم نقضه في كانون
+                                الثاني سبعة وعشرون سنة ١٨٥٤ مسيحية وهو غاله لنفسه دون غيره والحمد
+                                لله وحسَن توفيقه </colophon>
+
+
+
+                            <textLang mainLang="ar" source="IANA">Arabic</textLang>
+                            <!-- Enter BCP 47 IANA language code as attribute value and full language name here . For Hebrew, value is "he". For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry-->
+
+
+
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_862-item2" n="2">
+                            <locus facs="#i0034 #i0039">ff. 33r-37v</locus>
+                            <author>
+                                <persName xml:lang="en">Anonymous</persName>
+                            </author>
+                            <title xml:lang="en" type="desc">Untitled text on the four
+                                elements</title>
+                            <incipit xml:lang="ar" facs="#i0035">وقد نذكر العناصر الاربعة على الايام
+                                السبعة</incipit>
+
+
+                            <explicit xml:lang="ar" facs="#i0039">ثم الغالب علي حروف الجدول الهوا
+                                قولاً وفعلا</explicit>
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
+                                    <measure type="chainline"
+                                        ><!-\- Insert, if available -\->.</measure>-->
+                                </support>
+                                <extent>37 ff. <!-- Insert details on extent -->
+                                    <dimensions unit="mm">
+                                        <!-- Add if available -->
+                                        <!--  <dim type="diameter"/>-->
+                                        <dim type="length">225</dim>
+                                        <!-- Add or delete dimensions as needed -->
+                                    </dimensions></extent>
+
+
+                                <foliation> MS lacks foliation; <catchwords>catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                                <!-- <collation>
+                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
+                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
+                                </collation>-->
+
+                              <!--  <condition>Fair C</condition>-->
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" writtenLines="14"> 1 column, 14-19 lines. </layout>
+
+                                <!-- <layout rulingMedium="">
+                                    <!-\- Add any information on ruling -\->
+                                </layout>
+-->
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="ar-Latn-x-lc">Asʿad walad Jirjis Jabbūr
+                                        al-Khūrī al-Maʿlūf</persName>
+                                    <persName xml:lang="ar" facs="#i0034">اسعد ولد جرجس جبور الخوري
+                                        المعلوف من كفر عقاب</persName></p>
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+
+
+                        </decoDesc>
+                        <additions>
+                            <list>
+                                <item facs="#i0004 #i0036">Astronomical tables and diagrams
+                                    throughout.</item>
+
+                            </list>
+                        </additions>
+
+                        <bindingDesc>
+                            <binding>
+                                <p>Paper boards; orange and green patterned paper covers; spine
+                                    covered with fabric. Pastedowns on inner front cover from a printed Arabic text.</p>
+                                <condition>Covers and pastedowns torn; some water damage to MS.</condition>
+                            </binding>
+                        </bindingDesc>
+
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate when="1854" calendar="#Gregorian">1854</origDate>
+                          
+                        </origin>
+                        <acquisition>Wellcome Library accession number: 68841</acquisition>
+
+
+                    </history>
+
+                 
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85054121">Geomancy</term>
+                            <term ref="subject_sh85008896">Astrology, Arab</term>
+                            <term ref="subject_sh85009014">Astronomy, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2022-03-12" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>
