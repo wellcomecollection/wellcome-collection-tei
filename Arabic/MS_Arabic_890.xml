@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16534">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS_Arabic_890</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-05-30">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Arabic_890</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_890" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 890</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 869</idno>
+                        </altIdentifier>
+
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>1 copy of Kitāb al-Nikāḥ by an unknown author</summary>
+
+
+                        <msItem xml:id="MS_Arabic_890-item1">
+                            <locus facs="#i0002 #i0141"></locus>
+                            <author>
+                                <persName  xml:lang="en">Anonymous</persName></author>
+                            <title xml:lang="ar" type="original" facs="#i0002" >كتاب النكاح</title>
+                         
+                            <title xml:lang="ar-Latn-x-lc">Kitāb al-Nikāḥ</title>
+                            
+                            <incipit facs="#i0002" xml:lang="ar">
+                                <locus>f.1v.2</locus> كتاب النكاح لما فرع <sic/> من العبادات شرع
+                                في المعاملات لان بها بقا العابدين وقدم منها النكاح لانه اقرب اليها </incipit>
+                            <explicit type="ending" facs="#i0141" xml:lang="ar">
+                                <locus>f.140v.23</locus> وقس عليه الضمير يرجع الي ام الاخ والاخت
+                                باعتبار المذكور ووقع في شرح الملتقي مثل ما هنا ولا وجه لجعل البعض </explicit>
+                            <note>Present copy is incomplete.</note>
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+
+
+
+
+
+
+
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
+                                    <measure type="chainline"
+                                        ><!-\- Insert, if available -\->.</measure>-->
+                                </support>
+                                <extent>140 ff. <!-- Insert details on extent -->
+                                    <!--  <dimensions unit="mm">
+                                        <!-\- Add if available -\->
+                                        <!-\-  <dim type="diameter"/>-\->
+                                        <dim type="length"></dim>
+                                        <!-\- Add or delete dimensions as needed -\->
+                                    </dimensions>--></extent>
+
+
+                                <foliation>Arabic numerals, pencil. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                                <!-- <collation>
+                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
+                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
+                                </collation>-->
+
+                                <!-- <condition>Poor D</condition>-->
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="25">1 column, 25 lines.</layout>
+
+                                <!-- <layout rulingMedium="">
+                                    <!-\- Add any information on ruling -\->
+                                </layout>
+-->
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                              
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black</p>
+                            </handNote>
+                        </handDesc>
+                       
+                        <additions>
+                            <list>
+
+                                <item>Text has many marginal comments and explanations
+                                    throughout.</item>
+
+
+                            </list>
+                        </additions>
+
+
+
+                        <bindingDesc>
+                            <binding>
+                                <p>MS is unbound.</p>
+
+                            </binding>
+                        </bindingDesc>
+
+
+
+
+                    </physDesc>
+
+
+                    <history>
+                        <origin>MS is undated.</origin>
+                     
+
+
+
+                    </history>
+                  
+
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh2008107451">Marriage--Religious aspects--Islam</term>
+                        </item>
+                     
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2022-05-30" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>

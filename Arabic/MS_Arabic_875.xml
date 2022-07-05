@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16519">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS_Arabic_875</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-04-28">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Arabic_875</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_875" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 875</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 854</idno>
+                        </altIdentifier>
+
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>2 works on Islamic prayer</summary>
+
+
+                        <msItem xml:id="MS_Arabic_875-item1" n="1">
+                            <locus facs="#i0003 #i0075">ff. 1v-73v</locus>
+                            <author>
+                                <persName xml:lang="en">Anonymous</persName>
+                            </author>
+                           
+                            <title type="desc" xml:lang="en">Text on the usage of different Islamic invocations</title>
+                        
+                            <incipit facs="#i0003" xml:lang="ar">
+                                <locus>f.1v.2</locus> قوله بسم اللـه الرحمن الرحيم افتتح المصـ
+                                كتابه ببسم اللـه الرحمن الرحيم لاجل مناسبات سبعة المناسبة الاولي
+                                اقتداء بساير الكتب المنزلة من السماء </incipit>
+                            <explicit type="ending" facs="#i0075" xml:lang="ar">
+                                <locus>fol.73b.19</locus> ما ذكره الذاكرون وغفل عن ذكره الغافلون
+                                ضميره ذكره يحتمل عوده الي اللـه كانه يقول صلي اللـه علي سيدنا محمد
+                                بعدد ذكر الذاكرين لك وبعدد غفلة الغافلين عن ذكرك ويحتمل عود الضمير
+                                الي وهو الموافق لظاهر اللفظ لدلالة سياق الكلام فيه وعليه فيكون
+                                المعنا كانه قال صل باللـه صلاة بعدد ذكر الذاكرين </explicit>
+                         <note>Text is incomplete.</note>
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_870-item2" n="2">
+                            <locus facs="#i0075 #i0078">ff. 74r-76v</locus>
+                            <author>
+                                <persName xml:lang="en">Anonymous</persName>
+                            </author>
+                            <title type="desc" xml:lang="en">Ḥadīth on various prayer rituals</title>
+                            <incipit type="beginning" facs="#i0075" xml:lang="ar">
+                                <locus>f.74r</locus> 
+                            صفة صلا تعدل المصلين من مشارق الارض ومغاربها وهي اللهم صل وسلم على سيدنا محمد وعلى جميع الانبياء والمرسلين
+                            </incipit>
+                          
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+
+                        </msItem>
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
+                                    <measure type="chainline"
+                                        ><!-\- Insert, if available -\->.</measure>-->
+                                </support>
+                                <extent>79 ff. <!-- Insert details on extent -->
+                                    <!--  <dimensions unit="mm">
+                                        <!-\- Add if available -\->
+                                        <!-\-  <dim type="diameter"/>-\->
+                                        <dim type="length"></dim>
+                                        <!-\- Add or delete dimensions as needed -\->
+                                    </dimensions>--></extent>
+
+
+                                <foliation> MS lacks foliation. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                                <!-- <collation>
+                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
+                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
+                                </collation>-->
+
+                                <!-- <condition>Fair C</condition>-->
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="23">1 column, 22 lines.</layout>
+
+                                <!-- <layout rulingMedium="">
+                                    <!-\- Add any information on ruling -\->
+                                </layout>
+-->
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                               
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+
+                        </decoDesc>
+
+                      
+
+
+
+                        <bindingDesc>
+                            <binding>
+                                <p>MS contained in a red leather and patterned paper pouch, with flap and textile chord.</p>
+                               
+                            </binding>
+                        </bindingDesc>
+                        
+
+
+
+
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            MS is undated. 
+                        </origin>
+
+
+
+                    </history>
+                 
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85068403">Islam--Prayers and devotions</term>
+                           
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2022-04-27" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>

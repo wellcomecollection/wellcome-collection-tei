@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16527">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS_Arabic_883</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-05-25">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Arabic_883</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_883" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 883</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 862</idno>
+                        </altIdentifier>
+
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>1 copy of Ḥāshīyat al-Birjandī ʿalá sharḥ
+                            al-Jaghmīnī by Birjandī, ʻAbd al-ʻAlī ibn
+                            Muḥammad ibn Ḥusayn,‏ ‎active 16th century</summary>
+
+
+                        <msItem xml:id="MS_Arabic_883-item1">
+
+                            <locus facs="#i0005 #i0119"/>
+
+                            <author key="person_7603024">
+                                <persName xml:lang="ar-Latn-x-lc">Birjandī, ʻAbd al-ʻAlī ibn
+                                    Muḥammad ibn Ḥusayn,‏ ‎active 16th century</persName>
+                                <persName xml:lang="ar" facs="#i0119">برجندي، عبد العلي بن محمد بن
+                                    حسين</persName>
+                            </author>
+                            <title type="original" facs="#i0119" xml:lang="ar"> حاشية البرجندي على
+                                شرح الجغميني </title>
+                            <title xml:lang="ar-Latn-x-lc">Ḥāshīyat al-Birjandī ʿalá sharḥ
+                                al-Jaghmīnī</title>
+                            <incipit facs="#i0005" xml:lang="ar">
+                                <locus>f.2v.4</locus> وبعد فهذه تعليقات على المواضع المشكلة وتنبيهات
+                                على رموز المباحث الحفية المعضلة من شرح الملخص فى الهيئة المنسوبة الى
+                                فاضل الامة الحبر المدقق والنحرير المحقق قدوة افاضل العلماء وصفوة
+                                امائل الازكياء المولى المشهور بقاضي زاده الرومي تغمده الله بغفرانه
+                                واسكنه بحبوحه جنانه جمعتها بالتماس بعض الاخوان لتكون تذكرة لهم
+                                ولسائر الخلان حفظنا الله واباٹم عن الزلل والخلل انه ولي التوفيق </incipit>
+                            <explicit facs="#i0119" xml:lang="ar">
+                                <locus>f.117r.13</locus> فالشهر الشمسي الوسطى ابدًا يكون ثلثين يوما
+                                وعشر ساعات وتسعا وعشرين دقيقة ونصف سدس دقيقه وهو الخارج من قسمة مدة
+                                السنة الشمسية على اثني عشر والشهر الشمسي الحقيقي قد يزيد عليه وقد
+                                يساويه وقد ينقص منهوالله اعلم بالصواب </explicit>
+                            <colophon facs="#i0119" xml:lang="ar">
+                                <locus>f.117r.18</locus> قد وقع فراغى من كتب هذه النسخة المسمية
+                                بحاشية البرجندي على شرح الجغميني عليهم رحمة الملك العلىّ بالحمد على
+                                خالق الافلاك الكروية ودائر الانجم السيارات النورانية والصلاة على
+                                نبيّه الذى هو شمس نهر الطريقة المصطفوية وقمر ليالي مراتب العليّة
+                                وعلى اله واولاده واصحابه الذين هم نجوم الامة المحمدية وزين الشريعة
+                                الاحمدية عن يد افقر عباد المعبود السيد محمد امين بن السيد عبد الله
+                                بن السيد خليل الى مغفرى ربّه الغفّار الرّحيم الودود في سنة لو زيد
+                                ربع الدورات الثلث على نصفها لكان نصف المجموع مع ربع تسع دور ومع خمس
+                                ثلث دور هذه في شهر هو ثالث ثلث اربعة ربع من خمس سدس دور في يوم لو
+                                نقص خمس تسع دور هن عشرة لحصل ذلك وفي يوم الخميس قبيل العصر </colophon>
+                            <note>Text is a gloss on the commentary on <hi rend="italic"
+                                    >al-Mulakhkhaṣ fī al-hayʾah</hi> of <persName
+                                    key="person_5146153029805251752"
+                                >al-Jaghmīnī</persName>.</note>
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+
+
+
+                        </msItem>
+
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
+                                    <measure type="chainline"
+                                        ><!-\- Insert, if available -\->.</measure>-->
+                                </support>
+                                <extent>117 ff. <!-- Insert details on extent -->
+                                    <!--  <dimensions unit="mm">
+                                        <!-\- Add if available -\->
+                                        <!-\-  <dim type="diameter"/>-\->
+                                        <dim type="length"></dim>
+                                        <!-\- Add or delete dimensions as needed -\->
+                                    </dimensions>--></extent>
+
+
+                                <foliation>Arabic numerals, pencil. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                                <!-- <collation>
+                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
+                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
+                                </collation>-->
+
+                                <!-- <condition>Good B</condition>-->
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="21">1 column, 21 lines.</layout>
+
+                                <!-- <layout rulingMedium="">
+                                    <!-\- Add any information on ruling -\->
+                                </layout>
+-->
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="ta_liq">
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="ar-Latn-x-lc">al-Sayyid Muḥammad Amīn b.
+                                        al-Sayyid ʿAbd Allāh b. al-Sayyid Khalīl</persName>
+                                    <persName xml:lang="ar" facs="#i0119">السيد محمد امين بن السيد
+                                        عبد الله ابن السيد خليل</persName>
+                                </p>
+                                <p><label>Script:</label> Taʿlīq</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+
+                        </decoDesc>
+
+
+                        <additions><list>
+
+                                <item>Text has many marginal comments and explanations throughout.</item>
+
+                            </list></additions>
+
+
+                        <bindingDesc>
+                            <binding>
+                                <p>Paper boards; quarter bound with red leather and marbled paper
+                                    covers. Natural-coloured endbands. Yellow paper pastedowns.</p>
+
+                            </binding>
+                        </bindingDesc>
+
+                        <sealDesc>
+                            <seal facs="#i0004">
+                                <p>MS has six identical seals bearing the name: <quote>محمد
+                                        أسعد</quote>
+                                    <locus>f. 2r, 117v</locus></p>
+                            </seal>
+                        </sealDesc>
+
+
+
+                    </physDesc>
+
+
+                    <history>
+                        <origin> The date of the MS is written as a riddle: <quote xml:lang="ar">في
+                                سنة لو زيد ربع الدورات الثلث على نصفها لكان نصف المجموع مع ربع تسع
+                                دور ومع خمس ثلث دور هذه في شهر هو ثالث ثلث اربعة ربع من خمس سدس دور
+                                في يوم لو نقص خمس تسع دور هن عشرة لحصل ذلك وفي يوم الخميس قبيل
+                                العصر</quote>
+                        </origin>
+
+                        <acquisition>Wellcome Library accession number: 65999</acquisition>
+
+
+                    </history>
+
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85009003">Astronomy</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2022-05-27" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>

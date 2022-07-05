@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16514">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS_Arabic_870</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-04-26">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Arabic_870</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_870" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 870</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 849</idno>
+                        </altIdentifier>
+
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>Collection of Islamic prayers and theological texts</summary>
+
+
+                        <msItem xml:id="MS_Arabic_870-item1" n="1">
+                            <locus facs="#i0002 #i0006">ff. 1v-5v</locus>
+                            <author>
+                                <persName xml:lang="en">Anonymous</persName>
+                            </author>
+                            <title type="original" xml:lang="ar"> دعاء دولة</title>
+                            <title xml:lang="ar-Latn-x-lc">Duʿāʾ Dawlah</title>
+                            <incipit facs="#i0002" xml:lang="ar">
+                                <locus>f.1v.3</locus> صدق الله العظيم الذي لا اله الا هو الحي القيوم
+                                يا ذا الجلال والاكرام الحكيم الكريم الواحد الاحد الفرد الصمد </incipit>
+                            <explicit type="ending" facs="#i0006" xml:lang="ar">
+                                <locus>f.5v.7</locus> اللهم صل على من سميت ومن اُسم من ملائكتك ورسلك
+                                وانبيائك واهل طاعتك وافضل صلواتك </explicit>
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_870-item2" n="2">
+                            <locus facs="#i0013 #i0016">ff. 12v-16r</locus>
+                            <author>
+                                <persName xml:lang="en">Anonymous</persName>
+                            </author>
+                            <title type="desc" xml:lang="en">Assorted Qurʾānic verses</title>
+                            <textLang mainLang="ar">Arabic</textLang>
+
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_870-item3" n="3">
+                            <locus facs="#i0018 #i0024">ff. 17v-24r</locus>
+                            <author key="person_90044487">
+                                <persName xml:lang="ar-Latn-x-lc">Sanūsī, Muḥammad ibn Yūsuf,‏
+                                    ‎d. approximately 1427-approximately 1490</persName>
+                                <persName xml:lang="ar">السنوسي، محمد بن يوسف‏</persName>
+                            </author>
+                            <title xml:lang="ar" type="original">عقيدة اهل التوحيد الصغرى</title>
+                            <title xml:lang="ar-Latn-x-lc">ʿAqīdat ahl al-tawḥīd
+                                al-ṣughrá.</title>
+
+                            <incipit facs="#i0018" xml:lang="ar">
+                                <locus>f.17v.2</locus> اعلم ان الحكم العقلي ينحصر فى ثلاثة اقسام
+                                الوجوب والاستحالة والجواز فالواجب ما لا يتصور فى العقل عدمه </incipit>
+                            <explicit facs="#i0024" xml:lang="ar">
+                                <locus>f.24r.1</locus> فعلى العاقل ان يكثر من ذكرها مستحضرا لما
+                                احتوت عليه من عقائد الايمان حتى تمتزج مع معناها بلحمه ودمه فانه يرى
+                                لها من الاسرار والعجائب ان شاء الله تعالى ما لا يدخل تحت حصر </explicit>
+                            <colophon facs="#i0024" xml:lang="ar">
+                                <locus>f.24r.5</locus> وبالله التوفيق لا رب غيره ولا معبود سواه
+                                نسأله سبحانه وتعالى أن يجعلنا واحبتنا عند الموت ناطقين بكلمة الشهادة
+                                عالمين بها وصل الله على سيدنا محمد كلما ذكره الذاكرون وغفل عن ذكره
+                                الغافلون ورضي الله تعالى عن أصحاب رسول الله أجميعن والتابعين لهم
+                                باحسان الى يوم الدين وسلام على المرسلين والحمد لله رب العالمين </colophon>
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_870-item4" n="4">
+                            <locus facs="#i0026 #i0029">ff. 26r-28v</locus>
+
+                            <author>
+                                <persName xml:lang="ar-Latn-x-lc" type="standard">Muḥammad
+                                    al-Fāsī</persName>
+                                <persName xml:lang="ar" facs="#i0026">محمد الفاسي</persName>
+                            </author>
+                            <title type="original" facs="#i0026" xml:lang="ar"> الياقوتية </title>
+                            <title xml:lang="ar-Latn-x-lc">al-Yāqūtīyah</title>
+
+                            <incipit facs="#i0026" xml:lang="ar">
+                                <locus>f.26r.6</locus> اِنَّ الله وملائكَتَهُ يُصَلُّونَ على النبيِّ
+                                يا ايها الذينَ امنُوا صَلُّوا عليهِ وسلموُا تسليماً </incipit>
+                            <explicit facs="#i0029" xml:lang="ar">
+                                <locus>f.28v.2</locus> واغْفِرِ اللَهم ذُنُوبَنَا وَوَالدينَا
+                                ومشاٸخنا واخوانِناَ فى الله وجميعَ المومنينَ والمومناتِ والمسلمين
+                                والمسلماتِ المطيعينَ منهم واهل الاوزار وصلى الله على سيدنا محمد
+                                النبي الامى وعلى اله وصحبه وسلم </explicit>
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+                        <msItem>
+                            <locus facs="#i0032 #i0044">ff. 32r-43v</locus>
+                            <author>
+                                <persName xml:lang="en">Anonymous</persName>
+                            </author>
+                            <title xml:lang="en" type="desc">Assorted prayers</title>
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+
+                        <msItem xml:id="MS_Arabic_870-item5" n="5">
+
+
+                            <locus facs="#i0044 #i0083">ff. 44r-83r</locus>
+                            <author>
+                                <persName xml:lang="ar-Latn-x-lc">ʿAbd Allāh b. Sulṭān</persName>
+                                <persName type="original" xml:lang="ar" facs="#i0044">عبد الله بن
+                                    سلطان</persName>
+                            </author>
+                            <title type="original" xml:lang="ar" facs="#i0044">الحرز المبارك</title>
+                            <title xml:lang="ar-Latn-x-lc">al-Ḥirz al-mubārak</title>
+
+                            <incipit facs="#i0044" xml:lang="ar">
+                                <locus>f.44r.6</locus> استغفر الله العظيم ثلاثا الذى لا اله الا هو
+                                الحيُّ القيوم واتوب اليه من جميع الذنوب والاثام ومن جميع ما يكرهه
+                                ربى قولا وفعلا حاضرا وغاٸبا </incipit>
+                            <explicit facs="#i0083" xml:lang="ar">
+                                <locus>f.82v.5</locus> وحسبنا الله ونعم الوكيل وَلَا حول ولا قوة الا
+                                بالله العلى العظيم وصلى الله على سيدنا محمد وعلى اله وصحبه اجمعين
+                                سبحان ربك رب العزة عما يصفون وسلام على المرسلين والحمد لله رب
+                                العالمين </explicit>
+                            <colophon facs="#i0083" xml:lang="ar">
+                                <locus>f.83r.1</locus> تم الحرز المبارك وهو يقرا فى كل شهر رجب اربع
+                                مرات وعلى الله القبول </colophon>
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_870-item6" n="6">
+                            <locus facs="#i0047 #i0049">ff. 46v-48v</locus>
+                            <author>
+                                <persName xml:lang="en">Anonymous</persName>
+                            </author>
+                            <title type="desc" xml:lang="en">Invocations using names of God</title>
+
+                            <incipit facs="#i0047" xml:lang="ar">
+                                <locus>f.46v.2</locus> يا الله ٧٧ يا رحمن ٣٠٩ يا رحيم ٢٦٩ يا حليم ٩٩
+                                يا عليم ١٦١ يا حكيم ٨٩ يا كريم ٣١١ يا قديم ١٦٥ يا جليل ٨٤ يا جميل ٩٤
+                                يا كفيل ١٦١ يا وكيل ٧٧ يا قبيل ١٥٧ </incipit>
+                            <explicit type="ending" facs="#i0049" xml:lang="ar">
+                                <locus>f.48v.6</locus> يا امان يا مستعان يا هو يا من هو الا هو يا ذو
+                                الجلال والاكرام </explicit>
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
+                                    <measure type="chainline"
+                                        ><!-\- Insert, if available -\->.</measure>-->
+                                </support>
+                                <extent>87 ff. <!-- Insert details on extent -->
+                                    <!--  <dimensions unit="mm">
+                                        <!-\- Add if available -\->
+                                        <!-\-  <dim type="diameter"/>-\->
+                                        <dim type="length"></dim>
+                                        <!-\- Add or delete dimensions as needed -\->
+                                    </dimensions>--></extent>
+
+
+                                <foliation> MS lacks foliation. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                                <!-- <collation>
+                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
+                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
+                                </collation>-->
+
+                                <!-- <condition>Poor D</condition>-->
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="23">1 column, lines vary.</layout>
+
+                                <!-- <layout rulingMedium="">
+                                    <!-\- Add any information on ruling -\->
+                                </layout>
+-->
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black</p>
+                            </handNote>
+                        </handDesc>
+                      
+                        <additions><list>
+                            <item facs="#i0049">
+                               
+                               Talismanic table   <locus>f.49r</locus>.
+                            </item>
+                            </list></additions>
+
+
+
+                        <bindingDesc>
+                            <binding>
+                                <p>MS is unbound.</p>
+
+                            </binding>
+                        </bindingDesc>
+
+
+
+
+
+                    </physDesc>
+
+                    <history>
+                        <origin> MS is undated. </origin>
+                     
+
+
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl><hi rend="italic">Muʿjam al-muʾallifīn</hi>: 4, p. 485.</bibl>
+
+                           
+
+
+
+                        </listBibl>
+                    </additional>
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85068396">Islam--Doctrines</term>
+                            <term ref="subject_sh85106123">Prayer--Islam</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2022-04-26" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>
