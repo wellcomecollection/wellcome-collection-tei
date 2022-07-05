@@ -20,5 +20,3 @@ Exemplars of calligraphy written in Arabic are included in:
 
 This work builds on the [Wellcome Arabic Manuscript Cataloguing Project (WAMCP)](http://wamcp.bibalex.org/about-us), a collaboration between Wellcome Library, Bibliotheca Alexandrina, and King's College London, funded by JISC and the Wellcome Trust between 2009 and 2011.
 
-
-This is a test 05/02/22
