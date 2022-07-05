@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15808">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS_Arabic_163</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-06-08">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Arabic_163</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_163" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 163</idno>
+                        <!-- <altIdentifier type="former">
+                            <idno></idno>
+                        </altIdentifier>-->
+
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>1 copy of Afāḍil al-aṭṭibāʾ by Galen</summary>
+
+
+                        <msItem xml:id="MS_Arabic_163-item1">
+
+                            <author key="person_44299175">
+                                <persName xml:lang="en">Galen</persName>
+                                <persName xml:lang="ar">جالينوس</persName>
+                            </author>
+
+                            <title type="original" xml:lang="ar" facs="#i0002"> افاضل الاطباء </title>
+                            <title type="alt" xml:lang="ar" facs="#i0031"> كتاب جالينوس في محنة
+                                الطبيب</title>
+                            <title xml:lang="ar-Latn-x-lc">Afāḍil al-aṭṭibāʾ</title>
+
+                            <incipit facs="#i0002" xml:lang="ar">
+                                <locus>f.1v</locus> قال جالينوس ان اكثر الناس انما يونون في اغفالهم
+                                امر فضايل النفس ومصالحها من الجهل</incipit>
+
+                            <colophon xml:lang="ar" facs="#i0031"><locus>f. 30r</locus> تم كتاب
+                                جالينوس في محنة الطبيب الحادق وذلك في اليوم السادس والعشرين من شهر
+                                ايار المبارك في تاريخ سنة الف وسبعماية واحدى وخمسون مسيحيّة ولله
+                                الحمد سرمداً </colophon>
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+
+
+
+
+
+
+
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
+                                    <measure type="chainline"
+                                        ><!-\- Insert, if available -\->.</measure>-->
+                                </support>
+                                <extent>30 ff. <!-- Insert details on extent -->
+                                    <!--  <dimensions unit="mm">
+                                        <!-\- Add if available -\->
+                                        <!-\-  <dim type="diameter"/>-\->
+                                        <dim type="length"></dim>
+                                        <!-\- Add or delete dimensions as needed -\->
+                                    </dimensions>--></extent>
+
+
+                                <foliation> Eastern Arabic and Arabic numerals, black ink. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                                <!-- <collation>
+                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
+                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
+                                </collation>-->
+
+                                <!-- <condition>Fair C</condition>-->
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="18">1 column, 18 lines.</layout>
+
+                                <!-- <layout rulingMedium="">
+                                    <!-\- Add any information on ruling -\->
+                                </layout>
+-->
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+
+                        <additions>
+                            <list>
+
+                                <item>Text has marginal comments, explanations and corrections throughout.</item>
+                               
+
+                            </list>
+                        </additions>
+
+
+
+                  <!--      <bindingDesc>
+                            <binding>
+                              <p>No binding description available from images.</p>
+
+                            </binding>
+                        </bindingDesc>-->
+
+
+
+
+                    </physDesc>
+
+
+                    <history>
+                        <origin>
+                           
+                            <origDate calendar="#Gregorian" when="1751">1751</origDate></origin>
+
+
+
+
+                    </history>
+                    
+
+
+
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh93009493">Medicine--Early works to 1800</term>
+                        </item>
+
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2022-06-08" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>

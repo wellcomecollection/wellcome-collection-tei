@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16479">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS_Arabic_835</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-06-24">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Arabic_835</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_835" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 835</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 814</idno>
+                        </altIdentifier>
+
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>1 copy of Wasīlat al-ittiṣāl li-bayān aḥkām
+                            al-ghirbāl by Ibrāhīm b. Abī Bakr al-Ṣāliḥī
+                            al-Ḥanbalī </summary>
+
+
+                        <msItem xml:id="MS_Arabic_835-item1">
+
+
+                            <locus facs="#i0002 #i0011"/>
+                            <author>
+                                <persName xml:lang="ar-Latn-x-lc">Ibrāhīm b. Abī Bakr al-Ṣāliḥī
+                                    al-Ḥanbalī</persName>
+                                <persName xml:lang="ar" facs="#i0002">ابراهيم ابن ابي ٮكر الصالحى
+                                    الحنبلي</persName>
+                            </author>
+                            <title type="original" facs="#i0002" xml:lang="ar"> وَسَيلة الاتصَال
+                                لبيَان احكام الغربَال لاستخراج الأعداد الصم </title>
+
+
+                            <title xml:lang="ar-Latn-x-lc">Wasīlat al-ittiṣāl li-bayān aḥkām
+                                al-ghirbāl li-istikhrāj al-aʿdād al-summ</title>
+
+
+                            <incipit facs="#i0003" xml:lang="ar">
+                                <locus>f.1v.10</locus> وَبعَد فان عِلم الحسَاب امرٌُ مهم يحتاجُه من
+                                يُريد الشروع في علم الفرايض وَان عِلم الفراٸض نِصف العلم كما نصَّ
+                                عليْه الشّارع صَلى اللـه عَليه وسلم ليُعلم به اعداد المسَاٸل
+                                وَتصحيحها وَالسهَام وَالكسُور وَمخارجهَا وغير ذلك <gap
+                                    reason="omitted"/> وَقد وَضعُوا عُلماء الحسَاب في كتبهم لذلك
+                                جَدوَل شباك وَسمُوه بالغربال لان اعين الجَدول كاعْين الغربال <gap
+                                    reason="omitted"/> فاحبَبت ان اضع جَدولا متسعًا <gap
+                                    reason="omitted"/> وَسَميته وَسَيلة الاتصَال لبيَان احكام
+                                الغربَال </incipit>
+                            <explicit type="ending" facs="#i0011" xml:lang="ar">
+                                <locus>f.10r.28</locus> التقطها مِن شباك الغربال بعد تصحيح وتحر...  </explicit>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            <note>Latter part of text consists of numerical tables.</note>
+                        </msItem>
+
+
+
+
+
+
+
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Burnished paper
+                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
+                                    <measure type="chainline"
+                                        ><!-\- Insert, if available -\->.</measure>-->
+                                </support>
+                                <extent>10 ff. <!-- Insert details on extent -->
+                                    <!--  <dimensions unit="mm">
+                                        <!-\- Add if available -\->
+                                        <!-\-  <dim type="diameter"/>-\->
+                                        <dim type="length"></dim>
+                                        <!-\- Add or delete dimensions as needed -\->
+                                    </dimensions>--></extent>
+
+
+                                <foliation>MS lacks foliation. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                                <!-- <collation>
+                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
+                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
+                                </collation>-->
+
+                                <!-- <condition>Poor D</condition>-->
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="25">1 column, 25 lines.</layout>
+
+                                <!-- <layout rulingMedium="">
+                                    <!-\- Add any information on ruling -\->
+                                </layout>
+-->
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+
+                        </decoDesc>
+
+
+
+
+
+                        <bindingDesc>
+                            <binding>
+                                <p>
+                                    <dimensions type="binding" unit="mm">
+                                        <height>200</height>
+                                        <width>147</width>
+                                    </dimensions>
+                                    <material>Paper boards; blue marbled paper
+                                    covers.</material></p>
+
+
+                            </binding>
+                        </bindingDesc>
+
+
+
+
+
+                    </physDesc>
+
+
+                    <history>
+                        <origin>
+                           MS is undated.
+                        </origin>
+                        <acquisition>Wellcome Library accession number: 65969</acquisition>
+
+
+
+
+                    </history>
+
+
+
+
+
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85007163">Arithmetic</term>
+                            <term ref="subject_sh85082172">Mathematics, Arab
+                            </term>
+                            
+                        </item>
+
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2022-06-24" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>

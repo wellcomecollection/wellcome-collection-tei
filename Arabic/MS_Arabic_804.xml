@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16448">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS_Arabic_804</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-06-08">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS_Arabic_804</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_804" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 804</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 783</idno>
+                        </altIdentifier>
+
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>1 copy of Sharḥ nuzhat al-nuẓẓār fī ʿilm al-qalam al-hindī
+                            wa-al-ghubār by Ghazzī, Aḥmad ibn Qāsim,‏ ‎d. -1575</summary>
+
+
+                        <msItem xml:id="MS_Arabic_804-item1">
+
+                            <author key="person_33931226">
+                                <persName xml:lang="ar-Latn-x-lc">Ghazzī, Aḥmad ibn Qāsim,‏ ‎d.
+                                    -1575</persName>
+                                <persName xml:lang="ar" facs="#i0002">شهاب الدين احمد بن محمد بن
+                                    محمد بن عبد القادر بن محمد ابن جبريل الغزى الشافعى</persName>
+                            </author>
+
+                            <title type="original" facs="#i0002" xml:lang="ar"> شرح النزهه نزهه
+                                النظار في القلم الهندي والغبار </title>
+
+                            <title xml:lang="ar-Latn-x-lc">Sharḥ nuzhat al-nuẓẓār fī ʿilm al-qalam
+                                al-hindī wa-al-ghubār</title>
+
+                            <incipit facs="#i0003" xml:lang="ar">
+                                <locus>f.1v.6</locus> اما بَعد فهذا ما دعت اليه حاجة الطلاب لعلم
+                                الحسّاب الراغبين في تحقيق معَاني الكتاب الموسّوم بنزهة النظار في
+                                القلم الهندي والغبار تاليف العلامه العالم ابي العباسّ شهاب الدين
+                                احمد بن الهايم من شرح كافٍ ذي بيانٍ شافٍ <gap reason="omitted"/> قال
+                                رحمة الله عليه بسم الله الرحمَن الرّحيم اي افتتح اما بفتح الهمزه فيه
+                                معني الشرط </incipit>
+
+                            <colophon facs="#i0109" xml:lang="ar">
+                                <locus>f.108r.7</locus> وقد وقع الختام علي الستر تفاولا فهذا القدر
+                                المقتصر عليه من فن الغبار في هذا المختصر هو الذي لا يسع نهاية المحصل
+                                لذلك الفن جهله اي فلابد لطالب هَذا الفن من تحصيله ومن اراد الزيادة
+                                علي ذلك فيكفيه اصله المسمي بالمرشدة للمصنف ومن رام اي طلب التبحر اي
+                                التوسع في التصرف في المجهول بالاعداد المتناسبة فعليه بالمعونة اي
+                                بالكتاب المسمي بالمعونة الموضوع في علم الحساب الهَواي <sic/> تآليف
+                                المصنف التي فاقت كتب هذا الفن قاطبة والله الموفق بمنه وكرمه فهذا اخر
+                                ما من الله تعالي بتعليقه شرحا عَلي الكتاب المسمي بنزهة النظار في فن
+                                الغبار جعله الله خالصا لوجهه الكريم واجزل لمولفه وكاتبه والناظر فيه
+                                الثواب في جنات النعيم انه علي ما يشا قدير وبالاجابة جدير وصلي الله
+                                علي سيدنا محمد وعلي الِه وصحبه اجمعين وسلام علي المرسلين والحمد لله
+                                رب العالمين تم </colophon>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            <note>A commentary on <hi rend="italic">Nuzhat al-ḥussāb</hi> of
+                                    <persName xml:lang="ar-Latn-x-lc" key="person_56587788">Ibn
+                                    al-Hāʼim, Aḥmad ibn Muḥammad, d. 1412</persName>.</note>
+                        </msItem>
+
+
+
+
+
+
+
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
+                                    <measure type="chainline"
+                                        ><!-\- Insert, if available -\->.</measure>-->
+                                </support>
+                                <extent>109 ff. <!-- Insert details on extent -->
+                                    <!--  <dimensions unit="mm">
+                                        <!-\- Add if available -\->
+                                        <!-\-  <dim type="diameter"/>-\->
+                                        <dim type="length"></dim>
+                                        <!-\- Add or delete dimensions as needed -\->
+                                    </dimensions>--></extent>
+
+
+                                <foliation>Arabic numerals, pencil. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                                <!-- <collation>
+                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
+                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
+                                </collation>-->
+
+                                <!-- <condition>Fair C</condition>-->
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="19">1 column, 19 lines.</layout>
+
+                                <!-- <layout rulingMedium="">
+                                    <!-\- Add any information on ruling -\->
+                                </layout>
+-->
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+                        </decoDesc>
+
+                        <additions>
+                            <list>
+
+                                <item facs="#i0002"> Arabic verses on the subject of calculating
+                                    inheritance <locus>f. 1r</locus>.</item>
+
+                                <item facs="#i0004 #i0007 #i0011 #i0013 #i0014 #i0015"> Mathematical
+                                    tables.</item>
+
+
+                                <item>Text has marginal comments, explanations and corrections
+                                    throughout.</item>
+
+
+                            </list>
+                        </additions>
+
+
+
+                        <bindingDesc>
+                            <binding>
+                                <p><material>Paper boards; quarter-bound with brown leather and marbled paper
+                                    covers. Yellow paper pastedowns.</material></p>
+                                <condition> Damage to spine.</condition>
+
+                            </binding>
+                        </bindingDesc>
+                        <sealDesc>
+                            <seal>
+                                <p facs="#i0002"> Unclear blue seal, <locus>f. 1r</locus>.</p>
+                            </seal>
+                        </sealDesc>
+
+
+
+
+                    </physDesc>
+
+
+                    <history>
+                        <origin> MS is undated.</origin>
+                        <provenance>Note of ownership: <quote xml:lang="ar">من نعم الله علي عبده
+                                محمد ابرا النجاحي</quote>
+                            <locus>f. 1r</locus>.</provenance>
+
+
+
+
+                    </history>
+
+                    <additional>
+                        <listBibl>
+                            <bibl>Brockelmann: S, 2, p. 154.</bibl>
+                        </listBibl>
+                    </additional>
+
+
+
+
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85007163">Arithmetic</term>
+                        </item>
+
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2022-06-08" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>
