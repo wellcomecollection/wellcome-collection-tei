@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Syriac_2">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>Syriac_2</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-02-16">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">Syriac 2<!-- Give the shelfmark of the manuscript --></idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc>
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark"/>
+                        <altIdentifier type="Sierra">
+                            <idno/>
+                        </altIdentifier>
+                        <!-- Use further <altIdentifier> if former or alternative <idno> is available -->
+                        <altIdentifier type="accession">
+                            <idno>Karshuni acc. 68541</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>Syriac devotional text</summary>
+
+
+                        <msItem xml:id="Syriac_2-item1">
+
+
+                            <title type="desc" xml:lang="en">Syriac devotional text</title>
+                            <incipit>...ܡܝܬܐ ܕܩܒܪܬܘܢ ܒܝܬ ܥܢܝܕܐ ܕܐ ܗܘ ܕܡܝܬܐܗܘ ܥܠ... ܢܛܘܪܐ
+                                ܠܩܒܪܗ</incipit>
+
+
+
+
+
+                            <textLang mainLang="syr" source="IANA">Syriac</textLang>
+                            <!-- Enter BCP 47 IANA language code as attribute value and full language name here . For Hebrew, value is "he". For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry-->
+
+                            <!--  <incipit xml:lang="syr"></incipit>-->
+
+                            <note>Appears to be a collection of Christian prayers in Syriac.</note>
+
+
+
+
+
+
+
+                        </msItem>
+
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
+                                    <measure type="chainline"
+                                        ><!-\- Insert, if available -\->.</measure>-->
+                                </support>
+                                <!-- <extent><!-\- Insert details on extent -\->
+                                    <dimensions unit="mm">
+                                        <!-\- Add if available -\->
+                                        <dim type="diameter"/>
+                                        <dim type="length"/>
+                                        <!-\- Add or delete dimensions as needed -\->
+                                    </dimensions>
+                                </extent>-->
+
+                                <foliation> MS lacks foliation. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                                <!-- <collation>
+                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
+                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
+                                </collation>-->
+
+                                <condition>Deteriorated.</condition>
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" writtenLines="12"> 1 column, 12 lines. </layout>
+
+                                <!-- <layout rulingMedium="">
+                                    <!-\- Add any information on ruling -\->
+                                </layout>
+-->
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major">
+                                <p><label>Script:</label> Syriac, Serṭo</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Arabic marginal note in blue ink: <quote xml:lang="ar">جناب كريم
+                                    الامجد المحترم</quote>
+                                <!--<locus></locus>-->.</p>
+                            <p>Arabic marginal notes in pencil: يوسف كلمني كاتبه بابا رومي الملاح
+                                (؟) س <!--<locus></locus>-->.</p>
+                            <p>Some marginal notes in French.</p>
+                        </additions>
+
+                        <bindingDesc>
+                            <binding contemporary="true">
+                                <p>Paper boards; brown leather covers, embossed with central diamond-shaped
+                                    design.</p>
+                                <condition> Damage to spine and covers; boards exposed
+                                    in parts.</condition>
+                            </binding>
+                        </bindingDesc>
+
+
+                    </physDesc>
+
+                    <history>
+                        <origin> MS is undated. </origin>
+
+
+
+                    </history>
+
+                    <!--  <additional>
+                        
+                        
+                        <!-\- Enter bibliographical info, if needed -\->
+                        
+                        
+                    </additional>-->
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+
+                            <term ref="subject_sh85077737">Eastern churches--Liturgy</term>
+                            <term ref="subject_sh2014100161">Christian literature, Syriac</term>
+
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2022-02-16" who="#RM">Completed TEI description for Syriac MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>
