@@ -4,6 +4,7 @@ The 'by the shelf' procedure records the following elements:
 
 * Unique no
 * Object name
+  * Separate table in Quickbase
 * Number of objects
 * Basic desc
   * Include any identifiers, if known.
