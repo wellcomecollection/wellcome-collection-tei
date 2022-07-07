@@ -6,6 +6,7 @@ The 'by the shelf' procedure records the following elements:
 * Object name
 * Number of objects
 * Basic desc
+  * Include any identifiers, if known.
 * Cataloguing status
   * Give the location or CMS where the cataloguing status may be found
 * Location
