@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 01.03.22 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_20">
+    
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Ethiopian 20</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RK">
+                <resp when="2005">Cataloguer</resp>
+                <persName>R. Kidane</persName>
+            </respStmt>
+            <respStmt xml:id="KG">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Ekaterina Gusarova</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2022-03-01">Template</resp>
+                <resp when="2022">Provenance research</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+            <respStmt xml:id="BLE">
+                <resp when="2022-07-15">TEI Encoder</resp>
+                <persName>Branwen Lloyd-Evans</persName>
+            </respStmt>
+           
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">Ethiopian 20</idno>
+            <idno type="catalogue">Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London.</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Ethiopian 20</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b24724488</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Prayers of magical character.</summary>
+                   
+                    <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                    
+                    <msItem n="1" xml:id="Ethiopian_20_1">
+                        <locus from="1" to="100">lines 1-100</locus>
+                        <author>anonymous</author>
+                        <title type="desc">Prayer against charms, taken from the 81 Books of Judgement with a foreword</title>
+                        
+                        <incipit><locus></locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Ethiopian_20_2">
+                        <locus from="101" to="127">lines 101-127</locus>
+                        <author>Anonymous</author>
+                        <title type="desc">Prayer against the disease of evil spirit Barya with a foreword and “magical names”</title>
+                        
+                        <incipit><locus></locus><!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Ethiopian_20_3">
+                        <locus from="128" to="150">lines 128-150</locus>
+                        <author>Anonymous</author>
+                        <title type="desc">The list of magical names</title>
+                        
+                        <incipit><locus></locus><!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                    </msItem>
+                    
+                    <msItem n="4" xml:id="Ethiopian_20_4">
+                        <locus from="151" to="177">lines 151-177</locus>
+                        <title type="desc">The beginning of Gospel of St. John</title>
+                        
+                        <incipit><locus></locus><!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                        
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+                    
+                    <objectDesc form="scroll">
+                       
+                        <supportDesc material="vellum">                     
+                            <support>Vellum</support>
+                            
+                            <extent>3 strips (the third one is shorter)
+                                <dimensions type="folia" unit="mm" >
+                                    <dim type="diameter">75</dim>
+                                    <dim type="length">1567</dim>
+                                </dimensions>
+                            </extent>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="177">
+                                177 lines in black and red ink.                                        
+                            </layout>
+                            
+                            <layout columns="1">1 column
+                                <dimensions unit="mm"><dim type="diameter">74 mm</dim></dimensions>
+                            </layout>
+                            
+                            <layout>
+                                The scroll is comprised of three strips (the third one is shorter). A mistara was not used.
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote>Clear handwriting in black and red ink.</handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote type="miniature"><locus>Before line 1:</locus>“The Captured demon”</decoNote>
+                        <decoNote type="miniature"><locus>After line 35:</locus>“The Captured demon”</decoNote>
+                        <decoNote type="miniature"><locus>After line 62:</locus>“The Captured demon”</decoNote>
+                        <decoNote type="miniature"><locus>After line 100:</locus>“The Captured demon”</decoNote>
+                        <decoNote type="miniature"><locus>After line 127:</locus>Cross</decoNote>
+                        <decoNote type="miniature"><locus>After line 177:</locus>Cross</decoNote>
+                        
+                    </decoDesc>
+                   
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Ethiopia</country>,
+                        </origPlace>
+                        <origDate calendar="Gregorian">18th-19th century</origDate>
+                    </origin>
+                    <provenance>The name of the original owner was erased and <persName>Takla Haymanot</persName> was written instead.</provenance>
+                    <acquisition>Acquired by Wellcome Library after 1972.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London</title>
+                                    <author>R. Kidane</author>
+                                    <date>c.2005</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian manuscripts</title>
+                                    <author>Ekaterina Gusarova</author>
+                                    <date>2015</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+     </fileDesc>
+        
+     <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject__sh 2006002415">Incantations, Ethiopic</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+            <change when="2022-07-15" who="#BLE">Created XML file</change>
+        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
