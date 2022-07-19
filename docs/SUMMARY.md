@@ -10,3 +10,4 @@
     * [By the shelf](manuscript-inventory/phase-2/by-the-shelf.md)
 * [FrontEnd](frontend/README.md)
   * [TEI cataloguing mapping](frontend/draft.md)
+* [TEI Manual](tei-manual.md)
