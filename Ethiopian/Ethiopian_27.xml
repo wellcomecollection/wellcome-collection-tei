@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_27">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Ethiopian 27</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RK">
+                <resp when="2005">Cataloguer</resp>
+                <persName>R. Kidane</persName>
+            </respStmt>
+            <respStmt xml:id="KG">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Ekaterina Gusarova</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2022-03-01">Template</resp>
+                <resp when="2022">Provenance research</resp>
+                <resp when="2022-07-25">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">WMS Ethiopian 27</idno>
+            <idno type="catalogue">Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London.</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Ethiopian 27</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b24738876</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Two of the Five Pillars of Mystery</summary>
+                   
+                    <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                    
+                    <msItem n="1" xml:id="Wellcome_Ethiopian_27_1">
+                        <locus from="6v" to="14">fols. 6v, 1. 14-11v</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="main">The Mystery of the Trinity</title>
+                        
+                        <incipit><locus>fol.6v</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Wellcome_Ethiopian_27_2">
+                        <locus from="12r" to="29v">12r-26v, 29r-29v</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="main">The Mystery of the Incarnation</title>
+                        
+                        <incipit><locus>fol.12r</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="perg">                     
+                            <support>Vellum</support>
+                            
+                            <extent>37 folios
+                                <dimensions type="folia" unit="mm" >
+                                    <dim type="diameter">95</dim>
+                                    <dim type="length">140</dim>
+                                    <dim type="thickness">10</dim>
+                                </dimensions>
+                            </extent>
+                            
+                            <foliation>
+                                 Folios are misplaced and the actual foliation is not correct.
+                            </foliation>
+                            
+                            <collation>
+                                <formula>I 11 (1-11; fols. 2-5 are not from this quire), II 8 (12-19), III 10 (20-29; fols. 27-28 are not from this quire), IV 8 (30-37).</formula>
+                                <note>Quires are misplaced.</note>
+                            </collation>
+
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="20">20 lines in black and red ink                                       
+                            </layout>
+                            
+                            <layout>
+                                Rows of red and black dots form the mistara
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <decoDesc>
+                        <decoNote>Decorated separaters of the texts.</decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p>Text on fols. 1-6v, 27r-28v, 30r-37v are unidentified due to folios missing or misplaced. </p>
+                    </additions>
+
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Ethiopia</country>,
+                        </origPlace>
+                        <origDate calendar="Gregorian">18-19th century</origDate>
+                    </origin>
+                    <acquisition notBefore="1972" notAfter="2005">Acquired by the Wellcome Historical Medical Museum, or its predecessor Wellcome Library, at some point between 1972 and 2005.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London</title>
+                                    <author>R. Kidane</author>
+                                    <date>c.2005</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian manuscripts</title>
+                                    <author>Ekaterina Gusarova</author>
+                                    <date>2015</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <revisionDesc>
+        <change when="2022-07-25" who="#VS">Added data from the catalogue.</change>
+        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
