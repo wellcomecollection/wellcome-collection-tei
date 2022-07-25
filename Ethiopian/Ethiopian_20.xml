@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<!-- Template updated 01.03.22 -->
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_20">
     
     <teiHeader>
@@ -45,7 +43,7 @@
                 <email>library@wellcome.org</email>
             </distributor>
             <idno type="msID">Ethiopian 20</idno>
-            <idno type="catalogue">Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London.</idno>
+            <idno type="catalogue">Ethiopian manuscripts</idno>
             <availability>
                 <licence><!-- Licensing statement to come in late-stage editing --></licence>
             </availability>
@@ -104,7 +102,7 @@
                     
                     <msItem n="4" xml:id="Ethiopian_20_4">
                         <locus from="151" to="177">lines 151-177</locus>
-                        <title type="desc">The beginning of Gospel of St. John</title>
+                        <title type="desc">The beginning of the Gospel of St. John</title>
                         
                         <incipit><locus></locus><!-- Ge'ez text to be picked up in late-stage editing-->
                         </incipit>
@@ -121,7 +119,7 @@
                             <support>Vellum</support>
                             
                             <extent>3 strips (the third one is shorter)
-                                <dimensions type="folia" unit="mm" >
+                                <dimensions type="roll" unit="mm" >
                                     <dim type="diameter">75</dim>
                                     <dim type="length">1567</dim>
                                 </dimensions>
@@ -158,6 +156,7 @@
                         <decoNote type="miniature"><locus>After line 100:</locus>“The Captured demon”</decoNote>
                         <decoNote type="miniature"><locus>After line 127:</locus>Cross</decoNote>
                         <decoNote type="miniature"><locus>After line 177:</locus>Cross</decoNote>
+                        <decoNote>It is a very unusual thing for a magic scroll to contain four very similar miniatures as found here.</decoNote>
                         
                     </decoDesc>
                    
@@ -220,7 +219,7 @@
     
         <revisionDesc>
             <change when="2022-07-15" who="#BLE">Created XML file</change>
-        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+            <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
         </revisionDesc>
 
     </teiHeader>    
