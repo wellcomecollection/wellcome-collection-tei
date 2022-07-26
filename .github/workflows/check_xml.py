@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 This script looks at every XML file in the repo, and checks whether it
-can be parsed as valid XML.
+can be parsed as valid XML.  It also does some basic linting.
 
 This doesn't mean it can be parsed and used in the catalogue pipeline
 by the Digital Engagement team, but it's a useful first pass.
@@ -13,7 +13,7 @@ import sys
 from xml.etree import ElementTree as ET
 
 
-RED   = "\033[1;31m"
+RED = "\033[1;31m"
 GREEN = "\033[0;32m"
 RESET = "\033[0;0m"
 
@@ -29,16 +29,26 @@ def get_file_paths_under(root=".", *, suffix=""):
                 yield os.path.join(dirpath, f)
 
 
-if __name__ == '__main__':
-    root = subprocess.check_output(['git', 'rev-parse', '--show-toplevel', ]).strip().decode('ascii')
+if __name__ == "__main__":
+    root = (
+        subprocess.check_output(
+            [
+                "git",
+                "rev-parse",
+                "--show-toplevel",
+            ]
+        )
+        .strip()
+        .decode("ascii")
+    )
 
     errors = 0
 
-    for path in sorted(get_file_paths_under(root, suffix='.xml')):
+    for path in sorted(get_file_paths_under(root, suffix=".xml")):
 
         # We don't parse the contents of the Templates directory as XML;
         # it's meant for humans to read, not computers
-        if os.path.relpath(path, start=root).startswith('Templates/'):
+        if os.path.relpath(path, start=root).startswith("Templates/"):
             continue
 
         try:
@@ -54,5 +64,7 @@ if __name__ == '__main__':
     if errors == 0:
         print(f"{GREEN}🎉 All files checked, no errors!{RESET}")
     else:
-        print(f"{RED}⚠️ All files checked, {errors} error{'s' if errors > 0 else ''} found!{RESET}")
+        print(
+            f"{RED}⚠️ All files checked, {errors} error{'s' if errors > 0 else ''} found!{RESET}"
+        )
         sys.exit(1)
