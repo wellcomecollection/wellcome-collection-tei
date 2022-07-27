@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 01.03.22 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_14">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Wellcome Ethiopian 14</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="SS">
+                    <resp when="1972">Cataloguer</resp>
+                    <persName>Stefan Strelcyn</persName>
+                </respStmt>
+                <respStmt xml:id="KG">
+                    <resp when="2015">Cataloguer</resp>
+                    <persName>Ekaterina Gusarova</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2022-03-01">Template</resp>
+                    <resp when="2022">Provenance research</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+                <respStmt xml:id="MM">
+                    <resp when="2022-07-27">TEI Encoder</resp>
+                    <persName>Miten Mistry</persName>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">WMS Ethiopian 14</idno>
+                <idno type="catalogue">Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Ethiopian 14</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b24390793</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno> <!-- The accession number in the Strelcyn catalogue doesn’t seem to be correct and 
+                                we don’t know where it came from (it’s not written on the MS) --></idno>
+                        </altIdentifier>
+                       
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>19th century prayers of magical character</summary>
+                        
+                        <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                        
+                        <msItem n="1" xml:id="Wellcome_Ethiopian_14_1">
+                            <locus from="1" to="23">Lines 1-23</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Prayer against Barya and Legewon</title>
+                            
+                            <incipit><locus from="1">Line 1</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                            
+                            
+                        </msItem>
+                        
+                        <msItem n="2" xml:id="Wellcome_Ethiopian_14_2">
+                            <locus from="24" to="26">Lines 24-26</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Prayer against colic</title>
+                            
+                            <incipit><locus from="24">Line 24</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                            
+                      
+                        </msItem>
+                        
+                        
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="roll">
+                            
+                            <supportDesc material="perg">                     
+                                <support>Vellum</support>
+                                
+                                <extent> Scroll composed of 1 stril
+                                    <dimensions type="roll" unit="mm" >
+                                        <dim type="diameter">65</dim>
+                                        <dim type="length">575</dim>
+                                    </dimensions>
+                                    <note>The scroll would have been designed to be equal in length to the height of the person the scroll was composed for, in order that the entirety of the person was protected against demons 
+                                        and the return of evil spirits (<ref>Mercier</ref>)</note>
+                                </extent>
+                                
+                                
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout writtenLines="46" rulingMedium="ink">46 lines in black and red ink</layout>
+                                
+                                <layout columns="1">1 column
+                                    <dimensions unit="mm"><dim type="diameter">61</dim></dimensions>
+                                </layout>
+                                
+                                <layout>No mistara visible</layout> 
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="sole">Poor handwriting</handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="miniature"><locus>Before line 1</locus>: Two figures with a cross between them </decoNote>
+                            <decoNote type="miniature"><locus from="46">After line 46</locus>: Four human heads, probably of Angels </decoNote>
+                        </decoDesc>
+                        
+                        <additions>
+                            <p></p>
+                        </additions>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Ethiopia</country>,
+                            </origPlace>
+                            <origDate calendar="Gregorian" notBefore="1800" notAfter="1900">19th century</origDate>
+                        </origin>
+                        <provenance notBefore="1855" notAfter="1868">Part of the library of Tewodros II, Emperor of Ethiopian at Maqdala.</provenance>
+                        <provenance when="1868-04">Taken from Maqdala during the British Expedition to Abyssinia in April 1868.</provenance>
+                        <provenance>The name of the owner of the scroll is Yemam</provenance>
+                        <acquisition>Purchased at auction by WHMM at Stevens, <date when="1930-09-09">9 Sep 1930</date>, lot 241</acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Ethiopian Manuscripts of the Wellcome Institute of the History of Medicine in London', in Bulletin of the School of Oriental and African Studies. University of London, 35(1)</title>
+                                        <author>Stefan Strelcyn</author>
+                                        <date>1972</date>
+                                        <note>Pp. 27-55</note>
+                                        <note>Includes an extensive index-glossary and bibliography</note>
+                                    </bibl>
+                                    <bibl>
+                                        <title>Ethiopian manuscripts</title>
+                                        <author>Ekaterina Gusarova</author>
+                                        <date>2015</date>
+                                        <note>Unpublished catalogue</note>
+                                    </bibl>
+                                    <bibl>
+                                        <title>Ethiopian Magic Scrolls</title>
+                                        <author>Jacques Mercier</author>
+                                        <date>1979</date>
+                                        <pubPlace>New York</pubPlace>
+                                        <abbr>Mercier</abbr>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+           
+        
+        <revisionDesc>
+            <change when="2022-07-27" who="#MM">Added data from the catalogue.</change>
+            <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
