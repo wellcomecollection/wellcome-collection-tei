@@ -69,9 +69,6 @@ if __name__ == "__main__":
         if os.path.relpath(path, start=repo_root).startswith(("Templates/", "docs/")):
             continue
 
-        if "MS_Arabic_867.xml" not in path:
-            continue
-
         try:
             root = ET.parse(path).getroot()
         except ET.ParseError as err:
