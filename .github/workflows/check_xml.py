@@ -29,6 +29,25 @@ def get_file_paths_under(root=".", *, suffix=""):
                 yield os.path.join(dirpath, f)
 
 
+def guess_line_label(path, text):
+    """
+    Given a file and some text, return a hint about where this text
+    might appear.
+    """
+    lines = enumerate(list(open(path)), start=1)
+
+    line_numbers = [lineno for lineno, line in lines if text in line]
+
+    if len(line_numbers) == 0:
+        return ""
+    else:
+        return (
+            f"(try looking at {text!r} on "
+            + ", ".join(f"L{lineno}" for lineno in line_numbers)
+            + ")"
+        )
+
+
 if __name__ == "__main__":
     repo_root = (
         subprocess.check_output(
@@ -50,6 +69,9 @@ if __name__ == "__main__":
         if os.path.relpath(path, start=repo_root).startswith(("Templates/", "docs/")):
             continue
 
+        if "MS_Arabic_867.xml" not in path:
+            continue
+
         try:
             root = ET.parse(path).getroot()
         except ET.ParseError as err:
@@ -68,18 +90,23 @@ if __name__ == "__main__":
         #
         # Notice that one is labelled `type="original"`; if this is missing,
         # we don't know what contributor to display on the page.
-        for author in root.findall('.//{http://www.tei-c.org/ns/1.0}author'):
-            persname_nodes = author.findall('./{http://www.tei-c.org/ns/1.0}persName')
+        for author in root.findall(".//{http://www.tei-c.org/ns/1.0}author"):
+            persname_nodes = author.findall("./{http://www.tei-c.org/ns/1.0}persName")
 
             if len(persname_nodes) <= 1:
                 continue
 
-            if not any(pn.attrib.get('type') == 'original' for pn in persname_nodes):
+            if not any(pn.attrib.get("type") == "original" for pn in persname_nodes):
+                line_label = guess_line_label(path, text=persname_nodes[0].text.splitlines()[0])
+
                 print("")
                 print(os.path.relpath(path, start=repo_root))
-                print(f"\tFound <author> with multiple <persName> nodes but no type=\"original\"")
+                print(
+                    f'\tFound <author> with multiple <persName> nodes but no type="original"'
+                )
+                if line_label:
+                    print(f'\t{line_label}')
                 errors += 1
-                break
 
     print("")
 
