@@ -5,6 +5,7 @@
 * [Manuscript Inventory](manuscript-inventory/README.md)
   * [Phase 1](manuscript-inventory/phase-1.md)
   * [Phase 2](manuscript-inventory/phase-2/README.md)
+    * [Procedure in Detail](manuscript-inventory/phase-2/procedure-in-detail.md)
     * [Inventory by TEI or by shelf?](manuscript-inventory/phase-2/inventory-by-tei-or-by-shelf.md)
     * [By TEI](manuscript-inventory/phase-2/by-tei.md)
     * [By the shelf](manuscript-inventory/phase-2/by-the-shelf.md)
