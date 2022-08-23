@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_26">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Wellcome Ethiopian 26</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RK">
+                <resp when="2005">Cataloguer</resp>
+                <persName>R. Kidane</persName>
+            </respStmt>
+            <respStmt xml:id="KG">
+                <resp when="2015">Cataloguer</resp>
+                <persName>Ekaterina Gusarova</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2022-03-01">Template</resp>
+                <resp when="2022">Provenance research</resp>
+                <resp when="2022-08-22">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">WMS Ethiopian 26</idno>
+            <idno type="catalogue">Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London.</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">WMS Ethiopian 26</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b24738840</idno>
+                    </altIdentifier>
+                    <altIdentifier type="Kidane">
+                        <idno>MS Ethiopian 24</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Gospel of St John</summary>
+                   
+                    <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                    
+                    <msItem n="1" xml:id="Wellcome_Ethiopian_27_1">
+                        <locus from="1" to="2">fols. 1r-2r, 73v</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="desc">Part of the text "Miracles of our Lord Jesus Christ"</title>
+                        
+                        <incipit><locus>fol.1r</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="Wellcome_Ethiopian_27_2">
+                        <locus from="3" to="54">fols. 3r-54v</locus>
+                        <author key="">St John</author>
+                        <title key="" type="main">Gospel of St John</title>
+                        
+                        <incipit><locus>fol.3r</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                    <msItem n="3" xml:id="Wellcome_Ethiopian_27_3">
+                        <locus from="54" to="73">54v-73r</locus>
+                        <author key="">Anonymous</author>
+                        <title key="" type="main">Book of the Disciples</title>
+                        
+                        <incipit><locus>fol.54v</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                        </incipit>
+                    </msItem>
+                    
+                </msContents>
+                
+                <physDesc>
+
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="perg">                     
+                            <support>Fine, well done vellum</support>
+                            
+                            <extent>74 folios
+                                <dimensions type="folia" unit="mm" >
+                                    <dim type="diameter">45-180</dim>
+                                    <dim type="length">210</dim>
+                                    <dim type="thickness">40</dim>
+                                </dimensions>
+                            </extent>
+                            
+                            <foliation>
+                            </foliation>
+                            
+                            <collation>
+                                <formula>9 (A+7+B): A 2 (1-2), I 8 (3-10), II 8 (11-18), III 10 (19-28), IV 10 (29-38), V 10 (39-48), VI 6 (49-54), VI 8 (55-62), VII 10 (63-72), B 2 (73-74).</formula>
+                            </collation>
+
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="17">16-17 lines in black and red ink                                       
+                            </layout>
+                            
+                            <layout columns="2">2 columns
+                                <dimensions unit="mm"><dim type="diameter">125-139</dim></dimensions>
+                                <dimensions unit="mm"><dim type="length">135-147</dim></dimensions>
+                            </layout>
+                            
+                            <layout>
+                                Mistara present. Blue wool threads are inserted in the holes of some folios. 
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <decoDesc>
+                        <decoNote type="miniature"><locus>Fol. 3r</locus>: Ornamental band in red and black colour</decoNote>
+                        <decoNote type="miniature"><locus>Fol. 73r</locus>: Ornamental band in red and black colour</decoNote>
+                        <decoNote>The illustrations  on <locus>fol. 74r</locus> have no connection with the content of the text. It is assumed that a däbtära (cleric diviner) drew them for his own amusement.</decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p>The codex comes in a leather bag with a flap and belt. It was previously damaged and has been repaired.</p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p>Wooden boards with leather spine. The front board was split and repaired (holes are present).</p>
+                        </binding>
+                    </bindingDesc>
+
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>Ethiopia</country>,
+                        </origPlace>
+                        <origDate calendar="Gregorian">18-19th century</origDate>
+                    </origin>
+                    <provenance notBefore="1800" notAfter="1900">A previous owner is named as Walda Dawit in <locus>folio 74v</locus>.</provenance>
+                    <acquisition notBefore="1972" notAfter="2005">Acquired by the Wellcome Historical Medical Museum, or its predecessor Wellcome Library, at some point between 1972 and 2005.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London</title>
+                                    <author>R. Kidane</author>
+                                    <date>c.2005</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                                <bibl>
+                                    <title>Ethiopian manuscripts</title>
+                                    <author>Ekaterina Gusarova</author>
+                                    <date>2015</date>
+                                    <note>Unpublished catalogue</note>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <revisionDesc>
+        <change when="2022-08-22" who="#VS">Added data from the catalogue.</change>
+        <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
