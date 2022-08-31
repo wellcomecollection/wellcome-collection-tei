@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 01.03.22 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_24">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Wellcome Ethiopian 24</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="RK">
+                    <resp when="2005">Cataloguer</resp>
+                    <persName>R. Kidane</persName>
+                </respStmt>
+                <respStmt xml:id="KG">
+                    <resp when="2015">Cataloguer</resp>
+                    <persName>Ekaterina Gusarova</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2022-03-01">Template</resp>
+                    <resp when="2022">Provenance research</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+                <respStmt xml:id="MM">
+                    <resp when="2022-08-31">TEI Encoder</resp>
+                    <persName>Miten Mistry</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">WMS Ethiopian 24</idno>
+                <idno type="catalogue">Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London.</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark"></idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b24726059</idno>
+                        </altIdentifier>                        
+                        <altIdentifier type="Sierra_order_number">
+                            <idno>o10012928</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Kidane">
+                            <idno>MS Ethiopian 22</idno>
+                        </altIdentifier>
+                        
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Theological text relating to the Incarnation of  Christ; quotations from Archbishop Athanasius of Alexandria and various 
+                            Church Fathers: a liturgical text.</summary>
+                        
+                        <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                        
+                        <msItem n="1" xml:id="Wellcome_Ethiopian_24_1">
+                            <locus from="1" to="7">fols. 1r-7r</locus>
+                            <author key="">St. Cyriacus of Behnesa</author>
+                            <title key="" type="desc">Anaphora of Our Lady</title>
+                            
+                            <incipit><locus>fol. 1r</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                            
+                            
+                        </msItem>
+                        
+                        <msItem n="2" xml:id="Wellcome_Ethiopian_24_2">
+                            <locus from="7" to="12">fols. 7r-12r</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Covenant Prayer of the morning</title>
+                            
+                            <incipit><locus>fol. 7r</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                            
+                            
+                        </msItem>
+                        
+                        <msItem n="3" xml:id="Wellcome_Ethiopian_24_3">
+                            <locus from="12" to="14">fols. 12r-14r</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">Missing</title>
+                            
+                            <incipit><locus>fol. 12r</locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                                                    
+                            
+                        </msItem>
+                        
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                       
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="perg">                     
+                                <support>Fine, well done vellum</support>
+                                
+                                <extent>14 folios
+                                    <dimensions type="folia" unit="mm" >
+                                        <dim type="diameter">168</dim>
+                                        <dim type="length">102</dim>
+                                        <dim type="thickness">8</dim>
+                                        
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <p>The foliation is not correct. The text on fol. 14v is illegible.</p>
+                                </foliation>
+                                
+                                <collation>
+                                    <formula>3: I 4 (fols. 1-4), II 4 (fols. 5-8), III 6 (fols. 9-14).</formula>
+                                </collation>
+                                
+                                <condition>
+                                    <!-- Use to record any information about the condition of the manuscript, if known -->
+                                </condition>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout writtenLines="17">16-17 lines in black and red ink </layout>
+                                
+                                <layout columns="2">2 columns
+                                    <dimensions unit="mm"><dim type="diameter">125-139</dim></dimensions>
+                                    <dimensions unit="mm"><dim type="length">135-147</dim></dimensions>
+                                                      </layout>
+                                
+                                <layout>No mistara visible</layout>
+                                <layout>No Chapter separators</layout>
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        
+                        
+                        <decoDesc>
+                            <decoNote type="miniature"><locus>fol. 1v</locus>: Drawings of three crosses on the bottom margin in black and red colour.</decoNote>
+                            <decoNote type="miniature"><locus>fol. 2r</locus>: Drawings of three crosses on the bottom margin in black and red colour.</decoNote>
+                            <decoNote>On the inner side of the front binding a text of magical character.</decoNote>
+                        </decoDesc>
+                        
+                        <additions>
+                            <p>No bag present</p>
+                        </additions>
+                        
+                        <bindingDesc>
+                            <binding>
+                                <p>Simple leather binding. Back side damaged.</p>
+                            </binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Ethiopia</country>,
+                            </origPlace>
+                            <origDate calendar="Gregorian" notBefore="1700" notAfter="1900">18-19th century</origDate>
+                        </origin>
+                        <acquisition>Bought from Smitskamp Oriental Antiquarium in <date when="2000-05"></date>May 2000</acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London</title>
+                                        <author>R. Kidane</author>
+                                        <date>c.2005</date>
+                                        <note>Unpublished catalogue</note>
+                                    </bibl>
+                                    <bibl>
+                                        <title>Ethiopian manuscripts</title>
+                                        <author>Ekaterina Gusarova</author>
+                                        <date>2015</date>
+                                        <note>Unpublished catalogue</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+                       
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+          
+        
+        <revisionDesc>
+            <change when="2022-08-31" who="#MM">Added data from the catalogues.</change>
+            <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
