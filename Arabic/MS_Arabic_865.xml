@@ -11,7 +11,7 @@
         <fileDesc>
             
             <titleStmt>
-                <title>MS_Arabic_865</title>
+                <title>MS Arabic 865</title>
                 <title type="collection">Wellcome Collection</title>
                 
                 <respStmt xml:id="AP">
@@ -38,7 +38,7 @@
                 <distributor>
                     <email>library@wellcome.ac.uk</email>
                 </distributor>
-                <idno type="msID">MS_Arabic_865</idno>
+                <idno type="msID">MS Arabic 865</idno>
                 
                 <availability>
                     <licence><!-- Licensing statement to come in late-stage editing --></licence>
@@ -59,6 +59,9 @@
                         <altIdentifier type="former">
                             <idno>WMS. Or. 844</idno>
                         </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b2029914x</idno>
+                        </altIdentifier>
                         
                     </msIdentifier>
                     
@@ -70,10 +73,10 @@
                         <msItem xml:id="MS_Arabic_865-item1">
                             
                             <author>
-                                <persName xml:lang="ar-Latn-x-lc">Masʿūd Qurrah</persName>
-                                <persName xml:lang="ar"  facs="#i0002">مسعود قره</persName>
+                                <persName xml:lang="ar-Latn-x-lc" type="standard">Masʿūd Qurrah</persName>
+                                <persName xml:lang="ar"  facs="#i0002" type="original">مسعود قره</persName>
                             </author>
-                            <title xml:lang="ar-Latn-x-lc">Ḥashīyat Masʿūd Qurrah </title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Ḥashīyat Masʿūd Qurrah </title>
                             <title type="original" facs="#i0002" xml:lang="ar">مسعود قره حاشيه</title>
                             
                             
@@ -117,39 +120,20 @@
                             <supportDesc material="paper">
                                 
                                 <support>Paper
-                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
-                                    <measure type="chainline"
-                                        ><!-\- Insert, if available -\->.</measure>-->
+
                                 </support>
-                                <extent>57 ff. <!-- Insert details on extent -->
-                                    <!--  <dimensions unit="mm">
-                                        <!-\- Add if available -\->
-                                        <!-\-  <dim type="diameter"/>-\->
-                                        <dim type="length"></dim>
-                                        <!-\- Add or delete dimensions as needed -\->
-                                    </dimensions>--></extent>
+                                <extent>57 ff.</extent>
                                 
                                 
                                 <foliation> MS lacks foliation;  <catchwords>catchwords present.</catchwords>
                                 </foliation>
-                                
-                                <!-- <collation>
-                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
-                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
-                                </collation>-->
-                                
-                                <!--<condition>Fair C</condition>-->
-                                
+                            
                             </supportDesc>
                             
                             <layoutDesc>
                                 
                                 <layout columns="1" ruledLines="17">1 column, 17-19 lines.</layout>
                                 
-                                <!-- <layout rulingMedium="">
-                                    <!-\- Add any information on ruling -\->
-                                </layout>
--->
                             </layoutDesc>
                             
                         </objectDesc>

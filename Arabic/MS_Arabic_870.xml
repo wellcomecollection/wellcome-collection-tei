@@ -59,6 +59,9 @@
                         <altIdentifier type="former">
                             <idno>WMS. Or. 849</idno>
                         </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20299187</idno>
+                        </altIdentifier>
 
                     </msIdentifier>
 
@@ -73,7 +76,7 @@
                                 <persName xml:lang="en">Anonymous</persName>
                             </author>
                             <title type="original" xml:lang="ar"> دعاء دولة</title>
-                            <title xml:lang="ar-Latn-x-lc">Duʿāʾ Dawlah</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Duʿāʾ Dawlah</title>
                             <incipit facs="#i0002" xml:lang="ar">
                                 <locus>f.1v.3</locus> صدق الله العظيم الذي لا اله الا هو الحي القيوم
                                 يا ذا الجلال والاكرام الحكيم الكريم الواحد الاحد الفرد الصمد </incipit>
@@ -97,12 +100,12 @@
                         <msItem xml:id="MS_Arabic_870-item3" n="3">
                             <locus facs="#i0018 #i0024">ff. 17v-24r</locus>
                             <author key="person_90044487">
-                                <persName xml:lang="ar-Latn-x-lc">Sanūsī, Muḥammad ibn Yūsuf,‏
+                                <persName xml:lang="ar-Latn-x-lc" type="standard">Sanūsī, Muḥammad ibn Yūsuf,‏
                                     ‎d. approximately 1427-approximately 1490</persName>
-                                <persName xml:lang="ar">السنوسي، محمد بن يوسف‏</persName>
+                                <persName xml:lang="ar" type="original">السنوسي، محمد بن يوسف‏</persName>
                             </author>
                             <title xml:lang="ar" type="original">عقيدة اهل التوحيد الصغرى</title>
-                            <title xml:lang="ar-Latn-x-lc">ʿAqīdat ahl al-tawḥīd
+                            <title xml:lang="ar-Latn-x-lc" type="standard">ʿAqīdat ahl al-tawḥīd
                                 al-ṣughrá.</title>
 
                             <incipit facs="#i0018" xml:lang="ar">
@@ -128,10 +131,10 @@
                             <author>
                                 <persName xml:lang="ar-Latn-x-lc" type="standard">Muḥammad
                                     al-Fāsī</persName>
-                                <persName xml:lang="ar" facs="#i0026">محمد الفاسي</persName>
+                                <persName xml:lang="ar" facs="#i0026" type="original">محمد الفاسي</persName>
                             </author>
                             <title type="original" facs="#i0026" xml:lang="ar"> الياقوتية </title>
-                            <title xml:lang="ar-Latn-x-lc">al-Yāqūtīyah</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">al-Yāqūtīyah</title>
 
                             <incipit facs="#i0026" xml:lang="ar">
                                 <locus>f.26r.6</locus> اِنَّ الله وملائكَتَهُ يُصَلُّونَ على النبيِّ
@@ -159,12 +162,12 @@
 
                             <locus facs="#i0044 #i0083">ff. 44r-83r</locus>
                             <author>
-                                <persName xml:lang="ar-Latn-x-lc">ʿAbd Allāh b. Sulṭān</persName>
+                                <persName xml:lang="ar-Latn-x-lc" type="standard">ʿAbd Allāh b. Sulṭān</persName>
                                 <persName type="original" xml:lang="ar" facs="#i0044">عبد الله بن
                                     سلطان</persName>
                             </author>
                             <title type="original" xml:lang="ar" facs="#i0044">الحرز المبارك</title>
-                            <title xml:lang="ar-Latn-x-lc">al-Ḥirz al-mubārak</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">al-Ḥirz al-mubārak</title>
 
                             <incipit facs="#i0044" xml:lang="ar">
                                 <locus>f.44r.6</locus> استغفر الله العظيم ثلاثا الذى لا اله الا هو
@@ -211,29 +214,13 @@
                             <supportDesc material="paper">
 
                                 <support>Paper
-                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
-                                    <measure type="chainline"
-                                        ><!-\- Insert, if available -\->.</measure>-->
                                 </support>
-                                <extent>87 ff. <!-- Insert details on extent -->
-                                    <!--  <dimensions unit="mm">
-                                        <!-\- Add if available -\->
-                                        <!-\-  <dim type="diameter"/>-\->
-                                        <dim type="length"></dim>
-                                        <!-\- Add or delete dimensions as needed -\->
-                                    </dimensions>--></extent>
+                                <extent>87 ff. </extent>
 
 
                                 <foliation> MS lacks foliation. <catchwords>Catchwords
                                         present.</catchwords>
                                 </foliation>
-
-                                <!-- <collation>
-                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
-                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
-                                </collation>-->
-
-                                <!-- <condition>Poor D</condition>-->
 
                             </supportDesc>
 
@@ -241,10 +228,6 @@
 
                                 <layout columns="1" ruledLines="23">1 column, lines vary.</layout>
 
-                                <!-- <layout rulingMedium="">
-                                    <!-\- Add any information on ruling -\->
-                                </layout>
--->
                             </layoutDesc>
 
                         </objectDesc>

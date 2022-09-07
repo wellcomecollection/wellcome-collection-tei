@@ -11,7 +11,7 @@
         <fileDesc>
 
             <titleStmt>
-                <title>MS_Arabic_869</title>
+                <title>MS Arabic 869</title>
                 <title type="collection">Wellcome Collection</title>
 
                 <respStmt xml:id="AP">
@@ -38,7 +38,7 @@
                 <distributor>
                     <email>library@wellcome.ac.uk</email>
                 </distributor>
-                <idno type="msID">MS_Arabic_869</idno>
+                <idno type="msID">MS Arabic 869</idno>
 
                 <availability>
                     <licence><!-- Licensing statement to come in late-stage editing --></licence>
@@ -59,6 +59,9 @@
                         <altIdentifier type="former">
                             <idno>WMS. Or. 848</idno>
                         </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20299175</idno>
+                        </altIdentifier>
 
                     </msIdentifier>
 
@@ -72,13 +75,13 @@
                         <msItem xml:id="MS_Arabic_869-item1">
 
                             <author key="person_90046751">
-                                <persName xml:lang="ar-Latn-x-lc">Maqdisī, ʻAlī ibn Ghānim,‏ ‎d.
+                                <persName xml:lang="ar-Latn-x-lc" type="standard">Maqdisī, ʻAlī ibn Ghānim,‏ ‎d.
                                     1514-1596</persName>
-                                <persName xml:lang="ar">ابن غانم المقدسي، علي بن محمد</persName>
+                                <persName xml:lang="ar" type="original">ابن غانم المقدسي، علي بن محمد</persName>
                             </author>
                             <title type="original" xml:lang="ar" facs="#i0003"> توضيح لنظمي الرسالة
                                 الفتحية فى الاعمال الجيبيه </title>
-                            <title xml:lang="ar-Latn-x-lc">Tawdīḥ li-naẓmī al-risālah al-fatḥīyah fī
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Tawdīḥ li-naẓmī al-risālah al-fatḥīyah fī
                                 al-aʿmāl al-jaybīyah</title>
 
 
@@ -100,7 +103,7 @@
 
 
                             <textLang mainLang="ar" source="IANA">Arabic</textLang>
-                            <!-- Enter BCP 47 IANA language code as attribute value and full language name here . For Hebrew, value is "he". For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry-->
+
 
 
 
@@ -117,29 +120,14 @@
                             <supportDesc material="paper">
 
                                 <support>Paper
-                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
-                                    <measure type="chainline"
-                                        ><!-\- Insert, if available -\->.</measure>-->
+                                    
                                 </support>
-                                <extent>20 ff. <!-- Insert details on extent -->
-                                    <!--  <dimensions unit="mm">
-                                        <!-\- Add if available -\->
-                                        <!-\-  <dim type="diameter"/>-\->
-                                        <dim type="length"></dim>
-                                        <!-\- Add or delete dimensions as needed -\->
-                                    </dimensions>--></extent>
+                                <extent>20 ff. </extent>
 
 
                                 <foliation> MS lacks foliation; <catchwords>catchwords
                                         present.</catchwords>
                                 </foliation>
-
-                                <!-- <collation>
-                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
-                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
-                                </collation>-->
-
-                                <!-- <condition>Fair C</condition>-->
 
                             </supportDesc>
 
@@ -147,10 +135,6 @@
 
                                 <layout columns="1" ruledLines="23">1 column, 23 lines.</layout>
 
-                                <!-- <layout rulingMedium="">
-                                    <!-\- Add any information on ruling -\->
-                                </layout>
--->
                             </layoutDesc>
 
                         </objectDesc>
