@@ -11,7 +11,7 @@
         <fileDesc>
 
             <titleStmt>
-                <title>MS_Arabic_835</title>
+                <title>MS Arabic 835</title>
                 <title type="collection">Wellcome Collection</title>
 
                 <respStmt xml:id="AP">
@@ -38,7 +38,7 @@
                 <distributor>
                     <email>library@wellcome.ac.uk</email>
                 </distributor>
-                <idno type="msID">MS_Arabic_835</idno>
+                <idno type="msID">MS Arabic 835</idno>
 
                 <availability>
                     <licence><!-- Licensing statement to come in late-stage editing --></licence>
@@ -59,6 +59,10 @@
                         <altIdentifier type="former">
                             <idno>WMS. Or. 814</idno>
                         </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20298973</idno>
+                        </altIdentifier>
+
 
                     </msIdentifier>
 
@@ -74,16 +78,16 @@
 
                             <locus facs="#i0002 #i0011"/>
                             <author>
-                                <persName xml:lang="ar-Latn-x-lc">Ibrāhīm b. Abī Bakr al-Ṣāliḥī
+                                <persName xml:lang="ar-Latn-x-lc" type="standard">Ibrāhīm b. Abī Bakr al-Ṣāliḥī
                                     al-Ḥanbalī</persName>
-                                <persName xml:lang="ar" facs="#i0002">ابراهيم ابن ابي ٮكر الصالحى
+                                <persName xml:lang="ar" facs="#i0002" type="original">ابراهيم ابن ابي ٮكر الصالحى
                                     الحنبلي</persName>
                             </author>
                             <title type="original" facs="#i0002" xml:lang="ar"> وَسَيلة الاتصَال
                                 لبيَان احكام الغربَال لاستخراج الأعداد الصم </title>
 
 
-                            <title xml:lang="ar-Latn-x-lc">Wasīlat al-ittiṣāl li-bayān aḥkām
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Wasīlat al-ittiṣāl li-bayān aḥkām
                                 al-ghirbāl li-istikhrāj al-aʿdād al-summ</title>
 
 
@@ -120,29 +124,13 @@
                             <supportDesc material="paper">
 
                                 <support>Burnished paper
-                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
-                                    <measure type="chainline"
-                                        ><!-\- Insert, if available -\->.</measure>-->
                                 </support>
-                                <extent>10 ff. <!-- Insert details on extent -->
-                                    <!--  <dimensions unit="mm">
-                                        <!-\- Add if available -\->
-                                        <!-\-  <dim type="diameter"/>-\->
-                                        <dim type="length"></dim>
-                                        <!-\- Add or delete dimensions as needed -\->
-                                    </dimensions>--></extent>
+                                <extent>10 ff. </extent>
 
 
                                 <foliation>MS lacks foliation. <catchwords>Catchwords
                                         present.</catchwords>
                                 </foliation>
-
-                                <!-- <collation>
-                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
-                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
-                                </collation>-->
-
-                                <!-- <condition>Poor D</condition>-->
 
                             </supportDesc>
 
@@ -150,10 +138,6 @@
 
                                 <layout columns="1" ruledLines="25">1 column, 25 lines.</layout>
 
-                                <!-- <layout rulingMedium="">
-                                    <!-\- Add any information on ruling -\->
-                                </layout>
--->
                             </layoutDesc>
 
                         </objectDesc>

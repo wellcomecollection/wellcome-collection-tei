@@ -11,7 +11,7 @@
         <fileDesc>
 
             <titleStmt>
-                <title>MS_Arabic_821</title>
+                <title>MS Arabic 821</title>
                 <title type="collection">Wellcome Collection</title>
 
                 <respStmt xml:id="AP">
@@ -38,7 +38,7 @@
                 <distributor>
                     <email>library@wellcome.ac.uk</email>
                 </distributor>
-                <idno type="msID">MS_Arabic_821</idno>
+                <idno type="msID">MS Arabic 821</idno>
 
                 <availability>
                     <licence><!-- Licensing statement to come in late-stage editing --></licence>
@@ -59,6 +59,9 @@
                         <altIdentifier type="former">
                             <idno>WMS. Or. 800</idno>
                         </altIdentifier>
+                        <altIdentifier type="Sierra"><idno>
+                            b20298912
+                        </idno></altIdentifier>
 
                     </msIdentifier>
 
@@ -71,7 +74,7 @@
 
                             <locus facs="#i0002 #i0003">ff. 1r-1v</locus>
                             <author>
-                                <persName xml:lang="ar-Latn-x-lc">Abū Muḥammad ʿUmar b.
+                                <persName xml:lang="ar-Latn-x-lc" type="standard">Abū Muḥammad ʿUmar b.
                                     ʿUthmān</persName>
                                 <persName xml:lang="ara-Arab" type="original" facs="#i0002">ابو محمد
                                     عمر بن عثمان</persName>
@@ -79,7 +82,7 @@
                             <title type="original" facs="#i0002" xml:lang="ar"> تحفةَ الخايضِ فى علم
                                 الفرايضِ </title>
 
-                            <title xml:lang="ar-Latn-x-lc">Tuḥfat al-khāʾid fī ʿilm
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Tuḥfat al-khāʾid fī ʿilm
                                 al-farāʾid</title>
                             <incipit facs="#i0002" xml:lang="ar">
                                 <locus> f.1r.4</locus> امّا بعد فيقول الفقيرُ الممنون الى اللهِ
@@ -105,7 +108,7 @@
                                 <persName xml:lang="en">Anonymous</persName>
                             </author>
                             <title type="original" facs="#i0027" xml:lang="ar"> البهجة الصغير </title>
-                            <title xml:lang="ar-Latn-x-lc">al-Bahjah al-ṣaghīr</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">al-Bahjah al-ṣaghīr</title>
 
 
 
@@ -138,29 +141,13 @@
                             <supportDesc material="paper">
 
                                 <support>Paper
-                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
-                                    <measure type="chainline"
-                                        ><!-\- Insert, if available -\->.</measure>-->
                                 </support>
-                                <extent>28 ff. <!-- Insert details on extent -->
-                                    <!--  <dimensions unit="mm">
-                                        <!-\- Add if available -\->
-                                        <!-\-  <dim type="diameter"/>-\->
-                                        <dim type="length"></dim>
-                                        <!-\- Add or delete dimensions as needed -\->
-                                    </dimensions>--></extent>
+                                <extent>28 ff.</extent>
 
 
                                 <foliation>MS lacks foliation. <catchwords>Catchwords
                                         present.</catchwords>
                                 </foliation>
-
-                                <!-- <collation>
-                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
-                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
-                                </collation>-->
-
-                                <!-- <condition>Fair C</condition>-->
 
                             </supportDesc>
 
@@ -168,10 +155,6 @@
 
                                 <layout columns="1" ruledLines="13">1 column, 13 lines.</layout>
 
-                                <!-- <layout rulingMedium="">
-                                    <!-\- Add any information on ruling -\->
-                                </layout>
--->
                             </layoutDesc>
 
                         </objectDesc>
@@ -180,9 +163,9 @@
 
                             <handNote scope="major" script="naskh">
                                 <p><label>Scribe:</label>
-                                    <persName xml:lang="ar-Latn-x-lc">ʿUmar al-Kirkūkī
+                                    <persName xml:lang="ar-Latn-x-lc" type="standard">ʿUmar al-Kirkūkī
                                         Shahīr</persName>
-                                    <persName xml:lang="ara-Arab" facs="#i0027">بالعمرالكركوكى
+                                    <persName xml:lang="ara-Arab" facs="#i0027" type="original">بالعمرالكركوكى
                                         شهير</persName>
                                 </p>
                                 <p><label>Script:</label> Naskh</p>

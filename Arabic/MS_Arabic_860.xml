@@ -11,7 +11,7 @@
         <fileDesc>
             
             <titleStmt>
-                <title>MS_Arabic_860</title>
+                <title>MS Arabic 860</title>
                 <title type="collection">Wellcome Collection</title>
                 
                 <respStmt xml:id="AP">
@@ -38,7 +38,7 @@
                 <distributor>
                     <email>library@wellcome.ac.uk</email>
                 </distributor>
-                <idno type="msID">MS_Arabic_860</idno>
+                <idno type="msID">MS Arabic 860</idno>
                 
                 <availability>
                     <licence><!-- Licensing statement to come in late-stage editing --></licence>
@@ -59,6 +59,9 @@
                         <altIdentifier type="former">
                             <idno>WMS. Or. 839</idno>
                         </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20299102</idno>
+                        </altIdentifier>
                       
                     </msIdentifier>
                     
@@ -70,10 +73,10 @@
                         <msItem xml:id="MS_Arabic_860-item1">
                             
                             <author key="person_60346321">
-                                <persName xml:lang="ar-Latn-x-lc">Jazūlī, Muḥammad ibn Sulaymān,‏ ‎d.  1404-1465</persName>
-                                <persName xml:lang="ar">جزولي، محمد ابن سليمان‏</persName>
+                                <persName xml:lang="ar-Latn-x-lc" type="standard">Jazūlī, Muḥammad ibn Sulaymān,‏ ‎d.  1404-1465</persName>
+                                <persName xml:lang="ar" type="original">جزولي، محمد ابن سليمان‏</persName>
                             </author>
-                            <title  xml:lang="ar-Latn-x-lc">Dalāʼil al-khayrāt wa-shawāriq al-anwār fī dhikr al-ṣalāt ʻalá al-nabī al-mukhtār</title>
+                            <title  xml:lang="ar-Latn-x-lc" type="standard">Dalāʼil al-khayrāt wa-shawāriq al-anwār fī dhikr al-ṣalāt ʻalá al-nabī al-mukhtār</title>
                             <title type="original" xml:lang="ar">دلائل الخيرات</title>
                             
                             <incipit type="beginning" facs="#i0002" xml:lang="ar">
@@ -95,7 +98,7 @@
                             
                             
                             <textLang mainLang="ar" source="IANA">Arabic</textLang>
-                            <!-- Enter BCP 47 IANA language code as attribute value and full language name here . For Hebrew, value is "he". For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry-->
+
                             
                          
                             
@@ -120,39 +123,20 @@
                             <supportDesc material="paper">
                                 
                                 <support>Paper
-                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
-                                    <measure type="chainline"
-                                        ><!-\- Insert, if available -\->.</measure>-->
+
                                 </support><extent>56 ff.</extent>
-                                <!-- <extent><!-\- Insert details on extent -\->
-                                    <dimensions unit="mm">
-                                        <!-\- Add if available -\->
-                                        <dim type="diameter"/>
-                                        <dim type="length"/>
-                                        <!-\- Add or delete dimensions as needed -\->
-                                    </dimensions>
-                                </extent>-->
+
                                 
                                 <foliation> Arabic foliation in pencil. <catchwords>Catchwords present.</catchwords>
                                 </foliation>
-                                
-                                <!-- <collation>
-                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
-                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
-                                </collation>-->
-                                
-                             <!--   <condition>Poor D</condition>-->
-                                
+                      
                             </supportDesc>
                             
                             <layoutDesc>
                                 
                                 <layout columns="1" writtenLines="8"> 1 column, 8 lines. </layout>
                                 
-                                <!-- <layout rulingMedium="">
-                                    <!-\- Add any information on ruling -\->
-                                </layout>
--->
+                          
                             </layoutDesc>
                             
                         </objectDesc>

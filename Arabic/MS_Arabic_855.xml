@@ -11,7 +11,7 @@
         <fileDesc>
             
             <titleStmt>
-                <title>MS_Arabic_869</title>
+                <title>MS Arabic 869</title>
                 <title type="collection">Wellcome Collection</title>
                 
                 <respStmt xml:id="AP">
@@ -38,8 +38,8 @@
                 <distributor>
                     <email>library@wellcome.ac.uk</email>
                 </distributor>
-                <idno type="msID">MS_Arabic_855</idno>
-                
+                <idno type="msID">MS Arabic 855</idno>
+               
                 <availability>
                     <licence><!-- Licensing statement to come in late-stage editing --></licence>
                 </availability>
@@ -59,6 +59,9 @@
                         <altIdentifier type="former">
                             <idno>WMS. Or. 834</idno>
                         </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20299084</idno>
+                        </altIdentifier>
                         
                     </msIdentifier>
                     
@@ -73,7 +76,7 @@
                                 <persName xml:lang="en">Anonymous</persName>
                             </author>
                             <title xml:lang="ar" type="original" facs="#i0001">كتاب الاسطرلاب</title>
-                            <title xml:lang="ar-Latn-x-lc">Kitāb al-asṭurlāb</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Kitāb al-asṭurlāb</title>
                           
                             
                             
@@ -93,7 +96,6 @@
                             
                             
                             <textLang mainLang="ar" source="IANA">Arabic</textLang>
-                            <!-- Enter BCP 47 IANA language code as attribute value and full language name here . For Hebrew, value is "he". For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry-->
                             
                             
                             
@@ -110,9 +112,7 @@
                             <supportDesc material="paper">
                                 
                                 <support>Paper
-                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
-                                    <measure type="chainline"
-                                        ><!-\- Insert, if available -\->.</measure>-->
+                                    
                                 </support>
                                 <extent>144 ff.</extent>
                                 
@@ -120,14 +120,7 @@
                                 <foliation> MS lacks foliation; <catchwords>catchwords
                                     present.</catchwords>
                                 </foliation>
-                                
-                                <!-- <collation>
-                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
-                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
-                                </collation>-->
-                                
-                               <!-- <condition><!-\-Poor D-\-></condition>-->
-                                
+                             
                             </supportDesc>
                             
                             <layoutDesc><layout columns="1" ruledLines="14">1 column, 14-17 lines.</layout></layoutDesc>
