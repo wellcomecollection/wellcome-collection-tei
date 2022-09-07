@@ -11,7 +11,7 @@
         <fileDesc>
 
             <titleStmt>
-                <title>MS_Arabic_163</title>
+                <title>MS Arabic 163</title>
                 <title type="collection">Wellcome Collection</title>
 
                 <respStmt xml:id="AP">
@@ -23,7 +23,6 @@
                     <resp when="2022-06-08">TEI Encoder</resp>
                     <persName>Rosie Maxton</persName>
                 </respStmt>
-                <!-- Add another <respStmt> for every resp -->
             </titleStmt>
 
             <publicationStmt>
@@ -56,10 +55,12 @@
                         <repository>Wellcome Library</repository>
                         <collection> Manuscripts in Arabic</collection>
                         <idno type="shelfmark">MS Arabic 163</idno>
-                        <!-- <altIdentifier type="former">
-                            <idno></idno>
-                        </altIdentifier>-->
-
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 163</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295650</idno>
+                        </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
@@ -71,13 +72,14 @@
 
                             <author key="person_44299175">
                                 <persName xml:lang="en">Galen</persName>
+                                <persName xml:lang="en" type="standard">Galen</persName>
                                 <persName xml:lang="ar" type="original">جالينوس</persName>
                             </author>
 
                             <title type="original" xml:lang="ar" facs="#i0002"> افاضل الاطباء </title>
-                            <title type="alt" xml:lang="ar" facs="#i0031"> كتاب جالينوس في محنة
+                            <title type="alternative" xml:lang="ar" facs="#i0031"> كتاب جالينوس في محنة
                                 الطبيب</title>
-                            <title xml:lang="ar-Latn-x-lc">Afāḍil al-aṭṭibāʾ</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Afāḍil al-aṭṭibāʾ</title>
 
                             <incipit facs="#i0002" xml:lang="ar">
                                 <locus>f.1v</locus> قال جالينوس ان اكثر الناس انما يونون في اغفالهم
@@ -107,40 +109,20 @@
                             <supportDesc material="paper">
 
                                 <support>Paper
-                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
-                                    <measure type="chainline"
-                                        ><!-\- Insert, if available -\->.</measure>-->
                                 </support>
-                                <extent>30 ff. <!-- Insert details on extent -->
-                                    <!--  <dimensions unit="mm">
-                                        <!-\- Add if available -\->
-                                        <!-\-  <dim type="diameter"/>-\->
-                                        <dim type="length"></dim>
-                                        <!-\- Add or delete dimensions as needed -\->
-                                    </dimensions>--></extent>
+                                <extent>30 ff.</extent>
 
 
                                 <foliation> Eastern Arabic and Arabic numerals, black ink. <catchwords>Catchwords
                                         present.</catchwords>
                                 </foliation>
-
-                                <!-- <collation>
-                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
-                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
-                                </collation>-->
-
-                                <!-- <condition>Fair C</condition>-->
+                               <condition>Fair C</condition>
 
                             </supportDesc>
 
                             <layoutDesc>
 
                                 <layout columns="1" ruledLines="18">1 column, 18 lines.</layout>
-
-                                <!-- <layout rulingMedium="">
-                                    <!-\- Add any information on ruling -\->
-                                </layout>
--->
                             </layoutDesc>
 
                         </objectDesc>
@@ -161,17 +143,6 @@
 
                             </list>
                         </additions>
-
-
-
-                  <!--      <bindingDesc>
-                            <binding>
-                              <p>No binding description available from images.</p>
-
-                            </binding>
-                        </bindingDesc>-->
-
-
 
 
                     </physDesc>

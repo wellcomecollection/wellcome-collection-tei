@@ -11,7 +11,7 @@
         <fileDesc>
 
             <titleStmt>
-                <title>MS_Arabic_804</title>
+                <title>MS Arabic 804</title>
                 <title type="collection">Wellcome Collection</title>
 
                 <respStmt xml:id="AP">
@@ -23,7 +23,6 @@
                     <resp when="2022-06-08">TEI Encoder</resp>
                     <persName>Rosie Maxton</persName>
                 </respStmt>
-                <!-- Add another <respStmt> for every resp -->
             </titleStmt>
 
             <publicationStmt>
@@ -38,7 +37,7 @@
                 <distributor>
                     <email>library@wellcome.ac.uk</email>
                 </distributor>
-                <idno type="msID">MS_Arabic_804</idno>
+                <idno type="msID">MS Arabic 804</idno>
 
                 <availability>
                     <licence><!-- Licensing statement to come in late-stage editing --></licence>
@@ -54,10 +53,13 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <collection> Manuscripts in Arabic</collection>
+                        <collection>Manuscripts in Arabic</collection>
                         <idno type="shelfmark">MS Arabic 804</idno>
                         <altIdentifier type="former">
                             <idno>WMS. Or. 783</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20298808</idno>
                         </altIdentifier>
 
                     </msIdentifier>
@@ -71,7 +73,7 @@
                         <msItem xml:id="MS_Arabic_804-item1">
 
                             <author key="person_33931226">
-                                <persName xml:lang="ar-Latn-x-lc">Ghazzī, Aḥmad ibn Qāsim,‏ ‎d.
+                                <persName xml:lang="ar-Latn-x-lc" type="standard">Ghazzī, Aḥmad ibn Qāsim,‏ ‎d.
                                     -1575</persName>
                                 <persName xml:lang="ar" facs="#i0002" type="original">شهاب الدين احمد بن محمد بن
                                     محمد بن عبد القادر بن محمد ابن جبريل الغزى الشافعى</persName>
@@ -80,7 +82,7 @@
                             <title type="original" facs="#i0002" xml:lang="ar"> شرح النزهه نزهه
                                 النظار في القلم الهندي والغبار </title>
 
-                            <title xml:lang="ar-Latn-x-lc">Sharḥ nuzhat al-nuẓẓār fī ʿilm al-qalam
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Sharḥ nuzhat al-nuẓẓār fī ʿilm al-qalam
                                 al-hindī wa-al-ghubār</title>
 
                             <incipit facs="#i0003" xml:lang="ar">
@@ -127,29 +129,15 @@
                             <supportDesc material="paper">
 
                                 <support>Paper
-                                    <!--<watermark><!-\- Insert description, if available -\-></watermark>
-                                    <measure type="chainline"
-                                        ><!-\- Insert, if available -\->.</measure>-->
                                 </support>
-                                <extent>109 ff. <!-- Insert details on extent -->
-                                    <!--  <dimensions unit="mm">
-                                        <!-\- Add if available -\->
-                                        <!-\-  <dim type="diameter"/>-\->
-                                        <dim type="length"></dim>
-                                        <!-\- Add or delete dimensions as needed -\->
-                                    </dimensions>--></extent>
+                                <extent>109 ff. </extent>
 
 
                                 <foliation>Arabic numerals, pencil. <catchwords>Catchwords
                                         present.</catchwords>
                                 </foliation>
 
-                                <!-- <collation>
-                                    <formula><!-\- Use to record the quire structure of the manuscript, if available -\-></formula>
-                                    <signatures><!-\- Use to record quire signatures, if available -\-></signatures>
-                                </collation>-->
-
-                                <!-- <condition>Fair C</condition>-->
+                                 <condition>Fair C</condition>
 
                             </supportDesc>
 
@@ -157,10 +145,6 @@
 
                                 <layout columns="1" ruledLines="19">1 column, 19 lines.</layout>
 
-                                <!-- <layout rulingMedium="">
-                                    <!-\- Add any information on ruling -\->
-                                </layout>
--->
                             </layoutDesc>
 
                         </objectDesc>
