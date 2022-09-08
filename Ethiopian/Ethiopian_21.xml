@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 01.03.22 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Ethiopian_21">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Wellcome Ethiopian 21</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="RK">
+                    <resp when="2005">Cataloguer</resp>
+                    <persName>R. Kidane</persName>
+                </respStmt>
+                <respStmt xml:id="KG">
+                    <resp when="2015">Cataloguer</resp>
+                    <persName>Ekaterina Gusarova</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2022-03-01">Template</resp>
+                    <resp when="2022">Provenance research</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+                <respStmt xml:id="YK">
+                    <resp when="2022-05-30">TEI Encoder</resp>
+                    <persName>Yoshika Kobayashi</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">WMS Ethiopian 21</idno>
+                <idno type="catalogue">Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London.</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Ethiopian 21</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b24724944</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>84826</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>A part of The Apocryphal Acts of Apostles. The part dedicated to Paul and Barnabas.</summary>
+                        
+                        <textLang mainLang="gez" source="IANA">Ge'ez</textLang>
+                        
+                        <msItem n="1" xml:id="Wellcome_Ethiopian_21_1">
+                            <locus from="1r" to="1v">1r-1v</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">The Apocryphal Acts of Apostles</title>
+                            
+                            <incipit><locus></locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                            
+                            <note>A part of The Apocryphal  Acts of Apostles. The part dedicated to Paul and Barnabas.</note>
+                            
+                        </msItem>
+                        <msItem n="2" xml:id="Wellcome_Ethiopian_21_2">
+                            <locus from="2r" to="2v">2r-2v</locus>
+                            <author key="">Anonymous</author>
+                            <title key="" type="desc">The Apocryphal Acts of Apostles</title>
+                            
+                            <incipit><locus></locus>: <!-- Ge'ez text to be picked up in late-stage editing-->
+                            </incipit>
+                            
+                            <note>A part of The Apocryphal  Acts of Apostles. The part dedicated to Paul and Barnabas.</note>
+                            
+                        </msItem>                        
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="bifolio">
+                            
+                            <supportDesc material="perg">                     
+                                <support>Fine well done parchment</support>
+                                
+                                <extent>2 folios 
+                                    <dimensions type="folia" unit="mm" >
+                                        <dim type="diameter">300</dim>
+                                        <dim type="length">336</dim>
+                                        <dim type="thickness">1</dim>
+                                    </dimensions>
+
+                                </extent>
+                                
+                                <foliation>Fol. 1 and 2 did not go one after the other. There must had been other folios between.</foliation>
+                                
+                                <collation>
+                                    <formula>2 (1-2)</formula>
+                                </collation>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout writtenLines="6">
+                                    6 line in black and red ink           
+                                </layout>
+                                
+                                <layout columns="2">
+                                    <dimensions unit="mm"><dim type="diameter">258</dim></dimensions>
+                                    <dimensions unit="mm"><dim type="length">240</dim></dimensions>
+                                </layout>
+
+                            </layoutDesc> 
+                            
+                        </objectDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="miniature">1. The Holy Trinity in a frame, symbols of 4 Evangelists in the corners of the frame, two angels on the left and on the right; Under the miniature a man laying and praying on the left and an angel with a sword standing against 5 dogs.<locus>fol. 1r</locus></decoNote>
+                            <decoNote type="miniature">2. St. George on the horse killing the Dragon, a man touching the tale of the horse <locus>fol. 1v</locus></decoNote>
+                            <decoNote type="miniature">3. Apostles Paul and Barnabas with the people <locus>fol. 2r</locus></decoNote>
+                            <decoNote type="miniature">4. Apostles Paul and Barnabas preaching <locus>fol. 2v</locus></decoNote>
+                            <decoNote>Miniatures are only partly made in colour, 3 and 4 are black and white.</decoNote>
+                        </decoDesc>
+
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Ethiopia</country>
+                            </origPlace>
+                            <origDate calendar="Gregorian" notBefore="1800" notAfter="1899">19th century</origDate>
+                        </origin>
+                        <provenance notBefore="1855" notAfter="1868">Part of the library of Tewodros II, Emperor of Ethiopian at Maqdala.</provenance>
+                        <provenance when="1868-04">Taken from Maqdala during the British Expedition to Abyssinia in April 1868.</provenance>
+                        <acquisition when="1930-12-30">Purchased at auction by the Wellcome Historical Medical Museum at Stevens, 30 December 1930, lot 310A. Accessioned in June 1936, accession number 84826.</acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Addendum to Catalogue of Ethiopian manuscripts preserved in the Wellcome Library London</title>
+                                        <author>R. Kidane</author>
+                                        <date>c.2005</date>
+                                        <note>Unpublished catalogue</note>
+                                    </bibl>
+                                    <bibl>
+                                        <title>Ethiopian manuscripts</title>
+                                        <author>Ekaterina Gusarova</author>
+                                        <date>2015</date>
+                                        <note>Unpublished catalogue</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2022-08-23" who="#YK">Added data from the catalogue.</change>
+            <change when="2022-01-11" who="#VS">Created template for Wellcome Ethiopian MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
