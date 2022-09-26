@@ -13,9 +13,10 @@ import sys
 from xml.etree import ElementTree as ET
 
 
-RED = "\033[1;31m"
+RED   = "\033[1;31m"
 GREEN = "\033[0;32m"
 RESET = "\033[0;0m"
+BLUE  = "\033[1;34m"
 
 
 def get_file_paths_under(root=".", *, suffix=""):
@@ -42,8 +43,8 @@ def guess_line_label(path, text):
         return ""
     else:
         return (
-            f"(try looking at {text!r} on "
-            + ", ".join(f"L{lineno}" for lineno in line_numbers)
+            f"(try looking at {BLUE}{text}{RESET} on "
+            + ", ".join(f"{BLUE}L{lineno}{RESET}" for lineno in line_numbers)
             + ")"
         )
 
