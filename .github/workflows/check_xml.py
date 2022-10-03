@@ -106,6 +106,37 @@ if __name__ == "__main__":
                     print(f'\t{line_label}')
                 errors += 1
 
+        # We expect to see manuscript IDs in the form: 'MS $Language $Number',
+        # e.g. 'MS Hebrew B1' or 'MS Arabic 247'.
+        #
+        # This looks for the manuscript ID in <idno type="msID">, and warns
+        # if it's not as expected.
+        #
+        # We skip some special cases which are not currently handled by
+        # this rule and need more work to fix.
+        if "/Spanish/" in path or "/Indic/" in path or "/Greek/" in path:
+            continue
+
+        actual_manuscript_id = root.find(".//{http://www.tei-c.org/ns/1.0}idno[@type='msID']").text
+
+        language = os.path.basename(os.path.dirname(path))
+
+        # e.g. Hebrew_B_55.xml ~> B55, Tamil_49.xml ~> 49
+        if "/Hebrew/" in path:
+            ms_short_id = "".join(path.split(".")[0].rsplit("_")[-2:])
+        else:
+            ms_short_id = path.split("_")[-1].split(".")[0]
+
+        expected_manuscript_id = f"MS {language} {ms_short_id}"
+
+        if expected_manuscript_id != actual_manuscript_id:
+            print("")
+            print(os.path.relpath(path, start=repo_root))
+            print(f'\tManuscript ID in <idno type="msID"> is malformed:')
+            print(f'\t\tExpected: {GREEN}{expected_manuscript_id!r}{RESET}')
+            print(f'\t\tActual:   {RED}{actual_manuscript_id!r}{RESET}')
+            errors += 1
+
     print("")
 
     if errors == 0:
