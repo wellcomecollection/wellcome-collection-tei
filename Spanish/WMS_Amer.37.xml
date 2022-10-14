@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MSAmer37">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MSAmer37</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-02-24">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2022-10-06">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt>   
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MSAmer37</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">WMS/Amer.37</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b19483703</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Produced in Mexico.  Dated November [17]92 from the Hospital de Jesús.  
+                     Unused file copy of a circular letter inviting comment from members of the Faculty in the City on the efficacy of the remedy for syphilis of "el Beato" [i.e. Nicolás de Biana, the herbalist] f
+                     or transmittal to the Real Academia de Medicina in Madrid which evidently wished to examine the claims for the remedy. 
+                     His medicament based on the roots of the Agave americana and the Begonia balmisiana was enthusiastically adopted and experimented with in Mexico and in Madrid 
+                     by Francisco Xavier de Balmis [1753-1819], Director of the Real Expedición marítima de la Vacuna from 1803.  [See Balmis (1794); and Smith (1974) p. 17] and entries under
+                     BIANA, and NEW SPAIN, Laws. statutes(1794)].</summary>
+                 
+                  <textLang mainLang="es">Spanish</textLang>
+                  
+                  <msItem n="" xml:id="MSAmer37_1">
+                     
+                     <author key="">O'Sullivan, Daniel<note>qualified as physician before the Protomedicato in early 1790, and in the same year studied under Vicente Cervantes [1755-1829]
+                        in the newly founded Real Jardin Botanico of Mexico (see Rickett (1947), p.63], and established an Academia Publica de Medicina in his privatehouse [see Gortari (1963), p. 249l
+                     </note></author>
+                     
+                     <title key="">O'Sullivan, Daniel</title><!-- That is not the title. The real title is Carta Circular. S[eño]r D[o]n.[	]. 
+                        <note> Dated November [17]92 from the Hospital de Jesus</note> -->
+                     
+                     <textLang otherLangs="en">English</textLang>  
+                     
+                     <incipit>
+                        [Begins:] Me hallo con el encargo de hacer a la Real Academia Medica de Madrid una relacion exacta de los efectos 
+                        que aqui se han experimentado del uso de los medicamentos antivenereos que llaman del Beato.                               
+               
+                     </incipit>                  
+                                        
+                                       
+                     <filiation>Real Jardin Botanico of Mexico<note>see Rickett (1947), p.63</note>  and Academia Publica de Medicina
+                        <note>in his privatehouse [see Gortari (1963), p. 249l </note></filiation>
+                
+                      </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper"><support/>
+                        <extent>1l 
+                           <dimensions unit="cm" type="cm">
+                              <dim type="width">15.5 cm</dim>
+                              <dim type="length">14.5 cm</dim>
+                           </dimensions>  
+                        </extent>
+                        
+                                         
+                        <collation>
+                           <signatures>O'Sullivan, who signs himself as M.D., qualified as physician before the Protomedicato in early 1790,
+                              and in the same year studied under Vicente Cervantes [1755-1829] in the newly founded Real Jardin Botanico of Mexico </signatures>
+                        </collation>
+                        
+                     </supportDesc>
+                     
+                    </objectDesc>
+                  
+                  <handDesc>
+                     <handNote scope="minor ">O'Sullivan's, signs as M.D</handNote>
+                  </handDesc>
+                  
+                  <additions>
+                     <p>Formerly part of the Guerra Collection</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>Bound</p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>Mexico</country>
+                        <region>North America</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">1792</origDate>
+                  </origin>
+                  <acquisition>Purchased 1962.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of medical Americana in the Library of the  Wellcome Institute for the History of Medicine</title>
+                              <author>Robin Price.</author>
+                              <date>1557-1821<note>from Latin America and the Caribbean Islands</note>1575-1927<note>manuscripts from the Americas</note></date>
+                              <note>P. 263</note>
+                              <note>https://wellcomecollection.org/works/grwhkxyf</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="unknown">
+                        <p/>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-10-06" who="Odalys Caballero">Populated the template</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
