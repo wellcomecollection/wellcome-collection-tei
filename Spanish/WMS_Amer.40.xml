@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MSAmer40">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MSAmer40</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-02-24">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2022-10-06">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt> 
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MSAmer40</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">WMS/Amer.40</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b19620512</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  <summary>A return describing plants of medicinal value used by the Indians of Guatemala.  
+                     Martínez Durán (1964) p. 344 comments that this Recollect friar made the only return from Guatemala in response to the Real Cédula of 14 March 1783 requesting samples of useful plants, and information on them.  
+                     After making it clear that his private interest in medicinal plants has only been pursued within the capital city, and after confirming that he has there found none of the local flora in José Quer, Flora española, 4 vols., Madrid, J. Ibarra, 1762[-64], 
+                     Herrarte describes some 36 plant and animal remedies used by the Indians, some of them marvellous, and others more matter-of-fact.</summary>
+                 
+                  <textLang mainLang="">Spanish</textLang>
+                  
+                  <msItem n="" xml:id="MSAmer40_1">
+                     
+                     <author key="">Herrarte, Mariano José de,</author>
+                     
+                     <title key="">Herrarte, Mariano José de (fl. 1784)</title><!-- That is not the title. The real title is "A return describing plants of medicinal value used by the Indians of Guatemala".  -->
+                     
+                     <textLang otherLangs="en">English</textLang>  
+                                       
+                 </msItem>
+               </msContents>
+               
+               <physDesc>
+                  
+                  <objectDesc form="folio">
+                     
+                     <supportDesc material="paper"><support/>
+                        <extent>12 ll
+                           <dimensions unit="cm" type="cm">
+                              <dim type="width">20.5 cm</dim>
+                              <dim type="length">30 cm</dim>
+                           </dimensions>  
+                        </extent> 
+                        
+                    
+                        <collation>                         
+                           <signatures>signed, with rubrica, and dated 5 February 1784; with counter-rubrication by the President and Captain-General dated 2I  February.
+                           </signatures>
+                        </collation>
+                        
+                     </supportDesc>          
+                                                
+                     </objectDesc>
+                 
+                  <additions>
+                     <p>Formerly part of the Guerra Collection</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>Bound</p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>Guatemala</country>
+                        <region>Central America</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">1784</origDate>
+                  </origin>
+                  
+                  <acquisition>Purchased 1962.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of medical Americana in the Library of the  Wellcome Institute for the History of Medicine</title>
+                              <author>Robin Price.</author>
+                              <date>1557-1821<note>from Latin America and the Caribbean Islands</note>1575-1927<note>manuscripts from the Americas</note></date>
+                              <note>P. 223</note>
+                              <note>https://wellcomecollection.org/works/grwhkxyf</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="unknown">
+                        <p/>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-10-06" who="Odalys Caballero">Populated the template</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
