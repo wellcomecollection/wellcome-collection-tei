@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16483">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Wellcome Library</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Library; Bibliotheca Alexandrina; King's College London</publisher>
+        <idno type="msID">MS Arabic 839</idno>
+        <idno type="catalogue">Fihrist</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="WMS_Arabic_839" xml:lang="en">
+          <msIdentifier>
+            <country>UK</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Trust</institution>
+            <repository>Wellcome Collection</repository>
+            <collection> Manuscripts in Arabic</collection>
+            <idno>MS Arabic 839</idno>
+            <altIdentifier type="former">
+              <idno>WMS. Or. 818</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b2029900x</idno>
+            </altIdentifier>
+          </msIdentifier>
+
+          <msContents>
+            <summary>1 copy of Sharḥ al-muqniʿ fī ʿilm al-jabr
+              wa-al-muqābalah by Sibṭ al-Māridīnī, Badr al-Dīn
+              Muḥammad ibn Muḥammad, b. 1423 </summary>
+            <msItem xml:id="WMS_Arabic_839-item1" class="#commentary">
+              <locus facs="#i0002 #i0022"/>
+
+              <author key="person_56597947">
+                <persName xml:lang="ar-Latn-x-lc" type="standard">Sibṭ al-Māridīnī, Badr al-Dīn
+                  Muḥammad ibn Muḥammad, b. 1423</persName>
+                <persName type="original" xml:lang="ar" facs="#i0003">محمد بن محمد بن احمد بن احمد
+                  بنة محمد بن احمد بن الغزال الدمشقى المصري</persName>
+                <persName type="standard" facs="#i0003" xml:lang="ar">سبط المارديني</persName>
+              </author>
+              <title xml:lang="ar-Latn-x-lc" key="">Sharḥ al-muqniʿ fī ʿilm al-jabr
+                wa-al-muqābalah</title>
+              <title type="original" facs="#i0002" xml:lang="ar"> شرح المقنع فى علم الجبر والمقابلة </title>
+              <incipit type="basmala" facs="#i0003" xml:lang="ar">
+                <locus>f.1v.1</locus> بسم الله الرحمن الرحيم </incipit>
+              <incipit type="tahmid" facs="#i0003" xml:lang="ar">
+                <locus>f.1v.2</locus> الحمد لله الذي خبر قلوب اوليايه بحسن المقابلة يوم الحساب </incipit>
+              <incipit facs="#i0003" xml:lang="ar">
+                <locus>f.1v.10</locus> وبعد فيقول فقير رحمة ربه محمد بن محمد بن احمد بن محمد بن احمد
+                بن الغزال الدمشقى اصلا والمصري مولد الشهير بسبط المارديني <gap reason="omitted"/>
+                هذا تعليق مختصر على القصيدة اللاميه التي من البحر الطويل نظم الشيخ الامام العلامة
+                شهاب الدين احمد بن الهايم رحمه الله تعالي المسماه بالمقنع في علم الجبر والمقابلة
+                والناظم رحمه الله كتب عليها شرحين سما احدهما المسرع والاخر الممتع فتاملت المسرع
+                فرايته فى غاية الاختصار ورايت الممتع يميل الي الصعوبة والاكتار فخطر لي ان اعمل شرحا
+                متوسطا بينهما ليحصل به للمبتدي ملكة مع التيسير <gap reason="omitted"/> قال الناظم
+                رحمه الله تعالي بحمد الهي ابتدي ما احاول واهدي صلاة مع سلام يشاكل </incipit>
+              <explicit type="ending" facs="#i0022" xml:lang="ar">
+                <locus>f.20v.16</locus> اي حين ترد عليك المساٸل من السايلين تأخذها وتنصرف فيهما بما
+                يليق بها من العمل والتحيل حتى تصل الي المطلوب وهذا لا ينضبط <gap reason="omitted"/>
+                وقد قدمنا من ذلك مسايل وذكر المصف في شرحه مسايل مهمة نذكرها ملخصة وهو ان كل مسئلة
+                ترد عليك ويطلب منك جوابها </explicit>
+
+              <textLang mainLang="ar">Arabic</textLang>
+              <note>The text is a commentary on <hi rend="italic">al-Muqniʻ fī ʻilm al-jabr wa-al-muqābalah</hi> by
+                  <persName xml:lang="ar-Latn-x-lc" key="person_56587788" role="ant">Ibn-al-Hāʾim,
+                  Aḥmad Ibn-Muḥammad -1412</persName>. This copy is incomplete.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="chart">
+                <support>
+                  <material>Burnished paper</material>
+                
+                </support>
+                <extent> 21 ff. <dimensions type="leaf" unit="mm">
+                    <height>215</height>
+                    <width>155</width>
+                  </dimensions>
+                  <dimensions type="written" unit="mm">
+                    <height>180</height>
+                    <width>115</width>
+                  </dimensions>
+                </extent>
+                <foliation>Lacks foliation; <catchwords>catchwords present.</catchwords>
+                </foliation>
+                <collation>
+                  <seg type="gathering" n="10-10-1" subtype="folded">
+                    <dimensions type="leaf" unit="mm" quantity="2"/>
+                    <formula>Formula: 20+001 ff.</formula>
+                  </seg>
+                </collation>
+                <condition>Sound</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout ruledLines="21" columns="1">
+                 1 column, 21 lines.
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="major" script="naskh">
+                <p><label>Script: </label>Naskh</p>
+                <p><label>Ink: </label>Black and red</p>
+                
+                
+              
+              </handNote>
+            </handDesc>
+            <decoDesc>
+             
+              <decoNote type="rubrication">
+                <desc>Rubrication</desc>
+              </decoNote>
+           
+            </decoDesc>
+            <bindingDesc>
+              <binding contemporary="true">
+                <p>
+                 
+                    <dimensions type="binding" unit="mm">
+                      <height>215</height>
+                      <width>160</width>
+                    </dimensions>
+                    <material>Paper boards; brown paper covers.</material>
+              
+                </p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history><origin>MS is undated.</origin>
+            <acquisition>Wellcome Library accession number: 65969</acquisition>
+          </history>
+          <additional>
+            <listBibl>
+              <bibl><hi rend="italic">Muʿjam al-muʾallifīn</hi>: 3, p. 624.</bibl>
+            
+              <bibl>Brockelmann: G, 2, p. 168.</bibl>
+              
+              
+           
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject
+              Headings</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item><term key="subject_sh85082139">Mathematics</term></item>
+            <item><term key="subject_sh2007100984">Algebra--Early works to 1800</term></item>
+
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-02-10" who="Rosie Maxton">Upgraded to Fihrist standards.</change>
+      <change when="2011-07-06T11:02:53+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_839/WMS_Arabic_839.xml
+          <persName>sherif.masry</persName>
+      </change>
+      <change when="2011-07-06T11:03:02+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_839/WMS_Arabic_839.xml
+          <persName>sherif.masry</persName>
+      </change>
+      <change when="2011-07-13T12:32:32+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_839/WMS_Arabic_839.xml
+          <persName>ahmed.atteya</persName>
+      </change>
+      <change when="2011-07-13T12:32:38+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_839/WMS_Arabic_839.xml
+          <persName>ahmed.atteya</persName>
+      </change>
+      <change when="2011-09-15T16:02:21+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_839/WMS_Arabic_839.xml
+          <persName>sherif.elansary</persName>
+      </change>
+      <change when="2011-09-15T16:02:28+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_839/WMS_Arabic_839.xml
+          <persName>sherif.elansary</persName>
+      </change>
+      <change when="2011-09-21T10:40:26+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_839/WMS_Arabic_839.xml
+          <persName>sherif.elansary</persName>
+      </change>
+      <change when="2011-10-19T12:52:44+02:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_839/WMS_Arabic_839.xml
+          <persName>mohamed.abdelsamie</persName>
+      </change>
+      <change when="2012-06-11T18:56:47+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_839/WMS_Arabic_839.xml
+          <persName>nserikoff</persName>
+      </change>
+      <change when="2012-09-14T15:35:27+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_839/WMS_Arabic_839.xml
+          <persName>chenshaw</persName>
+      </change>
+      <change when="2012-11-09T19:04:52+02:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_839/WMS_Arabic_839.xml
+          <persName>nserikoff</persName>
+      </change>
+      <change when="2012-11-09T19:05:18+02:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_839/WMS_Arabic_839.xml
+          <persName>nserikoff</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="i0001">
+      <graphic url="WMS_Arabic_839_0001"/>
+    </surface>
+    <surface xml:id="i0002">
+      <graphic url="WMS_Arabic_839_0002"/>
+    </surface>
+    <surface xml:id="i0003">
+      <graphic url="WMS_Arabic_839_0003"/>
+    </surface>
+    <surface xml:id="i0004">
+      <graphic url="WMS_Arabic_839_0004"/>
+    </surface>
+    <surface xml:id="i0005">
+      <graphic url="WMS_Arabic_839_0005"/>
+    </surface>
+    <surface xml:id="i0006">
+      <graphic url="WMS_Arabic_839_0006"/>
+    </surface>
+    <surface xml:id="i0007">
+      <graphic url="WMS_Arabic_839_0007"/>
+    </surface>
+    <surface xml:id="i0008">
+      <graphic url="WMS_Arabic_839_0008"/>
+    </surface>
+    <surface xml:id="i0009">
+      <graphic url="WMS_Arabic_839_0009"/>
+    </surface>
+    <surface xml:id="i0010">
+      <graphic url="WMS_Arabic_839_0010"/>
+    </surface>
+    <surface xml:id="i0011">
+      <graphic url="WMS_Arabic_839_0011"/>
+    </surface>
+    <surface xml:id="i0012">
+      <graphic url="WMS_Arabic_839_0012"/>
+    </surface>
+    <surface xml:id="i0013">
+      <graphic url="WMS_Arabic_839_0013"/>
+    </surface>
+    <surface xml:id="i0014">
+      <graphic url="WMS_Arabic_839_0014"/>
+    </surface>
+    <surface xml:id="i0015">
+      <graphic url="WMS_Arabic_839_0015"/>
+    </surface>
+    <surface xml:id="i0016">
+      <graphic url="WMS_Arabic_839_0016"/>
+    </surface>
+    <surface xml:id="i0017">
+      <graphic url="WMS_Arabic_839_0017"/>
+    </surface>
+    <surface xml:id="i0018">
+      <graphic url="WMS_Arabic_839_0018"/>
+    </surface>
+    <surface xml:id="i0019">
+      <graphic url="WMS_Arabic_839_0019"/>
+    </surface>
+    <surface xml:id="i0020">
+      <graphic url="WMS_Arabic_839_0020"/>
+    </surface>
+    <surface xml:id="i0021">
+      <graphic url="WMS_Arabic_839_0021"/>
+    </surface>
+    <surface xml:id="i0022">
+      <graphic url="WMS_Arabic_839_0022"/>
+    </surface>
+    <surface xml:id="i0023">
+      <graphic url="WMS_Arabic_839_0023"/>
+    </surface>
+    <surface xml:id="i0024">
+      <graphic url="WMS_Arabic_839_0024"/>
+    </surface>
+    <surface xml:id="i0025">
+      <graphic url="WMS_Arabic_839_0025"/>
+    </surface>
+    <surface xml:id="i0026">
+      <graphic url="WMS_Arabic_839_0026"/>
+    </surface>
+    <surface xml:id="i0027">
+      <graphic url="WMS_Arabic_839_0027"/>
+    </surface>
+    <surface xml:id="i0028">
+      <graphic url="WMS_Arabic_839_0028"/>
+    </surface>
+    <surface xml:id="i0029">
+      <graphic url="WMS_Arabic_839_0029"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div> </div>
+    </body>
+  </text>
+</TEI>
