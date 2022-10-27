@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS4367">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS4367</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-02-18">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2022-10-06">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+               <note>Description compiled by Ross MacFarlane</note>
+            </respStmt>   
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS4367</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">MS.4367</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b19661332</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>AccNo 47229</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  <summary>Estracto de un Discurso ... sobre el origen y antiguedad del mal Galico.</summary>
+                  
+                  <textLang mainLang="es">Spanish</textLang>
+                  
+                  <msItem n="" xml:id="MS4367_1">
+                     
+                     <author key="">Sarmiento, (Martin), 1693-1772<note>The author, one of the most learned men of his time, entered the Benedictine Order in 1710. 
+                        He was later professor of philosophy, theology and moral philosophy at Madrid. 
+                        He wrote on historical and literary subjects, and died of overwork</note></author>
+                     
+                     <title key="">Sarmiento, Martin (1693-1772)</title> <!--There is not title-->
+                     
+                     <textLang otherLangs="en">English</textLang>    
+                     
+                      
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper"><support/>
+                        <extent>47 ll. 4to. 
+                           <dimensions unit="cm" type="cm">
+                              <dim type="width">15 cm</dim>
+                              <dim type="length">19.1/2 cm</dim>
+                           </dimensions>  
+                        </extent>
+                        
+                        <foliation/>
+                        <collation>
+                           <formula/>
+                           <signatures/>
+                        </collation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines=""/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope=""/>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  
+                  <additions>
+                     <p>Book-plate of De Salva [ -1870]: it is No. 2749 of the Salva Catalogue, Library label 1158 of Dr. Edmond Fournier [1864-1938].</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>Original calf binding. Stamped on the spine with arms of Du Tertre</p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>Spain</country>
+                        <region>Madrid</region>
+                     </origPlace>
+                     <origDate calendar="">Late 18th century<note>This work on the pre-Columbian existence of syphilis was printed in 1788 at Madrid
+                        [cf. Ploucquet. 'Literatura medica'.Vol. IV, p. 126]</note></origDate>
+                  </origin>
+                  
+                  <acquisition>Purchased 1928.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of Western manuscripts on medicine and science in the Wellcome Historical Medical Library.</title>
+                              <author>S.A.J. Moorat.</author>
+                              <date>1962-1973</date>
+                              <note>P. 949 (v.II, N-Z)</note>
+                              <note>https://wellcomecollection.org/works/scscncqd</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                                          
+                     <availability status="unknown">
+                        <p>Images are supplied for private research only at the Archivist's discretion. Please note that material may be unsuitable for copying on conservation grounds. 
+                           Researchers who wish to publish material must seek copyright permission from the copyright owner.</p>
+                     </availability>
+                     
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-10-06" who="Odalys Caballero">Populated the template</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
