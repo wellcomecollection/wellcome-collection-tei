@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS4478">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS4478</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-02-18">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2022-10-06">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+               <note>Description compiled by Ross MacFarlane</note>
+            </respStmt>   
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS4478</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">MS.4478</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b18754089</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>AccNo 73732C</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <msContents>
+                  <summary>A collection of cookery, medical, domestic and technical receipts, of which the cookery section is the largest.</summary>
+                 
+                  <textLang mainLang="es">Spanish</textLang>
+                 
+                  <msItem n="" xml:id="MS4478_1">
+                     
+                     <author key=""/>
+                    
+                     <title key="">Secretos de artes y oficios y libro de cocina</title>
+                    
+                                  
+                     <textLang otherLangs="en">English</textLang>  
+                     
+                     </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper"><support/>
+                        <extent>1 volume
+                           <dimensions unit="" type="">
+                              <dim type="diameter"/>
+                              <dim type="length"/>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        
+                        <collation>
+                           <formula/>
+                           <signatures><locus>On the verso of the first fly-leaf </locus>is the signature in pencil 'J. Hodgkin Jan. 29. 1915':
+                              <locus>on the last fly-leaf</locus>on the last fly-leaf 'Hodgson's Rooms Jan. 29. 1915. Lot 565'</signatures>
+                        </collation>
+                        
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines=""/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope=""/>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions>
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country/>,
+                                        <region/>,
+                                        <settlement/>,
+                                        <orgName/>
+                     </origPlace>
+                     <origDate calendar="">mid-19th century</origDate>
+                  </origin>
+                  <provenance notBefore="" notAfter=""/>
+                  <acquisition>Purchased 1931.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl/>
+                        </source>
+                     </recordHist>
+                     <availability status="">
+                        <p/>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when=""/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
