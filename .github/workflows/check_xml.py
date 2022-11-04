@@ -7,50 +7,35 @@ This doesn't mean it can be parsed and used in the catalogue pipeline
 by the Digital Engagement team, but it's a useful first pass.
 """
 
+import collections
 import os
 import subprocess
 import sys
+import textwrap
 from xml.etree import ElementTree as ET
 
+from validation_rules import (
+    check_for_author_names_with_no_original,
+    check_for_malformed_manuscript_ids,
+)
 
-RED   = "\033[1;31m"
+
+RED = "\033[1;31m"
 GREEN = "\033[0;32m"
 RESET = "\033[0;0m"
-BLUE  = "\033[1;34m"
+BLUE = "\033[1;34m"
 
 
 def get_file_paths_under(root=".", *, suffix=""):
     """Generates the paths to every file under ``root``."""
-    if not os.path.isdir(root):
-        raise ValueError(f"Cannot find files under non-existent directory: {root!r}")
-
     for dirpath, _, filenames in os.walk(root):
         for f in filenames:
             if os.path.isfile(os.path.join(dirpath, f)) and f.lower().endswith(suffix):
                 yield os.path.join(dirpath, f)
 
 
-def guess_line_label(path, text):
-    """
-    Given a file and some text, return a hint about where this text
-    might appear.
-    """
-    lines = enumerate(list(open(path)), start=1)
-
-    line_numbers = [lineno for lineno, line in lines if text in line]
-
-    if len(line_numbers) == 0:
-        return ""
-    else:
-        return (
-            f"(try looking at {BLUE}{text}{RESET} on "
-            + ", ".join(f"{BLUE}L{lineno}{RESET}" for lineno in line_numbers)
-            + ")"
-        )
-
-
-if __name__ == "__main__":
-    repo_root = (
+def get_repo_root():
+    return (
         subprocess.check_output(
             [
                 "git",
@@ -62,87 +47,47 @@ if __name__ == "__main__":
         .decode("ascii")
     )
 
-    errors = 0
+
+if __name__ == "__main__":
+    repo_root = get_repo_root()
+
+    errors = collections.defaultdict(list)
 
     for path in sorted(get_file_paths_under(repo_root, suffix=".xml")):
 
         # Exclude a couple of paths that aren't actual TEI files
-        if os.path.relpath(path, start=repo_root).startswith(("Templates/", "docs/")):
+        if os.path.relpath(path, start=repo_root).startswith(
+            ("Templates/", "docs/", "minimum-viable-records/")
+        ):
             continue
 
         try:
             root = ET.parse(path).getroot()
         except ET.ParseError as err:
-            print("")
-            print(os.path.relpath(path, start=repo_root))
-            print(f"\tUnable to parse XML: {err}")
-            errors += 1
+            errors[path].append(f"Unable to parse XML: {err}")
             continue
 
-        # The transformer expects to see author names in the form:
-        #
-        #       <author key="person_88345215">
-        #           <persName xml:lang="eng" type="standard">Badr-addin Muhammad b. Bahram b. Muhammad al-Qalanisi as-Samarqandi</persName>
-        #           <persName xml:lang="ar" type="original">بدر الدين محمد بن بهرام بن محمد القلانسي السمرقندي</persName>
-        #       </author>
-        #
-        # Notice that one is labelled `type="original"`; if this is missing,
-        # we don't know what contributor to display on the page.
-        for author in root.findall(".//{http://www.tei-c.org/ns/1.0}author"):
-            persname_nodes = author.findall("./{http://www.tei-c.org/ns/1.0}persName")
+        validation_rules = [
+            check_for_author_names_with_no_original,
+            check_for_malformed_manuscript_ids,
+        ]
 
-            if len(persname_nodes) <= 1:
-                continue
+        for run_rule in validation_rules:
+            for e in run_rule(root, path):
+                errors[path].append(e)
 
-            if not any(pn.attrib.get("type") == "original" for pn in persname_nodes):
-                line_label = guess_line_label(path, text=persname_nodes[0].text.splitlines()[0])
-
-                print("")
-                print(os.path.relpath(path, start=repo_root))
-                print(
-                    f'\tFound <author> with multiple <persName> nodes but no type="original"'
-                )
-                if line_label:
-                    print(f'\t{line_label}')
-                errors += 1
-
-        # We expect to see manuscript IDs in the form: 'MS $Language $Number',
-        # e.g. 'MS Hebrew B1' or 'MS Arabic 247'.
-        #
-        # This looks for the manuscript ID in <idno type="msID">, and warns
-        # if it's not as expected.
-        #
-        # We skip some special cases which are not currently handled by
-        # this rule and need more work to fix.
-        if "/Spanish/" in path or "/Indic/" in path or "/Greek/" in path:
-            continue
-
-        actual_manuscript_id = root.find(".//{http://www.tei-c.org/ns/1.0}idno[@type='msID']").text
-
-        language = os.path.basename(os.path.dirname(path))
-
-        # e.g. Hebrew_B_55.xml ~> B55, Tamil_49.xml ~> 49
-        if "/Hebrew/" in path:
-            ms_short_id = "".join(path.split(".")[0].rsplit("_")[-2:])
-        else:
-            ms_short_id = path.split("_")[-1].split(".")[0]
-
-        expected_manuscript_id = f"MS {language} {ms_short_id}"
-
-        if expected_manuscript_id != actual_manuscript_id:
-            print("")
-            print(os.path.relpath(path, start=repo_root))
-            print(f'\tManuscript ID in <idno type="msID"> is malformed:')
-            print(f'\t\tExpected: {GREEN}{expected_manuscript_id!r}{RESET}')
-            print(f'\t\tActual:   {RED}{actual_manuscript_id!r}{RESET}')
-            errors += 1
-
-    print("")
-
-    if errors == 0:
+    if not errors:
         print(f"{GREEN}🎉 All files checked, no errors!{RESET}")
     else:
+        for path, per_file_errors in sorted(errors.items()):
+            print("")
+            print(f"{BLUE}{os.path.relpath(path, repo_root)}{RESET}")
+            for e in per_file_errors:
+                print(textwrap.indent(e, prefix="\t"))
+
+        total_errors = sum(len(v) for v in errors.values())
+
         print(
-            f"{RED}⚠️ All files checked, {errors} error{'s' if errors > 0 else ''} found!{RESET}"
+            f"{RED}⚠️ All files checked, {total_errors} error{'s' if total_errors > 0 else ''} found!{RESET}"
         )
         sys.exit(1)
