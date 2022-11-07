@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 1</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 1</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 1</idno>
+                        <altIdentifier type="sierra">
+                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A Japanese kabusebori edition of <title xml:lang="zh-Latn"
+                                source="IANA">Shisijing fahui</title>, a study of the theory and
+                            practice of acupuncture focusing on the fourteen bodily tracts, with
+                            illustrations, published in 1709.<note>The work was first written in
+                                    <date>1341</date> by <persName>Hua Shou</persName>
+                                <date from="1304" to="1386"> (1304–1386)</date>, and printed in
+                                    <date>1364</date>. It was first printed in
+                                    <placeName>Japan</placeName> in <date>1596</date> and was one of
+                                the first books to be printed with movable type. Later movable-type
+                                editions are recorded from <date>1604</date>, <date>1618</date> and
+                                    <date>1625</date>; block-printed editions are recorded from
+                                    <date>1631</date>, <date>1649</date> and <date>1665</date>, and
+                                on numerous other occasions up to <date>1805</date>. It is clear,
+                                then, that there was a very considerable market for this work in
+                                Japan in the <date from="1600" to="1868">Edo period</date>.</note>
+                        </summary>
+
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_1">
+                            <author key="person_21025729" source="VIAF">
+                                <persName xml:lang="ja" source="IANA" type="original">滑寿</persName>
+                                <persName xml:lang="ja-Latn" source="IANA" type="standard">Hua
+                                    Shou</persName>
+                                <note><p><persName>Hua Shou</persName>,<date from="1304" to="1386">
+                                            (1304–1386)</date>, a distinguished physician of the
+                                            <date from="1271" to="1368">Yuan
+                                    dynasty</date></p></note>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja" source="IANA">芳野屋権兵衛 </persName>
+                                <persName type="standard" xml:lang="ja-Latn" source="IANA">Yoshidaya
+                                    Gonbei</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+                            <respStmt>
+                                <persName type="original" xml:lang="ja" source="IANA">薛鎧</persName>
+                                <resp>Copy editor(?)</resp>
+                            </respStmt>
+
+                            <title>
+                                <title type="original" xml:lang="ja" source="IANA">十四経発揮</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Jūshikei
+                                    hakki</title>
+                                <title type="standard" xml:lang="en" source="IANA">The fourteen
+                                    bodily tracts explained</title>
+                            </title>
+                            <filiation><p>Other Japanese block-printed editions of this work were
+                                    prepared in 1649 (Royal Library,Copenhagen [Jap.950]), and in
+                                    1665 (Ruhr Universität, Bohum)</p></filiation>
+                            <note><p>題箋欠。序題「新刊十四経絡揮」。覆明版。</p></note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent>１冊 3巻 | 1 satsu (volume) with 3 maki (section <dimensions
+                                        unit="mm" type="binding">
+                                        <dim type="height">276mm</dim>
+                                        <dim type="width">192mm</dim>
+                                        <dim type="depth">14mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Kabusebori woodblock print (facsimile of Ming era
+                                    edition)</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1709">宝永6 | Sixth year of Hōei
+                                Era</origDate>
+                            <origDate calendar="gregorian" when="1709">1709</origDate>
+                            <origPlace>
+                                <placeName>大阪 | Osaka</placeName>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">東京大学総合図書館古医学書目録</title>
+                                <title xml:lang="ja-Latn">Tōkyō Daigaku sōgō toshokan ko igakusho
+                                    mokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Tōkyō Daigaku</publisher>
+                                <date>1978</date>
+                                <note>p. 14</note>
+                            </bibl>
+                            <bibl>
+                                <author xml:lang="ja">小曽戸洋, 関信之, 栗原萬理子</author>
+                                <author xml:lang="ja-Latn">Kosoto Hiroshi, Seki Nobuyuki and
+                                    Kurihara Mariko</author>
+                                <title xml:lang="ja" level="a">和刻本漢籍医書総合年表</title>
+                                <title xml:lang="ja-Latn" level="a">Wakokubon kanseki isho sōgō
+                                    nenpyō</title>
+                                <title xml:lang="ja" level="j">日本医史学雑誌</title>
+                                <title xml:lang="ja-Latn" level="j">Nihon ishigaku zasshi </title>
+                                <date>1990</date>
+                                <biblScope unit="volume">36</biblScope>
+                                <note>p. 410</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="de">Japanische handschriften und traditionelle
+                                    Drucke aus der Zeit vor 1868</title>
+                                <author>Eva Kraft</author>
+                                <placeName>Wiesbaden</placeName>
+                                <publisher>Franz Steiner Verlag</publisher>
+                                <date>1982-1994</date>
+                                <biblScope unit="volume">4</biblScope>
+                                <note>p. 11</note>
+                            </bibl>
+                            <bibl>
+                                <title>Celestial lancets: a history and rationnale of acupuncture
+                                    and moxa</title>
+                                <author>Lu Gwei-Djen and Joseph Needham</author>
+                                <placeName>Cambridge</placeName>
+                                <publisher>Cambridge University Press</publisher>
+                                <date>1980</date>
+                                <note>pp. 156-157</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">内閣文庫漢籍分類目録</title>
+                                <title xml:lang="ja-Latn">Naikaku bunko kokusho bunrui
+                                    mokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Naikaku Bunko</publisher>
+                                <date>1956</date>
+                                <note>p. 191</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">医学古書目録</title>
+                                <title xml:lang="ja-Latn">Igaku kosho mokuroku</title>
+                                <author xml:lang="ja">小川鼎三</author>
+                                <author xml:lang="ja-Latn">Ogawa Teizō</author>
+                                <placeName>Kyōto</placeName>
+                                <publisher>Shibunkaku</publisher>
+                                <date>1989</date>
+                                <note>pp. 73-74</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">増補古活字版之研究</title>
+                                <title xml:lang="ja-Latn">Kokatsujuban no kenkyū</title>
+                                <author xml:lang="ja">川瀬一馬</author>
+                                <author xml:lang="ja-Latn">Kawase Kazuma</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>The Antiquarian Booksellers Association of
+                                    Japan</publisher>
+                                <date>1967</date>
+                                <note>pp. 332-333; pp. 707-708; pp.753-754</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh99002319">Anatomy</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-11"><persName>"#SC"</persName>Created template.</change>
+            <change when="2021-11-11"><persName>"#SC"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
