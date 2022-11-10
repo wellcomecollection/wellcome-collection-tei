@@ -31,8 +31,8 @@
 | msItem/colophon/locus | notes /[colophon]/ | Done | yes
 | history/origin/origPlace | production | Done | yes
 | history/origin/origDate | production | Done | yes
-| history/provenance | notes \[ownership\] | 
-| history/acquisition | notes \[acquisition\] |
+| history/provenance | notes \[ownership\] Done | 
+| history/acquisition | notes \[acquisition\] Done |
 | physDesc/handDesc/handNote | contributor | Done | yes
 | physDesc/objectDesc/object/support | physicalDescription | Done| yes
 | physDesc/objectDesc/object/extent |physicalDescription | Done | yes
