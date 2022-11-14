@@ -27,3 +27,5 @@ Any other numbers will also be recorded during phase 2 of the inventory. These n
 *   **E**- Bad. Highly unstable items. Not suitable for consultation. For example major mould infestation, blocking, extensive fragmentation, high fragility.&#x20;
 
     Highly valuable items where producing them to readers would put them at risk of unacceptable damage.
+
+Anyone doing manuscripts inventory should first have a handling training session with conservation.&#x20;
