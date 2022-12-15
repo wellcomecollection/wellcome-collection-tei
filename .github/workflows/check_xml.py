@@ -15,11 +15,12 @@ from collections import defaultdict
 from xml.etree import ElementTree as ET
 
 
-RED   = "\033[1;31m"
+RED = "\033[1;31m"
 GREEN = "\033[0;32m"
 RESET = "\033[0;0m"
-BLUE  = "\033[1;34m"
+BLUE = "\033[1;34m"
 XMLNS = {"": "http://www.tei-c.org/ns/1.0"}
+
 
 def get_file_paths_under(root=".", *, suffix=""):
     """Generates the paths to every file under ``root``."""
@@ -69,15 +70,17 @@ def check_author_names(relpath, root, fullpath):
             continue
 
         if not any(pn.attrib.get("type") == "original" for pn in persname_nodes):
-            line_label = guess_line_label(fullpath, text=persname_nodes[0].text.splitlines()[0])
+            line_label = guess_line_label(
+                fullpath, text=persname_nodes[0].text.splitlines()[0]
+            )
 
             print("")
             print(relpath)
             print(
-                f'\tFound <author> with multiple <persName> nodes but no type="original"'
+                '\tFound <author> with multiple <persName> nodes but no type="original"'
             )
             if line_label:
-                print(f'\t{line_label}')
+                print(f"\t{line_label}")
             errors += 1
     return errors
 
@@ -93,7 +96,12 @@ def check_manuscript_id(relpath, root):
     # this rule and need more work to fix.
     # We also skip the "minimal-viable-records folder".  These are documents may be of any language,
     # and should be subject to other checks, but the id is not predictable from this folder name
-    if relpath.partition("/")[0] in ("Spanish", "Indic", "Greek", "minimum-viable-records"):
+    if relpath.partition("/")[0] in (
+        "Spanish",
+        "Indic",
+        "Greek",
+        "minimum-viable-records",
+    ):
         return 0
     actual_manuscript_id = root.find(".//idno[@type='msID']", namespaces=XMLNS).text
     language = os.path.basename(os.path.dirname(relpath))
@@ -113,9 +121,9 @@ def check_manuscript_id(relpath, root):
     if expected_manuscript_id != actual_manuscript_id:
         print("")
         print(relpath)
-        print(f'\tManuscript ID in <idno type="msID"> is malformed:')
-        print(f'\t\tExpected: {GREEN}{expected_manuscript_id!r}{RESET}')
-        print(f'\t\tActual:   {RED}{actual_manuscript_id!r}{RESET}')
+        print('\tManuscript ID in <idno type="msID"> is malformed:')
+        print(f"\t\tExpected: {GREEN}{expected_manuscript_id!r}{RESET}")
+        print(f"\t\tActual:   {RED}{actual_manuscript_id!r}{RESET}")
         return 1
     return 0
 
@@ -141,13 +149,19 @@ def check_keyword_ids(relpath, root, fullpath):
         if "ref" in term.attrib:
             ref = term.attrib.get("ref", "").strip()
             if ref == "subject_":
-                # Although this is essentially the same error as placing a key value in a ref attribute,
-                # it is a slightly special case - in this scenario, there is no substance to the attribute,
+                # Although this is essentially the same error as
+                # placing a key value in a ref attribute,
+                # it is a slightly special case - in this scenario,
+                # there is no substance to the attribute,
                 # so the <term /> should probably be deleted.
-                error_messages[f"ref attribute(s) in {relpath} are effectively empty"] = [(guess_line_label(fullpath, text=f'ref="{ref}"'))]
+                error_messages[
+                    f"ref attribute(s) in {relpath} are effectively empty"
+                ] = [(guess_line_label(fullpath, text=f'ref="{ref}"'))]
                 errors += 1
             elif ref.startswith("subject_") or ref.startswith("sh"):
-                error_messages[f"ref attribute in {relpath} looks like a key"].append(guess_line_label(fullpath, text=f'ref="{ref}"'))
+                error_messages[f"ref attribute in {relpath} looks like a key"].append(
+                    guess_line_label(fullpath, text=f'ref="{ref}"')
+                )
                 errors += 1
     if errors:
         for key, value in error_messages.items():
@@ -181,17 +195,19 @@ def check_documents_in_folder(repo_root):
 
 
 def main():
-    errors = check_documents_in_folder((
-        subprocess.check_output(
-            [
-                "git",
-                "rev-parse",
-                "--show-toplevel",
-            ]
+    errors = check_documents_in_folder(
+        (
+            subprocess.check_output(
+                [
+                    "git",
+                    "rev-parse",
+                    "--show-toplevel",
+                ]
+            )
+            .strip()
+            .decode("ascii")
         )
-        .strip()
-        .decode("ascii")
-    ))
+    )
     if errors == 0:
         print(f"{GREEN}🎉 All files checked, no errors!{RESET}")
     else:
