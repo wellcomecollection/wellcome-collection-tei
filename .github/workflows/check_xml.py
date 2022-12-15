@@ -141,6 +141,9 @@ def check_keyword_ids(relpath, root, fullpath):
         if "ref" in term.attrib:
             ref = term.attrib.get("ref", "").strip()
             if ref == "subject_":
+                # Although this is essentially the same error as placing a key value in a ref attribute,
+                # it is a slightly special case - in this scenario, there is no substance to the attribute,
+                # so the <term /> should probably be deleted.
                 error_messages[f"ref attribute(s) in {relpath} are effectively empty"] = [(guess_line_label(fullpath, text=f'ref="{ref}"'))]
                 errors += 1
             elif ref.startswith("subject_") or ref.startswith("sh"):
