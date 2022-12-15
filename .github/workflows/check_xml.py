@@ -50,24 +50,6 @@ def guess_line_label(path, text):
             + ")"
         )
 
-def check_keyword_ids(relpath, root, fullpath):
-    errors = 0
-    error_messages = defaultdict(list)
-    for term in root.findall(".//keywords//term", namespaces=XMLNS):
-        if "ref" in term.attrib:
-            ref = term.attrib.get("ref", "").strip()
-            if ref == "subject_":
-                error_messages[f"ref attribute(s) in {relpath} are effectively empty"] = [(guess_line_label(fullpath, text=f'ref="{ref}"'))]
-                errors += 1
-            elif ref.startswith("subject_") or ref.startswith("sh"):
-                error_messages[f"ref attribute in {relpath} looks like a key"].append(guess_line_label(fullpath, text=f'ref="{ref}"'))
-                errors += 1
-    if errors:
-        for key, value in error_messages.items():
-            print(key)
-            print("\n".join(value))
-    return errors
-
 
 def check_author_names(relpath, root, fullpath):
     # The transformer expects to see author names in the form:
@@ -109,6 +91,8 @@ def check_manuscript_id(relpath, root):
     #
     # We skip some special cases which are not currently handled by
     # this rule and need more work to fix.
+    # We also skip the "minimal-viable-records folder".  These are documents may be of any language,
+    # and should be subject to other checks, but the id is not predictable from this folder name
     if relpath.partition("/")[0] in ("Spanish", "Indic", "Greek", "minimum-viable-records"):
         return 0
     actual_manuscript_id = root.find(".//idno[@type='msID']", namespaces=XMLNS).text
@@ -136,31 +120,65 @@ def check_manuscript_id(relpath, root):
     return 0
 
 
-def main(repo_root):
+def check_keyword_ids(relpath, root, fullpath):
+    """
+    keyword terms may contain either or both of
+    * @ref - an absolute or relative URI
+    * @key - an externally defined identifier
+
+    The key attribute is extracted by the Works Pipeline to assign identifiers
+    to Concept objects in the resulting Works.
+
+    A common error is to place a `key` value in a `ref` attribute.
+
+    https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-term.html
+    https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-keywords.html
+    https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.canonical.html
+    """
     errors = 0
-    for path in sorted(get_file_paths_under(repo_root, suffix=".xml")):
-        relpath = os.path.relpath(path, start=repo_root)
+    error_messages = defaultdict(list)
+    for term in root.findall(".//keywords//term", namespaces=XMLNS):
+        if "ref" in term.attrib:
+            ref = term.attrib.get("ref", "").strip()
+            if ref == "subject_":
+                error_messages[f"ref attribute(s) in {relpath} are effectively empty"] = [(guess_line_label(fullpath, text=f'ref="{ref}"'))]
+                errors += 1
+            elif ref.startswith("subject_") or ref.startswith("sh"):
+                error_messages[f"ref attribute in {relpath} looks like a key"].append(guess_line_label(fullpath, text=f'ref="{ref}"'))
+                errors += 1
+    if errors:
+        for key, value in error_messages.items():
+            print(key)
+            print("\n".join(value))
+    return errors
+
+
+def check_documents_in_folder(repo_root):
+    errors = 0
+    for fullpath in sorted(get_file_paths_under(repo_root, suffix=".xml")):
+        relpath = os.path.relpath(fullpath, start=repo_root)
         # Exclude a couple of paths that aren't actual TEI files
         if relpath.startswith(("Templates/", "docs/", ".", "venv")):
             continue
 
         try:
-            root = ET.parse(path).getroot()
+            root = ET.parse(fullpath).getroot()
         except ET.ParseError as err:
             print("")
             print(relpath)
+
             print(f"\tUnable to parse XML: {err}")
             errors += 1
             continue
 
-        errors += check_author_names(relpath, root, path)
+        errors += check_author_names(relpath, root, fullpath)
         errors += check_manuscript_id(relpath, root)
-        errors += check_keyword_ids(relpath, root, path)
+        errors += check_keyword_ids(relpath, root, fullpath)
     return errors
 
 
-if __name__ == "__main__":
-    errors = main((
+def main():
+    errors = check_documents_in_folder((
         subprocess.check_output(
             [
                 "git",
@@ -171,7 +189,6 @@ if __name__ == "__main__":
         .strip()
         .decode("ascii")
     ))
-
     if errors == 0:
         print(f"{GREEN}🎉 All files checked, no errors!{RESET}")
     else:
@@ -179,3 +196,7 @@ if __name__ == "__main__":
             f"{RED}⚠️ All files checked, {errors} error{'s' if errors > 0 else ''} found!{RESET}"
         )
         sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
