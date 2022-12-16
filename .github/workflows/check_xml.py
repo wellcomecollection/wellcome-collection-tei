@@ -108,6 +108,9 @@ def check_manuscript_id(relpath, root):
 
     # The Fihrist folder is not a language, but is a subfolder under Arabic
     # to contain Arabic documents formatted appropriately for submission to Fihrist
+    # Although this would currently only be relevant to "Arabic" documents,
+    # this convention could conceivably also be used for Karshuni, so
+    # the language is extracted from the parent folder.
     if language == "Fihrist":
         language = os.path.basename(os.path.dirname(os.path.dirname(relpath)))
 
