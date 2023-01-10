@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_18">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 18</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 18</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 18</idno>
+                        <altIdentifier type="sierra">
+                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> A surgical-treatise by <persName>Kamata Keishū</persName>,also
+                            known as Gendai, dictated to his pupil <persName>Matsuoka
+                                Hajime</persName>. It was privately published in <date>1851</date>
+                            in <placeName>Ōzu, Iyo</placeName> by the author but the blocks were
+                            carved in <placeName>Osaka</placeName>. The work outlines a number of
+                            his surgical practices specialising in Breast Cancer, in katakana-majiri
+                            script, with polychrome illustrations by an unknown artist. This copy is
+                            incomplete. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_18">
+
+                            <author key="person_21153651720455781677" source="VIAF">
+                                <persName type="original" xml:lang="ja">鎌田桂州</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kamata
+                                    Keishū</persName>
+                                <note>Kamata Keishū (1794-1854)studied for five years from 1809
+                                    under the medical pioneer Hanaoka Seishū (1760-1835) of Kii, who
+                                    had already in 1804 successfully developed a technique for
+                                    operating on patients under a general anaesthetic, but who did
+                                    not publicize his techniques. Kamata subsequently returned to
+                                    his home province of Iyo in Shikoku, where his family had long
+                                    been in service to the domain authorities as surgeons, and
+                                    practised as a surgeon specializing in the treatment of breast
+                                    cancers.</note>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">松岡肇</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Matsuoka
+                                    Hajime</persName>
+                                <resp>Writer of original text as dictated by Keishū</resp>
+                            </respStmt>
+
+                            <title>
+                                <title type="original" xml:lang="ja" source="IANA">外科起癈</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Geka
+                                    kihai</title>
+                                <title type="standard" xml:lang="en" source="IANA">Life-saving
+                                    surgery</title>
+                            </title>
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 1000937</ref> for copies of
+                                        <title>外科起癈</title> held by other institutions.</p>
+                            </filiation>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 半7冊 1­3, 5, 8­10 | 7 volumes (No's 1-3, 5, and
+                                        8-10)<dimensions unit="mm" type="binding">
+                                        <dim type="height">239mm</dim>
+                                        <dim type="width">162mm</dim>
+                                        <dim type="depth">47mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">Katakana</scriptNote>
+                        </scriptDesc>
+
+                        <decoDesc>
+                            <p>Watercoloured illustrations.</p>
+                        </decoDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p>四つ目 綴じ | Yotsume Toji binding with yellow cover sewn on thin silk
+                                </p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1851">嘉永４ | Fourth year of Kaei
+                                era</origDate>
+                            <origDate calendar="gregorian" when="1851">1851</origDate>
+                            <note>The date of publication given on the inside of the front cover is
+                                1849, but both the preface and postface are dated 1851.</note>
+                            <note>封面に「嘉永己酉＜２年＞春発兌」とあるが、刊年は序跋による</note>
+                            <origPlace>
+                                <placeName>Ōzu</placeName>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">国書総目録</title>
+                                <title xml:lang="ja-Latn">Kokusho sōmokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Iwanami Shoten</publisher>
+                                <date>1963-1976</date>
+                                <note>Vol 3, 60.1</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">図説・日本医療分化史</title>
+                                <title xml:lang="ja-Latn">Zusetsu Nihon iryō bunkashi</title>
+                                <author xml:lang="ja-Latn">Sōda Hajime</author>
+                                <author xml:lang="ja">宗田一</author>
+                                <placeName>Kyōto</placeName>
+                                <publisher>Shibunkaku</publisher>
+                                <date>1989</date>
+                                <note>p.233-4</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">医学古書目録</title>
+                                <title xml:lang="ja-Latn">Igaku kosho mokuroku</title>
+                                <author xml:lang="ja-Latn">Ogawa Teizō</author>
+                                <author xml:lang="ja">小川鼎三</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Nihon Igaku Bunka Honzonkai</publisher>
+                                <date>1976</date>
+                                <note>p.48</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">江戸時代医学史の研究</title>
+                                <title xml:lang="ja-Latn">Edo jidai igakushi no kenkyū</title>
+                                <author xml:lang="ja">服部敏良</author>
+                                <author xml:lang="ja-Latn">Hattori Toshirō</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Yoshikawa Kōbunkan</publisher>
+                                <date>1978</date>
+                                <note>p.148-9</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="MESH">
+                    <bibl>
+                        <ref target="https://meshb.nlm.nih.gov/">National Library of Medicine
+                            Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85019492">Cancer</term>
+                        </item>
+                    </list>
+                </keywords>
+                <keywords scheme="#MESH">
+                    <list>
+                        <item>
+                            <term key="subject_D009369">Neoplasms</term>
+                            <term key="subject_D001943">Breast Neoplasms</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2022-01-12"><persName>"#SC"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

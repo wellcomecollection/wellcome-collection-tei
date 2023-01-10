@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_12">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 12</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 12</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 12</idno>
+                        <altIdentifier type="sierra">
+                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A Japanese edition of <title xml:lang="zh-Latn" source="IANA"
+                                >Shenxiang quanbian</title>, a Chinese work on physiognomy
+                            attributed to <persName>Chen Zhuan</persName> and edited, and possibly
+                            also compiled, by <persName>Yuan Zhongche</persName>, a practising
+                            physiognomer. This edition was published in <date>1807</date> by Umemura
+                            Ihee of Kyoto and includes a number of line illustrations, and kunten
+                            punctuation , glosses and headnotes in Japanese added to the Chinese
+                            text by <persName>Seki Ryushi</persName> and <persName>Seki
+                                Koan</persName>. Appended at the end of the third volume is a
+                            catalogue of other books on physiognomy published by Umemura Ihee.
+                                    <note><title xml:lang="zh-Latn" source="IANA">Shenxiang
+                                    quanbian</title> is principally concerned with the head and
+                                hands, which were thought to reveal most about a person, but also
+                                pays some attention to other parts of the body such as feet and
+                                belly. Much attention is paid to the identification and
+                                classification of physiognomic types, which are correlated with the
+                                Five Elements, the animals of the Chinese zodiac, and other systems.
+                                There are many popular reprints of the text, and also some of a more
+                                scholarly nature which seek to place it in its context of Chinese
+                                belief systems. The first Japanese edition of Shenxiang quanbian was
+                                published in 1651.</note>
+                        </summary>
+                        <msItem n="1" xml:id="Japanese_12">
+                            <textLang mainLang="zh" source="IANA">Chinese</textLang>
+                            <textLang mainLang="ja" source="IANA">Japanese</textLang>
+                            <author>
+                                <persName type="original" xml:lang="ja">陳搏伝</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Chen Zhuan</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">袁忠徹</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Yuan
+                                    Zhongche</persName>
+                                <resp>Editor</resp>
+                            </respStmt>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">石龍子</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Seki Ryushi</persName>
+                                <resp>Translator</resp>
+                            </respStmt>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">石孝安</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Seki Koan</persName>
+                                <resp>Translator</resp>
+                            </respStmt>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">梅村伊兵衛</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Umemura Ihei</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                            <title>
+                                <title type="original" xml:lang="ja" source="IANA">神相全編正義</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shinsō
+                                    zenpen seigi</title>
+                                <title type="standard" xml:lang="en" source="IANA">Complete account
+                                    of physiognomy</title>
+                            </title>
+
+                            <filiation><p>See <ref target="MS Japanese 13">MS Japanese 13</ref> for
+                                    a copy printed later from the same 1807 plates. See <ref
+                                        target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work
+                                        ID: 1034884</ref> for copies of <title>神相全編正義</title> held
+                                    by other institutions.</p>
+                            </filiation>
+
+                            <note>巻末「相書目録　梅村白玉房＜三郎兵衛＞蔵版」（１丁）を附す。
+                                巻末に「原版慶安四辛卯歳（中略）／再校文化三丙寅際（下略）」とあり。</note>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 3 冊 | 3 satsu (volume)<dimensions unit="mm" type="binding">
+                                        <dim type="height">258mm</dim>
+                                        <dim type="width">182mm</dim>
+                                        <dim type="depth">31mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1807">文化４ | Fourth year of Bunka
+                                era</origDate>
+                            <origDate calendar="gregorian" when="1807">1807</origDate>
+                            <note>Date of publication in colophon stated as 1651 but prefaces dated
+                                1805 so assumed this is just a reference to the year the first
+                                Japanese edition of the work was published.</note>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+
+                        <acquisition>Purchased from Kegan Paul and Co. in 1931.</acquisition>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">国書総目録</title>
+                                <title xml:lang="ja-Latn">Kokusho sōmokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Iwanami Shoten</publisher>
+                                <date>1963-1976</date>
+                                <note>Vol 4, 719.2</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">江戸時代書林出版書籍目録集成</title>
+                                <title xml:lang="ja-Latn">Shorin shuppan shojaku mokuroku
+                                    shūsei</title>
+                                <author xml:lang="ja-Latn">Shidō Bunko</author>
+                                <author xml:lang="ja">斯道文庫</author>
+                                <publisher>Edo jidai</publisher>
+                                <date>1962-1964</date>
+                                <note>Vol 1, 88.1 and 136.4</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="fr">La bibliotheque japonaise de Léon de
+                                    Rosny</title>
+                                <author xml:lang="en">Peter Kornicki</author>
+                                <placeName>Lille</placeName>
+                                <publisher>Bibloithèque municipale de Lille</publisher>
+                                <date>1994</date>
+                                <note>p.66</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">漢籍所在調査報告</title>
+                                <title xml:lang="ja-Latn">Kanseki shozai chōsa hōkoku</title>
+                                <publisher>Tōyō Bunko</publisher>
+                                <date>1982</date>
+                                <note>p.87</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">中国方術概観相術巻</title>
+                                <title xml:lang="ja-Latn">Zhongguo fangshu gaiguan- xiangshu
+                                    juan</title>
+                                <author xml:lang="ja">李零</author>
+                                <author xml:lang="ja-Latn">Li Ling</author>
+                                <placeName>Beijing</placeName>
+                                <publisher>Renmin zhongguo chubanshe</publisher>
+                                <date>1993</date>
+                                <note>p.197 (this page precedes a full reprint of the text)</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="en">Fortune-tellers and philosophers: divination in
+                                    traditional Chinese society</title>
+                                <author xml:lang="en">Richard J. Smith</author>
+                                <placeName>Boulder</placeName>
+                                <publisher>Westview Press</publisher>
+                                <date>1981</date>
+                                <note>p.188-199</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85101673">Physiognomy</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2022-07-11"><persName>"#SC"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_23">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 23</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 23</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 23</idno>
+                        <altIdentifier type="sierra">
+                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A study of obstetrics, covering conception, pregnancy, childbirth
+                            and post-natal complications, compiled by <persName>Katsuki
+                                Gyūzan</persName>, including references to I Ching divination and
+                            the use of talismans and spells, with line illustrations depicting women
+                            of the aristocracy. It is one of his earliest published medical works
+                            and based largely on Chinese gynaecological works with the addition of
+                            some Japanese medical theory and and reference to the practice of
+                            gynaecology in Japan. The work was first published in 1708, but this is
+                            a later reprint published by <persName>Kawachiya Kihei</persName> of
+                            Osaka: the original blocks had apparently worn out and some of them were
+                            replaced in 1796.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_23">
+
+                            <author key="person_259889491" source="VIAF">
+                                <persName type="original" xml:lang="ja">香月牛山</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Katsuki
+                                    Gyūzan</persName>
+                                <note> Katsuki Gyūzan (1656-1740) studied medicine under Tsuruhara
+                                    Gen’eki and Confucianism under Kaibara Ekiken, and he was in
+                                    service to the daimyo of Nakatsu for 14 years. He subsequently
+                                    moved to Kyoto and achieved fame with his successful treatment
+                                    of a number of influential people. </note>
+                            </author>
+
+                            <respStmt key="person_40687212" source="VIAF">
+                                <persName type="original" xml:lang="ja">河内屋喜兵衛</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kawachiya,
+                                    Kihē</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                            <title>
+                                <title type="original" xml:lang="ja" source="IANA">婦人寿草</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Fujin
+                                    kotobukigusa</title>
+                                <title type="standard" xml:lang="en" source="IANA">Auspicious notes
+                                    for women</title>
+                                <note>外題「婦人ことぶき草」</note>
+                            </title>
+
+                            <note>後印（大坂、河内屋喜兵衛等）</note>
+                            <note>（刊記書肆）京、勝村治右衛門／大坂、高橋喜助・柳原喜兵衛</note>
+                            <note>（奥附書肆）発行書肆／江戸、須原屋茂兵衛・同伊八・山城屋佐兵衛・岡田屋嘉七・西宮弥兵衛・岡村庄助・永楽屋丈助・英屋大助／京都、吉野屋仁兵衛／尾州名古屋、永楽屋東四郎・菱屋藤兵衛／大阪、河内屋喜兵衛。</note>
+                            <note>（印記）「滋岡庫」。</note>
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 54604</ref> for copies of
+                                        <title>婦人寿草</title> held by other institutions.</p>
+                            </filiation>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 3冊 3巻 | 3 satsu (volume) with 3 maki (section) <dimensions
+                                        unit="mm" type="binding">
+                                        <dim type="height">255mm</dim>
+                                        <dim type="width">177mm</dim>
+                                        <dim type="depth">33mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1796"> 寛政８ | Eighth year of Kansei
+                                era</origDate>
+                            <origDate calendar="gregorian" when="1796">1796</origDate>
+                            <date>刊記（入れ木）に「享保十一丙午年発行／寛政八年丙辰四月補刻」とあり</date>
+                            <origPlace>
+                                <placeName>Osaka</placeName>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">国書総目録</title>
+                                <title xml:lang="ja-Latn">Kokusho sōmokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Iwanami Shoten</publisher>
+                                <date>1963-1976</date>
+                                <note>Vol 7, 81.2</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">日本産科叢書</title>
+                                <title xml:lang="ja-Latn">Nihon sanka sōsho</title>
+                                <author xml:lang="ja-Latn">Kure Shūzō and Fujikawa Yū, ed.</author>
+                                <author xml:lang="ja">呉秀三,富士川游</author>
+                                <placeName>Kyoto</placeName>
+                                <publisher>Shibunkaku</publisher>
+                                <date>1971</date>
+                                <note>p.63-103 (reprint facsimilie of complete text of 1895
+                                    edition)</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">内閣文庫漢籍分類目録</title>
+                                <title xml:lang="ja-Latn">Naikaku bunko kokusho bunrui
+                                    mokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Naikaku Bunko</publisher>
+                                <date>1974-76</date>
+                                <note>p.1001</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85093768">Obstetrics</term>
+                        </item>
+                        <item>
+                            <term key="sh85038589">Divination</term>
+                        </item>
+                        <item>
+                            <term key="sh85079604">Magic</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2022-08-12"><persName>"#SC"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

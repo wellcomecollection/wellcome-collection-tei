@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_9">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 9</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 9</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 9</idno>
+                        <altIdentifier type="sierra">
+                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A volume of monochrome illustrations to accompany a Japanese
+                            edition of <title xml:lang="zh-Latn" source="IANA">Quanti xinlun</title>
+                            | <title xml:lang="zh" source="IANA">全新理论</title> , a treatise on
+                            physiology, published in Japan in 1857. This work was originally written
+                            by <persName>Benjamin Hobson</persName> and published in Chinese in
+                                <placeName>Canton</placeName>,<date>1851</date>. The text is missing
+                            from this copy. </summary>
+
+                        <msItem n="1" xml:id="Japanese_9">
+                            <author key="person_36770591" source="VIAF">
+                                <persName xml:lang="en" source="IANA" type="standard">Benjamin
+                                    Hobson</persName>
+                                <note><p><persName>Benjamin Hobson</persName>,<date from="1816"
+                                            to="1873"> (1816-1873)</date>, went to China with the
+                                        London Missionary Society in <date>1839</date>, after having
+                                        completed his medical training at University College London.
+                                        He worked mostly in Hong Kong and Canton, now Guangzhou,
+                                        although for the last year before his return to England in
+                                        1859 he was in charge of the Shanghai Hospital for Chinese
+                                        (Jen Chi Hospital).</p></note>
+                            </author>
+
+                            <title>
+                                <title type="original" xml:lang="ja" source="IANA">全体新論</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Zentai
+                                    shinron</title>
+                                <title type="standard" xml:lang="en" source="IANA">New treatise on
+                                    the whole body</title>
+                                <note><p>外題: The title is taken from the outside cover.</p></note>
+                            </title>
+
+
+                            <filiation><p>See <ref target="MS Japanese 131">MS Japanese 131</ref>
+                                    for a complete copy of this work with Chinese text and
+                                    illustrations. See <ref
+                                        target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work
+                                        ID: 4374386</ref> for copies of <title>全体新論</title> held by
+                                    other institutions. A digital copy held by Waseda University
+                                    Library can be seen <ref
+                                        target="http://www.wul.waseda.ac.jp/kotenseki/html/ya09/ya09_00289/"
+                                        >here</ref>. </p>
+                            </filiation>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent>１冊 | 1 satsu (volume)<dimensions unit="mm" type="binding">
+                                        <dim type="height">261mm</dim>
+                                        <dim type="width">174mm</dim>
+                                        <dim type="depth">9mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1857">安政４ | Fourth year of Ansei
+                                era</origDate>
+                            <origDate calendar="gregorian" when="1857">1857</origDate>
+                            <note>Date of publication presumed from <ref target="MS Japanese 131">MS
+                                    Japanese 131</ref> and Nagasawa,p.144</note>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                            <note><p>刊記欠</p></note>
+                        </origin>
+
+                        <acquisition> Donated by Captain Archibald Hobson, the author’s grandson, in
+                            1963.</acquisition>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="en">Catalogue of Chinese books and Manuscripts in
+                                    the Library of the Wellcome Institute for the History of
+                                    Medicine</title>
+                                <author xml:lang="en">Hartmut Walravens</author>
+                                <placeName>London</placeName>
+                                <publisher>Wellcome Institute for the History of
+                                    Medicine</publisher>
+                                <date>1994</date>
+                                <note>12,151</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">和刻本漢籍分類目録</title>
+                                <title xml:lang="ja-Latn">Wakokubon kanseki bunrui mokuroku</title>
+                                <author xml:lang="ja">長沢規矩也</author>
+                                <author xml:lang="ja-Latn">Nagasawa Kikuya</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Kyuko Shoin</publisher>
+                                <date>1976-1980</date>
+                                <note>p.144</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">医学古書目録</title>
+                                <title xml:lang="ja-Latn">Igaku kosho mokuroku</title>
+                                <author xml:lang="ja">小川鼎三</author>
+                                <author xml:lang="ja-Latn">Ogawa Teizō</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Nihon Igaku Bunka Honzonkai</publisher>
+                                <date>1976</date>
+                                <note>p.101</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85101679">Physiology</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2022-07-11"><persName>"#SC"</persName>Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
