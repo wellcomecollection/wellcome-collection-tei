@@ -11,17 +11,25 @@
     <fileDesc>
         
         <titleStmt>
-            <title><!-- Give title in the format ""  --></title>
             <title type="collection">Wellcome Collection</title>
-            <respStmt xml:id="LS">
+            <respStmt xml:id="AP">
                 <resp when="2020-10-05">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="LS">
+                <resp when="2022-11-16">Template editor</resp>
                 <persName>Lara Salha</persName>
             </respStmt>
+            <respStmt xml:id="SC">
+                <resp when="2023-01-11">Template editor</resp>
+                <persName>Stephanie Cornwell</persName>
+            </respStmt>
             <respStmt xml:id="">
+            <!-- Insert initials -->
                 <resp when="">TEI Encoder</resp>
                 <persName><!-- Insert name --></persName>
             </respStmt>
-            <!-- Add another <respStmt> for every resp -->
+            <!-- Add another <respStmt> for every person responsible for editing the record in future -->
         </titleStmt>
         
         <publicationStmt>
@@ -36,7 +44,7 @@
             <distributor>
                 <email>library@wellcome.org</email>
             </distributor>
-            <idno type="msID"><!-- Give the shelfmark of the manuscript --></idno>
+            <idno type="msID"><!-- Give the shelfmark/reference number of the manuscript --></idno>
             <idno type="catalogue"><!-- Leave blank --></idno>
             <availability>
                 <licence><!-- Licensing statement to come in late-stage editing --></licence>
@@ -52,16 +60,12 @@
                     <settlement>London</settlement>
                     <institution>Wellcome Collection</institution>
                     <repository>Wellcome Library</repository>
-                    <idno type="shelfmark"></idno>
+                    <idno type="shelfmark"><!-- Give the shelfmark/reference number of the manuscript --></idno>
                     <altIdentifier type="Sierra">
-                        <idno>
-                            <!-- Insert Sierra b number here -->
-                        </idno>
+                        <idno><!-- Insert Sierra b number here --></idno>                                               
                     </altIdentifier>
                     <altIdentifier type="accession">
-                        <idno>
-                         <!-- Insert accession number here -->
-                        </idno>
+                        <idno><!-- Insert accession number here --></idno>
                     </altIdentifier>
                 </msIdentifier>
                 
@@ -71,26 +75,22 @@
                     <textLang mainLang="" source="IANA"><!-- If no language is cited in donor info or can't be easily identified then leave blank --></textLang>
                                        
                     <msItem n="" xml:id="">
-                        <author key="">
+                    <!-- Add 1 to the n value and xml:id for each item described ie. first n="1" xml:id="MS.0000_1", second n="2" xml:id="MS.0000_2" --> 
+                        <author key="person_" source="VIAF">
                             <!-- Insert viaf code as attribute value if available in key --> 
                             <persName> <!-- if available, and enter full author name here --> </persName></author>
                         <title><!--  Enter title here --></title>
                         <note>
                             <p>At this early stage of cataloguing, any language noted is not guaranteed to be the only language in the whole manuscript.</p>
-                        </note>
-                      
-                        
+                        </note>         
                     </msItem>
-                    
-                    
+                                        
                 </msContents>
                 
-                <physDesc>
-                    <!-- Insert and delete as needed -->
-                    <objectDesc form=""> <!-- Insert type i.e codex -->
-                       
-                        <supportDesc material=""> <!-- can material be identified? paper? parchment? -->
-                                                    
+                <physDesc>                
+                    <objectDesc form=""> <!-- Insert type i.e codex or folio -->            
+                        <supportDesc material=""> <!-- Insert if material can be easily identified i.e. paper or parchment -->
+                                
                             <extent><!-- Insert details on extent -->
                                 <dimensions unit="mm" ><!-- Add if available -->
                                     <dim type="diameter"></dim>
@@ -98,15 +98,10 @@
                                 </dimensions>
                             </extent>
                          
-                            <condition>
-                                <!-- Use to record information on the manuscript's condition according to inventory schema, A-D -->
-                            </condition>
+                            <condition><!-- Use to record information on the manuscript's condition according to inventory schema, A-D --></condition>
                             
-                        </supportDesc>                        
-                         
-                    </objectDesc>
-
-                    
+                        </supportDesc>                                             
+                    </objectDesc>                 
                 </physDesc>
                 
                 <history>
@@ -114,21 +109,11 @@
                         <origPlace>
                             <country><!-- insert --></country>
                         </origPlace>
-                        <origDate calendar=""><!-- insert --></origDate>
-                        <!-- use additional origPlace and origDate elements if necessary -->
+                        <origDate calendar="gregorian"><!-- insert --></origDate>
                     </origin>
-                    <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
-                    <!-- use additional provenance elements if necessary -->
-                    <acquisition><!-- insert --></acquisition>
+                    <provenance notBefore="" notAfter=""><!-- insert prior owners where relevant --></provenance>
+                    <acquisition><!-- insert acquisition date and method --></acquisition>
                 </history>
-                
-                <additional>
-                    <adminInfo>
-                        <availability status=""><p> <!-- Insert if relevant --></p>
-                        </availability> 
-                    </adminInfo>
-                
-                </additional>
             
             </msDesc>
         
@@ -136,7 +121,7 @@
     
     </fileDesc>
         
-        <!-- Use the following to record subject headings, if needed -->
+        
         <encodingDesc>
             <classDecl>
                 <taxonomy xml:id="LCSH">
@@ -150,8 +135,8 @@
             <textClass>
                 <keywords scheme="#LCSH">
                     <list>
-                        <item facs="">
-                            <term ref="subject_"></term>
+                        <item>
+                            <term ref="subject_"><!-- Insert sh number and term here, delete if not used. --></term>
                         </item>
                     </list>
                 </keywords>
@@ -159,8 +144,10 @@
         </profileDesc>    
     
         <revisionDesc>
-        <change when=""><!-- Make an entry to record your starting work on the file and then a new <change> for later edits, following the below format --></change>
+        <change when="" who="">Populated template</change>
         <change when="2022-11-16" who="#LS">Created template for Minimum Viable Record TEI files.</change>
+        <change when="2023-01-11" who="#SC">Edited comments and removed unnecessary spaces.</change>
+        <!-- Any further major revisions made to this record in future should be recorded in this same format -->
         </revisionDesc>
 
     </teiHeader>    
