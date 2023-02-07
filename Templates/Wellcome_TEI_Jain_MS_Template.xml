@@ -31,7 +31,7 @@
                 <resp when="">TEI Encoder</resp>
                 <persName><!-- Insert name --></persName>
             </respStmt>
-            <!-- Add another <respStmt> for every resp -->
+            <!-- Add another <respStmt> for every resp, including any additional cataloguers (indicated in 'Form Created' column in orignal form'-->
         </titleStmt>
         
         <publicationStmt>
@@ -66,6 +66,9 @@
                     <altIdentifier type="Sierra">
                         <idno></idno>
                     </altIdentifier>
+                    <altIdentifier type="Raghavan">
+                        <idno><!-- Supply from spreadsheet if available --></idno>
+                    </altIdentifier>
                     <!-- Use further <altIdentifier> if former or alternative <idno> is available -->
                     <altIdentifier type="">
                         <idno></idno>
@@ -76,14 +79,14 @@
                   
                     <summary><!-- Any top-level description of the manuscript as a whole --></summary>
                    
-                    <textLang mainLang="" source="IANA"><!-- Use if only one language in manuscript. For Sanskrit, give mainLang value "sa" --> </textLang>
+                    <textLang mainLang="" source="IANA"><!-- Use if only one language in manuscript. For Sanskrit, give mainLang value "sa". For Prakrit, "pra". --> </textLang>
                     
                     <msItem n="" xml:id="">
                         <locus from="" to=""><!-- Give the locations for the item, if available --></locus>
                         <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
                         <title key=""><!-- Insert viaf code as attribute value, if available, and enter title here --></title>
                         
-                        <!-- Use comment to notetext to be picked up in late-stage editing -->
+                        <!-- Use comment to note text to be picked up in late-stage editing -->
                         
                         <!-- Use as needed, or delete -->
                         <textLang mainLang="" source="IANA"><!-- Enter BCP 47  IANA language code as attribute value and full language name here. For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry --></textLang>
@@ -112,16 +115,14 @@
                 
                 <physDesc>
                     <!-- Insert and delete as needed -->
-                    <objectDesc form="">
+                    <objectDesc form="manuscript">
                        
-                        <supportDesc material="">
+                        <supportDesc material="paper">
                                                     
-                            <support><!-- Insert prose description -->
-                                <watermark><!-- Insert description, if available --></watermark>
-                                <measure type="chainline"><!-- Insert, if available -->.</measure>
+                            <support>Paper
                             </support>
-                            <extent><!-- Insert details on extent -->
-                                <dimensions unit="mm" ><!-- Add if available -->
+                            <extent><!-- Insert details on extent from Folios: Total -->
+                                <dimensions unit="cm" ><!-- Add if available -->
                                     <dim type="diameter"></dim>
                                     <dim type="length"></dim>
                                     <!-- Add or delete dimensions as needed -->
