@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Indic_Gamma_89b">
+    
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS Indic Gamma 89b</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="KS">
+                <resp when="2002">Cataloguer</resp>
+                <persName>Kalpana Sheth</persName>
+            </respStmt>
+            <respStmt xml:id="KBS">
+                <resp when="2002">Cataloguer</resp>
+                <persName>Kanubhai Sheth</persName>
+            </respStmt>
+            <respStmt xml:id="DNS">
+                <resp when="2005">Cataloguer</resp>
+                <persName>Dinanath Sharma</persName>
+            </respStmt>
+            <respStmt xml:id="AJ">
+                <resp when="2002">Cataloguer</resp>
+                <persName>Arti Jain</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2023-02-06">Template and TEI encoding</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="<!-- Insert initials -->">
+                <resp when="">TEI Encoder</resp>
+                <persName><!-- Insert name --></persName>
+            </respStmt>
+            <!-- Add another <respStmt> for every resp, including any additional cataloguers (indicated in 'Form Created' column in orignal form'-->
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MS Indic Gamma 89b</idno>
+            <idno type="catalogue">Jain Manuscripts at Wellcome Collection</idno>
+            <availability>
+                <licence>This TEI file is based on legacy cataloguing information funded by the Institute of Jainology and Wellcome Trust, and was created under a Headley Fellowship with the Art Fund.</licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark"></idno>
+                    <altIdentifier type="Sierra">
+                        <idno><!-- TO BE ADDED --></idno>
+                    </altIdentifier>
+                    <altIdentifier type="Raghavan">
+                        <idno><!-- Supply from spreadsheet if available --></idno>
+                    </altIdentifier>
+                    <!-- Use further <altIdentifier> if former or alternative <idno> is available -->
+                    <altIdentifier type="">
+                        <idno></idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>An incomplete copy of the Uttaradhyayana Sutra, with parts of a Gujarati commentary.</summary>
+                   
+                    <textLang mainLang="" source="IANA"><!-- Use if only one language in manuscript. For Sanskrit, give mainLang value "sa". For Prakrit, "pra". --> </textLang>
+                    
+                    <msItem n="1" xml:id="MS_Indic_Gamma_89b_1">
+                        <locus from="1a" to="147b">Ff. 7a-147b</locus>
+                        <author key="">Bhadrabāhusvāmī</author>
+                        <title key="">Uttarādhyayana Sūtra</title>
+                        
+                        <!-- Use comment to note text to be picked up in late-stage editing -->
+                        
+                        <!-- Use as needed, or delete -->
+                        <textLang mainLang="pra" source="IANA">Prakrit</textLang>
+                        <textLang otherLangs="" source="IANA"><!-- Enter BCP 47 IANA language code as attribute value and full language name here . For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry--></textLang>
+                       
+                        <incipit><locus>F. 1a</locus><!-- insert --> 
+                            Śrī Vītaraga. Saṃjogā
+                            Vippmukkassa aṇagārassa bhikkuṇo | Viṇayaṃ Pāukaṅssāmi āṇupuvviṃ suṇeha me
+                            (a)<!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <explicit><locus>F. 147b</locus><!-- insert --> 
+                            Kodi sāhiyāmāyaṃ mā
+                            Kaṭṭu saṃbachare muṇī māsadha māsaeṇaṃ āhāreṇaṃ tavaṃcare ||57|| Kaṃ dapa mā
+                            bhiuga kivisiyā mohamāsurātaṃ eyau - dugaīomaraṇā[....]
+                        </explicit>
+                        
+                        <colophon><locus></locus><!-- insert --> 
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                        
+                        <note>This is Mūlasūtra. Mostly in verses in Prākrit. On the whole it
+                            depicts the life which a jaina saint ought to lead. </note>
+                        
+                        <note>Work is divided into 36
+                            adhyayana as under. Adhyayan No. I Folio 1B to 5a, Adhyayan No. II Folio 5a to
+                            9a, Adhyayan No.II Folio 9a to 10b, Adhyayan No. IV Folio 10b to 11b, Adhyayan
+                            No. V Folio 11b to 14b, Adhyayan No. VI Folio 14b to 15b, Adhyayan No. VII
+                            Folio 15b to 17b, Adhyayan No. VIII Folio 17b to 19a, Adhyayan No. IX Folio 19a
+                            to 23b, Adhyayan No. X Folio 23b to 26a, Adhyayan No. XI folio 26a to 28b,
+                            Adhyayan No. XII folio 28b to 33a, Adhyayan No. XIII folio 33a to 35b, Adhyayan
+                            No. XIV folio 35b to 40a, Adhyayan No. XV Folio 40a to 41b, Adhyayan No. XVI
+                            Folio 41b to 47b, Adhyayan No. XVII Folio 47b to 49a, Adhyayan No. XVIII Folio
+                            49a to 52b, Adhyayan No. XIX Folio 52b to 59b, Adhyayan No. XX Folio 59b to
+                            64b, Adhyayan No.XXI Folio 64b to 66b, Adhyayan No.XXII Folio 66b to 71b,
+                            Adhyayan No. XXIII Folio 72b to 78b, Adhyayan No. XXIV Folio 78b to 80b,
+                            Adhyayan No. XXV Folio 80b to 84a, Adhyayan No. XXVI Folio 84a to 88a, Adhyayan
+                            No. XXVII Folio 88a to 89a, Adhyayan No. XXVIII Folio 89a to 92a, Adhyayan No.
+                            XXIX Folio 92a to 107b, Adhyayan No. XXX Folio 107b to 110a, Adhyayan No. XXXI
+                            Folio 110a to 110b, Adhyayan No. XXXII Folio 111b to 122b, Adhyayan No.XXXIII
+                            Folio 122b to 124b, Adhyayan No. XXXIV Folio 124b to 129b, Adhyayan No. XXXV
+                            Folio 129b to 135a, Adhyayan No. XXXVI Folio 135a to 147b incomplete</note>
+                        
+                        <note>Various authors are suggested. Some ascribe the authorship to Lord Mahāvīra, some to Bhadrabāhu, the name of Kapila is also
+                            suggested.</note>
+                        
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="MS_Indic_Gamma_89b_2">
+                        <locus from="1a" to="14a">Only appears on f. 1a and on f. 14a.</locus>
+                        <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
+                        <title key="">Untitled Gujarati gloss and commentary.</title>
+                        
+                        <!-- Use comment to note text to be picked up in late-stage editing -->
+                        
+                        <!-- Use as needed, or delete -->
+                        <textLang mainLang="gu" source="IANA">Gujarati</textLang>
+                        <textLang otherLangs="" source="IANA"><!-- Enter BCP 47 IANA language code as attribute value and full language name here . For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry--></textLang>
+                        
+                        <incipit><locus></locus><!-- insert --> 
+                            Īe gurutaṇi āgyānūṃ ādeśakāra kachai anai
+                            gurunai samīpi sadāi vasai chai tayā gurukāryanūṃ karaṇa hāsū...
+                        </incipit>
+                        
+                        <explicit><locus></locus><!-- insert --> 
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        
+                        <colophon><locus></locus><!-- insert --> 
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                        <note>Both appearances of this commentary are on the left margin.</note>
+                        
+                    </msItem>
+                    
+                    <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+                    
+                </msContents>
+                
+                <physDesc>
+                    <!-- Insert and delete as needed -->
+                    <objectDesc form="manuscript">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>Paper
+                            </support>
+                            <extent>Ff. 147
+                                <dimensions unit="cm" ><!-- Add if available -->
+                                    <dim type="diameter">12.2</dim>
+                                    <dim type="length">28.2</dim>
+                                    <!-- Add or delete dimensions as needed -->
+                                </dimensions>
+                            </extent>
+                            
+                             <foliation>
+                                 <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                             </foliation>
+                            
+                            <condition>
+                                Excellent
+                            </condition>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="8">
+                                6-8 lines per folio, 35-37 characters per line.                                       
+                            </layout>
+                            
+                            <layout rulingMedium="">
+                                <!-- Add any information on ruling -->
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <!-- Add or delete <handNote> elements as needed -->
+                        <handNote scope=""></handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote>Titles are in red, with 4 red lines per margin plus 2 red lines on both edges.</decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p>In the right margin on Folio 66B some part of text is rubbed out with
+                            dark ink. </p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p></p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>India</country>,
+                            <region><!-- insert --></region>,
+                            <settlement><!-- insert --></settlement>,
+                            <orgName><!-- insert --></orgName>
+                        </origPlace>
+                        <origDate calendar="Vikram_samvat"><!-- insert --></origDate>
+                        <origDate calendar="Gregorian">Possibly 18th century.</origDate>
+                        <!-- use additional origPlace and origDate elements if necessary -->
+                    </origin>
+                    <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                    <!-- use additional provenance elements if necessary -->
+                    <acquisition><!-- insert --></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Unpublished cataloguing notes</title>
+                                    <author>Kalpana Sheth, Kanubhai Sheth, Dinanath Sharma</author>
+                                    <date>2002-2005</date>
+                                    <funder>Institute of Jainology and Wellcome Trust</funder>
+                                    <note>Instit</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <!-- The following records the bibliographical entries catalogue referenced in the catalogue - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>
+                        
+                        
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term key="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+        <change when=""><!-- Make an entry to record your starting work on the file and then a new <change> for later edits, following the below format --></change>
+        <change when="2023-02-06" who="#AP">Populated template.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
