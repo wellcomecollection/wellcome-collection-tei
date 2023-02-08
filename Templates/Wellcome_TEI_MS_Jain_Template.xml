@@ -92,15 +92,15 @@
                         <textLang mainLang="" source="IANA"><!-- Enter BCP 47  IANA language code as attribute value and full language name here. For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry --></textLang>
                         <textLang otherLangs="" source="IANA"><!-- Enter BCP 47 IANA language code as attribute value and full language name here . For the registry, see  https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry--></textLang>
                        
-                        <incipit><!-- insert --> <locus></locus>
+                        <incipit><locus></locus><!-- insert --> 
                             <!-- Use <note> to add general comment -->
                         </incipit>
                         
-                        <explicit><!-- insert --> <locus></locus>
+                        <explicit><locus></locus><!-- insert --> 
                             <!-- Use <note> to add general comment -->
                         </explicit>
                         
-                        <colophon><!-- insert --> <locus></locus>
+                        <colophon><locus></locus><!-- insert --> 
                             <!-- Use <note> to add general comment -->
                         </colophon>
                         
@@ -133,11 +133,6 @@
                                  <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
                              </foliation>
                             
-                            <collation>
-                                <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
-                                <signatures><!-- Use to record quire signatures, if available --></signatures>
-                            </collation>
-                            
                             <condition>
                                 <!-- Use to record information on the manuscript's condition -->
                             </condition>
@@ -147,7 +142,7 @@
                         <layoutDesc>
                             
                             <layout writtenLines="">
-                                <!-- Add description or further elements - writtenLines often given as 'linn.' in catalogue-->                                        
+                                <!-- Add description or number, duplicate <layout writtenLines=""> as needed if several given -->                                        
                             </layout>
                             
                             <layout rulingMedium="">
@@ -187,7 +182,8 @@
                             <settlement><!-- insert --></settlement>,
                             <orgName><!-- insert --></orgName>
                         </origPlace>
-                        <origDate calendar=""><!-- insert --></origDate>
+                        <origDate calendar="Vikram_samvat"><!-- insert --></origDate>
+                        <origDate calendar="Gregorian"><!-- insert --></origDate>
                         <!-- use additional origPlace and origDate elements if necessary -->
                     </origin>
                     <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
