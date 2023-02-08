@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Indic_Gamma_89a">
+    <!-- Give xml:id in the  format  'Indic [Greek letter if present]_[MS number]' -the file name should be identical -->
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS Indic Gamma 89a</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="KS">
+                <resp when="2002">Cataloguer</resp>
+                <persName>Kalpana Sheth</persName>
+            </respStmt>
+            <respStmt xml:id="KBS">
+                <resp when="2002">Cataloguer</resp>
+                <persName>Kanubhai Sheth</persName>
+            </respStmt>
+            <respStmt xml:id="DNS">
+                <resp when="2005">Cataloguer</resp>
+                <persName>Dinanath Sharma</persName>
+            </respStmt>
+            <respStmt xml:id="AJ">
+                <resp when="2002">Cataloguer</resp>
+                <persName>Arti Jain</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2023-02-06">Template and TEI encoder</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="<!-- Insert initials -->">
+                <resp when="">TEI Encoder</resp>
+                <persName><!-- Insert name --></persName>
+            </respStmt>
+            <!-- Add another <respStmt> for every resp, including any additional cataloguers (indicated in 'Form Created' column in orignal form'-->
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MS Indic Gamma 89a</idno>
+            <idno type="catalogue">Jain Manuscripts at Wellcome Collection</idno>
+            <availability>
+                <licence>This TEI file is based on legacy cataloguing information funded by the Institute of Jainology and Wellcome Trust, and was created under a Headley Fellowship with the Art Fund.</licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark"></idno>
+                    <altIdentifier type="Sierra">
+                        <idno><!-- TO BE ADDED --></idno>
+                    </altIdentifier>
+                    <altIdentifier type="Raghavan">
+                        <idno><!-- Supply from spreadsheet if available --></idno>
+                    </altIdentifier>
+                    <!-- Use further <altIdentifier> if former or alternative <idno> is available -->
+                    <altIdentifier type="">
+                        <idno></idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>An incomplete copy of the Jnatadharma Katha, starting with the last part of the 3rd chapter. The entire work deals with moral and religious narratives.</summary>
+                   
+                    <textLang mainLang="pra" source="IANA">Prakrit</textLang>
+                    
+                    <msItem n="1" xml:id="MS_Indic_Gamma_88a_1">
+                        <locus from="1" to="108">Folia 1-108, numbered 45a-152b.</locus>
+                        <author key="">Sudharmāsvāmī</author>
+                        <title key="">Jñātādharma Kathā</title>
+                        
+                        <incipit><locus>Folio 1a (paginated as 45a)</locus>
+                            Vajjhāyāṇā aṃtiya pavva tio samāṇe pañca mahavvae, chajjivanikāesu ṇigānthi pāvayāṇa
+                            saṃkie jāva kalussa samāvanne |
+                        </incipit>
+                        
+                        <explicit><locus>Folio 108b (paginated as 152b)</locus><!-- insert --> 
+                            Kosaṃbīe do jāṇīu rāmepiyā dharmmā māyā savvāu vipāsassa arahau aṃtie Pavvaiyāu puppha -
+                            [incomplete]
+                        </explicit>
+                        
+                        <colophon><locus></locus><!-- insert --> 
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                        
+                        <note>Chapter breakdown: Chapter III Folio 1a to 1b; Chapter IV Folio 2b to 3a; Chapter
+                            V Folio 3a to 12b; Chapter VI Folio 12a to 13b; Chapter VII Folio 13b to 17a;
+                            Chapter VIII Folio 17a to 37a; Chapter IX Folio 37a to 44a; Chapter X Folio 44a
+                            to 45a; Chapter XI Folio 45a to 45b; Chapter XII Folio 45b to 49a; Chapter XIII
+                            Folio 49a to 53b; Chapter XIV Folio 53a to 60a; Chapter XV Folio 60a to 62a;
+                            Chapter XVI Folio 62a to 87b; Chapter XVII Folio 87b to 92b; Chapter XVIII
+                            Folio 92b to 97b; Chapter XIX Folio 97b to 101a; Chapter XX Folio 101a to 105b;
+                            Chapter XXI Folio 105b to 107b; Chapter XXII Folio 107b to 108b; Chapter XXIII
+                            Folio 108b</note>
+                        
+                    </msItem>
+                    
+                    <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+                    
+                </msContents>
+                
+                <physDesc>
+                    <!-- Insert and delete as needed -->
+                    <objectDesc form="manuscript">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>Paper
+                            </support>
+                            <extent>108
+                                <dimensions unit="cm" ><!-- Add if available -->
+                                    <dim type="diameter">12</dim>
+                                    <dim type="length">28</dim>
+                                    <!-- Add or delete dimensions as needed -->
+                                </dimensions>
+                            </extent>
+                            
+                             <foliation>
+                                 The manuscript is numbered 45a-152b, indicating that it is incomplete and that the first few dozens of folia are missing.
+                             </foliation>
+                            
+                            <condition>
+                                Very good.
+                            </condition>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="13">
+                                1e lines per page, 35 characters per line.                                      
+                            </layout>
+                            
+                            <layout rulingMedium="">
+                                <!-- Add any information on ruling -->
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <!-- Add or delete <handNote> elements as needed -->
+                        <handNote scope=""></handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote>Three red lines for margin, titles and numbers of verses also in red.</decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p></p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p></p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>India</country>,
+                            <region><!-- insert --></region>,
+                            <settlement><!-- insert --></settlement>,
+                            <orgName><!-- insert --></orgName>
+                        </origPlace>
+                        <origDate calendar="Vikram_samvat"><!-- insert --></origDate>
+                        <origDate calendar="Gregorian"><!-- insert --></origDate>
+                        <!-- use additional origPlace and origDate elements if necessary -->
+                    </origin>
+                    <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                    <!-- use additional provenance elements if necessary -->
+                    <acquisition><!-- insert --></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Unpublished cataloguing notes</title>
+                                    <author>Kalpana Sheth, Kanubhai Sheth, Dinanath Sharma</author>
+                                    <date>2002-2005</date>
+                                    <funder>Institute of Jainology and Wellcome Trust</funder>
+                                    <note>Instit</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <!-- The following records the bibliographical entries catalogue referenced in the catalogue - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>
+                        
+                        
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term key="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+        <change when=""><!-- Make an entry to record your starting work on the file and then a new <change> for later edits, following the below format --></change>
+        <change when="2023-02-06" who="#AP">Created draft template for Headley Fellowship Jain manuscript project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
