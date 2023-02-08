@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Indic_Gamma_88">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS Indic Gamma 88</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="KS">
+                <resp when="2002">Cataloguer</resp>
+                <persName>Kalpana Sheth</persName>
+            </respStmt>
+            <respStmt xml:id="KBS">
+                <resp when="2002">Cataloguer</resp>
+                <persName>Kanubhai Sheth</persName>
+            </respStmt>
+            <respStmt xml:id="DNS">
+                <resp when="2005">Cataloguer</resp>
+                <persName>Dinanath Sharma</persName>
+            </respStmt>
+            <respStmt xml:id="AJ">
+                <resp when="2002">Cataloguer</resp>
+                <persName>Arti Jain</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2023-02-06">Template and TEI encoding</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <!-- Add another <respStmt> for every resp, including any additional cataloguers (indicated in 'Form Created' column in orignal form'-->
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MS Indic Gamma 88</idno>
+            <idno type="catalogue">Jain Manuscripts at Wellcome Collection</idno>
+            <availability>
+                <licence>This TEI file is based on legacy cataloguing information funded by the Institute of Jainology and Wellcome Trust, and was created under a Headley Fellowship with the Art Fund.</licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark"></idno>
+                    <altIdentifier type="Sierra">
+                        <idno><!-- TO BE ADDED --></idno>
+                    </altIdentifier>
+                    <altIdentifier type="Raghavan">
+                        <idno><!-- Supply from spreadsheet if available --></idno>
+                    </altIdentifier>
+                    <!-- Use further <altIdentifier> if former or alternative <idno> is available -->
+                    <altIdentifier type="alternative">
+                        <idno>MS Indic Gamma 88b</idno>
+                        <note>Unclear whether there is a genuine Gamma 88a, or whether the (b) attribution stems from this manuscript containing the second part of a work.</note>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>A copy of the second section of the Sutrakritanga, with an interlinear gloss or commentary in old Gujarati.</summary>
+                    
+                    <msItem n="1" xml:id="MS_Indic_Gamma_88_1">
+                        <locus from="1" to="58"><!-- Give the locations for the item, if available --></locus>
+                        <author key="">Sudharmāsvamī</author>
+                        <title key="">Sūtrakṛtāṅgasūtra</title>
+                        
+                        <textLang mainLang="pra" source="IANA">Prakrit</textLang>
+                        
+                        <incipit><locus>Folio 1b</locus>
+                            suyam me āusaṃteṇa bhagavayā evamakkhāyaṃ iha khalu puṃḍari e nāma ajjnayaṇe |
+                            tassa ṇaṃa ayamaṭṭhe paṇaṇte | se jahānāmaye pukhhariṇ | siya...
+                        </incipit>
+                        
+                        <explicit><locus>58b</locus>
+                            samaṇassa bhagavao mahavīrassa aṃtie | cāujjamāto dhammato pancamatavvatiyaṃ dhammam uvasaṃ pajjittāṇaṃ hiharati 'ttibbemi bīyaṃ suyakhadhassajnalaṃ duijjam sammattaṃ
+                            samattam mahajjnayaṇā sammattam
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        
+                        <colophon><locus></locus>
+                            iti sūkadaṅga saṃpurṇaṃ yātaṃ granthagrantha 2500 likhitam sadhascaraṇaddhaḥ vasaṃbharsiṇātmārtheḥ | saṃv[?]tasara śrī nṛupati vikarmadititu rājaye samvat 1766 varśe sravaṇe kṛṣno caturthe bṛhaspati ṣubhe dine pipaṇakhā madhaye
+                            likhitaṃ [?] subhaṃ
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                        <note>Contains the Sutrakritanga's shrutaskhanda or second volume.</note>
+                        
+                    </msItem>
+                    
+                    <msItem n="2" xml:id="MS_Indic_Gamma_88_2">
+                        <locus from="1" to="58">1-58</locus>
+                        <author key="">Untitled commentary work.</author>
+                        <title key="">A ṭīka</title>
+                        
+                        <textLang mainLang="gu" source="IANA">Old Gujarati</textLang>
+                        
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        
+                        <explicit><locus>Folio 58b</locus>
+                            maī devayo śri bhogo aṃte kaṇe sāmbhali...
+                        </explicit>
+                        
+                        <colophon><locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                        <note><!-- insert --></note>
+                        
+                    </msItem>
+                    
+                    <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+                    
+                </msContents>
+                
+                <physDesc>
+                    <!-- Insert and delete as needed -->
+                    <objectDesc form="manuscript">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>Paper
+                            </support>
+                            <extent>58 folia
+                                <dimensions unit="cm" ><!-- Add if available -->
+                                    <dim type="diameter"></dim>
+                                    <dim type="length"></dim>
+                                    <!-- Add or delete dimensions as needed -->
+                                </dimensions>
+                            </extent>
+                            
+                             <foliation>
+                                 <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                             </foliation>
+                            
+                            <condition>
+                                Restored. Folio 1 is repaired with white paper, while corners of some folia are repaired.
+                            </condition>
+                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="7">
+                                7 lines of text per folio of the Sutrakritanga.                                      
+                            </layout>
+                            
+                            <layout writtenLines="18">
+                                  C. 15-18 lines per folio of the commentary.                                      
+                            </layout>
+                            
+                            <layout rulingMedium="">
+                                <!-- Add any information on ruling -->
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <!-- Add or delete <handNote> elements as needed -->
+                        <handNote scope=""></handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote></decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p></p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p></p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>India</country>,
+                            <region><!-- insert --></region>,
+                            <settlement>Pipaṇū</settlement>,
+                            <orgName><!-- insert --></orgName>
+                        </origPlace>
+                        <origDate calendar="Vikram_samvat">1766</origDate>
+                        <origDate calendar="Gregorian">1710</origDate>
+                        <!-- use additional origPlace and origDate elements if necessary -->
+                    </origin>
+                    <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                    <!-- use additional provenance elements if necessary -->
+                    <acquisition><!-- insert --></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>Unpublished cataloguing notes</title>
+                                    <author>Kalpana Sheth, Kanubhai Sheth, Dinanath Sharma</author>
+                                    <date>2002-2005</date>
+                                    <funder>Institute of Jainology and Wellcome Trust</funder>
+                                    <note>Instit</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <!-- The following records the bibliographical entries catalogue referenced in the catalogue - delete any that are not mentioned in the file -->
+                        <head>Bibliographical abbreviations</head>
+                        
+                        
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term key="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+        <change when=""><!-- Make an entry to record your starting work on the file and then a new <change> for later edits, following the below format --></change>
+        <change when="2023-02-06" who="#AP">Created draft template for Headley Fellowship Jain manuscript project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
