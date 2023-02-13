@@ -9,6 +9,7 @@
     * [Inventory by TEI or by shelf?](manuscript-inventory/phase-2/inventory-by-tei-or-by-shelf.md)
     * [By TEI](manuscript-inventory/phase-2/by-tei.md)
     * [By the shelf](manuscript-inventory/phase-2/by-the-shelf.md)
+* [Sensitivity](sensitivity.md)
 * [FrontEnd](frontend/README.md)
   * [TEI cataloguing mapping](frontend/draft.md)
 * [TEI Manual](tei-manual.md)
