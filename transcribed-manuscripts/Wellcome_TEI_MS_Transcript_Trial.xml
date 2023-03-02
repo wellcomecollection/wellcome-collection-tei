@@ -1,0 +1,6743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title></title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="">
+                <resp when="">Cataloguer</resp>
+                <persName><!-- Insert name --></persName>
+            </respStmt>
+            <respStmt xml:id="">
+                <resp when="">TEI Encoder</resp>
+                <persName><!-- Insert name --></persName>
+            </respStmt>
+            <!-- Add another <respStmt> for every resp -->
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID"></idno>
+            <idno type="catalogue"></idno>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MSAmer8</idno>
+                    <!-- Use <altIdentifier> if former or alternative <idno> is available -->
+                    <altIdentifier type="">
+                        <idno>WMS/Amer.8</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary><!-- Any top-level description of the manuscript as a whole --></summary>
+                   
+                   
+                    <textLang mainLang=""><!-- Use if only one language in manuscript --> <!-- Enter BCP 47 language code as attribute value and full language name here --> </textLang>
+                    
+                    <msItem n="" xml:id="MS_899_1">
+                        
+                        <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
+                        <title key=""><!-- Insert viaf code as attribute value, if available, and enter title here --></title>
+                        
+                        <!-- Use as needed, or delete -->
+                        <textLang mainLang=""><!-- Enter BCP 47 language code as attribute value and full language name here --></textLang>
+                        <textLang otherLangs=""><!-- Enter BCP 47 language code as attribute value and full language name here --></textLang>
+                        
+                        <incipit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </incipit>
+                        <explicit><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </explicit>
+                        <colophon><!-- insert --> <locus></locus>
+                            <!-- Use <note> to add general comment -->
+                        </colophon>
+                        
+                        <filiation><!-- insert --></filiation>
+                        <note><!-- insert --></note>
+                        
+                        
+                    </msItem>
+                    
+                    <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+                    
+                </msContents>
+                
+                <physDesc>
+                    <!-- Insert and delete as needed -->
+                    <objectDesc form="">
+                       
+                        <supportDesc material="">
+                                                    
+                            <support><!-- Insert prose description --></support>
+                            <extent><!-- Insert details on extent -->
+                                <dimensions unit="" type=""><!-- Add if available -->
+                                    <dim type="diameter"></dim>
+                                    <dim type="length"></dim>
+                                    <!-- Add or delete dimensions as needed -->
+                                </dimensions>
+                            </extent>
+                            
+                            <foliation>
+                                <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                            </foliation>
+                            
+                            <collation>
+                                <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                <signatures><!-- Use to record quire signatures, if available --></signatures>
+                            </collation>
+                                                                            
+                        </supportDesc>
+                        
+                        <layoutDesc>
+                            
+                            <layout writtenLines="">
+                                <!-- Add description or further elements -->                                        
+                            </layout>
+                                                        
+                        </layoutDesc> 
+                        
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <!-- Add or delete <handNote> elements as needed -->
+                        <handNote scope=""></handNote>
+                    </handDesc>
+                    
+                    <decoDesc>
+                        <decoNote></decoNote>
+                    </decoDesc>
+                    
+                    <additions>
+                        <p></p>
+                    </additions>
+                    
+                    <bindingDesc>
+                        <binding>
+                            <p></p>
+                        </binding>
+                    </bindingDesc>
+                    
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country><!-- insert --></country>,
+                            <region><!-- insert --></region>,
+                            <settlement><!-- insert --></settlement>,
+                            <orgName><!-- insert --></orgName>
+                        </origPlace>
+                        <origDate calendar=""><!-- insert --></origDate>
+                        <!-- use additional origPlace and origDate elements if necessary -->
+                    </origin>
+                    <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                    <!-- use additional provenance elements if necessary -->
+                    <acquisition><!-- insert --></acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <!-- insert text, if relevant -->
+                                <bibl><!-- insert if necesary --></bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p></availability> 
+                    </adminInfo>
+                    <!-- Enter bibliographical info, if needed -->
+                    <listBibl>
+                        <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                        <head><!-- use to provide a heading if required, otherwise delete --></head>
+                        <bibl><!-- insert bibliography, links to online resource, etc., otherwise delete--></bibl>
+                    </listBibl>
+                
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="MeSH">
+                    <bibl>
+                        <ref target="">MeSH</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+                <keywords scheme="#MeSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+        <change when=""><!-- Make an entry to record the creation of the file, and then a new <change> for every later edit --></change>
+    
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+<pb xml:id="F25083679" n="1" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0001.JP2/full/851,1024/0/default.jpg"/>
+<div xml:id="OTP25083679">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083679P0">
+<supplied>73730</supplied>
+</p>
+</div>
+<pb xml:id="F25083680" n="2" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0002.JP2/full/851,1024/0/default.jpg"/>
+<div xml:id="OTP25083680">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083680P0">
+<supplied>
+1810
+<lb/>
+<del>3423</del>
+<lb/>
+Oct 1. 1913
+<lb/>
+Welcome Historical Medical Library
+<lb/>
+Accession Number 73730e.
+<lb/>
+Press Mark MS.1810
+</supplied>
+</p>
+</div>
+<pb xml:id="F25083681" n="3" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0003.JP2/full/832,1024/0/default.jpg"/>
+<div xml:id="OTP25083681">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083681P0">
+<supplied>
+73730
+<add>C</add>
+</supplied>
+<lb/>
+To Make
+<del>German Puffs</del>
+<lb/>
+No
+<lb/>
+1 German Puffs.
+<lb/>
+2 Norfolk Links
+<lb/>
+3Mock Oyster sauce,
+<lb/>
+for a boiled Turkey,
+<lb/>
+or a fowl.
+<lb/>
+4 Cracknels
+<lb/>
+5 Fry Oysters.
+<lb/>
+6 Chetenham cakes.
+<lb/>
+7 Punch for bottleing.
+<lb/>
+8 Preserve Quinces whole.
+<lb/>
+9 Puff Paste the best way.
+<lb/>
+10 Yorkshire sauce
+<lb/>
+for boiled fowles
+<lb/>
+11 Forced Eggs.
+<lb/>
+11 White Soup.
+<lb/>
+14 Snow of Apples
+<lb/>
+15 Little cakes of gingerbread 15
+<lb/>
+16 To Coller a Calves head.
+<lb/>
+17 Ragoo of Veal.
+<lb/>
+13 White Soup
+<lb/>
+12 Rich Plump cake
+<lb/>
+<supplied>73730c</supplied>
+<lb/>
+18 To Make a hens nest.
+<lb/>
+19 French Bread or Balls.
+<lb/>
+20 Clary wine.
+<lb/>
+21 Harts Horn Jelly.
+<lb/>
+22 Stew Cucumbers.
+<lb/>
+23 Veal Balls.
+<lb/>
+24 Stew Pigeons.
+<lb/>
+25 Ground rice Puddings.
+<lb/>
+26 Marmalade of Quinces.
+<lb/>
+27 To make custards to take
+<lb/>
+28 To make plain custards
+<lb/>
+29 To candy Angelica
+<lb/>
+30
+<lb/>
+31
+</p>
+<p xml:id="OTP25083681P1"/>
+</div>
+<pb xml:id="F25083682" n="4" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0004.JP2/full/862,1024/0/default.jpg"/>
+<div xml:id="OTP25083682">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083682P0"/>
+</div>
+<pb xml:id="F25083683" n="5" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0005.JP2/full/824,1024/0/default.jpg"/>
+<div xml:id="OTP25083683">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083683P0">
+<supplied>2</supplied>
+</p>
+</div>
+<pb xml:id="F25083684" n="6" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0006.JP2/full/854,1024/0/default.jpg"/>
+<div xml:id="OTP25083684">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083684P0"/>
+</div>
+<pb xml:id="F25083685" n="7" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0007.JP2/full/828,1024/0/default.jpg"/>
+<div xml:id="OTP25083685">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083685P0">
+<supplied>3</supplied>
+</p>
+</div>
+<pb xml:id="F25083686" n="8" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0008.JP2/full/852,1024/0/default.jpg"/>
+<div xml:id="OTP25083686">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083686P0"/>
+</div>
+<pb xml:id="F25083687" n="9" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0009.JP2/full/832,1024/0/default.jpg"/>
+<div xml:id="OTP25083687">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083687P0">
+<supplied>4</supplied>
+</p>
+</div>
+<pb xml:id="F25083688" n="10" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0010.JP2/full/853,1024/0/default.jpg"/>
+<div xml:id="OTP25083688">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083688P0"/>
+</div>
+<pb xml:id="F25083689" n="11" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0011.JP2/full/832,1024/0/default.jpg"/>
+<div xml:id="OTP25083689">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083689P0">1 </p>
+<p xml:id="OTP25083689P1">
+<head>To Make German Puffs</head>
+</p>
+<p xml:id="OTP25083689P2">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+1)
+</note>
+</p>
+<p xml:id="OTP25083689P3">
+Take a pint of Cream two Large spoonfulls
+<lb/>
+of flower the Yolks of four Eggs two Ounces
+<lb/>
+of Almonds beat fine: A Quarter of a
+<lb/>
+Pound of Butter Clarify'd, and when Cold
+<lb/>
+put to them the best Sugar, Sweeten to your
+<lb/>
+Taste add a Little grated Lemmon peel mix
+<lb/>
+them well together & Bake them in Butter'd
+<lb/>
+patty pans turn them out & serve them
+<lb/>
+up hott with Melted Butter
+<del>with</del>
+^
+<add>and</add>
+sack and
+<lb/>
+Sugar Pour'd Over them
+</p>
+<p xml:id="OTP25083689P4">
+<head>To Make Norfolk Links</head>
+</p>
+<p xml:id="OTP25083689P5">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+2)
+</note>
+</p>
+<p xml:id="OTP25083689P6">
+Take the tenderest parts of Piggpork, full
+<lb/>
+as much fat as lean, Shred it small as
+<lb/>
+you can, and season it to your tast with
+<lb/>
+Pepper salt Nutmeg thyme and a great
+<lb/>
+deal of sage shred Small, rub the seasoning
+<lb/>
+Well into the meat, then let your guts
+<lb/>
+be well scour'd with water & salt, so
+<lb/>
+fill them with your meat
+</p>
+<p xml:id="OTP25083689P7">
+<supplied>5</supplied>
+</p>
+</div>
+<pb xml:id="F25083690" n="12" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0012.JP2/full/861,1024/0/default.jpg"/>
+<div xml:id="OTP25083690">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083690P0">2 </p>
+</div>
+<pb xml:id="F25083691" n="13" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0013.JP2/full/822,1024/0/default.jpg"/>
+<div xml:id="OTP25083691">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083691P0">3 </p>
+<p xml:id="OTP25083691P1">
+<head>
+To make mock Oyster sauce for a Turkey or
+<lb/>
+Boil'd Fowl
+</head>
+</p>
+<p xml:id="OTP25083691P2">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+3)
+</note>
+Take a quarter of pints of water and an
+<lb/>
+Anchovey a blade or two of mace a peice of
+<lb/>
+Lemmon peels five or six peper corns,
+<del>and</del>
+<lb/>
+<add>These Ingredients to be boil'd & strain'd</add>
+<lb/>
+and as much Butter and flower as will do for
+<lb/>
+Sauce, two spoonfulls of white Wine and
+<lb/>
+Two of Cream, keep it Stiring till it
+<lb/>
+boils to make it Smooth
+</p>
+<p xml:id="OTP25083691P3">
+<head>To Make Cracknels</head>
+</p>
+<p xml:id="OTP25083691P4">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+4)
+</note>
+Take a Gallon of fine Flower two Pound
+<lb/>
+of Butter twelve Eggs put in four of the
+<lb/>
+Whites rub in the Butter in the flower,
+<lb/>
+before you put in the Eggs, put some
+<lb/>
+Mace & Cloves beat fine, and some grat'd
+<lb/>
+Nutmeg according to your discretion.
+<lb/>
+wet them with milk, when you have made
+<lb/>
+them up; put them into a Kettle of boiling
+<lb/>
+Water, when you see them rise take them
+<lb/>
+Out, and put them into an Oven pretty
+<lb/>
+Hott but not to Scorch them
+</p>
+<p xml:id="OTP25083691P5">
+<supplied>6</supplied>
+</p>
+</div>
+<pb xml:id="F25083692" n="14" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0014.JP2/full/861,1024/0/default.jpg"/>
+<div xml:id="OTP25083692">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083692P0">4 </p>
+</div>
+<pb xml:id="F25083693" n="15" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0015.JP2/full/819,1024/0/default.jpg"/>
+<div xml:id="OTP25083693">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083693P0">5. </p>
+<p xml:id="OTP25083693P1">
+<head>To Fry Oysters</head>
+</p>
+<p xml:id="OTP25083693P2">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.5)
+</note>
+Beat two or three Eggs with a little
+<lb/>
+grated white Bread, Nutmeg and peper;
+<lb/>
+Then dip in the Oysters and fry them
+<lb/>
+Brown in sweete Butter, scollops
+<del>and</del>
+<lb/>
+are Done the same way, but you mustake
+<lb/>
+off there Beards,
+</p>
+<p xml:id="OTP25083693P3">
+<head>To Make Chettenham Cakes</head>
+</p>
+<p xml:id="OTP25083693P4">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.6)
+</note>
+Take three Pound & a half of fine
+<lb/>
+Flower, half a Pound of Butter, six
+<lb/>
+Spoonfulls of Yeaste, a Pinte & half of
+<lb/>
+milk, two Eggs Yolks & Whites, & a Little
+<lb/>
+Salt, about a quarter of an Hour Bakes
+<lb/>
+them, Bake them on a Fire, Cutt them out
+<lb/>
+with a Glass,
+</p>
+<p xml:id="OTP25083693P5">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.7)
+</note>
+<head>To Make Punch for Bottling</head>
+<lb/>
+Take Eight quarts of Spring water five
+<lb/>
+Quarts of French
+<del>of </del>
+Brandy the Juice
+<lb/>
+of seven Lemmons & seven Oranges
+<lb/>
+With a small quantity of the peel of
+<lb/>
+Each & 7 pound of
+<expan>th</expan>
+e Best sugar mixit all
+<lb/>
+Together & let it stand 3 month in a vesel &
+<lb/>
+then Bottle it for drinking
+</p>
+<p xml:id="OTP25083693P6">
+<supplied>7</supplied>
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083694" n="16" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0016.JP2/full/863,1024/0/default.jpg"/>
+<div xml:id="OTP25083694">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083694P0">6 </p>
+</div>
+<pb xml:id="F25083695" n="17" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0017.JP2/full/815,1024/0/default.jpg"/>
+<div xml:id="OTP25083695">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083695P0">
+7
+<lb/>
+<head>To Preserve Quinces whole in Red Jelly</head>
+</p>
+<p xml:id="OTP25083695P1">
+(
+<note type="marginalia">
+N
+<add place="above">o</add>
+.8)
+</note>
+Take the fairest Scoop out the cores & pare
+<lb/>
+them, take to a pound of them 1 1/4
+<expan abbr="">pound</expan>
+of Double
+<lb/>
+Refin'd sugar, then boil
+<del>them</del>
+some quince
+<lb/>
+And pippins unpar'd boil them in Water
+<lb/>
+till it be strong, take to each Pound of
+<lb/>
+Quince a pint of Liquor, Keep them close
+<lb/>
+Cover'd & let them boil till they be clear and
+<lb/>
+tender; then put them in Glasses or pots,
+<lb/>
+one in Pot which the Liquor will Jelly
+</p>
+<p xml:id="OTP25083695P2">
+<head>Puff Paste the Best way</head>
+</p>
+<p xml:id="OTP25083695P3">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.9)
+</note>
+Take 1
+<expan abbr="">pound</expan>
+3/4 of Flower rubit into
+<add>
+<expan abbr="">pound</expan>
+</add>
+1/2 of
+<lb/>
+Butter, take 4 Eggs, leave out half the
+<lb/>
+Whites, beat them with as much water
+<lb/>
+as will wet the paste very limp, handle
+<lb/>
+it a little as you can,
+<del>Then</del>
+then roll
+<lb/>
+it round 1/2 an Inch thick, then take
+<add>
+<expan abbr="">pound</expan>
+</add>
+3/4 of
+<lb/>
+Butter, flower the Butter, & roll it out to
+<expan abbr="">th</expan>
+e
+<lb/>
+size of your Paste, then lay it upon it
+<lb/>
+& wrap it up in a Long small peice
+<lb/>
+And roll it out to the Biggness you
+<lb/>
+would have it
+<lb/>
+<supplied>8</supplied>
+</p>
+<p xml:id="OTP25083695P4"/>
+</div>
+<pb xml:id="F25083696" n="18" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0018.JP2/full/863,1024/0/default.jpg"/>
+<div xml:id="OTP25083696">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083696P0">8 </p>
+</div>
+<pb xml:id="F25083697" n="19" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0019.JP2/full/815,1024/0/default.jpg"/>
+<div xml:id="OTP25083697">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083697P0">9 </p>
+<p xml:id="OTP25083697P1">
+<head>To Make Yorkshire sauce for boil'd Fowls</head>
+</p>
+<p xml:id="OTP25083697P2">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.10)
+</note>
+Take the Yolks of 2 hard Eggs shred them
+<lb/>
+fine & take the Livers of
+<expan abbr="">th</expan>
+e Fowles & justs
+<lb/>
+Scald or set them in Boiling water then
+<lb/>
+shred them fine & put the Eggs & Livers into
+<lb/>
+some Gravy with some Slices of Lemmon
+<lb/>
+or Juice of same Thicken & Toss them up
+<lb/>
+all together with a Little Butter, & shred
+<lb/>
+Parsly:
+</p>
+<p xml:id="OTP25083697P3">
+<head>Forced Eggs</head>
+</p>
+<p xml:id="OTP25083697P4">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.11)
+</note>
+Boil Eggs hard cut them in two take out
+<lb/>
+the Yolk mix it with grat'd Bread, a few
+<lb/>
+Herbs minced small a little salt peper &
+<lb/>
+Nutmeg, & a bit of Butter make it hot in
+<lb/>
+A saucepan, keep the whites in Boiling
+<lb/>
+Water, cut off the round Ends, that they
+<lb/>
+may stand well in a dish; fill the hollows
+<lb/>
+With the Yolks, miz'd as above & brown
+<lb/>
+the Top a Little with a Salamander
+</p>
+<p xml:id="OTP25083697P5">
+<head>A Rich Plumb Cake</head>
+</p>
+<p xml:id="OTP25083697P6">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.12)
+</note>
+Take 4
+<expan abbr="">pounds</expan>
+of Flower dri'd 6 of Curr.
+<expan abbr="">ants</expan>
+2 1/2 of Butter
+<lb/>
+Melted in a quarte of cream a pint & half of
+<lb/>
+Yeast, 20 Eggs half
+<expan abbr="">th</expan>
+e whites, 1/2
+<expan abbr="">pound</expan>
+of sug
+<expan abbr="">ar</expan>
+1/2 ounce
+<lb/>
+of mace an Hour & 3/4 bakes it:
+<lb/>
+<supplied>9</supplied>
+</p>
+</div>
+<pb xml:id="F25083698" n="20" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0020.JP2/full/876,1024/0/default.jpg"/>
+<div xml:id="OTP25083698">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083698P0">10 </p>
+</div>
+<pb xml:id="F25083699" n="21" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0021.JP2/full/805,1024/0/default.jpg"/>
+<div xml:id="OTP25083699">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083699P0">
+11
+<lb/>
+<head>To Make a White soup</head>
+</p>
+<p xml:id="OTP25083699P1">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.13)
+</note>
+Take a k
+<add>n</add>
+uckle of veal the Scrag end of
+<lb/>
+a neck of mutton, boil them in spring
+<lb/>
+water with a little salt, white peper, Cloves
+<lb/>
+& mace sweet Herbs, & a small onion, when
+<lb/>
+it is well boil'd strain it take the fat
+<lb/>
+Clean off, & what settles at the Bottom
+<lb/>
+when it is Cold, when it is wanted put
+<lb/>
+Cream, the Yolks of two Eggs, & as much
+<lb/>
+Vermicelli, as you like, just let it have
+<lb/>
+one boil together
+</p>
+<p xml:id="OTP25083699P2">
+<head>Snow of Apples</head>
+</p>
+<p xml:id="OTP25083699P3">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.14)
+</note>
+Take the pulp of 4 Apples, the whites
+<lb/>
+of two Eggs, Beat them and as the froth
+<lb/>
+Rises put it to the pulp, being Sweeten'd
+<lb/>
+beate them to gether tille its as high as you
+<lb/>
+Please on your Dish:
+</p>
+<p xml:id="OTP25083699P4">
+<head>Little Cakes of Gingerbread</head>
+</p>
+<p xml:id="OTP25083699P5">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.15)
+</note>
+Take 3
+<expan abbr="">pounds</expan>
+of Flower, 1
+<expan abbr="">pound</expan>
+of Sug
+<expan abbr="">ar</expan>
+; 1
+<expan abbr="">pound</expan>
+of Butter rubb'd
+<lb/>
+in very fine, 2
+<expan abbr="">ounces</expan>
+of Ging
+<expan abbr="">er</expan>
+, well beat a Large
+<lb/>
+Nuttmeg grated, 1
+<expan abbr="">pound</expan>
+of Treacle, a 1/4 pint of
+<lb/>
+Cream, make them up Warm, bake them on
+<lb/>
+a Tin Plate, in a slack oven
+<lb/>
+<supplied>10</supplied>
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083700" n="22" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0022.JP2/full/880,1024/0/default.jpg"/>
+<div xml:id="OTP25083700">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083700P0">12 </p>
+</div>
+<pb xml:id="F25083701" n="23" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0023.JP2/full/807,1024/0/default.jpg"/>
+<div xml:id="OTP25083701">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083701P0">13 </p>
+<p xml:id="OTP25083701P1">
+<head>To Coller a Claves head</head>
+</p>
+<p xml:id="OTP25083701P2">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.16)
+</note>
+Take a Calves Head with the Hair on,
+<lb/>
+put it in a Kettle of water & boyle it
+<lb/>
+till the Hair comes off, then Cleave it, & take out
+<lb/>
+the Brains & all the Snivill Bones & the Eyes,
+<lb/>
+wash it Clean, tye it in a Cloth & boyl it
+<lb/>
+Tender, bone it, & season it with
+<add>a little</add>
+mace &
+<lb/>
+Salt, then roll it up like Brawn with tape,
+<lb/>
+and set a Weight upon it till its cold, make
+<lb/>
+a pickle of Bran & water, & when cold strain
+<lb/>
+it from the Bran & season it with salt & vineg
+<expan abbr="">er</expan>
+.
+</p>
+<p xml:id="OTP25083701P3">
+<head>To Make Ragoo of a Breaut of Veal</head>
+</p>
+<p xml:id="OTP25083701P4">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.17)
+</note>
+Bone your Breast of Veal, & cut a Handsome
+<lb/>
+Square peice, then cut the other part into
+<lb/>
+Small peices, then fry it Brown in Butter,
+<lb/>
+and put it in Strong Gravy, with a Little
+<lb/>
+red wine & a Little white, Anchove & Onion,
+<lb/>
+Stew all these together, fry force meat Balls
+<lb/>
+mushroom Trifles Oysters stew'd, fry'd bacon
+<lb/>
+a little Lemmon juice, and thicken this up
+<lb/>
+with Brown Butter & Garnish it Lemmon
+<lb/>
+You may put fry'd Lambstones and
+<lb/>
+Sweet breads to it and Cocks Combs
+</p>
+<p xml:id="OTP25083701P5">
+<supplied>11</supplied>
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083702" n="24" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0024.JP2/full/881,1024/0/default.jpg"/>
+<div xml:id="OTP25083702">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083702P0">14 </p>
+</div>
+<pb xml:id="F25083703" n="25" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0025.JP2/full/804,1024/0/default.jpg"/>
+<div xml:id="OTP25083703">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083703P0">15 </p>
+<p xml:id="OTP25083703P1">
+<head>To Make a Hens nest</head>
+</p>
+<p xml:id="OTP25083703P2">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.18)
+</note>
+Take 2 Calves feet & 2 Oz of Isinglass & put them
+<lb/>
+to a Gallon of water & Boil them till it come
+<lb/>
+to 3 pints then strain it & let it stand till
+<lb/>
+cold, then take away the settings, save some
+<lb/>
+of the Jelly for the Blaumange then take
+<lb/>
+the remainder & 2 a pint of white wine
+<lb/>
+the whites of six Eggs 2 Lemmons and
+<lb/>
+Sweeten it with loaf sugar & spice to
+<lb/>
+Your taste, when then Jelly is fine fill the
+<lb/>
+Bason you intend to put
+<add>it</add>
+on, about 3 parts
+<lb/>
+full, then let it stand till it will bare the
+<lb/>
+Eggs then boil a Handfull of Lemmon peel
+<lb/>
+Cut in Long slips, when Cold strew them
+<lb/>
+Over the Eggs, then fill the Bason with
+<lb/>
+Jelly a little warm but not to warm,
+<lb/>
+When you serve it up, put the Bason in
+<lb/>
+warm water. it comes out Better make it
+<lb/>
+the day before you use it; the Blaumange
+<lb/>
+Take 1/2 a pint of Jelly you made for your
+<lb/>
+Taste. 1/2 a pint of cream, 2 laurel leaves,
+<lb/>
+boil them in the cream, sweeten it to you
+<lb/>
+Taste with fine sugar, let it stand till
+<lb/>
+almost Cold, and a little juce of lemmon
+<lb/>
+and a Little Orange flower water, then
+<lb/>
+take 4 or 6 Eggs, break a hole in
+<expan abbr="">th</expan>
+e large
+<lb/>
+End, take it all out put the shell in cold water
+<lb/>
+wash them out put your Blaumange in the
+<lb/>
+Shells, when it is Jelly'd Brake
+<expan abbr="">th</expan>
+e shell off & put
+<lb/>
+them in your nest
+</p>
+<p xml:id="OTP25083703P3">
+<supplied>12</supplied>
+</p>
+</div>
+<pb xml:id="F25083704" n="26" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0026.JP2/full/877,1024/0/default.jpg"/>
+<div xml:id="OTP25083704">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083704P0">16 </p>
+</div>
+<pb xml:id="F25083705" n="27" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0027.JP2/full/808,1024/0/default.jpg"/>
+<div xml:id="OTP25083705">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083705P0">17 </p>
+<p xml:id="OTP25083705P1">
+<head>To make French Bread or rolls</head>
+</p>
+<p xml:id="OTP25083705P2">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.19)
+</note>
+Break one Egg into a pound of Flower
+<lb/>
+A little ale yeast, and some salt, then
+<lb/>
+make it Light with milk & water just
+<lb/>
+warm, & set it by
+<expan abbr="">th</expan>
+e fire to rise then make
+<lb/>
+it into Loaves & rolls, bake it 1/2 an
+<lb/>
+Hour, when it is cold, rasp of the out
+<lb/>
+side & then it is fitt.
+</p>
+<p xml:id="OTP25083705P3">
+<head>To Make Clary wine</head>
+</p>
+<p xml:id="OTP25083705P4">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.20)
+</note>
+Take ten Gallons of water, put to it 25
+<expan abbr="">pounds</expan>
+<lb/>
+of Loaf sugar, the whites of ten Eggs,
+<lb/>
+Boil it one Hour, Suming it well, then
+<lb/>
+put it in a tub till almost cold, then
+<lb/>
+take 1/2 a Bushel of Clary in Blossom
+<lb/>
+tops & small leaves together, & put
+<lb/>
+Them into a Barrel, with six spoonfulls
+<lb/>
+of yeast, then put in the Liquor stir
+<lb/>
+it Often till it hath done working.
+<lb/>
+then stop it up Close for 3 months, till
+<lb/>
+it is Clear, you may Allow a Quarte
+<lb/>
+of water for the Scuming.
+</p>
+<p xml:id="OTP25083705P5">
+<supplied>13</supplied>
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083706" n="28" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0028.JP2/full/874,1024/0/default.jpg"/>
+<div xml:id="OTP25083706">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083706P0">18 </p>
+</div>
+<pb xml:id="F25083707" n="29" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0029.JP2/full/807,1024/0/default.jpg"/>
+<div xml:id="OTP25083707">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083707P0">19 </p>
+<p xml:id="OTP25083707P1">
+<head>Harts horn Jelly</head>
+</p>
+<p xml:id="OTP25083707P2">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.21)
+</note>
+Take 1/2
+<expan abbr="">pound</expan>
+of harts Horn, & put it into an
+<lb/>
+Earthen pan, with two Quarts of Spring
+<lb/>
+water, cover it close and sett it in the
+<lb/>
+Oven all night, then strain it into a
+<lb/>
+clean pipkin, with 1/2 pint of Renish
+<lb/>
+wine, 1/2
+<expan abbr="">pound</expan>
+of Double refin'd sugar, the
+<lb/>
+juce of 3 or 4 Lemmons, with a few
+<lb/>
+Blades of mace, the whites of 4 or 5 Eggs
+<lb/>
+well beat, let it simmer over the fire,
+<lb/>
+and mix it that it doth not curdle, then
+<lb/>
+stir it well together on the fire, run
+<lb/>
+it through a napkin and turn it up
+<lb/>
+again till it is clear
+</p>
+<p xml:id="OTP25083707P3">
+<head>To Stew Cucumbers</head>
+</p>
+<p xml:id="OTP25083707P4">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.22)
+</note>
+Take 12 cucumbers pare them, and slice
+<lb/>
+them as thick as a crown peice, & put
+<lb/>
+them to drain, & then dry them in a co
+<add>a</add>
+rse
+<lb/>
+cloth flower them and fry them brown
+<lb/>
+in Butter, pour out the fat, then put
+<lb/>
+to them some Gravy & a Little claret,
+<lb/>
+some pepper
+<del>and</del>
+mace & cloves, & let them
+<lb/>
+stew a little, then roll a bit of Butter in
+<lb/>
+Flower & Toss them up season with
+<lb/>
+salt, & you may Add a little mushroom
+<lb/>
+Pickle
+</p>
+<p xml:id="OTP25083707P5">
+<supplied>14</supplied>
+</p>
+</div>
+<pb xml:id="F25083708" n="30" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0030.JP2/full/871,1024/0/default.jpg"/>
+<div xml:id="OTP25083708">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083708P0">20 </p>
+</div>
+<pb xml:id="F25083709" n="31" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0031.JP2/full/803,1024/0/default.jpg"/>
+<div xml:id="OTP25083709">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083709P0">21 </p>
+<p xml:id="OTP25083709P1">
+<head>To make Veal rolls</head>
+</p>
+<p xml:id="OTP25083709P2">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.23)
+</note>
+Take ten or twelve Little thin slices of
+<lb/>
+Veal, lay on them some force meat, and
+<lb/>
+a slip of Bacon, roll them up & tie them
+<lb/>
+with thread, put them on a bind spit rub
+<lb/>
+them over with the Yolks of Eggs, flower
+<lb/>
+them and bast them with Butter, then
+<lb/>
+Half an hour will doe them, lay them
+<lb/>
+in a dish and have ready some good
+<lb/>
+Gravy with Trifles and mushrooms,
+</p>
+<p xml:id="OTP25083709P3">
+<head>To Stew Pigeons</head>
+</p>
+<p xml:id="OTP25083709P4">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.24)
+</note>
+Season your Pigeons, with peper salt
+<lb/>
+cloves mace & some sweet Herbs, wrap
+<lb/>
+the seasoning up in a peice of Butter
+<lb/>
+and put in their Bellies, then tie up the
+<lb/>
+neck and vent, and Half roast them, then
+<lb/>
+Put them in Stewpan, with a Quart
+<lb/>
+of Good gravy, a little white wine.
+<lb/>
+a few Pickled mushrooms, a few peper
+<lb/>
+corns 3 or 4 Blades of mace, a bit of Onion
+<lb/>
+and some Pickled oysters, Lemmon peels
+<lb/>
+A Bunch of sweet herbs, let them stew
+<lb/>
+together, till they are enough, then
+<lb/>
+Thicken it up with Butter & Yolks of
+<lb/>
+Eggs, Garnish it with Lemmon
+</p>
+<p xml:id="OTP25083709P5">
+<supplied>15</supplied>
+</p>
+</div>
+<pb xml:id="F25083710" n="32" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0032.JP2/full/878,1024/0/default.jpg"/>
+<div xml:id="OTP25083710">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083710P0">22 </p>
+</div>
+<pb xml:id="F25083711" n="33" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0033.JP2/full/799,1024/0/default.jpg"/>
+<div xml:id="OTP25083711">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083711P0">
+23
+<lb/>
+<head>To Make a Ground rice Pudding</head>
+</p>
+<p xml:id="OTP25083711P1">
+<note type="marginalia">(N.25)</note>
+Take six
+<expan abbr="">ounces</expan>
+of Ground rice, to a Quart
+<lb/>
+of milk, Stir it all together, then set it on
+<lb/>
+a clean fire, stiring it all the time it Boils,
+<lb/>
+Then take it off, and put to it 1/2
+<expan abbr="">pound</expan>
+of fresh
+<lb/>
+Butter in an Earthen pan, stiring it together
+<lb/>
+And when cold, put to it seven Eggs with 3
+<lb/>
+whites beating them all together, with
+<lb/>
+Half a Grated nutmeg, 6 ounces of sugar
+<lb/>
+a Little Salt one Ounce of Orange
+<lb/>
+chips, butter your dish, and bake it an
+<lb/>
+Hour, and when out of
+<expan abbr="">th</expan>
+e Oven put a Gill
+<lb/>
+of sackover it
+</p>
+<p xml:id="OTP25083711P2">
+<head>To Make Marmalade of Quinces</head>
+</p>
+<p xml:id="OTP25083711P3">
+<note type="marginalia">(N.26)</note>
+Let your quinces be full ripe, then wipe
+<lb/>
+them, & pare them, & Quarter them, then
+<lb/>
+take out the core and seeds, & boil the
+<lb/>
+Pareings & seeds in Spring water, strain
+<lb/>
+the Liquor, & weigh your Quinces, with
+<lb/>
+the same weight of dry 6
+<add place="above">d</add>
+Sugar, boil
+<lb/>
+the Quinces, in that Liquor, & when
+<lb/>
+Tender, mash them, & then put your sug
+<expan abbr="">ar</expan>
+<lb/>
+to the Quinces, & boil it till it Looks
+<lb/>
+red & smooth, Keeping it stired all
+<lb/>
+The time it Boils
+<lb/>
+<supplied>16</supplied>
+</p>
+</div>
+<pb xml:id="F25083712" n="34" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0034.JP2/full/879,1024/0/default.jpg"/>
+<div xml:id="OTP25083712">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083712P0">24 </p>
+</div>
+<pb xml:id="F25083713" n="35" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0035.JP2/full/798,1024/0/default.jpg"/>
+<div xml:id="OTP25083713">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083713P0">25 </p>
+<p xml:id="OTP25083713P1">
+<head>To Make Custards to Bake</head>
+</p>
+<p xml:id="OTP25083713P2">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.27)
+</note>
+Take one pint of cream boil'd with mace
+<lb/>
+& Cinnamon, when cold take 4 Eggs, two
+<lb/>
+whites, a Little rose & Orange flower
+<lb/>
+water, & sack nutmeg & sugar, to your
+<lb/>
+<note type="marginalia">Tast </note>
+mix all these together, & bake them
+<lb/>
+in China Cups,
+</p>
+<p xml:id="OTP25083713P3">
+<head>To Make Plain Custards</head>
+</p>
+<p xml:id="OTP25083713P4">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.28)
+</note>
+Take 1 Quart of new milk, sweeten it to
+<lb/>
+Tast, grate in a Little nutmeg 8 Eggs
+<lb/>
+with 4 whites beat them well together
+<lb/>
+and stir them in the milk, & bake
+<lb/>
+them in Cups or a Deep China dish,
+<lb/>
+or you may have ready a Kettle of boiling
+<lb/>
+water, but it must not boil, Take care
+<lb/>
+the water does not get into the Cups.
+</p>
+<p xml:id="OTP25083713P5">
+<head>To Candy Angelica</head>
+</p>
+<p xml:id="OTP25083713P6">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.29)
+</note>
+</p>
+<p xml:id="OTP25083713P7">
+Take Angelica & put it into water, & sett it
+<lb/>
+on the fire to Scald till it will peel, & when
+<lb/>
+you have Peel'd it, put to it fresh water
+<lb/>
+Scalding hott, then cover it clove& past
+<lb/>
+it up that none of
+<expan abbr=""> th</expan>
+e stem comes out, &
+<lb/>
+let it scald 3 or 4 Hours, then uncover
+<lb/>
+it & see if it be green & tender, & if not
+<lb/>
+cover it again till it is tender, then take
+<lb/>
+<expan abbr="">th</expan>
+e weight of it in double refine sug
+<expan abbr="">ar</expan>
+, & strew
+<lb/>
+some in
+<expan abbr="">th</expan>
+e pan you candy it in, then lay
+<lb/>
+your Angelica, & strew more sug
+<add place="above">ar</add>
+[?]
+</p>
+<p xml:id="OTP25083713P8">
+<supplied>17</supplied>
+</p>
+</div>
+<pb xml:id="F25083714" n="36" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0036.JP2/full/883,1024/0/default.jpg"/>
+<div xml:id="OTP25083714">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083714P0">26 </p>
+</div>
+<pb xml:id="F25083715" n="37" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0037.JP2/full/799,1024/0/default.jpg"/>
+<div xml:id="OTP25083715">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083715P0">
+27
+<lb/>
+<supplied>18</supplied>
+<lb/>
+<head>To Make Jam of Apricocks</head>
+</p>
+<p xml:id="OTP25083715P1">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.30)
+</note>
+Take Apricocks & pare them, cut them
+<lb/>
+in peices & to every Pound of them, take
+<lb/>
+3/4
+<expan abbr="">pound</expan>
+pound of double refine Sug
+<expan abbr="">ar</expan>
+, take half the
+<lb/>
+Sugar & the whole Quantity of Apricocks
+<lb/>
+& boil them as fast as you can, do not stir
+<lb/>
+them with a spoon but keep them shaking
+<lb/>
+till they are almost enough, then put in
+<lb/>
+the rest of the sugar, & give it one boil
+<lb/>
+or two and so let it cool, then put it off
+<expan abbr="">th</expan>
+e
+<lb/>
+fire, you may try if it will Jelly
+</p>
+<p xml:id="OTP25083715P2">
+<head>To Pickle the Indian way</head>
+</p>
+<p xml:id="OTP25083715P3">
+<note type="marginalia">
+(N
+<add place="above">o</add>
+.31)
+</note>
+Take fruit or greens, & strew them with fine
+<lb/>
+Salt,
+<del>that they may be well salted,</del>
+shake
+<lb/>
+them well every day, then drain the water
+<lb/>
+from them, do this for 3 days throwing a
+<lb/>
+Handfull of fresh salt every day, after
+<lb/>
+You have well drained them, then lay
+<lb/>
+them separate in the sun till they are quite
+<lb/>
+Dry, the put some of
+<expan abbr="">th</expan>
+e best vineg
+<expan abbr="">ar</expan>
+to them,
+<lb/>
+some mace cloves peper, beat mustard seed
+<lb/>
+and Powder of Tumerick & mace with vinegar
+<lb/>
+into a pulp, which must be mix'd with
+<lb/>
+the Other Ingredients, some cloves of Garlick
+<lb/>
+skin'd & long peper, as to the Ingredients
+<lb/>
+you must govern yourself by
+<expan abbr="">th</expan>
+e Quantity
+<lb/>
+of fruit you use, Colly Flower looks pretty
+<lb/>
+this way but for Goodness
+<expan abbr="">th</expan>
+e w
+<expan abbr="">hi</expan>
+t
+<expan abbr="">e</expan>
+te cabbage is preferd
+</p>
+<p xml:id="OTP25083715P4"/>
+</div>
+<pb xml:id="F25083716" n="38" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0038.JP2/full/884,1024/0/default.jpg"/>
+<div xml:id="OTP25083716">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083716P0">28 </p>
+</div>
+<pb xml:id="F25083717" n="39" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0039.JP2/full/797,1024/0/default.jpg"/>
+<div xml:id="OTP25083717">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083717P0">29 </p>
+<p xml:id="OTP25083717P1">
+<note type="marginalia">No.32</note>
+<head>To Preserve Walnuts white</head>
+</p>
+<p xml:id="OTP25083717P2">
+Gather your walnuts the Latter end of June
+<lb/>
+or the beginning of July, pare of
+<expan abbr="">th</expan>
+e Green
+<lb/>
+very clean & prick them full of Holes, & put
+<lb/>
+them in cold water for 5 or 6
+<del>days</del>
+Hours, then
+<lb/>
+put them into Boiling water, & let them
+<lb/>
+Boil, then change them into more boiling
+<lb/>
+water, & let them boil, then put them into
+<lb/>
+fresh boiling water, & let them boil a little
+<lb/>
+while, then take their weight of Double refine
+<lb/>
+Sugar, & put to it 1 1/2 pint of water, & boil them
+<lb/>
+a Little, then stick a clove in each, & put them
+<lb/>
+in
+<expan abbr="">th</expan>
+e syrup, boil them till they are half
+<lb/>
+Enough, & set them by till next day, then
+<lb/>
+put through each of them a peice of cittron
+<lb/>
+or candy'd Orange peel, then take musk &
+<lb/>
+Amber grese according to
+<expan abbr="">th</expan>
+e Quantity of
+<lb/>
+Nutts, tie them in a peice of fine Leather, &
+<lb/>
+put them in the syrup, then boil them till
+<lb/>
+they are enough, & keep them for your uses
+</p>
+<p xml:id="OTP25083717P3">
+<note type="marginalia">(No.33)</note>
+<head>To Pickel Walnuts White</head>
+</p>
+<p xml:id="OTP25083717P4">
+Gather your nuts, as above pare of
+<expan abbr="">th</expan>
+e rind
+<lb/>
+till they are white, throw them as you do
+<lb/>
+them into water & salt, Changing them 2 or 3
+<lb/>
+times, then have ready some boiling
+<lb/>
+water & milk, then put in
+<expan abbr=""> th</expan>
+e nuts let them
+<lb/>
+boil till they are tender, lay them on a cloth
+<lb/>
+till they are cold, then make a Pickle of w
+<expan abbr="">hi</expan>
+t
+<expan abbr="">e</expan>
+wine
+<lb/>
+& w
+<expan abbr="">hi</expan>
+t
+<expan abbr="">e</expan>
+wine Vineg
+<expan abbr="">ar</expan>
+more wine then Vinig
+<expan abbr="">ar</expan>
+, some cloves
+<lb/>
+Mace & whole peper, boil it well, & let it stand
+<lb/>
+till cold put
+<expan abbr="">the</expan>
+m in pots or Glasses pouring the
+<lb/>
+<note type="marginalia">
+Pickel on them, Prick holes in them
+<lb/>
+before you put them in salt & water
+<lb/>
+you may eat them in a week
+</note>
+<lb/>
+<supplied>19</supplied>
+</p>
+</div>
+<pb xml:id="F25083718" n="40" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0040.JP2/full/884,1024/0/default.jpg"/>
+<div xml:id="OTP25083718">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083718P0">30 </p>
+</div>
+<pb xml:id="F25083719" n="41" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0041.JP2/full/797,1024/0/default.jpg"/>
+<div xml:id="OTP25083719">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083719P0">31 </p>
+<p xml:id="OTP25083719P1">
+<note type="marginalia">(No.34)</note>
+<head>To Make Cheese Cakes</head>
+</p>
+<p xml:id="OTP25083719P2">
+Take a Gallon of New milk & warm it,
+<lb/>
+and put in it a Cupful of rennet, you must set
+<lb/>
+the hight before a Bit of Rennet bagg,
+<lb/>
+as bigg as a Crown peice in a Cupful of
+<lb/>
+water, & the next day put the water to
+<lb/>
+your new
+<add>warm</add>
+milk, & when the Curd is Come,
+<lb/>
+put it in a Cheese Cloth and wave it back
+<lb/>
+and forwards till the whey is out of it,
+<lb/>
+Then take the same weight of new Butter
+<lb/>
+as your Curd, and press it through a seive
+<lb/>
+Together, & then put you sugar, with
+<lb/>
+Eight Eggs, but 4 whites well beat, with
+<lb/>
+Spice and Currants, into puff past.
+<lb/>
+And Bake them in pans, the sugar & spice
+<lb/>
+must be to your tast, the Spice must be
+<lb/>
+mace & nutmeg, the Currants plumpt up
+</p>
+<p xml:id="OTP25083719P3">
+(No.3
+<del>4</del>
+)
+<lb/>
+(35)
+<head>To Make force meat Balls</head>
+</p>
+<p xml:id="OTP25083719P4">
+Take as much Veal as beef suet, some
+<lb/>
+peices of stale Bread, beat them all in a
+<lb/>
+Marble mortar, some sweet herbs,
+<lb/>
+Chopt & put it in the mortar, with Nutmeg
+<lb/>
+Mace peper and a Little salt, all beat
+<lb/>
+together, the Yolk of an Egg & a Little milk
+<lb/>
+And make them in Balls, & fry them,
+</p>
+<p xml:id="OTP25083719P5">
+<supplied>20</supplied>
+</p>
+</div>
+<pb xml:id="F25083720" n="42" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0042.JP2/full/883,1024/0/default.jpg"/>
+<div xml:id="OTP25083720">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083720P0">32 </p>
+</div>
+<pb xml:id="F25083721" n="43" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0043.JP2/full/797,1024/0/default.jpg"/>
+<div xml:id="OTP25083721">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083721P0">
+<supplied>21</supplied>
+<lb/>
+<note type="marginalia">(No.36)</note>
+<head>To Make Mushroom Powder</head>
+</p>
+<p xml:id="OTP25083721P1">
+Take a pack of mushrooms, wash them & wipe
+<lb/>
+them clean with a flanel, & cut out the worms.
+<lb/>
+and put them in a Broad earthen pan with
+<lb/>
+20 Cloves, & 8 Blades of mace, & as much beaten
+<lb/>
+peper as will lie on half a crown, a Handful
+<lb/>
+of salt, 3 small Onions, a peice of Butter
+<expan abbr="">th</expan>
+e
+<lb/>
+size of an Egg, & 1/4 a pint of Vinegar, let them
+<lb/>
+Stew over the fire till the Liquor is wasted.
+<lb/>
+then put them into
+<expan abbr="">th</expan>
+e Oven after the bread
+<lb/>
+is out, & when dry pound them to powder
+<lb/>
+with the spice, it must
+<add>be</add>
+kept dry in a pot, or
+<add> Glass</add>
+</p>
+<p xml:id="OTP25083721P2">
+<note type="marginalia">(No.37)</note>
+<head>To make Rich Pancakes</head>
+</p>
+<p xml:id="OTP25083721P3">
+Take 8 Eggs, beat them with a Little of
+<expan abbr="">th</expan>
+e best
+<lb/>
+Brandyy, & 4 Large spoonfulls of
+<expan abbr="">th</expan>
+e finest
+<lb/>
+Flower, put in a Little Nutmeg, a Little salt,
+<lb/>
+and 1/2
+<expan abbr="">pound</expan>
+of Butter melted in a pint of Cream,
+<lb/>
+and when its almost Cold, mix it altogether
+<lb/>
+with 2 Ounces of fine sug
+<expan abbr="">ar</expan>
+fry them in a
+<lb/>
+Dry pan, without fat,& let the pan be hot
+<lb/>
+when you begin, & fry them only on one
+<lb/>
+side strew fine sug
+<expan abbr="">ar</expan>
+between each pancake
+<lb/>
+as you put them in the dish, & when they are
+<lb/>
+all fry'd turn them upside Down in an
+<lb/>
+other dish, that the brown side may be
+<lb/>
+Upwards & strew over them some fine sugar
+</p>
+</div>
+<pb xml:id="F25083722" n="44" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0044.JP2/full/887,1024/0/default.jpg"/>
+<div xml:id="OTP25083722">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083722P0"/>
+</div>
+<pb xml:id="F25083723" n="45" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0045.JP2/full/794,1024/0/default.jpg"/>
+<div xml:id="OTP25083723">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083723P0">
+<supplied>22</supplied>
+<lb/>
+<note type="marginalia">(No.38)</note>
+<head>To Make Salsbury Pudding</head>
+</p>
+<p xml:id="OTP25083723P1">
+Take 1/2
+<unclear> pound</unclear>
+of
+<del>rea</del>
+raisins stone them, 1
+<unclear>pound</unclear>
+of
+<lb/>
+Beef suet & chop them all fine together,
+<lb/>
+4
+<add>spoonfulls of</add>
+flower, 4 spoonfulls of sug
+<expan abbr="">ar</expan>
+a little
+<lb/>
+Salt 6 Eggs 3 whites beat them well
+<lb/>
+This Quantity will require 3 hours
+<lb/>
+Boiling tie the pudding Close & hard the
+<lb/>
+Sauce is Butter melted with sack & sugar
+</p>
+<p xml:id="OTP25083723P2">
+<note type="marginalia">(No.39)</note>
+<head>To make Orange Cheese Cakes</head>
+</p>
+<p xml:id="OTP25083723P3">
+Take 1/2
+<unclear>pound</unclear>
+of Blanch'd allmonds beat small
+<lb/>
+with rose water, 1/2
+<unclear>pound</unclear>
+of Loaf sugar beat
+<lb/>
+fine, 3/4
+<unclear>pound</unclear>
+of Butter melted & almost cold
+<lb/>
+Again, & Yolks of Eggs, well beaten the
+<lb/>
+Peel of a Large sivil Orange, boil'd till
+<lb/>
+it's very tender & the Bitter almost out.
+<lb/>
+then beat it well in a Mortar, then mix all
+<lb/>
+These together & beat it well then put it
+<lb/>
+in a Crust
+</p>
+<p xml:id="OTP25083723P4">
+<note type="marginalia">(No.40)</note>
+<head>To Make water Cakes</head>
+</p>
+<p xml:id="OTP25083723P5">
+Take a Quart of flower, A quarter of a pound
+<lb/>
+of Butter, 1/4
+<expan abbr="">pound</expan>
+of Sugar, one Egg, & 2 Ozs of
+<lb/>
+Carrawayseeds, mix it with water, & roll
+<lb/>
+them very thin, & bake them quick
+</p>
+<p xml:id="OTP25083723P6"/>
+</div>
+<pb xml:id="F25083724" n="46" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0046.JP2/full/884,1024/0/default.jpg"/>
+<div xml:id="OTP25083724">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083724P0"/>
+</div>
+<pb xml:id="F25083725" n="47" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0047.JP2/full/790,1024/0/default.jpg"/>
+<div xml:id="OTP25083725">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083725P0">
+<supplied>23</supplied>
+<lb/>
+<note type="marginalia">(No.41)</note>
+<head>To make Orange Water</head>
+</p>
+<p xml:id="OTP25083725P1">
+Take 24 good sivill Oranges, pare them
+<lb/>
+thin, put the peel asoak in a Quart of
+<expan abbr="">th</expan>
+e
+<lb/>
+Best Brandy & 1 quart of sack or mountain
+<lb/>
+wine, let them steep 24 Hours, then put
+<lb/>
+to it 1 Quart more of Brandy & two Quarts
+<lb/>
+more of wine, putt them into a Cold still
+<lb/>
+and draw it off with a slow fire, in to
+<lb/>
+Dry Bottles, put into the bottles a Little
+<lb/>
+Double refine sugar to drop on, when
+<lb/>
+it is all run off that is good, let it stand
+<lb/>
+to be Cold & mix it together, make it as
+<lb/>
+sweet as you like & Bottle it up for use
+<lb/>
+the still must past round it, & a
+<del>whet</del>
+<add> wet</add>
+Cloth
+<lb/>
+on the top to keep in the Spirit
+</p>
+<p xml:id="OTP25083725P2">
+<note type="marginalia">(No.42) </note>
+<head>To Make an Almond Pudding</head>
+</p>
+<p xml:id="OTP25083725P3">
+Take
+<expan abbr="">th</expan>
+e Crumbs of a penny Loaf or two
+<lb/>
+French rolls, soak it over Night in new
+<lb/>
+warm milk about 50 Jordan Almonds
+<lb/>
+Blanch'd & beat with rose water put them
+<lb/>
+to
+<expan abbr="">th</expan>
+e Bread, a Little Cream, a spoonful of
+<lb/>
+Sack, sugar & Nutmeg, salt & grated
+<lb/>
+Lemmon peel, 3 Eggs, beat it well
+<lb/>
+together either Bake, it or Boil it
+</p>
+</div>
+<pb xml:id="F25083726" n="48" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0048.JP2/full/869,1024/0/default.jpg"/>
+<div xml:id="OTP25083726">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083726P0"/>
+</div>
+<pb xml:id="F25083727" n="49" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0049.JP2/full/809,1024/0/default.jpg"/>
+<div xml:id="OTP25083727">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083727P0">
+<supplied>24</supplied>
+<lb/>
+<note type="marginalia">(No.43)</note>
+<head>To Make an Orange Pudding</head>
+</p>
+<p xml:id="OTP25083727P1">
+Take the peel of two sivil Oranges, boil
+<expan abbr="">the</expan>
+m
+<lb/>
+in 3
+<del>quarters</del>
+water till tender then pound
+<lb/>
+them in a Marble Mortar till they are very
+<lb/>
+fine, take 1/2
+<unclear>pound</unclear>
+of Butter, 1/2
+<unclear>pound</unclear>
+of sugar, 10 Eggs
+<lb/>
+7 whites 2 maple Bisketts grated, squeeze
+<lb/>
+the Juice of 2 Oranges in it mix it fine
+<lb/>
+Together, put a past at
+<expan abbr="">th</expan>
+e Bottom of your
+<lb/>
+dish & a thin past over it, 1 Hour Bake it,
+</p>
+<p xml:id="OTP25083727P2">
+<note type="marginalia">(No.44)</note>
+<head>
+To Make a Potato
+<del>Pudding</del>
+</head>
+</p>
+<p xml:id="OTP25083727P3">
+Take 1
+<unclear>pound</unclear>
+of Potatos & boil them, then beat them
+<lb/>
+in a Marble Mortar very fine, then take 1/2
+<unclear>pound</unclear>
+<lb/>
+of fresh Butter, not melted & work the potatoes
+<lb/>
+with your Hands, with 1/2
+<unclear>pound</unclear>
+of Loaf Sugar
+<lb/>
+finely beaten, put all these together, then
+<lb/>
+take six new Eggs, beat together a grated
+<lb/>
+Nutmeg, 1 Glass of sack, 1 1/2 oz of Cittron, 1 Oz
+<lb/>
+of candy'd Orange peel, with Past at
+<expan abbr="">th</expan>
+e Bottom
+<lb/>
+and round the rim of the dish
+</p>
+<p xml:id="OTP25083727P4">
+<note type="marginalia">(No.45)</note>
+<head>To Make white Mead</head>
+</p>
+<p xml:id="OTP25083727P5">
+To every Gallon of water put a pint of Honey
+<lb/>
+& 1/2
+<unclear>pound</unclear>
+of Loaf sugar, stir in the whites of Eggs.
+<lb/>
+Beat to a froth, & boil it as long as any scum
+<lb/>
+arises, when its Cold work it with yeast & to
+<lb/>
+every Gallon put
+<expan abbr="">th</expan>
+e Juice & peel of a Large
+<lb/>
+Lemmon stop it up when it has done working &
+<lb/>
+Bottle it in 10 days
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083728" n="50" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0050.JP2/full/879,1024/0/default.jpg"/>
+<div xml:id="OTP25083728">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083728P0"/>
+</div>
+<pb xml:id="F25083729" n="51" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0051.JP2/full/801,1024/0/default.jpg"/>
+<div xml:id="OTP25083729">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083729P0">
+<supplied>25</supplied>
+<lb/>
+<note type="marginalia">(No.46)</note>
+<head>
+Asparagus forced in French rolls
+<lb/>
+</head>
+<lb/>
+Take 3 French rolls, take out the crumb by
+<lb/>
+first Cutting a peice of the top Crust off
+<lb/>
+but be careful that
+<add>
+<expan abbr=""> th</expan>
+e
+</add>
+Crust fits the place
+<lb/>
+Again, fry the rolls Brown in fresh Butter,
+<lb/>
+then take a pint of Cream, the Yolks of six
+<lb/>
+Eggs well beat, a Little salt & nutmeg, stir
+<lb/>
+them well together over a slow fire, till it
+<lb/>
+<del>begins </del>
+grows thick, then have ready an
+<lb/>
+Hundred of small Grass, boiled, & put into the
+<lb/>
+Cream, fill the Loaves with them, before
+<lb/>
+you fry the rolls, make holes thick in
+<expan abbr="">th</expan>
+e
+<lb/>
+top Crust, & stick
+<expan abbr="">th</expan>
+e Grass in, that it may
+<lb/>
+Apear to be growing, it makes a pretty side
+<lb/>
+dish for a second Course,
+</p>
+<p xml:id="OTP25083729P1">
+<note type="marginalia">(No.47) </note>
+<head>To make Walnut Catchup</head>
+</p>
+<p xml:id="OTP25083729P2">
+Take the walnuts when they are fit for pickling
+<lb/>
+pound them in a Mortar, strain the Juice
+<lb/>
+through a flanel bagg, put to every quart
+<lb/>
+of Juice, a pint of Vinegar, let it stand, 4 days
+<lb/>
+then Boil it over a slow fire, to half the
+<lb/>
+Quantity, scum it a Little, put in some
+<lb/>
+Shallots, some spice &
+<expan abbr="">th</expan>
+e peel of 3 sivil
+<lb/>
+Oranges par'd thin, then let it stand 3
+<lb/>
+weeks or Months Cover'd Close then boil
+<lb/>
+it & bottle it for use,
+<lb/>
+you may put in Anchove, & salt if you Please
+</p>
+</div>
+<pb xml:id="F25083730" n="52" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0052.JP2/full/881,1024/0/default.jpg"/>
+<div xml:id="OTP25083730">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083730P0"/>
+</div>
+<pb xml:id="F25083731" n="53" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0053.JP2/full/801,1024/0/default.jpg"/>
+<div xml:id="OTP25083731">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083731P0">
+<supplied>26</supplied>
+<lb/>
+<note type="marginalia">(No.48)</note>
+<head>To Preserve Green Mellons</head>
+</p>
+<p xml:id="OTP25083731P1">
+Slit your Mellons down the sides, & take out all
+<lb/>
+the seeds, & boil them in water, till tender but
+<lb/>
+not soft then pare them very thin, & put
+<lb/>
+them in Scalding water with a bit of Clear
+<lb/>
+Alum the size of a Nutmeg, Cover them Close
+<lb/>
+in the preserving pan, until they are
+<lb/>
+Green, let them doe very slow, then take
+<lb/>
+them up, & to every pound of them take
+<lb/>
+3/4
+<unclear>pound</unclear>
+of the finest sugar, & A pint of water,
+<lb/>
+Boil it and scum it, then put in your
+<lb/>
+Mellons and let them boil softly a 1/4 of
+<lb/>
+an Hour, then take them of
+<expan abbr="">th</expan>
+e fire, & put
+<lb/>
+them in a Glass, & keep them Close for 2
+<lb/>
+Days then put that syrup away, and
+<lb/>
+take 1 pint of water, & 1 1/4
+<unclear>pound</unclear>
+of sugar, and
+<lb/>
+when
+<expan abbr="">th</expan>
+e syrup boils, put them, & boil them
+<lb/>
+with as much Ginger as you Please
+<lb/>
+till they are Green & Clear, then put in
+<lb/>
+the Juice of 3 Lemmons & let them boil some
+<lb/>
+time after the Juice is in, put them up in
+<lb/>
+Glasses they will keep two Years, doe
+<lb/>
+them from the size of a French walnut
+<lb/>
+to the size of an Orange.
+</p>
+</div>
+<pb xml:id="F25083732" n="54" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0054.JP2/full/883,1024/0/default.jpg"/>
+<div xml:id="OTP25083732">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083732P0"/>
+</div>
+<pb xml:id="F25083733" n="55" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0055.JP2/full/801,1024/0/default.jpg"/>
+<div xml:id="OTP25083733">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083733P0">
+<supplied>27</supplied>
+<lb/>
+<note type="marginalia">(No.49)</note>
+<head>To Preserve Peaches in Brandy</head>
+</p>
+<p xml:id="OTP25083733P1">
+Take to 50 Peaches, or Apricoks, 3
+<unclear>pounds</unclear>
+1/2 of fine
+<lb/>
+Sugar, & make into a thin syrup, then take
+<lb/>
+the fruit, & prick them in holes with a large
+<lb/>
+Needle, then put them in
+<expan abbr="">th</expan>
+e syrup turning
+<lb/>
+them with a Bunch of feathers, be sure they
+<lb/>
+Are all Cover'd, let them Scald for near an
+<lb/>
+Hour but not boil, take them off the fire, &
+<lb/>
+put them one by one, into a large Earthen
+<lb/>
+Pan flat, & pour the syrup over them, let them
+<lb/>
+Boil Gently about a 1/4 of an Hour, then take
+<lb/>
+them out with Care, into pans that have
+<lb/>
+been rinsed with Brandy, then put as much
+<lb/>
+Brandy as syrup, till they are well Cover'd, let
+<lb/>
+the syrup be Lukewarm when you put it
+<lb/>
+to them, when Cold Close them with fine
+<lb/>
+Paper & Bladder, they never will be all Cover'd
+<lb/>
+at one time, so you must take them out, as
+<lb/>
+they Look Clear
+</p>
+<p xml:id="OTP25083733P2">
+<note type="marginalia">(No.50)</note>
+<head>To make Lemon Cakes</head>
+</p>
+<p xml:id="OTP25083733P3">
+Take 1
+<unclear>pound</unclear>
+of Flower dry it well, then rub in
+<lb/>
+it 1/2
+<expan abbr="">pound</expan>
+of Butter, 1/2
+<expan abbr="">pound</expan>
+of dry 6
+<expan abbr="">pound</expan>
+Sugar, with
+<expan abbr="">th</expan>
+e
+<lb/>
+Peel of Lemons Grated fine, half an ounce
+<lb/>
+of Corinander seed beat fine & sifted, Mix
+<lb/>
+these together, & wet it with
+<expan abbr="">th</expan>
+e Yolks of
+<lb/>
+2 Eggs, & 2 spoonfuls of rose water,
+<lb/>
+Make them it Little Cakes & bake them
+<lb/>
+on Fire,
+</p>
+</div>
+<pb xml:id="F25083734" n="56" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0056.JP2/full/886,1024/0/default.jpg"/>
+<div xml:id="OTP25083734">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083734P0"/>
+</div>
+<pb xml:id="F25083735" n="57" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0057.JP2/full/803,1024/0/default.jpg"/>
+<div xml:id="OTP25083735">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083735P0">
+<supplied>28</supplied>
+<lb/>
+<note type="marginalia">( No.51)</note>
+<head>To Salt Beef like Dutch Beef</head>
+<lb/>
+Take about 2 Stone of the leanside of a
+<lb/>
+Buttock of Beef, rub it all over with 1
+<unclear> pound </unclear>
+of brown
+<lb/>
+sugar, then lay it Close in an Earthen pan
+<lb/>
+fitt for it & let it lie for 2 days, then take it
+<lb/>
+Out & pour the Liquor from it, then take
+<lb/>
+1 Oz of salt petre beat fine & 2 Han
+<add>d</add>
+fuls of
+<lb/>
+Salt, & rub it over it very well, let it lie 2 day
+<add>s</add>
+<lb/>
+More, then rub it over with a Han
+<add>d</add>
+ful of bay
+<lb/>
+Salt beat fine, then let it lye 4 or 5 days
+<lb/>
+more turning it every day, then wipe it dry
+<lb/>
+and hang it up to Smoak,
+</p>
+<p xml:id="OTP25083735P1">
+<note type="marginalia">(No.52)</note>
+<head>To Pott Beef</head>
+</p>
+<p xml:id="OTP25083735P2">
+Take a good buttock of Beef, cut it in peices and
+<lb/>
+season it with savory Spice, 1 Oz of salt petre,
+<lb/>
+1/2 a pint of Claret, then haveing 3 or 4 pound
+<lb/>
+of Beef suet lay it between every laying of
+<lb/>
+Beef, tie a paper over it & let it lie all night,
+<lb/>
+then bake it with household bread, then take it
+<lb/>
+Out & dry it in a Cloth, cut it a Cross the grain
+<lb/>
+very Close, & rub it in your hands like flower, if
+<lb/>
+it's not season'd enough season it more,
+<lb/>
+then pour to it the fatt, Clear from
+<expan abbr="">th</expan>
+e gravy,
+<lb/>
+& mix it together, then put it Close in pots
+<lb/>
+Set it in the Oven to settle Close, when
+<lb/>
+it is Cold cover it with Clarified butter,
+</p>
+</div>
+<pb xml:id="F25083736" n="58" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0058.JP2/full/883,1024/0/default.jpg"/>
+<div xml:id="OTP25083736">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083736P0"/>
+</div>
+<pb xml:id="F25083737" n="59" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0059.JP2/full/816,1024/0/default.jpg"/>
+<div xml:id="OTP25083737">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083737P0">
+<supplied>29</supplied>
+<lb/>
+<note type="marginalia">(No.53)</note>
+<head>To Make the Duke of horfolks Punch</head>
+</p>
+<p xml:id="OTP25083737P1">
+Take 1 Gallon of Brandy, & put
+<expan abbr="">th</expan>
+e pareings very
+<lb/>
+thin par'd of six sivil Oranges & six Lemons, & steep them 3 days in the Brady, then take
+<lb/>
+1 1/2 Gallon of water, & 3
+<expan abbr="">pound</expan>
+1/2 of fine sug
+<expan abbr="">ar,</expan>
+boil the
+<lb/>
+Water & sug
+<expan abbr="">ar</expan>
+, 7 Minutes Clarify it with 16
+<lb/>
+Whites of Eggs beat to a froth, when you have
+<lb/>
+Strain'd off the Eggs, & scum'd it well, let
+<expan abbr="">th</expan>
+e
+<lb/>
+Liquar stand to be Cold, then put the Juice
+<lb/>
+of Lemons & Oranges to your tast, but more
+<lb/>
+Orange than Lemon, & as well refined as you
+<lb/>
+can make it, then strain the Brandy from
+<expan abbr="">th</expan>
+e
+<lb/>
+Peels & mix them together, put it in a Vessel
+<lb/>
+& let it stand six weeks, then Bottle it off,
+</p>
+<p xml:id="OTP25083737P2">
+<note type="marginalia">No.54</note>
+<head>To Make Goosberry Cream</head>
+</p>
+<p xml:id="OTP25083737P3">
+Take 2 Quarts of Gooseberries, put to them
+<lb/>
+as much water as will cover them, then
+<lb/>
+Scald them, & run them through a sieve
+<lb/>
+with a spoon, to a quart of
+<expan abbr="">th</expan>
+e pulp put 6 Eggs
+<lb/>
+well beat, sweeten it to your tast, & when it is
+<lb/>
+Hot again put in 1 Oz of Butter, keep it stiring
+<lb/>
+all the time over a slow fire, till it grows thick
+<lb/>
+& Just simers, when almost Cold put in
+<lb/>
+Basons or Glasses
+</p>
+<p xml:id="OTP25083737P4">
+<note type="marginalia">( No.55)</note>
+<head>To Collar Pork</head>
+</p>
+<p xml:id="OTP25083737P5">
+Bone a breast of pork season it with savory
+<lb/>
+Spice & a great Quantity of thyme sage &
+<lb/>
+parsley, roll it in a hard Collar in a Cloth
+<lb/>
+& tie it Close, & boil it, when it is Cold
+<lb/>
+keepin it in Souceing Liquar,
+</p>
+</div>
+<pb xml:id="F25083738" n="60" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0060.JP2/full/883,1024/0/default.jpg"/>
+<div xml:id="OTP25083738">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083738P0"/>
+</div>
+<pb xml:id="F25083739" n="61" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0061.JP2/full/817,1024/0/default.jpg"/>
+<div xml:id="OTP25083739">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083739P0">
+<supplied>30</supplied>
+<lb/>
+<note type="marginalia">No.56 </note>
+<head>To Roast a Pike</head>
+</p>
+<p xml:id="OTP25083739P1">
+Cut him through the Gills, & wash him Clean
+<lb/>
+then take thyme, savory, sweet ma
+<add>r</add>
+joram,
+<lb/>
+Green Onions, or a Slice or two of
+<expan abbr="">th</expan>
+e white,
+<expan abbr="">th</expan>
+e
+<lb/>
+Liver of
+<expan abbr="">th</expan>
+e fish 2 Anchovye 1/2 a Nutmeg grated
+<lb/>
+A 1/4
+<expan abbr="">pound</expan>
+of Beef suet shred, a Little Mace beat, & the
+<lb/>
+Crumb of a peny Loaf grated, mix all these
+<lb/>
+Together, & work them into a paste & wet them
+<lb/>
+with 2 or 3 spoonfuls of cream, &
+<expan abbr="">th</expan>
+e Yolks of
+<lb/>
+3 Eggs, then take a quart of Oysters scald
+<lb/>
+them & put them into your pudding & work it
+<lb/>
+Together with a Little butter, so fill the belly
+<lb/>
+of your pike, & spit him through
+<expan abbr="">th</expan>
+e Gills &
+<lb/>
+Bind his body to
+<expan abbr="">th</expan>
+e spit with Tape, then
+<lb/>
+Flower & baste him very Often, an Hour
+<lb/>
+will roast him, if you see him Crack take
+<lb/>
+an Egg & beat it, & dress him all over with a
+<lb/>
+feather & a Little of
+<expan abbr="">th</expan>
+e Oyster Liquor, &
+<lb/>
+your Butter with it, & serve it up, Garnish
+<lb/>
+with horse Raddish sliced Lemon &
+<lb/>
+scrap'd parsly; it is as good Baked with his
+<lb/>
+tail in his Mouth
+</p>
+<p xml:id="OTP25083739P2">
+<note type="marginalia">(No.57)</note>
+<head>To Make Calves foot Pye</head>
+</p>
+<p xml:id="OTP25083739P3">
+Bone your feet, & shred them small, with as
+<lb/>
+Much Beef suet as meat, put in a Glass of good
+<lb/>
+sack, a Lemon sliced, & season with cloves,
+<lb/>
+Mace, Cinnamon, & salt, 1/2
+<expan abbr="">pound</expan>
+of currants a 1/4
+<expan abbr="">pound</expan>
+<lb/>
+of sugar, & lay Candyed Orange Peel, and
+<lb/>
+Cittron, Slic'd on the top,
+</p>
+</div>
+<pb xml:id="F25083740" n="62" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0062.JP2/full/888,1024/0/default.jpg"/>
+<div xml:id="OTP25083740">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083740P0"/>
+</div>
+<pb xml:id="F25083741" n="63" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0063.JP2/full/816,1024/0/default.jpg"/>
+<div xml:id="OTP25083741">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083741P0">
+<supplied>31</supplied>
+<lb/>
+<note type="marginalia">(No.58)</note>
+<head>A Fine Pudding</head>
+</p>
+<p xml:id="OTP25083741P1">
+Take a pint of Boiled Cream, put into it a little
+<lb/>
+Nutmeg & mace, then take the Crumb of two
+<lb/>
+French rolls, & put them into
+<expan abbr=""> th</expan>
+e boil'd Cream,
+<lb/>
+then take
+<expan abbr="">th</expan>
+e Yolks of six Eggs, & about 20
+<lb/>
+Almonds beat small & 1/2
+<expan abbr="">pound</expan>
+of Marrow, mingle
+<lb/>
+all these well together & season it with a
+<lb/>
+Little sugar & salt, & send it to
+<expan abbr="">th</expan>
+e Oven,
+</p>
+<p xml:id="OTP25083741P2">
+<note type="marginalia">(No.59) </note>
+<head>To Make Almond Puddings in skins</head>
+</p>
+<p xml:id="OTP25083741P3">
+Take 1
+<expan abbr="">pound</expan>
+of Almonds blanched, beating them
+<lb/>
+very fine, puting
+<add>often</add>
+a Little Milk to keep
+<lb/>
+them from Oiling then but to them 1
+<unclear>pound</unclear>
+of grat'd
+<lb/>
+Bread, 1
+<expan abbr="">pound</expan>
+of Marrow & suet shred fine 1
+<expan abbr="">pound</expan>
+of
+<lb/>
+fine Sugar, & 12 Eggs, six of
+<expan abbr="">th</expan>
+e the whites, then
+<lb/>
+Boil 1 Quart of Cream, & when it
+<del>has stand</del>
+<lb/>
+is Just Lukewarm, put it to
+<expan abbr="">th</expan>
+e rest
+<lb/>
+with salt, Nutmeg, & mace, to your tast, &
+<lb/>
+so fill your skins.
+</p>
+<p xml:id="OTP25083741P4">
+<note type="marginalia">(No.60)</note>
+<head>To Make A Custard Pudding</head>
+</p>
+<p xml:id="OTP25083741P5">
+Take a pint of cream, 7 Eggs beat, with a
+<lb/>
+Little sack, & sugar, one Spoonful of flower,
+<lb/>
+and a Little salt, then butter a Wooden dish,
+<lb/>
+& strain it into it, & Butter a Cloth & tie it
+<lb/>
+fast upon it, and boil it an Hour, melt
+<lb/>
+Butter to put over it, with sack & sugar,
+</p>
+</div>
+<pb xml:id="F25083742" n="64" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0064.JP2/full/890,1024/0/default.jpg"/>
+<div xml:id="OTP25083742">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083742P0"/>
+</div>
+<pb xml:id="F25083743" n="65" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0065.JP2/full/815,1024/0/default.jpg"/>
+<div xml:id="OTP25083743">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083743P0">
+<supplied>32</supplied>
+<lb/>
+<note type="marginalia">(No.61)</note>
+<head>To Salt a Leg of Pork</head>
+</p>
+<p xml:id="OTP25083743P1">
+Let it lie a Month in Salt, and salt petre, then
+<lb/>
+stuff it with Parsly, sorrel, & Young Sprouts,
+<lb/>
+all pickt from the Stalks & wash'd, &
+<lb/>
+Chopt fine then Stuff it in the Leg of pork,
+<lb/>
+& tie it up in a Cloth, & boil it till it is Tender
+<lb/>
+then take it out of the Pot & shin it, & strew
+<lb/>
+on the top beat piper, & when Cold Cut it ,
+<lb/>
+You must stuff it in
+<expan abbr="">th</expan>
+e Bottom, up
+<expan abbr="">th</expan>
+e Leg of
+<lb/>
+Pork, as you do not break the skin
+</p>
+<p xml:id="OTP25083743P2">
+<note type="marginalia">(No. 62)</note>
+<head> To Pott Tongues</head>
+</p>
+<p xml:id="OTP25083743P3">
+Take a Large Tongue, & salt it with bay salt
+<lb/>
+and Common salt mixed together & beat with
+<lb/>
+the salt, some brown Sugar rub your tongue
+<lb/>
+Well with these & let it Lie, a fortnight,
+<lb/>
+Weting & turning it often, then beat some
+<lb/>
+Mace, Cloves, Nutmeg, & Peper, & rub it, &
+<lb/>
+put it into a pott with as much butter &
+<lb/>
+Water as will Cover it, then put it into an
+<lb/>
+Oven & bake it about 3 hours, & when it
+<lb/>
+Comes out peel it, & put it into a pot & and
+<lb/>
+More Butter to that it was baked in, which
+<lb/>
+Must be taken from
+<expan abbr="">th</expan>
+e water, & Clarify;d Butter
+<lb/>
+Poun'd on it
+</p>
+<p xml:id="OTP25083743P4">
+<note type="marginalia">(No.63)</note>
+<head>To Roast a Tongue</head>
+</p>
+<p xml:id="OTP25083743P5">
+Pickle your Tongue, then boil it tender
+<lb/>
+Blanch it, & roast it about 1/2 an Hour sticking
+<lb/>
+it with Cloves, your sauce may be Gravy or
+<lb/>
+Claret sauce; sift some raspings of Bread,
+<lb/>
+And Garnish with that and Lemon,
+</p>
+<p xml:id="OTP25083743P6"/>
+</div>
+<pb xml:id="F25083744" n="66" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0066.JP2/full/892,1024/0/default.jpg"/>
+<div xml:id="OTP25083744">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083744P0"/>
+</div>
+<pb xml:id="F25083745" n="67" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0067.JP2/full/816,1024/0/default.jpg"/>
+<div xml:id="OTP25083745">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083745P0">
+<supplied>33</supplied>
+<lb/>
+<note type="marginalia">(No.64) </note>
+<head>To make Cheese Cakes</head>
+</p>
+<p xml:id="OTP25083745P1">
+Take a Gallon of new Milk, set it with a spoonful
+<lb/>
+& a Half of rinnet, let the milk be Blood warm, &
+<lb/>
+when it Comes, let the Curd Drain through a
+<lb/>
+Coarse Cloth till it is well Whey'd, now & then
+<lb/>
+Gently breaking
+<expan abbr="">th</expan>
+e Curd with your fingers, but
+<lb/>
+not wringing it, for
+<expan abbr="">tha</expan>
+t will spoil it
+<expan abbr=""> the</expan>
+n rub in
+<lb/>
+to the Curd 1/2
+<expan abbr="">pound</expan>
+of butter, & 1/2
+<expan abbr="">pound</expan>
+of sug
+<expan abbr="">ar</expan>
+, some Nutmeg
+<lb/>
+Grated, 4 Naple Bisketts grated, put in the
+<lb/>
+Yolks of 8 Eggs, but 2 whites, 2 Ozs of Blanched
+<lb/>
+Almonds finely Beaten, with 3 or 4 spoonfuls
+<lb/>
+of rose, or Orange flower Water, if you add
+<lb/>
+Sack it will be Better, then take 3/4
+<expan abbr="">pound</expan>
+of Currants
+<lb/>
+well Clean'd, put them into your Curd, & mix
+<lb/>
+them all well together with a Little salt,
+</p>
+<p xml:id="OTP25083745P2">
+<note type="marginalia">(No.65)</note>
+<head>To make Shrewsbury Cakes</head>
+</p>
+<p xml:id="OTP25083745P3">
+Take 4
+<expan abbr="">pound</expan>
+of fine Flower, 1
+<expan abbr="">pound</expan>
+<add>1/2 </add>
+of Sugar, 3
+<expan abbr="">pound</expan>
+of
+<lb/>
+Butter, & 3 Eggs, work all these together
+<lb/>
+into a paste, & make it into thin Cakes.
+<lb/>
+Which must be Bake'd in a quick Oven on
+<lb/>
+Butter'd papers,
+</p>
+<p xml:id="OTP25083745P4">
+<note type="marginalia">(No.66) </note>
+<head>To Make Gingerbread Shrewsbury way</head>
+</p>
+<p xml:id="OTP25083745P5">
+Take 2 Gall
+<expan abbr="">on</expan>
+s of Flower well dry'd, 5
+<expan abbr="">pounds</expan>
+of Treacle
+<lb/>
+1/2
+<unclear>pound</unclear>
+of Butter, 1/2
+<expan abbr="">pound</expan>
+of Orange & Lemon peel, shred
+<lb/>
+Small & strew'd into
+<expan abbr="">th</expan>
+e flower, 2 Ozs of beaten
+<lb/>
+Ginger 1 Oz of Carraway & Coriander seed, boil
+<lb/>
+the Treacle & Butter together, & Pour it in to
+<lb/>
+the flower, & mix it altogether, & bake it on
+<lb/>
+Tin plates in what form you please,
+</p>
+<p xml:id="OTP25083745P6"/>
+</div>
+<pb xml:id="F25083746" n="68" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0068.JP2/full/884,1024/0/default.jpg"/>
+<div xml:id="OTP25083746">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083746P0"/>
+</div>
+<pb xml:id="F25083747" n="69" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0069.JP2/full/830,1024/0/default.jpg"/>
+<div xml:id="OTP25083747">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083747P0">
+<supplied>34</supplied>
+<lb/>
+<note type="marginalia">(No.67)</note>
+<head>To Make Bath Cakes</head>
+</p>
+<p xml:id="OTP25083747P1">
+Take a quart of Flower, 1
+<expan abbr="">pound</expan>
+of Butter, 3/4
+<expan abbr="">pound</expan>
+of
+<lb/>
+Carraway Comfits, six Eggs, but 2 whites, six
+<lb/>
+spoonfuls of Cream, & 6 Spoonfuls of Yeast,
+<lb/>
+beat the Cream, Eggs, & Yeast, together, then
+<lb/>
+Stir it into the flower, with
+<expan abbr="">th</expan>
+e Butter first
+<lb/>
+Melted, shake it altogether, & set it befor
+<expan abbr="">th</expan>
+e
+<lb/>
+fire a quarter of an Hour, that it may rise
+<lb/>
+then shake in the Comfits, & make it into
+<lb/>
+Little round Cakes & Butter
+<expan abbr="">th</expan>
+e Papers you
+<lb/>
+put them on
+</p>
+<p xml:id="OTP25083747P2">
+<note type="marginalia">(No.68)</note>
+<head>Poor Knights of Windsor</head>
+</p>
+<p xml:id="OTP25083747P3">
+Take a French roll, & put it into slices,
+<lb/>
+soak them in sack, then dip them in
+<lb/>
+Yolks of eggs, & fry them, and serve them
+<lb/>
+up with butter, & sack, & sugar,
+</p>
+<p xml:id="OTP25083747P4">
+<note type="marginalia">(No.69)</note>
+<head>Custards Boil'd</head>
+</p>
+<p xml:id="OTP25083747P5">
+Take a quart of Cream put it on
+<expan abbr=""> th</expan>
+e fire
+<lb/>
+with a Blade of mace, some sliced Nutmeg,
+<lb/>
+& a little Cinnamon, then take
+<expan abbr=""> th</expan>
+e Yolks of
+<lb/>
+ten Eggs, & beat
+<expan abbr="">the</expan>
+m well with sugar to your
+<lb/>
+Tast, keep a Little Cream to beat up with
+<lb/>
+Your Eggs, when t
+<expan abbr="">h</expan>
+e Cream & spices have
+<lb/>
+Boiled a little while, then pour some of the
+<lb/>
+Cream Gently into
+<expan abbr="">th</expan>
+e Yolks of the Eggs,
+<lb/>
+Stirring it all the time then pour it all
+<lb/>
+together, & keep the sauce pan over
+<expan abbr="">th</expan>
+e fire
+<lb/>
+till it thickens, then strain it through a
+<lb/>
+hair seive & put in a Glass of Brandy
+<lb/>
+then put it in to your Cups,
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083748" n="70" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0070.JP2/full/880,1024/0/default.jpg"/>
+<div xml:id="OTP25083748">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083748P0"/>
+</div>
+<pb xml:id="F25083749" n="71" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0071.JP2/full/826,1024/0/default.jpg"/>
+<div xml:id="OTP25083749">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083749P0">
+<supplied>35</supplied>
+<lb/>
+<note type="marginalia">(No.70)</note>
+<head>
+To preserve Grapes or Goos
+<add>e</add>
+berries
+</head>
+</p>
+<p xml:id="OTP25083749P1">
+Take your white Grapes when they are full
+<lb/>
+ripe, & stone & pill them, then take there weigh
+<add>t</add>
+<lb/>
+in Sugar, & wet your sugar with water, and
+<lb/>
+When you have Boil'd it to a pretty thick
+<lb/>
+Syrup, then put in
+<expan abbr="">th</expan>
+e Grapes to it, & let
+<lb/>
+them Boil a pretty pase, & so Continue
+<lb/>
+them keep them Clean scum'd, till it begins
+<lb/>
+to Jelly, then take out your Grapes & if the
+<lb/>
+Syrup be not thick enough, boil a little
+<lb/>
+More, by it self, & when it is Cold, put the
+<lb/>
+Grapes in Glasses, with the Syrup.
+</p>
+<p xml:id="OTP25083749P2">
+<note type="marginalia">(No. 71)</note>
+<head>To Make a white Pot</head>
+</p>
+<p xml:id="OTP25083749P3">
+Take 2 quarts of new Milk, 8 Eggs, 4 whites,
+<lb/>
+beat up with a Little rose water, a Nutmeg
+<lb/>
+Grated, a 1/4
+<unclear>pound</unclear>
+of sugar, Cut a penny Loaf in
+<lb/>
+Very thin Slices, & pour milk & Eggs,
+<lb/>
+over it, put in a little bit of Butter, on the
+<lb/>
+top, Bake it in a slow oven, half an Hour
+</p>
+<p xml:id="OTP25083749P4">
+<note type="marginalia">(No.72) </note>
+<head>To Roast Lobsters</head>
+</p>
+<p xml:id="OTP25083749P5">
+Baste them at first, with salt, & water warm
+<lb/>
+And towards the last, baste them with butter
+<lb/>
+and Catch what drops from them, & Draw
+<lb/>
+your Butter in it, with Nutmeg scraped
+<lb/>
+for the sauce, A Little drawn butter will
+<lb/>
+be Enough
+</p>
+<p xml:id="OTP25083749P6"/>
+</div>
+<pb xml:id="F25083750" n="72" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0072.JP2/full/889,1024/0/default.jpg"/>
+<div xml:id="OTP25083750">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083750P0"/>
+</div>
+<pb xml:id="F25083751" n="73" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0073.JP2/full/823,1024/0/default.jpg"/>
+<div xml:id="OTP25083751">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083751P0">
+<supplied>36</supplied>
+<lb/>
+<del>
+To Make Oyster
+<unclear>Loaves</unclear>
+<lb/>
+Fry the French
+</del>
+</p>
+<p xml:id="OTP25083751P1">
+<head>To make White Current Wine</head>
+</p>
+<p xml:id="OTP25083751P2">
+Two Gallons of water, to one Gallon of Juice
+<lb/>
+3 pound of Sugar to a Gallon, strain it
+<lb/>
+put it in a cask, & when you think it
+<lb/>
+has worked Enough, put in a Quart of
+<lb/>
+Brandy to Seven Gallons if you make
+<lb/>
+but a small cask rather less sugar will do
+</p>
+<p xml:id="OTP25083751P3">
+<head>To make Lavender Water</head>
+</p>
+<p xml:id="OTP25083751P4">
+To a Quart of
+<unclear>Reetifyd</unclear>
+Spirits of wine
+<lb/>
+put half an ounce of oil of Lavender,
+<lb/>
+and six penny worth of Ambergrease
+<lb/>
+you must disolve the Ambergrease by
+<lb/>
+rubbing it in the morter with a little of
+<lb/>
+the Oyl let it stand five or six days
+<lb/>
+shaking it well four or five times a Day,
+<lb/>
+then Philter it off; given me by Rob
+<expan abbr="">er</expan>
+t Pratt esq
+<expan abbr="">uire</expan>
+</p>
+</div>
+<pb xml:id="F25083752" n="74" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0074.JP2/full/887,1024/0/default.jpg"/>
+<div xml:id="OTP25083752">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083752P0">
+<head>To Ragoo Pigs feet & Ears</head>
+</p>
+<p xml:id="OTP25083752P1">
+Take Your Feet & Ears out of the pickle they
+<lb/>
+are soused in or boil them till they are tender
+<lb/>
+then cut them in to little long thin bits,
+<lb/>
+about 2 Inches long & about a Q
+<expan abbr="">uarte</expan>
+r of an Inch
+<lb/>
+thick put them in to Your Stewpan, with
+<lb/>
+half a Pint of good Gravy, a Glass of white Wine
+<lb/>
+a good deal of mustard a good peice of Butter
+<lb/>
+Rolled in Flour a little Pepper & salt
+<lb/>
+stir all together till it is a fine thickness
+<lb/>
+then Dish it up
+</p>
+<p xml:id="OTP25083752P2">
+<head>A good Plum Cake</head>
+</p>
+<p xml:id="OTP25083752P3">
+4 Pound & a half of Currents, 3 p
+<expan abbr="">oun</expan>
+d of Flour
+<lb/>
+2 pound of Butter 1 ounce of Sweet Spice
+<lb/>
+Three q
+<expan abbr="">uarte</expan>
+r of a pound of Sugar half a pin
+<lb/>
+of good Yeast wet it with warm Milk
+<lb/>
+Melt yout Butter in the Milk:
+</p>
+<p xml:id="OTP25083752P4">
+3 Hours Bake it
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083753" n="75" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0075.JP2/full/832,1024/0/default.jpg"/>
+<div xml:id="OTP25083753">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083753P0">
+<supplied>37</supplied>
+<lb/>
+<note type="marginalia">(No.75)</note>
+<head>To Hash a Tongue</head>
+</p>
+<p xml:id="OTP25083753P1">
+When your Tongue is tender, blanch it & Cut
+<lb/>
+it into thin Slices, pour Strong Gravy
+<lb/>
+over them, let them stew on
+<expan abbr="">th</expan>
+e fire, thicken
+<lb/>
+the Liquor, with the Yolk of an Egg, and put
+<lb/>
+in 1/2 a Pint of Oysters,
+</p>
+<p xml:id="OTP25083753P2">
+<note type="marginalia">(No. 76)</note>
+<head>To Roast a Neck of Veal</head>
+</p>
+<p xml:id="OTP25083753P3">
+Lard it on the out side with Bacon, then roast
+<lb/>
+it. & serve it up with
+<add>a</add>
+good Gravy, mix'd
+<lb/>
+with a little Butter melted, forced meat
+<lb/>
+Balls, & Slice
+<del>d</del>
+s of Broil'd Bacon round the
+<lb/>
+Dish, Garnish with Lemon,
+</p>
+<p xml:id="OTP25083753P4">
+<note type="marginalia">(No.77)</note>
+<head>To Stew Cucumbers</head>
+</p>
+<p xml:id="OTP25083753P5">
+Cut them into Quarters, take
+<expan abbr="">th</expan>
+e seeds out,
+<lb/>
+take an Onion & a peice of fresh Butter, and
+<lb/>
+keep you pan Stiring till it is Brown
+<lb/>
+then put
+<add>in</add>
+your Cucumbers, cut in Slices &
+<lb/>
+Keep them shaking, & when Brown enough
+<lb/>
+take them out, & pour of all
+<expan abbr="">th</expan>
+e fat, then pour
+<lb/>
+on your Gravy, with salt, peper, & Anchovys
+<lb/>
+thicken it with a Little Butter & flower,
+</p>
+<p xml:id="OTP25083753P6">
+<note type="marginalia">(No.78)</note>
+<head>To Butter Crabs</head>
+</p>
+<p xml:id="OTP25083753P7">
+Take
+<expan abbr="">th</expan>
+e meat out of your Crabs, & put it in
+<lb/>
+a well Tin'd Saucepan, with a Little white
+<lb/>
+wine, some nutmeg, & veal Gravy, and
+<lb/>
+a peice of Butter, make
+<expan abbr="">th</expan>
+e meat very Hot,
+<lb/>
+With some fine Grated bread, then fill
+<expan abbr="">th</expan>
+e
+<lb/>
+Shells, & Brown it with a red hot Iron, you
+<lb/>
+May Add a Little Salt.
+</p>
+</div>
+<pb xml:id="F25083754" n="76" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0076.JP2/full/893,1024/0/default.jpg"/>
+<div xml:id="OTP25083754">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083754P0"/>
+</div>
+<pb xml:id="F25083755" n="77" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0077.JP2/full/830,1024/0/default.jpg"/>
+<div xml:id="OTP25083755">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083755P0">
+<supplied>38</supplied>
+<lb/>
+<note type="marginalia">(N.79)</note>
+<head>To Make an Orange Custard</head>
+</p>
+<p xml:id="OTP25083755P1">
+Take
+<expan abbr="">th</expan>
+e Juice of 2 sivil Oranges, with a
+<lb/>
+Little of
+<expan abbr="">th</expan>
+e peel Grated very fine, & put
+<lb/>
+as much Sugar to it as will make it swee
+<add>t</add>
+<lb/>
+give it a boil up, & strain it, & have
+<lb/>
+Ready 1/2 a pint of cream boil'd, with a
+<lb/>
+Little Nutmeg, mace, & Cinnamon, & the
+<lb/>
+whites of 3 New Eggs, beat them all together
+<lb/>
+And Serve it in What you please,
+</p>
+<p xml:id="OTP25083755P2">
+<note type="marginalia">No.80</note>
+<head>To Make a Fricasee of Mushrooms</head>
+</p>
+<p xml:id="OTP25083755P3">
+Peel your Mushrooms, then Quarter them, &
+<lb/>
+put them over the fire, in a Saucepan & let
+<lb/>
+them Stew, till all
+<expan abbr="">th</expan>
+e Black water is Come
+<lb/>
+from them, then Pour it away, & take a peice
+<lb/>
+of Freash Butter, an Onion, Nutmeg, Cloves, & a
+<lb/>
+Blade of mace, a Little w
+<expan abbr="">hi</expan>
+t
+<expan abbr="">e</expan>
+wine, a Little parsly,
+<lb/>
+Thyme, & savory, with some Salt, shred your
+<lb/>
+herbs fine, & let them Stew 1/2 an Hour then
+<lb/>
+take a
+<del>the </del>
+<add>a little</add>
+Juice of Lemon,&
+<expan abbr="">th</expan>
+e Yolk of an Egg,
+<lb/>
+& beat them together to thicken your fricasee
+<lb/>
+So serve it up
+</p>
+<p xml:id="OTP25083755P4">
+<note type="marginalia">(No.81)</note>
+<head>A Fricasee of Tripe</head>
+</p>
+<p xml:id="OTP25083755P5">
+Cut your tripe into small slips, flouer it well
+<lb/>
+and put some beef Driping into a pan, & fry
+<lb/>
+it Crisp, then drain it well, from
+<expan abbr="">th</expan>
+e fat, and
+<lb/>
+Clean your pan, then take some Butter and
+<lb/>
+flower, & make it of a pale Brown, then
+<lb/>
+put a Little good Gravy to it ,& the tripe,
+<lb/>
+And Toss it up together
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083756" n="78" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0078.JP2/full/890,1024/0/default.jpg"/>
+<div xml:id="OTP25083756">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083756P0"/>
+</div>
+<pb xml:id="F25083757" n="79" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0079.JP2/full/833,1024/0/default.jpg"/>
+<div xml:id="OTP25083757">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083757P0">
+<supplied>39</supplied>
+<lb/>
+<note type="marginalia">(No. 82 ) </note>
+<head>To make a Fricasee of sweet Breads</head>
+</p>
+<p xml:id="OTP25083757P1">
+Half roast 3 Large sweet Breads, cut them
+<lb/>
+into Square peices, boil some roast beef
+<lb/>
+Gravy, with half a Nutmeg, some whole peper
+<lb/>
+a Shalot or two, & a Little salt, then strain it
+<lb/>
+And put your sweet herbs, to it, & stew them
+<lb/>
+till they are enough, put in a peice of Butter
+<lb/>
+Wrap'd in flower, & a Spoonful of Boil'd
+<lb/>
+Oyster Liquar Garnish with Lemon
+</p>
+<p xml:id="OTP25083757P2">
+<note type="marginalia">( No.83)</note>
+<head>
+To Dress a K
+<add>n</add>
+uckle of Veal with rice
+</head>
+</p>
+<p xml:id="OTP25083757P3">
+Take a Knuckle of Veal, cut of
+<expan abbr="">th</expan>
+e Gristles, &
+<lb/>
+put them in a large, saucepan with a 1/4
+<expan abbr="">pound</expan>
+of rice
+<lb/>
+An Onion or two Sliced, a Little mace, & salt,
+<lb/>
+put in what Water you think proper to
+<lb/>
+Make your Liquor strong & good, let it
+<lb/>
+boil very Slowly, & as it wastes put in a
+<lb/>
+Little more warm water, & let
+<expan abbr="">th</expan>
+e Rice and
+<lb/>
+Gristles be boil'd Quite down, let the thick
+<lb/>
+part of
+<expan abbr="">th</expan>
+e Veal be boil'd as a Knuckle of Veal
+<lb/>
+Generaly is, Serve it up, on
+<expan abbr=""> th</expan>
+e rice & Gristles
+</p>
+<p xml:id="OTP25083757P4">
+<note type="marginalia">(No.84)</note>
+<head>To Pot Fowl in General</head>
+</p>
+<p xml:id="OTP25083757P5">
+Season with peper, salt, mace, & nutmeg, &
+<lb/>
+And put them into an Earthen pan Just Cover'd
+<lb/>
+With water & bake them, then take them
+<lb/>
+from the Water, & when Cold, put them in a
+<lb/>
+Pan again, and pour Clarify'd Butter
+<lb/>
+over them
+</p>
+</div>
+<pb xml:id="F25083758" n="80" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0080.JP2/full/886,1024/0/default.jpg"/>
+<div xml:id="OTP25083758">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083758P0"/>
+</div>
+<pb xml:id="F25083759" n="81" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0081.JP2/full/837,1024/0/default.jpg"/>
+<div xml:id="OTP25083759">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083759P0">
+<supplied>40</supplied>
+<lb/>
+<note type="marginalia">(No.85) </note>
+<head>To Make Calves feet Flummery</head>
+</p>
+<p xml:id="OTP25083759P1">
+Take two Claves feet, & split them & take
+<lb/>
+out
+<expan abbr="">th</expan>
+e Large Bones, put to them 3 pints of
+<lb/>
+river Water, a Slice of Nutmeg, a blade of
+<lb/>
+Mace, a race of Ginger, & a Little Orange and
+<lb/>
+Lemon peel Cut very thin, put it over a
+<lb/>
+slow fire, & let it boil Gently, till it comes
+<lb/>
+to a Strong Jelly, taking off
+<expan abbr="">th</expan>
+e scum, then
+<lb/>
+Strain it off, & let it stand till it is Cold, then
+<lb/>
+take off
+<expan abbr="">th</expan>
+e settlement, & and to it 1/2 a pint of
+<lb/>
+Milk, put it over a slow fire, & take
+<expan abbr=""> th</expan>
+e Yolks
+<lb/>
+of 8 Eggs & beat them well together, with a
+<lb/>
+Little Cold Milk, & when your Jelly is lukewarm
+<lb/>
+put them into it, & keep it stiring till
+<expan abbr="">th</expan>
+e Eggs
+<lb/>
+are sett, then run it through a sieve & put it into
+<lb/>
+Cups you must sweeten it to your tast,
+</p>
+<p xml:id="OTP25083759P2">
+<note type="marginalia">No.86</note>
+<head>A White Soup</head>
+</p>
+<p xml:id="OTP25083759P3">
+Boil 1/2
+<expan abbr="">pound</expan>
+of Rice tender in water & milk,
+<lb/>
+then put to it 2 quarts of strong broth,
+<lb/>
+herbs, Balls, & french roll, Cut in dice & all
+<lb/>
+fry'd, season it & put in forc'd Chicken in
+<lb/>
+the Middle
+</p>
+<p xml:id="OTP25083759P4">
+<note type="marginalia">( No.87)</note>
+<head>Orange Butter</head>
+</p>
+<p xml:id="OTP25083759P5">
+Take the Yolks of 3 hard Eggs, 1
+<expan abbr="">pound</expan>
+of
+<lb/>
+Butter, a little fine sugar a Spoonful
+<lb/>
+of Orange flower Water, & work it
+<lb/>
+Through a Seive,
+</p>
+</div>
+<pb xml:id="F25083760" n="82" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0082.JP2/full/891,1024/0/default.jpg"/>
+<div xml:id="OTP25083760">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083760P0"/>
+</div>
+<pb xml:id="F25083761" n="83" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0083.JP2/full/840,1024/0/default.jpg"/>
+<div xml:id="OTP25083761">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083761P0">
+<supplied>41</supplied>
+<lb/>
+<note type="marginalia">(No.88) </note>
+T
+<head>o Pickle Portugal Onions</head>
+</p>
+<p xml:id="OTP25083761P1">
+Peel your Onions, & Cut out of
+<expan abbr="">th</expan>
+e Bottom a
+<lb/>
+Small round peice, & scoop out
+<expan abbr="">th</expan>
+e Insides, but
+<lb/>
+Not to thin, then put them in Salt & water three
+<lb/>
+Days, Changing it twice a day, then drain them
+<lb/>
+and stuff them, first put in flower of Mustard
+<lb/>
+Seed, then some Ginger Cut small, & a little mace
+<lb/>
+and Shalot cut small, then some more Mustard,
+<lb/>
+and fill them up with scraped Horse Radish,
+<lb/>
+then put on the Bottom Peice, & tie them down
+<lb/>
+Close, then make a Strong Pickle of W
+<expan abbr="">hi</expan>
+t
+<expan abbr="">e</expan>
+wine
+<lb/>
+Vinegar, mace, ginger,
+<del>Cloves</del>
+, Nutmeg, slic'd
+<lb/>
+Horse Radish, & a great deal of salt, then put in
+<lb/>
+<expan abbr="">th</expan>
+e Mango's & let them boil up two, or three times,
+<lb/>
+but dont let them boil to Much, for then they
+<lb/>
+will lose there firmness & wont keep, then
+<lb/>
+Put them with there Pickle in a Jarr & Cover
+<lb/>
+them down close, & the next Morning boil your
+<lb/>
+Pickle up again, & pour it over them.
+</p>
+<p xml:id="OTP25083761P2">
+<note type="marginalia">(No.89)</note>
+<head> A Sauce for Roast Meat</head>
+</p>
+<p xml:id="OTP25083761P3">
+Take an Anchove, wash it Clean, put to it a
+<lb/>
+Glass of red wine, a little strong broth or
+<del>Gravy</del>
+<lb/>
+gravy, some Nutmeg 1 Shalot sliced & the
+<lb/>
+Juice of a sivil Orange Stew these together a
+<lb/>
+Little & pour it to the Gravy that runs from the
+<lb/>
+Meat
+</p>
+</div>
+<pb xml:id="F25083762" n="84" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0084.JP2/full/894,1024/0/default.jpg"/>
+<div xml:id="OTP25083762">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083762P0"/>
+</div>
+<pb xml:id="F25083763" n="85" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0085.JP2/full/839,1024/0/default.jpg"/>
+<div xml:id="OTP25083763">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083763P0">
+<supplied>42</supplied>
+<lb/>
+<note type="marginalia">(No.90)</note>
+<head>To Make Damson Cheese</head>
+</p>
+<p xml:id="OTP25083763P1">
+To every quart of Damsons, Allow 1
+<unclear>pound </unclear>
+of sugar
+<lb/>
+put you Damsons in an Earthen pot Cover
+<lb/>
+them Close at
+<expan abbr="">th</expan>
+e top, set it in a pan of water,
+<lb/>
+as you do Currant Jelly, & when they are stew'd
+<lb/>
+Enough, put them in Your Preserving pan, &
+<lb/>
+then the Sugar to them, & Boil them till they
+<lb/>
+Come to a Jelly together, to have them smooth,
+<lb/>
+You must before you put
+<expan abbr="">th</expan>
+e Sug
+<expan abbr="">ar</expan>
+to them, rub
+<lb/>
+them through a Hair seive, till you have got
+<lb/>
+all the pulp from
+<expan abbr="">th</expan>
+e Stones & skins, & so boil
+<lb/>
+it till it's thick enough, to put into flat pans
+<lb/>
+if you Dont put in flat pans, it will not Cut
+<add>smooth</add>
+</p>
+<p xml:id="OTP25083763P2">
+<note type="marginalia">(No.91)</note>
+<head>To Scald Coddlings Green</head>
+</p>
+<p xml:id="OTP25083763P3">
+Take your Green Coddlings & put them in a
+<lb/>
+Bell Mettal Shellet, with a Little salt, then Cover
+<lb/>
+them Close in the water & salt with two or three
+<lb/>
+Cabbage Leaves that no Stem Comes out, and
+<lb/>
+put on them the Lid of
+<add>
+<expan abbr="">th</expan>
+e
+</add>
+Skellet, let them scald Gently
+<lb/>
+And when they will Just peel, pull of
+<expan abbr="">th</expan>
+e Skin &
+<lb/>
+throw them in the same Liquor with
+<expan abbr="">th</expan>
+e Cabbage
+<lb/>
+Leaves, as before till they are tender, only
+<lb/>
+Keep the water Scalding Hot all
+<expan abbr="">th</expan>
+e time they
+<lb/>
+are doing
+</p>
+</div>
+<pb xml:id="F25083764" n="86" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0086.JP2/full/890,1024/0/default.jpg"/>
+<div xml:id="OTP25083764">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083764P0"/>
+</div>
+<pb xml:id="F25083765" n="87" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0087.JP2/full/846,1024/0/default.jpg"/>
+<div xml:id="OTP25083765">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083765P0">
+<supplied>43</supplied>
+<lb/>
+<note type="marginalia">(No.92)</note>
+<head>
+To Pott Macker
+<add>e</add>
+l
+</head>
+</p>
+<p xml:id="OTP25083765P1">
+When the Mackerel are wash'd & drest
+<expan abbr="">th</expan>
+e heads
+<lb/>
+And tails cut off,
+<expan abbr=""> the</expan>
+n cut off an Inch below
+<expan abbr="">th</expan>
+e Fins
+<lb/>
+then boil them with a little salt & Han
+<expan abbr="">d</expan>
+ful of
+<lb/>
+Fennel till the fish Leaves
+<expan abbr="">th</expan>
+e Bone then drain
+<lb/>
+it well from
+<expan abbr="">th</expan>
+e water, & when it is near Cold,
+<lb/>
+Split them down the Middle & take out all
+<expan abbr=""> th</expan>
+e bones
+<lb/>
+and Season them with peper & salt, a double
+<lb/>
+Quantity of Pepper to your salt, Season
+<expan abbr="">the</expan>
+m
+<lb/>
+Pretty high & lay them even & Close in an
+<lb/>
+Earthen pan not so full but there may be
+<lb/>
+room enough, for Butter to Cover them,
+<lb/>
+which must be very good, & Melted over a
+<lb/>
+Slow fire, then let the Dross settle at the
+<lb/>
+Bottom, & pour of
+<expan abbr="">th</expan>
+e Clear Softly on Your
+<lb/>
+Macherel, till the fish is Cover'd,
+<expan abbr="">th</expan>
+e Oven must
+<lb/>
+be heated as for Brown Bread & a pott that
+<lb/>
+Holds 12 may stand in 2 Hours, then take
+<expan abbr="">the</expan>
+m
+<lb/>
+out as hot as you Can, & put
+<expan abbr="">the</expan>
+m in
+<expan abbr="">th</expan>
+e pot you
+<lb/>
+Intend to keep
+<expan abbr="">the</expan>
+m in, & press them down as
+<lb/>
+Clos as Possible, when cold Cover
+<expan abbr="">the</expan>
+m Over with
+<lb/>
+the Butter they was Bake'd in, they will keep a
+<lb/>
+Year if once in 3 or 4 Months if you scrap
+<add>e </add>
+of
+<lb/>
+about a straws Breadth of
+<expan abbr="">th</expan>
+e Butter & put
+<expan abbr="">the</expan>
+m
+<lb/>
+in the Oven, to be through hot & fill them up again
+</p>
+<p xml:id="OTP25083765P2">
+<note type="marginalia">(No.93) </note>
+<head>A Tansey</head>
+</p>
+<p xml:id="OTP25083765P3">
+Boil 1 quart of Cream or Milk, with a little Cinnamon
+<lb/>
+a Nutmeg Quarter'd & some mace, when Cold mix
+<lb/>
+it with
+<expan abbr=""> th</expan>
+e Yolks of 20 Eggs & 10 whites strain it then
+<lb/>
+<del>then </del>
+put to it 4 Biskits 1/2
+<expan abbr="">pound </expan>
+of Butter a
+<expan abbr="">pint </expan>
+of spinage
+<lb/>
+Juice & a little Tansey, sack & orange flower water
+</p>
+<p xml:id="OTP25083765P4">
+<note type="marginalia">
+Sug
+<expan abbr="">ar</expan>
+& salt then gather it to a
+<lb/>
+body oven
+<expan abbr="">the</expan>
+fire & pour it
+<lb/>
+into your dish being well
+<lb/>
+Butter'd when it is baked turn
+<add>it </add>
+on
+<lb/>
+a pye plate squeeze on it and
+<lb/>
+orange grate on Sug
+<expan abbr="">ar</expan>
+& Garnish
+</note>
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083766" n="88" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0088.JP2/full/892,1024/0/default.jpg"/>
+<div xml:id="OTP25083766">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083766P0"/>
+</div>
+<pb xml:id="F25083767" n="89" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0089.JP2/full/843,1024/0/default.jpg"/>
+<div xml:id="OTP25083767">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083767P0">
+<supplied>44</supplied>
+<lb/>
+<note type="marginalia">(No.94)</note>
+<head>To Make Grape wine</head>
+</p>
+<p xml:id="OTP25083767P1">
+To 3
+<expan abbr="">pounds</expan>
+of Grapes when pick'd put 1/2
+<expan abbr="">pounds</expan>
+of sixpenny
+<lb/>
+Sugar, and one quart of water, stamp
+<expan abbr="">th</expan>
+e Grapes,
+<lb/>
+and Strain
+<expan abbr="">th</expan>
+e Juice from them, then put
+<expan abbr="">th</expan>
+e husks
+<lb/>
+in to
+<expan abbr="">th</expan>
+e water, & let them stand 24 Hours then
+<lb/>
+Strain them of as dry as you Can, put that
+<lb/>
+Liquor to
+<expan abbr="">th</expan>
+e Juice of
+<expan abbr="">th</expan>
+e Grapes, you must put
+<lb/>
+in some of your sugar to
+<expan abbr="">th</expan>
+e Juice of the Grapes,
+<lb/>
+When they are first Strained off, &
+<expan abbr="">th</expan>
+e remaindor
+<lb/>
+when the Whole is mix'd you must let Stand one
+<lb/>
+Year in Your Vessel, & then Bottle it off,
+</p>
+<p xml:id="OTP25083767P2">
+<note type="marginalia">(No.95)</note>
+<expan abbr="">To Make Cherry Wine</expan>
+</p>
+<p xml:id="OTP25083767P3">
+Take 3
+<expan abbr="">pounds</expan>
+of Cherrys, bruise them with your
+<lb/>
+finger, put a quart of water, to them let them
+<lb/>
+Stand 24 Hours, to every quart of water
+<lb/>
+put a pound of sugar, Drain your Liquor
+<lb/>
+through a seive, the
+<add>n </add>
+put the sug
+<expan abbr="">ar</expan>
+in, let it
+<lb/>
+Stand 24 Hours then take off the scum, turn
+<lb/>
+it up but not put
+<expan abbr="">th</expan>
+e Bung in, for it will work
+<lb/>
+<add>some days</add>
+let it Stand 1 Month before you draw it off
+<lb/>
+stir
+<expan abbr="">th</expan>
+e fruit well in the water
+</p>
+<p xml:id="OTP25083767P4">
+<note type="marginalia">(No.96) </note>
+<head>To Preserve green Gage Plumbs</head>
+</p>
+<p xml:id="OTP25083767P5">
+Take
+<expan abbr="">th</expan>
+e plumbs when they are Just begining
+<lb/>
+to ripen, pare
+<expan abbr="">the</expan>
+m very thin, & to 1
+<expan abbr="">pound </expan>
+of Plumb
+<lb/>
+put
+<expan abbr="">pounds</expan>
+of fine sug
+<expan abbr="">ar</expan>
+& a spoonful of water to a
+<lb/>
+Plumb, boil
+<expan abbr="">th</expan>
+e water & some of Sugar & pour
+<lb/>
+it on
+<expan abbr="">th</expan>
+e Plumbs, & Cover
+<expan abbr="">the</expan>
+m Down a Little
+<lb/>
+While, then boil
+<expan abbr=""> the</expan>
+m till they are Clear & green,
+<lb/>
+Strewing in
+<expan abbr="">th</expan>
+e rest of
+<expan abbr="">th</expan>
+e Sug
+<expan abbr="">ar</expan>
+, & keeping them
+<lb/>
+Covered at first.
+</p>
+<p xml:id="OTP25083767P6"/>
+</div>
+<pb xml:id="F25083768" n="90" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0090.JP2/full/892,1024/0/default.jpg"/>
+<div xml:id="OTP25083768">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083768P0"/>
+</div>
+<pb xml:id="F25083769" n="91" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0091.JP2/full/844,1024/0/default.jpg"/>
+<div xml:id="OTP25083769">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083769P0">
+<supplied>45</supplied>
+<lb/>
+<note type="marginalia">(No.97)</note>
+<head>To Stew Sallery Whole</head>
+</p>
+<p xml:id="OTP25083769P1">
+Take the Largest & fairest Heads of Celery,
+<lb/>
+cut
+<add>
+of
+<expan abbr="">th</expan>
+e
+</add>
+green Part, & boil the whole heads in a
+<lb/>
+Good Quantity of water & Salt, till Tender,
+<lb/>
+then have ready, a Little white Gravy, made
+<lb/>
+of any Lean meat, with a Little mace whole
+<lb/>
+Pepper & Lemon Peel Boil'd in it, Strain
+<lb/>
+it, then half the Quantity of Cream with a
+<lb/>
+Little Parsly, boil'd & Chopt in it, a Yolk of
+<lb/>
+an Egg beat, & a bit of Butter flower'd the size
+<lb/>
+of a Walnut, mix it all well together,
+<del>with</del>
+<lb/>
+with a Little Salt & the Juice of half a
+<lb/>
+Small Lemon, then pour it over your Celery
+<lb/>
+when Ready to send in
+</p>
+<p xml:id="OTP25083769P2">
+<note type="marginalia">No.98 </note>
+<head>To Make a Cream Cheese</head>
+</p>
+<p xml:id="OTP25083769P3">
+Take 4 Quarts of new Milk & 2 of Cream
+<lb/>
+put Rennet to it, when it Comes Cut up the
+<lb/>
+Cheese as thin as you Can with a
+<lb/>
+Seiming Dish, & lay it in the fatt till it's
+<lb/>
+full: let it stand till next Morning then
+<lb/>
+turn it Carefully least you Break it, so do
+<lb/>
+for three days, then lay it in Green Rushes
+<lb/>
+and Flannel, & it will be ready to eat in six
+<lb/>
+Days, if
+<expan abbr=""> the</expan>
+weather is hot this Quantity
+<lb/>
+will make two Cheeses; straw fatts are best,
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083770" n="92" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0092.JP2/full/891,1024/0/default.jpg"/>
+<div xml:id="OTP25083770">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083770P0"/>
+</div>
+<pb xml:id="F25083771" n="93" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0093.JP2/full/847,1024/0/default.jpg"/>
+<div xml:id="OTP25083771">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083771P0">
+<supplied>46</supplied>
+<lb/>
+<note type="marginalia">(No.99)</note>
+<head>To Preserve Oranges Whole,</head>
+</p>
+<p xml:id="OTP25083771P1">
+Pare large Sevil Oranges very thin Cut a peice
+<lb/>
+out where
+<expan abbr="">th</expan>
+e stalk Grows, take out
+<expan abbr="">th</expan>
+e seeds &
+<lb/>
+Juice, and save that comes out, then boil your
+<lb/>
+Oranges in a large Kettle of water, & shift
+<lb/>
+it, when it is very Bitter, with hot water, when
+<lb/>
+Tender take them out & dry them, then take to
+<lb/>
+Every Pound of Orange, a pound or Butter of
+<lb/>
+Double refine Sugar and to every pound, a
+<lb/>
+pint of water, make a Syrup & put in the
+<lb/>
+Oranges and boil them
+<del>while</del>
+well in
+<expan abbr="">th</expan>
+e
+<lb/>
+Syrup, then take them out and Cover them, &
+<lb/>
+let them stand in that two or three days,
+<lb/>
+boil
+<expan abbr="">th</expan>
+e meat that comes out of
+<expan abbr="">th</expan>
+e Oranges
+<lb/>
+being Pick'd Clean, from
+<expan abbr=""> th</expan>
+e seeds & skins,
+<lb/>
+put in their weight in fine sugar, set it by
+<lb/>
+when boil'd, take as many John Apples as
+<lb/>
+will make Jelly for them, take as many pints
+<lb/>
+as pounds of Oranges or more, & to every pint
+<lb/>
+a pound of sugar, boil it, & heat in the
+<lb/>
+Oranges
+<del> in</del>
+a Little of
+<expan abbr="">th</expan>
+e Syrup, then put
+<lb/>
+them into the Jelly & boil some time then
+<lb/>
+take
+<expan abbr="">the</expan>
+m out & put
+<expan abbr="">the</expan>
+m in pots
+<add>or </add>
+Glasses, with holes
+<lb/>
+upwards, & fill
+<expan abbr="">the</expan>
+m with
+<expan abbr="">th</expan>
+e meat & Cover
+<expan abbr=""> the</expan>
+m with
+<lb/>
+Jelly
+</p>
+</div>
+<pb xml:id="F25083772" n="94" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0094.JP2/full/895,1024/0/default.jpg"/>
+<div xml:id="OTP25083772">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083772P0"/>
+</div>
+<pb xml:id="F25083773" n="95" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0095.JP2/full/846,1024/0/default.jpg"/>
+<div xml:id="OTP25083773">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083773P0">
+<supplied>47</supplied>
+<lb/>
+<head>To Make Mince Pyes</head>
+</p>
+</div>
+<pb xml:id="F25083774" n="96" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0096.JP2/full/895,1024/0/default.jpg"/>
+<div xml:id="OTP25083774">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083774P0"/>
+</div>
+<pb xml:id="F25083775" n="97" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0097.JP2/full/847,1024/0/default.jpg"/>
+<div xml:id="OTP25083775">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083775P0">
+<supplied>48</supplied>
+<lb/>
+<note type="marginalia">(No.102)</note>
+<head>A Neats Tongue Pye</head>
+</p>
+<p xml:id="OTP25083775P1">
+Half boil
+<expan abbr="">th</expan>
+e Tongues, blanch & slice
+<lb/>
+them, Season them with Savory spice
+<lb/>
+with Balls, Slic'd Lemon, & Butter, and
+<lb/>
+Close the pye, when tis bak'd take a
+<lb/>
+Pint of Gravy, sweetbreads, Pallats, &
+<lb/>
+Cocks Combs, tossed up & pour'd into
+<expan abbr=""> th</expan>
+e Pye
+</p>
+<p xml:id="OTP25083775P2">
+<note type="marginalia">(No.103) </note>
+<head>
+A Pig
+<add>e</add>
+on Pye
+</head>
+</p>
+<p xml:id="OTP25083775P3">
+Truss & season your Pigeons with
+<lb/>
+Savory Spice, lard them with Bacon,
+<lb/>
+and stuff them with forc'd meat lay on
+<lb/>
+Lamb stones, Sweet breads, and Butter and
+<lb/>
+Close the pye, A Hare, Chicken, or Capon
+<lb/>
+Pye is made the same way
+</p>
+<p xml:id="OTP25083775P4">
+<note type="marginalia">(No.104)</note>
+<head>A Venison Pasty</head>
+</p>
+<p xml:id="OTP25083775P5">
+Bone a side or haunch of Venison cut it
+<lb/>
+Square, & season it with pepper & salt make
+<lb/>
+it up in your aforesaid Pasty past, a peck
+<lb/>
+of flower, for a Buck Pasty, & 3 Quarters
+<lb/>
+for a doe, 2
+<expan abbr="">pounds </expan>
+of Beef suet at
+<expan abbr="">th</expan>
+e Bottom of your
+<lb/>
+Buck pasty & 1 1/2
+<expan abbr="">pound </expan>
+of Ditto at
+<expan abbr="">th</expan>
+e Bottom
+<lb/>
+for a doe, A Lamb pasty is made on
+<expan abbr="">th</expan>
+e doe
+</p>
+</div>
+<pb xml:id="F25083776" n="98" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0098.JP2/full/897,1024/0/default.jpg"/>
+<div xml:id="OTP25083776">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083776P0"/>
+</div>
+<pb xml:id="F25083777" n="99" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0099.JP2/full/846,1024/0/default.jpg"/>
+<div xml:id="OTP25083777">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083777P0">
+<supplied>49</supplied>
+<lb/>
+<note type="marginalia">(No.105)</note>
+<head>A Brown Fricasee of Chickens & Rabits</head>
+</p>
+<p xml:id="OTP25083777P1">
+Cut them in peices, fry them in Brown butter
+<lb/>
+then have ready hot, a pint of Gravy, a
+<lb/>
+Little Claret, w
+<expan abbr="">hi</expan>
+t
+<expan abbr="">e</expan>
+wine, & strong Broth, 2
+<lb/>
+Anchovies, 2 slic'd Pallats, a Faggot of sweet
+<lb/>
+herbs, savory Balls & spice, thicken it
+<lb/>
+with Brown Butter, & Garnish w
+<expan abbr="">i</expan>
+th Lemon
+</p>
+<p xml:id="OTP25083777P2">
+<note type="marginalia">No.106</note>
+<head>A white Fricasee of the same</head>
+</p>
+<p xml:id="OTP25083777P3">
+Cut them in peices, wash them from the
+<lb/>
+Blood, & fry them on a slow fire, then
+<lb/>
+put them in a Tossing pan, with a pint
+<lb/>
+of Strong Broth, season them & toss them
+<lb/>
+up, when Almost enough put to them
+<lb/>
+Mushrooms, Oysters, Anchovys, & a
+<lb/>
+pint of Cream, thicken it with a bit of
+<lb/>
+Butter roll'd in flower,
+</p>
+<p xml:id="OTP25083777P4">
+<note type="marginalia">(No.107)</note>
+<head>To Pickle Barberrys</head>
+</p>
+<p xml:id="OTP25083777P5">
+Boil the Vinegar let it stand till it is Cold,
+<lb/>
+take a few Barberrys, stamp them, and
+<lb/>
+Squeeze them, & put them into the
+<lb/>
+Vinegar, & put it into
+<expan abbr="">th</expan>
+e Jarr of
+<lb/>
+Barberrys, & strew a Little sugar
+<lb/>
+Between them.,
+</p>
+</div>
+<pb xml:id="F25083778" n="100" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0100.JP2/full/898,1024/0/default.jpg"/>
+<div xml:id="OTP25083778">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083778P0"/>
+</div>
+<pb xml:id="F25083779" n="101" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0101.JP2/full/847,1024/0/default.jpg"/>
+<div xml:id="OTP25083779">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083779P0">
+<supplied>50</supplied>
+<lb/>
+<note type="marginalia">(No.108)</note>
+<head>To Collar a Pigg</head>
+</p>
+<p xml:id="OTP25083779P1">
+Slit your Pigg down the Back, take out all
+<lb/>
+the Bones, wash out all the Blood in 3
+<lb/>
+or 4 waters, wipe it dry, & season it with
+<lb/>
+Savory Spice, thyme, parsly, & salt, roll
+<lb/>
+it in an Hand Collar, in a Cloth tie it Close
+<lb/>
+and Boil it, with
+<expan abbr="">th</expan>
+e Bones in 3 pints of
+<lb/>
+water, an handful of salt, a quart of
+<lb/>
+Vinegar, a faggot of sweet herbs whole
+<lb/>
+spice, a penny worth of Ising Glass,
+<lb/>
+when Tender take it off, & when Cold keep it
+<lb/>
+in the same Pickle,
+</p>
+<p xml:id="OTP25083779P2">
+<note type="marginalia">(No.109)</note>
+<head>
+To Collar E
+<add>e</add>
+les
+</head>
+</p>
+<p xml:id="OTP25083779P3">
+Scour your Large silver Eels with salt,
+<lb/>
+slit them down the Back, take out all
+<expan abbr="">th</expan>
+e bone
+<lb/>
+wash & dry them, season them with savory
+<lb/>
+Spice, & herbs, then roll each in Collars in
+<lb/>
+a Little Cloth, tie them Close, & boil them
+<lb/>
+in water & salt, with the heads & bones,
+<lb/>
+And 1/2 a pint of Vinegar, a faggot of
+<lb/>
+Sweet herbs, when they are tender, take
+<lb/>
+them up, tie them Close again, strain
+<lb/>
+the Pickle and keep the Eels in it;
+</p>
+</div>
+<pb xml:id="F25083780" n="102" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0102.JP2/full/900,1024/0/default.jpg"/>
+<div xml:id="OTP25083780">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083780P0"/>
+</div>
+<pb xml:id="F25083781" n="103" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0103.JP2/full/847,1024/0/default.jpg"/>
+<div xml:id="OTP25083781">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083781P0">
+<supplied>51</supplied>
+<lb/>
+<note type="marginalia">No.110</note>
+<lb/>
+<head>To Preserve Damsons</head>
+<lb/>
+To every pound of Damsons a pound of sugar, take some of
+<expan abbr="">th</expan>
+e Damsons & boil them in
+<lb/>
+Water, then take half a pint of that Liquor
+<lb/>
+To wet your sugar, put 1/2
+<expan abbr="">pound</expan>
+of sugar more
+<lb/>
+To Answer your Liquor, boil it, boil your
+<lb/>
+Sugar and scum it Clear, and when it is
+<lb/>
+Cold cut your Damsons in the side & put
+<lb/>
+them in, & let them boil softly, scum them
+<lb/>
+a Little, then set them by till next day.
+<lb/>
+then set them on again & let them boil a
+<lb/>
+Little Longer, shake them, & scum them, till
+<lb/>
+they look clear, then put them in pots &
+<lb/>
+Boil the syrup a Little more, and put it to
+<expan abbr="">the</expan>
+m
+</p>
+<p xml:id="OTP25083781P1">
+<note type="marginalia">No.111</note>
+<lb/>
+<head>A Seed Cake</head>
+<lb/>
+Take 3
+<expan abbr="">pound</expan>
+of Butter, work it with your Hands, till
+<lb/>
+it's no thicker then cream,
+<expan abbr="">the</expan>
+n put in
+<expan abbr="">th</expan>
+e Yolks
+<lb/>
+of 24 Eggs beat up by degrees, take
+<del>
+3
+<expan abbr="">pounds of</expan>
+butter
+</del>
+<lb/>
+the whites & beat & work them
+<add>in</add>
+<del>up</del>
+<lb/>
+by degrees, take 3
+<expan abbr="">pound</expan>
+of flower, & 3
+<expan abbr="">pounds</expan>
+of sugar
+<lb/>
+dryws & sifted & strewed in by degrees, & 3
+<expan abbr="">ounces</expan>
+<lb/>
+of Carraway seeds, & a little sack cover
+<expan abbr="">th</expan>
+e pan
+<lb/>
+with a thin past & Butter it,
+<expan abbr="">that</expan>
+it may slip
+<lb/>
+out, you must keep it stirring till it's in the
+<lb/>
+Oven, which must be very hot.
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083782" n="104" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0104.JP2/full/899,1024/0/default.jpg"/>
+<div xml:id="OTP25083782">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083782P0"/>
+</div>
+<pb xml:id="F25083783" n="105" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0105.JP2/full/848,1024/0/default.jpg"/>
+<div xml:id="OTP25083783">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083783P0">
+<supplied>52</supplied>
+<lb/>
+<note type="marginalia">(No. 112)</note>
+<head>To Make Bolognia Sausages</head>
+</p>
+<p xml:id="OTP25083783P1">
+Take 1
+<expan abbr="">pound</expan>
+of Bacon, fat & Lean together,
+<lb/>
+1
+<expan abbr="">pound</expan>
+of Beef, 1
+<expan abbr="">pound</expan>
+of Veal, 1
+<expan abbr="">pound</expan>
+of Pork, 1
+<expan abbr="">pound</expan>
+of Beef
+<lb/>
+Sweet, Cut them small & Chop them, take
+<lb/>
+a Small Handful of sage, pick of
+<expan abbr="">th</expan>
+e Leaves
+<lb/>
+Chop it fine, with a few Sweet Herbs;
+<lb/>
+Season pretty High with peper & salt,
+<lb/>
+You must have a Large gut, & fill it; then
+<lb/>
+Set on a Sauce pan of water, when it
+<lb/>
+Boils put it in, & prick the gut for fear
+<lb/>
+of Bursting, Boil it softly an Hour, then
+<lb/>
+Lay it on Clean Straw to Dry.
+</p>
+<p xml:id="OTP25083783P2">
+<note type="marginalia">(No.113)</note>
+<head>Brockely & Eggs</head>
+</p>
+<p xml:id="OTP25083783P3">
+Boil your Brockely tender saving a
+<lb/>
+Large Bunch for the Middle, & 6 or 8 Little
+<lb/>
+thick sprigs to stick round, take a Toast
+<lb/>
+Half an Inch thick, toast it Brown, as big
+<lb/>
+as you would have it for your Dish or
+<lb/>
+Butter plate, Butter some Eggs thus: take
+<lb/>
+six Eggs, more or Less as you have Occasion,
+<lb/>
+Beat them well, put them into a Sauce pan
+<lb/>
+with a good piece of Butter, a Little salt,
+<lb/>
+keep beating them with a Spoon till they are
+<lb/>
+thick enough,
+<expan abbr="">the</expan>
+n pour
+<expan abbr="">the</expan>
+m on the toast, set
+<expan abbr="">th</expan>
+e Bigg
+<add>st</add>
+<lb/>
+Bunch of Brockely in
+<expan abbr=""> th</expan>
+e middle , &
+<expan abbr="">th</expan>
+e other Little
+<unclear>
+<expan abbr="">piece</expan>
+</unclear>
+<lb/>
+round & about, & grarnish
+<expan abbr=""> th</expan>
+e round w
+<expan abbr="">i</expan>
+t
+<expan abbr="">h</expan>
+Little Sprig
+</p>
+<p xml:id="OTP25083783P4">
+<note type="marginalia">
+of Brockely, this is a pretty side
+<lb/>
+Dish, or Corner plate
+</note>
+</p>
+</div>
+<pb xml:id="F25083784" n="106" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0106.JP2/full/900,1024/0/default.jpg"/>
+<div xml:id="OTP25083784">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083784P0"/>
+</div>
+<pb xml:id="F25083785" n="107" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0107.JP2/full/845,1024/0/default.jpg"/>
+<div xml:id="OTP25083785">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083785P0">
+<supplied>53</supplied>
+<lb/>
+<note type="marginalia">No.114 </note>
+<head>To Make fine Sausages</head>
+</p>
+<p xml:id="OTP25083785P1">
+You must take 6
+<expan abbr="">pound</expan>
+of Good pork, free from
+<lb/>
+Skin, Grisles, & fat, Cut it very small, &
+<lb/>
+Beat it in a Mortar till it is very fine;
+<expan abbr="">the</expan>
+n
+<lb/>
+Shred 6
+<unclear>pounds</unclear>
+of Beef sewet very fine & free from all
+<lb/>
+Skin, Shred it as fine as Possible;
+<expan abbr="">the</expan>
+n take a
+<lb/>
+Good deal of Sage, wash it very Clean,
+<lb/>
+pick of
+<expan abbr="">th</expan>
+e Leaves, & Shred it very fine,
+<lb/>
+Spread your meat on a Clean Dresser or
+<lb/>
+Table,
+<expan abbr="">the</expan>
+n Shake
+<expan abbr="">th</expan>
+e Sage all over, about
+<lb/>
+3 Large spoonfuls; Shred
+<expan abbr="">th</expan>
+e thin Kind of
+<lb/>
+a Middling Lemmon very & throw over, w
+<expan abbr="">i</expan>
+t
+<expan abbr="">h </expan>
+<lb/>
+as Many sweet Herbs, when shred fine, as
+<lb/>
+Will fill a Large spoon; grate two Nutmeg
+<add>s</add>
+<lb/>
+Over, throw over two Tea spoonfulls of
+<lb/>
+Pepper, a Large Spoonful of salt,
+<expan abbr="">the</expan>
+n throw
+<lb/>
+over the Sewet, & mix it all well together
+<lb/>
+put it down Clove in a pot; when you use
+<lb/>
+them, roll them up with as much Egg as
+<lb/>
+Will make them roll Smooth, make
+<expan abbr="">the</expan>
+m
+<expan abbr="">th</expan>
+e
+<lb/>
+Size of Sausage, & fry them in Butter or
+<lb/>
+Good Driping, be sure it be hot before you
+<lb/>
+put
+<expan abbr="">the</expan>
+m in, & keep rolling
+<expan abbr="">the</expan>
+m About, when
+<lb/>
+they are tho
+<expan abbr="">r</expan>
+ough hot & of a fine Brown,
+<lb/>
+they are Enough, you may Chop this meat
+<lb/>
+very fine, if you don't Like it beat, veal eats
+<lb/>
+Well done this Way or Veal & Pork together,
+</p>
+<p xml:id="OTP25083785P2">
+<note type="marginalia">
+You may Clean
+<add>Guts</add>
+some & fill them
+</note>
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083786" n="108" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0108.JP2/full/901,1024/0/default.jpg"/>
+<div xml:id="OTP25083786">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083786P0"/>
+</div>
+<pb xml:id="F25083787" n="109" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0109.JP2/full/847,1024/0/default.jpg"/>
+<div xml:id="OTP25083787">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083787P0">
+<supplied>54</supplied>
+<lb/>
+<note type="marginalia">(No.115)</note>
+<head>To Make a Millet Pudding</head>
+</p>
+<p xml:id="OTP25083787P1">
+You must get 1/2
+<expan abbr="">pound</expan>
+of Millet Seed, & after it is
+<lb/>
+Washed & picked Clean, put to it 1/2
+<expan abbr="">pound</expan>
+of Sug
+<expan abbr="">ar</expan>
+<lb/>
+A whole Nutmeg grated, & 3 Quarts of Milk.
+<lb/>
+When you have mixed all well together,
+<lb/>
+Break in 1/2
+<expan abbr="">pound</expan>
+of Butter; Butter your dish,
+<lb/>
+pour it in and Bake it,
+</p>
+<p xml:id="OTP25083787P2">
+<note type="marginalia">(No 116) </note>
+<head>
+To Preserve Cherries with
+<expan abbr="">th</expan>
+e Leaves &
+<add>Stalks Green</add>
+</head>
+<lb/>
+First dip
+<expan abbr=""> th</expan>
+e Stalks & Leaves in the Best
+<lb/>
+Vineg
+<expan abbr="">ar </expan>
+Boiling Hot, stick the Sprig upright
+<lb/>
+in a Sieve till they are dry; in the mean
+<lb/>
+Time Boil some Double refined Sug
+<expan abbr="">ar </expan>
+to a
+<lb/>
+Syrup, & dip the Cherries, Stalks, & Leaves
+<lb/>
+in the Syrup, & Just let them Scald; Lay
+<lb/>
+<expan abbr="">the</expan>
+m on a Sieve, & Boil
+<expan abbr="">th</expan>
+e Sug
+<expan abbr="">ar </expan>
+to a Candy
+<lb/>
+Height, then dip
+<expan abbr="">th</expan>
+e Cherries, Stalks, Leaves
+<lb/>
+and all, then Stick
+<expan abbr="">th</expan>
+e Branches in
+<lb/>
+Sieves, & dry them as you dry other
+<lb/>
+sweet meats; they Look well by Candle
+<lb/>
+Light in a Dessert,
+</p>
+<p xml:id="OTP25083787P3">
+<note type="marginalia">( No 117)</note>
+<head>
+To Preserve Hair &
+<add>make it</add>
+Grow thick
+</head>
+</p>
+<p xml:id="OTP25083787P4">
+Take 1 Quart of white wine, put in one Handful
+<lb/>
+of Rosemary flowers, 1/2
+<unclear>
+<expan abbr="">pound</expan>
+</unclear>
+of Honey, Distil
+<expan abbr="">the</expan>
+m
+<lb/>
+together then Add a 1/4 of a pint of Oil of Sweet
+<lb/>
+Almonds shake it well together putt a Little in a
+<lb/>
+cup warm it Blood warm rub it on your Head
+</p>
+<p xml:id="OTP25083787P5">
+<note type="marginalia">and Comb it Dry</note>
+</p>
+</div>
+<pb xml:id="F25083788" n="110" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0110.JP2/full/899,1024/0/default.jpg"/>
+<div xml:id="OTP25083788">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083788P0"/>
+</div>
+<pb xml:id="F25083789" n="111" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0111.JP2/full/850,1024/0/default.jpg"/>
+<div xml:id="OTP25083789">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083789P0">
+<supplied>55</supplied>
+<lb/>
+<note type="marginalia">(No. 118)</note>
+<head>A Carolina Rice Pudding</head>
+</p>
+<p xml:id="OTP25083789P1">
+Take half a pound of Rice, wash it Clean,
+<lb/>
+put it in a Sauce pan, with a Quart of
+<lb/>
+Milk, keep it Stirring till it is very thick;
+<lb/>
+Take great Care it Dont Burn; then turn it
+<lb/>
+into
+<add> a</add>
+pan, & grate some Nutmeg into it, & two
+<lb/>
+teaspoonfuls of Beaten Cinnamon, a Little
+<lb/>
+Lemon peel Shred fine, six Apples, par'd
+<lb/>
+& Chopped Small: Mix all together with
+<expan abbr=""> th</expan>
+e
+<lb/>
+Yolks of 3 Eggs, & Sweetened to your palate,
+<lb/>
+then tie it up Close in a Cloth; put it into
+<lb/>
+Boiling water, & be sure to keep it Boiling
+<lb/>
+al the Times, an Hour & a Quarter will Boil
+<lb/>
+it, Melt Butter & pour over it & throw some
+<lb/>
+fine Sug
+<expan abbr="">ar</expan>
+all over it; A Little wine in
+<expan abbr="">th</expan>
+e
+<lb/>
+Sauce will be a great Addition
+<del>to it</del>
+</p>
+<p xml:id="OTP25083789P2">
+<note type="marginalia">(N.119)</note>
+<head>To make a good Plum Cake</head>
+</p>
+<p xml:id="OTP25083789P3">
+4 1/2
+<unclear>
+<expan abbr="">pound</expan>
+</unclear>
+of Currands 3
+<expan abbr="">pounds</expan>
+of Flower 2
+<expan abbr="">pounds</expan>
+of
+<lb/>
+Butter 1
+<expan abbr="">ounce</expan>
+of suet Spice 3/4
+<expan abbr="">pounds</expan>
+of Sugar
+<lb/>
+12 Eggs Half the Whites 3 Hours
+<lb/>
+Bake it
+</p>
+</div>
+<pb xml:id="F25083790" n="112" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0112.JP2/full/900,1024/0/default.jpg"/>
+<div xml:id="OTP25083790">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083790P0">
+<head>To make Blomange</head>
+</p>
+<p xml:id="OTP25083790P1">
+Boil 1
+<expan abbr="">ounce</expan>
+& 1/2 of
+<unclear>Iseing</unclear>
+<unclear> .as.</unclear>
+, in Quart of
+<lb/>
+clear Spring water, till it comes to three Quarters
+<lb/>
+of a Pint, and boil
+<add>in</add>
+a bit of Lemon Peels,
+<lb/>
+just to give it flavour, but not to make it
+<lb/>
+Bitter, when it is Cold put n as much thick Cream
+<lb/>
+as will make it white, then put in a spoonful
+<lb/>
+of rose water, and a Spoonful of Orange flower
+<lb/>
+Water, squese in a very Little Lemon, three or four
+<lb/>
+spoonfuls of Sack a mountain wine, Sweeten it with
+<lb/>
+fine Sugar; if you like to have Some grean you
+<lb/>
+may Colour it with juice of Spinage
+</p>
+</div>
+<pb xml:id="F25083791" n="113" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0113.JP2/full/850,1024/0/default.jpg"/>
+<div xml:id="OTP25083791">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083791P0">
+<supplied>56</supplied>
+<lb/>
+<note type="marginalia">(No. 120)</note>
+<head>To Pot Beef</head>
+</p>
+<p xml:id="OTP25083791P1">
+Cut your Beef into Steaks season it
+<lb/>
+with Pepper & Salt, then Bake it with
+<lb/>
+Butter, and when it is Quite Tender pour
+<lb/>
+the fat and Gravy off, and beat it with a
+<lb/>
+Little of the Butter, and put a little anchovy
+<lb/>
+into it but no Gravy, for that will make it not
+<lb/>
+keep then put it into the Pot you intend to
+<lb/>
+keep it in, and cover it with the Remainder of
+<lb/>
+the Butter, just set it into a Slow Oven after
+<lb/>
+you have put it into the Pot, you intend
+<lb/>
+Keeping it in before you cover it with Butter
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083792" n="114" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0114.JP2/full/900,1024/0/default.jpg"/>
+<div xml:id="OTP25083792">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083792P0">
+<head>To Salt a Buttock of Beef like Ham</head>
+</p>
+<p xml:id="OTP25083792P1">
+<note type="marginalia">(N.122)</note>
+</p>
+<p xml:id="OTP25083792P2">
+Take 2
+<expan abbr="">ounces</expan>
+of Salt Peater 1/2
+<expan abbr="">pound</expan>
+of Coarse
+<lb/>
+Sugar, as much common Salt as you
+<lb/>
+Use for a Buttock of Beef, Let it lay
+<lb/>
+a Month, then Sow it very tithe in a
+<lb/>
+Cloth Boile it 10 Hours put in the
+<lb/>
+water Cold, when you Boile it; and when
+<lb/>
+Tender take it out & Ty a Cloath over the
+<lb/>
+other Tithe and put it upon a Dish with a
+<lb/>
+Board upon it and waite to press it Down
+<lb/>
+Close and the next Day Take all the
+<lb/>
+Clothes off and then take the Loose skin
+<lb/>
+from it
+</p>
+<p xml:id="OTP25083792P3">To Make Catchup of Walnuts </p>
+<p xml:id="OTP25083792P4">
+<note type="marginalia">(N.123)</note>
+</p>
+<p xml:id="OTP25083792P5">
+Take the Walnuts when they are fit for
+<lb/>
+Pickeling pound then in a Mortar, then Strain
+<lb/>
+the Juce, through a flannell Bag put to every
+<lb/>
+Quart of Juce a pint Vinegar Let it Stand
+<lb/>
+four Days then Boile it over a Slow fire
+<del>to </del>
+Half
+<lb/>
+th Quantity Scum it a Little put in some
+</p>
+</div>
+<pb xml:id="F25083793" n="115" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0115.JP2/full/851,1024/0/default.jpg"/>
+<div xml:id="OTP25083793">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083793P0">
+<supplied>57</supplied>
+<lb/>
+Shallotts some spice the peels of three Civil
+<lb/>
+Oranges Pared thin then Let it stand 3 Weeks or
+<lb/>
+a Month Cover'd very Close then Boyle it after
+<lb/>
+Bottlee it you may put in Anchovys & Salt if
+<lb/>
+you Please
+</p>
+<p xml:id="OTP25083793P1">
+<head>To make Leach or Ffeing Glass Plumery</head>
+<lb/>
+<note type="marginalia">(N.124)</note>
+Take one ounce of Ffeing Glass shave it thin
+<lb/>
+and steep it in about a Quarter of a Pint of water
+<lb/>
+with a Blade of Mace; and Little bit of Lemon
+<lb/>
+Peal for about 16 Hours, then put it into a
+<lb/>
+scillett or saucepan, with a Quart of New Milk
+<lb/>
+and boil it till its all Desolved stirring it all
+<lb/>
+the Time till its all Desolved then strain it
+<lb/>
+through a Cloath into Pots; before you strain
+<lb/>
+it out into an Earthen pan stir it till the Heat
+<lb/>
+is a Little off then put about two or three
+<lb/>
+Spoonfuls of Brandy into it and a Littlee sugar
+</p>
+</div>
+<pb xml:id="F25083794" n="116" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0116.JP2/full/901,1024/0/default.jpg"/>
+<div xml:id="OTP25083794">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083794P0">
+<head>Mock Turtle</head>
+<lb/>
+<note type="marginalia">(N125.)</note>
+</p>
+<p xml:id="OTP25083794P1">
+The Calves Head must be
+<unclear> Sealded </unclear>
+and not
+<lb/>
+Skined, Cut it in Slices about as Large as a
+<lb/>
+Crown Piece Take also two Neat Feet Boiled
+<lb/>
+whole, and then Cut in Pieces stew them in good
+<lb/>
+Veal Broth put to them an Onion a Faggot of
+<lb/>
+Sweet Herbs half a Pint of Madeira; or Common
+<lb/>
+White Wine that is not sweet and Tea Spoonful of
+<lb/>
+Red pepper Keep them Boiling gently till they are
+<lb/>
+quite Tender Serve them up; with forced Meat
+<lb/>
+Balls and yolks of Eggs boiled Hard: The Broth
+<lb/>
+may be made of the Neck and Bones of the Head:
+<lb/>
+it should be well Seasoned with Pepper Onions
+<lb/>
+and Herbs and a Little Salt then strain it of quite
+<lb/>
+Clear from Fat; about three Pints of Broth will be
+<lb/>
+Sufficint for the Whole Head: the Bones & Coarse
+<lb/>
+Peices of the Neck will make the quantity
+<lb/>
+Burn a Little Butter not to Brown Chiann Pepper
+<lb/>
+and Madeira made Hot put to the Sauce
+</p>
+</div>
+<pb xml:id="F25083795" n="117" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0117.JP2/full/851,1024/0/default.jpg"/>
+<div xml:id="OTP25083795">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083795P0">
+<supplied>58</supplied>
+<lb/>
+<head>To make Minced Pyes</head>
+<lb/>
+<note type="marginalia">(N.126)</note>
+</p>
+<p xml:id="OTP25083795P1">
+Shred a pound of the Inside of a Surline of Beef
+<lb/>
+1
+<expan abbr="">pound</expan>
+3/4 of Beef Suet 5 pippens a Gratted Lemon
+<lb/>
+peele season it with 1 ounce of sweet Spices 1/2
+<expan abbr="">pound </expan>
+of Sugar
+<lb/>
+2
+<expan abbr="">pounds</expan>
+of Currands 1/2 a Pint of Sack a Little orange
+<lb/>
+flower water the juice of three Lemmons a 1/4 of a pound
+<lb/>
+of Cittron Lemon and Orange peele mix these together
+<lb/>
+and fill your pyes put a Tea Spoonful of Red Wine
+<lb/>
+into Each pye
+</p>
+<p xml:id="OTP25083795P2">
+<note type="marginalia">N127 </note>
+<lb/>
+<head>To preserve Apricots in Jelly</head>
+</p>
+<p xml:id="OTP25083795P3">
+Take 1 douzen of green pippins or Codlings, pared
+<lb/>
+& Quarterd, Slice them into a pint of Water
+<lb/>
+& put in 3 or 4 of the
+<unclear>worst </unclear>
+Apricots Sliced &
+<lb/>
+The pairings of the rest, Boil it as fast as you
+<lb/>
+can tell half is Boiled away Then take to this Liquor
+<lb/>
+a pound of Apricots pared & Stoned, a pound & half of
+<unclear>Lump</unclear>
+<lb/>
+Suger put the Liquer in the Suger, & when it is
+<lb/>
+Boild up & is scum'd put in You Apricots when
+<lb/>
+they look clear they are Enough; Run the Liquor
+<lb/>
+thro' a Jelly Bag, before you put your Suger in;
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083796" n="118" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0118.JP2/full/901,1024/0/default.jpg"/>
+<div xml:id="OTP25083796">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083796P0">
+128
+<head>To make a Carrot Puding the best way</head>
+</p>
+<p xml:id="OTP25083796P1">
+Take half a pound of Grated white Bread & half
+<lb/>
+a pound of Carrot Grated & 6 ounces of New Butter
+<lb/>
+& six Eggs & four Whites & as much Ginger as you
+<lb/>
+think fit & a Spoonful or two of Orange Flower,
+<lb/>
+or Rose Water, & a little cream, Mix all together
+<lb/>
+& pat it in a Dish Butterd or a putt past under it
+<lb/>
+About 1 hour Bakes it ; Take care it does not Scorch.
+</p>
+<p xml:id="OTP25083796P2">
+<note type="marginalia">
+129
+<add place="above">th</add>
+</note>
+<lb/>
+<head>To Make Hams</head>
+</p>
+<p xml:id="OTP25083796P3">
+To every Ham, one ounce of salt petre
+<lb/>
+Rub it all over, let them lay 24 Hours, then put
+<lb/>
+2 quarts Stale Beer in a Sauce pan, half a pound
+<lb/>
+of Bay Salt Half a pound of Common salt Boil
+<lb/>
+them all together, pour it Boiling Hot on
+<expan abbr="">th</expan>
+e Hams,
+<lb/>
+Rub & & turn them Every Day for a fortnight
+<lb/>
+make them 2 Days over Saw Dust, then dry
+<lb/>
+them in the Chimney: N
+<expan abbr="">ota</expan>
+B
+<expan abbr="">ene</expan>
+you must Boil
+<lb/>
+half a pound of Coarse Sugar in the Liquor
+<lb/>
+If the Ham is large let it lye 3 weeks in it:
+</p>
+</div>
+<pb xml:id="F25083797" n="119" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0119.JP2/full/848,1024/0/default.jpg"/>
+<div xml:id="OTP25083797">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083797P0">
+<supplied>59</supplied>
+<lb/>
+<head>To Make Cheese Cakes</head>
+</p>
+<p xml:id="OTP25083797P1">
+Take a Gallon of New Milk & warm it:
+<lb/>
+& put in it a Cupfull of Rennet You must
+<lb/>
+set the Night before a bit of Rennet bag,
+<lb/>
+as big as a Crown peice in a Capfull
+<lb/>
+of Water & the next day put the Water
+<lb/>
+to Your New Warm Milk & when the Curd
+<lb/>
+is come put it in a Cheese Cloth, & Wave
+<lb/>
+it back & forwards till the whey is out of it
+<lb/>
+then take the Same Weight of new butter,
+<lb/>
+as Your Curd, & press it thro' a Seive
+<lb/>
+then put in 8 Eggs leaving out 4 Whites,
+<lb/>
+currants & lumpt sugar & Spices to Your
+<lb/>
+taste put them in Puff paste & bake them
+<lb/>
+in Pans:
+</p>
+</div>
+<pb xml:id="F25083798" n="120" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0120.JP2/full/902,1024/0/default.jpg"/>
+<div xml:id="OTP25083798">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083798P0">
+<head>To Pickle Wallnuts</head>
+</p>
+<p xml:id="OTP25083798P1">
+Take Your Wallnuts, put them in to Cold Water,
+<lb/>
+set it over the fire till the Water is very Hot,
+<lb/>
+but not to Boil, let them Stand in
+<expan abbr="">th</expan>
+e Water a
+<lb/>
+quarter of an Hour, them take them out of that Water
+<lb/>
+& put them in to Cold Water with a large Handfull
+<lb/>
+of Salt, change the Water every Day for 10 or 12 Days
+<lb/>
+Rub of the out Side Skin when dry put Your
+<lb/>
+pickle to them Boiling Hot put in to Your pickle
+<lb/>
+Garlick Shallots, Mustard seed, Horse Radisk &
+<lb/>
+Whole Pepper:
+</p>
+<p xml:id="OTP25083798P2">
+<head>Paste for Tarts</head>
+</p>
+<p xml:id="OTP25083798P3">
+To half a pound of Flour, take 6 ounces of Butter
+<lb/>
+1 ounce or rather less of Loaf sugar beat, & sifted
+<lb/>
+rub them all together till the butter is quite small
+<lb/>
+& wet it very stiff with Boiling Water, it eats
+<expan abbr="">th</expan>
+e Crisper
+</p>
+<p xml:id="OTP25083798P4">
+<head>To Make Rice Cakes</head>
+</p>
+<p xml:id="OTP25083798P5">
+quarter of a pound of Rice, q
+<expan abbr="">uarte</expan>
+r of a p
+<expan abbr="">oun</expan>
+d of Loaf sugar
+<lb/>
+both sifted, 4 Eggs, half the Whites well Mix'd together
+<lb/>
+You may add a few Almonds if you please
+<lb/>
+the Juice of half a Lemmon & the peal:
+</p>
+</div>
+<pb xml:id="F25083799" n="121" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0121.JP2/full/848,1024/0/default.jpg"/>
+<div xml:id="OTP25083799">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083799P0">
+<supplied>60</supplied>
+<lb/>
+<head>To Make Mead the best way</head>
+</p>
+<p xml:id="OTP25083799P1">
+Take 4 pund of Hony to 1 gallon of Apple juice
+<lb/>
+& boil it the same as Mead,
+</p>
+<p xml:id="OTP25083799P2">
+<head>To make a bake'd Apple pudden</head>
+</p>
+<p xml:id="OTP25083799P3">
+Take 3 q
+<expan abbr="">uarte</expan>
+rs of a pound of
+<unclear>sharn</unclear>
+Apple Sead E'm
+<lb/>
+& pulp them, take Eight Eggs
+<add>
+half
+<expan abbr="">th</expan>
+e whites
+</add>
+half a Pound sugar
+<lb/>
+<del>sugar</del>
+the juice of one Lemon & peal grate'd
+<lb/>
+put to it half a pound of Butter Melted & a
+<lb/>
+sheet of puff past under it ,
+</p>
+<p xml:id="OTP25083799P4">
+<head>To Coller Beef</head>
+</p>
+<p xml:id="OTP25083799P5">
+Take the thin flank clear of the inside skin
+<lb/>
+take out all the gristles, take a q
+<expan abbr="">uarte</expan>
+r of a pound
+<lb/>
+of salt peter beat it fine, & mix it with as
+<lb/>
+much common salt as will sack it very Well
+<lb/>
+let it lye a fortnight turning it Every Day, &
+<lb/>
+Rubing it very well, then take it out of
+<expan abbr="">th</expan>
+e Brine
+<lb/>
+& wash it very well & dry it with a Cloath,
+<lb/>
+Take a good Handfull of parsly, some sage & Thyme
+<lb/>
+chop altogether very small Nutmeg grated
+<lb/>
+& Mix,d together & strew it over the Inside of
+<lb/>
+the Beef, then Role it up very hard & Tye it
+<lb/>
+with Tape all over, put in a Pot Cover it with Water
+<lb/>
+with some whole pepper; Tye it down close & bake it with Houshold Bread
+</p>
+</div>
+<pb xml:id="F25083800" n="122" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0122.JP2/full/902,1024/0/default.jpg"/>
+<div xml:id="OTP25083800">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083800P0">
+<head>To Make Orange Cheese Cakes</head>
+</p>
+<p xml:id="OTP25083800P1">
+Take half a Pound of Almonds Blanch'd, & beaten small
+<lb/>
+with Rose Water, half of pound of sugar beaten fine
+<lb/>
+3/4 of a Pound of Butter Melted, & almost Cold again,
+<lb/>
+Eight Yolks of Eggs well beat, the peal of a large
+<lb/>
+sivil Orange boild till it is very Tender & the bitter
+<lb/>
+almost out, beat it in a morter till its Tender,
+<lb/>
+then mix all these together & beat it well,
+<lb/>
+& put it in a Crust:
+</p>
+<p xml:id="OTP25083800P2">
+<head>To make Bath wigs</head>
+</p>
+<p xml:id="OTP25083800P3">
+Take 2 pound of flour, one pound butter rubed in
+<lb/>
+very fine, 12 Eggs leave out 6 whites, 11 Spoonfuls
+<lb/>
+of Cream & Eleven Spoonfuls of Yeast, mix these
+<lb/>
+together very well, then beat it up with your Hand,
+<lb/>
+Let it before the fire to Rise for a q
+<expan abbr="">uarte</expan>
+r of an Hour
+<lb/>
+then strew Carraway seeds, drop them on Tin sheets
+<lb/>
+set them in with white bread, a q
+<expan abbr="">uarte</expan>
+r of an hour bake
+</p>
+<p xml:id="OTP25083800P4">
+<head>To Butter Quinces</head>
+<lb/>
+Make four Water Boil, & put in the Quinces,
+<lb/>
+& keep them turn'd till they are soft & then take
+<lb/>
+them out & peal them as quick as you can,
+<lb/>
+mash them, & put to them Butter & Sugar:
+</p>
+</div>
+<pb xml:id="F25083801" n="123" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0123.JP2/full/851,1024/0/default.jpg"/>
+<div xml:id="OTP25083801">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083801P0">
+<supplied>61</supplied>
+<lb/>
+<head>To make a Sweet Pot</head>
+</p>
+<p xml:id="OTP25083801P1">
+Take the Buds of Damask Roses, & pull them
+<lb/>
+out of the green, & throw away all the seeds &
+<del>green</del>
+<lb/>
+green, & if there is any of the Buds thick at
+<lb/>
+the Bottom of the Rose cut it of, & put
+<unclear>none</unclear>
+of
+<lb/>
+it in, then take Cloves, & Salt Petre & beat em'
+<lb/>
+fine & put in your Pot, or Glass, some of it
+<lb/>
+at the bottom, & then a layer of Roses, &
+<lb/>
+then a Layer of the cloves & salt Petre
+<lb/>
+till your Pot is quite full, tye it down for a
+<lb/>
+month before you open it:
+</p>
+<p xml:id="OTP25083801P2">
+<head>To make the British Herb Tobacco</head>
+</p>
+<p xml:id="OTP25083801P3">
+Take Colts foot leaves, & wood Brittany flowers
+<lb/>
+Eye bright, & Time, Sweet Marjorum, Rosemary
+<lb/>
+& Lavender, put as much in weight of
+<expan abbr="">th</expan>
+e Colts foot
+<lb/>
+as you do of all the rest:
+</p>
+<p xml:id="OTP25083801P4"/>
+</div>
+<pb xml:id="F25083802" n="124" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0124.JP2/full/903,1024/0/default.jpg"/>
+<div xml:id="OTP25083802">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083802P0">
+<head>To make Grape Wine</head>
+</p>
+<p xml:id="OTP25083802P1">
+To 3 pounds of grapes when pick'd, put one pound & half
+<lb/>
+of six peny Sugar, & one Quart of Water
+<lb/>
+Stamp the Grapes, & strain the juice from them
+<lb/>
+then put the Husks in to the Water, & let them
+<lb/>
+Stand 24 Hours, then Strain them of as dry as
+<lb/>
+You can, put that Liquor to the Juice of
+<expan abbr="">th</expan>
+e Grapes,
+<lb/>
+you must put in some of the Sugar to the
+<lb/>
+juice of the grapes when they are first straind of,
+<lb/>
+& the remainder when the whole is mixe'd, you must
+<lb/>
+let it stand one year in the Vessel, & then Bottle it:
+</p>
+<p xml:id="OTP25083802P2">
+<head>Calves Foot Pudding</head>
+</p>
+<p xml:id="OTP25083802P3">
+3 qu
+<expan abbr="">arte</expan>
+rs of a pound of Calves feet, take out the brown
+<lb/>
+& Fat, & chop it very Fine, the same quantity
+<lb/>
+of suet, & the same of Currents, a little Sugar,
+<lb/>
+a little Salt, A Spoonfull of Brandy, Sack, & orange
+<lb/>
+flower, or Rose Water, 6 Eggs half the Whites
+<lb/>
+a little Mace & Nutmeg; a very little grated
+<unclear>Potead</unclear>
+<lb/>
+Boil this Quantity 5 Hours: & pour over it
+<lb/>
+Butter Wine & Sugar:
+</p>
+</div>
+<pb xml:id="F25083803" n="125" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0125.JP2/full/851,1024/0/default.jpg"/>
+<div xml:id="OTP25083803">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083803P0">
+<Supplied>62</Supplied>
+<lb/>
+<head>To make Spunge Biskits</head>
+</p>
+<p xml:id="OTP25083803P1">
+Take Eleven new laid Eggs, their weight in Loaf sugar
+<lb/>
+finely beaten & sifted, & the weight of 7 in fine flour
+<lb/>
+well dry'd before the fire, with the rind of a Lemon
+<lb/>
+grated in to it; then break your Eggs, the
+<lb/>
+yolks into one pan, the whites in to another,
+<lb/>
+which must be whisk'd with a Strong Hand,
+<del>Till</del>
+<lb/>
+never
+<unclear>leasing</unclear>
+till its as stiff as snow, the Yolks
+<lb/>
+must be beat with a wooden pudding stirrer,
+<lb/>
+& then put the sugar to them & keep them beating
+<lb/>
+till the whites of the Eggs are ready; then put
+<lb/>
+in to the Yolks & sugar, & beat it well Together;
+<lb/>
+Then put in your flour by Degrees, & beat it well in,
+<lb/>
+Butter your Tins which must be but half full,
+<lb/>
+Your oven must be quick but not Scorching,
+<lb/>
+a very little time bakes them, Dust a little Sugar
+<lb/>
+<add>over them</add>
+when you put them in to the oven; as Ices them
+</p>
+</div>
+<pb xml:id="F25083804" n="126" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0126.JP2/full/901,1024/0/default.jpg"/>
+<div xml:id="OTP25083804">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083804P0">
+<head>To make Hartshorn Plumery</head>
+</p>
+<p xml:id="OTP25083804P1">
+Boil half a pound of Hartshorn shaveings in 3
+<lb/>
+pints of Water, till it comes to a pint, put in with
+<lb/>
+it a bit of Iseinglass,strain it thro
+<expan abbr="">ugh</expan>
+a thin Cloth,
+<lb/>
+when it is cold put it in a Saucepan again,
+<lb/>
+with a quarter of a pint of very thick cream,
+<lb/>
+let it be Hot again but not Boil, put in a
+<lb/>
+little Wine but not too much, Sugar to your Tast
+<lb/>
+dip your Cup in Water as you put it in
+<lb/>
+& dip them in warmwater when you turn them out
+</p>
+<p xml:id="OTP25083804P2">
+<head>A Restorive Jelly</head>
+</p>
+<p xml:id="OTP25083804P3">
+One ounce of Hartshorn shavings, four ounces of Isinglass,
+<lb/>
+two ounces of Iringo Root, three Vipers dry'd,
+<lb/>
+a pint of Snails, Boyl all in three quarts of Water till it
+<lb/>
+comes to
+<unclear>a T...o</unclear>
+, take a Spoonfull warmed with a
+<lb/>
+spoonfull of white Whine as often as you like, the oftener
+<lb/>
+the better, with a little Lemon & sugar to make it palatable,
+<lb/>
+It may be taken at first waking in the morning, with a little
+<lb/>
+milk, but afterwards with Wine:
+</p>
+<p xml:id="OTP25083804P4">
+<head>For Worms</head>
+</p>
+<p xml:id="OTP25083804P5">
+Take two Spoonfuls of Cream, and one of Honey in a
+<lb/>
+Morning fasting:
+</p>
+<p xml:id="OTP25083804P6"/>
+</div>
+<pb xml:id="F25083805" n="127" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0127.JP2/full/852,1024/0/default.jpg"/>
+<div xml:id="OTP25083805">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083805P0">
+<supplied>63</supplied>
+<lb/>
+<head>Another Receipt for Spunge Bisquets</head>
+</p>
+<p xml:id="OTP25083805P1">
+Eight Eggs all the whites, 1 p
+<expan abbr="">oun</expan>
+d sugar,
+<lb/>
+3/4 of a pound of flower, a little white wine
+<lb/>
+a little mace & nutmeg, bear altogether for
+<lb/>
+an Hour, Bake'd in a Quick Oven
+</p>
+<p xml:id="OTP25083805P2">
+<head>To make Currant Wine</head>
+</p>
+<p xml:id="OTP25083805P3">
+Two Gallons of water to one Gallon of Juice
+<lb/>
+3 pound of sugar to a gallon, strain it, put it in
+<lb/>
+the Cask, & when you think it has work'd enough
+<lb/>
+put in a Quart of Brandy to 7 Gallons; rather less
+<lb/>
+sugar will do if you make but a small Cask
+</p>
+<p xml:id="OTP25083805P4">
+<head>To preserve Gooseberrys</head>
+</p>
+<p xml:id="OTP25083805P5">
+A pound & a half of sugar wet with a little
+<lb/>
+juice of Red Currants make it boil, & then add
+<lb/>
+2 pound of Gooseberrys to the Liquor, & boil
+<lb/>
+them Enough to keep:
+</p>
+<p xml:id="OTP25083805P6">
+<head>To make a good side Dish</head>
+</p>
+<p xml:id="OTP25083805P7">
+Take some large Cucumbers & scoop out all
+<lb/>
+the seeds, & fill them up with a good force meat
+<lb/>
+made with Veal, & fry them, & stew them in
+<lb/>
+a Strong Gravy, & serve them up in it
+<lb/>
+N
+<expan abbr="">ota</expan>
+B
+<expan abbr="">ene</expan>
+they must be pared after they are
+<lb/>
+scooped, before you put the force meat in it:
+</p>
+</div>
+<pb xml:id="F25083806" n="128" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0128.JP2/full/901,1024/0/default.jpg"/>
+<div xml:id="OTP25083806">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083806P0">
+<head>Oil of Charity</head>
+</p>
+<p xml:id="OTP25083806P1">
+Take Lavender, & St Johns wort, Rosemary
+<lb/>
+Lavender cotton, Penyroyal, Caomile, Rue
+<lb/>
+Balm, adderstongue, Featherfue, Blood wort
+<lb/>
+wormwood, Red sage, Chouch grass, Chariz or
+<lb/>
+Jacobs ladder, marsh mallows, Dwarf Elder
+<lb/>
+Solomons seal, of each one Handfull,
+<lb/>
+Chop them small & put them in to 2 quarts
+<lb/>
+of the best Oil, in a glass or stone jar,
+<lb/>
+Let them stand 15 Days in the Sun
+<lb/>
+String it often, strain it out & put in
+<lb/>
+the same Quantity
+<add>of Herbs</add>
+, as before, Leting it
+<lb/>
+stand 15 Days longer then strain
+<expan abbr="">th</expan>
+e
+<lb/>
+Herbs out & boil it in a Pipkin over a
+<lb/>
+Clear Fire, then take it of, let it stand
+<lb/>
+till the next day, & pour of
+<expan abbr="">th</expan>
+e clear in
+<lb/>
+Bottles:
+</p>
+<p xml:id="OTP25083806P2">
+N
+<expan abbr="">ota</expan>
+B
+<expan abbr="">ene</expan>
+2 Handfulls of addersspears, must be
+<lb/>
+put in the first time
+<lb/>
+& 1 handfull of water Bittany each time:
+</p>
+</div>
+<pb xml:id="F25083807" n="129" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0129.JP2/full/849,1024/0/default.jpg"/>
+<div xml:id="OTP25083807">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083807P0">
+<supplied>64</supplied>
+<lb/>
+<head>
+To make a salve from the Herbs of
+<expan abbr="">th</expan>
+e oil Charity
+</head>
+</p>
+<p xml:id="OTP25083807P1">
+To the Herbs that are Straind out, take half a pint
+<lb/>
+of Linseed Oil & put to them, & strain the herbs, from
+<lb/>
+the Linseed oil, & put to it the settleings of the first herbs
+<lb/>
+with a Quarter of a Pound of Red Led, 2 ounces of
+<lb/>
+Turpintine, 2 ounces of Rosin, 4 ounces of Bees wax
+<lb/>
+set it on a gentle fire stiring it till all disolved
+<lb/>
+then boil it till it comes to a salve. It is good for
+<lb/>
+Bruises or wounds, or a sore breast a good
+<lb/>
+scar cloth for pains or Aches, It must be boild
+<lb/>
+some hours, till it looks black, then Pour it into
+<lb/>
+water make it in roles, puting a peice of bladder
+<lb/>
+on it.
+</p>
+<p xml:id="OTP25083807P2">
+<head>Mock Asses milk</head>
+</p>
+<p xml:id="OTP25083807P3">
+Take 2 ounces of pearl Barly, 2 of Hartshorn
+<add>shavings</add>
+2 of
+<unclear>Eringe</unclear>
+<lb/>
+root candid, 20 snails in shells; Boil them in 3 pints
+<lb/>
+of water till it comes to a Quart strain it out
+<lb/>
+and take 2 spoonfuls every morning fasting, in 4
+<lb/>
+spoonfuls of new milk warm, These Ingredients
+<lb/>
+must be fresh made in 3 or 4 Days
+</p>
+</div>
+<pb xml:id="F25083808" n="130" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0130.JP2/full/902,1024/0/default.jpg"/>
+<div xml:id="OTP25083808">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083808P0">
+<head>A Receipt to Clean Plate</head>
+</p>
+<p xml:id="OTP25083808P1">
+2 ounces of Burnt Hartshorn,
+<lb/>
+to 2 Quarts of Water & Boil it till
+<lb/>
+the third part is Boild away then Dip
+<lb/>
+in a peice of
+<del>old </del>
+Damask or Diaper
+<lb/>
+& boil it in it a Quarter of an Hour
+<lb/>
+then take it out, & Drain, & let it dry
+<lb/>
+The Liquor that is left may be Bottled
+<lb/>
+up for use.
+</p>
+<p xml:id="OTP25083808P2">
+<head>To make a Red dye</head>
+</p>
+<p xml:id="OTP25083808P3">
+To two ounces of Brazil, put a small peice
+<lb/>
+of Allum, boil it for half an Hour
+</p>
+<p xml:id="OTP25083808P4">
+<head>A Purple Dye</head>
+</p>
+<p xml:id="OTP25083808P5">
+A quarter of a Pound of Logwood, & a
+<lb/>
+little Allum, boild for half an Hour
+</p>
+<p xml:id="OTP25083808P6">
+<head>A Blue Dye</head>
+</p>
+<p xml:id="OTP25083808P7">
+Mix Logwood &
+<unclear>verdigrease</unclear>
+,
+<lb/>
+Boil it half an Hour
+</p>
+</div>
+<pb xml:id="F25083809" n="131" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0131.JP2/full/852,1024/0/default.jpg"/>
+<div xml:id="OTP25083809">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083809P0">
+<supplied>65</supplied>
+<lb/>
+<head>To make Rum shrub</head>
+</p>
+<p xml:id="OTP25083809P1">
+To every Quart of Rum 8 or 9 Oranges,
+<lb/>
+and half a pound of good Loaf Sugar
+<lb/>
+disolve the Sugar in the Juice, before the Rum
+<lb/>
+is put to it,put it into a Cork, shaking
+<lb/>
+it every day or two several times when
+<lb/>
+settled & fine, draw it of and Bottle it for use
+</p>
+<p xml:id="OTP25083809P2">
+<head>To make Lemon Water</head>
+</p>
+<p xml:id="OTP25083809P3">
+Pare the rinds of 12 Lemons very thin
+<lb/>
+squeese out the juice & pulp but do not pat
+<lb/>
+in the seeds nor white, steep all this in
+<lb/>
+7 pints of Common Brandy for 4 Days
+<lb/>
+Take six Pints of water & a Pound & half
+<lb/>
+of fine sugar, boil it & scum it till clear
+<lb/>
+when Gold put it to the afore said ingredeints
+<lb/>
+The Night before you put it through your Jelly
+<lb/>
+bag put in a Quart of boiling milk
+</p>
+</div>
+<pb xml:id="F25083810" n="132" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0132.JP2/full/900,1024/0/default.jpg"/>
+<div xml:id="OTP25083810">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083810P0">
+<del>Bake Calves Head</del>
+</p>
+</div>
+<pb xml:id="F25083811" n="133" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0133.JP2/full/849,1024/0/default.jpg"/>
+<div xml:id="OTP25083811">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083811P0">
+<supplied>66</supplied>
+<lb/>
+<head>Baked Calves Head</head>
+</p>
+<p xml:id="OTP25083811P1">
+Par boil it, cut it in peices, beat a little
+<lb/>
+mace, Nutmeg, Alspice, cloves & a very little
+<lb/>
+bagon Pepper, salt, & Lemon Peel Grated
+<lb/>
+sweet Marjorum & Thyme; season the Head
+<lb/>
+with it, lay it in a Dish, put in a little
+<lb/>
+gravy, beat the Brains with a spoonful
+<lb/>
+of white wine & pour them over it,
+<lb/>
+shake in a little Flour & pour in a
+<lb/>
+little Hot Water, before it is Baked Butter
+<lb/>
+a Paper & lay on it boil hard Eggs &
+<lb/>
+put in it, & Garnish the Dish with
+<lb/>
+Lemon Barberrys
+</p>
+</div>
+<pb xml:id="F25083812" n="134" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0134.JP2/full/898,1024/0/default.jpg"/>
+<div xml:id="OTP25083812">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083812P0">
+<head>A cure for a Dropsey</head>
+</p>
+<p xml:id="OTP25083812P1">
+2
+<expan abbr="">ounces</expan>
+of Bottle Gunpowder
+<lb/>
+1
+<expan abbr="">ounces</expan>
+of brown mustard seed bruised
+<lb/>
+1
+<expan abbr="">ounce</expan>
+of Bark
+</p>
+<p xml:id="OTP25083812P2">
+To be put in a Quart of Mountain Wine
+<lb/>
+frequently shook for 24 Hours
+<del>then it </del>
+<lb/>
+<del>will be fit for use,</del>
+Then it will be fit
+<lb/>
+for use, and a Wine glass full to be taken
+<lb/>
+three times a Day
+</p>
+<p xml:id="OTP25083812P3">
+<head>For a Cough</head>
+</p>
+<p xml:id="OTP25083812P4">
+Take Three Spoonfuls of Sweet Oil
+<lb/>
+Six Spoonfuls of Peppermint Water
+<lb/>
+a little Fine Sugar, a few drops
+<lb/>
+of Hartshorn, shake it well together
+<lb/>
+& take a Table spoonful now & then:
+</p>
+</div>
+<pb xml:id="F25083813" n="135" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0135.JP2/full/848,1024/0/default.jpg"/>
+<div xml:id="OTP25083813">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083813P0">
+<supplied>67</supplied>
+<lb/>
+<head>To destroy London Buggs</head>
+</p>
+<p xml:id="OTP25083813P1">
+Dissolve 2 ounces of corrosive Sablimate
+<lb/>
+in one Quart of Spirits of wine
+<lb/>
+to be used with a Brush
+</p>
+<p xml:id="OTP25083813P2">
+<head>For a Fever</head>
+</p>
+<p xml:id="OTP25083813P3">
+one Ounce of Bark Chips, put into
+<lb/>
+3 Pints of Water & boil till its reduced to
+<lb/>
+a Quart, Let it stand constantly by the
+<lb/>
+Fire, A Tea Cup full must be taken
+<lb/>
+at Eleven & four in the Afternoon
+<lb/>
+just warm with a Tea Spoonful of
+<lb/>
+Lavender Drops or a little small
+<lb/>
+Pepper Mint Water; It must be taken
+<lb/>
+Constantly till the Fever is quite removed
+</p>
+</div>
+<pb xml:id="F25083814" n="136" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0136.JP2/full/898,1024/0/default.jpg"/>
+<div xml:id="OTP25083814">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083814P0"/>
+</div>
+<pb xml:id="F25083815" n="137" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0137.JP2/full/849,1024/0/default.jpg"/>
+<div xml:id="OTP25083815">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083815P0">
+<supplied>68</supplied>
+<lb/>
+<head>The House Wash</head>
+</p>
+<p xml:id="OTP25083815P1">
+Take Lime, a little Whiting & Yellow oaker to give
+<lb/>
+the Colour, a Quart of oil to a Pail Full, the whole
+<lb/>
+mix'd with vizYou may mix a small quantity
+<lb/>
+of all these vi
+<expan abbr="">delicet</expan>
+, 2 Quarts, then apply some of it
+<lb/>
+to a bit of
+<add>an</add>
+ild Wall, when the colour is perfectly
+<lb/>
+dry, you may remark whether it pleases, or not
+<lb/>
+as you may mix more or less Oaker to give it
+<lb/>
+the exact Hue, you would wish to have it
+<lb/>
+& so of the rest of the Articles the quantitys
+<lb/>
+of each being attended to, mix them altogether
+<lb/>
+in the same proportion in a Vesel Sufficent
+<lb/>
+to contain a large quantity, & so till you have
+<lb/>
+Compleated the whole, it must be frequently stird
+<lb/>
+as it is Brushing on the work, if the Bricks
+<lb/>
+are Mossy, it should be rubed off, before you
+<lb/>
+begin the work.
+</p>
+<p xml:id="OTP25083815P2">
+<head>To Dye straw colour</head>
+</p>
+<p xml:id="OTP25083815P3">
+2 Handfulls of Hone radish leaves, in two
+<lb/>
+gallons of soft water with one ounce of Allum
+<lb/>
+let it lye all night in the Dye the next Day
+<lb/>
+wash it out in cool soap & water
+<lb/>
+it may then be Galenderd
+</p>
+</div>
+<pb xml:id="F25083816" n="138" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0138.JP2/full/903,1024/0/default.jpg"/>
+<div xml:id="OTP25083816">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083816P0">
+<head>To make Spanish Puffs</head>
+</p>
+<p xml:id="OTP25083816P1">
+Take a Pint of water, a Quarter of a pound
+<lb/>
+of Butter, a little salt, put it in a Stewpan
+<lb/>
+& let it boil, till the Butter is melted,
+<lb/>
+take a pint of flouer, & put in to the Stewpan
+<lb/>
+stiring it as fast as you can, with a wooden
+<lb/>
+spoon & break all the nobs till tis almost
+<lb/>
+cold, then break in 4 Eggs & stir it well
+<lb/>
+fry them brown with Lard put the batter in
+<lb/>
+with a
+<add>Tea</add>
+Spoon in small bits to fry
+<lb/>
+The same Batter makes very good fritters
+<lb/>
+made a little thiner
+</p>
+</div>
+<pb xml:id="F25083817" n="139" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0139.JP2/full/854,1024/0/default.jpg"/>
+<div xml:id="OTP25083817">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083817P0">
+<supplied>69</supplied>
+<lb/>
+<head>To Hash a Calves Head</head>
+</p>
+<p xml:id="OTP25083817P1">
+Boil
+<expan abbr="">th</expan>
+e head almost Enough & when cold
+<lb/>
+take one half of it, with the Tongue, cut it
+<lb/>
+in Slices, clear from the bone & put it
+<lb/>
+in to a pan with some strong broath
+<lb/>
+about 2 spoonfuls of White Wine, a bunch
+<lb/>
+of sweet Herbs 2 or 3 shallots, a Nutmeg in
+<lb/>
+Quarters, a little whole pepper, & let them
+<lb/>
+stew over a Slow fire till it is Enough
+<lb/>
+then put in 1 large Anchovy
+<expan abbr="">th</expan>
+e Yolks of
+<lb/>
+2 Eggs well beat thicken it up with a
+<lb/>
+peice of Butter Then have ready, some
+<lb/>
+slices of thin Bacon Fried, some force meat
+<lb/>
+Balls
+<expan abbr="">th</expan>
+e Brains first boild then dipt in Batter
+<lb/>
+& fry in little cakes, The other half of
+<expan abbr="">th</expan>
+e Head
+<lb/>
+broild with crums of Bread strewd over it
+<lb/>
+being first washed over with
+<expan abbr="">th</expan>
+e Yolks of Eggs
+<lb/>
+pour the Hash in the Dish, lay the broild head
+<lb/>
+upon it, & garnish it with the Brains
+<lb/>
+Balls, & Lemon
+</p>
+</div>
+<pb xml:id="F25083818" n="140" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0140.JP2/full/903,1024/0/default.jpg"/>
+<div xml:id="OTP25083818">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083818P0"/>
+</div>
+<pb xml:id="F25083819" n="141" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0141.JP2/full/852,1024/0/default.jpg"/>
+<div xml:id="OTP25083819">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083819P0">
+<supplied>70</supplied>
+<lb/>
+<head>For the Gravel by Dr Ratcliffe</head>
+</p>
+<p xml:id="OTP25083819P1">
+Take one ounce of Marsh Mallow roots
+<lb/>
+2 ounces of Pearl barley; put them into
+<lb/>
+3 pints of Water, & boil it to a quart
+<lb/>
+strain it into a bowl upon an ounce
+<lb/>
+of Gum Arabic, & Sweeten it to the Taste
+<lb/>
+with Honey. Aglass to be talen Morning &
+<lb/>
+Evening.
+</p>
+<p xml:id="OTP25083819P2">
+<head>Mock Asses Milk, Mr Hardwick Apothecary</head>
+</p>
+<p xml:id="OTP25083819P3">
+Take Comforey Root one Ounce; sage & Rice
+<lb/>
+each half an Ounce, Isinglass Q
+<expan abbr="">uarte</expan>
+r of an Ounce
+<lb/>
+Boil these Ingredients in three pints of Water
+<lb/>
+till it comes to a Quart & keep the Liquor for
+<lb/>
+use, Take of the above Liquor & Milk Equal
+<lb/>
+parts, & to be drank at pleasure
+</p>
+</div>
+<pb xml:id="F25083820" n="142" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0142.JP2/full/901,1024/0/default.jpg"/>
+<div xml:id="OTP25083820">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083820P0">
+<head>For the Scurvey</head>
+</p>
+<p xml:id="OTP25083820P1">
+A pint of skim milk, put in the third part of
+<lb/>
+a pound of Raisins of the sun Stoned, & cut small,
+<lb/>
+Boil it & as the curd rises Squeeze in half a
+<lb/>
+Seville orange when the curd is risen, pour it
+<lb/>
+through a sive, & set it by for your Breakfast
+<lb/>
+next Morning drink it Cold in Summer & warm
+<lb/>
+in winter, it will parse the Blood more than
+<lb/>
+anything, I have used in these four years & it
+<lb/>
+has cured me of the Most Violent Scurvey
+<lb/>
+that ever man was affected with, & it is
+<lb/>
+the pleasantest Breakfast I ever had
+</p>
+<p xml:id="OTP25083820P2">
+This was taken from Lord Chesterfeilds
+<lb/>
+own hand writing
+</p>
+<p xml:id="OTP25083820P3">
+<head>Plumb Apple Pudding</head>
+</p>
+<p xml:id="OTP25083820P4">
+Half a pound of Bread gratted, Ditto Suet
+<lb/>
+Ditto Apples Chopped fine, Ditto of Currants
+<lb/>
+a Q
+<expan abbr="">uarte</expan>
+r of a pound of Sugar, Four Eggs,
+<lb/>
+a little Lemon peel, half a glass of Brandy,
+<lb/>
+: To be boild 3 Hours;
+</p>
+<p xml:id="OTP25083820P5"/>
+</div>
+<pb xml:id="F25083821" n="143" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0143.JP2/full/849,1024/0/default.jpg"/>
+<div xml:id="OTP25083821">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083821P0">
+<supplied>71</supplied>
+<lb/>
+<head>To make Elder-berry Wine</head>
+</p>
+<p xml:id="OTP25083821P1">
+Take one Bushel of Elderberrys when pick'd
+<lb/>
+to nine Gallons of Water let them soak 4 Days
+<lb/>
+then boil it well, & strain of the Berrys
+<lb/>
+to the clear Liwuor, put 38 pound of Common
+<lb/>
+lump sugar, 2 oz of Bruised Ginger 1 ounce of
+<lb/>
+all spice half an ounce of Cloves, the same of Mace
+<lb/>
+to be boild again one Hour, 1 Gallon of water
+<lb/>
+to be added to allow for boiling away
+<lb/>
+then to be workd in a Tub; when put in
+<expan abbr="">th</expan>
+e
+<lb/>
+Barrel add 1 Bottle of Brandy; not to be
+<lb/>
+stopd down under two or three Days
+<lb/>
+To be Bottled of when fine
+</p>
+<p xml:id="OTP25083821P2">
+<head>To Pickle Mushrooms</head>
+</p>
+<p xml:id="OTP25083821P3">
+Rub the mushrooms with a bit off Cannel
+<lb/>
+& salt & put them in Salt & Water, then
+<lb/>
+scald them in salt & Water when done dry
+<lb/>
+them in a Cloath well, then put them in
+<lb/>
+some common Vinegar, boiling let them stand
+<lb/>
+all night then drain them well & put them in
+<lb/>
+doubled Distilld Vinegar, with a little white
+<lb/>
+pepper & Mace, Tie them over with a Bladder
+</p>
+</div>
+<pb xml:id="F25083822" n="144" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0144.JP2/full/904,1024/0/default.jpg"/>
+<div xml:id="OTP25083822">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083822P0">
+<head>Glocester Jelly</head>
+</p>
+<p xml:id="OTP25083822P1">
+Hartshorn shaveings, Pearl Barly & sage each 2
+<expan abbr="">ounces</expan>
+<lb/>
+1 ounce of Candid Erings Root a little Lemon peal
+<lb/>
+boild in 2 Quarts of Water, till it comes to 3 Pints
+<lb/>
+strain it off, about half a pint should be takin
+<lb/>
+the first thing in the Morning if stomach will bear it
+<lb/>
+in the middle of the Day & the last thing at Night
+<lb/>
+adding a Spoonful of White Wine, each time
+<lb/>
+or not, as its liked best:
+</p>
+<p xml:id="OTP25083822P2">
+<head>A Recipe for a Consumtion</head>
+</p>
+<p xml:id="OTP25083822P3">
+Take a Dram of Saffron
+<lb/>
+A Dram of Cochineal 2 Ounces of White
+<lb/>
+Sugar candy put it in a quart of the best
+<lb/>
+Brandy when it has infus'd 24 hours
+<lb/>
+it is fit for use take half a gill of it
+<lb/>
+and put it
+<add>in</add>
+a half pint mugg and
+<unclear>take</unclear>
+<lb/>
+it to a Cow and milk it full Take it in
+<lb/>
+a morning fasting let the Patient walk after
+</p>
+</div>
+<pb xml:id="F25083823" n="145" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0145.JP2/full/855,1024/0/default.jpg"/>
+<div xml:id="OTP25083823">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083823P0">
+<supplied>72</supplied>
+<lb/>
+<head>Artificial Anchovys</head>
+</p>
+<p xml:id="OTP25083823P1">
+To a Peek of Sprats, take 2 p
+<expan abbr="">oun</expan>
+d of common Salt,
+<lb/>
+2 q
+<expan abbr="">uarte</expan>
+r of a p
+<expan abbr="">oun</expan>
+d of Baye Salt, Q
+<expan abbr="">uarte</expan>
+r p
+<expan abbr="">oun</expan>
+d Salt Petre
+<lb/>
+2 ounces of Prunella Salt & a small quantity
+<lb/>
+of Cochineal, Pound all in a Mortar,
+<lb/>
+put them in to a stone jar, a row of Sparts
+<lb/>
+then a layer of your Compound,
+<del>&</del>
+<lb/>
+and so on alternately to the Top
+<lb/>
+Press them hard down cover them close
+<lb/>
+let them stand for Six months, & they
+<lb/>
+will be fit for use Take particular care
+<lb/>
+that Your Sprats be very fresh, & do not
+<lb/>
+wash or Wipe them, but take them
+<lb/>
+just as they come out of
+<expan abbr=""> th</expan>
+e water:
+</p>
+<p xml:id="OTP25083823P2">
+<head>Pickle Mushroons</head>
+</p>
+<p xml:id="OTP25083823P3">
+Rub
+<expan abbr="">th</expan>
+e mushroons with a bit of Flannel & Salt
+<lb/>
+& put them in salt & Water, then Scald them in
+<lb/>
+Salt & Water, when done dry them in a Cloath,
+<lb/>
+then put them in some common Vinegar Boiling
+<lb/>
+let them stand all night then drain 'em well
+<lb/>
+and put them in double distild Vinegar
+<lb/>
+with a little white pepper, & mace, Tye them
+<lb/>
+over with a Bladder
+<lb/>
+</p>
+</div>
+<pb xml:id="F25083824" n="146" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0146.JP2/full/902,1024/0/default.jpg"/>
+<div xml:id="OTP25083824">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083824P0">
+<head>Seed Cake</head>
+</p>
+<p xml:id="OTP25083824P1">
+Two Pounds of Flower, half a p
+<expan abbr="">oun</expan>
+d Buttter,
+<lb/>
+half a pound of Sugar, two large Spoonfuls of Yeast
+<lb/>
+two Eggs, & an ounce of Carraaway Seeds,
+<lb/>
+Melt the Butter in a Sauce Pan by itself,
+<lb/>
+& pour it of from the settlement at bottom
+<lb/>
+wet the Cake with Warm Milk:
+</p>
+<p xml:id="OTP25083824P2">
+<head>To make a Baked Plumb Pudding</head>
+</p>
+<p xml:id="OTP25083824P3">
+one Pound Raisins, 1 p
+<expan abbr="">oun</expan>
+pickled Pork boild
+<lb/>
+Chopd fine, pour the pork & the water its boild in,
+<lb/>
+in to a pan & let it stand till cold. then strain
+<lb/>
+the Fat off, & mix the Fat & the Pork with
+<lb/>
+1 pound 3/4
+<add>Flour</add>
+wet with Milk, add a little salt,
+<lb/>
+1 or 2 Eggs, tho may be made without
+</p>
+<p xml:id="OTP25083824P4">
+<head>How to sharpen Knives</head>
+</p>
+<p xml:id="OTP25083824P5">
+A Common Board, coverd with thick buff Leather,
+<lb/>
+or which is put Emery one part, Crocus Marsh's 3
+<unclear>part</unclear>
+<lb/>
+in very fine powder, mixd in to a Thick paste
+<lb/>
+with a little Lard, or sweet oil spread or
+<expan abbr="">th</expan>
+e Leather
+<lb/>
+the thickness of a shilling gives a superior
+<lb/>
+polish & Edge to Knives & does not wear
+<lb/>
+the Knives, a
+<unclear>gnarlerdo</unclear>
+much, as Brick dust
+<lb/>
+or a Board
+</p>
+<p xml:id="OTP25083824P6"/>
+</div>
+<pb xml:id="F25083825" n="147" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0147.JP2/full/848,1024/0/default.jpg"/>
+<div xml:id="OTP25083825">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083825P0">
+<supplied>73 </supplied>
+<lb/>
+<head>Mustard Whey, for the Rheumatism</head>
+</p>
+<p xml:id="OTP25083825P1">
+1 ounce of Brown Mustard Seed, boild in
+<lb/>
+12 quart of Water a full half Hour
+<lb/>
+put to it 1 pint of Milk, when it turns
+<lb/>
+Strain it off begin with drinking
+<lb/>
+or going to Bed, a large Coffee cup full
+<lb/>
+increase it, till it comes to half a pint
+<lb/>
+Continue it a Fortnight
+</p>
+</div>
+<pb xml:id="F25083826" n="148" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0148.JP2/full/900,1024/0/default.jpg"/>
+<div xml:id="OTP25083826">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083826P0"/>
+</div>
+<pb xml:id="F25083827" n="149" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0149.JP2/full/850,1024/0/default.jpg"/>
+<div xml:id="OTP25083827">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083827P0">
+<supplied>74</supplied>
+</p>
+</div>
+<pb xml:id="F25083828" n="150" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0150.JP2/full/900,1024/0/default.jpg"/>
+<div xml:id="OTP25083828">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083828P0">
+<supplied>
+A number of blank pages follow
+<lb/>
+and have
+<hi rend="underline">not</hi>
+been photographed.
+</supplied>
+</p>
+</div>
+<pb xml:id="F25083829" n="151" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0151.JP2/full/855,1024/0/default.jpg"/>
+<div xml:id="OTP25083829">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083829P0"/>
+</div>
+<pb xml:id="F25083830" n="152" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0152.JP2/full/921,1024/0/default.jpg"/>
+<div xml:id="OTP25083830">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083830P0"/>
+</div>
+<pb xml:id="F25083831" n="153" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0153.JP2/full/818,1024/0/default.jpg"/>
+<div xml:id="OTP25083831">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083831P0">
+<supplied>
+m2/x
+<lb/>
+Davis
+</supplied>
+</p>
+</div>
+<pb xml:id="F25083832" n="154" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0154.JP2/full/851,1024/0/default.jpg"/>
+<div xml:id="OTP25083832">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083832P0"/>
+</div>
+<pb xml:id="F25083833" n="155" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0155.JP2/full/253,1024/0/default.jpg"/>
+<div xml:id="OTP25083833">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083833P0">
+<supplied>737</supplied>
+</p>
+</div>
+<pb xml:id="F25083834" n="156" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0156.JP2/full/253,1024/0/default.jpg"/>
+<div xml:id="OTP25083834">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083834P0"/>
+</div>
+<pb xml:id="F25083835" n="157" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0157.JP2/full/1024,267/0/default.jpg"/>
+<div xml:id="OTP25083835">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083835P0"/>
+</div>
+<pb xml:id="F25083836" n="158" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0158.JP2/full/1024,267/0/default.jpg"/>
+<div xml:id="OTP25083836">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083836P0"/>
+</div>
+<pb xml:id="F25083837" n="159" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0159.JP2/full/851,1024/0/default.jpg"/>
+<div xml:id="OTP25083837">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083837P0"/>
+</div>
+<pb xml:id="F25083838" n="160" facs="https://iiif.wellcomecollection.org/image/b18419665_MS_1810_0160.JP2/full/832,1024/0/default.jpg"/>
+<div xml:id="OTP25083838">
+<fw type="pageNum">-</fw>
+<p xml:id="OTP25083838P0"/>
+</div>
+</body>
+
+    </text>    
+
+</TEI>
