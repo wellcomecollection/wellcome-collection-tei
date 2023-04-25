@@ -49,15 +49,16 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 3</idno>
                         <altIdentifier type="sierra">
-                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33149549</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>A Japanese commentary on the <title xml:lang="zh-Latn"
-                                source="IANA">Shisijing fahui</title>, a study of the theory and
-                            practice of acupuncture focusing on the fourteen bodily tracts,
-                            published in 1693. </summary>
+                        <summary><p>A Japanese commentary on the Shisijing fahui, a study of the
+                                theory and practice of acupuncture focusing on the fourteen bodily
+                                tracts, published in 1693.</p>
+                            <p><note>外題「十四経和語抄」、版心題「針灸和解附録」。</note></p>
+                        </summary>
 
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
@@ -68,43 +69,31 @@
                                     >岡本一抱</persName>
                                 <persName xml:lang="ja-Latn" source="IANA" type="standard">Okamoto
                                     Ippō</persName>
-                                <note><p><persName>Okamoto Ippō</persName>,<date from="1686"
-                                            to="1754"> (1686–1754)</date>, started as a student of
-                                        medicine under <persName>Ajioka
-                                            Sanpaku</persName>|<persName>味岡三伯</persName> but
-                                        offended his teacher and was expelled from his school. He
-                                        subsequently made a career for himself as a popularizer and
-                                        disseminator of medical knowledge, and published a large
-                                        number of medical works aimed at a popular market. He is
-                                        said to have ceased writing such works when his elder
-                                        brother, the famous dramatist <persName>Chikamatsu
-                                            Monzaemon</persName>|<persName>近松門左衛門</persName>, warned
-                                        him that he was in danger of doing harm by peddling inexact
-                                        knowledge.</p></note>
+                                <note><p>Okamoto Ippō (1686–1754) started as a student of medicine
+                                        under Ajioka Sanpaku (味岡三伯) but offended his teacher and was
+                                        expelled from his school. He subsequently made a career for
+                                        himself as a popularizer and disseminator of medical
+                                        knowledge, and published a large number of medical works
+                                        aimed at a popular market. He is said to have ceased writing
+                                        such works when his elder brother, the famous dramatist
+                                        Chikamatsu Monzaemon (近松門左衛門), warned him that he was in
+                                        danger of doing harm by peddling inexact
+                                    knowledge.</p></note>
                             </author>
 
                             <respStmt>
-                                <persName type="original" xml:lang="ja">小佐治(金屋)半右衛門</persName>
+                                <persName type="original" xml:lang="ja">小佐治半右衛門</persName>
                                 <persName type="standard" xml:lang="ja-Latn">Kosaji
                                     Han’emon</persName>
                                 <resp>Publisher</resp>
-                                <note>Published in
-                                    <date>1693</date>,<placeName>Kyoto</placeName>.</note>
                             </respStmt>
 
-                            <title>
-                                <title type="original" xml:lang="ja" source="IANA">十四経路発揮和解</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Jūshi
-                                    keiraku hakki wage</title>
-                                <title type="standard" xml:lang="en" source="IANA">The fourteen
-                                    bodily tracts explained in Japanese</title>
-                                <note><p>外題: The title is taken from the outside cover.</p></note>
-                            </title>
 
-                            <title>
-                                <title type="original" xml:lang="ja" source="IANA">針灸和解附録</title>
-                                <note><p>版心題</p></note>
-                            </title>
+                            <title type="original" xml:lang="ja" source="IANA">十四経路発揮和解</title>
+                            <title type="standard" xml:lang="ja-Latn" source="IANA">Jūshi keiraku
+                                hakki wage</title>
+                            <title type="standard" xml:lang="en" source="IANA">The fourteen bodily
+                                tracts explained in Japanese</title>
 
                             <filiation><p>This copy lacks the supplement(附録欠); see <ref
                                         target="MS Japanese 4">MS Japanese 4</ref>,<ref
@@ -117,8 +106,6 @@
                                         ID: 33114</ref> for copies of <title>十四経路発揮和解</title> held
                                     by other institutions</p>
                             </filiation>
-                            <note><p/></note>
-
                         </msItem>
 
                     </msContents>
@@ -127,7 +114,7 @@
                         <objectDesc form="Codex">
 
                             <supportDesc material="paper">
-                                <extent>3冊 3巻 | 3 satsu (volume) with 3 maki (section) <dimensions
+                                <extent>3冊 3巻 | 3 volumes (divided into 3 sections) <dimensions
                                         unit="mm" type="binding">
                                         <dim type="height">256mm</dim>
                                         <dim type="width">188mm</dim>
@@ -147,11 +134,11 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō" when="1693">元禄6 | Sixth year of Genroku
-                                era</origDate>
+                            <origDate calendar="nengō" when="1693">元禄6</origDate>
                             <origDate calendar="gregorian" when="1693">1693</origDate>
                             <origPlace>
-                                <placeName>京都 | Kyoto</placeName>
+                                <placeName>京都</placeName>
+                                <placeName>Kyoto</placeName>
                                 <country>Japan</country>
                             </origPlace>
                         </origin>
@@ -243,6 +230,8 @@
         <revisionDesc>
             <change when="2021-11-11"><persName>"#SC"</persName>Created template.</change>
             <change when="2022-11-07"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-04-25"><persName>"#SC"</persName>Edited for catalogue display
+                including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>
