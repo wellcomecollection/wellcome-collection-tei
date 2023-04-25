@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_17">
-    <teiHeader>
+     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Japanese 17</title>
@@ -53,56 +53,41 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 17</idno>
                         <altIdentifier type="sierra">
-                            <idno>
-                                <!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33149641</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>Manuscript concerning acupuncture executed on fine torinoko paper
-                            probably in the <date>eighteenth century </date>and includes two sets of
-                            polychrome hand-painted illustrations of acupunctural points on the
-                            human body probably copied from a Chinese work</summary>
+                        <summary><p>A manuscript concerning acupuncture executed on fine torinoko
+                                paper, probably in the eighteenth century, and includes two sets of
+                                polychrome hand-painted illustrations of acupunctural points on the
+                                human body probably copied from a Chinese work.</p>
+                            <p><note>１巻・附「灸穴並引灸図」「癰疔瘡毒名所図」各々１巻</note>
+                                <note>外題「外科秘書」。</note>
+                                <note>鳥の子紙使用。</note>
+                                <note>（終丁ウ識語）「鍼灸淋瘴治／医師之外科／中尾氏」。（裏表紙見返朱筆識語）「明治八亥正月吉日」「安長氏亟」。
+                                    （裏表紙識語）「河内国（中略）中尾氏蔵書／明治十九年（下略）」。</note></p></summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_17">
-                            <title>
-                                <title type="original" xml:lang="ja" source="IANA">医方口伝抄</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Ihō
-                                    kudenshō</title>
-                                <title type="standard" xml:lang="en" source="IANA">Collection of oral
-                                    traditions relating to medicine</title>
-                                <note><p>外題 | External title: 外科秘書</p></note>
-                            </title>
-
-                            <incipit><locus/>
-                                <note/>
-                            </incipit>
-
-                            <explicit><locus/>鍼灸淋瘴治／医師之外科／中尾氏 </explicit>
-
-                            <colophon><locus/><!-- insert -->
-                                <!-- Use <note> to add general comment -->
-                            </colophon>
-
-                            <note><p>裏表紙見返朱筆識語「明治八亥正月吉日」「安長氏亟」</p></note>
-                            <note><p>裏表紙識語「河内国（中略）中尾氏蔵書／明治十九年（下略）」</p></note>
-
+                            <title type="original" xml:lang="ja" source="IANA">医方口伝抄</title>
+                            <title type="standard" xml:lang="ja-Latn" source="IANA">Ihō
+                                kudenshō</title>
+                            <title type="standard" xml:lang="en" source="IANA">Collection of oral
+                                traditions relating to medicine</title>
                         </msItem>
                     </msContents>
 
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <support>鳥の子紙 | torinoko paper</support>
-                                <extent>1冊 1巻 | 1 satsu (volume) 1 maki (section) <dimensions
-                                        unit="cm" type="binding">
-                                        <dim type="height">24cm</dim>
-                                        <dim type="width">18cm</dim>
+                                <extent>1冊 | 1 volume <dimensions unit="mm" type="binding">
+                                        <dim type="height">240mm</dim>
+                                        <dim type="width">180mm</dim>
                                     </dimensions>
                                 </extent>
-                                <foliation>48 leaves </foliation>
+                                <foliation>48 leaves</foliation>
                             </supportDesc>
                             <layoutDesc>
                                 <p>8 vertical lines per page</p>
@@ -110,22 +95,19 @@
                         </objectDesc>
 
                         <handDesc>
-                            <handNote><p>朱筆校正 | Revisions made to work in red ink.</p></handNote>
+                            <handNote><p>朱筆校正.</p></handNote>
+                            <handNote><p>Revisions made to work in red ink.</p></handNote>
                         </handDesc>
 
                         <scriptDesc>
-                            <scriptNote scope="sole">片仮名交 | katakana-majiri</scriptNote>
+                            <scriptNote scope="sole">片仮名交</scriptNote>
+                            <scriptNote scope="sole">Katakana-majiri</scriptNote>
                         </scriptDesc>
-
-                        <additions>
-                            <p>附「灸穴並引灸図」「癰疔瘡毒名所図」. 多色図 | Also includes two loose charts with
-                                hand-coloured illustrations, one on moxibustion and one on
-                                syphilis.</p>
-                        </additions>
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>袋綴 | Fukuotoji style binding.</p>
+                                <p>袋綴</p>
+                                <p>Fukuotoji style binding.</p>
                             </binding>
                         </bindingDesc>
 
@@ -133,14 +115,14 @@
 
                     <history>
                         <origin>
+                            <origDate calendar="nengō" notBefore="1700" notAfter="1800"
+                                >江戸中期</origDate>
                             <origDate calendar="gregorian" from="1700" to="1800">18th
                                 century</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
                         </origin>
-
-                        <provenance> </provenance>
 
                         <acquisition>
                             <note><p>Purchased by the Wellcome Library from <name type="bookseller"
@@ -206,6 +188,8 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-12-21"><persName>"#AR"</persName>Populated template.</change>
+            <change when="2023-04-25"><persName>"#SC"</persName>Edited for catalogue display
+                including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>
