@@ -49,52 +49,44 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 9</idno>
                         <altIdentifier type="sierra">
-                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33149604</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>A volume of monochrome illustrations to accompany a Japanese
-                            edition of <title xml:lang="zh-Latn" source="IANA">Quanti xinlun</title>
-                            | <title xml:lang="zh" source="IANA">全新理论</title> , a treatise on
-                            physiology, published in Japan in 1857. This work was originally written
-                            by <persName>Benjamin Hobson</persName> and published in Chinese in
-                                <placeName>Canton</placeName>,<date>1851</date>. The text is missing
-                            from this copy. </summary>
+                        <summary><p>A volume of monochrome illustrations to accompany a Japanese
+                                edition of Quanti xinlun (全新理论), a treatise on physiology, published
+                                in Japan in 1857. The text is missing from this copy. This work was
+                                originally written by Benjamin Hobson and published in Chinese in
+                                1851. </p>
+                            <p><note>外題『全体新論』。刊年は前記の『全体新論』による。</note></p>
+                        </summary>
 
                         <msItem n="1" xml:id="Japanese_9">
                             <author key="person_36770591" source="VIAF">
                                 <persName xml:lang="en" source="IANA" type="standard">Benjamin
                                     Hobson</persName>
-                                <note><p><persName>Benjamin Hobson</persName>,<date from="1816"
-                                            to="1873"> (1816-1873)</date>, went to China with the
-                                        London Missionary Society in <date>1839</date>, after having
-                                        completed his medical training at University College London.
-                                        He worked mostly in Hong Kong and Canton, now Guangzhou,
-                                        although for the last year before his return to England in
-                                        1859 he was in charge of the Shanghai Hospital for Chinese
-                                        (Jen Chi Hospital).</p></note>
+                                <note><p>Benjamin Hobson(1816-1873) went to China with the London
+                                        Missionary Society in 1839, after having completed his
+                                        medical training at University College London. He worked
+                                        mostly in Hong Kong and Canton, now Guangzhou, although for
+                                        the last year before his return to England in 1859 he was in
+                                        charge of the Shanghai Hospital for Chinese (Jen Chi
+                                        Hospital).</p></note>
                             </author>
 
-                            <title>
-                                <title type="original" xml:lang="ja" source="IANA">全体新論</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Zentai
-                                    shinron</title>
-                                <title type="standard" xml:lang="en" source="IANA">New treatise on
-                                    the whole body</title>
-                                <note><p>外題: The title is taken from the outside cover.</p></note>
-                            </title>
-
+                            <title type="original" xml:lang="ja" source="IANA">全体新論</title>
+                            <title type="standard" xml:lang="ja-Latn" source="IANA">Zentai
+                                shinron</title>
+                            <title type="standard" xml:lang="en" source="IANA">New treatise on the
+                                whole body</title>
 
                             <filiation><p>See <ref target="MS Japanese 131">MS Japanese 131</ref>
                                     for a complete copy of this work with Chinese text and
                                     illustrations. See <ref
                                         target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work
                                         ID: 4374386</ref> for copies of <title>全体新論</title> held by
-                                    other institutions. A digital copy held by Waseda University
-                                    Library can be seen <ref
-                                        target="http://www.wul.waseda.ac.jp/kotenseki/html/ya09/ya09_00289/"
-                                        >here</ref>. </p>
+                                    other institutions.</p>
                             </filiation>
 
                         </msItem>
@@ -105,7 +97,7 @@
                         <objectDesc form="Codex">
 
                             <supportDesc material="paper">
-                                <extent>１冊 | 1 satsu (volume)<dimensions unit="mm" type="binding">
+                                <extent>１冊 | 1 volume<dimensions unit="mm" type="binding">
                                         <dim type="height">261mm</dim>
                                         <dim type="width">174mm</dim>
                                         <dim type="depth">9mm</dim>
@@ -124,15 +116,13 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō" when="1857">安政４ | Fourth year of Ansei
-                                era</origDate>
+                            <origDate calendar="nengō" when="1857">安政４</origDate>
                             <origDate calendar="gregorian" when="1857">1857</origDate>
                             <note>Date of publication presumed from <ref target="MS Japanese 131">MS
                                     Japanese 131</ref> and Nagasawa,p.144</note>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
-                            <note><p>刊記欠</p></note>
                         </origin>
 
                         <acquisition> Donated by Captain Archibald Hobson, the author’s grandson, in
@@ -228,6 +218,8 @@
         <revisionDesc>
             <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
             <change when="2022-07-11"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-04-25"><persName>"#SC"</persName>Edited for catalogue display
+                including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

@@ -49,26 +49,26 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 1</idno>
                         <altIdentifier type="sierra">
-                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33149513</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>A Japanese kabusebori edition of <title xml:lang="zh-Latn"
-                                source="IANA">Shisijing fahui</title>, a study of the theory and
-                            practice of acupuncture focusing on the fourteen bodily tracts, with
-                            illustrations, published in 1709.<note>The work was first written in
-                                    <date>1341</date> by <persName>Hua Shou</persName>
-                                <date from="1304" to="1386"> (1304–1386)</date>, and printed in
-                                    <date>1364</date>. It was first printed in
-                                    <placeName>Japan</placeName> in <date>1596</date> and was one of
-                                the first books to be printed with movable type. Later movable-type
-                                editions are recorded from <date>1604</date>, <date>1618</date> and
-                                    <date>1625</date>; block-printed editions are recorded from
-                                    <date>1631</date>, <date>1649</date> and <date>1665</date>, and
-                                on numerous other occasions up to <date>1805</date>. It is clear,
-                                then, that there was a very considerable market for this work in
-                                Japan in the <date from="1600" to="1868">Edo period</date>.</note>
+                        <summary><p>A Japanese kabusebori edition of Shisijing fahui, a study of the
+                                theory and practice of acupuncture focusing on the fourteen bodily
+                                tracts, with illustrations, published in 1709.</p>
+                            <p>
+                                <note>題箋欠。序題「新刊十四経絡揮」。</note>
+                                <note>覆明版。</note>
+                            </p>
+                            <p>The work was first written in 1341 by Hua Shou (1304–1386), a
+                                physician of the Yuan dynasty, and printed in 1364. It was first
+                                printed in Japan in 1596 and was one of the first books to be
+                                printed with movable type. Later movable-type editions are recorded
+                                from 1604, 1618 and 1625; block-printed editions are recorded from
+                                1631, 1649 and 1665, and on numerous other occasions up to 1805. It
+                                is clear, then, that there was a very considerable market for this
+                                work in Japan in the Edo period.</p>
                         </summary>
 
 
@@ -79,10 +79,6 @@
                                 <persName xml:lang="ja" source="IANA" type="original">滑寿</persName>
                                 <persName xml:lang="ja-Latn" source="IANA" type="standard">Hua
                                     Shou</persName>
-                                <note><p><persName>Hua Shou</persName>,<date from="1304" to="1386">
-                                            (1304–1386)</date>, a distinguished physician of the
-                                            <date from="1271" to="1368">Yuan
-                                    dynasty</date></p></note>
                             </author>
 
                             <respStmt>
@@ -93,21 +89,19 @@
                             </respStmt>
                             <respStmt>
                                 <persName type="original" xml:lang="ja" source="IANA">薛鎧</persName>
-                                <resp>Copy editor(?)</resp>
+                                <resp>Editor</resp>
                             </respStmt>
 
-                            <title>
-                                <title type="original" xml:lang="ja" source="IANA">十四経発揮</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Jūshikei
-                                    hakki</title>
-                                <title type="standard" xml:lang="en" source="IANA">The fourteen
-                                    bodily tracts explained</title>
-                            </title>
+
+                            <title type="original" xml:lang="ja" source="IANA">十四経発揮</title>
+                            <title type="standard" xml:lang="ja-Latn" source="IANA">Jūshikei
+                                hakki</title>
+                            <title type="standard" xml:lang="en" source="IANA">The fourteen bodily
+                                tracts explained</title>
+
                             <filiation><p>Other Japanese block-printed editions of this work were
                                     prepared in 1649 (Royal Library,Copenhagen [Jap.950]), and in
                                     1665 (Ruhr Universität, Bohum)</p></filiation>
-                            <note><p>題箋欠。序題「新刊十四経絡揮」。覆明版。</p></note>
-
                         </msItem>
 
                     </msContents>
@@ -116,7 +110,7 @@
                         <objectDesc form="Codex">
 
                             <supportDesc material="paper">
-                                <extent>１冊 3巻 | 1 satsu (volume) with 3 maki (section <dimensions
+                                <extent>１冊 3巻 | 1 volume (divided into 3 sections)<dimensions
                                         unit="mm" type="binding">
                                         <dim type="height">276mm</dim>
                                         <dim type="width">192mm</dim>
@@ -137,11 +131,11 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō" when="1709">宝永6 | Sixth year of Hōei
-                                Era</origDate>
+                            <origDate calendar="nengō" when="1709">宝永6</origDate>
                             <origDate calendar="gregorian" when="1709">1709</origDate>
                             <origPlace>
-                                <placeName>大阪 | Osaka</placeName>
+                                <placeName>大阪</placeName>
+                                <placeName>Osaka</placeName>
                                 <country>Japan</country>
                             </origPlace>
                         </origin>
@@ -276,6 +270,8 @@
         <revisionDesc>
             <change when="2021-11-11"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-11-11"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-04-25"><persName>"#SC"</persName>Edited for catalogue display
+                including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

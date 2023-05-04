@@ -49,25 +49,25 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 13</idno>
                         <altIdentifier type="sierra">
-                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33149628</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>A Japanese edition of <title xml:lang="zh-Latn" source="IANA"
-                                >Shenxiang quanbian</title>, a Chinese work on physiognomy
-                            attributed to <persName>Chen Zhuan</persName> and edited, and possibly
-                            also compiled, by <persName>Yuan Zhongche</persName>, a practising
-                            physiognomer. This edition was printed from the same blocks as the
-                            version published in <date>1807</date> by Umemura Ihee of Kyoto, during
-                            the meiji period by Nakagawa Jinzaburō of Tokyo. The edition includes a
-                            number of line illustrations, and kunten punctuation , glosses and
-                            headnotes in Japanese added to the Chinese text by <persName>Seki
-                                Ryushi</persName> and <persName>Seki Koan</persName>, but this
-                            specific copy lacks the first volume and original colophon. </summary>
+                        <summary><p>A Japanese edition of Shenxiang quanbian, a Chinese work on
+                                physiognomy attributed to Chen Zhuan and edited, and possibly also
+                                compiled, by Yuan Zhongche, a practising physiognomer. This edition
+                                was printed from the same blocks as the version published in 1807 by
+                                Umemura Ihee of Kyoto, during the meiji period by Nakagawa Jinzaburō
+                                of Tokyo. The edition includes a number of line illustrations, and
+                                kunten punctuation, glosses and headnotes have been added to the
+                                Chinese text by Seki Ryushi and Seki Koan, but this specific copy
+                                lacks the first volume and original colophon.</p>
+                            <p><note>〔文化4〕刊行・〔明治中期〕印.</note></p></summary>
+
+                        <textLang mainLang="lzh" source="IANA">Literary Chinese</textLang>
+
                         <msItem n="1" xml:id="Japanese_13">
-                            <textLang mainLang="zh" source="IANA">Chinese</textLang>
-                            <textLang mainLang="ja" source="IANA">Japanese</textLang>
                             <author>
                                 <persName type="original" xml:lang="ja">陳搏伝</persName>
                                 <persName type="standard" xml:lang="ja-Latn">Chen Zhuan</persName>
@@ -122,7 +122,7 @@
                         <objectDesc form="Codex">
 
                             <supportDesc material="paper">
-                                <extent> 2 冊 | 2 satsu (volume)<dimensions unit="mm" type="binding">
+                                <extent> 2 冊 | 2 volumes<dimensions unit="mm" type="binding">
                                         <dim type="height">259mm</dim>
                                         <dim type="width">179mm</dim>
                                         <dim type="depth">22mm</dim>
@@ -141,11 +141,10 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō" when="1807">文化４ | Fourth year of Bunka
-                                era</origDate>
+                            <origDate calendar="nengō" when="1807">文化４</origDate>
                             <origDate calendar="gregorian" when="1807">1807</origDate>
-                            <note>Printed during the meiji period from the 1807 edition plates
-                                |〔文化4〕刊行・〔明治中期〕印.</note>
+                            <note>Printed during the meiji period from the 1807 edition
+                                plates.</note>
                             <origPlace>
                                 <placeName>Tokyo</placeName>
                                 <country>Japan</country>
@@ -266,6 +265,8 @@
         <revisionDesc>
             <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
             <change when="2022-01-12"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-04-25"><persName>"#SC"</persName>Edited for catalogue display
+                including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>
