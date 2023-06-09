@@ -20,8 +20,8 @@ Any other numbers will also be recorded during phase 2 of the inventory. These n
 
 **Condition**&#x20;
 
-* **A**- **** No work required. Pristine, or already conserved or rebound items. Items that at time of assessment require no conservation
-* **B**- **** Good. Stable, suitable for all library uses i.e. exhibition, copying, consultation. Only very minor damage such as localised surface dirt, and very minor tears for example. No part of the item is in a vulnerable state.
+* **A**- No work required. Pristine, or already conserved or rebound items. Items that at time of assessment require no conservation
+* **B**- Good. Stable, suitable for all library uses i.e. exhibition, copying, consultation. Only very minor damage such as localised surface dirt, and very minor tears for example. No part of the item is in a vulnerable state.
 * **C**- Fair. Stable although damaged. Suitable for consultation. For example damage may include tears and some loss but the item is not inherently unstable.
 * **D**- Poor. Unstable items. At risk of further damage under normal consultation. For example extensive structural problems including - embrittlement, mechanical damage, mould damage, risk of loss and further deterioration.
 *   **E**- Bad. Highly unstable items. Not suitable for consultation. For example major mould infestation, blocking, extensive fragmentation, high fragility.&#x20;

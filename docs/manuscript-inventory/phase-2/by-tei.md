@@ -12,5 +12,10 @@ The 'by TEI' procedure records the following elements:
 * Location
 * Recorder and date
 * Condition
-* System no
-  * This should be the Sierra number given in the TEI file
+*   System no
+
+    * This should be the Sierra number given in the TEI file
+
+
+
+This information will already have been [imported](../)[ ](../../additional-inventory/imports.md)from the GitHub repository.

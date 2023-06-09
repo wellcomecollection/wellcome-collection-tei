@@ -27,5 +27,5 @@ These fields cover, but are not limited to, the minimum viable record of the Spe
 
 In addition, we record, where known, where the manuscript might be catalogued, its condition, and further elements.
 
-****
+
 

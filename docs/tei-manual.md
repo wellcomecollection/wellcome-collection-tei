@@ -130,7 +130,7 @@ A composite manuscript is a manuscript in which previously distinct units have b
 
 [Wellcome MS Malay 7 is fully digitised](https://wellcomelibrary.org/item/b30172603#?c=0\&m=0\&s=0\&cv=41\&z=-0.4303%2C-0.1196%2C1.9731%2C1.7609).
 
-For more on multi-part manuscripts, see [**1.6.7. Multi-part, composite and similar units**](https://msdesc.github.io/consolidated-tei-schema/msdesc.html#msPart) **** in the msDesc guidelines.
+For more on multi-part manuscripts, see [**1.6.7. Multi-part, composite and similar units**](https://msdesc.github.io/consolidated-tei-schema/msdesc.html#msPart) in the msDesc guidelines.
 
 ### Single-part manuscripts <a href="#_toc51681875" id="_toc51681875"></a>
 
