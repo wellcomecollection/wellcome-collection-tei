@@ -31,10 +31,8 @@
                     <email>library@wellcomecollection.org</email>
                 </distributor>
                 <idno type="msID">MS Japanese 19</idno>
-                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
-                    Library</idno>
-                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
-                    Institute</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome Library</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome Institute</idno>
                 <availability>
                     <licence><!-- Licensing statement to come in late-stage editing --></licence>
                 </availability>
@@ -49,17 +47,13 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 19</idno>
                         <altIdentifier type="sierra">
-                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33176395</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> A treatise on internal medicine by <persName>Honma
-                                Sōken</persName>, also known as Genchō, covering a number of Honma’s
-                            medical and surgical practices in katakana-majiri script, with coloured
-                            illustrations by an unknown artist. It was privately published by the
-                            author in 1864. This copy is incomplete, lacking volume 14. </summary>
-
+                        <summary> A woodblock printed treatise on internal medicine by Honma Sōken, also known as Genchō, covering a number of Honma’s medical and surgical practices in katakana-majiri script, with coloured illustrations by an unknown artist. It was privately published by the author in 1864. This copy is incomplete, lacking volume 14. 
+                        </summary>
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_19">
@@ -74,14 +68,12 @@
                                     japanologist. Honma’s view was that Hanaoka Seishū’s surgical
                                     techniques were superior to Siebold’s.</note>
                             </author>
-
-                            <title>
+                           
                                 <title type="original" xml:lang="ja" source="IANA">内科秘録</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Naika
-                                    hiroku</title>
-                                <title type="standard" xml:lang="en" source="IANA">Secret treatise
-                                    on internal medicine</title>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Naika hiroku</title>
+                                <title type="standard" xml:lang="en" source="IANA">Secret treatise on internal medicine</title>
+                            
+                            <note>刊年・蔵版者は扉による。</note>
 
                             <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
                                 >Kotenseki Work ID: 390772</ref> for copies of <title>内科秘録</title> held
@@ -96,7 +88,7 @@
                         <objectDesc form="Codex">
 
                             <supportDesc material="paper">
-                                <extent> 半13冊 | 13 volumes (No's 1-13)<dimensions unit="mm"
+                                <extent> 半13冊 | 13 volumes (No.1-13)<dimensions unit="mm"
                                         type="binding">
                                         <dim type="height">229mm</dim>
                                         <dim type="width">156mm</dim>
@@ -121,10 +113,9 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō" when="1864">元治１ | First year of Genji
-                                era</origDate>
+                            <origDate calendar="nengō" when="1864">元治１</origDate>
                             <origDate calendar="gregorian" when="1864">1864</origDate>
-                            <note>刊年・蔵版者は扉による</note>
+
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -208,6 +199,7 @@
         <revisionDesc>
             <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
             <change when="2022-01-12"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

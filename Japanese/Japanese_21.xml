@@ -49,17 +49,14 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 21</idno>
                         <altIdentifier type="sierra">
-                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33176413</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>A study of acupuncture in kanbun by <persName>Hara
-                                Nan’yō</persName> with line illustrations, published in 1807 by the
-                            author and distributed for sale by Suharaya Anjirō of Mito and other
-                            commercial publishers from Osaka, Edo and Kyoto. </summary>
-
-                        <textLang mainLang="lzh" source="IANA">Literary Chinese</textLang>
+                        <summary>A woodblock printed study of acupuncture in kanbun by Hara Nan’yō with line illustrations, published in 1807 by the author and distributed for sale by Suharaya Anjirō of Mito and other commercial publishers from Osaka, Edo and Kyoto.                           
+                        </summary>
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_21">
 
@@ -80,25 +77,17 @@
 
                             <respStmt>
                                 <persName type="original" xml:lang="ja">須原家安次郎</persName>
-                                <persName type="standard" xml:lang="ja-Latn">Suharaya
-                                    Anjirō</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Suharaya Anjirō</persName>
                                 <resp>Distributor</resp>
                             </respStmt>
 
-                            <title>
+                      
                                 <title type="original" xml:lang="ja" source="IANA">経穴彙解</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Keiketsu
-                                    ikai</title>
-                                <title type="standard" xml:lang="en" source="IANA">On
-                                    acupuncture</title>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Keiketsu ikai</title>
+                                <title type="standard" xml:lang="en" source="IANA">On acupuncture</title>
 
-                            <note>版心に「叢桂亭蔵」とあり</note>
-
-                            <note>(奥附書肆)書肆/京都、須原家平左衛門/大坂、秋田屋太右衛門/江都、 須原屋伊八/水戸、須原屋安次郎</note>
-
-                            <note>Attached to the colophon is a list of Hara Nan’yō’s other
-                                publications, including Toridegusa.</note>
+                            <note>版心に「叢桂亭蔵」とあり。（奥附書肆）書肆／京都、須原屋平左衛門／大坂、秋田屋太右衛門／江都、須原屋伊八／水戸、須原屋安次郎。</note>
+                            <note>Attached to the colophon is a list of Hara Nan’yō’s other publications, including Toridegusa.</note>
 
                             <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
                                         >Kotenseki Work ID: 1000573</ref> for copies of
@@ -113,7 +102,7 @@
                         <objectDesc form="Codex">
 
                             <supportDesc material="paper">
-                                <extent> 8冊 8巻 | 8 satsu (volume) with 8 maki (section) <dimensions
+                                <extent> 8冊 8巻 | 8 volumes ( 8 sections) <dimensions
                                         unit="mm" type="binding">
                                         <dim type="height">260mm</dim>
                                         <dim type="width">178mm</dim>
@@ -134,10 +123,9 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō" when="1807"> 文化4 | Fourth year of Bunka
-                                era</origDate>
+                            <origDate calendar="nengō" when="1807"> 文化4</origDate>
                             <origDate calendar="gregorian" when="1807">1807</origDate>
-                            <note>刊年は「内閣文庫国書分類目録」に従う。版心に「叢桂亭蔵」とあり。</note>
+                        
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -234,6 +222,7 @@
         <revisionDesc>
             <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
             <change when="2022-02-12"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

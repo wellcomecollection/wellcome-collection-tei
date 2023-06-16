@@ -49,18 +49,15 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 22</idno>
                         <altIdentifier type="sierra">
-                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33176425</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>A study of acupuncture in kanbun by <persName>Hara
-                            Nan’yō</persName> with line illustrations. This copy was printed from the original blocks of the 1807 edition
-                            in 1854 with an altered colophon, and distributed for sale by Suharaya Anjirō of Mito and other
-                            commercial publishers from Osaka, Edo and Kyoto.                 
+                        <summary>A woodblock printed study of acupuncture in kanbun by Hara Nan’yō with line illustrations. This copy was printed from the original blocks of the 1807 edition in 1854 with an altered colophon, and distributed for sale by Suharaya Anjirō of Mito and other commercial publishers from Osaka, Edo and Kyoto.                                       
                         </summary>
 
-                        <textLang mainLang="lzh" source="IANA">Literary Chinese</textLang>
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_22">
 
@@ -81,23 +78,15 @@
 
                             <respStmt>
                                 <persName type="original" xml:lang="ja">須原家安次郎</persName>
-                                <persName type="standard" xml:lang="ja-Latn">Suharaya
-                                    Anjirō</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Suharaya Anjirō</persName>
                                 <resp>Distributor</resp>
                             </respStmt>
 
-                            <title>
                                 <title type="original" xml:lang="ja" source="IANA">経穴彙解</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Keiketsu
-                                    ikai</title>
-                                <title type="standard" xml:lang="en" source="IANA">On
-                                    acupuncture</title>
-                            </title>
-
-                            <note>奥附に「嘉永七年甲寅初春再刻」とあり</note>
-                            <note>(奥附書肆)発行書肆/京都、須原屋平左衛門/大坂、秋田屋太右衛門/江戸、須原屋茂兵衛・須原屋伊八/水戸、須原屋安次郎。</note>
-                            <note>「武蔵雖軒本田有隣蔵」など、朱・墨の書き入れ多い(巻末に「于時明治十有九年」の年記あり)。</note>
-                            <note>(印記)「□野国□医王山下記」 「名雖」 「字子雖」。</note>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Keiketsu ikai</title>
+                                <title type="standard" xml:lang="en" source="IANA">On acupuncture</title>
+                            
+                            <note>奥附に「嘉永七年甲寅初春再刻」とあり。（奥附書肆）発行書肆／京都、須原屋平左衛門／大坂、秋田屋太右衛門／江戸、須原屋茂兵衛・須原屋伊八／水戸、須原屋安次郎。朱・墨筆の書入多し。（巻末に「于時明治十有九年」の年記あり）。（印記）「☐野国☐医王山下記」「名雖」「字子雖」。</note>
                             
                             <filiation><p>See <ref
                                 target="MS Japanese 21">MS Japanese 21</ref> for 1807 copy of
@@ -115,7 +104,7 @@
                         <objectDesc form="Codex">
 
                             <supportDesc material="paper">
-                                <extent> 8冊 8巻 | 8 satsu (volume) with 8 maki (section) <dimensions
+                                <extent> 8冊 8巻 | 8 volumes (8 sections)<dimensions
                                         unit="mm" type="binding">
                                         <dim type="height">259mm</dim>
                                         <dim type="width">180mm</dim>
@@ -136,8 +125,7 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō" when="1854"> 嘉永７ | Seventh year of Kaei
-                                era</origDate>
+                            <origDate calendar="nengō" when="1854"> 嘉永７</origDate>
                             <origDate calendar="gregorian" when="1854">1854</origDate>
                             <origPlace>
                                 <country>Japan</country>
@@ -231,6 +219,7 @@
         <revisionDesc>
             <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
             <change when="2022-08-12"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

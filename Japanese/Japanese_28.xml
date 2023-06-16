@@ -53,32 +53,25 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 28</idno>
                         <altIdentifier type="sierra">
-                            <idno>
-                                <!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33176486</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>Manuscript in hiragana-majiri with illustrations of acupuncture
-                            points and of various conditions of the eye with an explanation of the
-                            diseases this indicated. The manuscript was copied in
-                            <date>1816</date>.</summary>
+                        <summary>Manuscript in hiragana-majiri with illustrations of acupuncture points and of various conditions of the eye with an explanation of the diseases this indicated. The manuscript was copied in 1816.
+                            <p>The Seiganryū school of ophtalmology, usually known as the Majumaryū and possible creator of this text, was founded by Majima Seigan (died.1379), who was the first abbot of the Iōzan Yakushiji temple in Owari province following its refoundation; every subsequent abbot was a practising ophthalmologist and the tradition has survived into the twentieth century. This was a secret tradition, communicated orally and in manuscript form.</p>
+                        </summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_28">
 
-                            <title>
                                 <title type="original" xml:lang="ja" source="IANA">清眼流目医書</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Seiganryū
-                                    mokuisho</title>
-                                <title type="standard" xml:lang="en" source="IANA">Seiganryu-school
-                                    Ophthalmology Text</title>
-                                <note><p>English translation given by A Rose</p></note>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Seiganryū mokuisho</title>
+                                <title type="standard" xml:lang="en" source="IANA">Seiganryu-school Ophthalmology Text</title>            
 
-                            <colophon><locus/>文化十三歳丙子八月吉旦／松浦玄駿 <note><p>書写奥書 | Colophon written by
-                                        the copyist</p></note>
+                            <colophon>文化十三歳丙子八月吉旦／松浦玄駿 
+                                <note>書写奥書</note>
                             </colophon>
 
                             <filiation><p>No manuscript bearing this title is recorded, though Kyōto
@@ -87,24 +80,16 @@
                                     <title xml:lang="ja" source="IANA">清眼流眼科秘</title>.
                                 </p></filiation>
 
-                            <note><p>The Seiganryū school of ophtalmology, usually known as the
-                                    Majumaryū, was founded by <persName>Majima Seigan</persName>
-                                    <persName xml:lang="ja" source="IANA"/>
-                                    (died.<date>1379</date>), who was the first abbot of the Iōzan
-                                    Yakushiji temple in Owari province following its refoundation;
-                                    every subsequent abbot was a practising ophthalmologist and the
-                                    tradition has survived into the twentieth century. This was a
-                                    secret tradition, communicated orally and in manuscript
-                                    form.</p></note>
                         </msItem>
                     </msContents>
 
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent>1冊 | 1 satsu (volume) <dimensions unit="mm" type="binding">
-                                        <dim type="height"><!-- Insert dimension--></dim>
-                                        <dim type="width"><!-- Insert dimension--></dim>
+                                <extent>1冊 | 1 volume <dimensions unit="mm" type="binding">
+                                    <dim type="height">272mm</dim>
+                                    <dim type="width">195mm</dim>
+                                    <dim type="depth">13mm</dim>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
@@ -117,13 +102,6 @@
                         <scriptDesc>
                             <scriptNote scope="sole">Hiragana-majiri</scriptNote>
                         </scriptDesc>
-
-                        <bindingDesc>
-
-                            <binding contemporary="unknown">
-                                <p><!-- Insert binding information here including type of binding ,if given, in Japanese and English. --></p>
-                            </binding>
-                        </bindingDesc>
 
                     </physDesc>
 
@@ -218,6 +196,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-12-20"><persName>"#AR"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

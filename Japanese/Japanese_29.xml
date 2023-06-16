@@ -53,17 +53,14 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 29</idno>
                         <altIdentifier type="sierra">
-                            <idno>
-                                <!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33176498</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>Illustrated manuscript representing the Chūjō school of midwifery
-                            and perinatal medicine supposedly founded by <persName>Chūjō
-                                Takewaki</persName> in the <date>late sixteenth century</date>. This
-                            copy was made in 1830 by <persName role="scr">Tōunzan
-                                Gyokusui</persName>.</summary>
+                        <summary>Illustrated manuscript representing the practices of the Chūjō school of midwifery and perinatal medicine supposedly founded by Chūjō Takewaki in the late sixteenth century. This copy was made in 1830 by Tōunzan Gyokusui.
+                        <p>The techniques of the school, which were based on Chinese pharmacology and expounded in 中条流産科全書 (compiled 1668, published 1751) remained for the most part a hiden or secret tradition passed on to pupils orally. No other manuscript of the same title survives, but related works also in manuscript are recorded such as Sanzengo hiden,(Chūjōryū) Samzen sango kuden hisho and Chūjōryū sanka zensho.</p>
+                        </summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
@@ -71,42 +68,27 @@
                             <author>
                                 <persName xml:lang="ja" source="IANA" type="original">中条帯刀</persName>
                                 <persName xml:lang="ja-Latn" source="IANA">Chūjō Takewaki</persName>
-                                <note><p>Supposed founder of the the Chūjō school of midwifery and
-                                        perinatal medicine</p></note>
+                                <note><p>Supposed founder of the the Chūjō school of midwifery and perinatal medicine</p></note>
                             </author>
 
-                            <title>
                                 <title type="original" xml:lang="ja" source="IANA">中条秘伝前后一円集</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Zengo ichien
-                                    shū</title>
-                                <title type="standard" xml:lang="en" source="IANA"/>
-                                <note><p>外題: The title is taken from the outside cover.</p></note>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Zengo ichien shū</title>                         
 
-                            <colophon><locus/>文政第十三寅八月中浣書写終登雲山玉水</colophon>
-
-                            <note><p>The techniques of the school, which were based on Chinese
-                                    pharmacology and expounded in <title xml:lang="ja-Latn"
-                                        source="IANA">Chūjōryū sanka zensho</title> | <title
-                                        xml:lang="ja" source="IANA">中条流産科全書</title> (compiled 1668,
-                                    published 1751) remained for the most part a hiden or secret
-                                    tradition passed on to pupils orally. No other manuscript of the
-                                    same title survives, but related works also in manuscript are
-                                    recorded such as <title xml:lang="ja-Latn" source="IANA"
-                                        >Sanzengo hiden</title>, <title xml:lang="ja-Latn"
-                                        source="IANA">(Chūjōryū) Samzen sango kuden hisho</title>
-                                    and <title xml:lang="ja-Latn" source="IANA">Chūjōryū sanka
-                                        zensho</title>.</p></note>
+                            <colophon><locus/>文政第十三寅八月中浣書写終登雲山玉水
+                                <note>書写奥書</note>
+                            </colophon>
+                            
                         </msItem>
                     </msContents>
 
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent>1冊 4巻 | 1 satsu (volume) 4 maki (sections) <dimensions
-                                        unit="cm" type="binding">
-                                        <dim type="height">24 cm</dim>
-                                        <dim type="width">16.5 cm</dim>
+                                <extent>1冊 4巻 | 1 volume (4 sections) <dimensions
+                                        unit="mm" type="binding">
+                                    <dim type="height">238mm</dim>
+                                    <dim type="width">16mm</dim>
+                                    <dim type="depth">18mm</dim>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
@@ -118,7 +100,7 @@
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>結び綴 | musubitoji (knot-binding)</p>
+                                <p>結び綴 | knot-binding</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
@@ -219,6 +201,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-12-21"><persName>"#AR"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

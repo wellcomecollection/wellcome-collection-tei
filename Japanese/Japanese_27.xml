@@ -53,79 +53,54 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 27</idno>
                         <altIdentifier type="sierra">
-                            <idno>
-                                <!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33176474</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>Illustrated manuscript on acupuncture with text in katakana-majiri,
-                            lacks any title and the title given is purely conjectural.</summary>
+                        <summary>Illustrated manuscript on acupuncture with text in katakana-majiri. This copy lacks any title and the title given is purely conjectural. Contains a colophon giving 1610 as the year of composition and 1722 as the date of copying.                         
+                        </summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_27">
-                            <title>
+                          
                                 <title type="original" xml:lang="ja" source="IANA">鍼灸秘伝書</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shinkyu
-                                    hidensho</title>
-                                <title type="standard" xml:lang="en" source="IANA">"Hidden text" on
-                                    Acupuncture and Moxibustion</title>
-                                <note><p>外題・内題なし | No external or internal title given.</p></note>
-                                <note><p>English translation given by A Rose</p></note>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shinkyu hidensho</title>
+                                <title type="standard" xml:lang="en" source="IANA">"Hidden text" on Acupuncture and Moxibustion</title>                         
 
-                            <incipit><locus/><!-- insert -->
-                                <!-- Use <note> to add general comment -->
-                            </incipit>
-
-                            <explicit><locus/><!-- insert -->
-                                <!-- Use <note> to add general comment -->
-                            </explicit>
-
-                            <colophon><locus/>于時慶長庚戌年 <note>本奥書 | Colophon written by the author
-                                        <note>Contains a colophon giving <date>1610</date> as the
-                                        year of composition and <date>1722</date> as the date of
-                                        copying.</note>
-                                </note></colophon>
+                            <colophon><locus/>于時慶長庚戌年 
+                                <note>本奥書</note>
+                            </colophon>
 
                             <colophon><locus/>右此一冊篠原氏ヨリ中村氏伝授仕☐☐代々秘伝之妙☐ト云々／于時享保七壬寅／（中略）／内藤氏
-                                    <note>書写奥書 | Colophon written by the copyist <note>Contains a
-                                        colophon giving <date>1610</date> as the year of composition
-                                        and <date>1722</date> as the date of copying.</note>
-                                </note></colophon>
+                                    <note>書写奥書</note>
+                            </colophon>
+                            
+                            <note>外題・内題なし。</note>
+                            
                         </msItem>
                     </msContents>
 
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent> 1冊 | 1 satsu (volume) <dimensions unit="cm" type="binding">
-                                        <dim type="height">
-                                            <!-- Insert height indicated by specific format -->
-                                        </dim>
-                                        <dim type="width">
-                                            <!-- Insert width indicated by specific format -->
-                                        </dim>
+                                <extent> 1冊 | 1 volume <dimensions unit="mm" type="binding">
+                                    <dim type="height">258mm</dim>
+                                    <dim type="width">183mm</dim>
+                                    <dim type="depth">7mm</dim>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
 
                         <handDesc>
-                            <handNote scope="sole">Possibly attributed to a member of 内藤氏 | Naitō
-                                clan </handNote>
+                            <handNote scope="sole">Possibly attributed to a member of the Naitō clan (内藤氏)</handNote>
                         </handDesc>
 
                         <scriptDesc>
                             <scriptNote scope="sole">Katakana-majiri</scriptNote>
                         </scriptDesc>
-
-                        <bindingDesc>
-                            <binding contemporary="unknown">
-                                <p><!-- Insert binding information here including type of binding ,if given, in Japanese and English. --></p>
-                            </binding>
-                        </bindingDesc>
 
                     </physDesc>
 
@@ -196,6 +171,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-12-21"><persName>"#AR"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

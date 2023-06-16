@@ -49,18 +49,13 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 20</idno>
                         <altIdentifier type="sierra">
-                            <idno><!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33176401</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> A treatise on surgery by <persName>Honma Sōken</persName>, also
-                            known as Genchō, covering a number of Honma’s surgical practices,
-                            including an amputation of a gangrenous leg undertaken in 1857, in
-                            katakana-majiri script, with coloured illustrations by an unknown
-                            artist. It was privately published by the author in <date>1859</date>,
-                            and distributed for sale by Izumiya Kin’emon of Edo and other commercial
-                            publishers in Kyoto, Osaka and Nagoya. </summary>
+                        <summary> A woodblock printed treatise on surgery by Honma Sōken, also known as Genchō, covering a number of Honma’s surgical practices, including an amputation of a gangrenous leg undertaken in 1857, in katakana-majiri script, with coloured illustrations by an unknown artist. It was privately published by the author in 1859, and distributed for sale by Izumiya Kin’emon of Edo and other commercial publishers in Kyoto, Osaka and Nagoya.                           
+                        </summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
@@ -79,24 +74,16 @@
 
                             <respStmt>
                                 <persName type="original" xml:lang="ja">和泉屋金右衛門</persName>
-                                <persName type="standard" xml:lang="ja-Latn">Izumiya
-                                    Kin’emon</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Izumiya Kin’emon</persName>
                                 <resp>Distributor</resp>
                             </respStmt>
-
-                            <title>
+                 
                                 <title type="original" xml:lang="ja" source="IANA">続瘍科秘録</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Zoku yōka
-                                    hiroku</title>
-                                <title type="standard" xml:lang="en" source="IANA">Secret treatise
-                                    on ulcers</title>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Zoku yōka hiroku</title>
+                                <title type="standard" xml:lang="en" source="IANA">Secret treatise on ulcers</title>                         
 
-                            <note>(奥附書肆)三都書物問屋/京都、勝村治右 衛門/大坂、河内屋喜兵衛・秋田屋太右衛門・河内屋茂兵衛・伊丹屋善兵
-                                衛/尾州名古屋、永楽屋東四郎/江戸、須原屋茂兵衛・須原屋伊八・山城 屋作兵衛・岡田屋嘉七・和泉屋金右衛門</note>
-
-                            <note>巻末「棗軒本間先生著述目録」(1丁)を附す</note>
-
+                            <note>刊年・蔵版者は扉による。（奥附書肆）三都書物問屋／京都、勝村治右衛門／大坂、河内屋喜兵衛・秋田屋太右衛門・河内屋茂兵衛・伊丹屋善兵衛／尾州名古屋、永楽屋東四郎／江戸、須原屋茂兵衛・須原屋伊八・山城屋佐兵衛・岡田屋嘉七・和泉屋金右衛門。巻末「棗軒本間先生著述目録」（１丁）を附す。（印記）「永昌広漢」。</note>
+                            
                             <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
                                         >Kotenseki Work ID: 352625</ref> for copies of
                                         <title>続瘍科秘録</title> held by other institutions.</p>
@@ -110,7 +97,7 @@
                         <objectDesc form="Codex">
 
                             <supportDesc material="paper">
-                                <extent> 5冊 5巻 | 5 satsu (volume) with 5 maki (section) <dimensions
+                                <extent> 5冊 5巻 | 5 volumes (5 sections) <dimensions
                                         unit="mm" type="binding">
                                         <dim type="height">259mm</dim>
                                         <dim type="width">168mm</dim>
@@ -131,18 +118,12 @@
                             <scriptNote scope="major">Katakana</scriptNote>
                         </scriptDesc>
 
-                        <sealDesc>
-                            <p>印記「永昌広漢」</p>
-                        </sealDesc>
-
                     </physDesc>
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō" when="1859"> 安政６ | Sixth year of Ansei
-                                era</origDate>
+                            <origDate calendar="nengō" when="1859"> 安政６</origDate>
                             <origDate calendar="gregorian" when="1859">1859</origDate>
-                            <note>刊年・蔵版者は扉による</note>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -227,6 +208,7 @@
         <revisionDesc>
             <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
             <change when="2022-02-12"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>
