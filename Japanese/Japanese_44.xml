@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_44">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 44</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 44</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 44</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176644</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> An erotic woodblock printed work in three volumes by the pseudonymous Henkado Injin. The external title is Awasekagami. No colophon, but probably published in the early nineteenth century. Contains sexually explicit illustrations. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_44">
+
+                            <author>
+                                <persName type="original" xml:lang="ja">辺佳堂淫人</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Henkado Injin</persName>
+                            </author>
+
+                                <title type="original" xml:lang="ja" source="IANA">春情婀和世鏡</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shunjō awase kagami</title>
+                            
+                            <note>外題「合瀬鏡」。艶本。(無刊印)。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent>3冊 | 3 volumes (3 sections)<dimensions
+                                        unit="mm" type="binding">
+                                        <dim type="height">117mm</dim>
+                                        <dim type="width">86mm</dim>
+                                        <dim type="depth">24mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print.</p></typeNote>
+                        </typeDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" notBefore="1800" notAfter="1850">江戸後期</origDate>
+                            <origDate calendar="gregorian" notBefore="1800" notAfter="1850">Early 19th century</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85044718">Erotica</term>
+                        </item>
+                        <item>
+                            <term key="sh85105008">Pornography</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-10"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_26">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 26</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 26</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 26</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176462</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed manual for the treatment of emergency conditions, including loss of consciousness, injuries, accidents, poisoning and gynaecological and pediatric emergencies, with monochrome illustrations. It was written in hiragana-majiri by Taki Rankei (1732–1801), also known as Motonori, assisted by his eldest son, Taki Keizan (1755–1810), also known as Motoyasu. The Taki family were for generations in service to the Bakufu government as doctors. This work was published in 1790 by the Seijukan, a medical school in Edo founded by Ranekei's father, Mototaka in 1765, distributed by Suharaya Kasuke of Edo et al, and printed at an unknown later date by Hanabusa Heikichi of Edo. 　 
+                            
+                        </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_26">
+
+                            <author key="person_54073026" source="VIAF">
+                                <persName type="original" xml:lang="ja">多紀元悳</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Taki Motonori</persName>
+                                <note><p>Rankei’s father, Mototaka (1695–1766), founded a medical
+                                        school in Edo known as the Seijukan in 1765; Rankei
+                                        succeeded to the headship of this in 1766 and it flourished
+                                        in spite of having to be constantly rebuilt following fires.
+                                        In 1791 the Seijukan was taken over by the Bakufu and became
+                                        the Bakufu’s medical academy, the Igakkan, although the head
+                                        of the Taki family continued to serve as its head. Under the
+                                        Takis, the Igakkan published various medical texts and also
+                                        enjoyed the power of controlling medical publication by
+                                        others; it appears that the Takis were hostile to the
+                                        schools of medicine connected with the Dutch and to the
+                                        introduction of Western medicine to Japan. Rankei, who was
+                                        given many honours, was the author of a number of medical
+                                        works, most of which were never published. Keizan published
+                                        several medical works, but he was also active as a collector
+                                        and editor of medical texts.</p></note>
+                            </author>
+
+                            <respStmt key="person_6336681" source="VIAF">
+                                <persName type="original" xml:lang="ja">多紀桂山</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Taki Motoyasu</persName>
+                                <resp>Assisted author</resp>
+                            </respStmt>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">江戸、須原屋嘉助等</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Suharaya Kasuke of Edo</persName>
+                                <resp>Publisher</resp>
+                                <note>東都書肆／須原屋茂兵衛・須原屋市兵衛・須原屋善五郎・須原屋嘉助／発行</note>
+                            </respStmt>
+
+                            <respStmt>
+                                <persName type="standard" xml:lang="ja-Latn">Hanabusa Heikichi of Edo</persName>
+                                <resp>Printer</resp>
+                            </respStmt>
+
+                            <title>
+                                <title type="original" xml:lang="ja" source="IANA">広恵済急方</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kōkeisai kyūhō</title>
+                                <title type="standard" xml:lang="en" source="IANA">Emergency treatments for the benefit of all</title>
+                            </title>
+                            
+                            <note>外題「官準広恵済急方」。封面に「寛政元年開鐫」とあるが、刊年は跋年に従う。蔵版主は封面による。（奥附書肆）東都書肆／須原屋茂兵衛・須原屋市兵衛・須原屋善五郎・須原屋嘉助／発行。</note>
+                            
+                            <filiation><p>See <ref target="MS Japanese 25">MS Japanese 25</ref> and
+                                        <ref target="MS Japanese 67">MS Japanese 67</ref> for other
+                                    copies of <title xml:lang="ja" source="IANA">広恵済急方</title>. See
+                                        <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki
+                                        Work ID: 177786</ref> for copies of <title>広恵済急方</title>
+                                    held by other institutions.</p>
+                            </filiation>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 3冊 3巻 | 3 volumes (3 sections)<dimensions
+                                        unit="mm" type="binding">
+                                        <dim type="height">271mm</dim>
+                                        <dim type="width">183mm</dim>
+                                        <dim type="depth">51mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">Hirigana</scriptNote>
+                        </scriptDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1790"> 寛政２跋</origDate>
+                            <origDate calendar="gregorian" when="1790">1790</origDate>
+                            <date>封面に「寛政元年開鐫」とあるが、刊年は跋年に従う</date>
+                            <origPlace>
+                                <placeName>Kyoto</placeName>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                        <acquisition>
+                            <note><p>Purchased by the Wellcome Library at auction from Stevens’s on 28 October 1930.</p></note>
+                        </acquisition>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title>A collection of Japanese medical and scientific books from
+                                    the library of Richard C. Rudolph, founder of Asian Studies at
+                                    UCLA</title>
+                                <placeName>Novato</placeName>
+                                <publisher>Jeremy Norman and company</publisher>
+                                <date>2006</date>
+                                <note>#14</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">図説日本医療文化史</title>
+                                <title xml:lang="ja-Latn">Zusetsu Nihon iryō bunkashi</title>
+                                <author xml:lang="ja">宗田一</author>
+                                <author xml:lang="ja-Latn">Sōda Hajime</author>
+                                <placeName>Kyōto</placeName>
+                                <publisher>Shibunkaku</publisher>
+                                <date>1989</date>
+                                <note>p.277</note>
+                            </bibl>
+                            <bibl>
+                                <title>Japanese botany during the period of wood-block
+                                    printing</title>
+                                <author>Harley Harris Bartlett and Hide Shohara</author>
+                                <placeName>Los Angeles</placeName>
+                                <publisher>Dawson’s Book Shop</publisher>
+                                <date>1961</date>
+                                <note>p.116-117</note>
+                            </bibl>
+                            <bibl>
+                                <title>Pearls of the Orient: Asian Treasures from the Wellcome
+                                    Library</title>
+                                <author>Nigel Allan</author>
+                                <placeName>London</placeName>
+                                <publisher>Wellcome Institute</publisher>
+                                <date>2003</date>
+                                <note>p. 203</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">国書総目録</title>
+                                <title xml:lang="ja-Latn">Kokusho sōmokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Iwanami Shoten</publisher>
+                                <date>1963-1976</date>
+                                <note>Vol.3, 216.4</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">国史大辞典</title>
+                                <title xml:lang="ja-Latn">Kokushi daijiten</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Yoshikawa Kobunkan</publisher>
+                                <date>1979-1993</date>
+                                <note>Vol.8, 222; Vol.9, 97 and 102.</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85042755">Emergency medicine</term>
+                        </item>
+                        <item>
+                            <term key="sh85099185">Pediatrics</term>
+                        </item>
+                        <item>
+                            <term key="sh85093768">Obstetrics</term>
+                        </item>
+                        <item>
+                            <term key="sh85103938">Poisoning</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-01-30"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_24">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 24</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 24</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 24</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176449</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed work by Ishida Teikan on childhood diseases and their treatment in hiragana-majiri script, and published by a pharmacist of Kyoto named Ishida Kenji who appears to have some connection with the author as the patent medicines produced by the pharmacy are recommended by the author. According to an end note the work was originally published in 1813 but this is a copy of a new edition published in 1851 with further revisions and additions made in 1859. Other impressions or editions are recorded for 1862, 1865, 1870 and 1874. The book also contains a portrait of the author at the age of 95.
+                            
+                        </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_24">
+
+                            <author key="person_4865111" source="VIAF">
+                                <persName type="original" xml:lang="ja">石田鼎貫</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Ishida Teikan</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="standard" xml:lang="ja-Latn">Ishida Kenji</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+              
+                                <title type="original" xml:lang="ja" source="IANA">小児養育金礎</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shōni yōiku kogane no ishizue</title>
+                                <title type="standard" xml:lang="en" source="IANA">The foundations of childrearing</title>
+
+                            <note>外題「小児養育金礎　薬王円能書」。巻末に薬品広告を附す。</note>
+
+                            <filiation><p>See <ref target="MS Japanese 132">MS Japanese 132</ref>
+                                    for another copy of <title xml:lang="ja" source="IANA"
+                                        >小児養育金礎</title>. See <ref
+                                        target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work
+                                        ID: 1058748</ref> for copies of <title>小児養育金礎</title> held
+                                    by other institutions.</p>
+                            </filiation>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 1冊 | 1 volume<dimensions unit="mm" type="binding">
+                                        <dim type="height">226</dim>
+                                        <dim type="width">159</dim>
+                                        <dim type="depth">7</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">Hirigana</scriptNote>
+                        </scriptDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1851"> 嘉永４</origDate>
+                            <origDate calendar="gregorian" when="1851">1851</origDate>
+                            <date>安政６＜1859＞増修</date>
+                            <origPlace>
+                                <placeName>Kyoto</placeName>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                        <acquisition>
+                            <note><p>Acquired by the Wellcome Library in 1969.</p></note>
+                        </acquisition>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">国書総目録</title>
+                                <title xml:lang="ja-Latn">Kokusho sōmokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Iwanami Shoten</publisher>
+                                <date>1963-1976</date>
+                                <note>Vol 4, 479.1</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85023354">Child care</term>
+                        </item>
+                        <item>
+                            <term key="sh85099185">Pediatrics</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-01-30"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

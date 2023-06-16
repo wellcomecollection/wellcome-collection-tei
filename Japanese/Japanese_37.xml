@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_37">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 37</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 37</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 37</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176577</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>Three volumes of woodblock printed sketches of birds, flowers, animals and figures by Kitao Masayoshi(1764-1824); he was also known as Kuwagata Keisai prior to becoming the official painter to the daimyo of Tsuyama in 1797. This work was published in 1801 by Eirakuya Tōshirō of Nagoya. According to Hillier, the artist makes extensive use of the tonal printing effects pioneered by Tachibana Morikuni in his Unpitsu soga 504 (1749), which clearly inspired him. This work is, surprisingly, not listed in Kokusho, Kotenseki or Ehon: all three refer to a work with a similar title, Shinki issō, by the same artist and published with a preface dated 1814, but this must be a different work. Forrer, in his study of the career of Eirakuya Tōshirō, refers to Shinki ipputsu in passing: it is clearly the same work as the present one. Hillier’s index lists Shinki issō but not Shinki ipputsu, although on the pages cited it is Shinki ipputsu that is discussed, not Shinki issō. Brown states that Shinki ipputsu was published in 1800 in one volume and that Shinki issō is a supplementary series to Shinki ipputsu and was published in three volumes in 1804. There is considerable confusion here which cannot be sorted without a close examination of surviving copies of both works. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_37">
+
+                            <author key="person_120788740" source="VIAF">
+                                <persName type="original" xml:lang="ja">北尾政美</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kitao Masayoshi</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">名古屋、永楽屋東四郎</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Eirakuya Tōshirō of Nagoya</persName>
+                                <resp>Publisher</resp>
+                                <resp/>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">心機一払</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shinki ipputsu</title>
+                            
+                            <note>心機一払(外題)。(序題)「新奇一払」。上巻裏表紙ペン書　「Chr.Dresser. Purchased at Nagoya March 11th 1877. Collection of sketches published at Yedo 76 years since A.D. 1880 」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 3冊 3巻| 3 volumes (3 sections)<dimensions
+                                        unit="mm" type="binding">
+                                        <dim type="height">271mm</dim>
+                                        <dim type="width">188mm</dim>
+                                        <dim type="depth">19mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print.</p></typeNote>
+                        </typeDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1801">協和1</origDate>
+                            <origDate calendar="gregorian" when="1801">1801</origDate>
+                            <date/>
+                            <origPlace>
+                                <placeName>Nagoya</placeName>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Formerly in the collection of Christopher Dresser described as 'Collection of sketches published at Yedo 76 years since A.D. 1880'. Dresser who purchased the volumes in Nagoya on 11th March 1877.</provenance>
+                        <acquisition>
+                            <note><p>Purchased by the Wellcome Library at auction from Stevens’s in 1905.</p></note>
+                        </acquisition>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title>Block printing and book illustration in Japan</title>
+                                <author>Louise Norton Brown</author>
+                                <placeName>London</placeName>
+                                <publisher>London and George Routledge and Sons Ltd.</publisher>
+                                <date>1924</date>
+                                <note>p.124</note>
+                            </bibl>
+                            <bibl>
+                                <title>The art of Japanese book</title>
+                                <author>Jack Hillier</author>
+                                <placeName>London</placeName>
+                                <publisher>Philip Wilson, for Sotheby’s Publications</publisher>
+                                <date>1988</date>
+                                <note>pp.193, 477-479</note>
+                            </bibl>
+                            <bibl>
+                                <title>The illustrated books of the Nanga, Maruyama, Shijo and other
+                                    related schools of Japan : a bibliography</title>
+                                <author>C.H.Mitchell</author>
+                                <placeName>Los Angeles</placeName>
+                                <publisher>Dawson's Book Shop</publisher>
+                                <date>1972</date>
+                                <note>p.476</note>
+                            </bibl>
+                            <bibl>
+                                <title>Eirakuya Tōshirō, publisher at Nagoya : a contribution to the
+                                    history of publishing in 19th century Japan</title>
+                                <author>Matthi Forrer</author>
+                                <placeName>Amsterdam</placeName>
+                                <publisher>J.C. Gieben</publisher>
+                                <date>1985</date>
+                                <note>p.86</note>
+                            </bibl>
+                            <bibl>
+                                <title>A dictionary of Japanese artists: painting, sculpture,
+                                    ceramics, print, lacquer</title>
+                                <author>Laurence P. Roberts</author>
+                                <placeName>New York</placeName>
+                                <publisher>Weatherhill</publisher>
+                                <date>1976</date>
+                                <note>p.75</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-03"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

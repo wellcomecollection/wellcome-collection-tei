@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_49">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 49</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 49</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 49</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176693</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> A sequel to the Dōchū hizakurige series of comic travelogues by Jippensha Ikku (1765-1831). It consists of 15 woodblock printed volumes, of which the first 11 were written by the satirist Kanagaki Robun (1829-1894) and the remainder by Fusō Hiroshi, and published between 1870-76. 
+                            This copy is incomplete, consisting of vols.1, 2,10 and 15 only. Contains both polychrome and monochrome illustrations. Vol.15 was illustrated by Kawanabe Kyōsai (1831-89) and the others by Utagawa Yoshiiku (1833-1904), a pupil of Utagawa Kuniyoshi, who became a newspaper illustrator after the Meiji Restoration. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_49">
+
+                            <author key="person_15008086" source="VIAF">
+                                <persName type="original" xml:lang="ja">仮名垣魯文</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kanagaki Robun</persName>
+                            </author>
+
+                            <author>
+                                <persName type="standard" xml:lang="ja-Latn">Fusō Hiroshi</persName>
+                            </author>
+
+                            <author key="person_50020258" source="VIAF">
+                                <persName type="original" xml:lang="ja">河鍋暁斎</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kawanabe Kyōsai</persName>
+                            </author>
+
+                            <author key="person_241657397" source="VIAF">
+                                <persName type="original" xml:lang="ja">歌川芳幾</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Utagawa Yoshiiku</persName>
+                            </author>
+
+                                <title type="original" xml:lang="ja" source="IANA">万国航海西洋道中膝栗毛</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Seyō dōchū hizakurige</title>
+
+                            <note>発行 書林/京都、堺屋(吉野屋)仁兵衛/大坂、伊丹屋善兵衛・近江屋平助・河内屋忠七/尾州名古屋、菱屋藤兵衛・菱屋平兵衛/東京、須原屋茂兵衛・山城屋佐兵衛・須原屋新兵衛・岡田屋嘉七・和泉屋市兵衛・和泉屋金右衛門・須原屋伊八・椀屋喜兵衛。(十五編刊記書肆) 大日本東京書肆/椀屋 江島起本・同伊兵衛・同伊三郎・同喜兵衛。(印記) 「関谷」「松屋文庫」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent>8冊(初・二・十編奥附書肆) | 8 volumes (sections 1-2,10 and 15)<dimensions unit="mm" type="binding">
+                                        <dim type="height">185mm</dim>
+                                        <dim type="width">126mm</dim>
+                                        <dim type="depth">47mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print.</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" from="1870" to="1876">(初・二)明治3 / (十)明治4 / (十五)明治9 </origDate>
+                            <origDate calendar="gregorian" from="1870" to="1876">1870-1876</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title>Demon of painting: the art of Kawanabe Kyōsai</title>
+                                <author>Timothy Clark</author>
+                                <placeName>London</placeName>
+                                <publisher>British Museum Press</publisher>
+                                <date>1993</date>
+                                <note>p.123</note>
+                            </bibl>
+                            <bibl>
+                                <title>A dictionary of Japanese artists: painting, sculpture,
+                                    ceramics, print, lacquer</title>
+                                <author>Laurence P. Roberts</author>
+                                <placeName>New York</placeName>
+                                <publisher>Weatherhill</publisher>
+                                <date>1976</date>
+                                <note>p.100,193</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">明治文学全集</title>
+                                <title xml:lang="ja-Latn">Meiji bungaku zenshū</title>
+                                <publisher>Chikuma Shobō</publisher>
+                                <date>1966</date>
+                                <note>Vol 1, p.436</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-10"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_40">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 40</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 40</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 40</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176607</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> The first of five volumes of a woodblock printed work of fiction by the comic novelist Jippensha Ikku (1765-1831), and illustrated by Katsukawa Shuntei (1770-1820), an ukiyoe artist who produced surimono, book illustrations and other prints. The story is set in the pleasure quarters and the plot concerns the amorous adventures of a young member of the merchant class. Contains the impressions of the seals of what appear to be a number of kashihon’ya (circulating libraries). This copy lacks the colophon which would have been in the fifth volume, but was apparently published in 1815. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_40">
+
+                            <author key="person_108369790" source="VIAF">
+                                <persName type="original" xml:lang="ja">十返舎一九</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Jippensha Ikku</persName>
+                            </author>
+
+                            <author key="person_4771169" source="VIAF">
+                                <persName type="original" xml:lang="ja">勝川春亭</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Katsukawa Shuntei</persName>
+                            </author>
+
+                                <title type="original" xml:lang="ja" source="IANA">通俗巫山夢</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Tsūzoku fuzan no yume</title>
+                            
+
+                            <note>刊年は『国書総目録』による。(印記)「万」「北市」「善」「江久」。
+                            </note>
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 374232</ref> for copies of
+                                        <title>通俗巫山夢</title> held by other institutions.</p>
+                            </filiation>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent>1冊 | 1 volume (incomplete)<dimensions unit="mm"
+                                        type="binding">
+                                        <dim type="height">226mm</dim>
+                                        <dim type="width">159mm</dim>
+                                        <dim type="depth">11mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print.</p></typeNote>
+                        </typeDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1815"> 文化12</origDate>
+                            <origDate calendar="gregorian" when="1815">1815</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">国書総目録</title>
+                                <title xml:lang="ja-Latn">Kokusho sōmokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Iwanami Shoten</publisher>
+                                <date>1963-1976</date>
+                                <note>Vol 5, 732.4</note>
+                            </bibl>
+                            <bibl>
+                                <title>A dictionary of Japanese artists: painting, sculpture,
+                                    ceramics, print, lacquer</title>
+                                <author>Laurence P. Roberts</author>
+                                <placeName>New York</placeName>
+                                <publisher>Weatherhill</publisher>
+                                <date>1976</date>
+                                <note>p.158</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">中村幸彦著作集</title>
+                                <title xml:lang="ja-Latn">Nakamura Yukihiko chojutsushū</title>
+                                <publisher>Chūō Kōronsha</publisher>
+                                <date>1982-1989</date>
+                                <note>Vol 5, 471.2</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-03"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

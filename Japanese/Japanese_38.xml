@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_38">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 38</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 38</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 38</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176589</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> A woodblock printed manual for the performance of the tea ceremony with sencha (infused tea) written and illustrated by Ryūkatei Ransui of Nagoya, including monochrome illustrations of the utensils required. It was originally titled Jibencharyaku but the title has been excised from the blocks and a new title substituted on the covers. The blocks for Jibencharyaku were cut in 1802, but the date at which the changes were made is unknown. Under the new title it was published by Eirakuya Tōshirō of Nagoya et al.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_38">
+
+                            <author key="person_56485398" source="VIAF">
+                                <persName type="original" xml:lang="ja">柳下亭嵐翠</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Ryūkatei Ransui</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">永楽屋東四郎等</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Eirakuya Tōshirō</persName>
+                                <resp>Publisher</resp>
+                                <resp/>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">煎茶早指南</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Sencha hayashinan</title>
+                            
+
+                            <note>内題删去。『自弁茶略』の改題後修本。(奥附書肆)発行書林/江戸、須原屋茂兵衛・山城屋佐兵衛・岡田屋嘉七/大阪、河内屋喜兵衛・河内屋和助/京都、風月庄左衛門・丸屋善兵衛/尾州名古屋、永楽屋東四郎。巻末「尾張名古屋書肆東壁堂製本略目録記」(5丁)を附す。
+                            </note>
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 1062733</ref> for copies of
+                                        <title>煎茶早指南</title> held by other institutions.</p>
+                            </filiation>
+
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 1冊 1巻| 1 volume (1 section)<dimensions
+                                        unit="mm" type="binding">
+                                        <dim type="height">262mm</dim>
+                                        <dim type="width">183mm</dim>
+                                        <dim type="depth">11mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print.</p></typeNote>
+                        </typeDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1802"> 協和2</origDate>
+                            <origDate calendar="gregorian" when="1802">1802</origDate>
+                            <date/>
+                            <origPlace>
+                                <placeName>名古屋</placeName>
+                                <placeName>Nagoya</placeName>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">国書総目録</title>
+                                <title xml:lang="ja-Latn">Kokusho sōmokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Iwanami Shoten</publisher>
+                                <date>1963-1976</date>
+                                <note>Vol 5, 219.1</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">日本の茶書</title>
+                                <title xml:lang="ja-Latn">Nihon no chasho</title>
+                                <author xml:lang="ja">林家辰三郎</author>
+                                <author xml:lang="ja-Latn">Hayashiya Tatsusaburō et al.</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Heibonsha</publisher>
+                                <date>1972</date>
+                                <note>p.224</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">名古屋叢書</title>
+                                <title xml:lang="ja-Latn">Nagoya sōsho</title>
+                                <placeName>Nagoya</placeName>
+                                <publisher>Nagoya-shi kyōiku iinkai</publisher>
+                                <date>1960</date>
+                                <note>Vol. 16, pp.35-37</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-03"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

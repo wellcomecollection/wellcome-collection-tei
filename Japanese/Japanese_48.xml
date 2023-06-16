@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_48">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 48</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 48</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 48</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176681</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> 2 woodblock printed volumes containing reproductions of works by Ogata Kōrin (1658-1716). He was a member of the Rinpa school and the foremost decorative painter of Edo; he also produced ceramics, textiles and lacquerware. The selection and reproductions were the work of Ikeda Koson (1801-1866), an artist who turned away from Rinpa revival style of Sakai Hōitsu after encountering Ming painting. The title of this work, which was published in 1864 and distributed by Izumiya Kin’emon of Edo, recalls Kōrin hyakuzu, a tribute to Kōrin produced on the centenary of his death in 1815 by Sakai Hōitsu. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_48">
+
+                            <author key="person_14718549" source="VIAF">
+                                <persName type="original" xml:lang="ja">池田孤村</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Ikeda Koson</persName>
+                            </author>
+
+                            <respStmt key="person_95891668" source="VIAF">
+                                <persName type="original" xml:lang="ja">尾形光琳</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Ogata Kōrin</persName>
+                                <resp>Artist</resp>
+                            </respStmt>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">和泉屋金右衛門</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Izumiya Kin’emon</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">光琳新撰百図</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kōrin shinsen hyakuzu</title>                          
+
+                            <note>光琳新撰百図 (外題)。(奥附書肆・朱印) 玉叢書舗/江戸横山街茅/三房和泉屋金/右衛門和 漢書/籍精(ママ)造発兌記」。(表紙ペン書)</note>
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 181704</ref> for copies of
+                                        <title>光琳新撰百図</title> held by other institutions.</p>
+                            </filiation>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent>2冊 | 2 volumes<dimensions unit="mm" type="binding">
+                                        <dim type="height">257mm</dim>
+                                        <dim type="width">189mm</dim>
+                                        <dim type="depth">23mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print.</p></typeNote>
+                        </typeDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p>One volume with a pale blue and one volume with a green toned paper cover, both with block printed silver leaf butterfly decoration. Originally attached with a sewn binding of dark maroon silk.</p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1864">元治1</origDate>
+                            <origDate calendar="gregorian" when="1864">1864</origDate>
+                            <origPlace>
+                                <placeName>江戸</placeName>
+                                <placeName>Edo</placeName>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Formerly in the collection of Christopher Dresser.</provenance>
+                        <acquisition>
+                            <note><p>Purchased by the Wellcome Library at auction from Stevens’s in 1905.</p></note>
+                        </acquisition>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+
+                            <custodialHist>
+                                <custEvent type="exhibition" from="2017-05" to="2017-12">
+                                    <p>Exhibited as part of Tokyo to the Tees at the Dorman Museum,
+                                        May-December 2017.</p>
+                                </custEvent>
+                            </custodialHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">国書総目録</title>
+                                <title xml:lang="ja-Latn">Kokusho sōmokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Iwanami Shoten</publisher>
+                                <date>1963-1976</date>
+                                <note>Vol 3, 324.1</note>
+                            </bibl>
+                            <bibl>
+                                <title level="j" xml:lang="ja-Latn">Nihon shoshigaku taikei</title>
+                                <title level="a" xml:lang="ja">絵本年表</title>
+                                <title level="a" xml:lang="ja-Latn">Ehon nenpyō</title>
+                                <author xml:lang="ja">漆山又四郎</author>
+                                <author xml:lang="ja-Latn">Urushiyama Matashirō</author>
+                                <placeName>Musashimurayama</placeName>
+                                <publisher>Seishōdō Shoten</publisher>
+                                <date>1983-1987</date>
+                                <note>Vol.4, p.207</note>
+                            </bibl>
+                            <bibl>
+                                <title>The illustrated books of the Nanga, Maruyama, Shijo and other
+                                    related schools of Japan : a bibliography</title>
+                                <author>C.H.Mitchell</author>
+                                <placeName>Los Angeles</placeName>
+                                <publisher>Dawson's Book Shop</publisher>
+                                <date>1972</date>
+                                <note>p.327</note>
+                            </bibl>
+                            <bibl>
+                                <title>A dictionary of Japanese artists: painting, sculpture,
+                                    ceramics, print, lacquer</title>
+                                <author>Laurence P. Roberts</author>
+                                <placeName>New York</placeName>
+                                <publisher>Weatherhill</publisher>
+                                <date>1976</date>
+                                <note>p.90,92</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-10"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

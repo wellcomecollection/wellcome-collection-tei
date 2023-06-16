@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_30">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 30</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 30</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 30</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176504</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A work on childbirth by Kamo Yūsai aimed at a popular audience containing practical information for mothers and instructions concerning yin-yang divination in connection with pregnancy, including the use of amulets and other devices to ward off harm, with line illustrations. It was first published in 1839 but this is a reprint issued in 1844.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_30">
+
+                            <author key="person_51087266" source="VIAF">
+                                <persName type="original" xml:lang="ja">加茂熊斎</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kamo Yūsai</persName>
+                            </author>
+
+                                <title type="original" xml:lang="ja" source="IANA">安産幸運録</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Anzan kōunroku</title>
+                                <title type="standard" xml:lang="en" source="IANA">Problem-free childbirth</title>
+                            
+                            <note>外題「陰陽和合安産幸運録」。封面に「備岳館＜著者カ＞社中蔵板」。刊記に「天保十…彫刻」とあり。（天保十五年奥附書肆）三都書林／江戸、須原屋茂兵衛・山城屋佐兵衛／京都、吉野屋仁兵衛・田中屋専助／大阪、河内屋喜兵衛・玉島屋民次郎。巻末に「備岳館蔵板目録」（半丁）を附す。</note>
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 87898</ref> for copies of
+                                        <title>安産幸運録</title> held by other institutions.</p>
+                            </filiation>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 3冊 3巻 | 3 volumes (3 sections)<dimensions
+                                        unit="mm" type="binding">
+                                        <dim type="height">227mm</dim>
+                                        <dim type="width">161mm</dim>
+                                        <dim type="depth">21mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1844"> 天保15</origDate>
+                            <origDate calendar="gregorian" when="1844">1844</origDate>
+                            <origPlace>
+                                <placeName>Kyoto</placeName>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">国書総目録</title>
+                                <title xml:lang="ja-Latn">Kokusho sōmokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Iwanami Shoten</publisher>
+                                <date>1963-1976</date>
+                                <note>Vol.1, 121.1</note>
+                            </bibl>
+                            <bibl>
+                                <title level="a" xml:lang="ja">明治前日本産婦人科史</title>
+                                <title level="a" xml:lang="ja-Latn">(Meijizen) Nihon sanfujinka
+                                    shi</title>
+                                <title level="j" xml:lang="ja">名自前日本医学史</title>
+                                <title level="j" xml:lang="ja-Latn">(Meijizen) Nihon
+                                    igakushi</title>
+                                <author xml:lang="ja">梶完次・藤井尚久</author>
+                                <author xml:lang="ja-Latn">Kaji Kanji and Fujii Naohisa</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Nihon Gakujutsu Shinkckai</publisher>
+                                <date>1964</date>
+                                <note>Vol.4, p.200</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85038589">Divination</term>
+                        </item>
+                        <item>
+                            <term key="sh85149161">Yin-yang</term>
+                        </item>
+                        <item>
+                            <term key="sh85093768">Obstetrics</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-01-30"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

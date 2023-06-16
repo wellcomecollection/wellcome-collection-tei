@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_35">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 35</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 35</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 35</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176553</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> The third and last volume of Koga yōran, an antology of earlier paintings, edited by Takada Enjō and illustrated by Musha Shūei. The set was first published in 1786; this woodblock print copy was printed in 1824 by Yamashiroya Sahee of Edo from the original blocks. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_35">
+
+                            <author>
+                                <persName type="original" xml:lang="ja">武者周栄</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Musha Shūei</persName>                  
+                            </author>
+
+                            <author>
+                                <persName type="original" xml:lang="ja">高田円乗編</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Takada Enjō</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">江戸、山城屋佐兵衛</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Yamashiroya Sahee of Edo</persName>
+                                <resp>Publisher</resp>
+                                <resp/>
+                            </respStmt>
+
+                            <title type="original" xml:lang="ja" source="IANA">古画要覧</title>
+                            <title type="standard" xml:lang="ja-Latn" source="IANA">Koga yōran</title>
+                            
+                            <note>原代簽欠。刊年は『国書総目録』による。(印記)「山岡図書印」。</note>
+                            
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 962107</ref> for copies of
+                                        <title>古画要覧</title> held by other
+                                institutions.</p></filiation>
+                            
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent>1冊 | 1 volume (incomplete)<dimensions unit="mm"
+                                        type="binding">
+                                        <dim type="height">274mm</dim>
+                                        <dim type="width">184mm</dim>
+                                        <dim type="depth">8mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print.</p></typeNote>
+                        </typeDesc>
+
+                        <decoDesc>
+                            <p>Monochrome illustrations with the addition of grey colouring.</p>
+                        </decoDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1824"> 文政7</origDate>
+                            <origDate calendar="gregorian" when="1824">1824</origDate>
+                            <date>〔天明6〕刊・文政7。</date>
+                            <origPlace>
+                                <placeName>Edo</placeName>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                        <acquisition>
+                            <note><p>Purchased by the Wellcome Library in 1932.</p></note>
+                        </acquisition>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">国書総目録</title>
+                                <title xml:lang="ja-Latn">Kokusho sōmokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Iwanami Shoten</publisher>
+                                <date>1963-1976</date>
+                                <note>Vol.3, 344.1</note>
+                            </bibl>
+                            <bibl>
+                                <title level="j" xml:lang="ja-Latn">Nihon shoshigaku taikei</title>
+                                <title level="a" xml:lang="ja">絵本年表</title>
+                                <title level="a" xml:lang="ja-Latn">Ehon nenpyō</title>
+                                <author xml:lang="ja">漆山又四郎</author>
+                                <author xml:lang="ja-Latn">Urushiyama Matashirō</author>
+                                <placeName>Musashimurayama</placeName>
+                                <publisher>Seishōdō Shoten</publisher>
+                                <date>1983-1987</date>
+                                <note>Vol.2, p.285</note>
+                            </bibl>
+                            <bibl>
+                                <title>Block printing and book illustration in Japan</title>
+                                <author>Louise Norton Brown</author>
+                                <placeName>London</placeName>
+                                <publisher>London and George Routledge and Sons Ltd.</publisher>
+                                <date>1924</date>
+                                <note>p.117</note>
+                            </bibl>
+                            <bibl>
+                                <title>The illustrated books of the Nanga, Maruyama, Shijo and other
+                                    related schools of Japan : a bibliography</title>
+                                <author>C.H.Mitchell</author>
+                                <placeName>Los Angeles</placeName>
+                                <publisher>Dawson's Book Shop</publisher>
+                                <date>1972</date>
+                                <note>p.371</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-01"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

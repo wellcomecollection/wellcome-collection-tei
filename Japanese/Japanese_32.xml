@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_32">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 32</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 32</idno>
+                <idno type="catalogue">Japanese Medical and Other Books at the Wellcome
+                    Institute</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 32</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176528</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>The first of three volumes of Ehon mitsuwagusa, a woodblock printed line illustrated book by Nishikawa Sukenibu (1671-1751). This copy lacks a colophon but according to Matsudaira, all surviving copies carry a colophon indicating that the blocks were prepared in 1740 and that the copy was printed in 1758. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_32">
+
+                            <author>
+                                <persName type="original" xml:lang="ja">西川祐信画</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Nishikawa Sukenibu</persName>
+                            </author>
+
+                            <title>
+                                <title type="original" xml:lang="ja" source="IANA">絵本三津輪壬</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Ehon mitsuwagusa</title>
+                            </title>
+                            
+                            <note>(印記)「名古屋堀□町/御菓子所/□□□」。</note>
+                            
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 1冊 | 1 volume (incomplete)<dimensions unit="mm"
+                                        type="binding">
+                                        <dim type="height">262mm</dim>
+                                        <dim type="width">185mm</dim>
+                                        <dim type="depth">11mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1758"> 宝暦8</origDate>
+                            <origDate calendar="gregorian" when="1758">1758</origDate>
+                            <date>元文5〕刊・〔宝暦8〕印(刊記欠)</date>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace>
+                        </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <author>Peter Francis Kornicki</author>
+                                        <title level="a">Japanese Medical and Other Books at the
+                                            Wellcome Institute</title>
+                                        <title level="j">Bulletin of the School of Oriental and
+                                            African Studies, University of London</title>
+                                        <publisher>Cambridge University Press</publisher>
+                                        <date>1997</date>
+                                        <biblScope unit="volume">60</biblScope>
+                                        <biblScope unit="number">3</biblScope>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">国書総目録</title>
+                                <title xml:lang="ja-Latn">Kokusho sōmokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Iwanami Shoten</publisher>
+                                <date>1963-1976</date>
+                                <note>Vol.1, 502.1</note>
+                            </bibl>
+                            <bibl>
+                                <title level="j" xml:lang="ja-Latn">Nihon shoshigaku taikei</title>
+                                <title level="a" xml:lang="ja">師宣祐信絵本書誌</title>
+                                <title level="a" xml:lang="ja-Latn">Morunobu Sukenobu ehon
+                                    shi</title>
+                                <author xml:lang="ja">松平進</author>
+                                <author xml:lang="ja-Latn">Matsudaira Susumu</author>
+                                <placeName>Musashimurayama</placeName>
+                                <publisher>Seishōdō Shoten</publisher>
+                                <date>1988</date>
+                                <note>Vol.57, pp.266-268</note>
+                            </bibl>
+                            <bibl>
+                                <title>The art of Japanese book</title>
+                                <author>Jack Hillier</author>
+                                <placeName>London</placeName>
+                                <publisher>Philip Wilson, for Sotheby’s Publications</publisher>
+                                <date>1988</date>
+                                <note>pp.167-168</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-01"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
