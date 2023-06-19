@@ -50,18 +50,12 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 52</idno>
                         <altIdentifier type="sierra">
-                            <idno>
-                                <!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33176796</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>The first of the 21 imperially commissioned anthologies of court
-                            poetry, originally compiled by <persName>Ki no Tsurayuki</persName>
-                                (c.<date>872-945</date>), on the order of emperor Daigo in
-                                <date>905</date>. This is a manuscript copy of the first ten of
-                            twenty volumes, executed probably in the <date>seventeenth
-                                century</date>.</summary>
+                        <summary>The first of the 21 imperially commissioned anthologies of court poetry, originally compiled by Ki no Tsurayuki (c.872-945), on the order of emperor Daigo in 905. This is a manuscript copy of the first ten of twenty volumes, executed probably in the seventeenth century.</summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
@@ -69,19 +63,13 @@
 
                             <author key="person_1606145856885622920249" source="VIAF">
                                 <persName xml:lang="ja" source="IANA" type="original"> 紀貫之</persName>
-                                <persName xml:lang="ja-Latn" source="IANA">Ki no
-                                    Tsurayuki</persName>
-                                <note><p>Japanese author, poet and courtier of the Heian period,
-                                        (c.872-945)</p></note>
+                                <persName xml:lang="ja-Latn" source="IANA">Ki no Tsurayuki</persName>
+                                <note><p>Japanese author, poet and courtier of the Heian period,(c.872-945)</p></note>
                             </author>
 
-                            <title>
                                 <title type="original" xml:lang="ja" source="IANA">古今和歌集</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kokin
-                                    wakashū</title>
-                                <title type="standard" xml:lang="en" source="IANA">Collection of Japanese
-                                    Poems of Ancient and Modern Times</title>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kokin wakashū</title>
+                                <title type="standard" xml:lang="en" source="IANA">Collection of Japanese Poems of Ancient and Modern Times</title>                            
 
                             <incipit><locus/><!-- insert -->
                                 <!-- Use <note> to add general comment -->
@@ -94,6 +82,8 @@
                             <colophon><locus/><!-- insert -->
                                 <!-- Use <note> to add general comment -->
                             </colophon>
+                            
+                            <note>鳥子紙使用。金襴表紙。</note>
 
                         </msItem>
                     </msContents>
@@ -101,24 +91,19 @@
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <support>鳥子紙使用 | fine Torinoko paper</support>
-                                <extent> 1冊 | 1 satsu (volume) <dimensions unit="cm" type="binding">
-                                        <dim type="height">
-                                            <!-- Insert height indicated by specific format -->
-                                        </dim>
-                                        <dim type="width">
-                                            <!-- Insert width indicated by specific format -->
-                                        </dim>
+                                <extent> 1冊 (存巻1-10) | 1 volume (sections 1-10)<dimensions unit="cm" type="binding">
+                                    <dim type="height">239mm</dim>
+                                    <dim type="width">167mm</dim>
+                                    <dim type="depth">15mm</dim>
                                     </dimensions>
                                 </extent>
-                                <foliation> 存巻1-10 | Volumes 1-10 </foliation>
                             </supportDesc>
                         </objectDesc>
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>金襴表紙 | Gold brocade cover, suggesting it may have been intended
-                                    as a bridal gift.</p>
+                                <p>金襴表紙</p> 
+                                <p>Gold brocade cover, suggesting it may have been intended as a bridal gift.</p>
                             </binding>
                         </bindingDesc>
 
@@ -127,8 +112,7 @@
                     <history>
                         <origin>
                             <origDate calendar="nengō" from="1600" to="1700">江戸前期</origDate>
-                            <origDate calendar="gregorian" from="1600" to="1700">17th
-                                century</origDate>
+                            <origDate calendar="gregorian" from="1600" to="1700">17th century</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -162,6 +146,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-12-20"><persName>"#AR"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

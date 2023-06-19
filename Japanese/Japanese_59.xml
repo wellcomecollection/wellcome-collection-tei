@@ -46,23 +46,13 @@
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 59</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176875</idno>
+                        </altIdentifier>                       
                     </msIdentifier>
 
                     <msContents>
-                        <summary>Dutch translation by <persName>Isaac Titsingh</persName> of two
-                            Japanese herbals; <title>Qua ji of versameling van Planten en gewassen
-                                Bloemen en Kruyden</title>, translated from the Japanese work
-                                <title>Kai</title> written by <persName xml:lang="ja" source="IANA"
-                                >島田 充房</persName> | <persName xml:lang="ja-Latn" source="IANA"
-                                >Shimada, Mitsufusa</persName> and <persName xml:lang="ja"
-                                source="IANA">小野 蘭山</persName> | <persName xml:lang="ja-Latn"
-                                source="IANA">Ono, Ranzan</persName>, and <title>Japanse Naamen van
-                                de in Japan groeyende Boomen, struyken, heesters, planten en
-                                kruijden</title>. There are additional titles given which describe
-                            both translated works; on the spine of the binding, <title>Exposé du
-                                Livre des Fleurs Traduit du Japonais en Hollandais
-                                P.M.Titzing</title>, and on the manuscript itself, <title>Kwaji of
-                                Kruydboek</title>. </summary>
+                        <summary>Dutch translation by Isaac Titsingh of two Japanese herbals; Qua ji of versameling van Planten en gewassen Bloemen en Kruyden, translated from the Japanese work Kai written by Shimada Mitsufusa (島田充房) and Ono Ranzan's (小野蘭山) Japanse Naamen van de in Japan groeyende Boomen, struyken, heesters, planten en kruijden. There are additional titles given which describe both translated works; on the spine of the binding, Exposé du Livre des Fleurs Traduit du Japonais en Hollandais P.M.Titzing, and on the manuscript itself, Kwaji of Kruydboek. </summary>
 
                         <textLang mainLang="nl" source="IANA">Dutch</textLang>
 
@@ -71,8 +61,8 @@
                             <author key="person_73860738" source="VIAF">
                                 <persName>Isaac Titsingh</persName>
                             </author>
-                            <title type="original" xml:lang="nl" source="IANA">Qua ji of versameling van
-                                Planten en gewassen Bloemen en Kruyden</title>
+                            
+                            <title type="original" xml:lang="nl" source="IANA">Qua ji of versameling van Planten en gewassen Bloemen en Kruyden</title>
 
                             <filiation><p>The first published translation of Kai was by L.Savatier,
                                     Botanique japonaise. Livres Kwa-wi traduit du japonais avec
@@ -87,9 +77,8 @@
                             <author key="person_73860738" source="VIAF">
                                 <persName>Isaac Titsingh</persName>
                             </author>
-                            <title type="original" xml:lang="nl" source="IANA">Japanse Naamen van de in
-                                Japan groeyende Boomen, struyken, heesters, planten en
-                                kruijden.</title>
+                            
+                            <title type="original" xml:lang="nl" source="IANA">Japanse Naamen van de in Japan groeyende Boomen, struyken, heesters, planten en kruijden.</title>
 
                         </msItem>
 
@@ -98,7 +87,7 @@
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent> １冊 １巻 | 1 satsu (volume) with 1 maki (section) <dimensions
+                                <extent> １冊 | 1 volume <dimensions
                                         unit="mm" type="binding">
                                         <dim type="height">335mm</dim>
                                         <dim type="width">213mm</dim>
@@ -109,15 +98,13 @@
 
                         <handDesc>
                             <handNote scope="sole">Issac Titsingh</handNote>
-                            <handNote><p>Issac Titsingh <date>(1744-1812)</date> lived in
-                                        <placeName>Japan </placeName>as head of the Dutch factory at
-                                    Deshima between <date>1779-1780</date> and
-                                    <date>1781-83</date>.</p></handNote>
+                            <handNote>Issac Titsingh (1744-1812) lived in Japan as head of the Dutch factory at Deshima between 1779-1780 and 1781-83.</handNote>
                         </handDesc>
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>洋装本 | Western style binding.</p>
+                                <p>洋装本</p>
+                                <p>Western style binding</p>
                             </binding>
                         </bindingDesc>
 
@@ -125,17 +112,14 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="gregorian" from="1779" to="1783"
-                                >c.1779-1783</origDate>
+                            <origDate calendar="gregorian" from="1779" to="1783">c.1779-1783</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
                         </origin>
 
                         <acquisition>
-                            <p>The book was acquired by the Wellcome Historical Medical Museum from
-                                    <name type="auction">Sothebys</name>, 24th June 1919 and
-                                accessioned on 4th July 1924 (43330).</p>
+                            <p>The book was acquired by the Wellcome Historical Medical Museum from <name type="auction">Sothebys</name>, 24th June 1919 and accessioned on 4th July 1924 (43330).</p>
                         </acquisition>
 
                     </history>
@@ -202,6 +186,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-11-29"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

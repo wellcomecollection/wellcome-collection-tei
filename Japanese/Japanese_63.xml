@@ -51,27 +51,15 @@
                     </msIdentifier>
 
                     <msContents>
-                        <summary> An incomplete manuscript entitled <title type="original" xml:lang="ja"
-                                source="IANA">痘疹精要</title> | <title type="standard" xml:lang="ja-Latn"
-                                source="IANA">Toshin seiyo</title> | <title type="standard" xml:lang="en"
-                                source="IANA">The essentials of smallpox</title>, including coloured
-                            illustrations of different symptoms of smallpox. An inscription on the
-                            title page of the second volume attributes the work to <persName
-                                type="aut" xml:lang="ja" source="IANA">神田玄泉</persName> | <persName
-                                type="aut" xml:lang="ja-Latn" source="IANA">Kanda, Gensen</persName>
-                            <date>(c.1670-1746)</date> with revisions and supplements by <persName
-                                xml:lang="ja" source="IANA">榎本玄昌新</persName> | <persName
-                                xml:lang="ja-Latn" source="IANA">Enomoto, Gensho</persName>, a
-                            doctor in <placeName>Kiyomizu</placeName> domain (modern
-                                <placeName>Gifu</placeName> Prefecture). </summary>
+                        <summary> An incomplete manuscript entitled Toshin seiyo (痘疹精要), The essentials of smallpox, including coloured illustrations of different symptoms of smallpox. An inscription on the title page of the second volume attributes the work to Kanda Gensen (神田玄泉) (c.1670-1746) with revisions and supplements by Enomoto Gensho (榎本玄昌新), a doctor in Kiyomizu domain (modern Gifu Prefecture). </summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_63">
 
                             <author key="person_259185764" source="VIAF">
-                                <persName xml:lang="ja" source="IANA" type="original">神田 玄泉</persName>
-                                <persName xml:lang="ja-Latn" source="IANA">Kanda, Gensen</persName>
+                                <persName xml:lang="ja" source="IANA" type="original">神田玄泉</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Kanda Gensen</persName>
                                 <note><p>Gensen produced a number of illustrated albums on subjects
                                         such as fishes, whaling, materia medica and a couple of
                                         medical works including a study of dietetics. Many of these
@@ -81,27 +69,26 @@
                                         followers.</p></note>
                             </author>
 
-                            <title>
                                 <title type="original" xml:lang="ja" source="IANA">痘疹精要</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Toshin
-                                    seiyo</title>
-                                <title type="standard" xml:lang="en" source="IANA">The essentials of
-                                    smallpox</title>
-                            </title>
-
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Toshin seiyo</title>
+                                <title type="standard" xml:lang="en" source="IANA">The essentials of smallpox</title>                          
+                            
+                            <note>（巻末識語）二冊之内／石橋家重珍。</note>
+                                                       
                             <filiation><p>There does not appear to be any record of a manuscript
                                     with this title in Japan, though there are records of a work by
                                     him bearing a similar title, <title xml:lang="ja" source="IANA"
                                         >痘疹口訣</title> | <title xml:lang="ja-Latn" source="IANA"
                                         >Tōshin kuketsu</title>, in collections that are now
-                                    lost</p></filiation>
+                                    lost</p></filiation>                         
+                            
                         </msItem>
                     </msContents>
 
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent> ２冊 ２巻 | 2 satsu (volumes) with 2 maki(sections) <dimensions
+                                <extent> ２冊 | 2 volumes<dimensions
                                         unit="mm" type="binding">
                                         <dim type="height">
                                             <!-- Insert height indicated by specific format -->
@@ -112,18 +99,13 @@
                                     </dimensions>
                                 </extent>
                                 <foliation>
-                                    <p>The manuscript appears incomplete; the first volume begins
-                                        part way through and the second with an internal title
-                                        identifying it as the second volume.</p>
+                                    <p>The manuscript appears incomplete; the first volume begins part way through and the second with an internal title identifying it as the second volume.</p>
                                 </foliation>
                             </supportDesc>
                         </objectDesc>
 
                         <decoDesc>
-                            <p>The illustrations were executed on separate sheets of paper in the
-                                18th century and were cut out and pasted into the manuscript at a
-                                later date in the early 19th century, possibly from Gensen's
-                                holograph or a copy of it.</p>
+                            <p>The illustrations were executed on separate sheets of paper in the 18th century and were cut out and pasted into the manuscript at a later date in the early 19th century, possibly from Gensen's holograph or a copy of it.</p>
                         </decoDesc>
 
                         <bindingDesc>
@@ -137,15 +119,14 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō" from="1603" to="1868">江戸中期 | Edo
-                                Period</origDate>
+                            <origDate calendar="nengō" from="1603" to="1868">江戸中期</origDate>
+                            <origDate calendar="gregorian" from="1603" to="1868">c.17th to mid 19th century</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
                         </origin>
 
-                        <provenance>An inscription at the end of the second volume indicates they
-                            belonged to the Ishibashi family, possibly in the early 19th century. </provenance>
+                        <provenance>An inscription at the end of the second volume indicates they belonged to the Ishibashi family, possibly in the early 19th century. </provenance>
 
                     </history>
 
@@ -193,6 +174,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-11-29"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display.</change>
         </revisionDesc>
 
     </teiHeader>

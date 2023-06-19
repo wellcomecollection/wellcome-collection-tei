@@ -46,38 +46,32 @@
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 61</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176899</idno>
+                        </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> An unillustrated 18th century manuscript copy of <title
-                                xml:lang="ja" source="IANA">続御拾遺和歌集</title> | <title
-                                xml:lang="ja-Latn" source="IANA">Shokugoshūi wakashū</title>, the
-                            sixteenth imperially commissioned anthology of waka (court poetry),
-                            compiled by <persName type="aut">Nijō, Tamefuji</persName>
-                            <date>(1275-1324)</date> and <persName type="aut">Nijō,
-                                Tamesada</persName>
-                            <date>(1293-1360)</date>, and commissioned at the command of
-                                <persName>Emperor Go-Daigo</persName> between <date>1323 and
-                                1326</date>. </summary>
+                        <summary> An unillustrated 18th century manuscript copy of Shokugoshūi wakashū (続御拾遺和歌集), the sixteenth imperially commissioned anthology of waka (court poetry), compiled by Nijō Tamefuji (1275-1324) and Nijō Tamesada (1293-1360), and commissioned at the command of Emperor Go-Daigo between 1323 and 1326. </summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_61">
 
                             <author key="person_56452031" source="VIAF">
-                                <persName xml:lang="ja" source="IANA" type="original">二条 為藤</persName>
-                                <persName xml:lang="ja-Latn" source="IANA">Nijō, Tamefuji</persName>
+                                <persName xml:lang="ja" source="IANA" type="original">二条為藤</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Nijō Tamefuji</persName>
                             </author>
                             <author key="person_53989863" source="VIAF">
-                                <persName xml:lang="ja" source="IANA" type="original">二条 為定</persName>
-                                <persName xml:lang="ja-Latn" source="IANA">Nijō, Tamesada</persName>
+                                <persName xml:lang="ja" source="IANA" type="original">二条為定</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Nijō Tamesada</persName>
                             </author>
 
-                            <title>
                                 <title type="original" xml:lang="ja" source="IANA">続御拾遺和歌集</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shokugoshūi
-                                    wakashū</title>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shokugoshūi wakashū</title>     
+                            
+                            
+                            <note>鳥子紙使用。</note>
 
                         </msItem>
                     </msContents>
@@ -85,8 +79,7 @@
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent> 2冊 20巻 | 2 satsu (volumes) with 20 maki (sections) on 鳥子紙 |
-                                    toriko-gomi paper <dimensions unit="mm" type="binding">
+                                <extent> 2冊 | 2 volumes<dimensions unit="mm" type="binding">
                                         <dim type="height">240mm</dim>
                                         <dim type="width">164mm</dim>
                                     </dimensions>
@@ -96,28 +89,22 @@
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>綴葉装 | tetsuyōsō. Covers of both volumes are decorated with gold and black birds.</p>
+                                <p>綴葉装</p>
+                                <p>Tetsuyōsō binding. Covers of both volumes are decorated with gold and black birds.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō" from="1603" to="1868">江戸中期 | Edo
-                                Period</origDate>
-                            <origDate calendar="gregorian" from="1700" to="1750">Early eighteenth
-                                century.</origDate>
+                            <origDate calendar="gregorian" from="1700" to="1800">Eighteenth century.</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
                         </origin>
                         
                        
-                        <provenance><p>A printed edition of all 21 imperially commissioned
-                                anthologies was published in 1647, but for the most part they
-                                circulated in manuscript until modern times. The manuscripts were
-                                often produced by Kyoto aristocrats and frequently served as bridal
-                                gifts.</p>
+                        <provenance><p>A printed edition of all 21 imperially commissioned anthologies was published in 1647, but for the most part they circulated in manuscript until modern times. The manuscripts were often produced by Kyoto aristocrats and frequently served as bridal gifts.</p>
                         </provenance> 
 
                     </history>
@@ -148,6 +135,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-11-29"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>
