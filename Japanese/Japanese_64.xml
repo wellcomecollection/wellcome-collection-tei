@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_64">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 64</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 64</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 64</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176917</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> A guidebook to drawing the Fourteen Meridians and the pulses on the human body prior to acupuncture by Ryūunken; it uses colours that correspond with the colour of the internal organ with a detailed explanation of the location of each acupuncture point. It is written in katakana-majiri script and was published in Kyoto in 1699. The subtitle to this work, Jūshikei keibiki no ben, meaning 'On the drawing of the Fourteen Meridians', shows that it is based on the Shisijing fahui by Hua Shou (1304–86), a physician of the Yuan dynasty.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_64">
+
+                            <author key="person_101467094" source="VIAF">
+                                <persName type="original" xml:lang="ja">竜雲軒</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Ryūunken</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">林九兵衛</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Hayashi Kubei</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">医学至要抄</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Igaku shiyōshō</title>
+                                <title type="standard" xml:lang="en" source="IANA">Summary of the essentials of medicine</title>
+                            
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 991855</ref> for copies of
+                                        <title>医学至要抄</title> held by other institutions.</p>
+                            </filiation>
+
+                            <note>外題「医学至要鈔」。目録題「医学至要抄／十四経経引之辨」。印記「鎌田氏」「蔵」「盛無」。 片仮名交文。</note>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 2冊 | 2 volumes<dimensions unit="mm" type="binding">
+                                        <dim type="height">228mm</dim>
+                                        <dim type="width">168mm</dim>
+                                        <dim type="depth">32mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="sole">片仮名交</scriptNote>
+                            <scriptNote scope="sole">Katakana-majiri</scriptNote>
+                        </scriptDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1699">元禄12</origDate>
+                            <origDate calendar="gregorian" when="1699">1699</origDate>
+                            <origPlace>
+                                <placeName>京</placeName>
+                                <placeName>Kyoto</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">東京大学総合図書館古医学書目録</title>
+                                <title xml:lang="ja-Latn">Tōkyō Daigaku sōgō toshokan ko igakusho
+                                    mokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Tōkyō Daigaku</publisher>
+                                <date>1978</date>
+                                <note>p.16</note>
+                            </bibl>
+                            <bibl>
+                                <title>A collection of Japanese medical and scientific books from
+                                    the library of Richard C. Rudolph, founder of Asian Studies at
+                                    UCLA </title>
+                                <placeName>Novato</placeName>
+                                <publisher>Jeremy Norman and company</publisher>
+                                <date>2006</date>
+                                <note><p>Rudolph #9</p></note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85000761">Acupuncture</term>
+                            <term key="sh85000764">Acupuncture Points</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-20"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
