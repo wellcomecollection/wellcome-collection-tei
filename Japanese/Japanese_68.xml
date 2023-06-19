@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_68">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 68</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 68</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 68</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176942</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> A work on Obstetrics by Katakura Kakuryō. It draws on both Dutch and English works, most probably via Dutch translations, reproducing some of the original illustrations, describing difficult births and how they should be managed. It is written in Kanbun so likely intended as a scholarly text. The work was first published in 1799, but minor additions were made to the blocks in 1803 and 1822; this copy dates from 1822 or shortly thereafter. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_68">
+
+                            <author key="person_ 256535858" source="VIAF">
+                                <persName type="original" xml:lang="ja">片倉鶴陵</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Katakura Kakuryō</persName>
+                                <note><p>Katakura Kakuryō (1751-1822) was adopted into a medical
+                                        family at a young age and later studied with the Taki family
+                                        in Edo, who served the Bakufu government as doctors.
+                                        Subsequently he studied with Kagawa Gen’etsu in Kyoto, a
+                                        pioneer in Obstetrics, and was one of the first to explain
+                                        the uses and functions of forceps in Japan. He wrote many
+                                        books on medicine and his fame was such that he was even
+                                        called in to assist with a difficult birth in the Shogun’s
+                                        household, even though he had no official
+                                    standing.</p></note>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">須原屋茂兵衛</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Suharaya Mohee</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">医学質験五種産科発蒙</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Igaku shikken goshu sanka hatsumō</title>
+                                <title type="standard" xml:lang="en" source="IANA">Obstetrics explained</title>
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 991786</ref> for copies of
+                                        <title>医学質験五種産科発蒙</title> held by other institutions.</p>
+                            </filiation>
+
+                            <note>外題「医学質験義集産科発蒙」。享和３年付け「治産外科序」を 増修、文政５年付け扉を逓修。各巻々頭、著者名下に「門人上毛今村長順子正」も入木修訂。巻末に「鶴陸片倉元周深甫先生著述／…／発行書林／京都、勝村治右衛門／大坂、秋田屋太右衛門／江戸、須原屋茂兵衛」。識語「備賀足伊賀氏／天保三年八月　日調之」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 4冊 6巻 | 4 volumes (6 sections)<dimensions
+                                        unit="mm" type="binding">
+                                        <dim type="height">259mm</dim>
+                                        <dim type="width">183mm</dim>
+                                        <dim type="depth">44mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="sole">漢文</scriptNote>
+                            <scriptNote scope="sole">Kanbun</scriptNote>
+                        </scriptDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1822">文政5</origDate>
+                            <origDate calendar="gregorian" when="1822">1822</origDate>
+                            <origPlace>
+                                <placeName>江戸</placeName>
+                                <placeName>Edo</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <author>Ilza Veith</author>
+                                <title level="a">The beginnings of modern Japanese
+                                    obstetrics</title>
+                                <title level="j">Bulletin of the History of Medicine</title>
+                                <date>1951</date>
+                                <note>25, p.51-55</note>
+                            </bibl>
+                            <bibl>
+                                <author>Gordon E. Mestler</author>
+                                <title>A galaxy of old Japanese medical books with miscellaneous
+                                    notes on early medicine in Japan. Part II. Acupuncture and
+                                    moxibustion. Bathing. Balneiotherapy and massage. Nursing.
+                                    Pediatrics and hygiene. Obstetrics and gynecology</title>
+                                <title level="j">Bulletin of the Medical Library Association</title>
+                                <date>1954</date>
+                                <note>42, pp. 494-495</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">日本産科叢書</title>
+                                <title xml:lang="ja-Latn">Nihon sanka sōsho</title>
+                                <author xml:lang="ja">増田知正,呉秀三,富士川游</author>
+                                <author xml:lang="ja-Latn">Masuda Tomomasa, Kure Shūzō and Fujikawa
+                                    Yū eds.</author>
+                                <placeName>Kyōto</placeName>
+                                <publisher>Shibunkaku</publisher>
+                                <date>1971</date>
+                                <note>Facsimilie of text, pp.360-435</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">東京大学総合図書館古医学書目録</title>
+                                <title xml:lang="ja-Latn">Tōkyō Daigaku sōgō toshokan ko igakusho
+                                    mokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Tōkyō Daigaku</publisher>
+                                <date>1978</date>
+                                <note>p.46</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85093768">Obstetrics</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-20"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

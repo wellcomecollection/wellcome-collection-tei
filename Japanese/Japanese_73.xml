@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_73">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 73</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 73</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 73</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33177004</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A detailed visual record of a dissection: at the outset there is a list of all those present, starting with the teacher, Komori Tōu (小森桃塢) (1782-1843), and the director of the dissection, Ikeda Tōzō (the author), and 41 artists, secretaries, dissectors, and other participants, 20 servants, 11 observers from Komori’s school, and finally 49 observers from other schools of medicine all over Japan. Ikeda (1786-1836) had studied with Komori. The illustrations are in colour, and the names of the block carver and printer are given in the colophon. The title on the opening page appears to have been altered so as to change the year to the 6th year of the Bunsei era (1823), while the preface refers to the 4th year (1821). Other copies of this work, published in 1822, bear a title referring to the 4th year so it seems that the title of this book was altered to match the date of publication in 1823. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_73">
+
+                            <author>
+                                <persName type="original" xml:lang="ja">池田冬藏</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Ikeda Tōzō</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">前川六左衛門等</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Maekawa Rokuzaemon</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">文政六年解臓図賦</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Bunsei rokunen kaizō zufu</title>
+                                <title type="standard" xml:lang="en" source="IANA">Illustrations from a dissection carried out in 1823</title>
+                            
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 995006</ref> for copies of
+                                        <title>文政六年解臓図賦</title> held by other institutions.</p>
+                            </filiation>
+
+                            <note>内題の「六」字は入木。『文政四年解臓図賦』の解題後修本。方面「（質測窮里）解臓図賦／復堂蔵」。（刊記書肆）文政六年癸未秋九月刻成／大坂書林、播磨屋本三郎・河内屋曾七／京都書林、吉田四郎右衛門・三津屋喜兵衛・菱屋三郎右衛門・鈆屋安兵衛／江戸書林、前川六左衛門。巻末に「復堂池田先生著述篇目」（半丁）を附す。朱印「高畔氏図書章」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 1冊 | 1 volume<dimensions unit="mm"
+                                        type="binding">
+                                        <dim type="height">265mm</dim>
+                                        <dim type="width">196mm</dim>
+                                        <dim type="depth">20mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1823">文政６</origDate>
+                            <origDate calendar="gregorian" when="1823">1823</origDate>
+                            <origPlace>
+                                <placeName>江戸</placeName>
+                                <placeName>Edo</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">東京大学総合図書館古医学書目録</title>
+                                <title xml:lang="ja-Latn">Tōkyō Daigaku sōgō toshokan ko igakusho
+                                    mokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Tōkyō Daigaku</publisher>
+                                <date>1978</date>
+                                <note>p. 91</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh99002319">Anatomy</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-17"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

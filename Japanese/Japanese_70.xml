@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_70">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 70</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 70</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 70</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176966</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> A volume of copperplate engravings produced to accompany the work Seisetsu ihan teikō shakugi, with illustrations by Aōdō Denzen (1748-1822) and text by Udagawa Genshin (1769-1834), published in 1808. The plates for this book were printed sheet by sheet and pasted onto thick card on which the commentary had already been printed using woodblocks. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_70">
+
+                            <author key="person_7323189" source="VIAF">
+                                <persName type="original" xml:lang="ja">宇田川玄真</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Udagawa Genshin</persName>
+                                <note><p>Udagawa Genshin (1769-1834) was unusual among scholars of
+                                        ‘Dutch studies’ in Japan in having a knowledge of French.
+                                        Udagawa as a young man studied under the pioneers of anatomy
+                                        in Japan, Sugita Genpaku and Ōtsuki Gentaku, and the ‘Gen’
+                                        in his pen-name reflects this intellectual genealogy. After
+                                        being adopted into the Udagawa family of doctors in Tsuyama,
+                                        in addition to practicing medicine he was employed by the
+                                        Bakufu as a translator of Dutch astronomical texts and in
+                                        his school, Fūundō, he taught not only medicine but also
+                                        chemistry and other scientific subjects.</p></note>
+                            </author>
+
+                            <respStmt key="person_72556522" source="VIAF">
+                                <persName type="original" xml:lang="ja">亜欧堂田善</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Aōdō Denzen</persName>
+                                <resp>Illustrator</resp>
+                                <note>Aōdō Denzen was a pioneer of copperplate printing in Japan,
+                                    and spent four years studying the technique in Nagasaki</note>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">解剖銅図</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kaibō dōzu</title>
+                                <title type="standard" xml:lang="en" source="IANA">Copperplate anatomical illustrations</title>                           
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 995299</ref> for copies of
+                                        <title>解剖銅図</title> held by other institutions. For a copy
+                                    of the related work Seisetsu ihan teikō shakugi, see <ref
+                                        target="MS Japanese 69">MS Japanese 69</ref>. </p>
+                            </filiation>
+
+                            <note>［解剖銅図］（題箋欠）。（無刊記）。銅版。刊年は扉絵年記による。印記「閻魔庵図書部」「岡本蔵書」「三好図書松蘇☐記」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 1冊 | 1 volume<dimensions unit="mm" type="binding">
+                                        <dim type="height">294mm</dim>
+                                        <dim type="width">217mm</dim>
+                                        <dim type="depth">40mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock printed text</p></typeNote>
+                        </typeDesc>
+
+                        <decoDesc>
+                            <p>Contains copperplate engravings.</p>
+                        </decoDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1808">文化5</origDate>
+                            <origDate calendar="gregorian" when="1808">1808</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                        <provenance>Formerly belonged to the Yokohama book-collector Okamoto Enmaan.</provenance>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <author>Gordon E. Mestler</author>
+                                <title>A galaxy of old Japanese medical books with miscellaneous
+                                    notes on early medicine in Japan. Part I. Medical history and
+                                    biography. General works. Anatomy. Physiology and
+                                    pharmacology</title>
+                                <title level="j">Bulletin of the Medical Library Association</title>
+                                <date>1954</date>
+                                <note>42, pp.315-317</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh99002319">Anatomy</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-20"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

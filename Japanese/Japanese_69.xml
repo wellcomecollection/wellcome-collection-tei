@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_69">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 69</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 69</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 69</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33176954</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> A manual of anatomy written by Udagawa Genshin (1769-1834) with the assistance of his follower, Suwa Shun, originally published in 1805. As Suwa explains in his introduction, Udagawa’s text was based on extracts taken from the works of the Dutch physicians Steven Blankaart (1650-1704) and Jan Palfijn (1650-1730), and from those of Jacob Winsløw (1669-1760), a Danish professor of anatomy in Paris famous for his Exposition anatomique de la structure du corps humain (1732). The text consists of passages in kanbun with some kunten, and explanatory notes written in a smaller size in katakana-majiri script. There are no illustrations but an anatomical atlas to accompany the text was published three years later.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_69">
+
+                            <author key="person_7323189" source="VIAF">
+                                <persName type="original" xml:lang="ja">宇田川 玄真</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Udagawa Genshin</persName>
+                                <note><p>Udagawa Genshin (1769-1834) was unusual among scholars of
+                                        ‘Dutch studies’ in Japan in having a knowledge of French.
+                                        Udagawa as a young man studied under the pioneers of anatomy
+                                        in Japan, Sugita Genpaku and Ōtsuki Gentaku, and the ‘Gen’
+                                        in his pen-name reflects this intellectual genealogy. After
+                                        being adopted into the Udagawa family of doctors in Tsuyama,
+                                        in addition to practicing medicine he was employed by the
+                                        Bakufu as a translator of Dutch astronomical texts and in
+                                        his school, Fūundō, he taught not only medicine but also
+                                        chemistry and other scientific subjects.</p></note>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">須原屋善五郎等</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Suharaya Zengoro</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">西説医範提綱釈義</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Seisetsu ihan teikō shakugi </title>
+                                <title type="standard" xml:lang="en" source="IANA">Fundamentals of medicine according to Western writings with interpretive notes</title>
+                            
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 97869</ref> for copies of
+                                        <title>西説医範提綱釈義</title> held by other institutions. For a
+                                    copy of the related anatomical atlas, see <ref
+                                        target="MS Japanese 70">MS Japanese 70</ref>. </p>
+                            </filiation>
+
+                            <note>外題「医学質験義集産科発蒙」。外題「西説医範」。封面「（和蘭内景）医範提綱／凮雲堂蔵版　宮商閣発兌」。内題に「榛斎宇田川先生訳述／門人勢州諏訪俊士徳筆記」とあり。（文化２年奥付書肆）京都、勝村治右衛門／大坂、大野木市兵衛・河内屋太助・同儀助／江戸、須原屋善五郎。</note>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 3冊 | 3 volumes <dimensions unit="mm"
+                                        type="binding">
+                                        <dim type="height">267mm</dim>
+                                        <dim type="width">183mm</dim>
+                                        <dim type="depth">23mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">漢文</scriptNote>
+                            <scriptNote scope="major">Kanbun</scriptNote>
+                            <scriptNote scope="minor">片仮名</scriptNote>
+                            <scriptNote scope="minor">Katakana</scriptNote>
+                            <scriptNote scope="minor">訓点</scriptNote>
+                            <scriptNote scope="minor">Kunten</scriptNote>
+
+                        </scriptDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1805">文化2</origDate>
+                            <origDate calendar="gregorian" when="1805">1805</origDate>
+                            <origPlace>
+                                <placeName>江戸</placeName>
+                                <placeName>Edo</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <author>Gordon E. Mestler</author>
+                                <title>A galaxy of old Japanese medical books with miscellaneous
+                                    notes on early medicine in Japan. Part I. Medical history and
+                                    biography. General works. Anatomy. Physiology and
+                                    pharmacology</title>
+                                <title level="j">Bulletin of the Medical Library Association</title>
+                                <date>1954</date>
+                                <note>42, pp.315-317</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">東京大学総合図書館古医学書目録</title>
+                                <title xml:lang="ja-Latn">Tōkyō Daigaku sōgō toshokan ko igakusho
+                                    mokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Tōkyō Daigaku</publisher>
+                                <date>1978</date>
+                                <note>p.91</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh99002319">Anatomy</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-20"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

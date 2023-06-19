@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_71b">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 71b</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 71b</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 71b</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b3317698x</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> A detailed account of human anatomy, based both on dissection and on earlier published work, by Mitani Boku. It contains a number of multicoloured anatomical illustrations. This work was originally published in 1813 but this version was printed later from the original printing blocks. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_71b">
+
+                            <author>
+                                <persName type="original" xml:lang="ja">三谷樸</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Mitani Boku</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">河内屋茂兵衛等</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kawachiya Shigebei</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">解体発蒙</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kaitai hatsumō</title>
+                                <title type="standard" xml:lang="en" source="IANA">Anatomy revealed</title>
+
+                            <filiation><p>See <ref target="MS Japanese 71a">MS Japanese 71a</ref>
+                                    for another copy of <title xml:lang="ja-Latn" source="IANA"
+                                        >Kaitai hatsumō</title>. See <ref
+                                        target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work
+                                        ID: 995299</ref> for copies of <title>解剖銅図</title> held by
+                                    other institutions.</p>
+                            </filiation>
+
+                            <note>（奥付書肆）書林／京都、河内屋藤四郎／江戸、須原屋茂兵衛・山城屋佐兵衛・須原屋新兵衛・山城屋政吉・英大助・英文蔵・丁子屋平兵衛・岡田屋嘉七／大阪、河内屋藤兵衛／大阪、河内屋茂兵衛。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 5冊 4巻・付録1巻 | 5 volumes (4 sections and 1 appendix) <dimensions unit="mm" type="binding">
+                                        <dim type="height">257mm</dim>
+                                        <dim type="width">188mm</dim>
+                                        <dim type="depth">58mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1813">文化10</origDate>
+                            <origDate calendar="gregorian" when="1813">1813</origDate>
+                            <origPlace>
+                                <placeName>大坂</placeName>
+                                <placeName>Osaka</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <author>Gordon E. Mestler</author>
+                                <title>A galaxy of old Japanese medical books with miscellaneous
+                                    notes on early medicine in Japan. Part II. Acupuncture and
+                                    moxibustion. Bathing. Balneiotherapy and massage. Nursing.
+                                    Pediatrics and hygiene. Obstetrics and gynecology</title>
+                                <title level="j">Bulletin of the Medical Library Association</title>
+                                <date>1954</date>
+                                <note>42, pp.316-318</note>
+                            </bibl>
+                            <bibl>
+                                <title>Bibliothèque sino-japonaise de Jean Blondelet: médicine,
+                                    histoire naturelle, littérature et beaux-arts. Manuscrits et
+                                    livres anciens</title>
+                                <author>Bernard Clavreuil</author>
+                                <placeName>Paris</placeName>
+                                <publisher>Tajan</publisher>
+                                <date>2001</date>
+                                <abbr>Blondelet</abbr>
+                                <note>Blondelet 23</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh99002319">Anatomy</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-02-20"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-16"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
