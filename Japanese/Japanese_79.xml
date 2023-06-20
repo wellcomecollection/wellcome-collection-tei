@@ -45,15 +45,13 @@
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 79</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33177235</idno>
+                        </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> A manuscript copy of <title xml:lang="ja" source="IANA"
-                                >産科探頷図訣</title> | <title xml:lang="ja-Latn" source="IANA">Sanka
-                                tangan zuketsu</title> | <title xml:lang="en" source="IANA"
-                                >Obstetric instruments illustrated</title> by <persName
-                                xml:lang="ja" source="IANA">水原義博</persName> | <persName
-                                xml:lang="ja-Latn" source="IANA">Mizuhara, Yoshihiro</persName>. </summary>
+                        <summary> A manuscript copy of a work on obstetrics by Mizuhara Yoshihiro, including details of some traction instruments invented by the author with their use shown in the illustrations.</summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
@@ -61,26 +59,18 @@
 
                             <author key="person_51626791" source="VIAF">
                                 <persName xml:lang="ja" source="IANA" type="original">水原義博</persName>
-                                <persName xml:lang="ja-Latn" source="IANA">Mizuhara,
-                                    Yoshihiro</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Mizuhara Yoshihiro</persName>
                                 <note><p>Mizuhara wrote several works on obstetrics, the most
-                                        important of which was <title>San’iku zensho</title>,
-                                        published in 1848. <title>Sanka tangan zuketsu</title> deals
-                                        with some traction instruments invented by the author and
-                                        their use is shown in the illustrations.</p></note>
+                                        important of which was San’iku zensho published in 1848.</p></note>
                             </author>
 
-                            <title key="1004928" source="Kotenseki">
                                 <title xml:lang="ja" source="IANA">産科探頷図訣</title>
                                 <title xml:lang="ja-Latn" source="IANA">Sanka tangan zuketsu</title>
-                                <title xml:lang="en" source="IANA">Obstetric instruments
-                                    illustrated</title>
-                            </title>
-
+                                <title xml:lang="en" source="IANA">Obstetric instruments illustrated</title>
+                            
                             <filiation><p>Cf. <abbr>Blondelet</abbr> #27.</p></filiation>
 
-                            <note><p>At the end of the first volume is written: 安政六己未正月下旬 猶林龍石
-                                    冩之</p></note>
+                            <note>天保７＜1836＞年刊本写。上巻末に「安政六己未正月下旬／猶林龍石／冩之」。</note>
 
                         </msItem>
                     </msContents>
@@ -88,26 +78,26 @@
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent> ２冊 ２巻 | 2 satsu (volumes) with 2 maki(sections). 1st
-                                    volume: 63 pages. 2nd volume: 54 pages.<dimensions unit="mm"
+                                <extent> ２冊 | 2 volumes <dimensions unit="mm"
                                         type="binding">
                                         <dim type="height">247mm</dim>
                                         <dim type="width">169mm</dim>
                                     </dimensions>
                                 </extent>
+                                <foliation>1st volume: 63 pages. 2nd volume: 54 pages.</foliation>
                             </supportDesc>
                         </objectDesc>
+                        
+                   
 
                         <handDesc>
                             <handNote scope="sole">Narabayashi</handNote>
-                            <handNote><p><!-- Insert information about ink type and/or colour--></p></handNote>
                         </handDesc>
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>袋綴 | fukurotoji. Binding of the first volume has been removed and
-                                    rebound. A sample of the original thread has been kept and is
-                                    stored in melinex with the item.</p>
+                                <p>袋綴</p>
+                                <p>Fukurotoji binding. String binding from the first volume has been removed and rebound. A sample of the original thread has been kept and is stored in melinex with the item.</p>
                             </binding>
                         </bindingDesc>
 
@@ -181,6 +171,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-11-29"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-20"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>
