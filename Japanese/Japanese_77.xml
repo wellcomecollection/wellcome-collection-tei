@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_77">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 77</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 77</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 77</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33177193</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A study on the principles of vaccination by Kuwata Ryūsai (1811-1868). The introduction describes the new discovery that had been made in the West for the vaccination of children so as to prevent them catching smallpox, and it states that vaccination had been introduced to Japan in 1849 to the great delight of the population of Japan although there had been some doubt at first. The frontispiece carries an image of the ‘Child-preserving cowpox Bodhisattva’ and an identical image appeared as the frontispiece to Intō yō ryakkai, another work by Ryūsai. At the end of the book there is a catalogue of books on vaccination. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_77">
+
+                            <author key="person_45651178" source="VIAF">
+                                <persName type="original" xml:lang="ja">桑田立斎</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kuwata Ryūsai</persName>
+                                <note>Kuwata Ryūsai (1811-1868) was of lowly samurai status from the
+                                    remote province of Echigo. He went to the domain medical school
+                                    but then went to Edo where in time he became the adopted son of
+                                    Kuwata Genshin, a paediatrician in the Chinese medical
+                                    tradition. Unlike most enthusiasts for Western medicine, he
+                                    never went to Nagasaki but he eagerly publicised and promoted
+                                    vaccination. In 1849 he published both Gyūtō hatsumō and Intō yō
+                                    ryakkai 引痘要略解 (‘A short commentary on vaccination’), an
+                                    abbreviated edition in Japanese of a Chinese work, Yin dou xin
+                                    fa quan shu 引痘新法全書 (also known as Yin dou lüe 引痘略) by Qiu Xi 邱熺
+                                    of the late Qing dynasty. This work had already been published
+                                    in Japan in the original Chinese text in 1846, and in 1849 a
+                                    translation by Koyama Shisei 小山肆成 was published in Japan under
+                                    the title Hon’yaku intō shinpō zensho.</note>
+                            </author>
+
+                                <title type="original" xml:lang="ja" source="IANA">牛痘発蒙</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Gyūtō hatsumō</title>
+                                <title type="standard" xml:lang="en" source="IANA">Cowpox revealed</title>
+                            
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 21772</ref> for copies of
+                                        <title>牛痘発蒙</title> held by other institutions.</p>
+                            </filiation>
+
+                            <note>（無刊記）。 巻末に「種痘書目」（１丁）を附す。（印記）「弐木文庫」「朝鮮医学研究図書」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 1冊 | 1 volume<dimensions unit="mm"
+                                        type="binding">
+                                        <dim type="height">255mm</dim>
+                                        <dim type="width">177mm</dim>
+                                        <dim type="depth">6mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+
+                        <typeDesc>
+                            <typeNote>木版図</typeNote>
+                            <typeNote>Woodblock print</typeNote>
+                        </typeDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1849">嘉永２</origDate>
+                            <origDate calendar="gregorian" when="1849">1849</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">東京大学総合図書館古医学書目録</title>
+                                <title xml:lang="ja-Latn">Tōkyō Daigaku sōgō toshokan ko igakusho
+                                    mokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Tōkyō Daigaku</publisher>
+                                <date>1978</date>
+                                <note>p.6</note>
+                            </bibl>
+                            <bibl>
+                                <author>Ann Bowman Janetta</author>
+                                <title>The vaccinators: smallpox, medical knowledge, and the
+                                    ‘opening’ of Japan</title>
+                                <placeName>Stanford</placeName>
+                                <publisher>Stanford University Press</publisher>
+                                <date>2007</date>
+                                <note>pp.118-118, pp.153-157</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85141709">Vaccination</term>
+                            <term key="subject_sh85123612">Smallpox</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-17"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-20"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

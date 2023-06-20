@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_75">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 75</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 75</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 75</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b3317717x</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A botanical treatise written in Kanbun with kunten by Udagawa Yōan (1798-1846), including terminology and illustrations copied from a number of European treatises including Kurt Sprengel’s 'Anleitung zur Kenntniss der Gewächse' (Halle, 1802), Marcello Malpighi’s 'Anatome plantarum' (first published in London in 1671), Nehemiah Grew’s 'The anatomy of plants' (first published in London in 1682), Carl Linnaeus’s 'Systema naturae' (first published in Leiden in 1735), Job Baster’s 'Natuurkundige uitspanningen, behelzende eenige waarneemingen, over sommige zee-planten en zee-insecten benevens derzelver zaadhuisjes en eijernesten' (an undated edition published in Utrecht; this work was first published in Haarlem in 1759-65) and Nikolaus von Jacquin’s 'Anleitung zur Pflanzenkenntniss nach Linnés methode: zum Gebrauche seiner theoretischen Vorlesungen' (first published in Vienna in 1785 and reissued in 1800). </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_75">
+
+                            <author key="person_78002854" source="VIAF">
+                                <persName type="original" xml:lang="ja">宇田川榕庵</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Udagawa Yōan</persName>
+                                <note><p>Udagawa Yōan (1798-1846) was the adopted son of Udagawa
+                                        Genshin and who, like his adopted father, became an official
+                                        doctor in the Tsuyama domain. In Nagasaki he became
+                                        acquainted with Philipp Franz von Siebold, the Dutch doctor
+                                        on Deshima, and with his father he wrote a number of works
+                                        on Western medicine and pharmacology.</p></note>
+                            </author>
+
+                                <title type="original" xml:lang="ja" source="IANA">植学啓原</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shokugaku keigen</title>
+                                <title type="standard" xml:lang="en" source="IANA">Exploring botany</title>
+                            
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 35734</ref> for copies of
+                                        <title>植学啓原</title> held by other institutions. Yōan’s
+                                    personal copy of 'Natuurkundige uitspanningen...' and Udagawa’s
+                                    handwritten copy of 'Anleitung zur Pflanzenkenntniss nach Linnés
+                                    methode...' are held by Waseda University Library. </p>
+                            </filiation>
+
+                            <note>刊年は封面による。封面「（眉上「天保五年仲春新鐫」）榕庵宇田川先生著／（理学入門）植学啓原／菩薩楼蔵版（朱印「菩薩楼」）」。印記「高須蔵書之記」「Takas.」「高須清馨」「字子成」。</note>
+
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> ３巻 | 3 volumes<dimensions unit="mm"
+                                        type="binding">
+                                        <dim type="height">261mm</dim>
+                                        <dim type="width">188mm</dim>
+                                        <dim type="depth">28mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+
+                        <typeDesc>
+                            <typeNote>木版図</typeNote>
+                            <typeNote>Woodblock print</typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">漢文</scriptNote>
+                            <scriptNote scope="major">Kanbun</scriptNote>
+                            <scriptNote scope="minor">訓点</scriptNote>
+                            <scriptNote scope="minor">Kunten</scriptNote>
+                        </scriptDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1834">天保５</origDate>
+                            <origDate calendar="gregorian" when="1834">1834</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                        <provenance>This copy of Shokugaku keigen bears several ownership seals of Takasu Shōsai 高須松斎 (1788-1869), a doctor who studied Dutch in Nagasaki and in 1815 conducted a dissection of the corpse of an executed criminal.</provenance>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title>Japanese botany during the period of wood-block
+                                    printing</title>
+                                <author>Harley Harris Bartlett and Hide Shohara</author>
+                                <placeName>Los Angeles</placeName>
+                                <publisher>Dawson’s Book Shop</publisher>
+                                <date>1961</date>
+                                <note>p.255-256</note>
+                            </bibl>
+                            <bibl>
+                                <author>Gordon E. Mestler</author>
+                                <title>A galaxy of old Japanese medical books with miscellaneous
+                                    notes on early medicine in Japan. Part I. Medical history and
+                                    biography. General works. Anatomy. Physiology and
+                                    pharmacology</title>
+                                <title level="j">Bulletin of the Medical Library Association</title>
+                                <date>1954</date>
+                                <note>2, p.326</note>
+                            </bibl>
+                            <bibl>
+                                <author xml:lang="ja">沈国威</author>
+                                <author xml:lang="ja-Latn">Shin Kokui </author>
+                                <title xml:lang="ja">植学啓原と植物学の語彙: 近代日中植物学用語の形成と交流:
+                                    研究論文・影印翻訳資料・総語彙索引</title>
+                                <title xml:lang="ja-Latn">Shokugaku keigen to shokubutsugaku no goi:
+                                    kindai Nitchū shokubutsugaku yōgo no keisei to kōryū: kenkyū
+                                    ronbun, eiin hon’yaku shiryō, sōgoi sakuin</title>
+                                <placeName>Suita</placeName>
+                                <publisher>Kansai Daigaku Shuppanbu</publisher>
+                                <date>2000</date>
+                            </bibl>
+                            <bibl>
+                                <author xml:lang="ja">矢部一郎</author>
+                                <author xml:lang="ja-Latn">Yabe Ichirō </author>
+                                <title xml:lang="ja">宇田川榕庵の『植学啓原』の原図について</title>
+                                <title xml:lang="ja-Latn">Udagawa Yōan no Shokugaku keigen no genzu
+                                    ni tsuite</title>
+                                <title level="j" xml:lang="ja">科学誌研究</title>
+                                <title level="j" xml:lang="ja-Latn">Kagakushi kenkyū</title>
+                                <date>1973; 1976</date>
+                                <note>108, pp.219-223; 117, pp.17-25</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85015976">Botany</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-17"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-20"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

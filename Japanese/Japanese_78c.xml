@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_78c">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 78c</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 78c</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 78c</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33177223</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A partial manuscript copy of the illustrations contained in Kagawa Genteki’s 産論翼 (Sanron Yoku), a treatise on obstetrics and supplement to Shigenshi Sanron (子玄子産論) published in 1775. A few of the illustrations are from other unidentified sources. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_78c">
+
+                            <author key="person_23983565" source="VIAF">
+                                <persName type="original" xml:lang="ja">賀川玄迪</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kagawa Genteki</persName>
+                            </author>
+
+                                <title type="original" xml:lang="ja" source="IANA">産論翼</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Sanron yoku</title>
+                                <title type="standard" xml:lang="en" source="IANA">Sanron supplemented</title>
+                            
+                            <filiation><p>See <ref target="MS Japanese 78a">MS Japanese 78a</ref>
+                                    and <ref target="MS Japanese 78b">MS Japanese 78b</ref> for
+                                    printed copies of this supplement. See <ref
+                                        target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work
+                                        ID: 212475</ref> for copies of <title>産論翼</title> held by
+                                    other institutions.</p>
+                            </filiation>
+                            
+                            <note><p>刊本図を写したものなれども図や解説の相違があり、また刊本にない図もあり。</p></note>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 1冊 | 1 volume <dimensions unit="mm" type="binding">
+                                        <dim type="height">274mm</dim>
+                                        <dim type="width">196mm</dim>
+                                        <dim type="depth">6mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" notBefore="1800" notAfter="1850">江戸後期</origDate>
+                            <origDate calendar="gregorian" notBefore="1800" notAfter="1850">Early 19th century</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85093768">Obstetrics</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-17"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-20"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

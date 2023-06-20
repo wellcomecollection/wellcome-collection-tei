@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_80">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 80</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 80</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 80</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33177247</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A guide to meteorology, astrology and general weather phenomena written by Nakanishi Takafusa (d. 1781), published by Matsumura Kubei in 1767. Includes a paper engineering feature in the form of a rotating dial (F.10a, Vol. 2) showing the passage of the sun. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_80">
+
+                            <author key="person_55448415" source="VIAF">
+                                <persName type="original" xml:lang="ja">中西敬房</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Nakanishi Takafusa</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">松村九兵衛</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Matsumura Kubei</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">増補民用晴雨便覧</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Zōho min’yō seiu benran</title>
+                                <title type="standard" xml:lang="en" source="IANA">Practical guide to the weather, revised and enlarged</title>                           
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 7534</ref> for copies of
+                                        <title>増補民用晴雨便覧</title> held by other institutions.</p>
+                            </filiation>
+                            
+                            <note>［後印］（大坂、松村＜敦賀屋＞九兵衛）。外題「（渾天）民用晴雨便覧」、封面題「（渾天）民用晴雨便覧」。封面に「洛東書舗 華文軒蔵版」とあるが、版元は明和４年刊記による。</note>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 2冊 | 2 volumes<dimensions unit="mm" type="binding">
+                                        <dim type="height">229mm</dim>
+                                        <dim type="width">159mm</dim>
+                                        <dim type="depth">13mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1767">明和４</origDate>
+                            <origDate calendar="gregorian" when="1767">1767</origDate>
+                            <origPlace>
+                                <placeName>大坂</placeName>
+                                <placeName>Osaka</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85084334">Meteorology</term>
+                            <term key="sh85008893">Astrology</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-17"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-20"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

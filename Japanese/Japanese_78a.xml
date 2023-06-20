@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_78a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 78a</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 78a</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 78a</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b3317720x</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A supplement to 子玄子産論 (Shigenshi Sanron) written by Kagawa Genteki (1739-1779), and published in 1775; Genteki (1739-1779) was the pupil and adopted son of Kagawa Gen’etsu, the author of Shigenshi Sanron. This supplement relies on extensive clinical practice and observation but also includes traditional practices such as massage of the abdomen, which Genteki considered to be of value. Amongst the additional topics tackled are fetal death, lactation and diagnosis of twin fetuses. Genteki, who came from Akita in northern Japan, later became a doctor in the employ of the Awa Tokushima domain, which rewarded him for the publication of this book. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_78a">
+
+                            <author key="person_23983565" source="VIAF">
+                                <persName type="original" xml:lang="ja">賀川玄迪</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kagawa Genteki</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">須原屋茂兵衛等</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Suharaya Mohei</persName>
+                                <resp>Publisher</resp>
+                                <note>京師書肆、河南四郎兵衛・河南喜兵衛／発行／大坂、大野木市兵衛／江戸、須原屋茂兵衛</note>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">産論翼</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Sanron yoku</title>
+                                <title type="standard" xml:lang="en" source="IANA">Sanron supplemented</title>                    
+
+                            <filiation><p>See <ref target="MS Japanese 65">MS Japanese 65</ref> for
+                                    copy of <title xml:lang="ja" source="IANA">子玄子産論</title>. See
+                                        <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki
+                                        Work ID: 212475</ref> for copies of <title>産論翼</title> held
+                                    by other institutions.</p>
+                            </filiation>
+
+                            <note>（安永４年奥付書肆）京師書肆、河南四郎兵衛・河南喜兵衛／発行／大坂、大野木市兵衛／江戸、須原屋茂兵衛。封面に「産論翼（朱印「濟世館」）／平安濟世館蔵版」。 印記「養堂堂印」。</note>
+                            
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> ２冊 (付録「治験二十八条」１巻) | 2 volumes (including appendix)
+                                        <dimensions unit="mm" type="binding">
+                                        <dim type="height">251mm</dim>
+                                        <dim type="width">172mm</dim>
+                                        <dim type="depth">17mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+
+                        <typeDesc>
+                            <typeNote>木版図</typeNote>
+                            <typeNote>Woodblock print</typeNote>
+                        </typeDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1775">安永４</origDate>
+                            <origDate calendar="gregorian" when="1775">1775</origDate>
+                            <origPlace>
+                                <placeName>江戸</placeName>
+                                <placeName>Edo</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <author>Ilza Veith</author>
+                                <title level="a">The beginnings of modern Japanese
+                                    obstetrics</title>
+                                <title level="j">Bulletin of the History of Medicine</title>
+                                <date>1951</date>
+                                <note>25, pp.48-51</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">日本産科叢書</title>
+                                <title xml:lang="ja-Latn">Nihon sanka sōsho</title>
+                                <author xml:lang="ja">増田知正,呉秀三,富士川游</author>
+                                <author xml:lang="ja-Latn">Masuda Tomomasa, Kure Shūzō and Fujikawa
+                                    Yū eds.</author>
+                                <placeName>Kyōto</placeName>
+                                <publisher>Shibunkaku</publisher>
+                                <date>1971</date>
+                                <note>Facsimilie of text, pp.143-163</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85093768">Obstetrics</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-17"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-20"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

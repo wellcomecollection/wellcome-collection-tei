@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_74">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 74</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 74</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 74</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33177144</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> Kaitai shinsho, a Japanese translation in kanbun with kunten of Ontleedkundige Tafelen, which was itself a Dutch translation of the 1722 work, Anatomische Tabellen by Johann Adam Kulmus (1689-1745). The translation was undertaken by a team consisting of Sugita Genpaku (1733-1817), Maeno Ryōtaku (1723-1803), Nakagawa Jun’an (1739-1786), Katsuragawa Hoshū (1751-1809) and several others, some of whom had known no Dutch before they undertook the translation. They were inspired by the results of a dissection some of them had carried out in 1771, which had revealed the accuracy of the anatomical illustrations in Ontleedkundige Tafelen. This is a copy of the first edition published by Suharaya Ichibei in 1774. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_74">
+
+                            <author key="person_47517980" source="VIAF">
+                                <persName type="original" xml:lang="ja">キュルムス</persName>
+                                <persName type="standard" xml:lang="nl">Johann Kulmus</persName>
+                            </author>
+
+                            <respStmt key="person_69768333" source="VIAF">
+                                <persName type="original" xml:lang="ja">杉田玄白</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Sugita Genpaku</persName>
+                                <resp>Translator</resp>
+                            </respStmt>
+
+                            <respStmt key="person_73740991" source="VIAF">
+                                <persName type="original" xml:lang="ja">前野良沢</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Maeno Ryōtaku</persName>
+                                <resp>Translator</resp>
+                            </respStmt>
+
+                            <respStmt key="person_16821004" source="VIAF">
+                                <persName type="original" xml:lang="ja">中川淳庵</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Nakagawa Junʼan</persName>
+                                <resp>Translator</resp>
+                            </respStmt>
+
+                            <respStmt key="person_23429138" source="VIAF">
+                                <persName type="original" xml:lang="ja">桂川甫周</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Katsuragawa Hoshū</persName>
+                                <resp>Translator</resp>
+                            </respStmt>
+
+                            <respStmt key="person_8735159477769027990007" source="VIAF">
+                                <persName type="original" xml:lang="ja">小田野直武</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Odano Naotake</persName>
+                                <resp>Illustrator</resp>
+                            </respStmt>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">須原屋市兵衛</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Suharaya Ichibei</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">解体新書</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kaitai Shinso</title>
+                                <title type="standard" xml:lang="en" source="IANA">New book of anatomy</title>
+                            
+                            <filiation><p>See <ref target="MS Japanese 133">MS Japanese 133</ref>
+                                    for a partial copy of <title xml:lang="ja" source="IANA"
+                                        >解体新書</title>.See <ref
+                                        target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work
+                                        ID: 126807</ref> for copies of <title>解体新書</title> held by
+                                    other institutions.</p>
+                            </filiation>
+
+                            <note>キュルムス著、杉田玄白・前野良沢・中川淳庵・桂川甫周訳、中川淳庵校、 小田野直武画。江戸、須原屋市兵衛。木版図。書入れ多い。印記「秋郊野人」「秋郊文庫」「養拙園柳田氏」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> ５冊 「４巻・附図１巻」 | 5 volumes (4 sections and 1 appendix)
+                                        <dimensions unit="mm" type="binding">
+                                        <dim type="height">265mm</dim>
+                                        <dim type="width">187mm</dim>
+                                        <dim type="depth">37mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+
+                        <typeDesc>
+                            <typeNote>木版図</typeNote>
+                            <typeNote>Woodblock print</typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">漢文</scriptNote>
+                            <scriptNote scope="major">Kanbun</scriptNote>
+                            <scriptNote scope="minor">訓点</scriptNote>
+                            <scriptNote scope="minor">Kunten</scriptNote>
+                        </scriptDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1774">安永３</origDate>
+                            <origDate calendar="gregorian" when="1774">1774</origDate>
+                            <origPlace>
+                                <placeName>江戸</placeName>
+                                <placeName>Edo</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                            <custodialHist>
+                                <custEvent type="exhibition" from="2004-10" to="2004-12">
+                                    <p>Exhibited as part of the Asia: Body,Mind and Spirit exhibition at the Brunei Gallery, School of Oriental and African Studies (SOAS), October-December 2004.</p>
+                                </custEvent>
+                                <custEvent type="exhibition" from="2005-02" to="2005-05">
+                                    <p>Exhibited as part of the You Are Here exhibition at The Design Museum , London, February 2005-May 2005.</p>
+                                </custEvent>
+                                <custEvent type="exhibition" from="2009-11" to="2010-03">
+                                    <p>Exhibited as part of The Body as Universe exhibition at the Mori Art Museum, Tokyo, November 2009-March 2010.</p>
+                                </custEvent>
+                            </custodialHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <author>Gordon E. Mestler</author>
+                                <title>A galaxy of old Japanese medical books with miscellaneous
+                                    notes on early medicine in Japan. Part I. Medical history and
+                                    biography. General works. Anatomy. Physiology and
+                                    pharmacology</title>
+                                <title level="j">Bulletin of the Medical Library Association</title>
+                                <date>1954</date>
+                                <note>1, pp.310-315</note>
+                            </bibl>
+                            <bibl>
+                                <title>Bibliothèque sino-japonaise de Jean Blondelet: médicine,
+                                    histoire naturelle, littérature et beaux-arts. Manuscrits et
+                                    livres anciens</title>
+                                <author>Bernard Clavreuil</author>
+                                <placeName>Paris</placeName>
+                                <publisher>Tajan</publisher>
+                                <date>2001</date>
+                                <note>Blondelet 14</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh99002319">Anatomy</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-17"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-20"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
