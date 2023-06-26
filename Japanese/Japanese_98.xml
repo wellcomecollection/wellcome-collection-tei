@@ -48,44 +48,33 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 98</idno>
                         <altIdentifier type="sierra">
-                            <idno>
-                                <!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33177776</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>An anatomical chart including a colour illustration of the human
-                            body showing the five viscera and six bowels together with some kanbun
-                            text, probably executed in <placeName>Kyoto</placeName>
-                                c.<date>1590</date>. </summary>
+                        <summary>An anatomical chart including a colour illustration of the human body showing the five viscera and six bowels together with some kanbun text, probably created in Kyoto c.1590. </summary>
 
-                        <textLang mainLang="lzh" source="IANA">Literary Chinese</textLang>
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_98">
 
-                            <title>
                                 <title type="original" xml:lang="ja" source="IANA">人体図</title>
                                 <title type="standard" xml:lang="ja-Latn" source="IANA">Jintaizu</title>
-                                <title type="standard" xml:lang="en" source="IANA">Picture of the human
-                                    body</title>
-                                <note><p>仮題: This is a descriptive title given by the cataloguer for
-                                        the purposes of identification.</p></note>
-                            </title>
-
-                            <note><p>The name <persName>川埜見壽</persName> | <persName>Kawano
-                                        Kenju</persName> appears on the work but his identity is
-                                    unknown.</p>
-                            </note>
+                                <title type="standard" xml:lang="en" source="IANA">Picture of the human body</title>
+                            
+                            <note>The name 川埜見壽 (Kawano Kenju) appears on the work but his identity is unknown.</note>
+                            <note>図中に「川埜見壽」とあり。</note>
                         </msItem>
                     </msContents>
 
                     <physDesc>
                         <objectDesc form="Scroll">
                             <supportDesc material="paper">
-                                <extent> １軸 | 1 scroll in protective wooden box. <dimensions
+                                <extent> １軸 | 1 scroll<dimensions
                                         unit="mm" type="binding">
-                                        <dim type="370mm"/>
-                                        <dim type="900mm"/>
+                                        <dim type="height">370mm</dim>
+                                        <dim type="width">900mm</dim>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
@@ -93,7 +82,8 @@
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>巻子装 | kansusō</p>
+                                <p>巻子装</p>
+                                <p>Kansusō. Housed in protective wooden box.</p>
                             </binding>
                         </bindingDesc>
 
@@ -102,11 +92,10 @@
                     <history>
                         <origin>
                             <origDate calendar="nengō" from="1573" to="1603">安土桃山期</origDate>
-                            <origDate calendar="gregorian" from="1573" to="1603">Late 16th
-                                century</origDate>
-                            <origPlace>
+                            <origDate calendar="gregorian" from="1573" to="1603">Late 16th century</origDate>
+                            <origPlace>                              
+                                <placeName>Kyoto</placeName> 
                                 <country>Japan</country>
-                                <placeName>Kyoto</placeName>
                             </origPlace>
                         </origin>
                     </history>
@@ -156,6 +145,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-12-02"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-26"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

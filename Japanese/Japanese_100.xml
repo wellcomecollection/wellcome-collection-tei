@@ -47,60 +47,33 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 100</idno>
                         <altIdentifier type="sierra">
-                            <idno>
-                                <!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33177867</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>A manuscript scroll with text in both kanbun and katakana-majiri
-                            including coloured diagrams of the human body with acupuncture points
-                            and some internal organs named, copied in the <date>first half of 19th
-                                century</date>. According to the notes in English accompanying this
-                            item, it was executed by <persName>Yoshida, Ikiu</persName> in
-                                <date>1688</date> and was formerly property of the Yoshida family
-                                <date>(1500-1910)</date>, but there is no evidence to support any of
-                            these claims. </summary>
+                        <summary>A manuscript scroll with text in both kanbun and katakana-majiri including coloured diagrams of the human body with acupuncture points and some internal organs named, copied in the first half of 19th century. According to the notes in English accompanying this item, it was executed by Yoshida Ikiu in 1688 and was formerly property of the Yoshida family (1500-1910), but there is no evidence to support any of these claims. </summary>
 
-                        <textLang mainLang="lzh" source="IANA">Literary Chinese</textLang>
+                        <textLang mainLang="js" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_100">
 
                             <textLang otherLangs="ja" source="IANA">Japanese</textLang>
 
-                            <title>
                                 <title type="original" xml:lang="ja" source="IANA">十四経五蔵六府</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Jūshikei gozō
-                                    roppu</title>
-                                <title type="standard" xml:lang="en" source="IANA">The fourteen
-                                    meridians, the five viscera and the six bowels</title>
-                                <note><p>仮題: This is a descriptive title given by the cataloguer for
-                                        the purposes of identification.</p></note>
-                            </title>
-
-                            <title>
-                                <title type="original" xml:lang="ja" source="IANA">十四経絡之図</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Jūshikeiryaku no
-                                    zū</title>
-                                <title type="standard" xml:lang="en" source="IANA">Fourteen
-                                    meridians</title>
-                                <note><p>箱題: Title written on wooden box lid.</p></note>
-                            </title>
-
-                            <title>
-                                <title type="original" xml:lang="lzh" source="IANA">禁灸之部、禁鍼之部</title>
-                                <note><p>内題: An internal title.</p></note>
-                            </title>
-
-                            <note><p>図中に「天道」「針殺」などと題する文章あり.</p>
-                            </note>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Jūshikei gozō roppu</title>
+                                <title type="standard" xml:lang="en" source="IANA">The fourteen meridians, the five viscera and the six bowels</title>                                           
+                            
+                            <note>The title is a descriptive title given by the cataloguer for the purposes of identification. The title given on the wooden box lid is 十四経絡之図 and internally 禁灸之部、禁鍼之部.</note>
+                            <note>十四経五蔵六府（尾題）。 箱題「十四経絡之図」、内題「禁灸之部、禁鍼之部」。図中に「天道」「針殺」などと題する文章あり。</note>
+                            
                         </msItem>
                     </msContents>
 
                     <physDesc>
                         <objectDesc form="Scroll">
                             <supportDesc material="paper">
-                                <extent> １軸 | 1 scroll in protective wooden box. <dimensions
+                                <extent> １軸 | 1 scroll  <dimensions
                                         unit="mm" type="binding">
                                         <dim type="height">280mm</dim>
                                         <dim type="width">6930mm</dim>
@@ -120,8 +93,8 @@
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>巻子装 | kansusō. Outer side covered in decorative blue and gold
-                                    floral pattern. Inner side has slight shimmer.</p>
+                                <p>巻子装</p>
+                                <p>Kansusō. Outer side covered in decorative blue and gold floral pattern. Inner side has slight shimmer. Housed in protective wooden box.</p>
                             </binding>
                         </bindingDesc>
 
@@ -130,8 +103,7 @@
                     <history>
                         <origin>
                             <origDate calendar="nengō" from="1800" to="1850">江戸後期</origDate>
-                            <origDate calendar="gregorian" from="1800" to="1850">First half of 19th
-                                century</origDate>
+                            <origDate calendar="gregorian" from="1800" to="1850">First half of 19th century</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -184,6 +156,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-12-02"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-26"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

@@ -47,29 +47,22 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 82</idno>
                         <altIdentifier type="sierra">
-                            <idno>
-                                <!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33177260</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> An anonymous manuscript in katakana-majiri concerning acupuncture
-                            and moxibustion in cases of carbuncles, boils and other skin eruptions,
-                            and other matters; it was copied in <date>1671</date> but composed much
-                            earlier. 　　 </summary>
+                        <summary> An anonymous manuscript in katakana-majiri concerning acupuncture and moxibustion in cases of carbuncles, boils and other skin eruptions, and other matters; it was copied in 1671 but composed much earlier.</summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_82">
-                            <title>
+
                                 <title type="original" xml:lang="ja" source="IANA">鍼灸療治書</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shinkyū
-                                    ryōchisho</title>
-                                <title type="standard" xml:lang="en" source="IANA">Treatment by
-                                    acupuncture and moxibustion</title>
-                                <note><p>This is a descriptive title given by the cataloguer and is
-                                        not present on the manuscript itself.</p></note>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shinkyū ryōchisho</title>
+                                <title type="standard" xml:lang="en" source="IANA">Treatment by acupuncture and moxibustion</title>
+                                
+                            <note>［鍼灸療治書］（仮題）。（奥書）寛文十一辛亥歳二月十五日。</note>
 
                         </msItem>
                     </msContents>
@@ -77,17 +70,18 @@
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent> １冊 １巻 | 1 satsu (volume) with 1 maki(section); 32 pages
-                                    containing 18 plate illustrations. <dimensions unit="mm"
+                                <extent> １冊 | 1 volume<dimensions unit="mm"
                                         type="binding">
                                         <dim type="height">254mm</dim>
                                         <dim type="width">198mm</dim>
                                     </dimensions>
                                 </extent>
+                                <foliation>32 pages containing 18 plate illustrations.</foliation>
                             </supportDesc>
                         </objectDesc>
 
                         <scriptDesc>
+                            
                             <scriptNote scope="major">Katakana</scriptNote>
                             <scriptNote scope="major">Kanji</scriptNote>
                         </scriptDesc>
@@ -98,12 +92,12 @@
 
                         <bindingDesc>
                             <binding contemporary="false">
-                                <p>袋綴 | Fukurotoji. Binding thread has been removed and rebound. A
-                                    sample of the original thread has been kept and is stored in
-                                    melinex with the item.</p>
+                                <p>袋綴</p> 
+                                <p>Fukurotoji binding. The original thread has been removed and rebound. A sample of the original thread has been kept and is stored in melinex with the item.</p>
+                                
+                                
                                 <condition>
-                                    <p>Shows signs of insect damage throughout with loss to some of
-                                        the text and illustrations.</p>
+                                    <p>Shows signs of insect damage throughout with loss to some of the text and illustrations.</p>
                                 </condition>
                             </binding>
                         </bindingDesc>
@@ -112,7 +106,7 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō" when="1671">寛文十一辛亥 歳二月十五日</origDate>
+                            <origDate calendar="nengō" when="1671">寛文11</origDate>
                             <origDate calendar="gregorian" when="1671">1671</origDate>
                             <origPlace>
                                 <country>Japan</country>
@@ -165,6 +159,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-11-30"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-20"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

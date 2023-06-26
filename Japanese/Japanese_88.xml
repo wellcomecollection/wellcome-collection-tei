@@ -47,18 +47,12 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 88</idno>
                         <altIdentifier type="sierra">
-                            <idno>
-                                <!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33177612</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>A volume of thirty anatomical illustrations based on <title
-                                type="original" xml:lang="ja" source="IANA">解体発蒙</title> | <title
-                                type="standard" xml:lang="ja-Latn" source="IANA">Kaitai hatsumō</title> |
-                                <title type="standard" xml:lang="en" source="IANA">Anatomy
-                                revealed</title> by <persName type="aut">Mitani, Boku</persName>;
-                            some of the captions and illustrations are omitted from this copy. </summary>
+                        <summary>A volume of thirty anatomical illustrations based on Kaitai hatsumō (解体発蒙) by Mitani Boku; some of the captions and illustrations are omitted from this copy. </summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
@@ -66,25 +60,16 @@
 
                             <author key="person_117948198" source="VIAF">
                                 <persName xml:lang="ja" source="IANA" type="original">三谷樸</persName>
-                                <persName xml:lang="ja-Latn" source="IANA">Mitani, Boku</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Mitani Boku</persName>
                             </author>
 
-                            <title>
                                 <title type="original" xml:lang="ja" source="IANA">解体発蒙図鈔</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kaitai hatsumō
-                                    zushō</title>
-                                <title type="standard" xml:lang="en" source="IANA">Anatomy revealed:
-                                    selected illustrations</title>
-                                <note><p>仮題: This is a descriptive title given by the cataloguer for
-                                        the purposes of identification.</p></note>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kaitai hatsumō zushō</title>
+                                <title type="standard" xml:lang="en" source="IANA">Anatomy revealed: selected illustrations</title>
 
-                            <filiation><p>See
-                                    <!--<ref
-                                target="<!-\- Add URL -\->"
-                                >Japanese 71a</ref>-->
-                                    for a printed copy of <title>Kaitai
-                                hatsumō</title></p></filiation>
+                            <note>『解体発蒙』の数図を写して彩色したもの。</note>
+
+                            <filiation><p>See <!--<ref target="<!-\- Add URL -\->">Japanese 71a</ref>--> for a printed copy of Kaitai hatsumō</p></filiation>
 
                         </msItem>
                     </msContents>
@@ -92,7 +77,7 @@
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent> 1帖 １巻 | 1 jō (volume) and 1 maki (section) <dimensions
+                                <extent> １冊 | 1 volume <dimensions
                                         unit="cm" type="binding">
                                         <dim type="height">280mm</dim>
                                         <dim type="width">190mm</dim>
@@ -107,7 +92,8 @@
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>折本 | orihon. </p>
+                                <p>折本</p>
+                                <p>Orihon binding.</p>
                             </binding>
                         </bindingDesc>
 
@@ -116,8 +102,7 @@
                     <history>
                         <origin>
                             <origDate calendar="nengō" from="1767" to="1867">江戸後期</origDate>
-                            <origDate calendar="gregorian" from="1767" to="1867">c. mid 18th to mid
-                                19th century</origDate>
+                            <origDate calendar="gregorian" from="1767" to="1867">c. mid 18th to mid 19th century</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -168,6 +153,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-12-01"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-26"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

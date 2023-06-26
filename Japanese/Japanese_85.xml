@@ -47,48 +47,35 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 85</idno>
                         <altIdentifier type="sierra">
-                            <idno>
-                                <!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33177570</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary>An anonymous manuscript in Katakana majiri titled <title
-                                type="original" xml:lang="ja" source="IANA">神農皇帝癰疔口伝之巻</title> | <title
-                                type="standard" xml:lang="ja-Latn" source="IANA">Shinnō kōtei yōchō kuden
-                                no maki</title> | <title type="standard" xml:lang="en" source="IANA"
-                                >Emperor Shennong’s advice on carbuncles</title>, containing advice
-                            on carbuncles, boils and other skin eruptions including hand coloured
-                            illustrations, probably made in the late 16th century. </summary>
+                        <summary>An anonymous manuscript in Katakana majiri containing advice on carbuncles, boils and other skin eruptions including hand coloured illustrations, probably made in the late 16th century. One of the recommended treatments is cautery, and the initial portion of the text states that 300 leeches are needed to deal with the after-effects. </summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_85">
 
-                            <title>
                                 <title type="original" xml:lang="ja" source="IANA">神農皇帝癰疔口伝之巻</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shinnō kōtei
-                                    yōchō kuden no maki</title>
-                                <title type="standard" xml:lang="en" source="IANA">Emperor Shennong’s
-                                    advice on carbuncles</title>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shinnō kōtei yōchō kuden no maki</title>
+                                <title type="standard" xml:lang="en" source="IANA">Emperor Shennong’s advice on carbuncles</title>
 
-                            <note><p>One of the recommended treatments is cautery, and the initial
-                                    portion of the text states that 300 leeches are needed to deal
-                                    with the after-effects. </p>
-                            </note>
+                            <note>巻末識語「☐☐満井☐左門正広（黒印「☐☐」）」。（印記）「姑庵見☐」。</note>
                         </msItem>
                     </msContents>
 
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent> 1 帖 １巻 | 1 jō (volume) and 1 maki (section); 90 pages.
+                                <extent>１冊 | 1 volume
                                         <dimensions unit="cm" type="binding">
                                         <dim type="height">233mm</dim>
                                         <dim type="width">180mm</dim>
-                                    </dimensions>
-                                </extent>
+                                    </dimensions>                              
+                                </extent>  
+                                <foliation>90 pages.</foliation>
                             </supportDesc>
                         </objectDesc>
 
@@ -99,32 +86,23 @@
 
 
                         <additions>
-                            <p>Parts of the texts have been highlighted with a red ink line, dot,
-                                triangle or stamp beside, above or on the text itself.</p>
+                            <p>Parts of the texts have been highlighted with a red ink line, dot, triangle or stamp beside, above or on the text itself.</p>
                             <p>An inscription is attributed to the seal bearer's mother in law. </p>
                         </additions>
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>綴葉装 | tetsuyōsō. Black cover </p>
-                                <condition>
-                                    <p>Pages throughout show signs of insect damage with minor loss
-                                        to text and illustrations.</p>
-                                </condition>
+                                <p>綴葉装</p>
+                                <p>Tetsuyōsō style binding with a black cover. Pages throughout show signs of insect damage with minor loss to text and illustrations. </p>
                             </binding>
                         </bindingDesc>
-
-                        <sealDesc>
-                            <p>A black seal at the end of the book: ☐☐満井☐左門正広 </p>
-                        </sealDesc>
 
                     </physDesc>
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō">室町末期</origDate>
-                            <origDate calendar="gregorian" from="1500" to="1573">16th
-                                century</origDate>
+                            <origDate calendar="nengō" from="1500" to="1573">室町末期</origDate>
+                            <origDate calendar="gregorian" from="1500" to="1573">c. 16th century</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -189,6 +167,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-12-01"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-26"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

@@ -47,28 +47,20 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 86</idno>
                         <altIdentifier type="sierra">
-                            <idno>
-                                <!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33177582</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> A manuscript copy of <title type="original" xml:lang="ja"
-                                source="IANA">環神備要</title> | <title type="standard" xml:lang="ja-Latn"
-                                source="IANA">Kanshin biyō</title> | <title type="standard" xml:lang="en"
-                                source="IANA">Essentials for resuscitation</title> consisting of
-                            text in Kanbun and illustrations showing thirteen techniques of
-                            resuscitation for people who have drowned, hung themselves or lost
-                            consciousness. It also includes two large folded sheets showing a
-                            Chinese man with vital points and internal organs identified. </summary>
+                        <summary> A manuscript work consisting of text in Kanbun and illustrations showing thirteen techniques of resuscitation for people who have drowned, hung themselves or lost consciousness. It also includes two large folded sheets showing a Chinese man with vital points and internal organs identified. </summary>
 
-                        <textLang mainLang="lzh" source="IANA">Literary Chinese</textLang>
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_86">
 
                             <author key="person_46161857" source="VIAF">
-                                <persName xml:lang="ja" source="IANA" type="original">各務 文献</persName>
-                                <persName xml:lang="ja-Latn" source="IANA">Kagami, Bunken</persName>
+                                <persName xml:lang="ja" source="IANA" type="original">各務文献</persName>
+                                <persName xml:lang="ja-Latn" source="IANA">Kagami Bunken</persName>
                                 <note><p><persName>Kagami, Bunken</persName> practiced as an
                                         orthopaedic surgeon in <placeName>Osaka</placeName> and in
                                             <date>1810</date> published <title>整骨新書</title> |
@@ -81,22 +73,13 @@
                                         another Osaka doctor.</p></note>
                             </author>
 
-                            <title type="gedai">
                                 <title type="original" xml:lang="ja" source="IANA">環神備要</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kanshin
-                                    biyō</title>
-                                <title type="standard" xml:lang="en" source="IANA">Essentials for
-                                    resuscitation</title>
-                                <note><p>外題: The title is taken from the outside cover.</p></note>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kanshin biyō</title>
+                                <title type="standard" xml:lang="en" source="IANA">Essentials for resuscitation</title>                        
 
-                            <explicit><locus>Leaf 18 </locus>明治三十八年十一月十五日／文武館ニ於テ</explicit>
-
-                            <filiation><p>The illustrations are very similar to those contained in
-                                    what appears to be the author’s holograph in Waseda University
-                                    Library <ref
-                                        target="http://archive.wul.waseda.ac.jp/kosho/bunko08/bunko08_b0093/"
-                                        >(文庫08_b0093)</ref>. </p></filiation>
+                            <note>漢文無点、または片仮名まじり文。書写奥書「終／明治三十八年十一月十五日／文武館ニ於テ」。松田秀彦創設の文武館のことか。 印記「渡辺」。</note>
+                            
+                            <filiation><p>The illustrations are very similar to those contained in what appears to be the author’s holograph in Waseda University Library <ref target="http://archive.wul.waseda.ac.jp/kosho/bunko08/bunko08_b0093/">(文庫08_b0093)</ref>. </p></filiation>
 
                         </msItem>
                     </msContents>
@@ -104,34 +87,31 @@
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent>１冊 １巻 | 1 satsu (volume) and 1 maki (section); 19 leaves
-                                    with 16 illustrations. Also includes 2 folded illustrated
-                                    sheets. <dimensions unit="cm" type="binding">
+                                <extent>１冊 | 1 volume <dimensions unit="cm" type="binding">
                                         <dim type="height">248mm</dim>
                                         <dim type="width">179mm</dim>
                                     </dimensions>
                                 </extent>
+                                <foliation>19 leaves with 16 illustrations. Also includes 2 folded illustrated sheets. </foliation>
                             </supportDesc>
                         </objectDesc>
 
                         <scriptDesc>
-                            <scriptNote scope="sole">漢文 | Kanbun</scriptNote>
+                            <scriptNote scope="sole">漢文</scriptNote>
+                            <scriptNote scope="sole">Kanbun</scriptNote>
                         </scriptDesc>
 
                         <decoDesc>
-                            <p>Illustratioms have been hand coloured in red and black</p>
+                            <p>Illustrations have been hand coloured in red and black</p>
                         </decoDesc>
 
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>袋綴 | fukurotoji. </p>
+                                <p>袋綴</p>
+                                <p>Fukurotoji binding</p>
                             </binding>
                         </bindingDesc>
-
-                        <sealDesc>
-                            <p>Red seal on 6th leaf: 渡辺.</p>
-                        </sealDesc>
 
                     </physDesc>
 
@@ -142,11 +122,7 @@
                             <origPlace>
                                 <country>Japan</country>
                                 <placeName type="institution">Bunbukan</placeName>
-                                <note><p>There are a number of institutions refered to as Bunbukan
-                                        but this is probably the one established by
-                                            <persName>Matsuda Hidehiko</persName>
-                                        <date>(1852-1939)</date> in <date>1894</date> for
-                                        instruction in martial arts.</p></note>
+                                <note><p>There are a number of institutions refered to as Bunbukan but this is probably the one established by Matsuda Hidehiko in 1894 for instruction in martial arts.</p></note>
                             </origPlace>
                         </origin>
                     </history>
@@ -167,9 +143,7 @@
 
                             <custodialHist>
                                 <custEvent type="exhibition" from="2004-10" to="2004-12">
-                                    <p>Exhibited as part of the Asia: Body,Mind and Spirit
-                                        exhibition at the Brunei Gallery, School of Oriental and
-                                        African Studies (SOAS), October-December 2004.</p>
+                                    <p>Exhibited as part of the Asia: Body,Mind and Spirit exhibition at the Brunei Gallery, School of Oriental and African Studies (SOAS), October-December 2004.</p>
                                 </custEvent>
                             </custodialHist>
 
@@ -217,6 +191,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-12-01"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-26"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

@@ -48,39 +48,23 @@
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 99</idno>
                         <altIdentifier type="sierra">
-                            <idno>
-                                <!-- Insert Sierra b-number if record exists--></idno>
+                            <idno>b33177788</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> A manuscript scroll in kanbun, with kunten and furigana added
-                            later, including three illustrations of the five viscera and six bowels,
-                            one of points for acupuncture and moxibustion, one of a hand, two of
-                            body measurements, and twelve of the body with meridians and acupunture
-                            points. The manuscript was probably produced in the <date>early 18th
-                                century</date>.</summary>
+                        <summary> A manuscript scroll in kanbun, with kunten and furigana added later, including three illustrations of the five viscera and six bowels, one of points for acupuncture and moxibustion, one of a hand, two of body measurements, and twelve of the body with meridians and acupunture points. The manuscript was probably produced in the early 18th century.</summary>
 
-                        <textLang mainLang="lzh" source="IANA">Literary Chinese</textLang>
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_99">
 
-
-                            <title>
                                 <title type="original" xml:lang="ja" source="IANA">五臓六腑経絡図</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Gozō roppu
-                                    keirakuzu</title>
-                                <title type="standard" xml:lang="en" source="IANA">The meridians with the
-                                    five viscera and six bowels</title>
-                                <note><p>仮題: This is a descriptive title given by the cataloguer for
-                                        the purposes of identification.</p></note>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Gozō roppu keirakuzu</title>
+                                <title type="standard" xml:lang="en" source="IANA">The meridians with the five viscera and six bowels</title>
 
-                            <note><p>The text contains references to <title xml:lang="lzh"
-                                        source="IANA">十四経発揮</title> | <title>Shisijing fahui</title>
-                                    by <persName>Hua Shou</persName>
-                                    <date>(1304–86)</date> and other works.</p>
-                            </note>
+                            <note>This is a descriptive title given by the cataloguer for the purposes of identification. The text contains references to Shisijing fahui (十四経発揮) by Hua Shou and other works.</note>
+                            <note>墨筆、朱筆訂正等あり。 漢文（朱筆訓点および振り仮名）、墨筆書入れあり。</note>
                         </msItem>
                     </msContents>
 
@@ -98,6 +82,8 @@
                         <scriptDesc>
                             <scriptNote scope="major">Kanji</scriptNote>
                             <scriptNote scope="minor">Hirigana</scriptNote>
+                            <scriptNote scope="minor">Kunten</scriptNote>
+                            <scriptNote scope="minor">Furigana</scriptNote>
                         </scriptDesc>
 
                         <decoDesc>
@@ -105,13 +91,13 @@
                         </decoDesc>
 
                         <additions>
-                            <p>Kunten and some furigana has been added at a later date in red
-                                ink.</p>
+                            <p>Kunten and some furigana has been added at a later date in red ink.</p>
                         </additions>
 
                         <bindingDesc>
                             <binding contemporary="unknown">
-                                <p>巻子装 | kansusō</p>
+                                <p>巻子装</p>
+                                <p>Kansusō</p>
                             </binding>
                         </bindingDesc>
 
@@ -120,8 +106,7 @@
                     <history>
                         <origin>
                             <origDate calendar="nengō" from="1700" to="1750">江戸中期</origDate>
-                            <origDate calendar="gregorian" from="1700" to="1750">Early 18th
-                                century</origDate>
+                            <origDate calendar="gregorian" from="1700" to="1750">Early 18th century</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -193,6 +178,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2021-12-02"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-26"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>
