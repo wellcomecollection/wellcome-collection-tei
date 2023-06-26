@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_87">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 87</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 87</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 87</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33177594</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed Japanese translation by Kobayashi Yoshinao (1844-1905) of 'A compend of materia medica and therapeutics, for the use of students' (Philadelphia: Lippincott, 1869) by John Campbell Riley (1828-1879), and pubished in Tokyo by Shimamura Risuke in 1875.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_87">
+
+                            <author key="person_258450204" source="VIAF">
+                                <persName type="original" xml:lang="ja"/>
+                                <persName type="standard" xml:lang="en">John Campbell Riley</persName>
+                                <note><p>Identified in the preface in Chinese characters, John
+                                        Campbell Riley (1828-1879) was a Washington physician who in
+                                        1859 became a professor at the National Medical College in
+                                        Washington DC.</p></note>
+                            </author>
+
+                            <author>
+                                <persName type="original" xml:lang="ja">>小林義直</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kobayashi Yoshinao</persName>
+                                <note>Kobayashi Yoshinao (1844-1905), was born in rural Fukuyama but
+                                    in 1863 he went up to Edo (Tokyo), where he attended the Yōsho
+                                    Shirabesho and Igakukan (the Bakufu institutions for the study
+                                    of Western books and Western medicine, respectively) and also
+                                    attended the private school of Tsuboi Hōshū. He subsequently
+                                    returned to Fukuyama, where he taught English in the domain
+                                    academy and was later instrumental in setting up a medical
+                                    academy and hospital there. In 1872 he entered the Monbushō
+                                    (Ministry of Education) and the following year was attached to
+                                    the Translation Department with responsibility for medical
+                                    books. In 1875, however, he left the Ministry to devote himself
+                                    to translation and he subsequently produced a number of medical
+                                    translations, either on his own or in collaboration with Tsuboi
+                                    Hōshū and others; these included a manual of gynaecology, Kashi
+                                    sanka tekiyō 華氏産科摘要 (1876), which was translated from an
+                                    unidentified original.</note>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">島村利助</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Shimamura Risuke</persName>
+                                <resp>Publisher</resp>
+                                <note>A notice attached to the end of volume eight indicates that
+                                    the publisher, Shimamura Risuke, was the official publisher of
+                                    books for the Army Medical Corps, the Naval Hospital and the
+                                    Medical Academy and that he specialized in medical books and
+                                    translations; a catalogue of his publications attached to the
+                                    end of the last volume includes a number of medical works as
+                                    well as Saikoku risshihen, a translation of Samuel Smiles’
+                                    Self-help. </note>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">理礼氏薬物学</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Rireishi yakubutsugaku</title>
+                                <title type="standard" xml:lang="en" source="IANA">Riley’s pharmacology</title>
+                            
+
+                            <note>方面に「（眉上「明治五壬申春刊行」）司馬盈之閲／小林義直訳（朱印「東京本郷弓町二丁目十三番地寄留小林義直版」）／理礼氏薬物学／明治八年十一月廿七日版権免許蘆灣漁舎梓」（蘆灣漁人は訳者の号）。刊記「東校官板御用所／軍医寮官板御用所／海軍病院官板御用所／発行書肆　英蘭堂　東京　島村利助」。巻末に「英蘭堂発兌書目録」（４丁）を附す。（印記）「医員小集会之記章」「医学社」。原書は「A compend of materia medica and therapeutics, for the use of students (Philadelphia: Lippincott, 1869)」、著者は John Campbell Riley (1828-1879)。</note>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 15冊 17巻 | 15 volumes (17 sections) <dimensions unit="mm"
+                                        type="binding">
+                                        <dim type="height">225mm</dim>
+                                        <dim type="width">150mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" from="1872" to="1875">明治５- 明治８</origDate>
+                            <origDate calendar="gregorian" from="1872" to="1875"
+                                >1872-1875</origDate>
+                            <origPlace>
+                                <placeName>東京</placeName>
+                                <placeName>Tokyo</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                        <provenance>This copy bears the ownership stamps of two unidentified Japanese medical institutions probably of the early Meiji period. </provenance>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">内閣文庫漢籍分類目録</title>
+                                <title xml:lang="ja-Latn">Naikaku bunko kokusho bunrui
+                                    mokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Naikaku Bunko</publisher>
+                                <date>1956</date>
+                                <note>p. 1015</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">小林先生小傳</title>
+                                <title xml:lang="ja-Latn">Kobayashi sensei shōden</title>
+                                <author xml:lang="ja">井上角五郎</author>
+                                <author xml:lang="ja-Latn">Inoue Kakugorō</author>
+                                <date>1906</date>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85082055">Materia medica</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-20"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-26"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_81">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 81</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 81</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 81</idno>
+                        <altIdentifier type="former">
+                            <idno>Rudolph #18</idno>
+                        </altIdentifier>
+                        <altIdentifier type="sierra">
+                            <idno>b33177259</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> This work by Inaba Katsu, published in 1801, contains illustrations showing patients with various internal ailments, and in each the location of the pain or discomfort is indicated with printed patches of green. Each condition is discussed in katakana-majiri script and prescriptions for treatment are provided. Incomplete; only volume 2.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_81">
+
+                            <author>
+                                <persName type="original" xml:lang="ja">稲葉克</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Inaba Katsu</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">塩屋平助等</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Shioya Heisuke</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                            <title>
+                                <title type="original" xml:lang="ja" source="IANA">腹証奇覧</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Fukushō kiran</title>
+                                <title type="standard" xml:lang="en" source="IANA">Abdominal diagnosis illustrated</title>
+                            </title>
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 1015141</ref> for copies of
+                                        <title>増補民用晴雨便覧</title> held by other institutions.</p>
+                            </filiation>
+                            
+                            <note>（享和１年刊記書肆）和州書林、高田、本屋源左衛門／大坂書林、河内屋喜兵衛・塩屋平助。封面に「摂州書林／興文堂・積玉圃」とあり。巻末「摂陽書林柳原積玉圃医書版目録　大坂　河内屋喜兵衛」（１丁）を附す。また、奥付に河内屋喜兵衛版『都会節用集』等の広告を附す。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 1冊 (存正編２巻) | 1 volume (Volume 2 of 2)<dimensions unit="mm"
+                                        type="binding">
+                                        <dim type="height">228mm</dim>
+                                        <dim type="width">168mm</dim>
+                                        <dim type="depth">25mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote>木版図</typeNote>
+                            <typeNote>Woodblock print</typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">片仮名</scriptNote>
+                            <scriptNote scope="major">Katakana</scriptNote>
+                        </scriptDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1801">享和１</origDate>
+                            <origDate calendar="gregorian" when="1801">1801</origDate>
+                            <origPlace>
+                                <placeName>大坂</placeName>
+                                <placeName>Osaka</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title>A collection of Japanese medical and scientific books from
+                                    the library of Richard C. Rudolph, founder of Asian Studies at
+                                    UCLA</title>
+                                <placeName>Novato</placeName>
+                                <publisher>Jeremy Norman and company</publisher>
+                                <date>2006</date>
+                                <note>Rudolph #18</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85037489">Diagnosis</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-20"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-20"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

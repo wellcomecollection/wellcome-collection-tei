@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_90">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 90</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 90</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 90</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33177648</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed astronomical study by the Qing-dynasty astronomer You Yi in Kanbun, with appendix in Kunten by Nishikawa Seikyū, published in 1730. This work was imported to Japan during the Edo period and introduced the notion of solar rather than lunar measurement of time well before Japan abandoned the solar calendar in 1872.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_90">
+
+                            <author key="person_18625619" source="VIAF">
+                                <persName type="original" xml:lang="ja">游藝</persName>
+                                <persName type="standard" xml:lang="ja-Latn">You Yi</persName>
+                            </author>
+
+                            <author key="person_76254606" source="VIAF">
+                                <persName type="original" xml:lang="ja">西川正休</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Nishikawa Seikyū</persName>
+                            </author>
+
+                                <title type="original" xml:lang="ja" source="IANA">天経惑問</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Tenkei wakumon</title>
+                                <title type="standard" xml:lang="en" source="IANA">Exposition of the solar paths</title>
+                            
+
+                            <note>２巻・首目１巻・附「大略天学名目鈔」１巻。［後印］（無書肆名）。『和刻本漢籍分類目録』117頁によれば、享保15年刊本は書肆名が万屋清兵衛となっている。裏表紙見返識語「山田槌之助蔵書」。墨筆書入れあり。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 4冊 | 4 volumes <dimensions unit="mm" type="binding">
+                                        <dim type="height">256</dim>
+                                        <dim type="width">189</dim>
+                                        <dim type="depth">52</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1730">享保15</origDate>
+                            <origDate calendar="gregorian" when="1730">1730</origDate>
+                            <origPlace>
+                                <placeName>江戸</placeName>
+                                <placeName>Edo</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">日本の暦</title>
+                                <title xml:lang="ja-Latn">Nihon no koyomi</title>
+                                <author xml:lang="ja">渡邊敏夫</author>
+                                <author xml:lang="ja-Latn">Watanabe Toshio</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>ūzankaku</publisher>
+                                <date>1984</date>
+                                <note>2nd edition, p.479</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">和刻本漢籍分類目録</title>
+                                <title xml:lang="ja-Latn">Wakokubon kanseki bunrui mokuroku</title>
+                                <author xml:lang="ja">長沢規矩也</author>
+                                <author xml:lang="ja-Latn">Nagasawa Kikuya</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Kyuko Shoin</publisher>
+                                <date>1976-1980</date>
+                                <note>p.117</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85009003">Astronomy</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-20"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-26"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

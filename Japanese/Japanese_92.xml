@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_92">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 92</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 92</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 92</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33177673</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed account of Dutch medical practices dictated by Ōtsuki Gentaku (1757-1827) and written down by Arima Genchō, a doctor from Fukuchiyama.  It takes the form of questions and answers, some of them very basic: the first asks how the Dutch write the word ‘Oranda’ (the Japanese term for Holland) and the answer points out that the Dutch do not use Chinese characters. This book therefore seems to be answering a need for basic information stimulated by the growing popularization of Rangaku in the late 18th century. Included are illustrations showing Dutch men and women clothed and unclothed, a bottle and cutlery, and amongst the topics covered are wine, glass, bread, balsam and ostriches. This copy lacks the second volume, but the two volumes were published in 1799. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_92">
+
+                            <author key="person_251730036" source="VIAF">
+                                <persName type="original" xml:lang="ja">大槻玄沢</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Ōtsuki Gentaku</persName>
+                            </author>
+
+                            <author key="person_179744446" source="VIAF">
+                                <persName type="original" xml:lang="ja">有馬元晁</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Arima Genchō</persName>
+                            </author>
+
+                                <title type="original" xml:lang="ja" source="IANA">蘭説辨惑</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Ransetsu benwaku</title>
+                                <title type="standard" xml:lang="en" source="IANA">Explaining Dutch views</title>
+                            
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 1027378</ref> for copies of 蘭説辨惑 held by other institutions</p>
+                            </filiation>
+
+                            <note>（刊記欠）。外題「（蘭説辨惑）磐水夜話」。表紙ラベル「第三九九号／貳冊／杉浦文庫」。印記「三柳庵／杉浦氏／蔵書記」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> 1冊 | 1 volume <dimensions unit="mm"
+                                        type="binding">
+                                        <dim type="height">185mm</dim>
+                                        <dim type="width">125mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+                        
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p>袋綴</p>
+                                <p>Fukurotoji</p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1799">寛政11</origDate>
+                            <origDate calendar="gregorian" when="1799">1799</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <author>Grant K Goodman</author>
+                                <title level="a">Occasional papers</title>
+                                <title level="j">Center for Japanese Studies</title>
+                                <publisher>University of Michigan Press</publisher>
+                                <date>1952</date>
+                                <biblScope unit="volume">3</biblScope>
+                                <note>Translation of this work, pp.71-99</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85040091">Dutch</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-21"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-26"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_89">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 89</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 89</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 89</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33177636</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> A woodblock printed work published in 1763 on natural history including liquids, solids like soap and coal, metals, precious stones, minerals, plants, grains, fruit, trees, insects, fish, shellfish and some animals, by Hiraga Gennai (1728-1780), in organising and an exhibitor of natural specimens(bussankai). It is written in katakana-majiri with both the Chinese and Japanese names of plants given, and ocasionally English names too. The first item shown, bara no tsuyu 薔薇露, appears not only with its Japanese name but is also said to be named ‘rosewater’ in the ‘language of the red-headed people’, which usually means the Dutch; since the Dutch for rosewater is rozenwater it is apparent that the English term is intended. The fifth volume consists of botanical illustrations and the sixth deals with cultivation of ginseng. There are other occasional illustrations elsewhere in the book, including one which shows a machine for the extraction of sugar from sugar cane.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_89">
+
+                            <author key="person_48096126" source="VIAF">
+                                <persName type="original" xml:lang="ja">平賀源内</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Hiraga Gennai</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">柏原屋清右衛門等発</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">物類品隲</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Butsurui hinshitsu</title>
+                                <title type="standard" xml:lang="en" source="IANA">Categories determined</title>
+                            
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 484026</ref> for copies of 物類品隲 held by other institutions</p>
+                            </filiation>
+
+                            <note>（宝暦13年刊記書肆） 松籟館蔵版（印「松籟館図書印」）／鳩溪平賀先生嗣出書（三行略）／書肆／江戸、植村藤三郎・須原屋市兵衛／大坂、柏原屋清右衛門／仝梓）。印記「伊藤篤太郎記」「神谷之印」「福田所蔵」「呉琅蔵書」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> ６冊 (４巻・図録１巻・付録１巻) | 6 volumes (4 sections, 1 catalogue and 1 appendix) <dimensions unit="mm" type="binding">
+                                        <dim type="height"/>
+                                        <dim type="width"/>
+                                        <dim type="depth"/>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p>袋綴</p>
+                                <p>Fukurotoji binding.</p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1763">宝暦13</origDate>
+                            <origDate calendar="gregorian" when="1763">1763</origDate>
+                            <origPlace>
+                                <placeName>大坂</placeName>
+                                <placeName>Osaka</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85090222">Natural history</term>
+                            <term key="subject_sh85015976">Botany</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-20"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-06-26"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
