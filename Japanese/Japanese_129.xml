@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_129">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 129</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 129</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 129</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191384</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed guide to living a long and healthy life written by Kaibara Ekiken (1630-1714) in his eighties and published in 1713, the year before his death. In his view the route to a long life lay in a healthy lifestyle and morally upright conduct, and his advice includes self-restraint in matters of food, drink, sleep and sexual behaviour. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_129">
+
+                            <author key="person_24651551" source="VIAF">
+                                <persName type="original" xml:lang="ja" source="IANA">貝原益軒</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kaibara Ekiken</persName>
+                            </author>
+
+
+                            <author key="person_7318574" source="VIAF">
+                                <persName type="original" xml:lang="ja" source="IANA">杉本義篤</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Sugimoto Yoshiatsu</persName>
+                            </author>
+
+                            <respStmt key="person_26918280" source="VIAF">
+                                <persName type="original" xml:lang="ja">永田調兵衛</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Nagata Chōbē</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">養生訓</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Yōjōkun</title>
+                                <title type="standard" xml:lang="en" source="IANA">Lessons on cultivating life</title>
+                            
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 62715</ref> for copies of 養生訓 held by other institutions</p>
+                            </filiation>
+
+                            <note>杉本義篤（付録）著。印記「佐伯図書」「石神文庫」「小財」。前表紙見返し識語「明治辛亥一月廿九日／濱寺快談ノ記念ニ／養生訓ヲ呈ス／工積山生／吉永軒主人／石神老兄硯北」。</note>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> ４冊 (８巻・付録１巻) | 4 volumes (in 8 sections with 1 appendix)
+                                        <dimensions unit="mm" type="binding">
+                                        <dim type="height">225mm</dim>
+                                        <dim type="width">162mm</dim>
+                                        <dim type="depth">37mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1713">正徳３</origDate>
+                            <origDate calendar="gregorian" when="1713">1713</origDate>
+                            <origPlace>
+                                <placeName>Kyoto</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85078286">Longevity</term>
+                            <term key="sh85094506">Old age</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-25"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

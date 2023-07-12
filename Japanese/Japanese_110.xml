@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_110">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 110</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 110</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 110</idno>
+                        <altIdentifier type="former">
+                            <idno>Rudolph #13</idno>
+                        </altIdentifier>
+                        <altIdentifier type="sierra">
+                            <idno>b33191219</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>An anonymous woodblock printed work on various ointments and treatments for external lesions written in hiragana-majiri with extensive furigana. The first edition titled (Shinkan kokon) Geka chōhōki [新刊古今外科重宝], was published in 1746 but this new edition was published in 1785 in Osaka; there were also later impressions in 1805 and 1806. The figures in the illustrations are Chinese in appearance and much attention is given in the first half of the book to identifying and naming the parts of the body.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_110">
+
+                                <title type="original" xml:lang="ja" source="IANA">改補外科調宝記</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kaiho geka chōhōki </title>
+                                <title type="standard" xml:lang="en" source="IANA">Treasury of external medicine, revised and enlarged</title>
+                            
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">柏原屋与左衛門</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kashiwaraya Yosaemon</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 39644</ref> for copies of <title>改補外科調宝記</title> held by other institutions</p>
+                            </filiation>
+
+                            <note>目録。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> １冊 | 1 volume<dimensions unit="mm" type="binding">
+                                        <dim type="height">163mm</dim>
+                                        <dim type="width">111mm</dim>
+                                        <dim type="depth">32mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">Hiragana-majiri</scriptNote>
+                            <scriptNote scope="major">Furigana</scriptNote>
+                        </scriptDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1785">天明５</origDate>
+                            <origDate calendar="gregorian" when="1785">1785</origDate>
+                            <origPlace>
+                                <placeName>大坂</placeName>
+                                <placeName>Osaka</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                            <custodialHist>
+                                <custEvent type="exhibition" from="2004-10" to="2004-12">
+                                    <p>Exhibited as part of Asia: Body Mind Spirit exhibition at the Brunei Gallery, School of Oriental and African Studies (SOAS), London, October-December 2004.</p>
+                                </custEvent>
+                            </custodialHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title>A collection of Japanese medical and scientific books from
+                                    the library of Richard C. Rudolph, founder of Asian Studies at
+                                    UCLA</title>
+                                <placeName>Novato</placeName>
+                                <publisher>Jeremy Norman and company</publisher>
+                                <date>2006</date>
+                                <note>Rudolph #13</note>
+                            </bibl>
+                            <bibl>
+                                <author xml:lang="ja">長友千代治</author>
+                                <author xml:lang="ja-Latn">Nagatomo Chiyoji</author>
+                                <title level="a" xml:lang="ja">医方・薬方</title>
+                                <title level="a" xml:lang="ja-Latn">Ihō yakuhō </title>
+                                <title level="j" xml:lang="ja">重宝記資料集成</title>
+                                <title level="j" xml:lang="ja-Latn">Chōhōki shiryō shūsei </title>
+                                <placeName>Kyoto</placeName>
+                                <publisher>Rinsen Shoten</publisher>
+                                <date>2006</date>
+                                <note>Facsimile of the 1806 edition in Vol 24, pp.119-318, and of
+                                    the earlier 1746 edition in Vol 24, pp.5-117</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85014896">Blisters</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-21"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

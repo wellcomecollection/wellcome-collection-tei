@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_122">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 122</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 122</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 122</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191311</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>An anonymous guide to the practice of acupuncture and moxibustion, written in katakana-majiri script. This copy lacks the second volume with the colophon, but the only edition of this work seems to have been published in 1685; the preface is dated 1674. The copy belonging to the Shinkyūin in Kyoto has an undated preface and a colophon (inserted by ireki, that is inserting a new text into the printing block) that reads 貞享二乙丑年十月良辰／大坂心斎橋筋呉服町角／𦊆田三郎右衛門刋. There is no indication of the name of the author in this book. In 1699 Okamoto Ippō, a popularizer of medical knowledge, published a Japanese version under the title Shinkyū bassui taisei.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_122">
+
+                                <title type="original" xml:lang="ja" source="IANA">鍼灸抜萃</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shinkyū bassui</title>
+                                <title type="standard" xml:lang="en" source="IANA">The essentials of acupuncture and moxibustion</title>
+                            
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 1033723</ref> for copies of 鍼灸抜萃 held by other institutions.</p>
+                            </filiation>
+
+                            <note>による。延宝２＜1674＞年序。岡本一抱の『鍼灸抜粋大成』（元禄12刊）が有名であるが、書名や内容により、本書がその元になった事は明らかである。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> １冊 | 1 volume <dimensions unit="mm" type="binding">
+                                        <dim type="height">272mm</dim>
+                                        <dim type="width">190mm</dim>
+                                        <dim type="depth">14mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">Katakana-majiri</scriptNote>
+                        </scriptDesc>
+
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1685">貞享２</origDate>
+                            <origDate calendar="gregorian" when="1685">1685</origDate>
+                            <origPlace>
+                                <placeName>Kyoto</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <author>Gordon E. Mestler</author>
+                                <title>A galaxy of old Japanese medical books with miscellaneous
+                                    notes on early medicine in Japan. Part II. Acupuncture and
+                                    moxibustion. Bathing. Balneiotherapy and massage. Nursing.
+                                    Pediatrics and hygiene. Obstetrics and gynecology</title>
+                                <title level="j">Bulletin of the Medical Library Association</title>
+                                <date>1954</date>
+                                <note>Vol.2, p.476</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85000761">Acupuncture</term>
+                            <term key="sh85000764">Acupuncture Points</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-24"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

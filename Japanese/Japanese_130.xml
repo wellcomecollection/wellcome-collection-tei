@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_130">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 130</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 130</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 130</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191396</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed volume of illustrations taken from a treatise on bandages and bindings, but the accompanying two volumes of text are missing from this copy. It was originally written by the editor’s father, Ōtsuki Gentaku, under the title Hōtai zushiki 繃帯図式, but Ōtsuki Genkan (1785-1838) edited the volumes for this publication in 1813. Many of the bandages are applied to battlefield wounds. Most patients illustrated are Japanese in appearance, but the last illustration depicts a European person in a leg-splint, presumably taken from an imported book.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_130">
+
+                            <author key="person_61234130" source="VIAF">
+                                <persName type="original" xml:lang="ja" source="IANA">大槻玄幹</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Ōtsuki Genkan</persName>
+                                <note>Ōtsuki Genkan spent some years studying Dutch in Nagasaki and
+                                    progressed far enough with the language to be able to write a
+                                    grammar of Dutch. After spending some years as the Sendai domain
+                                    doctor, he was employed by the Bakufu government as a translator
+                                    of imported books.</note>
+                            </author>
+
+
+                            <author key="person_7318574" source="VIAF">
+                                <persName type="original" xml:lang="ja" source="IANA">杉本義篤</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Sugimoto Yoshiatsu</persName>
+                            </author>
+
+                            <respStmt key="person_26918280" source="VIAF">
+                                <persName type="original" xml:lang="ja">永田調兵衛</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Nagata Chōbē</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">外科収功</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Geka shūkō</title>
+                                <title type="standard" xml:lang="en" source="IANA">Effective external treatment</title>
+                            
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 1000960</ref> for copies of 外科収功 held by other institutions</p>
+                            </filiation>
+
+                            <note>朱筆書入れあり。外題「（外科収㓛）図式」。 三色図（顔などにピンク色）。</note>
+                            
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> １冊（本文２巻欠） | 1 volume (Incomplete: 2 additional parts missing)
+                                        <dimensions unit="mm" type="binding">
+                                        <dim type="height">230mm</dim>
+                                        <dim type="width">160mm</dim>
+                                        <dim type="depth">7mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1813">文化10</origDate>
+                            <origDate calendar="gregorian" when="1813">1813</origDate>
+                            <origPlace>
+                                <placeName>Kyoto</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <author>Gordon E. Mestler</author>
+                                <title>A galaxy of old Japanese medical books with miscellaneous
+                                    notes on early medicine in Japan. Part II. Acupuncture and
+                                    moxibustion. Bathing. Balneiotherapy and massage. Nursing.
+                                    Pediatrics and hygiene. Obstetrics and gynecology</title>
+                                <title level="j">Bulletin of the Medical Library Association</title>
+                                <date>1954</date>
+                                <note>5, p.214</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85011479">Bandages and bandaging</term>
+                            <term key="subject_sh85048581">First aid in illness and injury</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-25"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

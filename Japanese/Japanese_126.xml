@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_126">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 126</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 126</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 126</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191359</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>An early 17th century woodblock printed work about food for the treatment of illnesses, with extensive furigana. The author of this work, a man named Baiju, was himself a doctor who had been a pupil of Yoshida Sōjun (also known as Ian) 吉田宗恂（意安）and he was also a prolific publisher of medical books in the early years of the 17th century. This work was first published in 1626 in the form of a typographic edition but this copy is from a group reproduced shortly afterwards in a woodblock facsimile with added furigana.　 </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_126">
+
+                            <author>
+                                <persName type="original" xml:lang="ja" source="IANA">梅壽</persName>
+                                <persName type="standard" xml:lang="en">Baiju</persName>
+                            </author>
+
+                                <title type="original" xml:lang="ja" source="IANA">諸疾ノ禁好集</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shoshitsu no kinkōshū</title>
+                                <title type="standard" xml:lang="en" source="IANA">Recommended and forbidden foods for all illnesses</title>
+                            
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 1032628</ref> for copies of 諸疾ノ禁好集 held by other institutions</p>
+                            </filiation>
+
+                            <note>木版本。目録題「諸疾禁好集」。刊記「寛永三年應汁鐘上澣梅壽撰刋」。後印と判断した理由は寛永三年刊古活字版を覆刻して振り仮名をつけたからである。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> １冊 | 1 volume <dimensions unit="mm" type="binding">
+                                        <dim type="height">140mm</dim>
+                                        <dim type="width">203mm</dim>
+                                        <dim type="depth">7mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">Furigana</scriptNote>
+                        </scriptDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" from="1600" to="1700">江戸前期</origDate>
+                            <origDate calendar="gregorian" from="1600" to="1700">17th century</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title>Pearls of the Orient: Asian Treasures from the Wellcome
+                                    Library</title>
+                                <author>Nigel Allan</author>
+                                <placeName>London</placeName>
+                                <publisher>Wellcome Institute</publisher>
+                                <date>2003</date>
+                                <note>p.237-239</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">増補古活字版之研究</title>
+                                <title xml:lang="ja-Latn">Kokatsujuban no kenkyū</title>
+                                <author xml:lang="ja">川瀬一馬</author>
+                                <author xml:lang="ja-Latn">Kawase Kazuma</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>The Antiquarian Booksellers Association of
+                                    Japan</publisher>
+                                <date>1967</date>
+                                <note>Vol.1, pp.329-333; Vol.2, p.754</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">梅寿軒の医書開版について</title>
+                                <title xml:lang="ja-Latn">Baijuken no isho kaihan ni tsuite</title>
+                                <author xml:lang="ja">川瀬一馬</author>
+                                <author xml:lang="ja-Latn">Kawase Kazuma</author>
+                                <publisher xml:lang="ja-Latn">Shoshigaku</publisher>
+                                <publisher xml:lang="ja">書誌学</publisher>
+                                <date>1967</date>
+                                <note>Vol.9, pp.1-10</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">「附訓活字本『諸疾禁好集』と梅壽の出版活動—古活字版終焉の解明にむけて」</title>
+                                <title xml:lang="ja-Latn">Fukun katsujibon Shoshitsu kinkōshū’ to
+                                    Baiju no shuppan katsudō: kokatsujiban shūen no kaimei ni
+                                    mukete</title>
+                                <author xml:lang="en">Peter Kornicki</author>
+                                <publisher xml:lang="ja-Latn">Biblia</publisher>
+                                <publisher xml:lang="ja">ビブリア</publisher>
+                                <date>2015</date>
+                                <note>Vol 144, pp.1-17</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85093451">Nutrition</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-24"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

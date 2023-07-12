@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_111">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 111</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 111</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 111</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191220</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary> A woodblock printed revised and enlarged edition of a medical handbook written by Hongō Masatoyo and published in 1780; the first edition was published in 1710. It is of pocket-book size and printed in hiragana-majiri with extensive furigana, and has an index with page numbers, a rare feature in 18th-century Japanese publications. As is often the case with medical illustrations, the figures are identifiable from their clothing and beards as Chinese, perhaps with the implication that these techniques are in tune with Chinese practice. The contents cover a large range of medical conditions from boils, headaches, constipation, childbirth, smallpox and other life-threatening diseases, and the remedies recommended including massage, acupuncture, moxibustion and medicines. There is an illustration of the five viscera and six bowels: this and other features of the book show that it largely follows traditional Chinese medicine as practiced in Japan. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_111">
+
+                            <author><persName type="original" xml:lang="ja">本郷正豊</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Hongō Masatoyo</persName></author>
+
+                                <title type="original" xml:lang="ja" source="IANA">医道日用重宝記</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Idō nichiyō chōhōki</title>
+                                <title type="standard" xml:lang="en" source="IANA">Treasury of everyday medicine</title>
+                            
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">柏原屋与左衛門</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kashiwaraya Yosaemon</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 12408</ref> for copies of 医道日用重宝記 held by other institutions</p>
+                            </filiation>
+
+                            <note>改表紙のため、原題箋欠。尾題「医道重宝記」。方面に「 …／醫道日用綱目／…／長生寶藏／増補」とあり。宝永６年序。（安永９年奥付書肆）京、菊屋七郎兵衛／江戸、西村源六／大坂、柏原屋清右衛門／刊行。巻末に「蔵板略目録／…／書林／大坂心斎橋筋順慶町北江入渋川称觥堂柏原屋清右衛門」（10丁、『絵本野山草後編』『画宝』「七ついろは品々」等所収）。裏表紙見返し墨書「田渋氏蔵書」。印記「田渋」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent>１冊 | 1 volume <dimensions unit="mm" type="binding">
+                                        <dim type="height">160mm</dim>
+                                        <dim type="width">109mm</dim>
+                                        <dim type="depth">66mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">Hiragana-majiri</scriptNote>
+                            <scriptNote scope="major">Furigana</scriptNote>
+                        </scriptDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1780">安永９</origDate>
+                            <origDate calendar="gregorian" when="1780">1780</origDate>
+                            <origPlace>
+                                <placeName>大坂</placeName>
+                                <placeName>Osaka</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">東京大学総合図書館古医学書目録</title>
+                                <title xml:lang="ja-Latn">Tōkyō Daigaku sōgō toshokan ko igakusho
+                                    mokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Tōkyō Daigaku</publisher>
+                                <date>1978</date>
+                                <note>p.36</note>
+                            </bibl>
+                            <bibl>
+                                <author>Gordon E. Mestler</author>
+                                <title>A galaxy of old Japanese medical books with miscellaneous
+                                    notes on early medicine in Japan. Part II. Acupuncture and
+                                    moxibustion. Bathing. Balneiotherapy and massage. Nursing.
+                                    Pediatrics and hygiene. Obstetrics and gynecology</title>
+                                <title level="j">Bulletin of the Medical Library Association</title>
+                                <date>1954</date>
+                                <note>1, pp.304-305, 309</note>
+                            </bibl>
+                            <bibl>
+                                <author xml:lang="ja">長友千代治</author>
+                                <author xml:lang="ja-Latn">Nagatomo Chiyoji</author>
+                                <title level="a" xml:lang="ja">医方・薬方</title>
+                                <title level="a" xml:lang="ja-Latn">Ihō yakuhō </title>
+                                <title level="j" xml:lang="ja">重宝記資料集成</title>
+                                <title level="j" xml:lang="ja-Latn">Chōhōki shiryō shūsei </title>
+                                <placeName>Kyoto</placeName>
+                                <publisher>Rinsen Shoten</publisher>
+                                <date>2006</date>
+                                <note>Facsimile of the 1806 edition in Vol 23, pp.107-264, and of
+                                    the earlier 1746 edition in Vol 24, pp.5-117</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85081957">Massage</term>
+                            <term key="subject_sh85123612">Smallpox</term>
+                            <term key="subject_sh85014896">Blisters</term>
+                            <term key="subject_sh85093768">Obstetrics</term>
+                            <term key="subject_sh85000761">Acupuncture</term>
+                            <term key="subject_sh85000764">Acupuncture Points</term>
+                            <term key="subject_sh85083125">Medicine, Chinese</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-21"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

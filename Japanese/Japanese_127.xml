@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_127">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 127</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 127</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 127</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191360</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed work on obstetrics, written in katakana-majiri, by Kondō Naoyoshi (also known as Taizō 退蔵 or Kenzan 謙山; 1814-1861), and published in 1858. At the outset he provides a detailed explanation of the female genital organs and their relation to the womb and goes on to examination and diagnosis, all illustrated with line drawings. He recommends various kinds of massage, and when preparing for birth he, like others before him, insisted on the use of a rolled-up bed cover for the patient to sit up against and showed how this was to be folded. The process of birth is covered in numerous illustrations showing each stage, and he also deals with still births, post-partural problems and the care of babies. </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_127">
+
+                            <author key="person_46691911" source="VIAF">
+                                <persName type="original" xml:lang="ja" source="IANA">近藤直義</persName>
+                                <persName type="standard" xml:lang="en">Kondō Naoyoshi</persName>
+                                <note>Kondō Naoyoshi was an official doctor in the Obama domain in
+                                    the province of Wakasa; in 1858 he moved to Kyoto and began to
+                                    practice medicine there, but he died in the same year.</note>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">野田藤八</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+
+                                <title type="original" xml:lang="ja" source="IANA">達生図説</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Tassei zusetsu</title>
+                                <title type="standard" xml:lang="en" source="IANA">Parturition illustrated</title>
+                            
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 1068026</ref> for copies of 達生図説 held by other institutions</p>
+                            </filiation>
+
+                            <note>封面に「京都書林　松栢堂　文華堂　橘枝堂　合梓」とあり。（安政五年奥付書肆）書林／江戸、須原屋茂兵衛・岡田屋嘉七・山城屋佐兵衛／大坂、河内屋喜兵衛・河内屋和助／京都、出雲寺文次郎・北村太助・ 野田藤八。印記「石神文庫」「史樸雷」「快雪図書」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> ３冊 | 3 volumes <dimensions unit="mm" type="binding">
+                                        <dim type="height">259mm</dim>
+                                        <dim type="width">186mm</dim>
+                                        <dim type="depth">40mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">Katakana-majiri</scriptNote>
+                        </scriptDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1858">安政５</origDate>
+                            <origDate calendar="gregorian" when="1858">1858</origDate>
+                            <origPlace>
+                                <placeName>Kyoto</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <author>Ilza Veith</author>
+                                <title level="a">The beginnings of modern Japanese
+                                    obstetrics</title>
+                                <title level="j">Bulletin of the History of Medicine</title>
+                                <date>1951</date>
+                                <note>25, p.56</note>
+                            </bibl>
+                            <bibl>
+                                <title xml:lang="ja">日本産科叢書</title>
+                                <title xml:lang="ja-Latn">Nihon sanka sōsho</title>
+                                <author xml:lang="ja">増田知正,呉秀三,富士川游</author>
+                                <author xml:lang="ja-Latn">Masuda Tomomasa, Kure Shūzō and Fujikawa
+                                    Yū eds.</author>
+                                <placeName>Kyōto</placeName>
+                                <publisher>Shibunkaku</publisher>
+                                <date>1971</date>
+                                <note>Facsimilie of text, pp.657-727</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85093768">Obstetrics</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-24"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

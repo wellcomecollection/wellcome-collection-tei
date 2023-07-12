@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_123">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 123</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 123</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 123</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191323</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed Japanese translation of the 2nd edition of 'Handleiding tot de stelselmatige beschrijvende ontleedkunde van den mensch: ten gebruike bij het onderwijs aan’s Rijks Kweekschool voor militaire geneeskundigen' by Joseph Alexander Fles (1819-1905), a Dutch military doctor. This translation was produced by Naka Sadakatsu (also known as Naka Kin’ya 中定勝) and published in 1872.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_123">
+
+                            <author key="person_84809371" source="VIAF">
+                                <persName type="original" xml:lang="ja" source="IANA">布列私</persName>
+                                <persName type="standard" xml:lang="en">Joseph Alexander Fles</persName>
+                            </author>
+
+                            <respStmt key="person_53549645" source="VIAF">
+                                <persName type="original" xml:lang="ja">中定勝</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Naka Kin’ya</persName>
+                                <resp>Translator</resp>
+                            </respStmt>
+
+                            <respStmt key="person_26744303" source="VIAF">
+                                <persName type="original" xml:lang="ja">松田正</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Matsuda Tadashi</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+
+                                <title type="original" xml:lang="ja" source="IANA">布列私解剖図譜</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Furesu kaibō zufu</title>
+                                <title type="standard" xml:lang="en" source="IANA">Fles’s anatomy illustrated</title>
+                            
+
+                            <note>木版、解剖図は銅版。封面に「思々斎蔵版（朱印「思々斎蔵版」）」。（明治５年奥付書肆）三府発弘書肆／東京、須原茂兵衛・稲田＜山城屋＞佐兵衛・佐久間＜岡田屋＞嘉七／西京、勝村治右衛門・湯浅治助・杦本甚助／大阪、松村＜敦賀屋＞九兵衛・柳原＜河内屋＞喜兵衛・松田正助。</note>
+                    
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> １冊 (１巻・附「布列私解剖図」) | 1 volume (including 1 appendix)
+                                        <dimensions unit="mm" type="binding">
+                                        <dim type="height">214mm</dim>
+                                        <dim type="width">151mm</dim>
+                                        <dim type="depth">34mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <decoDesc>
+                            <p>Anatomical drawings are copperplate woodcuts.</p>
+                        </decoDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1872">明治５</origDate>
+                            <origDate calendar="gregorian" when="1872">1872</origDate>
+                            <origPlace>
+                                <placeName>Osaka</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">東京大学総合図書館古医学書目録</title>
+                                <title xml:lang="ja-Latn">Tōkyō Daigaku sōgō toshokan ko igakusho
+                                    mokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Tōkyō Daigaku</publisher>
+                                <date>1978</date>
+                                <note>p.92</note>
+                            </bibl>
+                            <bibl>
+                                <author>Gordon E. Mestler</author>
+                                <title>A galaxy of old Japanese medical books with miscellaneous
+                                    notes on early medicine in Japan. Part II. Acupuncture and
+                                    moxibustion. Bathing. Balneiotherapy and massage. Nursing.
+                                    Pediatrics and hygiene. Obstetrics and gynecology</title>
+                                <title level="j">Bulletin of the Medical Library Association</title>
+                                <date>1954</date>
+                                <note>Vol. 1, p.319</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh99002319">Anatomy</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-24"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

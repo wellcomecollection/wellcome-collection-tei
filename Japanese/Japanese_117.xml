@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_117">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 117</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 117</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 117</idno>
+                        <altIdentifier type="former">
+                            <idno>Rudolph #27</idno>
+                        </altIdentifier>
+                        <altIdentifier type="sierra">
+                            <idno>b33191268</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed work on military medicine including treating gunshot wounds and other injuries likely to be incurred in battle, bandaging techniques and other conditions such as food poisoning and cholera, published in two parts in 1853 and 1857. The author, Hirano Genryō (1790-1867), studied medicine in Edo under Taki Motoyasu and published a number of medical works in the closing years of the Edo period.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_117">
+
+                            <author key="person_35726091" source="VIAF">
+                                <persName type="original" xml:lang="ja">平野元良</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Hirano Genryō</persName></author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">和泉屋金右衛門</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Izumiya Kin'emon</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">救急摘方</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kyūkyū tekihō</title>
+                                <title type="standard" xml:lang="en" source="IANA">Methods for dealing with emergencies</title>
+                            
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 21658</ref> for copies of 救急摘方 held by other institutions.</p>
+                            </filiation>
+
+                            <note>外題「（軍陣備要）救急摘方」。（正編広告奥附）江戸、和泉屋金右衛門。（続編奥附）安政三丙辰歳禀凖刊行／同四丁巳歳六月発兌／江戸書物問屋 和泉屋金右衛門。（印記）「竹島氏蔵」「魯徳福」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent>２冊 | 2 volumes<dimensions
+                                        unit="mm" type="binding">
+                                        <dim type="height">182mm</dim>
+                                        <dim type="width">126mm</dim>
+                                        <dim type="depth">19mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" from="1853" to="1857">嘉永６／安政４</origDate>
+                            <origDate calendar="gregorian" from="1853" to="1857">1853-1857</origDate>
+                            <origPlace>
+                                <placeName>Edo</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title level="a" xml:lang="ja">明治前日本産婦人科史</title>
+                                <title level="a" xml:lang="ja-Latn">(Meijizen) Nihon sanfujinka
+                                    shi</title>
+                                <title level="j" xml:lang="ja">名自前日本医学史</title>
+                                <title level="j" xml:lang="ja-Latn">(Meijizen) Nihon
+                                    igakushi</title>
+                                <author xml:lang="ja">梶完次・藤井尚久</author>
+                                <author xml:lang="ja-Latn">Kaji Kanji and Fujii Naohisa</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Nihon Gakujutsu Shinkckai</publisher>
+                                <date>1964</date>
+                                <note>Vol.3, pp.264-268</note>
+                            </bibl>
+                            <bibl>
+                                <title>A collection of Japanese medical and scientific books from
+                                    the library of Richard C. Rudolph, founder of Asian Studies at
+                                    UCLA </title>
+                                <placeName>Novato</placeName>
+                                <publisher>Jeremy Norman and company</publisher>
+                                <date>2006</date>
+                                <note><p>Rudolph #27</p></note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083153">Medicine, Military</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-24"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

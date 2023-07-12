@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_132">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 132</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 132</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 132</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191414</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed book by Ishida Teikan on childhood diseases and their treatment in hiragana-majiri script, and published by a pharmacist of Kyoto named Ishida Kenji who appears to have some connection with the author as the patent medicines produced by the pharmacy are recommended by the author. This edition was published in 1874 and is a facsimile (kabusebori) of the new edition which was first published in 1851 and was then reissued in 1859 with revisions and additions. It evidently enjoyed lasting popularity for other impressions are recorded for the years 1862, 1865 and 1870.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_132">
+
+                            <author key="person_4865111" source="VIAF">
+                                <persName type="original" xml:lang="ja">石田鼎貫</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Ishida Teikan</persName>
+                            </author>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">石田勝秀</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">小児養育金礎</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shōni yōiku kogane no ishizue </title>
+                                <title type="standard" xml:lang="en" source="IANA">Foundations of child-rearing</title>
+                            
+
+                            <filiation><p>See <ref target="MS Japanese 24">MS Japanese 24</ref> for another copy of 小児養育金礎. See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 1058748</ref> for copies of 小児養育金礎 held by other institutions</p>
+                            </filiation>
+
+                            <note>書外題「脾肝薬王圓」。序題「脾肝薬王園効能書　小児養育金礎」。内題「小児養育全礎／脾肝薬王園用法（振り仮名「しょうによういくこがねのいしつえ／ひかんやくおうゑんもちひやう」）」。明治５年の序末に「明治七年甲戌初春再彫期改補」、刊年はそれによる。巻末に「時文化十年癸酉仲秋／潜龍陳人鼎貫誌／本家製薬所皇都石田勝秀」。巻末に「本家製薬所　皇都…石田勝秀／出張弘所　東京…石田運平・大阪…岡本喜兵衛／各国元弘所（97所）」。嘉永４年刊本を覆刻。</note>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> １冊 | 1 volume <dimensions unit="mm" type="binding">
+                                        <dim type="height">222mm</dim>
+                                        <dim type="width">256mm</dim>
+                                        <dim type="depth">7mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Kabusebori woodblock print (facsimile of 1859 edition)</p></typeNote>
+                        </typeDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1874">明治７</origDate>
+                            <origDate calendar="gregorian" when="1874">1874</origDate>
+                            <origPlace>
+                                <placeName>Kyoto</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85023354">Child care</term>
+                            <term key="sh85099185">Pediatrics</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-25"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

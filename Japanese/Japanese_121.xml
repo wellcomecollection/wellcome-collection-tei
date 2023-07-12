@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_121">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 121</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 121</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 121</idno>
+                        <altIdentifier type="former">
+                            <idno>Rudolph #22</idno>
+                        </altIdentifier>
+                        <altIdentifier type="sierra">
+                            <idno>b3319130x</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed detailed account of the therapeutic uses of pressure on various parts of the body, particularly Chinese traditions, in hiragana-majiri with extensive furigana. The author was Ōta Shinsai with illustrations provided by Murata Yoshikoto (d. 1849). In one illustration, the technique of giving infants a therapeutic massage is shown: the mother and child are depicted with traditional Japanese clothing and hair-styles, but in other illustrations the figures wear styles more typically associated with Chinese cultures.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_121">
+
+                            <author>
+                                <persName type="original" xml:lang="ja">大田晋斉</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Ōta Shinsai</persName></author>
+
+                            <respStmt key="person_78714571" source="VIAF">
+                                <persName type="original" xml:lang="ja">村田嘉言</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Murata Yoshikoto</persName>
+                                <resp>Illustrator</resp>
+                                <note>Murata Yoshikoto was the son of Murata Harukado 春門
+                                    (1765-1836), who was a pupil of Motoori Norinaga and a scholar
+                                    in the Kokugaku tradition. He followed in his father’s footsteps
+                                    as a scholar but was also a talented artist and was responsible
+                                    for the illustrations in Onna shisho geimon zue 女四書芸文図会 (1835)
+                                    and several other works for women readers.</note>
+                            </respStmt>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">藤井文政堂</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Fujii Bunseidō</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">按腹図解</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Anpuku zukai</title>
+                                <title type="standard" xml:lang="en" source="IANA">Illustrated account of massage</title>
+                            
+
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 11303</ref> for copies of 按腹図解 held by other institutions.</p>
+                            </filiation>
+
+                            <note>(奥附）神儒仏書籍売捌所／並ニ説教経類絵本　品々／京都書林／寺町通五条上ル／藤井文政堂／山城屋佐兵衛。巻末に京都・山城屋藤井佐兵衛蔵版目録（１丁）を附す。（印記）「武岡蔵書」。</note>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> １冊 | 1 volume <dimensions unit="mm" type="binding">
+                                        <dim type="height">262mm</dim>
+                                        <dim type="width">191mm</dim>
+                                        <dim type="depth">16mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">Hiragana-majiri</scriptNote>
+                            <scriptNote scope="major">Furigana</scriptNote>
+                        </scriptDesc>
+
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1827">文政10</origDate>
+                            <origDate calendar="gregorian" when="1827">1827</origDate>
+                            <origPlace>
+                                <placeName>Kyoto</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title xml:lang="ja">東京大学総合図書館古医学書目録</title>
+                                <title xml:lang="ja-Latn">Tōkyō Daigaku sōgō toshokan ko igakusho
+                                    mokuroku</title>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Tōkyō Daigaku</publisher>
+                                <date>1978</date>
+                                <note>p.87</note>
+                            </bibl>
+                            <bibl>
+                                <title>A collection of Japanese medical and scientific books from
+                                    the library of Richard C. Rudolph, founder of Asian Studies at
+                                    UCLA </title>
+                                <placeName>Novato</placeName>
+                                <publisher>Jeremy Norman and company</publisher>
+                                <date>2006</date>
+                                <note><p>Rudolph #22</p></note>
+                            </bibl>
+                            <bibl>
+                                <title>The illustrated books of the Nanga, Maruyama, Shijo and other
+                                    related schools of Japan : a bibliography</title>
+                                <author>C.H.Mitchell</author>
+                                <placeName>Los Angeles</placeName>
+                                <publisher>Dawson's Book Shop</publisher>
+                                <date>1972</date>
+                                <note>p.208</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85081957">Massage</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-24"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

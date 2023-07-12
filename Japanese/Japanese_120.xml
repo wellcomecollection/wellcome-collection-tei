@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_120">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 120</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="PFK">
+                    <resp when="1997">Cataloguer</resp>
+                    <resp when="2018">Cataloguer</resp>
+                    <persName>Peter Francis Kornicki</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 120</idno>
+                <idno type="catalogue">Japanese medical and scientific books in the Wellcome
+                    Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 120</idno>
+                        <altIdentifier type="former">
+                            <idno>Rudolph #16</idno>
+                        </altIdentifier>
+                        <altIdentifier type="sierra">
+                            <idno>b33191293</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>A woodblock printed partial Japanese translation in katakana-majiri script of an early Chinese work on forensic pathology, Wuyuan lu 無寃録 by Wang Yu 王與(1260-1346) of the Yuan dynasty, which seems to have been completed in 1308. The translator was Kawai Naohisa from Izumi; he translated the text in 1736, according to his preface of the same date, although it was not published for thirty years. It is not a complete translation, for he explains in the preface that he omitted those parts relating to the laws of ‘that country’ (i.e China) and selected only those parts that he deemed useful for Japan; thus, the entire first volume of the original is omittted. It is clear from a note attached by the publisher to the inside front cover that the translation was made not from a Chinese edition but from an annotated Korean edition of the Chinese text, and this is confirmed by the inclusion of the three original prefaces and one postface from the Korean edition, Sinju muwŏnnok 新註無寃録. The publisher’s notice affixed to the inside front cover and dated 1768 bears the name of Sūbundō 崇文堂 (=Maekawa Rokuzaemon) of Edo; this firm was presumably the original publisher, but the only surviving copies of the 1768 edition bear instead the names of two other Edo publishers, Suwaraya Kasuke and Tanbaya Rihei. As the colophon of this copy makes clear, the original blocks were later purchased by Maekawa Rokuzaemon for a reprint in 1799. It seems likely, therefore, that the publisher’s notice was actually produced in 1799 and backdated to 1768.</summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_120">
+
+                            <author>
+                                <persName type="original" xml:lang="ja">王与原</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Wuyuan lu</persName></author>
+
+                            <respStmt key="person_53548691" source="VIAF">
+                                <persName type="original" xml:lang="ja">河合尚久</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Kawai Naohisa</persName>
+                                <resp>Translator</resp>
+                            </respStmt>
+
+                            <respStmt>
+                                <persName type="original" xml:lang="ja">前川六左衛門</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Maekawa Rokuzaemon</persName>
+                                <resp>Publisher</resp>
+                            </respStmt>
+
+                                <title type="original" xml:lang="ja" source="IANA">無冤録述</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Muenroku jutsu</title>
+                                <title type="standard" xml:lang="en" source="IANA">Avoidance of injustice explained</title>
+                            
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 60128</ref> for copies of 無冤録述 held by other institutions.</p>
+                            </filiation>
+
+                            <note>（刊記）明和五年戊子六月刻成／寛政十一年己未八月求版／東都書誌　前川六左衛門。元文元年＜1736＞自序。（印記）「岡田真之蔵書」「白井氏蔵書」「魯徳福」。識語「白井氏蔵」。</note>
+
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+
+                            <supportDesc material="paper">
+                                <extent> ２冊 | 2 volumes <dimensions unit="mm" type="binding">
+                                        <dim type="height">261mm</dim>
+                                        <dim type="width">192mm</dim>
+                                        <dim type="depth">25mm</dim>
+                                    </dimensions>
+                                </extent>
+
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <scriptDesc>
+                            <scriptNote scope="major">Katakana-majiri</scriptNote>
+                            <scriptNote scope="major">Hanzi</scriptNote>
+                        </scriptDesc>
+
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1799">寛政11</origDate>
+                            <origDate calendar="gregorian" when="1799">1799</origDate>
+                            <origPlace>
+                                <placeName>Edo</placeName>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                        <provenance>This copy bears the ownership seal of Shirai Mitsutaro (1863-1932), a botanist who was the first plant pathologist in Japan.</provenance>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title xml:lang="ja">ロンドン・ウェルカム図書館所蔵日本医学書
+                                            および理科関係書籍目録</title>
+                                        <title xml:lang="en">Japanese medical and scientific books
+                                            in the Wellcome Library</title>
+                                        <author>Peter Francis Kornicki</author>
+                                        <date>2018</date></bibl>
+                                </source>
+                            </recordHist>
+
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl>
+                                <title level="a" xml:lang="ja">明治前日本産婦人科史</title>
+                                <title level="a" xml:lang="ja-Latn">(Meijizen) Nihon sanfujinka
+                                    shi</title>
+                                <title level="j" xml:lang="ja">名自前日本医学史</title>
+                                <title level="j" xml:lang="ja-Latn">(Meijizen) Nihon
+                                    igakushi</title>
+                                <author xml:lang="ja">梶完次・藤井尚久</author>
+                                <author xml:lang="ja-Latn">Kaji Kanji and Fujii Naohisa</author>
+                                <placeName>Tokyo</placeName>
+                                <publisher>Nihon Gakujutsu Shinkckai</publisher>
+                                <date>1964</date>
+                                <note>Vol.5, pp.209-212</note>
+                            </bibl>
+                            <bibl>
+                                <title>A collection of Japanese medical and scientific books from
+                                    the library of Richard C. Rudolph, founder of Asian Studies at
+                                    UCLA </title>
+                                <placeName>Novato</placeName>
+                                <publisher>Jeremy Norman and company</publisher>
+                                <date>2006</date>
+                                <note><p>Rudolph #16</p></note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="sh85050556">Forensic pathology</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-21"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-04-24"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
