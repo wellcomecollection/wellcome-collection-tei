@@ -47,46 +47,32 @@
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 116</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191256</idno>
+                        </altIdentifier>
                         <altIdentifier type="former">
                             <idno>Rudolph #24</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> A manuscript copy of a catalogue of the exhibits at a materia
-                            medica exhibition held in <placeName>Nagoya</placeName> on 15th day of
-                            the 3rd month of 1835 by the Shōhyaku-sha 甞百社. The exhibition was
-                            organised by Ishiguro Saian 石黒済庵 (1787-1836), Ōkōchi Sonshin 大河内存真
-                            (1796-1883), Yoshida Takanori 吉田高憲, Ōkubo Masaaki 大窪昌章 (1802-1841) and
-                            Itō Keisuke 伊藤圭介 (1803-1901), the last of whom was active as a botanist
-                            before the Meiji Restoration, subsequently became, in 1881, a professor
-                            at the newly-established Tokyo University and was, in 1888, the first
-                            person in Japan to receive the degree of Doctor of Science. The
-                            exhibitors were the five organisers and 27 other individuals. This copy
-                            is based on the printed edition, but it only includes the botanical
-                            exhibits. </summary>
+                        <summary> A manuscript copy of a catalogue of the exhibits at a materia medica exhibition held in Nagoya on 15th day of the 3rd month of 1835 by the Shōhyaku-sha 甞百社. The exhibition was organised by Ishiguro Saian 石黒済庵 (1787-1836), Ōkōchi Sonshin 大河内存真 (1796-1883), Yoshida Takanori 吉田高憲, Ōkubo Masaaki 大窪昌章 (1802-1841) and Itō Keisuke 伊藤圭介 (1803-1901), the last of whom was active as a botanist before the Meiji Restoration, subsequently became, in 1881, a professor at the newly-established Tokyo University and was, in 1888, the first person in Japan to receive the degree of Doctor of Science. The exhibitors were the five organisers and 27 other individuals. This copy is based on the printed edition, but it only includes the botanical exhibits. </summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_116">
 
-                            <title key="4022188" source="kotenseki">
                                 <title type="original" xml:lang="ja" source="IANA">本草会物品目録</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Honzōkai buppin
-                                    mokuroku</title>
-                                <title type="standard" xml:lang="en" source="IANA">Catalogue of exhibits
-                                    at the materia medica exhibition of 1835</title>
-                                <note><p>外題: The title is taken from the outside cover.</p></note>
-                            </title>
-
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Honzōkai buppin mokuroku</title>
+                                <title type="standard" xml:lang="en" source="IANA">Catalogue of exhibits at the materia medica exhibition of 1835</title>
+                            
                             <incipit>尾州ニテ天保六年乙未春三月十五日会日／同年初秋七月写之</incipit>
                             <explicit>此者大河内存真</explicit>
 
-                            <filiation><p>There is a facsimile of the 1835 edition in Nagoya sōsho
-                                    sanpen 名古屋叢書三編, vol. 19 (Nagoya: Nagoya-shi Kyōiku Iinkai,
-                                    1982).</p></filiation>
-
-                            <note><p>Inscription: 魯徳福</p></note>
+                            <filiation><p>There is a facsimile of the 1835 edition in Nagoya sōsho sanpen 名古屋叢書三編, vol. 19 (Nagoya: Nagoya-shi Kyōiku Iinkai, 1982). See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 4022188</ref> for copies of 本草会物品目録 held by other institutions</p>
+                            </filiation>
+                            
+                            <note>外題。表紙に「尾州ニテ天保六年乙未春三月十五日会日／同年初秋七月写之」。巻末に「此者大河内存真」。（印記）「魯徳福」。</note>
 
                         </msItem>
                     </msContents>
@@ -94,7 +80,7 @@
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent>１冊 １巻 | 1 satsu (volume) and 1 maki (section) <dimensions
+                                <extent>１冊 | 1 volume<dimensions
                                         unit="cm" type="binding">
                                         <dim type="height">
                                             <!-- Insert height indicated by specific format -->
@@ -119,8 +105,7 @@
                     <history>
                         <origin>
                             <origDate calendar="nengō">天保６</origDate>
-                            <origDate calendar="gregorian">July 1835</origDate>
-                            <note><p>Date taken from note on the cover</p></note>
+                            <origDate calendar="gregorian">1835</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -203,6 +188,7 @@
                     <list>
                         <item>
                             <term key="subject_sh85015976">Botany</term>
+                            <term key="subject_sh85082055">Materia medica</term>
                         </item>
                     </list>
                 </keywords>
@@ -212,6 +198,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2022-01-04"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

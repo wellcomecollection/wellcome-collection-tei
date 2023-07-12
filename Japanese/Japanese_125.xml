@@ -47,18 +47,20 @@
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 125</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191347</idno>
+                        </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> A manuscript copy of an illustrated guide to use of moxibustion
-                            written in kanbun by Kagawa Shūan (1683-1755).</summary>
+                        <summary> A manuscript copy of an illustrated guide to use of moxibustion written in kanbun by Kagawa Shūan (1683-1755).</summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_125">
 
                             <author key="person_24540504" source="VIAF">
-                                <persName xml:lang="ja" source="IANA" type="original">香川, 修徳</persName>
+                                <persName xml:lang="ja" source="IANA" type="original">香川修徳</persName>
                                 <persName xml:lang="ja-Latn" source="IANA">Kagawa Shūan</persName>
                                 <note><p>Shūan spent some years in Kyoto studying Confucianism with
                                         the celebrated Itō Jinsai and the ‘Ancient School’ of
@@ -66,25 +68,24 @@
                                         for his conviction that the roots of Confucianism and
                                         medicine were identical.</p></note>
                             </author>
-
-                            <title key="998732" source="Kotenseki">
+                            
                                 <title type="original" xml:lang="ja" source="IANA">灸点図解</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kyūten
-                                    zukai</title>
-                                <title type="standard" xml:lang="en" source="IANA">Moxibustion points
-                                    illustrated</title>
-                                <note><p>書外題「台州灸点図解</p></note>
-                            </title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Kyūten zukai</title>
+                                <title type="standard" xml:lang="en" source="IANA">Moxibustion points illustrated</title>
+                            
 
-                            <note><p>巻末に「酔月精舎蔵／図解／翻刻必究／藤原生／佐藤集作写之」</p>
-                            </note>
+                            <note>書外題「台州灸点図解」。宝暦６序。巻末に「酔月精舎蔵／図解／翻刻必究／藤原 生／佐藤集作写之」。印記「石神文庫」。</note>
+                            
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 998732</ref> for copies of 灸点図解 held by other institutions</p>
+                            </filiation>
+                            
                         </msItem>
                     </msContents>
 
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent>１冊 １巻 | 1 satsu (volume) and 1 maki (section) <dimensions
+                                <extent>１冊 | 1 volume<dimensions
                                         unit="mm" type="binding">
                                         <dim type="height">237mm</dim>
                                         <dim type="width">171mm</dim>
@@ -95,8 +96,7 @@
 
                         <handDesc>
                             <handNote scope="sole" xml:lang="ja" source="IANA">佐藤集作</handNote>
-                            <handNote scope="sole" xml:lang="ja-Latn" source="IANA">Satō
-                                Shūsaku</handNote>
+                            <handNote scope="sole" xml:lang="ja-Latn" source="IANA">Satō Shūsaku</handNote>
                         </handDesc>
 
                         <scriptDesc>
@@ -109,16 +109,12 @@
                             </binding>
                         </bindingDesc>
 
-                        <sealDesc>
-                            <p>印記「石神文庫」</p>
-                        </sealDesc>
-
                     </physDesc>
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō">江戸後期</origDate>
-                            <origDate calendar="gregorian">First half of the 19th century</origDate>
+                            <origDate calendar="nengō" from="1800" to="1850">江戸後期</origDate>
+                            <origDate calendar="gregorian" from="1800" to="1850">First half of the 19th century</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -169,6 +165,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2022-01-04"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>

@@ -47,27 +47,23 @@
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
                         <idno type="shelfmark">MS Japanese 119</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191281</idno>
+                        </altIdentifier>
                         <altIdentifier type="former">
                             <idno>Rudolph #28</idno>
                         </altIdentifier>
                     </msIdentifier>
 
                     <msContents>
-                        <summary> A Japanese translation by <persName type="trans">Ogata
-                                Kōan</persName>, after an <date>1816</date> Dutch translation by
-                                <persName type="trans">Henricus Franciscus Thĳssen</persName> titled
-                                <title>Praktikale verhandeling over eene ziekelĳke gevoeligheid van
-                                het oog, gewoonlĳk zwakheid van gezigt genaamd</title>, of the
-                            English work, <title>On the morbid sensibility of the eye</title>,
-                            commonly called weakness of sight, by <persName>John
-                                Stevenson</persName>, first published in <date>1810</date>. </summary>
+                        <summary>A Japanese translation by Ogata Kōan, after an 1816 Dutch translation by Henricus Franciscus Thĳssen titled Praktikale verhandeling over eene ziekelĳke gevoeligheid van het oog, gewoonlĳk zwakheid van gezigt genaamd, of the English work, On the morbid sensibility of the eye, commonly called weakness of sight, by John Stevenson, first published in 1810. </summary>
 
                         <textLang mainLang="ja" source="IANA">Japanese</textLang>
 
                         <msItem n="1" xml:id="Japanese_119">
 
                             <author key="person_67783141" source="VIAF">
-                                <persName xml:lang="ja" source="IANA" type="original">緒方, 洪庵</persName>
+                                <persName xml:lang="ja" source="IANA" type="original">緒方洪庵</persName>
                                 <persName xml:lang="ja-Latn" source="IANA">Ogata Kōan</persName>
                                 <note><p>Ogata Kōan (1810-1963) was a scholar of Dutch and Western
                                         medicine who founded the Tekijuku school in Osaka, which
@@ -76,25 +72,25 @@
 
                             <title key="1033234" source="kotenseki">
                                 <title type="original" xml:lang="ja" source="IANA">視力乏弱病論</title>
-                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shiryoku bōjaku
-                                    byōron</title>
-                                <title type="standard" xml:lang="en" source="IANA">On weakness of
-                                    sight</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Shiryoku bōjaku byōron</title>
+                                <title type="standard" xml:lang="en" source="IANA">On weakness of sight</title>
                             </title>
 
-                            <note><p>内題下に「第二板和蘭一千八百十六年鏤行／暗尼利西ヨーンステヘンソン著／和蘭テイスセン訣註／備中緒方章公裁訣稿」</p></note>
-                            <note><p>印記「魯徳福印」</p>
-                            </note>
+                            <note>内題下に「第二板和蘭一千八百十六年鏤行／暗尼利西ヨーンステヘンソン著／和蘭テイスセン訣註／備中緒方章公裁訣稿」。（印記）「魯徳福印」。</note>
+                            
+                            <filiation><p>See <ref target="https://kotenseki.nijl.ac.jp/?ln=en">Kotenseki Work ID: 1033234</ref> for copies of 視力乏弱病論 held by other institutions</p>
+                            </filiation>
+                            
                         </msItem>
                     </msContents>
 
                     <physDesc>
                         <objectDesc form="Codex">
                             <supportDesc material="paper">
-                                <extent> １冊 １巻 | 1 satsu (volume) and 1 maki (section) <dimensions
+                                <extent> １冊 | 1 volume<dimensions
                                         unit="mm" type="binding">
-                                        <dim type="height"> 249mm </dim>
-                                        <dim type="width"> 164mm </dim>
+                                        <dim type="height">249mm</dim>
+                                        <dim type="width">164mm</dim>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
@@ -110,8 +106,8 @@
 
                     <history>
                         <origin>
-                            <origDate calendar="nengō">江戸後期</origDate>
-                            <origDate calendar="gregorian">late 18th-mid 19th century</origDate>
+                            <origDate calendar="nengō" from="1775" to="1850">江戸後期</origDate>
+                            <origDate calendar="gregorian" from="1775" to="1850">Late 18th-mid 19th century</origDate>
                             <origPlace>
                                 <country>Japan</country>
                             </origPlace>
@@ -175,6 +171,7 @@
         <revisionDesc>
             <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
             <change when="2022-01-04"><persName>"#SC"</persName>Populated template.</change>
+            <change when="2023-07-12"><persName>"#SC"</persName>Edited for catalogue display including adding Sierra number.</change>
         </revisionDesc>
 
     </teiHeader>
