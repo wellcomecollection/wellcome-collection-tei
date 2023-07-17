@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_141">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 141</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="SC">
+                    <resp when="2021-11-11">Template</resp>
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 141</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 141</idno>
+                        <altIdentifier type="sierra">
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary><p>A work containing a selection of Tang poetry with woodcut
+                                illustrations, 5th volume of 7, 7th edition.</p>
+                        </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_141">
+
+                            <author key="person_21025729" source="VIAF">
+                                <persName xml:lang="ja" source="IANA" type="original"
+                                    >高井蘭山</persName>
+                                <persName xml:lang="ja-Latn" source="IANA" type="standard">Takai
+                                    Ranzan</persName>
+                            </author>
+
+                            <respStmt key="person_69033717" source="VIAF">
+                                <persName type="original" xml:lang="ja">葛飾北斎</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Katsushika
+                                    Hokusai</persName>
+                                <resp>Illustrator</resp>
+                                <resp/>
+                            </respStmt>
+
+                            <title type="original" xml:lang="ja" source="IANA">唐詩選画本</title>
+                            <title type="standard" xml:lang="ja-Latn" source="IANA"
+                                >Toushisen'ehon</title>
+
+                            <filiation><p>See <ref target="https://kokusho.nijl.ac.jp/?ln=en"
+                                        >Kotenseki Work ID: 251945</ref> for copies of
+                                        <title>唐詩選画本</title> held by other institutions</p>
+                            </filiation>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent>1冊 | 1 volume <dimensions unit="mm" type="binding">
+                                        <dim type="height">225mm</dim>
+                                        <dim type="width">158mm</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>16 leaves</foliation>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <decoDesc>
+                            <p>Bound in plain cover with brown string binding. The outer title has
+                                been removed from the cover with only the volume number remaining
+                                '五'.</p>
+                        </decoDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p>袋綴 | fukurotoji. </p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1836">天保7</origDate>
+                            <origDate calendar="gregorian" when="1836">1836</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-06-06"><persName>"#SC"</persName>Populated template for minimum
+                viable record.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
