@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_165">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 165</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="SC">
+                    <resp when="2021-11-11">Template</resp>
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 165</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 165</idno>
+                        <altIdentifier type="sierra">
+                            <idno/>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary><p>Five colour woodblock prints depicting horses.</p>
+                        </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_165_1">
+                            <author>
+                                <persName type="original" xml:lang="ja">歌川広重</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Utagawa
+                                    Hiroshige</persName>
+                            </author>
+                            <title>
+                                <title type="original" xml:lang="ja" source="IANA">四谷内藤新宿</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Yotsuya
+                                    Naito Shinjuku</title>
+                                <title type="standard" xml:lang="en" source="IANA">Naito Shinjuku in
+                                    Yotsuya</title>
+                            </title>
+                            <note>Colour woodcut print of horses outside Naito Shinjuku station in
+                                Yotsuya. No. 86 in the 'One Hundred Famous Views of Edo
+                                series'(名所江戸百景).</note>/> </msItem>
+
+                        <msItem n="1" xml:id="Japanese_165_2">
+
+                            <note>Colour woodcut print of a street scenes including a horse driven
+                                tram and a man riding a horse in the foreground.</note>
+                        </msItem>
+
+                        <msItem n="1" xml:id="Japanese_165_3">
+                            <author>
+                                <persName type="original" xml:lang="ja">歌川広重</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Utagawa
+                                    Hiroshige</persName>
+                            </author>
+                            <title>
+                                <title type="original" xml:lang="ja" source="IANA">四谷内藤新宿</title>
+                                <title type="standard" xml:lang="ja-Latn" source="IANA">Yotsuya
+                                    Naito Shinjuku</title>
+                                <title type="standard" xml:lang="en" source="IANA">Naito Shinjuku in
+                                    Yotsuya</title>
+                            </title>
+                            <note>Colour woodcut print of horses outside Naito Shinjuku station in
+                                Yotsuya. No. 86 in the 'One Hundred Famous Views of Edo
+                                series'(名所江戸百景).</note>/> </msItem>
+
+                        <msItem n="1" xml:id="Japanese_165_4">
+
+                            <note>Colour woodcut print of a ship at sea showing various working
+                                scenes of the men aboard, and horses in the bows of the ship.</note>
+                        </msItem>
+
+                        <msItem n="1" xml:id="Japanese_165_5">
+
+                            <note>Colour woodcut print of three figures riding in a horse drawn
+                                cart.</note>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent>絵5枚 | 5 sheets<dimensions unit="mm" type="binding">
+                                        <dim type="height">395mm</dim>
+                                        <dim type="width">300mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="gregorian" from="1700" to="1900">19th
+                                century</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-06-06"><persName>"#SC"</persName>Populated template for minimum
+                viable record.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

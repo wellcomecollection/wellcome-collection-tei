@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_148">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 148</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="SC">
+                    <resp when="2021-11-11">Template</resp>
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 148</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 148</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191931</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary><p>A woodblock printed work containing illustrations in black and pink of various architectural structures and human figures, Volume 5 of 15.</p>
+                        </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_148">
+
+                            <author key="person_69033717" source="VIAF">
+                                <persName type="original" xml:lang="ja">葛飾北斎</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Katsushika Hokusai</persName>
+                            </author>
+
+                            <respStmt key="person_69033717" source="VIAF">
+                                <persName type="original" xml:lang="ja">葛飾北斎</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Katsushika Hokusai</persName>
+                                <resp>Illustrator</resp>
+                                <resp/>
+                            </respStmt>
+
+                            <title type="original" xml:lang="ja" source="IANA">北斎漫画</title>
+                            <title type="standard" xml:lang="ja-Latn" source="IANA">Hokusai manga</title>
+
+                            <filiation><p>See <ref target="https://kokusho.nijl.ac.jp/?ln=en">Union Catalogue Work ID: 57001</ref> for copies of <title>北斎漫画</title> held by other institutions</p>
+                            </filiation>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent>1冊 | 1 volume <dimensions unit="mm" type="binding">
+                                        <dim type="height">228</dim>
+                                        <dim type="width">157</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>28 leaves</foliation>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                                <p>袋綴</p>
+                                <p>Fukurotoji binding. Bound in plain black cover with white string binding. Binding has been replaced with original binding stored with volume. Outer title is printed in red ink. An additional sticker has been added to the front cover with 'Idol Demons Architecture' written in English in black ink.</p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1814">文化11</origDate>
+                            <origDate calendar="gregorian" when="1814">1814</origDate>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                        <provenance>'Nov. 8. '74' written in black ink on last page.</provenance>
+
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-06-06"><persName>"#SC"</persName>Populated template for minimum
+                viable record.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>

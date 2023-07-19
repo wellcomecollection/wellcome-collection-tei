@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Japanese_150">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japanese 150</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="SC">
+                    <resp when="2021-11-11">Template</resp>
+                    <resp when="2023">TEI Encoder</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Japanese 150</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Japanese 150</idno>
+                        <altIdentifier type="sierra">
+                            <idno>b33191955</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary><p>A woodblock printed work containing colour illustrations of various scenes of human figures in procession and in household teaching ceremonial practices.</p>
+                        </summary>
+
+                        <textLang mainLang="ja" source="IANA">Japanese</textLang>
+
+                        <msItem n="1" xml:id="Japanese_150">
+
+                            <author key="person_55489995" source="VIAF">
+                                <persName type="original" xml:lang="ja">市岡正一</persName>
+                                <persName type="standard" xml:lang="ja-Latn">Ichioka Shōichi</persName>
+                            </author>
+
+                            <title type="original" xml:lang="ja" source="IANA">徳川盛世録</title>
+                            <title type="standard" xml:lang="ja-Latn" source="IANA">Tokugawa Seiseiroku</title>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="Codex">
+                            <supportDesc material="paper">
+                                <extent>1冊 | 1 volume <dimensions unit="mm" type="binding">
+                                        <dim type="height">226</dim>
+                                        <dim type="width">156</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>32 leaves</foliation>
+                            </supportDesc>
+                        </objectDesc>
+
+                        <typeDesc>
+                            <typeNote><p>Woodblock print</p></typeNote>
+                        </typeDesc>
+
+                        <bindingDesc>
+                            <binding contemporary="unknown">
+                               <p>袋綴</p>
+                                <p>Fukurotoji binding. Bound in blue cover with decorative leaf design and blue string binding. Outer title is written in black ink. Some annotations in Japanese in red ink.</p>
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="nengō" when="1889">明治22</origDate>
+                            <origDate calendar="gregorian" when="1889">1889</origDate>
+                            <note>Date taken from accession register.</note>
+                            <origPlace>
+                                <country>Japan</country>
+                            </origPlace> 　 </origin>
+
+                        <provenance>Purchased by the Wellcome Library at auction from <name>Hodgson's</name> on 30th January 1931, Lot 681 (86412). Includes an inscription from previous owner 'H.R. Hall...Tokyo, 1906'.</provenance>
+
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-11-01"><persName>"#SC"</persName>Created template.</change>
+            <change when="2023-06-07"><persName>"#SC"</persName>Populated template for minimum
+                viable record.</change>
+        </revisionDesc>
+
+    </teiHeader>
+    <facsimile>
+        <surface/>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcript -->
+        </body>
+    </text>
+</TEI>
