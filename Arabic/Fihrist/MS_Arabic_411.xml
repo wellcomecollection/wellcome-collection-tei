@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16052">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 411</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="MM">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Miten Mistry</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 411</idno>
+                <idno type="catalogue">Fihrist</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="WMS_Arabic_411" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 411</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 20 (Shelf-mark: 514 / 400 Kt / 1858 AD / 101).</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20296812</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>A Manual on Ophthalmology</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_411-part1">
+                            <author key="person_66856503">
+                                <persName xml:lang="eng" type="standard">Šaraf ad-Dīn `Alī b. `Īsā al-Kaḥḥāl</persName>
+                                <persName xml:lang="ar" type="original">شرف ال‍دين على بن عيسى ال‍كحال</persName> 
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" key="work_5709">Taḏkirat al-Kaḥḥālīn</title>
+                            <title xml:lang="ar" key="work_5709">تذكيرة ال‍كحالين</title>
+                            <title xml:lang="en" key="work_5709">A Memorandum for Oculists</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            <incipit xml:lang="ar">
+                                <locus> Fol. 1a.1</locus>
+                                بسم ال‍لّه ال‍رحمن ال‍رحيم وبه نستعين
+                                جوابًا عما ساءله
+                                بعض اخوانه عن تعريفة امراض ال‍عين وعلاجاتها وارويتها واصل
+                                كتابك ايها الاخ عن جوامع كتب جالينوس فى امراض ال‍عين وعلاج كل
+                                مرضٍ منها لان الاسكندراني‍ين ذكروا عدد الامراض ولم يذكروا
+                                علاجها وقد رايت اسعدك ال‍لّه ان اولف لك كتابًا في ال‍عين اذكر فيه
+                                جميع ما ساءلت عنه ب‍اختصار وايجاز فان الاختصار اذا جمع
+                                تلتة اشياء احدهما الاستقصا فى ال‍صفة وال‍تانى فى الاتمام
+                                ل‍لعين وال‍تالت الايحاد ل‍لكلام
+                            </incipit>
+                            
+                            <explicit >
+                                <locus>Fol. 197b.6</locus>
+                                وسخ الاذن اذن الانسان اذا جعل منه يسير في ميل واكتحل به من
+                                لا ينظر ب‍ال‍ليل ثلاثة ليالى نفعه مجرب
+                            </explicit>
+                            
+                            <colophon xml:lang="ar">تم وكمل هذه ال‍تذكره وكاتبه بيده
+                                ل‍فانية يعقوب ال‍خورى ابراهيم ابي جوده من غابة برمانا وحرر
+                                عن ال‍نسخة فى ٢١ تشرين اول سنه ١٨٥٨</colophon>
+                                                        
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p>Oriental paper</p></support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">115 (75)</dim>
+                                        <dim type="length">180 (120)</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="height">180</dim>
+                                        <dim type="width">115</dim>
+                                    </dimensions>    
+                                </extent>
+                                <foliation>
+                                    <catchwords>+</catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios:</label>201
+                                    <formula>Not possible to identify quires.</formula>
+                                </collation>
+                                <condition>Good</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="13">13</layout>
+                                <layout><label>Mistara:</label> <dimensions unit="mm"><dim>9</dim></dimensions></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>naskh</p>
+                                <p><label>Ink:</label>black, red headings</p>
+                                <persName xml:lang="ar" type="copyist">يعقوب ال‍خورى ابراهيم ابي جوده 
+                                    (من غابة برمانا)</persName>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <list>
+                               <item>1. Fols 1a, 38a, 65a, 69a, 92a, 134a,135a, 151a, 153a, 162a, 166a,
+                                   170a, 176a, 181a, 185a have the mark impressed: <foreign xml:lang="ar">ا ثر جديد عهده يون</foreign>(?)</item>
+                                <item>2. Fols 200b-201a-contain an index of recipes and remedies with references to the main text.</item>
+                          <item> 3. Lacuna between fol. 4 and fol. 5</item>
+                               <item>4. Fols 198a, 199a, 200a, 201b - blank.</item>
+                                <item>5. Fol. 198b. - table of contents writtenby the copyist's hand.</item>
+                                <item>6. Fols 100 and 117~-- traces of space calculation by the copyist.</item>
+                                <item>Diacritical dots, tā marbūṭa and ḥamza are occasionally missing. Dialectal features: 
+                                    instead of <foreign xml:lang="ar">ذ</foreign> is written <foreign xml:lang="ar">د</foreign> and 
+                                    instead of <foreign xml:lang="ar">ث</foreign> is constantly written <foreign xml:lang="ar">ت</foreign>.</item>
+                            </list>                         
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>Leather with tooling. Christian type.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian"><date when="1858-10-21">21st October 1858</date></origDate>
+                        </origin>
+                        <provenance>Known owners: Impossible to establish since the first folios have
+                            been torn away (the book was obviously stolen).</provenance>
+                        <acquisition>Sotheby's lot 468 <date notBefore="1985-11-21" notAfter="1985-11-22">(22/21.11.85)</date></acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ullmann Medizin p. 208; Ḥaddād/Biesterfeld no. 20(Shelf-mark: 514 / 400 Kt / 1858 AD / 101).</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-12"><persName>Miten Mistry</persName>Updated old XML file into TEI schema</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
