@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16057">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 414</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Lara</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 414</idno>
+                <idno type="catalogue">Fihrist</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc xml:id="WMS_Arabic_414" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 414</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 23(Shelf-mark: 510/428 Sq1 /  /66a)</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20296848</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Parts from Avicenna's canon as well as another text on human anatomy. Incomplete. The text ends on fol. 231 and followed by an anonymous work (in
+                            Persian) about the human anatomy.</summary>
+                                                
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support><p>Non-Western paper</p></support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter"> 150 </dim>
+                                        <dim type="length"> 210 </dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <catchwords>Catchwords are written underneath the text block</catchwords>
+                                </foliation>
+    
+                                <condition>good</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="14">14</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="nastalīq" scope="major">
+                                <p><label>Script:</label>Nastalīq</p>
+                                <p><label>Ink:</label>black, headings and dividers are highlighted in red</p>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <p>1. Iranian censorship seal (date erased) with an added
+                                verification (cf. Haddad nos. 9, 32, 33.)</p>
+                            <p>2. A seal of a book-shop : مكتبة ال‍عرب ل‍لبستاني ب‍مصر</p>
+                            <p>3. Marginal remarks in Arabic
+                                and Persian on the fols1b, 3b, 4b, 5ab, 7b, 8ab, 9b, 10a, 11a, 13b, 14a,
+                                16a, 18ab, 19a, 20ab, 21ab, 22a, 26a, 27a, 33a, 34b, 36a, 37ab, 38ab, 40ab,
+                                41a, 44ab, 46ab, 49a, 50a, 52a, 54b, 56ab, 58b, 59ab~-- 127b, 128ab~--
+                                131a, 132a, 133ab~-- 140a, 141b, 142a~-- 143b, 145a~-- 147a, 148ab~--
+                                150ab, 152ab, 155a, 156a, 157ab, 158b, 159ab, 160ab, 161b, 162ab~-- 167ab,
+                                171b, 179a~-- 183a, 186a, 187b, 188a, 192b~-- 194a, 196a, 199b, 200b, 201a,
+                                212a, 214b, 215ab, 216a, 217ab, 221b~-- 226a, 228ab, 230ab.</p>
+                            <p>4.  Fol.1a~-- Arabic inscription كتاب فى ال‍طب نفيس لم يعرف ال‍مؤلف</p>
+                            <list>
+                                <item>
+                                    <label>Orthography: Diacritical dots, tā marbūṭa and ḥamza are occasionally missing.</label>
+                                </item>
+                            </list>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>Modern, European type. Leather spine with title of the book, the name
+                                    of the author, and of last owner Sāmī Ḥaddād
+                                    tooled in gold</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="gregorian">19th century</origDate>
+                        </origin>
+                        <provenance>Known owners: 1. Makatabt al-`Arab li-l-Bustānī, 2.Sāmī Ibrāhīm Ḥaddād (1986)
+                        </provenance>
+                        <acquisition>
+                            Sotheby's lot 471 (22/21.11.85)
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ullmann Medizin p. 152, Ḥaddād/Biesterfeld no. 23
+                                        (Shelf-mark: 510/428 Sq1 /  /66a) </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    
+                    <msPart n="1" xml:id="WMS_Arabic_414_part1">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>1</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                      <msContents>
+                          <summary>The first and the second fanns of Avicenna's Canon (pp. 1~-- 91 of the Bulāq edition).</summary>
+                          
+                        <textLang mainLang="ar">Arabic</textLang>
+                          
+                        <msItem>
+                            
+                            <author key="person_ 89770781">
+                                <persName xml:lang="eng" role="aut" type="standard">Avicenna, 980-1037</persName>
+                                <persName xml:lang="ar" role="aut" type="original">980-1037,ابو على ال‍حسين ابن عبد ال‍له ابن سينا</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" key="work_1009"> Kitāb al-Qānūn fī-ṭ-Ṭibb</title>
+                            <title xml:lang="ar" key="work_1009">كتاب ال‍قانون في ال‍طبّ</title>
+                            <title xml:lang="en" key="work_1009">Canon of Medicine</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <incipit>
+                                <locus>Fol. 1b.1</locus>
+                                بسم ال‍لّه ال‍رحمن ال‍رحيم
+                                ال‍حمد ل‍لّه حمدا يستحقه ب‍علوو
+                                شانه وسبوع احسانه وصلواته علي نبيه محمد و آله وبعد وقد التمس منى بعض
+                                خلص ومن يلزمنى اسعافه فيما يسح به وسعى ان اضعف فى ال‍طب كتابا مشتملا
+                                على قوانينه ال‍كلية وال‍جزئية
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol. 231b.9--10</locus>
+                                قد ذكرنا فى باب تغيرات ال‍هواء احوالًا  ل‍لمساكن ونحن نريد ان نورد
+                                يضا فيها كلاما مختصرا على ترتيب اخر ول‍نوالى
+                            </explicit>
+                            
+                            <note>The Bulāq edition has here لانبالى 
+                                ان يتكرر بعض ما سلف</note>                           
+                            
+                        </msItem>
+                    </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                            <collation>
+                                <label>Folios:</label> 01+230+001
+                                <formula>Due to the binding, quires could not be established exactly.</formula>
+                            </collation>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="WMS_Arabic_414_part2">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>2</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>
+                                The fifth division of the book on the anatomy of different parts of the human body.
+                            </summary>
+                            
+                            
+                            <msItem>
+                                <author xml:lang="en">Anonymous</author>
+                                
+                                <title xml:lang="ar-Latn-x-lc" key="" type="uniform">Bayān Māhiyat Tašrīḥ-i Badān</title>
+                                <title xml:lang="ar" key="" type="variant">بيان ماهيت تشريح بدان</title>
+                                <title xml:lang="en" key="" type="variant">Explanations about human anatomy</title>
+                                
+                                <textLang mainLang="fa">Persian</textLang> 
+                                
+                                <incipit>
+                                    <locus>Fol. 1a.4</locus>
+                                    بسم ال‍لّه ال‍رحمان ال‍رحيم
+                                    فصل پنچم از مقدمه ركن دووم در
+                                    بيان ماهيت تشريح بدانكه معرفت تشريح عظام ومقاصد ومانند آن
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 211a.7</locus>
+                                    در رساله علا حده
+                                    كه از مولفات احقر است تحرير باقيه وان هو تعالى ب‍شرط حيات
+                                    وتوفيق وسبحانه داندا وحاصلا در كاه او در معلجات امراض
+                                    مختصهنير بيان خواهد يافت ما وسلام تمت
+                                </explicit>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <collation>
+                                        <label>Folios:</label> 211
+                                    </collation>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                        
+                    </msPart>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-03"><persName>Lara Salha</persName>Updated old XML file into TEI schema"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
