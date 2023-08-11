@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Tamil_44">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>Tamil 44</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SG">
+                <resp when="1990">Cataloguer</resp>
+                <persName>S. Gunasingam</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+                <resp when="2020-05-25">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2023-08-04">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">MS Tamil 44</idno>
+            <idno type="catalogue">Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS Tamil 44</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b32724743</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Extracts from the Bible</summary>
+                    
+                    <textLang mainLang="ta" source="IANA">Tamil</textLang>
+                    
+                    <msItem n="1" xml:id="Tamil_44_1">
+                        <title key="">Bible extracts</title>
+                        
+                        <note>Refers to pupils from different schools in different villages, writing about the spiritual teachings of St Matthew.</note>
+                    </msItem>
+                    
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="other">
+                       
+                        <supportDesc material="palm">
+                                                    
+                            <support>Palm leaf.
+                            </support>
+                            <extent>43ff.
+                                <dimensions unit="mm" >
+                                    <dim type="diameter">340</dim>
+                                    <dim type="length">285</dim>
+                                </dimensions>
+                            </extent>
+                            
+                            <condition>
+                                In good condition; incomplete
+                            </condition>
+                            
+                        </supportDesc>
+                         
+                    </objectDesc>
+                    
+                    <handDesc>
+                        <handNote scope="sole">Legible</handNote>
+                    </handDesc>                   
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origPlace>
+                            <country>India</country>
+                        </origPlace>
+                        <origDate calendar="Gregorian">Dated 1843</origDate>
+                    </origin>
+                    <acquisition>Acquired by <persName>Dr Paira Mall</persName> who was employed by <persName>Henry Wellcome</persName>between 1910 and 1926</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine' in Journal of the Royal Asiatic Society, volume 2.</title>
+                                    <author>S. Gunasingam</author>
+                                    <date>1990</date>
+                                    <note>Pp. 359-369</note>
+                                </bibl>
+                                <!-- Might include link to catalogue source -->
+                                <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                            </source>
+                        </recordHist>
+                        <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                   
+                </additional>
+            
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+    
+        <revisionDesc>
+        <change when="2023-08-04" who="#VS">Added data from the catalogue</change>
+        <change when="2021-05-25" who="#AP">Created template for Wellcome Tamil MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
