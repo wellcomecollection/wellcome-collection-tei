@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template created 16.11.2022 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Armenian_11">
+    <!-- Give xml:id in the  format  "" -the file name should be identical -->
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template and encoder</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022-11-16">Template editor</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023-01-11">Template editor</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+                <respStmt xml:id="YK">
+                    <resp when="2023-08-11">TEI Encoder</resp>
+                    <persName>Yoshika Kobayashi</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every person responsible for editing the record in future -->
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">MS Armenian 11</idno>
+                <idno type="catalogue">Armenian</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Armenian 11</idno>
+                        <altIdentifier type="Sierra">
+                            <idno><!-- Insert Sierra b number here --></idno>                                               
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>18228</idno>
+                        </altIdentifier>
+                        <altIdentifier type="former">
+                            <idno>829</idno>
+                        </altIdentifier>
+                        <altIdentifier type="former">
+                            <idno>1516</idno>
+                        </altIdentifier>
+                        <altIdentifier type="former">
+                            <idno>59 F. 23</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Missal, Evdokia</summary>
+                        <textLang mainLang="hy" source="IANA">Armenian</textLang>
+                        
+                        <msItem n="1" xml:id="MS_Armenian_11_1">
+                            <!-- Add 1 to the n value and xml:id for each item described ie. first n="1" xml:id="MS.0000_1", second n="2" xml:id="MS.0000_2" --> 
+                            <author key="person_" source="VIAF">
+                                <!-- Insert viaf code as attribute value if available in key --> 
+                                <persName> <!-- if available, and enter full author name here --> </persName></author>
+                            <title>Missal, Evdokia</title>
+                            <note>
+                                <p>At this early stage of cataloguing, any language noted is not guaranteed to be the only language in the whole manuscript.</p>
+                                <p>Further division into msItem elements in later cataloguing.</p>
+                            </note>         
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>                
+                        <objectDesc form="codex">Codex         
+                            <supportDesc material="paper"> Paper
+                                
+                                <extent>24 ff
+                                    <dimensions unit="cm" ><!-- Add if available -->
+                                        <dim type="diameter">29</dim>
+                                        <dim type="length">20.8</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <condition>Fair. Stable, altough damaged.</condition>
+                                
+                            </supportDesc>                                             
+                        </objectDesc>                 
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country><!-- insert --></country>
+                            </origPlace>
+                            <origDate calendar="gregorian">1714</origDate>
+                        </origin>
+                        <provenance notBefore="" notAfter=""><!-- insert prior owners where relevant --></provenance>
+                        <acquisition><!-- insert acquisition date and method --></acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of the Armenian manuscripts in the British Library acquired since the year 1913 and of collections in other libraries in the United Kingdom</title>
+                                        <author>Vrej Nerses Nersessian</author>
+                                        <date>2012</date>
+                                        <note>2 volumes.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_"><!-- Insert sh number and term here, delete if not used. --></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+        
+        <revisionDesc>
+            <change when="2023-08-11" who="#YK #AP">Populated template</change>
+            <change when="2022-11-16" who="#LS">Created template for Minimum Viable Record TEI files.</change>
+            <change when="2023-01-11" who="#SC">Edited comments and removed unnecessary spaces.</change>
+            <!-- Any further major revisions made to this record in future should be recorded in this same format -->
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
+
