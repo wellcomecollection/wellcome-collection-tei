@@ -3,7 +3,7 @@
 
 <!-- Template created 16.11.2022 -->
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Armenian_13">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Armenian_14">
     <!-- Give xml:id in the  format  "" -the file name should be identical -->
     
     <teiHeader>
@@ -43,7 +43,7 @@
                 <distributor>
                     <email>library@wellcome.org</email>
                 </distributor>
-                <idno type="msID">MS Armenian 13</idno>
+                <idno type="msID">MS Armenian 14</idno>
                 <idno type="catalogue">Armenian</idno>
                 <availability>
                     <licence><!-- Licensing statement to come in late-stage editing --></licence>
@@ -59,49 +59,52 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS Armenian 13</idno>
+                        <idno type="shelfmark">MS Armenian 14</idno>
                         <altIdentifier type="Sierra">
                             <idno><!-- Insert Sierra b number here --></idno>                                               
                         </altIdentifier>
                         <altIdentifier type="accession">
-                            <idno>74773</idno>
+                            <idno>16586</idno>
                         </altIdentifier>
                         <altIdentifier type="former">
-                            <idno>74774</idno>
+                            <idno>59b.12</idno>
+                        </altIdentifier>
+                        <altIdentifier type="former">
+                            <idno>1520</idno>
                         </altIdentifier>
                     </msIdentifier>
                     
                     <msContents>
                         
                         <summary>Hymnal</summary>
-                        <textLang mainLang="hy" source="IANA">Armenian</textLang>
-                        
-                        <msItem n="1" xml:id="MS_Armenian_12_1">
-                            <!-- Add 1 to the n value and xml:id for each item described ie. first n="1" xml:id="MS.0000_1", second n="2" xml:id="MS.0000_2" --> 
-                            <author key="person_" source="VIAF">
-                                <!-- Insert viaf code as attribute value if available in key --> 
-                                <persName> <!-- if available, and enter full author name here --> </persName></author>
-                            <title>THymnal</title>
-                            <note>
-                                <p>At this early stage of cataloguing, any language noted is not guaranteed to be the only language in the whole manuscript.</p>
-                                <p>Further division into msItem elements in later cataloguing.</p>
-                            </note>         
-                        </msItem>
-                        
+                            <textLang mainLang="hy" source="IANA">Armenian</textLang>
+                            
+                            <msItem n="1" xml:id="MS_Armenian_14_1">
+                                <!-- Add 1 to the n value and xml:id for each item described ie. first n="1" xml:id="MS.0000_1", second n="2" xml:id="MS.0000_2" --> 
+                                <author key="person_" source="VIAF">
+                                    <!-- Insert viaf code as attribute value if available in key --> 
+                                    <persName> <!-- if available, and enter full author name here --> </persName></author>
+                                <title>THymnal</title>
+                                <note>
+                                    <p>At this early stage of cataloguing, any language noted is not guaranteed to be the only language in the whole manuscript.</p>
+                                    <p>Further division into msItem elements in later cataloguing.</p>
+                                </note>         
+                            </msItem>
+                            
                     </msContents>
                     
                     <physDesc>                
                         <objectDesc form="codex">Codex         
                             <supportDesc material="paper"> Paper
                                 
-                                <extent>244 ff
+                                <extent>292 ff
                                     <dimensions unit="cm" ><!-- Add if available -->
-                                        <dim type="diameter">13</dim>
-                                        <dim type="length">10</dim>
+                                        <dim type="diameter">13.8</dim>
+                                        <dim type="length">9</dim>
                                     </dimensions>
                                 </extent>
                                 
-                                <condition>Bad. Highly unstable item.</condition>
+                                <condition>Fair. Stable, altough damaged.</condition>
                                 
                             </supportDesc>                                             
                         </objectDesc>                 
@@ -113,7 +116,7 @@
                                 <country></country>
                                 <settlement></settlement>
                             </origPlace>
-                            <origDate calendar="gregorian">16th century</origDate>
+                            <origDate calendar="gregorian">1679</origDate>
                         </origin>
                         <provenance notBefore="" notAfter=""><!-- insert prior owners where relevant --></provenance>
                         <acquisition><!-- insert acquisition date and method --></acquisition>
@@ -189,6 +192,7 @@
     </text>    
     
 </TEI>
+
 
 
 
