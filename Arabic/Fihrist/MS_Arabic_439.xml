@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16082">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 439</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 439</idno>
+                <idno type="catalogue">Fihrist</idno>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc xml:id="WMS_Arabic_439" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 439</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 70 (Shelf-mark: 521/754 Khm / /n1)</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20297099</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Various medical maniscrupts, mostly relating to drugs.</summary>
+                        
+                        <textLang mainLang="ar" source="IANA">Arabic</textLang>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support><p>European</p>
+                                    <watermark>tre lune</watermark></support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">180 </dim>
+                                        <dim type="length">265</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">120</dim>
+                                        <dim type="length">185</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <catchwords>Catchwords are written underneath the text block</catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios:</label> 129
+                                    <formula>Quires: due to the binding could not be established exactly</formula>
+                                </collation>
+                                <condition>Mediocre</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="27">27</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <label>Script:</label> Naskh
+                                <label>Ink:</label> black, headings and dividers are highlighted in red
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <p>1. Marginal notes: fols 47a, 48a, 70b, 86a  
+                                2. Fols 74b~--74/1~-- 74/2~-- two folios with a description of diseases and
+                                remedies.  
+                                3. Fols 111b~-- 111/1 contain scribbles with recipes, magic numbers</p>
+                            <list>
+                                <item>
+                                    <label>Orthography: Diacritical dots for are occasionally missing or misplaced. Ta
+                                        maftūḥa is written for tā marbūṭa.</label>
+                                </item>
+                            </list>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>Oriental, leather, blind tooling</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="gregorian" notBefore="1700" notAfter="1799">18th century</origDate>
+                        </origin>
+                        <provenance>Known owners: known owners: 1. H̱alīl Sa`id b. Muṣṭafā b.
+                            al-Ḥāǧǧ Sa`id b. al-Ḥāǧǧ
+                            Muṣṭafā at-Tazliqī, 2. Muḥammad b. H̱alīl
+                            Sa`id b. Muṣṭafā Sa`id b. al-Ḥāǧǧ Sa`id b.
+                            al-Ḥāǧǧ (sic!) Muṣṭafā at-Tazliqī 3.
+                            H̱alīl Sa`id b. Muḥammad Sa`id b. b. H̱alīl Sa`id
+                            b. Muṣṭafā Sa`id b. al-Ḥāǧǧ, 4. Sāmī
+                            Ibrāhīm Ḥaddād (1986)
+                        </provenance>
+                        <acquisition>
+                            Sotheby's lot 496 (22/21.11.85)
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>̣addād/Biesterfeld no. 70 (Shelf-mark: 521/754 Khm //n1)</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    
+                    <msPart n="1" xml:id="WMS_Arabic_439_part1">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>1</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                      <msContents>
+                          <summary>A practical list of simple and compound drugs with additional information on weights and measures.</summary>
+                          
+                        <textLang mainLang="ar">Arabic</textLang>
+                          
+                        <msItem>
+                            
+                            <author key="person_ 9664480">
+                                <persName xml:lang="eng" type="standard">Yūsuf  Ismā`īl b. Ilyās al-H̱uwayī al-Kutubī </persName>
+                                <persName xml:lang="ar" type="original"> يوسف ابن اسماعيل ابن الياس ال‍خويى ال‍كتبي </persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" key="" type="uniform">Muntaẖab min Mā lā yasa`u 'ṭ-Ṭabība ǧahluhu</title>
+                            <title xml:lang="ar" type="variant"> منتخب من ما لا يسع ال‍طبيب جهله  </title>
+                            <title xml:lang="en" type="standard"> An Abridgement  from the Book "What a Physician can not allow himself to be ignorant of"
+                            </title>
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <incipit>
+                                <locus>Fol. 1b.1</locus>
+                                بسم ال‍له ال‍رحمن ال‍رحيم رب
+                                (not clear)
+                                ال‍حمد ل‍له
+                                لذي لا تكتنه معرفة ال‍علوم والافهام و‌لا تحيط ب‍كنه ذاته
+                                ل‍عقول والاوهام  ابتداع الاجرام ال‍علوية و‌زينها ب‍اجمل صورة
+                                واخترع الاجسام ال‍سفليه و‌كونها علي اكمل صيغه و‌جعل ال‍عناصل
+                                سببًا ماديا ل‍ل‍كاينات ال‍فاسدات وال‍كون وال‍فساد شرطا داتيا
+                                ل‍حصول ال‍متولدات فتحصل عنها بواسطة ال‍كلف وال‍تقديس ال‍حيوان
+                                وال‍معدن وال‍نبات و‌نص من دونها من ال
+                                (lacuna)
+                                ب‍حسن
+                                ل‍خلق وال‍تقويم وخص من بينها اياه ب‍ال‍وحي والالهام
+                                وال‍تعليم
+                                احمده
+                                ب‍لسان لا يكلّ عن شكره
+                                واوحده ب‍جنان لا يملّ عن ذكره واصلى علي ال‍نبي الامي صاحب
+                                ل‍معجزات والايات محمد ال‍مبعوث ب‍افصح الايات
+                                (over this word is added اوضح)
+                                وال‍بينات و‌على الاصحبه الذين
+                                خمدوا نار ال‍شرك وال‍عدوان واناروا ما خمد من نور ال‍توحيد
+                                وال‍يمان صلوة متوانره
+                                (sic!)
+                                متواصله ال‍سح وال‍قطر
+                                و‌بعد
+                                فانّه لما كان الانسان بل ال‍حيوان جملة
+                                من ال‍مركبات ال‍عنصورية
+                                و‌بعد فهذا منتخب من لا يسع
+                                ل‍طبيب جهله و‌هو مرتب على حروف ال‍هجا فاستحرت ال‍له تعالى
+                                وانتخبت من كل حرف ما قرب ب‍ال‍فهم و‌حلا ب‍ال‍ذوق و‌قبله ال‍عقل
+                                و‌حذفت باقيه خوف ال‍ملل والاطاله راجيا من ال‍له ال‍منان
+                                ل‍غفور الا قال انه كريم وهاب واليه ال‍مرجع وال‍ماب
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol.74a.5</locus>
+                                ويعرف عندنا ب‍ال‍يتيم و‌هو اصناف الاول ال‍زيني و‌هو الاخضر ال‍صافي
+                                و‌فيه تشفيف ما و‌منه صنف دون ذلك
+                            </explicit>
+                            <note>
+                                Yūsuf b. Ismā`īl b. Ilyās al-H̱uwayī
+                                al-Kutubī is the author of the complete version Mā lā yasa`u 'ṭ-Ṭabība ǧahluhu (cf. Ullmann
+                                Medizin 285); the author of the Abridgement is unknown.
+                            </note>
+                        </msItem>
+                      </msContents>
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="WMS_Arabic_439_part2">
+                       <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>2</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>An alphabetical list of simple drugs.</summary>  
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem>
+                                
+                                <author>Anonymous</author>
+                                
+                                <title xml:lang="ar-Latn-x-lc" key="work_21043" type="standard">Mufradāt</title>
+                                <title xml:lang="ar" type="original">مفردات</title>
+                                <title xml:lang="en" type="standard">Simple drugs</title>
+                                
+                                <textLang mainLang="ar">Arabic</textLang>
+                                
+                                <incipit>
+                                    <locus>Fol. 75a.4</locus>
+                                    تم هذا ال‍مجموع ب‍حمد ال‍له وعونه واستلحق به مفردات دوايه من اصله
+                                    ثاتي بها ان شا ال‍له على ال‍ترتيب ال‍متقدم و‌لذلك التي ذكره من كتاب من
+                                    لا يسع ال‍طبيب جهله
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 111a.7</locus>
+                                    ل‍ضرر ال‍ميات و‌كثرت شربها تمت
+                                </explicit>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="3" xml:id="WMS_Arabic_439_part3">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>3</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            
+                            <summary>A chapter from an unidentified work on synonyms of the names of simple
+                                drugs. Fols 112a~-- 113b contain an acephalous list of simples, which
+                                starts from the letter ب (bā')</summary>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem>
+                                <author>Anonymous</author>
+                                
+                                <title xml:lang="ar-Latn-x-lc" key="" type="uniform">Al-Bāb 21 fī Šarḥ Asmā' al-Adwiyat al-mufradat</title>
+                                <title xml:lang="ar" type="variant">ال‍باب ٢١ في شرح اسما الادوية ال‍مفردة</title>
+                                <title xml:lang="en" type="standard">Chapter 21 on the names of simple drugs</title>
+                                
+                                <incipit>
+                                    <locus>Fol. 112a.1</locus>
+                                    وقال بعض الاطبا اذا اكل ال‍حرق ال‍كبير
+                                    ال‍باب ال‍حادي وال‍عشرون في شرح اسما الادوية
+                                    ل‍مفردة
+                                    التي يحتاج اليها في تركيب الادويه و‌ربما جهلت عند
+                                    بعض ال‍ناظرين فيه علي حرف ال‍معجم
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 123b.16</locus>
+                                    من ال‍رصاص الاسود ب‍اكل وال‍له اعلم ب‍الصواب
+                                </explicit>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="4" xml:id="WMS_Arabic_439_part4">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>4</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            
+                            <summary>A chapter from an unidentified work on synonyms of the names of simple
+                                drugs.</summary>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem>
+                                <author>Anonymous</author>
+                                
+                                <title xml:lang="ar-Latn-x-lc" key="" type="uniform">Al-Bāb 22 fī al-Awzān wa-l-Makāyīl</title>
+                                <title xml:lang="ar" type="variant">ال‍باب ثاني وال‍عشرون في الاوزان وال‍مكاي‍يل</title>
+                                <title xml:lang="en" type="standard">Chapter 22 about Weights and measures</title>
+                                
+                                <incipit>
+                                    <locus>Fol. 123b.19</locus>
+                                    ال‍باب ثاني وال‍عشرون في الاوزان وال‍مكاي‍يل
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 124b.6</locus>
+                                    وهو اوقيه و‌نصف و‌هو سته عشره درهما كيلا الا ثلث وال‍له اعلم
+                                    بال‍صواب
+                                </explicit>
+                            </msItem>
+                        </msContents>
+                    </msPart>  
+                    
+                    <msPart n="5" xml:id="WMS_Arabic_439_part5">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>5</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            
+                            <summary>A chapter from an unidentified work on medicine.</summary>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem>
+                                <author>Anonymous</author>
+                                
+                                <title xml:lang="ar-Latn-x-lc" key="" type="uniform">Al-Bāb 23 fī Waṣāyā yantafa`a bi-hā</title>
+                                <title xml:lang="ar" type="variant">ال‍باب ال‍ثالث وال‍عشرون في وصايا ينتفع بها</title>
+                                <title xml:lang="en" type="standard">Chapter 23 on medicinal Testaments</title>
+                                
+                                <incipit>
+                                    <locus>Fol. 124b.9</locus>
+                                    ال‍باب ال‍ثالث وال‍عشرون في وصايا ينتفع بها
+                                    في ذلك اعلم ان كل يوم يتجرد خلق ال‍عالم واعلم ان ال‍نوم هو
+                                    ل‍موت الاصغر فاذا استيقظ الانسان من نومه فكانه خلق جديد
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 128b.24</locus>
+                                    ويعمل و‌لا جعلك ممن ينسي
+                                    وال‍له ال‍موفق
+                                </explicit>
+                            </msItem>
+                        </msContents>
+                    </msPart>  
+                    
+                    <msPart n="6" xml:id="WMS_Arabic_439_part6">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>6</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            
+                            <summary></summary>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem>
+                                <author>Anonymous</author>
+                                
+                                <title xml:lang="ar-Latn-x-lc" key="" type="uniform">Al-Bāb 24 fī Kayfiyat Ittiẖāḏ al-Adwiyat
+                                    al-mufrada fī ay Zamān wa min ay Makān</title>
+                                <title xml:lang="ar" type="variant">ال‍باب ال‍رابع وال‍عشرون في كيفية اتخاذ الادوية ال‍مفرده في اي زمان
+                                    ومن اي مكان</title>
+                                <title xml:lang="en" type="standard">Chapter 24 on Collection of the Simple Drugs~-- when and where.</title>
+                                
+                                <incipit>
+                                    <locus>Fol. 126b.24</locus>
+                                    ال‍باب ال‍رابع وال‍عشرون في كيفية اتخاذ الادوية ال‍مفرده في اي زمان
+                                    ومن اي مكان و‌في اي الاشيا تخزن و‌ما  يفسدها و‌ما يصلحها و‌يعتمد عليه
+                                    و‌ما يعمل مع بعض الادوية ال‍مفرده مما يمنع فسادها
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 129a.4</locus>
+                                    واما ال‍جندبادستر فينبغي خمسة
+                                    عشره سنة لم يتغير فيه شي هذا اقصى كلام ال‍زهراوى وال‍له تعالى اعلم
+                                </explicit>
+                            </msItem>
+                        </msContents>
+                    </msPart>  
+                    
+                    <msPart n="7" xml:id="WMS_Arabic_439_part7">
+                        <msIdentifier>
+                            <altIdentifier type="internal">
+                                <idno>7</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            
+                            <summary>A chapter from an unidentified work on medicine.</summary>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem>
+                                <author>Anonymous</author>
+                                
+                                <title xml:lang="ar-Latn-x-lc" key="" type="uniform">Al-Bāb 25 fī Imtiḥān
+                                    al-adwiyat al-mufrada wa-l-murakkaba</title>
+                                <title xml:lang="ar" type="variant">ال‍باب ال‍خامس وال‍عشرون في امتحان الادويه ال‍مفرده وال‍مركبه</title>
+                                <title xml:lang="en" type="standard">Chapter 25 on testing simple and compound Drugs</title>
+                                
+                                <incipit>
+                                    <locus>Fol. 129a.5</locus>ال‍باب ال‍خامس وال‍عشرون في امتحان الادويه ال‍مفرده وال‍مركبه
+                                    و‌ذكر ما يستعمل فمن ذلك ال‍لازرد فانى قدمته ل‍كثرة استعماله
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 129b. 27</locus>
+                                    امتحان ال‍عود قد يغش ال‍عود ب‍اصل شجره
+                                </explicit>
+                            </msItem>
+                        </msContents>
+                    </msPart>  
+                    
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-27"><persName>Lara Salha</persName>Updated old XML file into TEI schema"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

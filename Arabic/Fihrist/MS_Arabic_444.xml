@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16087">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>WMS Arabic 444</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="NS">
+               <resp when="2002">Cataloguer</resp>
+               <persName>Nikolaj Serikoff</persName>
+            </respStmt>
+            <respStmt xml:id="LS">
+               <resp when="2021">TEI Encoder</resp>
+               <persName>Lara Salha</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MS Arabic 444</idno>
+            <idno type="catalogue">Fihrist</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="WMS_Arabic_444" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">WMS Arabic 444 </idno>
+                  <altIdentifier type="former">
+                     <idno>Ullmann Medizin p. 188, Ḥaddād/Biesterfeld no. 77(Shelf-mark: 510/815 Ṣr / 126 /109</idno>
+                  </altIdentifier>
+                  <altIdentifier type="Sierra">
+                     <idno>b20297142</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msPart xml:id="WMS_Arabic_444-part1">
+                 <msIdentifier>
+                    <altIdentifier type="internal">
+                       <idno>1</idno>
+                    </altIdentifier>
+                 </msIdentifier>  
+               <msContents>
+                  <summary>Opinions on the preservation of good health</summary>
+                  <textLang mainLang="ar">Arabic</textLang>
+                  <msItem n="1" xml:id="WMS_Arabic_444-part1-item1">
+                     <author key="person_29465160">
+                        <persName xml:lang="eng" type="standard"> Muḥammad al-Mahdāwī b. `Alī b. Ibrāhīm aṣ-Ṣanaubarī</persName>
+                        <persName xml:lang="ar" type="original"> محمدال‍مهداوي ابن على ابن ابراهيم ال‍صنوبري </persName>
+                     </author>
+                     <title xml:lang="ar-Latn-x-lc" key="" type="uniform">Kitāb ar-Raḥma fī`Ilm aṭ-Ṭibb wa-l-Ḥikma</title>
+                     <title xml:lang="ar" type="variant"> كتاب ل‍رحمة في علم ال‍طبّ وال‍حكمة </title>
+                     <title xml:lang="en" type="standard">The Book of Mercy on the Science of Medicine and of Wisdom</title>
+                     
+                     <textLang mainLang="ar">Arabic</textLang>
+                     
+                     <note>1. Fol. 1a bears a title  هذا كتاب ال‍طب 
+                        كتاب فرائد ال‍فوائد تأليف الاستا‌د ال‍فاضل وال‍حكيم ال‍ماجد ارسطو
+                        ل‍يوناني
+                        2. Fol. 12b قال ال‍شيخ ال‍مولف</note>
+                     
+                     <incipit>
+                        <locus>Fol. 1b.1</locus>
+                        ل‍ل‍علامه الامام ال‍بونى رحمه ال‍له تعالى امينبسم ال‍له ل‍رحمن ال‍رحيم
+                        ال‍حمد ل‍له الذي اخترع من ال‍عدم
+                        ل‍موجودات واظهر الي ال‍وجود ال‍كاينات وابدع حكمته فى ال‍طبايع
+                        ل‍فاعلات وال‍منفعلات واقام الاجسام ال‍موتلفات علي اربعة طبايع
+                        مختلفات وقدر ال‍منافع وال‍مضرات والاسقام وال‍صحات وال‍حيات
+                        وال‍ممات وعلي ال‍له علي سيدنا محمد وعلي اله عدد ال‍سكون
+                        وال‍حركات وبعد   
+                        وصنعته في علم ال‍طب
+                        وهذبت اغراضه وقربت اعتراضه وجعلته جامعا في حال الاختصار
+                        ليروق
+                        ال‍قلوب والابصار ويسهل تناوله ل‍لطالب ودرسه وحفظه
+                        ل‍لراغب وذلك بعد ان امضت ال‍نظر في اصول دقايقه وخلصت ال‍صافي
+                        من زيد
+                        حقايقه فلما تجلا ب‍ال‍حق ال‍قاطع وال‍برهان
+                        ل‍ساطع اعزڻ فجمع ل‍لمنتهي اصول ال‍مناهج ال‍عتيده واعرب
+                        ف‍حوى ل‍لمبتدي فصول ال‍حوايج ال‍مفيده وسميته ال‍رحمه في ال‍طب
+                        وال‍حكمه
+                        وقصدت بذلك رحمة ال‍له ال‍كريم وعظم توابه
+                        ل‍جسيم وقرنت ذلك ب‍حسن ال‍رجا فيه ان ينتفع بما فيه واختصرت
+                        جملة ال‍كتاب في خمسة ابواب
+                        
+                        <note>This title is written in pencil. An old title is crossed out.</note>
+                        <note>فهذا كتاب مختصر في is crossed out in the original manuscript</note>
+                     </incipit>
+                     
+                     <explicit>
+                        <locus>Fol. 9b.33</locus>
+                        وهذا ما اوردنا واليه قصدنا
+                        من كتابنا هذا ال‍موصوف ب‍كتاب ال‍رحمة في ال‍حكمه ونسال ال‍له
+                        ن ينفع به من تداوي يادويه ب‍جاه نبينا محمد صلي ال‍له عليه وسلم                        
+                     </explicit>
+                     
+                     <colophon>وكان ال‍فراغ منه يوم ال‍خميس
+                        سادس عشر من شهر رمضان ال‍شريف من احدي وستين ومايتين والف
+                        وكان فراغه من يد مولفه قدس ال‍له سره نهار ال‍سبت تاني عشرين ذي
+                        ل‍حجة سبع وخمسين والف</colophon>
+                     
+                     <msItem n="1" xml:id="WMS_Arabic_444-part1-item1-item1">
+                        <locus>Fol. 1b.17</locus>
+                        <title>ال‍باب الاول فى علم ال‍طبيعة وما اودع ال‍له فيها من ال‍حكمه </title>
+                     </msItem>
+                     <msItem n="1" xml:id="WMS_Arabic_444-part1-item1-item2">
+                        <locus>Fol. 1b.33</locus>
+                        <title>فصل في الاخلاط الاربعة</title>
+                     </msItem>
+                     <msItem n="1" xml:id="WMS_Arabic_444-part1-item1-item3">
+                        <locus>Fol. 1b.38</locus>
+                        <title>فصل في الامزجه</title>
+                     </msItem>
+                     <msItem n="1" xml:id="WMS_Arabic_444-part1-item1-item4">
+                        <locus>Fol. 2a.9</locus>
+                        <title>فصل فى معرفت ال‍غذا</title>
+                     </msItem>
+                     <msItem n="1" xml:id="WMS_Arabic_444-part1-item1-item5">
+                        <locus>Fol. 2b.23</locus>
+                        <title>ال‍باب ال‍ثاني في طبايع الاغذية والادوية</title>
+                     </msItem>
+                     <msItem n="1" xml:id="WMS_Arabic_444-part1-item1-item6">
+                        <locus>Fol. 3a.42</locus>
+                        <title> ال‍باب ال‍ثالث فيما يصلح ال‍بدن فى حال ل‍صحة</title>
+                     </msItem>
+                     <msItem n="1" xml:id="WMS_Arabic_444-part1-item1-item7">
+                        <locus>Fol. 5b.6</locus>
+                        <title>ال‍باب ال‍رابع في علاج الامراض ال‍خاصة بكل عضو مخصوص</title>
+                     </msItem>
+                     <msItem n="1" xml:id="WMS_Arabic_444-part1-item1-item8">
+                        <locus> Fol. 7b.16</locus>
+                        <title>ال‍باب ال‍خامس فى علاج الامراض ال‍عامة
+                           ل‍منتقلة فى ال‍بدن من ال‍حميات</title>
+                     </msItem>
+                  </msItem>
+               </msContents>  
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support><p>European</p></support>
+                        <extent>
+                           <dimensions unit="mm" type="leaf">
+                              <dim type="diameter"> 158mm</dim>
+                              <dim type="length"> 420mm </dim>
+                           </dimensions>
+                        </extent>
+                        <collation>
+                           <label>Folios:</label>12
+                           <formula>due to the binding could not be established exactly</formula>
+                        </collation>
+                        <condition>Mediocre</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines="65">47-65</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote script="naskh" scope="major">
+                        <p><label>Script:</label>Naskh</p>
+                        <p><label>Ink:</label>black, headings and dividers are highlighted in red</p>
+                        <note>Diacritical dots for tā' marbūṭa and yā' as well as the
+                           ḥamzas are occasionally missing or misplaced. Dialectal features:
+                           1) Tā' maftūḥa  is occasionally written for tā' marbūṭa
+                           2) ت is written for ث
+                           3) د is written for ذ</note>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Cardboard, green, folded into two parts.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="Hijri" when="1261">16 Ramaḍān 1261</origDate>
+                     <origDate calendar="Gregorian" when="1845-09-18">18 September 1845</origDate>
+                  </origin>
+                  <provenance>Known owners: Sāmī Ibrāhīm Ḥaddād (1986)</provenance>
+                  <acquisition>
+                     Sotheby's lot 500 (22/21.11.85)
+                  </acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl></bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="free">
+                        <p/>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+               </msPart>
+            
+               <msPart xml:id="WMS_Arabic_444-part2">
+                  <msIdentifier>
+                     <altIdentifier type="internal">
+                        <idno>2</idno>
+                     </altIdentifier>
+                  </msIdentifier>  
+                     <msContents>
+                        <summary>Seven opinions on the preservation of good health</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="2" xml:id="WMS_Arabic_444-part2-item1">
+                           <author>
+                              <persName xml:lang="eng">Anonymous</persName>
+                           <note>Ullmann Medizin p. 188, Ḥaddād/Biesterfeld no. 77
+                              (Shelf-mark: 510/815 Ṣr / 126 /109) 
+                              ollowing M. Ullmann (Ullmann Medizin p. 188), F. Ḥaddād and
+                              H.H. Biesterfeld suggest that the author of the work is Muḥammad
+                              aṣ-Ṣanaubarī. However on the title page the author is
+                              indicated as Aristotle and in the introduction as al-Būnī.</note>
+                           </author>
+                           
+                           <title xml:lang="ar-Latn-x-lc" key="" type="uniform">Fuṣūl nāfi`a</title>
+                           <title xml:lang="ar" type="variant">فصول نافعة</title>
+                           <title xml:lang="en" type="standard">Useful Chapters</title>
+                           
+                           <textLang mainLang="ar">Arabic</textLang>
+                           
+                           <incipit>
+                              <locus>Fol. 9b.37</locus>
+                              قال بعض ال‍حكما احرز ان
+                              تجمع بين ال‍بيض وال‍سمك وانهما يورثان ال‍قولنج
+                           </incipit>
+                           
+                           <explicit>
+                              <locus>Fol. 10b. 17</locus>
+                              ال‍صدقه وال‍ذكر وال‍دعا اول
+                              ل‍نهار تمت ول‍له علي كل شي قدير وال‍حمد ل‍له رب ال‍عالمين </explicit>
+                        </msItem>
+                     </msContents>
+               </msPart>
+               
+               <msPart xml:id="WMS_Arabic_444-part3">
+                  <msIdentifier>
+                     <altIdentifier type="internal">
+                        <idno>3</idno>
+                     </altIdentifier>
+                  </msIdentifier>   
+                     <msContents>
+                        <summary>Opinions on the preservation of good health</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="2" xml:id="WMS_Arabic_444-part3-item1">
+                           <author>
+                              <persName xml:lang="eng">Anonymous</persName>
+                           </author>
+                           
+                           <title xml:lang="ar-Latn-x-lc" key="" type="uniform">Wa-naḏkur ayḍan Fawā'id nāfi`a</title>
+                           <title xml:lang="ar" type="variant">ونذكر ايضا فوايد نافعه</title>
+                           <title xml:lang="en" type="standard">e shall also mention useful things</title>
+                           
+                           <textLang mainLang="ar">Arabic</textLang>
+                           
+                           <incipit>
+                              <locus>Fol.10a.18</locus>
+                              ان شا ال‍له تعالي نوي ال‍خوخ والافيون
+                              وال‍كندرس يعجن ب‍ماء ال‍ورد ويعمل حبوب </incipit>
+                           
+                           <explicit>
+                              <locus>Fol. 12a.47</locus>
+                              تحت ال‍سما وتسقيه لمن به
+                              ل‍حصار علي ال‍ريف فانه حين ينزل في بطنه يخرج من كره
+                              ل‍حصار ب‍اذن ال‍له تعالي تمت ال‍كتاب ب‍عون ال‍ملك ال‍وهاب </explicit>
+                        </msItem>
+                     </msContents>
+               </msPart>               
+               
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term key="subject_sh85083116">Medicine, Arab</term>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-10-20"><persName>Lara Salha</persName>Updated old XML file into TEI schema</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

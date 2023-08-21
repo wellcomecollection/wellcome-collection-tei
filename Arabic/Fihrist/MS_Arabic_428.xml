@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16071">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 428</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 428</idno>
+                <idno type="catalogue">Fihrist</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="WMS_Arabic_428" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 428</idno>
+                        <altIdentifier type="former">
+                            <idno> Ḥaddād/Biesterfeld no. 51 (Shelf-mark: 521/619 Sd/132)</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20296988</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>A description of various drugs and medicaments.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_428_1">
+                            <author key="person_ 23709089">
+                                <persName xml:lang="eng" type="standard">Abū Ḥāmid Muḥammad `Alī b. `Umar Naǧīb
+                                    ad-Dīn `Alī as-Samarqandī</persName>
+                                <persName xml:lang="ar" type="original">ابو حامد محمّد علي ابن عمر نجيب ال‍دين علي ال‍سمرقندي</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" key="" type="uniform">Aqrābāḏīn</title>
+                            <title xml:lang="ar" type="variant">اقراباذين</title>
+                            <title xml:lang="en" type="standard">Medical Formulary</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            
+                            <incipit>
+                                <locus>Fol. 1b.1</locus>
+                                بسم ال‍له  ال‍رحمن ال‍رحيم وصلى وصلى ال‍له على محمّد وسلم
+                                ل‍حمد ل‍له رب ال‍عالمين وال‍صلاة علي خير ال‍بريه محمد واله
+                                ل‍طيبين ال‍طاهرين
+                                ال‍شيخ الاجل الامام
+                                نجيب ال‍دين محمد بن علي ال‍سمرقندي
+                                وبعد
+                                ل‍واجب علي ذي لب وبيان ان يتقرب الي ل‍له ان
+                                تعالي  ويتوسل
+                                ليه بكل ما يتڻسر له من ال‍قربان واحسن ال‍رسايل واجود ال‍بدايع
+                                بعد امتثال الاوامر وال‍نواهي ما يعود الي نفع ال‍ناس عامه ويرجع
+                                لي دفع الاذي عنهم وهو ال‍بحث عن علم ال‍طب ومعالجة ال‍مرضى
+                                وال‍هتمام ب‍خلاصهم وال‍تماس ال‍صحة لهم مع ما فى ذلك مرة تحرى
+                                صلاح ال‍مسلمين واحراز ال‍مثوبه من رب ال‍عالمين يكون اظهارا
+                                ب‌حكم ال‍له تعالى وتحثا عنها ونظرا في ايات الانفاق والانفس
+                                واستدلالا علي علمه وقدرته وفضله ورحمته علي ال‍كافه اجمعين فانى
+                                كنت ب‍صدد هذه ال‍صناعه احببت ان اجمع من كتب ال‍طب لمن يتعاطي
+                                هذه ال‍صناعه وتداولها اصول تركيب  الادويه محفره ب‍حسب ال‍وقت
+                                وال‍حال سهولة ال‍طريق الانتفاع بها وتسهلا ل‍لمقيدين منها فاني
+                                رايت اطبا دار ال‍مرضي ب‍مدينة ال‍سلام اقتصروا علي عدة كتب من
+                                ل‍مركبات يشتملها اوراق معدوده ورفضوا ال‍معاجين ال‍كبار ل‍عوز
+                                ل‍دويه                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol. 94a. 13--16</locus>
+                               وعلاجه ان يدق هذا ال‍حيوان ويشد علي عظته ويعطي من ال‍زراوند
+                                    ل‍طويل وال‍جنطيانا وقشور اصل ال‍كبر ودقيق ال‍كرسنه اجزا
+                                    سوا ب‍ال‍شراب او بما ال‍عسل وزهر ال‍حڻى من ترياقاته وربما كفي
+                                    فيه استعمال ال‍ملح وال‍خل على موضع ال‍عضه وال‍له اعلم
+                                   </explicit>
+                            
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support>European paper</support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">170</dim>
+                                        <dim type="length">275</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <catchwords>Catchwords are written underneath the text block.</catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios: </label>01+74+001
+                                    <formula>Due to the binding could not be established exactly</formula>
+                                </collation>
+                                <condition>Mediocre (some water-staining)</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="17">17</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>black, headings and dividers are highlighted in red</p>
+                                <!-- Check if this is an okay place to put the below information? Also, diacritic placement looks off? -->
+                                <note>Diacritical dots for tā' marbūṭa and yā' are occasionally
+                                    missing or misplaced.</note>
+                            </handNote>
+                        </handDesc>
+    
+                        <bindingDesc>
+                            <binding>
+                                <p>Modern, European type. Leather spine with title of the book, the name
+                                    of the author, and of last owner Sāmī Ḥaddād
+                                    tooled in gold</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1700" notAfter="1799">18th cent. AD</origDate>
+                        </origin>
+                        <provenance>Known owners: Sāmī Ibrāhīm Ḥaddād (1986).
+                        </provenance>
+                        <acquisition>
+                            Sotheby's lot 485 (22/21.11.85)
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl> Ullmann Medizin p. 308, Ḥaddād/Biesterfeld no. 51 (Shelf-mark:
+                                        521/619 Sd/132). Another exemplar of this work is described by A.
+                                        Dietrich (Dietrich Medicinalia no. 60). The correct title (according
+                                        to Dietrich) is Kitāb al-Ma`āǧīn wa-l-Ašriba.
+                                        However, the first 20 folios of the present MS are identical with the
+                                        facsimile edition of as-Samarqandī's Aqrābāḏīn,
+                                        see: The medical Formulary of al-Samarqamdī and the relation of
+                                            early Arabic Simples to those found in the indigenous medicine of the Near
+                                            East and India, M. Levey, N. al-Khaledy (eds., trs.) Philadelphia, 1967.</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-10"><persName>Adrian Plau</persName>Updated old XML file into TEI schema"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
