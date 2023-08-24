@@ -19,7 +19,7 @@
     * [By the shelf](manuscript-inventory/phase-2/by-the-shelf.md)
 * [Next phase](next-phase.md)
 * [Additional inventory](additional-inventory/README.md)
-  * [Visual material or manuscript?](additional-inventory/visual-material-or-manuscript.md)
+  * [Visual material or manuscript?](manuscript-inventory/phase-2/visual-material-or-manuscript.md)
   * [Sensitivity](sensitivity.md)
   * [Imports](additional-inventory/imports.md)
 * [FrontEnd](frontend/README.md)
