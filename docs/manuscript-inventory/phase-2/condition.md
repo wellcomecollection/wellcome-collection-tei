@@ -1,3 +1,7 @@
+---
+description: This section details the inventory fields related to an items condition
+---
+
 # Condition
 
 Recording the physical condition of a manuscript is important in providing Collection Care with a list of unstable items and ensuring that manuscripts can be cared for correctly. In inventory the focus is on the stability of the item and its suitability for consultation. The inventory uses the below letters to grade an items condition.&#x20;
