@@ -1,4 +1,4 @@
-# Procedure in Detail
+# Identifiers
 
 **Unique object number**&#x20;
 
@@ -17,15 +17,3 @@ Any accession numbers found on manuscripts during the inventory will be recorded
 **Other number**&#x20;
 
 Any other numbers will also be recorded during phase 2 of the inventory. These numbers are a good starting point for investigating provenance of items in our collections. We should record these numbers for catalogued and uncatalogued material and if there are multiple numbers, these should be recorded and separated by the use of a semi colon.
-
-**Condition**&#x20;
-
-* **A**- No work required. Pristine, or already conserved or rebound items. Items that at time of assessment require no conservation
-* **B**- Good. Stable, suitable for all library uses i.e. exhibition, copying, consultation. Only very minor damage such as localised surface dirt, and very minor tears for example. No part of the item is in a vulnerable state.
-* **C**- Fair. Stable although damaged. Suitable for consultation. For example damage may include tears and some loss but the item is not inherently unstable.
-* **D**- Poor. Unstable items. At risk of further damage under normal consultation. For example extensive structural problems including - embrittlement, mechanical damage, mould damage, risk of loss and further deterioration.
-*   **E**- Bad. Highly unstable items. Not suitable for consultation. For example major mould infestation, blocking, extensive fragmentation, high fragility.&#x20;
-
-    Highly valuable items where producing them to readers would put them at risk of unacceptable damage.
-
-Anyone doing manuscripts inventory should first have a handling training session with conservation.&#x20;

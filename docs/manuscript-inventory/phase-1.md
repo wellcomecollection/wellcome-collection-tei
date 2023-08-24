@@ -18,3 +18,5 @@ Especially noteworthy points about these fields:
   * Are they too large for the drawer?
   * Are they in a state that needs Conservation attention?
 * **Drawer Contents on Catalogue** is not always possible to answer in situ.
+
+<mark style="background-color:orange;">\[YK to take a look at Quickbase to see if anything needs adding - just add bullet points here for AP to finish]</mark>

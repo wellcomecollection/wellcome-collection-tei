@@ -43,5 +43,5 @@ If there is any indication that the manuscript is catalogued, the next step is t
 
 If any enhancements or inaccuriaces appear to be present in the TEI file, please record this in the 'Metadata work required' box on Quickbase.
 
-\[ADD NOTE ABOUT THE NEXT BOX (WHERE IS THIS CATALOGUED)]
+<mark style="background-color:orange;">\[AP - ADD NOTE ABOUT THE NEXT BOX (WHERE IS THIS CATALOGUED)]</mark>
 

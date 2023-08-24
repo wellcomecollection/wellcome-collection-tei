@@ -15,3 +15,7 @@ For manuscript inventory, we proceed on the basis of the following guidelines:
 
 We want to avoid a level of fresh description that sits closer to cataloguing than inventory. In cases where the acquisition history of an item is unclear, and the item for instance presents as scattered, illustrated folia from what may or may not have been conceived as a gathered manuscript, the choice of category can imply a level of information or knowledge about the item that we do not actually have.
 
+<mark style="background-color:orange;">\[YK/AP to add clarification that we keep things catalogued as MSS as MSS, even if questionable. Run page past Emily, Alex, Louise.]</mark>
+
+
+

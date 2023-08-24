@@ -6,3 +6,5 @@ Manuscript inventory is an iterative process that begins by acknowledging the fo
 * Catalogue sources for the manuscript collections are not uniform. Some collections only have PDF or print catalogues and no Sierra or Calm presence, some only have dummy entries in Sierra, and some are scattered across different cataloguing efforts, published or internally circulated.
 
 The following documentation for Phases 1 and 2 of manuscript inventory situates our work within these challenges.
+
+<mark style="background-color:orange;">\[AP to add paragraph on inventory work done through Art Fund, with credit to YK.]</mark>

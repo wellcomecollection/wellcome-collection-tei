@@ -15,3 +15,5 @@ Primary sensitivities cover any element of sensitivity that appears directly wit
 ## Secondary sensitivities
 
 These cover sensitivities concerning the provenance, acquisition, or custodial history of items, and should be noted where possible.
+
+<mark style="background-color:orange;">\[AP to add more info.]</mark>
