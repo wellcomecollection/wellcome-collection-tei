@@ -24,7 +24,7 @@ The temporary number will appear after the manuscript has been saved.
 Any accession numbers found on manuscripts during the inventory will be recorded. These numbers are a good starting point for investigating provenance of items in our collections. We should record these numbers for catalogued and uncatalogued material and if there are multiple numbers, these should be recorded and separated by the use of a semi colon.
 
 **Other number** \
-Any other numbers will also be recorded during phase 2 of the inventory. These numbers are a good starting point for investigating provenance of items in our collections. We should record these numbers for catalogued and uncatalogued material and if there are multiple numbers, these should be recorded and separated by the use of a semi colon.
+Other numbers found during inventory for both catalogued and uncatalogued material should be recorded. This includes non-Wellcome accession numbers, lot numbers and previous identifiers. These numbers are a good starting point for investigating provenance of items in our collections. If there are multiple numbers, these should be separated by the use of a semi colon.
 
 **System number**\
 This is the Sierra b number that links an item to its Sierra record. Items imported from Sierra and TEI will have the system number field filled on import.&#x20;
