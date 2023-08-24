@@ -11,7 +11,7 @@
     * [Visual material or manuscript?](manuscript-inventory/phase-2/visual-material-or-manuscript.md)
     * [Metadata Work Required](manuscript-inventory/phase-2/metadata-work-required.md)
     * [Type of work required](manuscript-inventory/phase-2/type-of-work-required.md)
-    * [Part numbering](manuscript-inventory/phase-2/part-numbering.md)
+    * [Number of Items](manuscript-inventory/phase-2/part-numbering.md)
     * [Language](manuscript-inventory/phase-2/language.md)
     * [Sensitivity](manuscript-inventory/phase-2/sensitivity.md)
     * [Inventory by TEI or by shelf?](manuscript-inventory/phase-2/inventory-by-tei-or-by-shelf.md)
