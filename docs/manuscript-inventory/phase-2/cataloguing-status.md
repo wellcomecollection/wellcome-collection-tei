@@ -45,3 +45,4 @@ If any enhancements or inaccuriaces appear to be present in the TEI file, please
 
 <mark style="background-color:orange;">\[AP - ADD NOTE ABOUT THE NEXT BOX (WHERE IS THIS CATALOGUED)]</mark>
 
+<mark style="background-color:blue;">\[Should we include the manuscripts guide as an appendix? and a list of where printed catalogues and hand lists are? link to digitised ones on sharepoint, RMR, level 3 cupboards. Also definition for printed catalogue and hand list(I wasn't sure what the difference is)YK]</mark>
