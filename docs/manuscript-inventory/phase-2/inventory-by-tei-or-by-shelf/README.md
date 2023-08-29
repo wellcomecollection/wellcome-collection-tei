@@ -12,7 +12,7 @@ Manuscripts that have been catalogued can be inventoried collection by collectio
 
 ## Inventory by location
 
-Inventory by location starts by being in the physical location of a manuscript then finding it's catalogue information. This workflow is for uncatalogued and catalogued items. However, the disparities in cataloguing and scattered nature of information, can be challenging. Multiple collections can be stored in the same location, for example the plan chests, which can mean jumping between collections.
+Inventory by location starts by being in the physical location of a manuscript then finding it's catalogue information. This workflow is for uncatalogued and catalogued items. However, the disparities in cataloguing and scattered nature of information can be challenging. Multiple collections can be stored in the same location, for example the plan chests, which can mean jumping between collections.
 
 See [Cataloguing status](../cataloguing-status.md) for more information.&#x20;
 

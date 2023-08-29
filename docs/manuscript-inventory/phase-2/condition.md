@@ -18,3 +18,25 @@ Anyone doing manuscripts inventory should first have a handling training session
 
 ## Condition- Damage type
 
+To assist collections care, the condition damage type of an item should be recorded. All relevant options should be selected from the drop down menu, which includes the following:
+
+* Brittle/vulnerable substrate
+* &#x20;Dirt
+* Tears
+* Fragments&#x20;
+* High risk of loss
+* Folded/ creased/ rolled
+* Back/ mount/ tape causing damage
+* Media friable/ flaky
+* Framed damaged
+* Mould/ pest/ hazard
+* No/ poor housing
+* Stains
+
+## Condition comments
+
+Any additional comments that may assist with collections care should be added here. Please be as concise as possible.
+
+
+
+##
