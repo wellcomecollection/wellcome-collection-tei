@@ -9,6 +9,7 @@
       * [By TEI](manuscript-inventory/phase-2/inventory-by-tei-or-by-shelf/by-tei.md)
     * [Cataloguing status](manuscript-inventory/phase-2/cataloguing-status.md)
     * [Identifiers](manuscript-inventory/phase-2/identifiers.md)
+    * [Collection](manuscript-inventory/phase-2/collection.md)
     * [Material Type](manuscript-inventory/phase-2/material-type.md)
     * [Condition](manuscript-inventory/phase-2/condition.md)
     * [Metadata Work Required](manuscript-inventory/phase-2/metadata-work-required.md)
