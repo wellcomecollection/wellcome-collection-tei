@@ -26,3 +26,6 @@
 * [FrontEnd](frontend/README.md)
   * [TEI cataloguing mapping](frontend/draft.md)
 * [TEI Manual](tei-manual.md)
+* [Manuscript Cataloguing Workflows](manuscript-cataloguing-workflows/README.md)
+  * [Minor amendments to MSS](manuscript-cataloguing-workflows/minor-amendments-to-mss.md)
+  * [Creating a TEI record from a Sierra source](manuscript-cataloguing-workflows/creating-a-tei-record-from-a-sierra-source.md)
