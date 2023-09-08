@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16095">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 452</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="BLE">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Branwen Lloyd-Evans</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 452</idno>
+                <idno type="catalogue">Fihrist</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 452</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 93 (Shelf-mark: 510/1080 Sġ)</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b2029721x</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>A general description of the human body and its diseases and description of European diseases.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        
+                        <msItem n="1" xml:id="WMS_Arabic_452-part1">
+                            <author key="person_311815978">
+                                <persName xml:lang="eng" type="standard">Ṣāliḥ b. Naṣr Allāh b. Sallūm</persName>
+                                <persName xml:lang="ar" type="original">صالح ابن نصر الله ابن سلّوم</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" key="work_1708" type="standard">Ġayat al-Itqān fī Tadbīr Badan al-Insān</title>
+                            <title xml:lang="ar" type="original">غاية الاتقان في تدبير بدن الانسان</title>
+                            <title xml:lang="en" type="standard">Greatest Perfection in the Arrangement of the Human Body</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+                                                        
+                            <incipit>
+                                <locus>Fol. 1a.1</locus>
+                                بسم ال‍له ال‍رحمن ال‍رحيم به ثقتي وعليه نستعين
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol. 145a.28</locus>
+                                صفت خضاب لمركوريالس الطبيب يوخذ اهليلج اسود وقية زبيب اسود وقيتان شراب اسود قابض ثلاث ارطال يغلى الجميع حتى يذهب النصف ويصفى ويضاف
+                            </explicit>
+                          
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p>European paper</p></support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">160</dim>
+                                        <dim type="length">235</dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation>
+                                    <catchwords>Catchwords are written underneath the text block</catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios:</label>01+145+004
+                                    <formula>due to the binding could not be established exactly</formula>
+                                </collation>
+                                <condition>Good</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="32">32</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>naskh</p>
+                                <p><label>Ink:</label>black, headings and dividers are highlighted in red</p>
+                                <note>Often tā marbūṭa is replaced with tā maftūḥa and vice versa. Alifs are occasionally are not written (fol. 67b.24).</note>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <p><locus>Fol. 119b, 135b, 138ab, 140a, 142a, 143b, 144a</locus>lacunae have been left where remedies should be described.</p>
+                            <p><locus>Fol 145b</locus>contains recipes for various remedies against the retention of urine and for the treatment of wounds</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>modern, European type. Leather spine with title of the book, the name of the author, and of last owner Sāmī Ḥaddād</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" notBefore="1700" notAfter="1799" type="approxDate">18th century</origDate>
+                        </origin>
+                        <provenance>Known owners: 1. The scribbles on the fol. 145b are written by the hand found on the fly leaves of St Petersburg manuscript
+                            C 263. The person, who left the scribbles in the manuscript of St Petersburg, Bishop Peter, 
+                            was obviously connected with the see of Ba`albek. 2.Sāmī Ibrāhīm Ḥaddād (1986)</provenance>
+                        <acquisition>
+                            Sotheby's lot 508 (22/21.11.85)
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ḥaddād/Biesterfeld no. 93 (Shelf-mark: 510/1080 Sġ)</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-19"><persName>Branwen Lloyd-Evans</persName>Updated old XML file into TEI schema"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
+

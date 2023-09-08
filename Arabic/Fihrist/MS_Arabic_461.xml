@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16104">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 461</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="NS">
+                    <resp when="2002">Cataloguer</resp>
+                    <persName>Nikolaj Serikoff</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2021">TEI Encoder</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">MS Arabic 461</idno>
+                <idno type="catalogue">Fihrist</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:id="WMS_Arabic_461" xml:lang="en">
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 461</idno>
+                        <altIdentifier type="former">
+                            <idno>Ḥaddād/Biesterfeld no. 109 (Shelf-mark: 521/ Ym / 1286 /147).
+                            </idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20297300</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>A short alphabetical list of drugs enlarged by extensive quotations from the works by <persName>Abū Ǧayš (i.e. Ḥubayš) at-Tiflīsī</persName>, <persName>Dawūd al-Anṭākī</persName>, <persName>Ibn al-Bayṭār</persName> and some 
+                            other, hitherto unidentified authors.
+                        </summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="1" xml:id="WMS_Arabic_461-part1">
+                            <author>
+                                <persName xml:lang="eng" key="" type="display">Ḥusayn b. Ṣalaḥ (or Ṣāliḥ) al-Yabrūdī</persName>
+                                <persName xml:lang="ar" type="variant">حسين بن صلح ال‍يبرودي</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" key="" type="uniform">Al-Maǧmū` al-Kabīr fī l-Mufradāt wa-l-`Aqāqīr
+                            </title>
+                            <title xml:lang="ar" type="variant">ال‍مجموع ال‍كبير في ال‍مفردات وال‍عقاقير</title>
+                            <title xml:lang="en" type="standard">Large Compendium on Simple Remedies and Drugs</title>
+                            
+                            <textLang mainLang="ar">Arabic</textLang>
+
+                            <note>1. <locus>Fols 15b.1-20a.15</locus>: A Manẓūma by <persName>Ibn Sīnā</persName> incorporated into the work by al-Yabrūdī. Incipit: بدات
+                                باسم ال‍له في نظم حسن اذكر ما جربته طول ال‍رمز ما هو ب‍ال‍طبع
+                                و‌بال‍خواص بكل عام وكل خاص Explicit: فالقهم
+                                ب‌سرعة على عجل في ال‍نار حتى يشربوا حتف الاجل هو هذا ال‍سطر
+                                ل‍مذكور هنا </note>
+                            <note>2. <locus>Fols 21a.1-41a.11</locus>: An excerpt from a work by <persName>at-Tiflīsī</persName> is incorporated into the work by al-Yabrūdī. The Incipit only is shown here. The chapter headings from the work by at-Tiflīsī are 
+                                listed in the detailed context. Incipit: بيان ما يتعلق
+                                بال‍دماغ ب‍حسب ال‍نفع من الاغذيه ال‍مطلقة وال‍دوائية فقال في
+                                كتاب تعديل ال‍صحة ابو ال‍جيش ال‍تفليسي رحمه ال‍له تعالى ارز
+                                يُرىَ احلامًا طيّبة ب‍اقلّى يبدل ال‍حواس ويري احلامًا</note>
+                            <note>3. <locus>Fols 220a.1-234b.18</locus>: Advice about catching birds and animals as well as a list of drugs taken from كتاب حكمة
+                                ل‍طيور (<locus>fol 220b.15</locus>), كتاب ال‍مصباح في علم ال‍مفتاح (<locus>fol 224b.18</locus>), writings by <persName>Ǧābir b. Ḥayyān</persName> (<locus>(fol. 225b.1)</locus>). An example: <locus>fol. 224b</locus> (margins) 
+                                فايدة الي صيد ال‍سمك يعجن ال‍ملح
+                                ل‍ندراني وال‍كزبره ال‍يابسه ب‍شحم ال‍معزي او ب‍شحم ال‍بقر
+                                ويجعله في صره ويلقي في ال‍ماء او يلطح به شيء من نحو ال‍شبكة او
+                                ل‍قاطوع فانه يجمع عليه  ال‍سمك من كل مكان
+                                (bis) ب‍اذ ال‍له
+                                تعالى</note>
+                            <note>4. <locus>Fol. 235a.1-269b.5</locus>: an excerpt from the work by <persName>Abū al-Munā al-Isrā'ilī</persName> incorporated in the work by al-Yabrūdī. Incipit: هذه ال‍مفردات من كتاب منهاج ال‍دكان
+                                ل‍بي ال‍منى ابن ابي نصر ال‍عطار الاسراي‍يلي ال‍هاروني قال في
+                                ل‍باب ال‍حادي وال‍عشرين في تشرح اسماء الادوية ال‍مفردة التي
+                                يمكن ان يحتاج اليها في تركيب الادوية وربما جهلت عند بعض
+                                ل‍ناظرين فهي مرتبه على حرف ال‍معجمة</note>
+                            <note>5. The same title is repeated on <locus>fol. 270b.6</locus>, followed by a list of drugs arranged in alphabetical order, which according to <locus>fol. 273a.17</locus> belong to the previous work.</note>
+                            
+                            <incipit>
+                                <locus>Fol. 1a.1</locus>
+                                بسم ال‍له ال‍رحمن ال‍رحيم ال‍حمد ل‍له رب ال‍عالمين وصلى
+                                ل‍له على سيدنا محمد وعلى اله وصحبه وسلم م‍ما وجدنا علي حروف
+                                ل‍مفردات حرف الالف من هذا ال‍كتاب اميريا هو ريس برباريس
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol.273b.17</locus>
+                                يراع هو ال‍قصب ان‍تهي من كتاب منهاج ال‍دكان وال‍له اعلم تمت
+                            </explicit>
+                            
+                            <colophon>
+                                <locus>Fol.41a.12</locus>
+                                تمت هذه ال‍نسخه في رمضان ٦ سنه ١٢٨٦ على يد حسين صالح
+                                ل‍يبرودي وصلى ال‍له على سيدنا محمد وعلى اله وصحبه وسلم
+                            
+                            <locus>Fol.158b.12</locus>
+                                ان‍تهي  نقلا من تذكيرة داود والذي قبله من مفردات
+                                بن ال‍بيطار والذي قبله من كتاب الاختصاص ومن جهة كتب وتذاكر
+                                ل‍مفردات نقلته تذكرة الى اولى الالباب وطالبا ل‍ل‍ثواب حرفي ذي
+                                ل‍قعده ٢٧ يوما سنه ١٢٨٦ حرره حسين بن محمد صالح من بيت ال‍شيخ
+                                علي ال‍يبرودي غفره ال‍له له والى كل ال‍مسلمين امين
+                            
+                            <locus>Fol.219b.15</locus>
+                                ان‍تهي نقلت من كتاب روضة ال‍عطار ب‍ذي ال‍حجه ١٥ سنه
+                                ١٢٨٦
+                            </colophon>
+                                                        
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p>European paper</p>
+                                <p><watermark>IOUZZA</watermark></p></support>
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">160</dim>
+                                        <dim type="length">230</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="height">115</dim>
+                                        <dim type="width">160</dim>
+                                    </dimensions>   
+                                </extent>
+                                <foliation>
+                                    <catchwords>Catchwords are written underneath the text block.</catchwords>
+                                </foliation>
+                                <collation>
+                                    <label>Folios:</label> 01+273
+                                    <formula>1-23, 10, 24, 9, 25-27, 10 
+                                    </formula>
+                                    <note>The quire-marks comprise a word كراس with a running number. Sometimes the word كراس is abbreviated into ك‍</note>
+                                </collation>
+                                <condition>Good</condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="19">19</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> naskh</p>
+                                <p><label>Scribe:</label>  <persName xml:lang="eng" key="" type="display">Al-Yabrūdī, Ḥusayn b. Muḥammad Ṣāliḥ</persName>
+                                    <persName xml:lang="ar" type="variant">حسين بن محمد صالح ال‍يبرودي</persName></p>
+                                <p><label>Ink:</label> Black, headings and dividers are highlighted in red.</p>
+                                <note>Diacritical dots for tā' marbūṭa and yā' as well as the ḥamzas are occasionally missing or misplaced.</note>
+                            </handNote>
+                        </handDesc>
+                        <additions>
+                            <p>The book appears to be a holograph copy of <persName>Ḥusayn b. Muḥammad Ṣāliḥ al-Yabrūdī</persName>. While compiling it he entered a remark about the death of <persName>Šayẖ `Abd Allāh al-Ḥalabī</persName> from the village 
+                                of <placeName>Birze</placeName> (<placeName>برزه</placeName>) who who died on the 5th of Ḏū l-Qa`da 1286 AH (6 February 1870).</p>
+                            <p><locus>Fol.71a</locus>: al-Yabrūdī mentions that he cured himself with a plant, probably Gypsophila (كندس), on the 25th of Šawwāl 1286 (28 January 1870).</p>
+                            <p>Many notes on the margins generally related to the verification and explanation of the names of drugs and to the application of remedies: <locus>folios 1a, 2b, 4ab, 6a-8a, 11ab, 12b, 14b, 15a, 17b, 18a, 20ab, 21a, 34a, 41ab, 44b, 
+                                46b-47b, 48b, 50a-55a, 56b, 57a, 58a-61b, 62b-69b, 71a, 74a, 75b, 81a, 84a, 85a, 87b, 93b, 98b, 101a, 107b, 110a, 112a, 113b-115b, 118a, 120b, 122a, 126a, 127ab, 136a, 138b, 139a, 140a, 143a-145a, 148a, 151a-152a, 154a, 156a, 158a, 
+                                159a, 159b, 162b-163a, 164ab, 167a-168b, 182b, 184a, 189b, 201a, 205b, 212b, 213a, 222b, 226b-228a, 229ab, 231a, 233a, 250a, 254b</locus>.</p>
+                            <p><locus>Fol.19a</locus>: Magic chart</p>
+                            <p>Miscellaneous interesting remarks on the
+                                margins:</p> 
+                            <p><locus>Fol.01a.</locus> a title page: كتاب ال‍مجموع
+                                ل‍كبير في ال‍مفردات وال‍عقاقير من تآليف ال‍شيخ حسين بن صلح
+                            ل‍يبرودي ال‍متوفي دمشق في ال‍مدرسة ال‍مراديه سنه</p>
+                            <p>(Realia) <locus>Fol.220a</locus>: ال‍خضيري يزرعوها في مصر وريحها طيب مثل
+                                ل‍مسك وفي بعض الاوقات يحطوها الى ال‍عطيس</p>
+                            <p>(People) <locus>Fol.21a</locus>: ال‍جوع ال‍مفرط يعفن الالات فاذا عفنت تحل‍لت
+                                وذابت فاذا حللت مات والاكل يمنع منها دلك ان‍تهى تقرير شيخنا
+                                ل‍شيخ سليم ال‍عطار فى ١٧ جماد ثانى سنه ١٢٩١, <locus>Fol.92a</locus>: سافر ال‍شيخ ابو ال‍نصر وال‍شيخ ابو ال‍فتح
+                                ولاد ال‍خطيب على ال‍حج ب‍شوال ٢٨ سنه [١٢]٨٦, <locus>Fol.108a</locus>: ليله الاحد ب‍غرة ذي ال‍قعدة سنه ١٢٨٦ توفي ال‍شيخ
+                                عبد ال‍له ال‍حلبي ابن ال‍شيخ سعيد ال‍حلبي في قرية برزه ونقل الى
+                                ل‍شام الى بيته رحمه ال‍له تعالى وهو وابوه كانوا من خيار ال‍علما
+                                ن‍تهى, <locus>Fol.248b</locus>: عبد ال‍له بن حسن ال‍فليطانه
+                                ساكن في رومه من بيت تونس كان معقود وحليناه</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>Modern, European type. Leather spine with title of the book, the name of the author, and of last owner, <persName>Sāmī Ḥaddād</persName>, tooled in gold binding.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian" when="1870">6 Ramaḍān 1286  / 10 December 1869; 27 Ḏū l-Qa`da 1286 / 28 February 1870; 15 Ḏū l'Ḥiǧǧa 1286 / 18 March 1870
+                                </origDate>
+                            <origPlace>Syria</origPlace>
+                        </origin>
+                        <provenance>Known owners: 1. Ḥusayn b. Muḥammad Ṣāliḥ al-Yabrūdī (around 1870), 2. Sāmī Ibrāhīm Ḥaddād (1986).
+                        </provenance>
+                        <acquisition>
+                            Sotheby's lot 517 (22/21.11.85)
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Ḥaddād/Biesterfeld no. 109 (Shelf-mark: 521/ Ym / 1286 /147).</bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85083116">Medicine, Arab</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-11-29"><persName>Victoria Sloyan</persName>Updated old XML file into TEI schema"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
+
+<!-- In the previous XML version, there was the following information that may/may not be of use:
+        <WMSpace>
+          <WMSpacelines>19</WMSpacelines>
+          <WMSpacedensity>280</WMSpacedensity>
+          <WMSpaceratio>1:1,6</WMSpaceratio>
+          <WMSpaceanglealef>80</WMSpaceanglealef>
+          <WMSpaceanglekaf>50</WMSpaceanglekaf>
+        </WMSpace>
+
+
+
+-->
