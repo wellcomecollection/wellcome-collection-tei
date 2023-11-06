@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Indic_Gamma_88">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Indic_Gamma_88b">
 
     <teiHeader>
     
     <fileDesc>
         
         <titleStmt>
-            <title>MS Indic Gamma 88</title>
+            <title>MS Indic Gamma 88b</title>
             <title type="collection">Wellcome Collection</title>
             <respStmt xml:id="KS">
                 <resp when="2002">Cataloguer</resp>
@@ -45,7 +45,7 @@
             <distributor>
                 <email>library@wellcome.ac.uk</email>
             </distributor>
-            <idno type="msID">MS Indic Gamma 88</idno>
+            <idno type="msID">MS Indic Gamma 88b</idno>
             <idno type="catalogue">Jain Manuscripts at Wellcome Collection</idno>
             <availability>
                 <licence>This TEI file is based on legacy cataloguing information funded by the Institute of Jainology and Wellcome Trust, and was created under a Headley Fellowship with the Art Fund.</licence>
@@ -70,7 +70,7 @@
                     </altIdentifier>
                     <!-- Use further <altIdentifier> if former or alternative <idno> is available -->
                     <altIdentifier type="alternative">
-                        <idno>MS Indic Gamma 88b</idno>
+                        <idno>MS Indic Gamma 88</idno>
                         <note>Unclear whether there is a genuine Gamma 88a, or whether the (b) attribution stems from this manuscript containing the second part of a work.</note>
                     </altIdentifier>
                 </msIdentifier>
@@ -79,7 +79,7 @@
                   
                     <summary>A copy of the second section of the Sutrakritanga, with an interlinear gloss or commentary in old Gujarati.</summary>
                     
-                    <msItem n="1" xml:id="MS_Indic_Gamma_88_1">
+                    <msItem n="1" xml:id="MS_Indic_Gamma_88b_1">
                         <locus from="1" to="58"><!-- Give the locations for the item, if available --></locus>
                         <author key="">Sudharmāsvamī</author>
                         <title key="">Sūtrakṛtāṅgasūtra</title>
@@ -108,7 +108,7 @@
                         
                     </msItem>
                     
-                    <msItem n="2" xml:id="MS_Indic_Gamma_88_2">
+                    <msItem n="2" xml:id="MS_Indic_Gamma_88b_2">
                         <locus from="1" to="58">1-58</locus>
                         <author key="">Untitled commentary work.</author>
                         <title key="">A ṭīka</title>
@@ -281,7 +281,7 @@
         </profileDesc>    
     
         <revisionDesc>
-        <change when=""><!-- Make an entry to record your starting work on the file and then a new <change> for later edits, following the below format --></change>
+        <change when="2023=11-06" who="#AP">Updated title following manuscript inventory.</change>
         <change when="2023-02-06" who="#AP">Populated template.</change>
         </revisionDesc>
 
