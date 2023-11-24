@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="">
+               <resp when="">Cataloguer</resp>
+               <persName/>
+            </respStmt>
+            <respStmt xml:id="">
+               <resp when="">TEI Encoder</resp>
+               <persName/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS.3831</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">MS.3831</idno>
+                  <altIdentifier type="">
+                     <idno/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Tratado de re metallica. Madrid 1569. Transcript. Illustrated with pen-drawings, copied from the original, of chemical apparatus, etc.</summary>
+                  <textLang mainLang="">Spanish</textLang>
+                  <msItem n="" xml:id="">
+                     <author key="">Perez de Vargas, Bernardo</author>
+                     <title key="">Perez de Vargas, Bernardo</title>
+                     <textLang mainLang=""/>
+                     <textLang otherLangs=""/>
+                     <incipit>
+                        <locus/>
+                     </incipit>
+                     <explicit>
+                        <locus/>
+                     </explicit>
+                     <colophon>
+                        <locus/>
+                     </colophon>
+                     <filiation/>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="">
+                     <supportDesc material="">
+                        <support/>
+                        <extent>1 volume<dimensions unit="" type="">
+                              <dim type="diameter"/>
+                              <dim type="length"/>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <formula/>
+                           <signatures/>
+                        </collation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines=""/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope=""/>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions>
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country/>,
+                                        <region/>,
+                                        <settlement/>,
+                                        <orgName/>
+                     </origPlace>
+                     <origDate calendar="">c. 1825</origDate>
+                  </origin>
+                  <provenance notBefore="" notAfter=""/>
+                  <acquisition>Purchased 1930.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl/>
+                        </source>
+                     </recordHist>
+                     <availability status="">
+                        <p/>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when=""/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
