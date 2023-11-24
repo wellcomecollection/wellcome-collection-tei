@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS2520">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS2520</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-02-18">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2023-10-31">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+               <note>Description compiled by Ross MacFarlane</note>
+            </respStmt>   
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS2520</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">MS.2520</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b18728790</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>AccNo 50800</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <msContents>
+                  <summary>Libro intitulado de varios secretos de medesina [sic] y cirurjia, etc. 
+                     Recopilados y esprimentados por mi ... cirurjano apraticant en la ciutat de Tarragona, etc. Frontispiece of a pen-drawing of SS. 
+                     Cosmas and Damian with an ornamented shield: large pen-drawn vignette of the B.V.M. supporting the dead Christ, with a similar shield. 
+                     At the end a pen-drawing of the 'Vein Man'. There are additions by different hands. The date on the title-page has been altered. 
+                     It seems to have been originally '1772', but the second seven has been written over so that it reads '1732'. On the penultimate leaf verso, is a remedy 'Contra la epilepsia' by a different hand, dated 1777. 
+                     Some scribblings at the beginning and inside the volume, in which the name Francisco Piquer occurs several times. Produced in Tarragona.</summary>
+                  
+                  <textLang mainLang="es">Spanish</textLang>
+                  
+                  <msItem n="1" xml:id="MS2520_1">
+                     
+                     <author key="">Gil, Juan</author>
+                     <title key="">Gil, Juan</title><!--There is not title"-->
+                     
+                    
+                     <textLang otherLangs="en">English</textLang>   
+                                       
+                     
+                    </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper"><support/>
+                        <extent>92 ll 4to.
+                           <dimensions unit="cm" type="cm">
+                              <dim type="width">15 cm</dim>
+                              <dim type="length">20 1/2 cm</dim>
+                           </dimensions>  
+                        </extent>
+                        
+                    <condition>Leaves wanting after the tenth leaf, and a number cut out in the middle and
+                    the  end of thevolume, four leaves mutilated</condition>
+                         </supportDesc>
+                     
+                  </objectDesc>
+                  
+                  <handDesc>
+                 <handNote>There additions by differents hands. The date on the title-page has been altered. It seems to have been originally
+                 '1972', but the second seven has been written over so that it reads '1732'. On the penultimate leaf verso, 
+                 is a remedy 'Contra la epilepsia' by different hand, dated 1777. Some scribblings at the begining and 
+                 inside the volume, in which the name Francisco Piquer occurs several times.</handNote>                  
+                  </handDesc>
+                  
+                  <decoDesc>
+                     <decoNote>Title in red and black. Frontispiece of pen-drawing of SS.
+                        Cosmas and Damian with an ornamented shiled: large pen-drawn vignette of the B.V.M. 
+                        supporting the dead Christ, with a similar shiled. At the end a pen-drawing of
+                        the 'Vein Man. </decoNote>
+                  </decoDesc>
+                  
+                  <additions>
+                     <p/>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                    <p>Unbound.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>Tarragona, Spain</country>
+                        <region>Europe</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">1772 [1732]</origDate>
+                  </origin>
+               
+                  <acquisition>Purchased 1929.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of Western manuscripts on medicine and science in the Wellcome Historical Medical Library.</title>
+                              <author>S.A.J. Moorat.</author>
+                              <date>1962-1973</date>
+                              <note>P. 449 (v.II, A-M)</note>
+                              <note>https://wellcomecollection.org/works/scscncqd</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="unknown">
+                        <p>Images are supplied for private research only at the Archivist's discretion. Please note that material may be unsuitable for copying on conservation grounds. 
+                           Researchers who wish to publish material must seek copyright permission from the copyright owner.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-10-06" who="Odalys Caballero">Populated the template</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
