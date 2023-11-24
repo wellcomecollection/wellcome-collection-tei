@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS3830">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS3830</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-02-18">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2023-10-31">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+               <note>Description compiled by Ross MacFarlane</note>
+            </respStmt>   
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS3830</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">MS.3830</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b19366486</idno>
+                  </altIdentifier>
+                  <altIdentifier>
+                     <idno>AccNo 21647</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                 
+                  <summary>De re metallica. En qual, se tratan muchos i diversos secretos del conocimiento de toda suerte de minerales...
+                     En la ... Villa de Madrid en casa de Pierre Cosin. Año MDLXIX.</summary>
+                  
+                  <textLang mainLang="es">Spanish</textLang>
+                  
+                  <msItem n="1" xml:id="MS3830_1">
+                     
+                     <author key="Perez de Vegas, Bernardo"/>
+                     <title key=""/><!--There is not title"-->
+                    
+                  
+                     <textLang otherLangs="en">English</textLang>   
+                    
+                                    
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper"><support/>
+                        <extent>557pp. + 6 bl.ll. 4to.
+                           <dimensions unit="cm" type="cm">
+                              <dim type="width">14  cm</dim>
+                              <dim type="length">20 cm</dim>
+                           </dimensions>  
+                        </extent>
+                        
+                        <foliation/>
+                        <collation>
+                           <formula/>
+                           <signatures/>
+                        </collation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout writtenLines=""/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                   
+                     <handNote scope="major"/>
+                  </handDesc>
+                  <decoDesc>
+                   <decoNote>Ilustrated with carefully executed wash drawings of chemical aparatus, etc.</decoNote>
+                  </decoDesc>
+                  
+                  <additions>
+                <p>The MS. is a transcript of the very rare printed edition (Salva 2590). 
+                From the Amherst Library, with small book - plate.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>Original velum binding</p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>Madrid, Spain</country>
+                        <region>Europe</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">1750 </origDate>
+                  </origin>                  
+                  <acquisition>Purchased  at Sotheby's 23/3/1909 (Lote 678).</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of Western manuscripts on medicine and science in the Wellcome Historical Medical Library.</title>
+                              <author>S.A.J. Moorat.</author>
+                              <date>1962-1973</date>
+                              <note>P. 808 (v.II, N-Z)</note>
+                              <note>https://wellcomecollection.org/works/scscncqd</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="unknown">
+                        <p>Images are supplied for private research only at the Archivist's discretion. Please note that material may be unsuitable for copying on conservation grounds. 
+                           Researchers who wish to publish material must seek copyright permission from the copyright owner.</p>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-10-06" who="Odalys Caballero">Populated the template</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
