@@ -7,4 +7,6 @@ Manuscript inventory is an iterative process that begins by acknowledging the fo
 
 The following documentation for Phases 1 and 2 of manuscript inventory situates our work within these challenges.
 
-<mark style="background-color:orange;">\[AP to add paragraph on inventory work done through Art Fund, with credit to YK.]</mark>
+### Acknowledgements
+
+This guide for manuscript inventory has been developed by Yoshika Kobayashi and Adrian Plau, through funding and support provided by a Headley Fellowship from the Art Fund.
