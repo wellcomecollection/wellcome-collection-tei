@@ -8,7 +8,7 @@ description: >-
 
 ### Overview
 
-Cataloguing information about a manuscript item can be dispersed across a number of sources, ranging from printed catalogues to digital management systems. A main aim of manuscript inventory, in keeping with the [SPECTRUM standard set out by Collections Trust](https://collectionstrust.org.uk/resource/inventory-the-spectrum-standard/), is to develop a centralised register of uncatalogued manuscripts that may in turn be submitted for [cataloguing prioritisation](http://127.0.0.1:5000/o/-LumfFcEMKx4gYXKAZTQ/s/-MaCyZe0q1CUexeaRgr6-887967055/).
+Cataloguing information about a manuscript item can be dispersed across a number of sources, ranging from printed catalogues to digital management systems. A main aim of manuscript inventory, in keeping with the [SPECTRUM standard set out by Collections Trust](https://collectionstrust.org.uk/resource/inventory-the-spectrum-standard/), is to develop a centralised register of uncatalogued manuscripts that may in turn be submitted for [cataloguing prioritisation](https://app.gitbook.com/o/-LumfFcEMKx4gYXKAZTQ/s/-MaCyZe0q1CUexeaRgr6-887967055/).
 
 For this purpose, the 'Add Manuscript' function in Quickbase presents the following question and drop-down menu:
 

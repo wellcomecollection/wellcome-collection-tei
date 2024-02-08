@@ -6,8 +6,9 @@ On a quarterly to semi-annual basis, manuscripts recently acquired by Wellcome C
 
 ## Before you begin
 
-* Double check a manuscript number has already been allocated in the Sierra order record or CALM accession record. If it doesn't have a number, contact Collections Development for the next rolling number. &#x20;
-* Also check whether a permanent location has been given for the item in either the Sierra order record or CALM accession record. If no permanent item location has been given, contact Conservation and Collections Care to determine a location for the material. If there are any repackaging or other conservation concerns outstanding, these should also be communicated at this point.&#x20;
+* Check it has been correctly identified as a manuscript during the acquisition process. There is no strict definition of what a manuscript is at Wellcome but suitable material includes any solely handwritten texts, and **unpublished** type printed texts that lack archival structure. As part of the fast track cataloguing process, material should be assessed to check whether the manuscript collection is most suitable, particularly for printed texts which may be better described in the ephemera collection or an early printed book which may have been misidentified at point of acquisition. &#x20;
+* Check a manuscript number has already been allocated in the Sierra order record or CALM accession record. If it doesn't have a number, contact Collections Development for the next rolling number. &#x20;
+* Check whether a permanent location has been given for the item in either the Sierra order record or CALM accession record. If no permanent item location has been given, contact Conservation and Collections Care to determine a location for the material. If there are any repackaging or other conservation concerns outstanding, these should also be communicated at this point.&#x20;
 
 Ideally a permanent location should be given before cataloguing begins but it can be carried out if still awaiting. In these cases, Conservation and Collections Care will be responsible for updating the location, status and opacmsg in Sierra once a location has been found. &#x20;
 
