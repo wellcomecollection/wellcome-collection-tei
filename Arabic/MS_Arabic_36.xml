@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15686">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic <!-- insert MSS number here --></title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">WMS Arabic 36</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 36</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 36</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b2029489x</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>A3648</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Abstract of Avicenna's canon of medicine.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_36">
+                            
+                            <author key="person_89770781">
+                                <persName xml:lang="eng" type="standard">Avicenna, 980-1037</persName>
+                                <persName xml:lang="ar" type="original">ابن سینا</persName>
+                            </author>
+                            
+                            <author key="person_5146153029805251752">
+                                <persName xml:lang="eng" type="standard">Maḥmūd ibn Muḥammad Jaghmīnī</persName>
+                                <persName xml:lang="ar" type="standard">محمود بن محمد الجغميني</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original"> قانونـچة في الطب</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Qānūnčā fī-T-Tibb</title>
+                            <title xml:lang="en" type="standard">A resume of the Canon of Medicine</title>
+                            
+                            <textLang otherLangs="">Persian</textLang>
+                            
+                            <incipit>
+                                وبعد فهذا مختصر مشتمل على زبدة ما يجب استحضارة من صناعة الطب ...
+                                   ... انتخبته من كتب المتقدمين ورتبته على عشر مقالات 
+                            </incipit>
+                            
+                            <explicit>
+                               ... وأما الحلواء العسلى معين على الهضم العجينى مولد للسدد ...
+                               تصنيف محمود بن محمد جغميني ...
+                            </explicit>
+                            
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">76mm</dim>
+                                        <dim type="length">178mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">45mm</dim>
+                                        <dim type="length">140mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                    <catchwords>In red or in black shapes with red writing</catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 82
+                                </collation>
+                                
+                                <condition>Good</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout>
+                                    Blue and red lines.
+                                </layout>
+                                
+                            </layoutDesc>
+
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="nastaliq" scope="major">
+                                <p><label>Script:</label>Nasta'liq (Persian)</p>
+                                <p><label>Ink:</label>Black</p>
+                            </handNote>
+                           
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Gregorian">1680</origDate>
+                            <origDate calendar="Hijri">1090</origDate>
+                            <origPlace>
+                                <country>Madras, India</country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: Major General George Godfrey Pearse, Royal Artillery
+                        </provenance>
+                        <acquisition>
+                            Bought at Stevens auction house 28/3/1916, lot number 315, for the value £4-15-0.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 166</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
+

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15669">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 19</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+                <respStmt xml:id="CR">
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName> Curstaidh Reid </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">WMS Arabic 19</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 19</idno>
+                        <altIdentifier type="former">
+                            <idno> WMS. Or. 19</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20294748</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary> Books 1 and 2 of Tadhkirat ʾulī-l-albāb wa-l-jāmiʿ li-l-ʿajab-l-ʿujāb</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_19">
+                            
+                            <author key="person_ 90075818">
+                                <persName xml:lang="eng" type="standard"> Anṭākī, Dāʾūd ibn ʿUmar, ?-1599</persName>
+                                <persName xml:lang="ar" type="original"> أنطاكي، داود بن عمر، -1600</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original"> <!-- Actual Arabic title --> </title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard"> Tadhkirat ʾulī-l-albāb wa-l-jāmiʿ li-l-ʿajab-l-ʿujāb</title>
+                            <title xml:lang="en" type="standard"> Memorandum for the learned, being a collection of marvels</title>
+                            
+                            <textLang otherLangs=""> <!-- Insert other languages if there are any here --></textLang>
+                            
+                            <incipit>
+                                <locus><!-- This is the location in the manuscript, it will look something like "Fol. 1a.1" --></locus>
+                                <!-- Insert contents here -->
+                            </incipit>
+                            
+                            <explicit>
+                                <locus><!-- This is the location in the manuscript, it will look something like "Fol. 1a.1" --></locus>
+                                <!-- Insert contents here -->
+                            </explicit>
+                            
+                            <colophon> <!-- Insert colophon here if there is one, otherwise delete --> </colophon>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter"> 150</dim>
+                                        <dim type="length"> 205</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter"> 105</dim>
+                                        <dim type="length"> 150</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios: 447</label> <!-- Insert whatever is found in collation section here, it will look something like "127+01" -->
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition> <!-- Use to record information on the manuscript's condition--> </condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="25">25</layout>
+                            </layoutDesc>
+                            
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>naskh</p>
+                                <p><label>Ink:</label><!-- Insert information relating to ink and colour etc. here --></p>
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="eng" type="standard">al-Asāwarī, Muḥammad b. Muḥammad</persName>
+                                    <persName xml:lang="ar" type="original"></persName></p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication"></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">1212</origDate>
+                            <origDate calendar="Gregorian">1797</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: as-Sayyid ʿAlī b. as-Sayyid Muṣṭafā as-Sādāt
+                        </provenance>
+                        <acquisition>
+                            <!-- Insert acquisition information here, e.g Sotheby's lot 486 (22/21.11.85) -->
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note> pp. 196-197</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
