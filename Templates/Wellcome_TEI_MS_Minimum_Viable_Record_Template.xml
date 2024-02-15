@@ -75,7 +75,7 @@
                     <textLang mainLang="" source="IANA"><!-- If no language is cited in donor info or can't be easily identified then leave blank --></textLang>
                                        
                     <msItem n="" xml:id="">
-                    <!-- Add 1 to the n value and xml:id for each item described ie. first n="1" xml:id="MS.0000_1", second n="2" xml:id="MS.0000_2" --> 
+                    <!-- Add 1 to the n value and record manuscript number as xml:id ie. n="1" xml:id="MS_0000"--> 
                         <author key="person_" source="VIAF">
                             <!-- Insert viaf code as attribute value if available in key --> 
                             <persName> <!-- if available, and enter full author name here --> </persName></author>
@@ -107,12 +107,12 @@
                 <history>
                     <origin>
                         <origPlace>
-                            <country><!-- insert --></country>
+                            <country><!-- insert if known--></country>
                         </origPlace>
-                        <origDate calendar="gregorian"><!-- insert --></origDate>
+                        <origDate calendar="gregorian"><!-- insert date or approximate date if not known --></origDate>
                     </origin>
-                    <provenance notBefore="" notAfter=""><!-- insert prior owners where relevant --></provenance>
-                    <acquisition><!-- insert acquisition date and method --></acquisition>
+                    <provenance notBefore="" notAfter=""><!-- insert prior owners where relevant/known --></provenance>
+                    <acquisition><!-- insert acquisition date and method where known--></acquisition>
                 </history>
             
             </msDesc>
@@ -147,6 +147,7 @@
         <change when="" who="">Populated template</change>
         <change when="2022-11-16" who="#LS">Created template for Minimum Viable Record TEI files.</change>
         <change when="2023-01-11" who="#SC">Edited comments and removed unnecessary spaces.</change>
+        <change when="2024-02-15" who="#SC">Minor edits to comments for clarification and removal of part numbering guidance.</change>
         <!-- Any further major revisions made to this record in future should be recorded in this same format -->
         </revisionDesc>
 
