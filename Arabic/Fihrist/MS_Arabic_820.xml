@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16464">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Arabic 820</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-06-23">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 820</idno>
+                <idno type="catalogue">Fihrist</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_820" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 820</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b20298900</idno>
+                        </altIdentifier>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 799</idno>
+                        </altIdentifier>
+
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>1 copy of al-Durrah al-muḍīyah fī al-lughah
+                            al-turkīyah by Ibn Muḥammad Ṣāliḥ</summary>
+
+ 
+                        <msItem xml:id="MS_Arabic_820-item1">
+
+                            <author>
+                                <persName xml:lang="ar-Latn-x-lc" key="" type="display">Ibn Muḥammad Ṣāliḥ</persName>
+                                <persName xml:lang="ar" facs="#i0003" type="variant">ابن محمد صالح</persName>
+                            </author>
+
+                            <title type="variant" facs="#i0006" xml:lang="ar" key=""> الدّرة المضيّة في
+                                اللّغة التّركيّة</title>
+
+                            <title xml:lang="ar-Latn-x-lc" type="display" key="">al-Durrah al-muḍīyah fī al-lughah
+                                al-turkīyah</title>
+
+                            <incipit facs="#i0003" xml:lang="ar">
+                                <locus>f.2r.8</locus> امّا بعْد فيقول المبتهل الي اللّه بالاعضاءِ
+                                والجوارح. الرّاجي عفو مولاه ابن محمّد صالح. لمّا كان ممّا ينبغي
+                                للأنسان ان يعرف كلام. من يخاطبه. ليفهم كلامه ويُحاوبه. وكان دولة
+                                زماننا هذا الدّولة العثمانيّه. ولغتهم اللّغة التركيّة السّلطانيّة.
+                                طال ما جال في خُلدي ان اصنع رسالة في اللّغة التركيّة السّلطانيّه.
+                                فكنت تارة اقدم رجلا واوخر اخري. لعدم من هولها بالتقديم احري. فلّما
+                                ساقني سابق التقدير الي حيث محط رحال الرّجال الأماثل <gap
+                                    reason="omitted"/> فالتمس منّي تعليم بحّله ثمرة الفؤاد <gap
+                                    reason="omitted"/> فامتثلت ذلك بمزيد السّمع والطّاعة <gap
+                                    reason="omitted"/> فجمعت هذه الرّسالة طبق ما حفظ <gap
+                                    reason="omitted"/> وسمّيته بالدّرة المضيّة في اللّغة التّركيّة </incipit>
+
+                            <colophon facs="#i0037" xml:lang="ar">
+                                <locus>f.35v.13</locus> تمّ الكتاب بعون اللّه الملك الوهّاب عن يد
+                                اضعف العباد الحاج موسي الشّريفي عفي عنه لسنه ١١٠٨ الشريفة لسنه ١٦٩٦
+                                الشريفه مسيحيه </colophon>
+                            <textLang mainLang="ar" otherLangs="ota">Arabic and Turkish</textLang>
+                            <note>Text includes Arabic-Turkish vocabulary lists.</note>
+
+                        </msItem>
+
+
+
+
+
+
+
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+                                </support>
+                                <extent>35 ff.</extent>
+
+
+                                <foliation>Eastern Arabic numerals, ink. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="16">1 column, 16 lines.</layout>
+
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                                <p><label>Scribe:</label> 
+                                    <persName xml:lang="ar-Latn-x-lc" type="standard">al-Ḥājj Mūsá al-Sharīfī</persName> 
+                                    <persName xml:lang="ar" facs="#i0037" type="original">الحاج موسى الشريفي</persName>
+                                </p>
+                                
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+                            <decoNote type="border">Yellow and black border surrounding text</decoNote>
+                        </decoDesc>
+
+                        <additions>
+                            <list>
+
+                           
+                              
+
+
+                                <item>Text has marginal comments, explanations and corrections
+                                    throughout.</item>
+
+
+                            </list>
+                        </additions>
+
+
+
+                        <bindingDesc>
+                            <binding>
+                                <p>  <dimensions type="binding" unit="mm">
+                                    <height>185</height>
+                                    <width>105</width>
+                                </dimensions> <material>Paper boards; marbled paper and textile covers. Green and red endbands.</material></p>
+                               
+
+                            </binding>
+                        </bindingDesc>
+                      
+
+
+
+
+                    </physDesc>
+
+
+                    <history>
+                        <origin> 
+                        <origDate calendar="#Hijri-qamari" when="1696">1108 AH</origDate>
+                         <origDate calendar="#Gregorian" when="1696">1696</origDate>
+                        </origin>
+                        <acquisition>Wellcome Library accession number: 66599</acquisition>
+
+
+
+
+                    </history>
+
+                  
+
+
+
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh96009249">Turkish language--Dictionaries</term>
+                            <term ref="subject_sh85006309">Arabic language--Dictionaries</term>
+                            <term ref="subject_sh85074526">Language and languages--Glossaries, vocabularies, etc.</term>
+                        </item>
+
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2024-02-19" who="#VS">Upgraded in accordance with Fihrist standards.</change>
+            <change when="2022-06-23" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>

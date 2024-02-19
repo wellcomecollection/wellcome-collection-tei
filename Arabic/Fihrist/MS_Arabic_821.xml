@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16465">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Arabic 821</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-06-24">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 821</idno>
+                <idno type="catalogue">Fihrist</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_821" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 821</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 800</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra"><idno>
+                            b20298912
+                        </idno></altIdentifier>
+
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>2 works on Islamic inheritance jurisprudence</summary>
+
+
+                        <msItem xml:id="MS_Arabic_821-item1" n="1">
+
+                            <locus facs="#i0002 #i0003">ff. 1r-1v</locus>
+                            <author>
+                                <persName xml:lang="ar-Latn-x-lc" type="display" key="">Abū Muḥammad ʿUmar b.
+                                    ʿUthmān</persName>
+                                <persName xml:lang="ara-Arab" type="variant" facs="#i0002">ابو محمد
+                                    عمر بن عثمان</persName>
+                            </author>
+                            <title type="variant" facs="#i0002" xml:lang="ar" key=""> تحفةَ الخايضِ فى علم
+                                الفرايضِ </title>
+
+                            <title xml:lang="ar-Latn-x-lc" type="uniform" key="">Tuḥfat al-khāʾid fī ʿilm
+                                al-farāʾid</title>
+                            <incipit facs="#i0002" xml:lang="ar">
+                                <locus> f.1r.4</locus> امّا بعد فيقول الفقيرُ الممنون الى اللهِ
+                                الغنىِ المنانِ ، اَبُو مُحَمّدٍ عُمَرُ بنِ عُثْمَان لمّا توقف تعلُّم
+                                الفرايضِ على الوجه اللّايِقِ والّصواب ، علَى معْرِفَةِ بَعْضِ
+                                مَسائِلِ عِلْمِ الْحِسَابِ وكان موضوعه العددَ جمعت كلماتٍ مشتملة على
+                                تعريفه وبعض احواله تسهيلاً للمتعلم المبتدى وجواباً لسواله ، فسميتُها
+                                تحفةَ الخايضِ فى علم الفرايضِ </incipit>
+
+
+
+
+                            <colophon facs="#i0003" xml:lang="ar">
+                                <locus> f.1v.12</locus> وَفَقَنَّا <sic/> اللهُ عَلى خَيْرِ
+                                الْمطَالِبِ وَاْلحَمْدُ لِلهِ عَلى اِنْعامِ اْلمَآرِبِ ٿم ٿم اللّهم
+                                اغفر لى ولابوىّ امين </colophon>
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_821-item2" n="2">
+                            <locus facs="#i0003 #i0027">ff. 2r-26r</locus>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+                            <title type="uniform" facs="#i0027" xml:lang="ar" key=""> البهجة الصغير </title>
+                            <title xml:lang="ar-Latn-x-lc" type="variant">al-Bahjah al-ṣaghīr</title>
+
+
+
+                            <incipit facs="#i0003" xml:lang="ar">
+                                <locus> f.2r.1</locus> كتاب الفرايض هى جمع فريضة بمعنى مفروضة والفرض
+                                لغةً التقديرُ وشرعاً ههنا نصيبٌ مقدرٌ للوارث </incipit>
+
+                            <colophon facs="#i0027" xml:lang="ar">
+                                <locus> f.25r.10</locus> تمت الكتاب بعون الملك الوهاب المسمّى
+                                بالبهجة الصغير فى يد العبد الحقير بالعمر الكركوكى شهير فى سنه ١٢٠٠
+                                فى قرية كهريزه عند مولانا عمر المشهور بحيله موردى </colophon>
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+
+
+
+
+
+
+
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+                                </support>
+                                <extent>28 ff.</extent>
+
+
+                                <foliation>MS lacks foliation. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="13">1 column, 13 lines.</layout>
+
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="ar-Latn-x-lc" type="standard">ʿUmar al-Kirkūkī
+                                        Shahīr</persName>
+                                    <persName xml:lang="ara-Arab" facs="#i0027" type="original">بالعمرالكركوكى
+                                        شهير</persName>
+                                </p>
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+
+                        </decoDesc>
+
+                        <additions>
+                            <list>
+
+
+
+
+
+                                <item>Text has many marginal comments, explanations and corrections
+                                    throughout.</item>
+
+
+                            </list>
+                        </additions>
+
+
+
+                        <bindingDesc>
+                            <binding>
+                                <p>
+                                    <dimensions type="binding" unit="mm">
+                                        <height>185</height>
+                                        <width>120</width>
+                                    </dimensions> <material>Paper boards; quarter-bound with red textile and
+                                    brown leather covers.</material></p>
+
+
+                            </binding>
+                        </bindingDesc>
+
+
+
+
+
+                    </physDesc>
+
+
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri-qamari" facs="#i0027" when="1786">1200
+                                AH</origDate>
+                            <origDate calendar="Gregorian" when="1786">1785-6</origDate>
+                            <origPlace>Village of <placeName>Kahrizeh</placeName>,
+                                    <region>Persia</region>.</origPlace>
+                        </origin>
+                        <acquisition>Wellcome Library accession number: 65631</acquisition>
+
+
+
+
+                    </history>
+
+
+
+
+
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85066384">Inheritance and succession (Islamic
+                                law)</term>
+                        </item>
+
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2024-02-19" who="#VS">Upgraded in accordance with Fihrist standards.</change>
+            <change when="2022-06-24" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>
