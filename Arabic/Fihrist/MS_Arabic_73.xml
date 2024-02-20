@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15721">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WMS Arabic 73</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2022">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 73</idno>
+                <idno type="catalogue">Fihrist</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 73</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 73</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295121</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A manuscript about various medicines relating to the heart, written by Ibn Sina for a nobleman.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_73">
+                            
+                            <author key="person_ 89770781" role="aut">
+                                <persName xml:lang="eng" type="standard">Avicenna, 980-1037</persName>
+                                <persName xml:lang="ar" type="original">ابن سينا، الحسين بن عبد الله، 980-1037</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="variant" key="">أحكام الأدوية القلبية</title>
+                            <title xml:lang="ar-Latn-x-lc" type="uniform" key="">Ahkām-l-Adwiya l-Qalbiya</title>
+                            <title xml:lang="en" type="variant" key="">Rules about medicines of the heart</title>
+                            
+                            <incipit>
+                                <locus>Fol.2v" --></locus>
+                                .كتب الشيخ أبو على الحسين بن عبد الله بن سينا إلى الشريف السعيد أبي الحسن على بن الحسن الحسيني...
+                                الحمد لولّى النّعمة على موهبة العقل
+                                .ونرغب إليه في المزيد من سوابع الفضل
+                                ,وَرَدَ علىّ أمر السيّد الأجل أن أجمع لمجلسه
+                                ,عمّر الله بطول عمره
+                                .مقالة تشتمل أحكام الأدوية القلبية على سبيل الاختصار
+                                ,فتلقيب أمره العالى بالسمع والطاعة
+                                ...وسألت الله
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>Fol.45r --></locus>
+                                صبر جزءان...
+                                لا يزود مغسول ثلثى جزء
+                                مصطكى جزء وثلث جزء
+                                .تحتجب كذلك
+                                . هذا ما حضرنا من الكلام في الأدوية على أقضى ما يمكن من الاختصار
+                                ... وقد حان لنل أن نتمم هذه المقالة
+                            </explicit>                            
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">140mm </dim>
+                                        <dim type="length">235mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <collation>
+                                    <label>Folios:</label>45
+                                </collation>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="3">13</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label><!-- Insert information relating to ink and colour etc. here --></p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+                            <decoNote type="border">Folio 1v is gilded</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="gregorian">17th century</origDate>
+                            <origDate calendar="hijgri">11 century</origDate>
+                            <note>The manuscript is undated but these are estimated dates by the cataloguer.</note>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note><!-- Insert relevant page numbers here --></note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability>
+                                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader> 
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>
+
