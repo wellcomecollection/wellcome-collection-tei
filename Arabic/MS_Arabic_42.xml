@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15691">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 42</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 42</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 42</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 42</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20294918</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A guide to various methods to protect against poisons and ways in which to enrich ones health, discussing topics including nutritious foods, ways to cook particular ingredients, oils and ointments. The manuscript was dedicated to the Mamluk Sultan, Abu-n-Nasr Qansuh al-Ghuri (1446-1516 A.D.).</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="MS_Arabic_42">
+                            
+                            <author key="person_88344741">
+                                <persName xml:lang="eng" type="standard">Muhammad b. Muhammad al-Qawsūnī Badr-addīn</persName>
+                                <persName xml:lang="ar" type="original">القوصوني ، شمس الدين محمد بن محمد بن محمد بن بدر الدين القوصوني،ت 931 </persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">كمال الفرحة في دفع السموم وحفظ الصحة</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Kamāl-l-Farha fī daf'-s-sumūm wa Hifz-i-Sihha</title>
+                            <title xml:lang="en" type="standard">The complete guide to avoiding poisons and maintaining health</title>
+                            
+                            <textLang otherLangs=""></textLang>
+                            
+                            <incipit>
+                                <locus></locus>
+                                الحمد لله الملك الحكيم ذى القوة والسلطان الدائم الباقي
+                                و كل من عليها فان
+                                الذي أخرج الانسان بفضله وجوده من ظلمة الإمكان إلى نور وجوده
+                                 ... وبعد فيقول ...
+                                 ... محمد القوصوني الطبيب
+                            </incipit>
+                            
+                            <explicit>
+                                <locus></locus>
+                                فلما قرّبت الجارية الطعام إليه ارتعشت يديها وسقط الطعام منها وهو يفور ويغلي...
+                                فعلم سيدها أنه مسموم
+                                فسألها عن ذلك فطلبت منه الأمن وحققت له القصة
+                                فأحسن إليها وأخرجها
+                                ...تم
+                            </explicit>
+                            
+                            <colophon></colophon>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">210mm</dim>
+                                        <dim type="length">155mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">140mm</dim>
+                                        <dim type="length">100mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    
+                                    <catchwords> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 32 foll.
+                                    <formula></formula>
+                                    <signatures></signatures>
+                                </collation>
+                                
+                                <condition></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="19">19</layout>
+                            </layoutDesc>
+                            
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>Black</p>
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="eng" type="standard"></persName>
+                                    <persName xml:lang="ar" type="original"></persName></p>
+                            </handNote>
+                           
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="hijri">971 Hijri</origDate>
+                            <origDate calendar="gregorian">1563 A.D</origDate>
+                            <origPlace>
+                                <country>Egypt (most likely)</country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners:
+                        </provenance>
+                        <acquisition>
+                            Bought from Dahdah Moussali and Muhammad Ibn Yusuf, Damascus, April 1934, including 101 manuscripts for the value of £300.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>page 118</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
+
