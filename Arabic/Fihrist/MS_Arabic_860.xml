@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16504">
+   
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>MS Arabic 860</title>
+                <title type="collection">Wellcome Collection</title>
+                
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                
+                <respStmt xml:id="RM">
+                    <resp when="2022-02-11">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2024-02-26">TEI Encoder for FIHRIST compliance</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 860</idno>
+                <idno type="catalogue">Fihrist</idno>
+                
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc xml:id="MS_Arabic_860" xml:lang="en">
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 860</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 839</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20299102</idno>
+                        </altIdentifier>
+                      
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>1 copy of Dalāʼil al-khayrāt by Jazūlī, Muḥammad ibn Sulaymān,‏ ‎d.  1404-1465 </summary>
+                        
+                        
+                        <msItem xml:id="MS_Arabic_860-item1">
+                            
+                            <author key="person_60346321">
+                                <persName xml:lang="ar-Latn-x-lc" type="standard">Jazūlī, Muḥammad ibn Sulaymān,‏ ‎d.  1404-1465</persName>
+                                <persName xml:lang="ar" type="original">جزولي، محمد ابن سليمان‏</persName>
+                            </author>
+                            <title  xml:lang="ar-Latn-x-lc" type="standard" key="work_268">Dalāʼil al-khayrāt wa-shawāriq al-anwār fī dhikr al-ṣalāt ʻalá al-nabī al-mukhtār</title>
+                            <title type="original" xml:lang="ar">دلائل الخيرات</title>
+                            
+                            <incipit type="beginning" facs="#i0002" xml:lang="ar">
+                                <locus>f.1r.1</locus>
+                                اللَّهُمَّ انِى اَسْاَلُكَ بحَقِّ مَا حَمَلَ كُرْسِيُّكَ مِنْ عَظَمَتِكَ وَقُدْرَتِكَ وجَلَالِكَ وَبَهَاٹِكَ وَسُلْطَانِكَ وَبِحَقِ اسْمِكَ اَلْمَخْزُوںِ
+                            </incipit>
+                            <explicit facs="#i0057" xml:lang="ar">
+                                <locus>f.55v.2</locus>
+                                اللهم بِنُورِ وَجْهِكَ اَلَّذِى مَلَا اَرْكَانَ عَرْشِكَ اَں تَزْرَعَ ڢِى فَلْبِى مَعْرِڢَتَكَ حَتَّى اَعْرَڢَكَ حَٯَّ مَعْرِڢَتِكَ كَمَا يَنْبَغِى اَں تَعْرِڡ بِهِ
+                            </explicit>
+                          
+                            <colophon facs="#i0058" xml:lang="ar">
+                                <locus>f.56r.7</locus>
+                                الصلاة والسلام على نبى الكريم كمل كتاب بحمد اللـه وحسن عونه
+                                <gap reason="omitted" />
+                                واسمّ المكاتب محمد ثانى ابں عثماں اللهم اغڢره ولوالديه وللمسلميں ولمں سبفنا بالايماں اميں
+                            </colophon>
+                            
+                                                       
+                            <textLang mainLang="ar" source="IANA">Arabic</textLang>
+          
+                            <note>Author and title are not explicitly mentioned in this copy, but the work has been identified as above.</note>
+                                                        
+                        </msItem>
+
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="paper">
+                                
+                                <support>Paper
+
+                                </support><extent>56 ff.</extent>
+
+                                
+                                <foliation> Arabic foliation in pencil. <catchwords>Catchwords present.</catchwords>
+                                </foliation>
+                      
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout columns="1" writtenLines="8"> 1 column, 8 lines. </layout>
+                                
+                          
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            
+                            <handNote scope="major" script="maghribi">
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="ar-Latn-x-lc" role="scr" key="">Muḥammad Thānī b. ʿUthmān</persName>
+                                    <persName xml:lang="ar" facs="#i0058">محمد ثاني ابن عثمان</persName></p>
+                                <p><label>Script:</label> Maghribī</p>
+                                <p><label>Ink:</label> Black, red and yellow</p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication.</decoNote>
+                            <decoNote type="other">Ornate colophon with border in red, green, yellow and black ink.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <list><item>Invocations written on front and back covers.</item></list>
+                        </additions>
+                        
+                        <bindingDesc><binding notAfter="1925"><p>Paper boards; brown leather and blue paper covers. Bound with brown leather cord.</p>
+                        <condition> Covers and edges torn and stained.</condition>
+                        </binding></bindingDesc>
+                        
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            MS is undated. 
+                            
+                        </origin>
+                        <acquisition when="1925">
+                            <p>Purchased at auction at Stevens, Lot 452, on 1 September 1925</p>
+                            <p>Wellcome Library accession number: 68841</p></acquisition>
+                
+                        
+                        
+                    </history>
+                    
+                    <additional>
+                        <listBibl>
+                            <bibl><hi rend="italic">Muʿjam al-muʾallifīn</hi>: 3, p. 333.</bibl>
+                            <bibl><hi rend="italic">Kashf al-ẓunūn</hi>: p. 759.</bibl>
+                            <bibl>Brockelmann: S, 2, p. 359.</bibl>
+                            
+                          
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85068403">Islam--Prayers and devotions</term>
+                           
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2024-02-26" who="#VS">Updated file to make it FIHRIST compliant.</change>
+            <change when="2022-03-11" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <facsimile>
+        <surface/>
+        
+    </facsimile>
+    
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>
+    
+</TEI>
+
+
