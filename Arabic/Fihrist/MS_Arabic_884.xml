@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16528">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Arabic 884</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-05-27">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2024-02-28">TEI Encoder for FIHRIST compliance</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 884</idno>
+                <idno type="catalogue">Fihrist</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_884" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 884</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 863</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20299266</idno>
+                        </altIdentifier>
+                        
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>3 texts by Ptolemy on the subject of astrology</summary>
+
+
+                        <msItem xml:id="MS_Arabic_884-item1" n="1">
+
+
+                            <locus facs="#i0002 #i0019">ff. 2v-18r</locus>
+                            <author key="person_54152998">
+                                <persName xml:lang="en" type="standard">Ptolemy,‏ ‎active 2nd century</persName>
+                                <persName xml:lang="ar" type="original" facs="#i0004">بطلموس</persName>
+                            </author>
+                            <title type="desc" key="">Text on the signs of the zodiac</title>
+
+                            <incipit facs="#i0004" xml:lang="ar">
+                                <locus>f.3r.1</locus> اما بعد قال اللـه تعالى وهو اصدق القائِلين
+                                تبارك الذى جعل فى السماء بروجًا وجعل فيها سراجًا وقمرًا منيرًا فو
+                                <lb/> ضعة الحكماء اليونانيون هذه البروج على حكم طبايع الانسان قال
+                                الموا <lb/> لف الحكيم بطلحوس ومن معه من حكما الهند فاذا اردت ان تعرف
+                                طالع الا <lb/> نسان فاحسب اسم الشخص واسم امه بحساب جمل الكبير التام
+                                بالاعداد الاتى ذكرها </incipit>
+
+                            <explicit facs="#i0019" xml:lang="ar">
+                                <locus>f.18r.11</locus> ولا بد لهم من الفراق <gap reason="omitted"/>
+                                يفترقان والرجل يموت او يقتل وهذه الحسابات نصف الفلك الدوار من
+                                المجربات من صدور العارفين </explicit>
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_884-item2" n="2">
+                            <locus facs="#i0019 #i0097">ff. 18r-96r</locus>
+                            <author key="person_54152998">
+                                <persName xml:lang="en" type="standard">Ptolemy,‏ ‎active 2nd century</persName>
+                                <persName xml:lang="ar" type="original" facs="#i0019">بطلموس</persName>
+                            </author>
+                            <title type="original" facs="#i0019" xml:lang="ar" key=""> كتاب طالع المولود
+                                مختص للرجال والنساء </title>
+
+
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Kitāb ṭāliʿ al-mawlūd mukhtaṣṣ lil-rijāl
+                                wa-al-nisāʾ </title>
+
+                            <incipit type="beginning" facs="#i0020" xml:lang="ar">
+                                <locus>f.18v.1</locus> القول على البرح <sic/> الاول الحمل وطالعه
+                                المريخ نارى يكون رجل صعب المراص سريع الغضب سريع الرصاء نهاب وهاب
+                                سريع النقله </incipit>
+                            <explicit facs="#i0097" xml:lang="ar">
+                                <locus>f.95v.8</locus> يكتب له عوضًا عنه حجاب حرز الاقسام ومعه
+                                الخاتم بمسك وز <lb/> عفران ومأ ورد بالوقت المعلوم والبخور المذكور
+                                على ما قد ذكره سا <lb/> بقا على حسب التحقيق والتخمين واللـه
+                                اعلم</explicit>
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_884-item3" n="3">
+                            <locus facs="#i0098 #i0183">ff. 96v-182r</locus>
+                            <author key="person_54152998">
+                                <persName xml:lang="en" type="standard">Ptolemy,‏ ‎active 2nd century</persName>
+                                <persName xml:lang="ar" type="original" facs="#i0098">بطلموس</persName>
+                            </author>
+                            <title type="original" facs="#i0098" xml:lang="ar"> طوالع مواليد النساء </title>
+
+
+                            <title xml:lang="ar-Latn-x-lc" type="standard" key="">Ṭawāliʾ mawālīd al-nisāʾ</title>
+                            <incipit facs="#i0098" xml:lang="ar">
+                                <locus>f.95v.3</locus> هذه طوالع مواليد النسأ <sic/> القول على البرج
+                                الاول الحمل وطالعه المريخ نارى فانها تكون امرأة بيضة اللون مشربة
+                                بحمرة حاذقة لبيبة فطينة عزيزة النفس محبوبة عند كل من يراها صعبة </incipit>
+                            <explicit facs="#i0183" xml:lang="ar">
+                                <locus>f.180v.8</locus> واذا كانت فقيرة الحال ولا لها طاقة لعمل
+                                الخاتم يكتب لها حجاب حرز الا <lb/> قسام بمسك وزعفران با <lb/> لبخور
+                                المذكور فانها يحصل لها قبولا ومحبة ومودة وهذه الاقوال على سبيل
+                                التجاريب </explicit>
+
+                            <textLang mainLang="ar">Arabic</textLang>
+
+                        </msItem>
+
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+
+                                </support>
+                                <extent>184 ff. </extent>
+
+
+                                <foliation>Eastern Arabic numerals, black ink. </foliation>
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="12">1 column, 10-12 lines.</layout>
+
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+
+                        </decoDesc>
+
+
+                        <additions>
+                            <list>
+                                <item facs="#i0002"> Listed names: <quote xml:lang="ar"> سعيد نزيها
+                                        خبربه فطر عيش بنت زينب سلامه ابن فطر <gap reason="omitted"/>
+                                        عبد الحميد ناج </quote>
+                                    <locus>f.1r</locus>
+                                </item>
+                                <item
+                                    facs="#i0008 #i0044 #i0050 #i0055 #i0090 #i0097 #i0104 #i0121 #i0134 #i0184"
+                                    > Astrological tables and figures throughout. </item>
+
+                            </list>
+                        </additions>
+                  
+
+
+                        <bindingDesc>
+                            <binding notAfter="1934">
+                                <p>Paper boards; quarter bound with red leather and marbled brown paper
+                                    covers. Yellow and brown-coloured endbands.</p>
+
+                            </binding>
+                        </bindingDesc>
+
+                       
+
+
+                    </physDesc>
+
+
+                    <history>
+                        <origin>MS is undated.
+                        </origin>
+
+                        <acquisition>Purchased in 1934. Wellcome Library accession number: 66599</acquisition>
+
+
+                    </history>
+
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85008893">Astrology</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2024-02-28" who="#VS">Updated file to make it FIHRIST compliant.</change>
+            <change when="2022-05-27" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>

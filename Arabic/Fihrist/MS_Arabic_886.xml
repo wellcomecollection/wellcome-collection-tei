@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16530">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Arabic 886</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-05-28">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2024-02-28">TEI Encoder for FIHRIST compliance</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 886</idno>
+                <idno type="catalogue">Fihrist</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_886" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 886</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 865</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20299278</idno>
+                        </altIdentifier>
+                        
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>1 copy of Dībājat miṣbāḥ min ʿulūm al-naḥw by an unknown author</summary>
+
+
+                        <msItem xml:id="MS_Arabic_886-item1">
+
+
+                            <locus facs="#i0003 #i0042"/>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+                            <title type="variant" facs="#i0004" xml:lang="ar"> ديباجة مصباح من علوم
+                                النحو </title>
+                            <title xml:lang="ar-Latn-x-lc" type="uniform" key="">Dībājat miṣbāḥ min ʿulūm al-naḥw</title>
+
+                            <incipit facs="#i0004" xml:lang="ar">
+                                <locus>f.1v.7</locus> امّا بعد فهذه أوراق لاعراب ديباجة المصباح من
+                                فوائد غرايب المفتاح وَابْتَدَاء اوّلاً بايةٍ من كتاب الله ٿع تبرّكا
+                                وتيمّنا وبيتٍ من الابياتِ ليفيد مهاَرةً وتمرّنًا معتصمًا من الله
+                                بحبل الرشاد </incipit>
+                            <explicit facs="#i0042" xml:lang="ar">
+                                <locus>f.40r.14</locus> يعني اذا لم يكن البحث من جهة العامليّة فهذا
+                                الباب الخامس بالاستقراء لا بالعقل لان العقل يجوز ان يكون شيئا اخر
+                                غير الخامس </explicit>
+                            <colophon facs="#i0042" xml:lang="ar">
+                                <locus>f.40r.16</locus> تمت الكتاب بعون الله الملك الوهّاب سنة اربع
+                                اربعين وماء والف قد فرغ فى هذه في شهر محرّم في يوم الخميس فى وقت
+                                العصر </colophon>
+
+
+
+                            <textLang mainLang="ar" otherLangs="fa">Arabic and Persian</textLang>
+                        </msItem>
+
+
+
+
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+
+                                </support>
+                                <extent>40 ff. </extent>
+
+
+                                <foliation>Arabic numerals, pencil. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="15">1 column, 15 lines.</layout>
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+
+                        </decoDesc>
+
+
+                        <additions>
+                            <list>
+                                <item facs="#i0003">Three fatwas concerning punishments for
+                                    insulting religious scholars, <locus>f.1r</locus>. </item>
+                                <item>Text has many marginal comments and explanations throughout.</item>
+
+                            </list>
+                        </additions>
+
+
+
+                        <bindingDesc>
+                            <binding notAfter="1923">
+                                <p>Paper boards; quarter bound with red leather and
+                                    paper covers.</p>
+
+                            </binding>
+                        </bindingDesc>
+                        <sealDesc>
+                            <seal>
+                                <p facs="#i0003"> Two seals bearing the name: <quote xml:lang="ar">حسين
+                                        حسين</quote>, <locus>f. 1r</locus>. </p>
+                            </seal>
+                        </sealDesc>
+                        <accMat>Two pages in Persian attached to end of MS.</accMat>
+
+
+
+
+                    </physDesc>
+
+
+                    <history>
+                        <origin>
+                            <origDate calendar="#Hijri-qamari" when="1731">1144 AH</origDate>
+                            <origDate calendar="#Gregorian" when="1731">1731</origDate>
+                        </origin>
+                        <provenance>Note of ownership: <quote xml:lang="ar">تملكها ملا ابراهيم ابن سليمان سنه
+                                1277</quote>, <locus>f. 1r</locus>.</provenance>
+                        <provenance>Note of ownership with name crossed out, dated 1257, <locus>f.
+                                1r</locus>.</provenance>
+
+                        <acquisition>Purchased at auction on 19 June 1923 at Stevens, lot 491. Wellcome Library accession number: 42671</acquisition>
+
+
+                    </history>
+
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh86000284">Arabic language--Grammar--Early works to
+                                1800</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2024-02-28" who="#VS">Updated file to make it FIHRIST compliant.</change>
+            <change when="2022-05-28" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>

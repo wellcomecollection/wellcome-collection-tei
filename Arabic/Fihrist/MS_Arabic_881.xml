@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16525">
+    
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>MS Arabic 881</title>
+                <title type="collection">Wellcome Collection</title>
+                
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                
+                <respStmt xml:id="RM">
+                    <resp when="2022-05-03">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2024-02-28">TEI Encoder for FIHRIST compliance</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 881</idno>
+                <idno type="catalogue">Fihrist</idno>
+                
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc xml:id="MS_Arabic_881" xml:lang="en">
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 881</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 860</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20299230</idno>
+                        </altIdentifier>
+                        
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>1 autograph copy of Jadāwil al-basāyit wa-al-munḥarifāt by Muḥammad al-Jirjāwī al-Ḥaysūb al-Falakī</summary>
+                        
+                        
+                        <msItem xml:id="MS_Arabic_881-item1">
+                        
+                                <locus facs="#i0002 #i0012"></locus>
+                            <author>
+                                <persName xml:lang="ar-Latn-x-lc" type="display" key="">Muḥammad al-Jirjāwī al-Ḥaysūb al-Falakī</persName>
+                                <persName xml:lang="ar" type="variant" facs="#i0002">السيد محمد الجرجاوى الحيسوب الفلكى</persName>
+                                
+                              
+                            </author>
+                                <title type="variant" facs="#i0002" xml:lang="ar" key="">جداول البسايط والمنحرفات</title>
+                            <title xml:lang="ar-Latn-x-lc" type="uniform">Jadāwil al-basāyit wa-al-munḥarifāt</title>
+                               
+                                <incipit type="beginning" facs="#i0004" xml:lang="ar">
+                                    <locus>f.1v.1</locus>
+                                    منحرفه مح ش ج لحاسبه وراسمه السيد محمد
+                                    <gap reason="omitted" />
+                                    قسى عصر منحرفة
+                                    <gap reason="omitted" />
+                                    شرقى جنوبى لحاسبه كاتبه الفقير السيد محمد الجرجاوي 
+                                </incipit>
+                                <explicit type="ending" facs="#i0012" xml:lang="ar">
+                                    <locus>f.10r.1</locus>
+                                    منحرفه س شرقى جنوبي بطريق السمت والظل
+                                </explicit>
+                            
+                         
+                            <textLang mainLang="ar">Arabic</textLang>
+                   
+                        </msItem>
+                    
+                    </msContents>
+                    
+                    <physDesc>
+                        
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="paper">
+                                
+                                <support>Paper
+
+                                </support>
+                                <extent>10 ff. </extent>
+                                
+                                
+                                <foliation>Arabic numerals, pencil.
+                                    
+                                </foliation>
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout>MS consists mostly of tables.</layout>
+                                
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            
+                            <handNote scope="major" script="naskh">
+                                <p><label>Scribe:</label> 
+                                    <persName xml:lang="ar-Latn-x-lc" type="standard" role="scr" key="">Muḥammad al-Jirjāwī al-Ḥaysūb al-Falakī</persName>
+                                    <persName  xml:lang="ar" facs="#i0001" type="original">السيد محمد الجرجاوى الحيسوب الفلكى</persName>
+                                    </p>
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication.</decoNote>
+                            <decoNote type="border">Single red-line border surrounding
+                                text.</decoNote>
+                        </decoDesc>
+                        
+                        <bindingDesc>
+                            <binding notAfter="1933">
+                                <p>Paper boards; covers brown textile and red marbled paper.</p>
+                                
+                            </binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            MS is undated.</origin>
+                        <acquisition>Purchased on behalf of Wellcome in Damascus in November 1933. Wellcome Library accession number: 66361</acquisition>
+                        
+                        
+                    </history>
+                    
+                    
+                    
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85009003">Astronomy</term>
+                            <term ref="subject_sh2007101552">Astronomy--Tables</term>
+                            
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2024-02-28" who="#VS">Updated file to make it FIHRIST compliant.</change>
+            <change when="2022-05-03" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <facsimile>
+        <surface/>
+        
+    </facsimile>
+    
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>
+    
+</TEI>
+
+
