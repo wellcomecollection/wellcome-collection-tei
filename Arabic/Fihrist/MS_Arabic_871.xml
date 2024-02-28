@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16515">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Arabic 871</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-04-27">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>                
+                <respStmt xml:id="VS">
+                    <resp when="2024-02-28">TEI Encoder for FIHRIST compliance</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">MS Arabic 871</idno>
+                <idno type="catalogue">Fihrist</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_871" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 871</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 850</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20299199</idno>
+                        </altIdentifier>
+                        
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>2 works on Islamic law</summary>
+
+
+                        <msItem xml:id="MS_Arabic_871-item1" n="1">
+                            <locus facs="#i0002 #i0012">ff. 1r-10v</locus>
+                            <author key="person_68792474">
+                                <persName xml:lang="ar-Latn-x-lc" type="standard">Ghayṭī, Muḥammad ibn Aḥmad,‏
+                                    ‎d. 1504 or 1505-1573 or 1574ī</persName>
+                                <persName xml:lang="ar" type="original" facs="#i0012">نجم الدين الغيطي
+                                    الشافعي</persName>
+                            </author>
+
+                            <title type="original" facs="#i0012" xml:lang="ar" key="work_2814"> الاجوبة المفيده على
+                                تلك الاسئلة العديده </title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">al-Awjibah al-mufīdah ʻalá al-asʼilah
+                                al-ʻadīdah</title>
+                            <incipit type="beginning" facs="#i0002" xml:lang="ar">
+                                <locus>f.1r.1</locus> يسقط عنه بذلك وفي اموال اليتامي هل للمعلم لهم
+                                ان ياكل اجرة منها وهل للشركا اليتامي في الزرع ان ياكلوا من اموالهم
+                                ضيافة </incipit>
+                            <explicit facs="#i0012" xml:lang="ar">
+                                <locus>f.10v.12</locus> واذا علم الاكل او الأخذ لاموال اليتامي ضيافة
+                                او صدقة او غير ذلك او المستعمل لدوابهم بغير ما يكون ذلك لليتامي يكون
+                                مرتكبا كبيرة ويتناوله وعيد قول الله تعالي ان الذين ياكلون اموال
+                                اليتامي ظلما انما يأكلون في بطونهم نارا وسيصلون سعيرا اعاذنا الله
+                                تعالى والناظرين في هذه الاجوبة من ذلك وسلك بنا وبهم احسن المسالك
+                                ووقانا واياهم الوقوع في المهالك امين </explicit>
+                            <colophon facs="#i0012" xml:lang="ar">
+                                <locus>f.10v.18</locus> قال جامع هذه الاجوبة المباركة خاتمة المحدثين
+                                الشيخ نجم الدين الغيطي الشافعي هذا ما تيسر من تسطيره من هذه الاجوبة
+                                المفيده علي تلك الاسٸلة العديده من فيض فضل الله العظيم وفوق كل ذي
+                                علم عليم تم </colophon>
+
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_870-item2" n="2">
+                            <locus facs="#i0012 #i0046">ff. 11r-45r</locus>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+                            <title type="desc" xml:lang="en" key="">Text on Islamic inheritance law</title>
+                            <incipit type="beginning" facs="#i0012" xml:lang="ar">
+                                <locus>f.11r.1</locus> فيها النقود مع الاختلاف في الرواج والمالية
+                                انصرف البيع الي الاغلب قال في الهداية لانه هو المتعارف فينصرف المطلق
+                                اليه </incipit>
+                            <explicit facs="#i0046" xml:lang="ar">
+                                <locus>f.44v.20</locus> فاجعله كان لم يكن واقسم ما بقي من التركة علي
+                                سهام من بقي منهم كزوج وام وعم فصالح الزوج علي ما في ذمته من المهر
+                                وخرج من بين الورثة فاطرح سهامه من التصحٹح وهو ثلاثة واقسم ما بقي من
+                                التركة بين الام والعم اثلاثا بقدر سهامهما سهمان للام وسهم للعم </explicit>
+                            <colophon facs="#i0046" xml:lang="ar">
+                                <locus>f.45r.5</locus> وافق الفراغ من كتابة هذه النسحة المباركة على
+                                يد الفقير الحقير احمد يوسف المصري يوم الاثنين سنه ١٢٧٣ من الهجرة
+                                النبوية </colophon>
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+
+                        </msItem>
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+
+                                </support>
+                                <extent>45 ff. </extent>
+
+
+                                <foliation> MS lacks foliation. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="23">1 column, 21-23 lines.</layout>
+
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="ar-Latn-x-lc" facs="#i0046" type="standard" role="scr" key="">Aḥmad Yūsuf
+                                        al-Maṣrī</persName>
+                                    <persName xml:lang="ar" type="original">احمد يوسف المصري</persName>
+                                </p>
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+
+                        </decoDesc>
+                      
+                        <additions>
+                            <list>
+                                <item facs="#i0016"> Note on jurisprudence dated 1862, <locus>f.15r</locus>.
+                                </item>
+                                <item facs="#i0046"> Poetic invocation: <quote xml:lang="ar"> بالله
+                                        ان نظرت عيناك ما كتبت يد الفقير الي غفران مولاه فاقرا له مهد
+                                        يا ام الكتاب وقل الله يجعل دار الخلد ماواه</quote>
+                                    <locus>f.45r</locus>
+                                </item>
+                            </list>
+                        </additions>
+                     
+
+                        <bindingDesc>
+                            <binding notBefore="1857">
+                                <p>Paper boards; half-bound with red textile and blue and red
+                                    marbled paper; purple pastedowns. </p>
+                                <condition> Tears and staining to spine and covers.</condition>
+
+                            </binding>
+                        </bindingDesc>
+                        <sealDesc>
+                            <seal>
+                                <p facs="#i0016">
+                                    
+                                    Unclear seal,     <locus>f.15r</locus>.
+                                </p>
+                            </seal>
+                        </sealDesc>
+
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate calendar="#Hijri-qamari" when="1273">1273 AH</origDate>
+                            <origDate calendar="#Gregorian" when="1857">1857</origDate>
+                        </origin>
+
+
+
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl><hi rend="italic">Muʿjam al-muʾallifīn</hi>: 3, p. 83.</bibl>
+                            <bibl><hi rend="italic">Īḍāḥ al-maknūn</hi>: 1, p. 29.</bibl>
+                            <bibl>Brockelmann: S, 2, p. 467.</bibl>
+                            
+
+                        </listBibl>
+                    </additional>
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh2008104962">Islamic law--Interpretation and
+                                construction--Early works to 1800</term>
+                            <term ref="subject_sh85066384">Inheritance and succession (Islamic
+                                law)</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2024-02-28" who="#VS">Updated file to make it FIHRIST compliant.</change>
+            <change when="2022-04-27" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16520">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Arabic 876</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-04-27">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>                <respStmt xml:id="VS">
+                    <resp when="2024-02-28">TEI Encoder for FIHRIST compliance</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">MS Arabic 876</idno>
+                <idno type="catalogue">Fihrist</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_876" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 876</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 855</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20299217</idno>
+                        </altIdentifier>
+                        
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>Assorted texts on Islamic devotional acts, poetry and Ḥadīth interpretation</summary>
+
+
+                        <msItem xml:id="MS_Arabic_876-item1" n="1">
+                            <locus facs="#i0001 #i0024">ff. 1r-23v</locus>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+                            <title type="desc" key="">Commentary on <hi rend="italic">Qaṣīdat
+                                al-amalī</hi></title>
+
+                            <incipit type="beginning" facs="#i0001" xml:lang="ar">
+                                <locus>f.1r.1</locus> ففى الفردوس مسندا من حديث جماعة من الصحابة رضي
+                                اللـه عںهم ان النبي صلي اللـه عليه وسلم قال القران كلام اللـه غير
+                                مخلوق فمن قال غير هذا فقد كفر </incipit>
+                            <explicit type="ending" facs="#i0024" xml:lang="ar">
+                                <locus>f.23v.17</locus> ولم يدر انها كلمة كفر ففي فتاوي قاضي خان
+                                حكاية خلاف من غير ترجيح قيل لا يكفر لعذره بالحهل وقيل يكفر ولا يعذر
+                                بالجهل قال العلامة </explicit>
+                            <note>The beginning and end of the text are missing, but it appears to
+                                be an abridged version of <hi rend="italic" xml:lang="ar-Latn-x-lc"
+                                    >Nukhbat al-lālī li-sharḥ badʾ al-amālī</hi> of <persName
+                                    xml:lang="ar-Latn-x-lc">Muḥammad b. Sulaymān al-Ḥalabī
+                                    al-Rīḥāwī</persName>.</note>
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_876-item2" n="2">
+                            <locus facs="#i0024 #i0030">ff. 24r-30r</locus>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+                            <title type="desc" xml:lang="en" key="">Turkish text on the
+                                Qiblah</title>
+                            <incipit type="beginning" facs="#i0024" xml:lang="ar">
+                                <locus>f.24r.1</locus> بولدق الباب الحادي والثلاثون ڡى معرفه سمت
+                                القبله وبالجملة كل بلد سمتها سمت قبله وسائر مرادا ولنان بلدك سمتنى
+                                بلمنك طرٮقى بودوركى </incipit>
+                            <explicit type="ending" facs="#i0030" xml:lang="ar">
+                                <locus>f.30r.3</locus> الخاتمه ابوابك قواعدينى ذكر ايلدك وهر بابك
+                                اسملريني خاتمه ده تعريف ايده رز </explicit>
+                            <note>Begins on the 31st chapter.</note>
+
+                            <textLang mainLang="ota">Ottoman Turkish</textLang>
+
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_876-item3" n="3">
+                            <locus facs="#i0034 #i0042">ff. 33v-41v</locus>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+                            <title type="original" facs="#i0033" xml:lang="ar" key="work_6590"> متن الكافي في العروض
+                                والقوافي </title>
+                            <title type="alt" facs="#i0034" xml:lang="ar">الكافي في علمي العروض
+                                والقوافي</title>
+
+                            <title xml:lang="ar-Latn-x-lc" type="standard">al-Kāfī fī ʻilmay al-ʻarūḍ
+                                wa-al-qawāfī</title>
+
+                            <incipit facs="#i0034" xml:lang="ar">
+                                <locus>f.33v.4</locus> وٮعد فهذا تاليف كافي في علمي العروض والقوافي
+                                واللـه الموفق </incipit>
+                            <explicit type="ending" facs="#i0042" xml:lang="ar">
+                                <locus>f.41v.19</locus> والتضمين تعليق تعليق البيت بما بعده كقوله
+                                وهم وردو الحفار على تميم وهم اصحاب يوم عكاظ اني شهدت لهم مواطن
+                                صادقات وثقت لهم بحسن الظن بني </explicit>
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_876-item4" n="4">
+                            <locus facs="#i0042 #i0044">ff. 42r-43v</locus>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+
+                            <title type="desc" key="">Text on prayer</title>
+                            <incipit type="beginning" facs="#i0042" xml:lang="ar">
+                                <locus>f.42r.1</locus> كلها منقول الا نادرا وهو واضح لا اخلال فيه
+                                ولا تسمٮة ںعم ٮسٿرط ڡ العمل ٮها سروط ثلاثة لا بد منها اولها ٿٯدٮم ما
+                                حا عن النبى صلى اللـه عليه وسلم لانه الاهم والاوجب </incipit>
+                            <explicit type="ending" facs="#i0044" xml:lang="ar">
+                                <locus>f.43v.26</locus> ثم ما تضمنته هذه الجملة من الاسما عشرة سبعة
+                                ظاهرة وثلاثة باطنة فالسبعة اسمه العلي العظيم الحليم العليم الرب
+                                العزيز الرحيم </explicit>
+                            <note>Appears to be a fragment of a commentary on the <hi rend="italic"
+                                    >Ḥizb al-baḥr</hi> of <persName xml:lang="ar-Latn-x-lc">Abū
+                                    al-Ḥasan al-Shādhilī</persName>.</note>
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_876-item5" n="5">
+                            <locus facs="#i0044 #i0049">ff. 44r-49r</locus>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+                            <title type="variant" xml:lang="ar" facs="#i0049" key="">صورة ودعا</title>
+                            <title xml:lang="ar-Latn-x-lc" type="uniform">Ṣūrah wa-duʿā</title>
+
+                            <incipit facs="#i0044" xml:lang="ar">
+                                <locus>f.44r.1</locus> ترجعون واتخذوا من دونه الهة ان يردن الرحمن
+                                بضر لاتغني عني شفاعتهم شيئًا ولا ينقذون اني اذًا لفي ضلال مبين اني
+                                امنت بربكم فاسمعون </incipit>
+                            <explicit type="ending" facs="#i0049" xml:lang="ar">
+                                <locus>f.49r.1</locus> بسر سري ڡى سره نور ملا من قد رقى السبع حتى
+                                وما قلى يروم انتصارا بعد ذل قد انجلي بحرمه محبوب به الوصل قد وصلا </explicit>
+                            <colophon facs="#i0049" xml:lang="ar">
+                                <locus>f.49r.4</locus> وصلي اللـه علي سيدنا محمد وعلي اله وصحبه وسلم
+                                ٿم ٿم ٿم </colophon>
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+
+                        <msItem xml:id="MS_Arabic_876-item6" n="6">
+
+
+                            <locus facs="#i0050 #i0052">ff. 50r-52r</locus>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+                            <title type="desc" xml:lang="en" key="">Text on the act of ṭawāf</title>
+                            <incipit type="beginning" facs="#i0050" xml:lang="ar">
+                                <locus>f.50r.1</locus> زايد عن الاول كما يقدم الثوب علي السراويل
+                                والقلنسوة علي العمامة اما لو قدم السرويل علي العمامة لتكررت ويشترط
+                                في اللبس ان يحصل به النفع فانه نزعه مكانه </incipit>
+                            <explicit facs="#i0052" xml:lang="ar">
+                                <locus>f.52r.3</locus> ويكثر من الذكر والتلاوة وشاهدة البيت وكثرة
+                                الطواف وشرب ما زمزم ويغتنم في اقامته تلك الايام القلايل ما لا يقدر
+                                علي تحصيله في غير تلك الاماكن وليس في السعي والطواف والوقوف ذكر ودعا
+                                مختص به واحسٮ ما يسا اللـه تعالي العافية في الدارين والامر في ذلك
+                                واسع والثابت في الصحيح والقران العظيم </explicit>
+                            <colophon facs="#i0052" xml:lang="ar">
+                                <locus>f.52r.11</locus> ربنا اتنا في الدنيا حسنة وفي الا <lb/> خرة
+                                حسنة وقنا عداب النار وصلي اللـه علي سيدنا محمد وعلي اله وصحبه وسلم </colophon>
+
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+                        <msItem xml:id="MS_Arabic_870-item7" n="7">
+
+                            <locus facs="#i0054 #i0140">ff. 54r-140r</locus>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+                            <title type="desc" xml:lang="en" key="">Text on the visions of the Prophet Muḥammad</title>
+
+                            <incipit type="beginning" facs="#i0054" xml:lang="ar">
+                                <locus>f.54r.1</locus> كلابهم بضم النون وما انكفي لهم انا ولا كسرت
+                                فيهم جرة ثم قلبتها الي الارض السفلي واما امانتي فاني لم اتجاوز فيما
+                                امرت به شيا واشار بقوله ذو مرة اي قوة </incipit>
+                            <explicit facs="#i0140" xml:lang="ar">
+                                <locus>f.140r.14</locus> فثبت انه راى ربه بالعيان كما عليه اولو
+                                التحقيق والايقان وكذا جميع ما راه من خوارق العادات ومن الدلايل
+                                والايات فعليه افضل الصلاة والسلام وكذا ساير الانبيا الكرام واله
+                                واصحابه الاعلام </explicit>
+                            <colophon facs="#i0140" xml:lang="ar">
+                                <locus>f.140r.21</locus> وكان الفراغ من كتابة هذه النسخة المباركه في
+                                شهر رب ثالث عشرين سنة الف وماتين ثمانية وسبعين وصلى اللـه على سيدنا
+                                محمد ام </colophon>
+                            <note>Beginning of text is missing.</note>
+
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+                        </msItem>
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+
+                                </support>
+                                <extent>140 ff. </extent>
+
+
+                                <foliation> MS lacks foliation. <catchwords>Catchwords
+                                        present.</catchwords>
+                                </foliation>
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="23">1 column, lines vary.</layout>
+
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc><decoNote type="rubrication">Rubrication</decoNote></decoDesc>
+
+                        <additions><list>
+                            <item facs="#i0054 #i0140">Marginal explanations and comments, <locus>ff. 54r-140r </locus>.</item>
+                            <item facs="#i0073">Collation note, <locus>f. 71v</locus>.</item>
+                            </list></additions>
+
+
+
+                        <bindingDesc>
+                            <binding notBefore="1862">
+                                <p>MS is unbound.</p>
+
+                            </binding>
+                        </bindingDesc>
+
+
+                    </physDesc>
+
+                    <history>
+                        <origin> 
+                            <origDate  calendar="#Hijri-qamari" facs="#i0140" when="1278">1278</origDate>
+                            <origDate calendar="#Gregorian" when="1862">1862</origDate></origin>
+                        <provenance>Note of ownership:
+                            <quote xml:lang="ar">ملك الفقير محمد عبد الجواد غفر اللـه له ولوالديه ولجميع المسلمين امين
+                           
+                            </quote>     <locus>f. 52r</locus>
+                            
+                        </provenance>
+                        <provenance>Note of ownership:
+                            <quote xml:lang="ar">ملك الفقير الشيح عيسى عفر اللـه له ولوالديه امين
+                             
+                            </quote>     <locus>f. 52r</locus>
+                            
+                        </provenance>
+
+                    </history>
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85068396">Islam--Doctrines</term>
+                            <term ref="subject_sh90003367">Arabic language--Versification</term>
+                            <term ref="subject_sh2008112367">Sufism--Early works to 1800</term>
+                            <term ref="subject_sh85058195">Hadith--Criticism, interpretation, etc.</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2024-02-28" who="#VS">Updated file to make it FIHRIST compliant.</change>
+            <change when="2022-05-02" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>

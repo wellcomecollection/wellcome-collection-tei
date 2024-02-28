@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16523">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Arabic 879</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-05-02">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>                
+                <respStmt xml:id="VS">
+                    <resp when="2024-02-28">TEI Encoder for FIHRIST compliance</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">MS Arabic 879</idno>
+                <idno type="catalogue">Fihrist</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_879" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 879</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 858</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20299229</idno>
+                        </altIdentifier>
+                        
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>Astrological compendium based on the works of Ptolemy and others</summary>
+
+
+                        <msItem xml:id="MS_Arabic_879-item1">
+                            <locus facs="#i0003 #i0010"/>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+                            <title type="variant" facs="#i0003" xml:lang="ar" key="">كتاب مجموع المولود
+                                وفوايد وحسابات</title>
+
+                            <title xml:lang="ar-Latn-x-lc" type="uniform" >Kitāb majmūʿ al-mawlūd wa-fawāʾid
+                                wa-ḥisābāt</title>
+
+                            <incipit facs="#i0004" xml:lang="ar">
+                                <locus>f.2r.5</locus> اما بعد قال الله تعالى وهو القايلين تبارك الذى
+                                جعل فى السماء بروجًا وجعل فيها سراجًا وقمرًا منيرًا فوضعه الحكما
+                                اليونانيون هذه البروج على حكم طبايع الانسان قال المؤالف <sic/>
+                                الحكيم بطلموس ومن معله <sic/> من الحكماء حكماء الهند فاذا اردت ان
+                                تعرف طالع الانسان فاحسب اسم الشخص واسم امه بحسان <sic/> جمل الكبير
+                                التام </incipit>
+                            <explicit facs="#i0061" xml:lang="ar">
+                                <locus>f.58v.18</locus> واذا كانت فقيرة الحال ولا لها طاقة لعمل
+                                الخاتم يكتب لها حجاب فيه حرز الاقسام بمسك وزعفران بالبخور المذكورة
+                                انها يحصل لها قبولا وصحبه وموده وذالك الا قول على سبيل التجاريب
+                                والله اعلم </explicit>
+                            <colophon facs="#i0010" xml:lang="ar">
+                                <locus>f.7v.7</locus> حرر بقلم الناسخ الآتى ذكره ادناه بناءن يتضع
+                                يتضح الى كل انسان على هوى مطلوبه تمت هذا الكتاب طالع المولود مختص
+                                للرجال والنساء تأليف بطلموس الحكيم ومن معه من حكماء الهند م </colophon>
+                            <note>Compendium on the signs of the zodiac, based on the works of
+                                    <persName key="person_54152998">Ptolemy</persName> and 'other
+                                Indian scholars'.</note>
+
+
+
+                            <textLang mainLang="ar">Arabic</textLang>
+
+
+
+                        </msItem>
+
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+
+                                </support>
+                                <extent>59 ff. </extent>
+
+
+                                <foliation>Arabic numerals, pencil;
+                                        <catchwords>catchwords present.</catchwords>
+                                </foliation>
+
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1" ruledLines="23">1 column, 22 lines.</layout>
+
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="naskh">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication.</decoNote>
+                            <decoNote type="border">Single red-line border surrounding
+                                text.</decoNote>
+                        </decoDesc>
+
+                        <additions><list>
+                                <item> Talismanic tables throughout. </item>
+                                <item facs="#i0062">Sums and magical prescriptions, <locus>f.
+                                        59v</locus>.</item>
+
+                            </list></additions>
+
+                        <bindingDesc>
+                            <binding notAfter="1933">
+                                <p>Paper boards; flap binding, quarter bound with red leather and marbled paper.
+                                    Natural and brown-coloured end bands.</p>
+
+                            </binding>
+                        </bindingDesc>
+
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                           MS is undated.</origin>
+                        <acquisition>Purchased on behalf of Wellcome in Damascus in June 1933. Wellcome Library accession number: 65999</acquisition>
+
+
+                    </history>
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85008893">Astrology</term>
+                           
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2024-02-28" who="#VS">Updated file to make it FIHRIST compliant.</change>
+            <change when="2022-05-02" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>
