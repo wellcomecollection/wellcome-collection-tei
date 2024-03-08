@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16512">
+
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>MS Arabic 868</title>
+                <title type="collection">Wellcome Collection</title>
+
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+
+                <respStmt xml:id="RM">
+                    <resp when="2022-03-23">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2024-03-08">TEI Encoder for FIHRIST compliance</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">MS Arabic 868</idno>
+                <idno type="catalogue">Fihrist</idno>
+
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <msDesc xml:id="MS_Arabic_868" xml:lang="en">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 868</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 847</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20299163</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <msContents>
+
+                        <summary>2 Persian texts on astrology</summary>
+
+
+                        <msItem xml:id="MS_Arabic_868-item1" n="1">
+                            <locus facs="#i0003 #i0008">ff. 1r-6r</locus>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+                            <title xml:lang="en" type="desc" key="">Almanac with astrological tables</title>
+
+
+
+                            <incipit facs="#i0003" xml:lang="fa">
+                                <locus>f.1r.1</locus> جيب شيي ني جيب عشاري به تحويلك طريقي اولد ركد
+                                مثلا ناز ماكط ما يهد مقدار جيب ستى ني جيب اعشارى يه تحويل اتيمك مراد
+                                اولنه جيب مذكورك تحتنه </incipit>
+                            <note>First two folia contain empty grids.</note>
+
+
+                            <textLang mainLang="fa" source="IANA">Persian</textLang>
+
+                        </msItem>
+
+                        <msItem xml:id="MS_Arabic_868-item2">
+                            <locus facs="#i0009 #i0012">ff. 6v-9v</locus>
+                            <author>
+                                <persName xml:lang="en" key="">Anonymous</persName>
+                            </author>
+                            <title xml:lang="fa-Latn-x-lc" type="uniform" key="">Sharḥ Rūznameh</title>
+                            <title xml:lang="fa" type="variant" facs="#i0009">شرح روز نامه</title>
+
+                            <incipit facs="#i0009" xml:lang="fa">
+                                <locus>f.6v.3</locus> اما بعد معلوم اولكه بو مفتاح روز نامه يه مطلوب
+                                اولان سنة عربيه ايله دخول اولنوب مخازيسنده شهور عربيه وعدد ايامي
+                                وعلامه س مدخل ازو اولور مثلا ١١٧٩ سنه سى شوالك برنجى كونى اول مارت </incipit>
+                            <note>Final two folia contain empty grids.</note>
+                            <textLang mainLang="fa" source="IANA">Persian</textLang>
+                        </msItem>
+
+
+                    </msContents>
+
+                    <physDesc>
+
+                        <objectDesc form="codex">
+
+                            <supportDesc material="paper">
+
+                                <support>Paper
+
+                                </support>
+                                <extent>9 ff. </extent>
+
+
+                                <foliation> MS lacks foliation; <catchwords>catchwords
+                                        present.</catchwords>
+                                </foliation>
+
+                             
+                            </supportDesc>
+
+                            <layoutDesc>
+
+                                <layout columns="1">1 column, layout varies.</layout>
+
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+
+                            <handNote scope="major" script="ruq_ah">
+                                <p><label>Script:</label> Ruqʿah</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication</decoNote>
+                            <decoNote type="diagram">Tables in gold and red ink</decoNote>
+                        </decoDesc>
+
+                    
+                        <bindingDesc>
+                            <binding notAfter="1934">
+                                <p>Modern blue paper binding.</p>
+
+                            </binding>
+                        </bindingDesc>
+
+
+                    </physDesc>
+
+                    <history>
+                        <origin> MS is undated. </origin>
+                        <acquisition>Purchased on behalf of the Wellcome Historical Medical Museum in Damascus in 1934. Wellcome Library accession number: 68541</acquisition>
+
+
+
+                    </history>
+
+
+
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh96012122">Islamic almanacs</term>
+                            <term ref="subject_sh2009116097">Astrology--Tables</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2024-03-08" who="#VS">Updated file to make it FIHRIST compliant.</change>
+            <change when="2022-03-23" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <facsimile>
+        <surface/>
+
+    </facsimile>
+
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+
+    </text>
+
+</TEI>

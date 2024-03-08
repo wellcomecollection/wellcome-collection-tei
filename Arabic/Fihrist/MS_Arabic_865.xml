@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16509">
+    
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>MS Arabic 865</title>
+                <title type="collection">Wellcome Collection</title>
+                
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                
+                <respStmt xml:id="RM">
+                    <resp when="2022-03-16">TEI Encoder</resp>
+                    <persName>Rosie Maxton</persName>
+                </respStmt>
+                <respStmt xml:id="VS">
+                    <resp when="2024-03-08">TEI Encoder for FIHRIST compliance</resp>
+                    <persName>Victoria Sloyan</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">MS Arabic 865</idno>
+                <idno type="catalogue">Fihrist</idno>
+                
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc xml:id="MS_Arabic_865" xml:lang="en">
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <collection> Manuscripts in Arabic</collection>
+                        <idno type="shelfmark">MS Arabic 865</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 844</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b2029914x</idno>
+                        </altIdentifier>
+                        
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Grammatical commentary by Masʿūd Qurrah</summary>
+                        
+                        
+                        <msItem xml:id="MS_Arabic_865-item1">
+                            
+                            <author>
+                                <persName xml:lang="ar-Latn-x-lc" type="display" key="">Masʿūd Qurrah</persName>
+                                <persName xml:lang="ar"  facs="#i0002" type="variant">مسعود قره</persName>
+                            </author>
+                            <title xml:lang="ar-Latn-x-lc" type="uniform" key="">Ḥashīyat Masʿūd Qurrah</title>
+                            <title type="variant" facs="#i0002" xml:lang="ar">مسعود قره حاشيه</title>
+                            
+                            
+                            
+                            <incipit facs="#i0003" xml:lang="ar">
+                                <locus>f.1v.2</locus>
+                                قوله سلك طريق العمل آه اعلم انّ من دآب المصنفين ان يبتدء
+                                <lb />
+                                وا فى اوّل تصانيفهم بكلام مشتمل على لفظ الحمد بعد ان يحصل التيمّن بالتسمية ليّحصل الامتثال بحديثى الابتداء
+                            </incipit>
+                            <explicit facs="#i0059" xml:lang="ar">
+                                <locus>f.57v.5</locus>
+                                وانما قال فالانسب لانه يجوز ان يكون التانية فى صدر الكلام بمعنى الموجود الخارجى سواء تعددت فيه الاكوان وتجددت عليها الاعصار اولا فحينئذٍ يصدق على ما كان فى آن الحدوث كما لا يخفى على المتامل على المتأمل
+                            </explicit>
+                            <colophon facs="#i0059" xml:lang="ar">
+                                <locus>f.57v.9</locus>
+                                ٿمٿ ٿمٿ ٿمٿ هذه الحاشية الشريفة المختومة بقواعد اللّطيفة سنه
+                            </colophon>
+                            
+                                       
+                            <textLang mainLang="ar" source="IANA">Arabic</textLang>
+                            
+                        </msItem>
+                        
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="paper">
+                                
+                                <support>Paper
+
+                                </support>
+                                <extent>57 ff.</extent>
+                                
+                                
+                                <foliation> MS lacks foliation;  <catchwords>catchwords present.</catchwords>
+                                </foliation>
+                            
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout columns="1" ruledLines="17">1 column, 17-19 lines.</layout>
+                                
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            
+                            <handNote scope="major" script="naskh">
+                                
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        <decoDesc><decoNote type="rubrication">Rubrication</decoNote></decoDesc>
+                        
+                        
+                        <additions>
+                           <list>
+                            <item facs="#i0002">
+                               
+                                Note: 
+                             <quote xml:lang="ar">  حدوث المستقبلات حاشيه </quote> <locus>f.1r</locus>.
+                            </item>
+                            <item facs="#i0025">
+                               
+                               Marginal clarification   <locus>f. 23v</locus>.
+                            </item>
+                            </list>
+                        </additions>
+                        <bindingDesc>
+                            <binding notAfter="2020">
+                                <p>Paper boards; paper and blue leather covers; woven fabric covering spine, natural colour.</p>
+                                
+                            </binding>
+                        </bindingDesc>
+                        
+                        <sealDesc>
+                            <seal>
+                                <p facs="#i0002">
+                                 
+                                Decorative seal bearing initials ط  and ب  in centre  <locus>f.1r</locus>.
+                                </p>
+                            </seal>
+                        </sealDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            MS is undated. 
+                            
+                        </origin>
+                    
+                    </history>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh86000279">Arabic language--Grammar</term>
+                          
+                            
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2024-03-08" who="#VS">Updated file to make it FIHRIST compliant.</change>
+            <change when="2022-03-16" who="#RM">Completed TEI description for Arabic MS.</change>
+            <change when="2020-05-19" who="#AP">Created template for Wellcome Greek MSS
+                project.</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <facsimile>
+        <surface/>
+        
+    </facsimile>
+    
+    <text>
+        <body>
+            <p/>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>
+    
+</TEI>
+
+
+
