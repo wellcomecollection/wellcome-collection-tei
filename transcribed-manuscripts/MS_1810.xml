@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_1810">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title/>
             <title type="collection">Wellcome Collection</title>
-            <respStmt xml:id="">
-               <resp when="">Cataloguer</resp>
-               <persName/>
-            </respStmt>
-            <respStmt xml:id="">
-               <resp when="">TEI Encoder</resp>
-               <persName>Lloydb</persName>
-            </respStmt>
+            <respStmt xml:id="SAJM">
+               <resp when="1962">Cataloguer</resp>
+                    <persName>S.A.J.Moorat</persName>
+                                 </respStmt>
+                 <respStmt xml:id="RM">
+                         <resp when="2002">Catalogue entry transcribed into database</resp>
+                         <persName>Ross MacFarlane</persName>
+                          </respStmt>
+                 <respStmt xml:id="KAM">
+                         <resp when="2022">TEI Encoder</resp>
+                         <persName>Katy Mair</persName>
+                 </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>Wellcome Collection</publisher>
@@ -28,7 +32,7 @@
                <email>library@wellcome.ac.uk</email>
             </distributor>
             <idno type="msID">MS1810</idno>
-            <idno type="catalogue"/>
+                 <idno type="catalogue">Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -38,14 +42,17 @@
                   <institution>Wellcome Collection</institution>
                   <repository>Wellcome Library</repository>
                   <idno type="shelfmark">MS1810</idno>
-                  <altIdentifier type="">
-                     <idno>MS.1810</idno>
+                  <altIdentifier type="Sierra">
+                          <idno>b18419665</idno>
                   </altIdentifier>
+                       <altIdentifier type="accession">
+                               <idno>73730C</idno> 
+                       </altIdentifier>
                </msIdentifier>
                <msContents>
                   <summary>Collection of cookery receipts, with a few medical and domestic receipts: by several hands. Inscribed in pencil inside the upper cover: 'J. Hodgkin. Oct. 2. 1913'.</summary>
                   <textLang mainLang="">English</textLang>
-                  <msItem n="" xml:id="">
+                  <msItem n="" xml:id="MS_1810_1">
                      <author key=""/>
                      <title key="">Cookery-books: 18th cent.</title>
                      <textLang mainLang=""/>
@@ -64,26 +71,28 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="">
-                     <supportDesc material="">
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
                         <support/>
-                        <extent>1 volume<dimensions unit="" type="">
-                              <dim type="diameter"/>
-                              <dim type="length"/>
-                           </dimensions>
+                             <extent>1 volume<dimensions unit="cm">
+                                     <dim type="height">18</dim>
+                                     <dim type="width">14.5</dim>
+                             </dimensions>
+                                     <measure>Quarto</measure>   
                         </extent>
                         <foliation/>
                         <collation>
                            <formula/>
+                                <note>A leaf has been torn out towards the end of the volume.</note>
                            <signatures/>
                         </collation>
                      </supportDesc>
                      <layoutDesc>
-                        <layout writtenLines=""/>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc>
-                     <handNote scope=""/>
+                       <handDesc>
+                               <handNote>Author's holograph MS.</handNote>  
                   </handDesc>
                   <decoDesc>
                      <decoNote/>
@@ -93,21 +102,18 @@
                   </additions>
                   <bindingDesc>
                      <binding>
-                        <p/>
+                             <p>original vellum binding</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <country/>,
-                                        <region/>,
-                                        <settlement/>,
-                                        <orgName/>
+                             <country>England</country>,
                      </origPlace>
-                     <origDate calendar="">c. 1750</origDate>
+                     <origDate> calendar="Gregorian">c. 1750</origDate>
                   </origin>
-                  <provenance notBefore="" notAfter=""/>
+                  <provenance/>
                   <acquisition>Purchased 1931.</acquisition>
                </history>
                <additional>
@@ -117,7 +123,7 @@
                            <bibl/>
                         </source>
                      </recordHist>
-                     <availability status="">
+                     <availability status="unknown">
                         <p/>
                      </availability>
                   </adminInfo>
@@ -138,7 +144,7 @@
             </taxonomy>
             <taxonomy xml:id="MeSH">
                <bibl>
-                  <ref target="">MeSH</ref>
+                       <ref>target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
                </bibl>
             </taxonomy>
          </classDecl>
@@ -599,7 +605,7 @@ put it in a Kettle of water &amp; boyle it<lb/>
 till the Hair comes off, then Cleave it, &amp; take out<lb/>
 the Brains &amp; all the Snivill Bones &amp; the Eyes,<lb/>
 wash it Clean, tye it in a Cloth &amp; boyl it <lb/>
-Tender, bone it, &amp; season it with <add>a little</add> mace &amp;<lb/>
+Tender, bone it, &amp; season it with<add>a little</add> mace &amp;<lb/>
 Salt, then roll it up like Brawn with tape,<lb/>
 and set a Weight upon it till its cold, make<lb/>
 a pickle of Bran &amp; water, &amp; when cold strain<lb/>
