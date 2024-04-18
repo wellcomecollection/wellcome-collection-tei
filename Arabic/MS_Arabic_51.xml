@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15700">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 51</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 51</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 51</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 51</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20294979</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Commentary on al-Qanun, the canon of Medicine, by Ibn Sina (Avicenna).</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_51">
+                            
+                            <author key="person_17316331">
+                                <persName xml:lang="eng" type="standard">Ibn-an-Nafīs, ʿAlī Ibn-al-Ḥazm 1210-1288</persName>
+                                <persName xml:lang="ar" type="original">ابن النفيس، علي بن أبي الحزم</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">شرح القانون</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Sharh al-Qanūn</title>
+                            <title xml:lang="en" type="standard">Commentary on al-Qanūn</title>
+                            
+                            <textLang otherLangs=""> <!-- Insert other languages if there are any here --></textLang>
+                            
+                            <incipit>
+                               ... علاء الدين على ابن أبي الحزم القرشى المتطبب...
+                              ... قال قصدنا في هذا الكتاب الذى نرجو أن يمهلنا الأجل إلى ختمه ويصحبنا التوفيق في تأليفه ون؟مه أن نشرح معانى كتاب القانون للشيخ الرئيس أبى على بن سينا
+                             ... شرحاً يجمع إلى الإيجاز الإفصاح
+                            </incipit>
+                            
+                            <explicit>
+                             ...  قال الشيخ الرئيس ...
+                            . موت الدم تحت الظفر عن رضة وقعت
+                           . يعالج بدقيق مخلوط الخ
+                             : الشرح
+                            . إن عبارة الكتاب في هذا ظاهرة
+                           . ومن ههنا فليختم هذا الكتاب أولياؤة
+                          ... الأبعداءذين قد تقدم شرحه مع شرح الأدوية المفردة
+                         ... ويتلوه شرح الكتاب الخامس من القانون
+                         . تمت
+                            </explicit>
+                            
+                            <note>Book I is from folio 1b to 191b. Book II is from folio 192b to folio 242b. Book III is from 243b to 475a. Book IV from 476b to 559b.</note>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">230mm</dim>
+                                        <dim type="length">305mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">150mm</dim>
+                                        <dim type="length">275mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                    <catchwords>Catchwords in red.</catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 599 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="19">37</layout>
+                            </layoutDesc>
+                            
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>Black</p>
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="eng" type="standard"></persName>
+                                    <persName xml:lang="ar" type="original"></persName></p>
+                            </handNote>
+                            
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="Bindings">The cover has colour embroidery of flowers.</decoNote>
+                            <decoNote type="border">Folio 1 and 2 are gilded.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">11th century A.H (approximate, undated).</origDate>
+                            <origDate calendar="Gregorian">17th century A.D (approximate, undated).</origDate>
+                            <origPlace>
+                                <country>Iran (Persia)</country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: Joseph Désiré Tholozan (private Physician to Shah of Persia Nasir-addin Shah (1829-96).
+                        </provenance>
+                        <acquisition>
+                            <!-- Insert acquisition information here, e.g Sotheby's lot 486 (22/21.11.85) -->
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note><!-- Insert relevant page numbers here --></note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
