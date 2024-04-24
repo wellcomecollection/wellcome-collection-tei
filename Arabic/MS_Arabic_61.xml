@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15709">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 61</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 61</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 61</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 61</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295042</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Commentary on al-Mu'jiz by Ibn al-Nafis (which is originally an abstract of al-Qanun by Ibn Sina).</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_61">
+                            
+                            <author key="person_53995534">
+                                <persName xml:lang="eng" type="standard">Burhan al-din Nafis ibn Awad al-Kirmani</persName>
+                                <persName xml:lang="ar" type="original">برهان الدين نفيس بن عوض الكرماني</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">شرح موعجز ابن النفيس</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Sharh Mu'jiz Ibn al-Nafis</title>
+                            <title xml:lang="en" type="standard">Commentary on ibn al-Nafis' al-Mu'jiz</title>
+                            
+                            <textLang otherLangs="fa">Farsi (Persian)</textLang>
+                            
+                            <incipit>
+                              ... قال ...
+                              . أبو الحسن علاء الدين على بن أبي ألحزم الفرشى المتطبب المعروف بابن النفيس
+                              : صيغه تفعّل ههنا للمبالغة
+                              .مثل تقدّس وتجمّد 
+                              .قد رتبت هذا الكتاب على أربعة فنون 
+                              ... الترتيب وضع كل شىء في مرتبته
+                            </incipit>
+                            
+                            <explicit>
+                              . من غير أن يجحف بقواهم ويضعفها ...
+                              :منفعته
+                             ... ينفع الناقهين
+                            </explicit>
+                            
+                            <note>Frequent scribal errors throughout manuscript. Neither book titles nor book author appers. There appears to be some sort of title page on fol. 2a that is most likely in Farsi/Persian.</note>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">156mm</dim>
+                                        <dim type="length">245mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">120mm</dim>
+                                        <dim type="length">195mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 158 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>Leaves missing at the end.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="13">13 lines</layout>
+                            </layoutDesc>
+    
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="nastaliq" scope="major">
+                                <p><label>Script:</label>Nastaliq</p>
+                                <p><label>Ink:</label>Black and red</p>
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="eng" type="standard"></persName>
+                                    <persName xml:lang="ar" type="original"></persName></p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication found in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Undated. Approximately 12th century A.H.</origDate>
+                            <origDate calendar="Gregorian">Undated. Approximately 18th century A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            <!-- Insert acquisition information here, e.g Sotheby's lot 486 (22/21.11.85) -->
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 152-153.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
