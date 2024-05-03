@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MSAmer77">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MSAmer77</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-10-24">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2023-10-12">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt> 
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MSAmer77</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">WMS/Amer.77</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b19498822</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Almanack, copied in Spain from the revised text completed in Lima c. 1785 (i.e. during the Viceregency of the Marqués de Loreto in the Río de la Plata, 1784-89, at f.42v).  
+Bueno, came to Peru from Aragon in 1730 and became Catedratico de matematicas and Cosm6grafo mayor in 1758.  His annual almanacks entitled El conocimiento de los tiempos published 1757-98 included his historical, geographical, 
+and medical essays and historical lists of viceroys, governors and senior ecclesiastics. The present catalogue of viceroys appeared in the almanacks for 1763 and 1795 
+(and as a separate in Lima in 1764); the description of Buenos Aires appeared in the almanack for 1776, that of the Bishopric of Santiago in the almanack for 1777, 
+and that of Concepción in 1778. Bueno's essays (except for the list of viceroys and archbishops) were reprinted by Odriozola (1863-76), 3, pp. 5-10; 207-260.</summary>
+                  
+                  <textLang mainLang="es">Spanish</textLang>
+                  
+                  <msItem n="1" xml:id="MSAmer77_1">
+                     
+                     <author key="">Bueno, Cosme, 1711-1798<note>He was physician, geographer, scientist and mathematician, became Catedratico de matematicas and Cosm6grafo mayor 
+                        in 1758 in Peru</note></author>
+                     
+                     <title key="">Bueno, Cosme (1711-1798)</title>
+                     <title type="original" key="">El conocimiento de los tiempos<note>Annual almanack</note></title>                       
+                                   
+                     
+                     <textLang otherLangs="en">English</textLang>                                                         
+                     
+                                         
+                     <note>Some of the present MS material did not appear in thealmanacks; the MS is likely to be a copy of Bueno's revised text which was never published as a whole.
+                        [See McPheeters (1955) for a valuable noteon Bueno and (footnote 8) on the present MS; and see P. 3 et seq.). </note>                
+                 
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper"><support/>
+                        <extent>1bl. I., ff.42, 3bl. ll
+                           <dimensions unit="cm" type="cm">
+                              <dim type="width">30 cm</dim>
+                              <dim type="length">20.5 cm </dim>
+                           </dimensions>  
+                        </extent>
+                        
+                        <foliation><note>The present item divides as follows</note>
+                           <locus>[f.1r:]</locus> Descripcion del Obisp[a]do de Buenos Ayres
+                           <locus>[f.5v:]</locus>Provincia de las Misiones de el Uruhay 
+                           <locus>[f.9v:]</locus>Descripcion de la Provinzias del Reyno de Chile. Obispado de S[a]ntiago
+                           <locus> [f.21v:]</locus>Descripcion del obispado de la Concepcion
+                           <locus>[f.42r:]</locus>Nuevo Virreynato de Buenos Ayres
+                        </foliation>
+                                                
+                        </supportDesc>
+                     
+                     
+                  </objectDesc>
+                                                     
+                  <additions>
+                     <p>Said to be from the Archives of the Conde de ReviUagigedo, Viceroy of New Spain 1789-94.</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>Bound<note>in full contemporary marbled calf.</note></p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               
+               <history>
+                  
+                  <origin>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                     <origPlace>
+                        <country> Spain</country>
+                        <region>Europe</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">c.1785</origDate>
+                  </origin>
+                 
+                  <acquisition>Purchased at Sotheby's 1964</acquisition>
+                  
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of medical Americana in the Library of the  Wellcome Institute for the History of Medicine</title>
+                              <author>Robin Price.</author>
+                              <date>1557-1821<note>from Latin America and the Caribbean Islands</note>1575-1927<note>manuscripts from the Americas</note></date>
+                              <note>P. 197</note>
+                              <note>https://wellcomecollection.org/works/grwhkxyf</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     
+                     <availability status="unknown">
+                        <p/>
+                     </availability>
+                     
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-12" who="Odalys Caballero">Populated the template</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
