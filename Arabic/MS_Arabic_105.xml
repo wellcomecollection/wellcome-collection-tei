@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15750">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 105</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 105</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic <!-- insert MSS number here --> </idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 105</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295285</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>42265</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A medical dictionary.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_105">
+                            
+                            <author key="person_59391721">
+                                <persName xml:lang="eng" type="standard">Muḥammad ibn Yūsuf al-Harawī</persName>
+                                <persName xml:lang="ar" type="original">محمد بن يوسف الهروي</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">بحر الجواهر</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Bahr al-Jawahir</title>
+                            <title xml:lang="en" type="standard">Sea of gems</title>
+                            
+                            <textLang otherLangs="fa">Persian</textLang>
+                            
+                            <incipit>
+                               ... حمداً لعلامٍ أعطى ذوى الأفهام تحقيق دقائق اللغات العربية وشكراً لوهاب...
+                               ...وبعد فيقول...
+                               ...محمد بن يوسف الطبيب الهوري لمل كان علم الطب أشد ما يحتاج إليه
+                            </incipit>
+                            
+                            <explicit>
+                                الأرض الحادة فإن التجربة قد شهدت أن بعد الأربعين قلّ ما يأتي بحران دفعة
+                                ...قال تم تصنيفه وتحريره على يد...
+                                ...محمد بن يوسف الطبيب الهوري
+                            </explicit>
+     
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">140mm</dim>
+                                        <dim type="length">235mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">70mm</dim>
+                                        <dim type="length">170mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                
+                                <collation>
+                                    <label>Folios:</label> 206 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="19">19</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>Black and red</p>
+                                <p><label>Scribe:</label></p> Anonymous scribe, potentially slave. Can be found on page folio 205.
+                            </handNote>
+                            <handNote script="nastaliq" scope="minor"></handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication"></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">869 A.H. 9th day of the month Dhuʻl-Qiʻdah.</origDate>
+                            <origDate calendar="Gregorian">1465 A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            Bought from Sotheby's on 7th November 1922 under lot number 232 for £14.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 87.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
