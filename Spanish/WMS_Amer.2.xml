@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MSAmer2">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MSAmer2</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-10-24">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2023-10-12">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt> 
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MSAmer2</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">WMS/Amer.2</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b18378870</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Theory and therapeutic uses of the balsam (regarded as a near-panacea); 
+                     with the formula of 9 ingredients.</summary>
+                  
+                 
+                  <textLang mainLang="es">Spanish</textLang>
+                  
+                  <msItem n="1" xml:id="MSAmer2_1">
+                     
+                     
+                    <title key="">Virtudes del Balsamo Peruano</title>
+                     <title type="original" key="">Virtudes del Balsamo Peruano, nombrado de vida ó de la vida.</title>      
+                 
+                      <textLang otherLangs="en">English</textLang>       
+                                        
+                  <filiation/>                     
+                     <note>WMS. Amer. 13 is a copy of WMS. Amer. 2.</note>
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper">
+                        <support/>                       
+                        <extent><note>MSAmer2</note>811. ( last bl.);                            
+                           <note>MSAmer13</note>611. (1st bl.).
+                           <dimensions unit="cm" type="cm">
+                              <dim type="width">21.5  cm</dim>
+                              <dim type="length">15.5 </dim>
+                              <dim type="width">22 cm</dim>
+                              <dim type="length">15.5 cm </dim>  
+                           </dimensions>
+                        </extent>
+                        
+                        <foliation/>                      
+                        
+                   </supportDesc>
+                     
+                   </objectDesc>
+  
+                  <additions>
+                     <p>Guerra Collection</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>2 MSS bound separately<note>WMS. Amer. 13 is a copy of WMS. Amer. 2</note></p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                     <origPlace>
+                        <country>[?Mexico]</country>
+                        <region>North America</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">[last half 18 cent.</origDate>
+                  </origin>
+            <acquisition>Purchased 1962.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of medical Americana in the Library of the  Wellcome Institute for the History of Medicine</title>
+                              <author>Robin Price.</author>
+                              <date>1557-1821<note>from Latin America and the Caribbean Islands</note>1575-1927<note>manuscripts from the Americas</note></date>
+                              <note>P. 289</note>
+                              <note>https://wellcomecollection.org/works/grwhkxyf</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="unknown">
+                        <p/>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-12" who="Odalys Caballero">Populated the template</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
