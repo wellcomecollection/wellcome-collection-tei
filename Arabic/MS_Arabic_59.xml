@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15707">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 59</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 59</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 59</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 59</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295029</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Opthalmological manuscript.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_59">
+                            
+                            <author key="person_ 66856503">
+                                <persName xml:lang="eng" type="standard">Ali Ibn Isa al-Kahhal</persName>
+                                <persName xml:lang="ar" type="original">علي ابن عيسى الكحّال</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">تذكرة الكحّالين</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Tadhkirat al-kahhalin</title>
+                            <title xml:lang="en" type="standard">The Occulist's memorandum</title>
+              
+                            <incipit>
+                              . قال عيسى بن على وصل كتابك أيها الشيخ الفاضل حفظكالله برأفته وأؤشدك إلى الصواب برحمته ...
+                              ... تسأل عن كتب جالينوس في أمراض العين وعلاج كل مرض منها لأن الاسكندرانيين ذكروا عدد الأمراض ولم يذكروال علاجاتها 
+                            </incipit>
+                            
+                            <explicit>
+                              . فإنني استعجلت قي تأليف وجمعه لأسرع قضاء حاجتك ...
+                              .فإن كان فيه زلل أن تصلحه بعد أن تنعم النظر فيه 
+                              ...وأن تجعل مكافأتى على قضاء حاجاتك حسن الدعاء
+                              ...تمت المقالة الثلثة من كتاب تذكرة الكحالين و تم بتمامها الكتاب 
+                            </explicit>
+                            
+                            <colophon> <!-- Insert colophon here if there is one, otherwise delete --> </colophon>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">150mm</dim>
+                                        <dim type="length">250mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">100mm</dim>
+                                        <dim type="length">130mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 200 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="13">13 lines</layout>
+                            </layoutDesc>
+
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh, with diacritical vowels.</p>
+                                <p><label>Ink:</label>Black and red</p>
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="eng" type="standard"></persName>
+                                    <persName xml:lang="ar" type="original"></persName></p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications in red throughout manuscript.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Undated. Approximately 7th century A.H.</origDate>
+                            <origDate calendar="Gregorian">Undated. Approximately 13th century A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: Jabbur ibn Ya'qub (1134A.H.), Ali Abdu Muhammed Ali Ibn Uthman (a physician of Aleppo, Syria) and Ali Abdu Ibn Abd an-Nur (a physician).
+                        </provenance>
+                        <acquisition>
+                            Accession number 36049. Bought on 12th March 1915 in Beirut, Lebanon, for £7.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note><!-- Insert relevant page numbers here --></note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    

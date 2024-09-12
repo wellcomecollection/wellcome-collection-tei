@@ -30,3 +30,4 @@
   * [Minor amendments to MSS](manuscript-cataloguing-workflows/minor-amendments-to-mss.md)
   * [Creating a TEI record from a Sierra source](manuscript-cataloguing-workflows/creating-a-tei-record-from-a-sierra-source.md)
   * [Creating a minimum viable catalogue record for new acquisitions](manuscript-cataloguing-workflows/creating-a-minimum-viable-catalogue-record-for-new-acquisitions.md)
+* [Instructions\_for\_TEI\_transformation\_scenario\_Mar24](instructions\_for\_tei\_transformation\_scenario\_mar24.md)

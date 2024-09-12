@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15712">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 64</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 64</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 64</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 64</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b14835605</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>The Arabic translation of Galen's Commentary on Hippocratic Epidemics.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_64">
+                            
+                            <author key="person_44299175">
+                                <persName xml:lang="eng" type="standard">Galen</persName>
+                                <persName xml:lang="ar" type="original">جالينوس</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">تفسير جالينوس لفصول بقراط</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Tafsir Jalinus li fusul Buqrat</title>
+                            <title xml:lang="en" type="standard">Galen's Commentary on the Aphorisms of Hippocrates</title>
+                            
+                            <incipit>
+                               . المقالة الأولى من تلخيص تفسير جالينوس لفصول بقراط
+                               .قال بقراط العمر قصير والصناعة طويلة والوقت والتجربة خطر والقضاء عسر
+                               ...وقد ينبغي لك أن لا تقتصر
+                            </incipit>
+                            
+                            <explicit>
+                                .بقراط من كان لحمه رطباً فينبغي أن يجوع فإن الجوع يجفف الأبدان...
+                                .تجفيف الجوع بطريق العرض وذلك أنه متى لم يكن بدل المتحلل خلف جفّ العضو
+                                ...لأن أول ما يتحلل من كل عضو أرطب ما فيه
+                            </explicit>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">155mm</dim>
+                                        <dim type="length">235mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">90mm</dim>
+                                        <dim type="length">150mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 86 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>Damp stained leaves. Leaves missing at the end (potentially not missing and instead an abreviation of the original).</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="13">13 lines</layout>
+                            </layoutDesc>
+                            
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="nastaliq" scope="major">
+                                <p><label>Script:</label>Nastaliq</p>
+                                <p><label>Ink:</label>Black and red</p>
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="eng" type="standard"></persName>
+                                    <persName xml:lang="ar" type="original"></persName></p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Undated. Approximately 11th century.</origDate>
+                            <origDate calendar="Gregorian">Undated. Approximately 17th century.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            <!-- Insert acquisition information here, e.g Sotheby's lot 486 (22/21.11.85) -->
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 198</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    

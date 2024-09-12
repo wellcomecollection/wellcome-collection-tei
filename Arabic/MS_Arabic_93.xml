@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15739">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 93</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 93</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 93</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 93</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295236</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno><!-- Insert accession number here if found on manuscript --></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A medical manuscript on treating illnesses.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_93">
+                            
+                            <author key="person_69239601">
+                                <persName xml:lang="eng" type="standard">Abu 'l-Ḥasan Saʿid Ibn-Hibatallah Ibn-al-Ḥusain</persName>
+                                <persName xml:lang="ar" type="original">ابو الحسن سعيد ابن هبة الله ابن الحسين</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">المغنى في تدبير العلل والأمراض ولأعراض</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Al-mughni fi tadbir al-'ilal wa al-amrad wa al-a'rad</title>
+                            <title xml:lang="en" type="standard">A medical work on treatments</title>
+       
+                            <incipit>
+                                ...قال الحسن بن هبة الله بن الحسن الطبيب إن أولى ما نطق به اللسان وثبت برهانه في الجنان الحمد لخالق الأزمان الذي أوجد المخلوقات...
+                            </incipit>
+                            
+                            <explicit>
+                                ...اللبن الحليب وأخذ ماء الشعير بدهن اللوز والفصد وتبريرد المزاج...
+                                .تم
+                            </explicit>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">180mm</dim>
+                                        <dim type="length">250mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">215mm</dim>
+                                        <dim type="length">150mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 92 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="24">24</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="eng" type="standard">Fadl-Allah bin Musa</persName>
+                                    <persName xml:lang="ar" type="original">فضل الله لبن موسى</persName></p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications throughout in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">773 A.H.</origDate>
+                            <origDate calendar="Gregorian">1371 A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: Salim bin Fadl-Allah at-tabib
+                        </provenance>
+                        <acquisition>
+                            <!-- Insert acquisition information here, e.g Sotheby's lot 486 (22/21.11.85) -->
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 140.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    

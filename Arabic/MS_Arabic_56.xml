@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15704">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 56</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 56</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 56</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 56a</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295005</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>36046</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Guidance for physicians.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_56">
+                            
+                            <author key="person_9664480">
+                                <persName xml:lang="eng" type="standard">Yusuf Ibn Ismail Ibn Ilyas al-Khuwayi al-Baghdadi al-Kutubi</persName>
+                                <persName xml:lang="ar" type="original">يوسف ابن اسماعيل ابن الياس الخويي البغدادي الكتبي </persName>
+                            </author>
+                          <title xml:lang="ar" type="original">ما لا يسع الطبيب جهله</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Ma la yasa' al-tabib Jahluh</title>
+                            <title xml:lang="en" type="standard">Things which physicians cannot afford to ignore.</title>
+                             
+                            <incipit>
+                              ... الحمد لله الذي لا تكتنفه حقيقة حرفة العلوم ولأفهام ولايحيط بكنه ذاته العقول والأوهام ...
+                             ... وبعد فإنه لمل كان الإنسان بل الحيوان جملة من المركبات العنصرية المتولدات والامتزاجياة اقتضى أن يكون دائما آخذاً في الذبول والتحلل ...
+                            </incipit>
+                            
+                            <explicit>
+                                و إن كانت أشبه بالمركبات...
+                                وخصوصا ما إذا أضيف إليه شيء من غير أن تكون عصارة مطبوخة
+                                فلى في ذلك اختيار مع اعتمادنا على كثير من مصنفات الكبار فإنهم اعتمدوا ذلك
+                                ... تم الكتاب
+                            </explicit>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">150mm</dim>
+                                        <dim type="length">210mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">95mm</dim>
+                                        <dim type="length">140mm</dim>
+                                    </dimensions>
+                                    <stamp>Owner's stamps can be seen on fol.1b, 2b and 3a.</stamp>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                    <catchwords></catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 531 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="21">21 lines</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>Black, some red</p>
+                                <p><label>Scribe:</label> No names, but multiple copyists.</p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications throughout manuscript in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Undated. Estimated 8th century Hijri.</origDate>
+                            <origDate calendar="Gregorian">Undated. Estimated 14th century A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: Mustafa Fahim, Sultan Ahmad (A.H 1136/A.D 1741), Sultan Mahmud (A.H 1142/A.D 1729), Hajj 'Uthman, a physician (A.H. 1145/A.D 1741)
+                        </provenance>
+                        <acquisition>
+                            Accession number 36046. Bought on 12th March 1915 with many other Arabic manuscripts in Beirut, Lebanon for £5.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 126.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    

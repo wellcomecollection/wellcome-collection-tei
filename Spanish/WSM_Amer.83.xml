@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MSAmer83">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MSAmer83</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-10-24">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2023-10-12">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt> 
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MSAmer83</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">WMS/Amer.83</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b19277477</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>   
+                     <locus>F. 2r-f. 7r:</locus> Los médicos de Monterrey.    
+                     <locus>F. 8r-f. 17r:</locus> Las enfermedades de Monterrey.    
+                     <locus>F. 18r-f. 25v</locus> [Lists of physicians and pharmacists practising in Monterrey before and after the foundation of the Escuela de Medicina in 1859, 
+                     and lists of staff and graduates of the School before and after its separation from the Colegio Civil in 1877].    
+                    The first two sections provide detailed accounts of major events in the medical life of Monterrey.</summary>
+                
+                  <textLang mainLang="es">Spanish</textLang>
+                  
+                  <msItem n="1" xml:id="MSAmer83_1">
+                     
+                     <author key="">Gonzalez Mendoza, José Eleuterio, 1813-1888.<note>Gonzalitos enjoyed an outstanding medical career in Monterrey as Director (and Professor of anatomy, surgery, and obstetrics) of the combined Colegio Civil and
+                                                Escuela de Medicina 1859-77 and thereafter as Director of the separated Escuela de Medicina. His efforts were responsible for the foundation of the Hospital Civil in 1860. 
+                                                As politician, he was elected Deputy to the State Congress of Nuevo León, and twice became its Governor. A man of wide interests and capabilities, he wrote extensively on medicine, medical history, 
+                                                local and national history, statistics and botany. His Obras completas, (5 vols. in 7), were published in Monterrey 1885- 87.</note></author>
+                     
+                     <title key="">Gonzalez Mendoza, José Eleuterio (1813-1888)</title>
+                     <title type="original" key="">Los médicos y las enfermedades de Monterrey.</title>
+                     
+                     
+                     <textLang otherLangs="en">English</textLang>    
+                                        
+                                                             
+                     <filiation>Escuela de Medicina 1859-77, director of the separated Escuela de Medicina, foundation of the Hospital Civil in 1860.</filiation>
+                     
+                     <note>The text has been transcribed, with full biographical and bibliographical commentaries by Guerra (1968}.</note>
+                     
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper"><support/>
+                        <extent>1I., ff.25, 5211. (bl.,  exc.  l.74v).
+                           <dimensions unit="cm" type="cm">
+                              <dim type="width">18.5 cm</dim>
+                              <dim type="length">12.5 cm </dim>
+                           </dimensions>
+                        </extent>            
+                        <foliation/>
+                       
+                        <collation>                         
+                           <signatures>signed, with rúbrica</signatures> 
+                        </collation>
+                     
+                     </supportDesc>
+                                          
+                  </objectDesc>
+                
+                  <handDesc>
+                     <handNote scope=""/>
+                  </handDesc>
+                  
+                  <decoDesc>
+                     <decoNote>Holograph MS with presentaiton inscription on first leaf, 'A mi muy qucrido discipulo y amigo el Dr.Juan de Dios Trevino. 
+                        Monterey Marzo 8 de 1881'</decoNote>
+                  </decoDesc>
+                  
+                  <additions>
+                     <p>León Collection</p>
+                  </additions>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>Original green ¼ leather and boards?.</p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                     <origPlace>
+                        <country>Monterrey, Nuevo León, Mexico</country>
+                        <region>North America</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">1881</origDate>
+                  </origin>
+                  
+                  <acquisition>Purchased 1927.</acquisition>
+               </history>
+               <additional>
+                 
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of medical Americana in the Library of the  Wellcome Institute for the History of Medicine</title>
+                              <author>Robin Price.</author>
+                              <date>1557-1821<note>from Latin America and the Caribbean Islands</note>1575-1927<note>manuscripts from the Americas</note></date>
+                              <note>P. 220</note>
+                              <note>https://wellcomecollection.org/works/grwhkxyf</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="unknown">
+                        <p/>
+                     </availability>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-12" who="Odalys Caballero">Populated the template</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

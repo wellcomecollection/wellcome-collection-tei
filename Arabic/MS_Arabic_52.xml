@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15701">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 52</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 52</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS Arabic 52</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 52b</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20294980</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A pharmocology manual.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_52">
+                            
+                            <author key="person_289172247">
+                                <persName xml:lang="eng" type="standard">Abuʾl Munā Ibn Abī Naṣr Ibn Ḥaffāẓ al-Kōhēn Ibn-al-ʿAṭṭār al-Isrāʾīlī al-Hārūnī, 1260</persName>
+                                <persName xml:lang="ar" type="original">ابو المناابن ابي النصر المعروف بالعطار الاسرائيلي الهاروني  </persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">منهاج الدكان ودستور الاعيان في اعمال وتراكيب الادوية النافعة للابدان</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Minhaj ul-dukkan wa dustur al-a'yan fi a'mal wa tarakib al-adwiya alnifi'a lil-abdan</title>
+                            <title xml:lang="en" type="standard">Manual for the dispensary being a canon for the learned actions and compositions of useful drugs</title>
+                            
+                            <textLang otherLangs=""> <!-- Insert other languages if there are any here --></textLang>
+                            
+                            <incipit>
+                             ...  هذا منهاج الدكان ودستور الأعيان ينبغى أن يحتوي عليه من الأشربة والمعاجين والجوارشنات والربرب والمرييات والأقراص والسفوفات والأدهان ...
+                            </incipit>
+                            
+                            <explicit>
+                              : شك ...
+                             . هو رهج الغار
+                            : وهو سم الفار و هوه تراب الهالك و هو نوعان
+                            أبيض و أصفر والجيد ما جلب من خرسان
+                            هذا نص الرازي
+                           : شمشير
+                           ... هو القاقله
+                            </explicit>
+                            
+                            <colophon> <!-- Insert colophon here if there is one, otherwise delete --> </colophon>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">127mm</dim>
+                                        <dim type="length">179mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">95mm</dim>
+                                        <dim type="length">165mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label>175 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>Damp-stained leaves. Leaves missing at the end.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="19">19 lines.</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>Black</p>
+                                <p><label>Scribe:</label></p> More than one copyist.
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Approximately 8th century.</origDate>
+                            <origDate calendar="Gregorian">Approximately 14th century.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: Istafan al-Khuri, a physician.
+                        </provenance>
+                        <acquisition>
+                            Acquired 12th March 1915 in Beirut, Lebanon. Accession number 36043.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 143.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
+
+

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15736">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 90</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 90</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 90</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 90</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295212</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno><!-- Insert accession number here if found on manuscript --></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A manuscript on Prophetic medicine.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_90">
+                            
+                            <author key="person_90051632">
+                                <persName xml:lang="eng" type="standard">Abd al-Raḥman b. Abi-Bakr Jalal-al-din al-Suyuti</persName>
+                                <persName xml:lang="ar" type="original">عبد الرحمن بن ابى بكر السيوطي</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">المنهج السوى والمنهج الروى في الطبّ النبوى</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Al-Manhaj al-sawi wa al-manhal al-rawi fi al-tibb al-nabawi</title>
+                            <title xml:lang="en" type="standard">An easy manual and refreshing source of medicine of the Prophet</title>
+
+                            <incipit>
+                                .و بعد فهذا كتاب جمعت فيه الأحاديث الورادة في الطب ورتبة على الأبواب...
+                                ...وأوردت فيه جميع ما ورد صحيحاً
+                                ...وسميته المنهج السوى والمنهل الروى في الطبّ النبوى
+                            </incipit>
+                            
+                            <explicit>
+                                 .أخرجنا أبو حاتم عن الأصمى...
+                                 .قال يقال من كتم السلطان نصحه ولأطباء مرضه والإخوان بثه فقد خان نفسه
+                                 ...تم كتاب الطبّ النبوى
+                            </explicit>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">155mm</dim>
+                                        <dim type="length">210mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">95mm</dim>
+                                        <dim type="length">150mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 70 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures>Folio 1a shows previous owner's signatures.</signatures>
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="23">23 lines</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>Black, Red</p>
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="eng" type="standard"></persName>
+                                    <persName xml:lang="ar" type="original"></persName></p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">1081 A.H.</origDate>
+                            <origDate calendar="Gregorian">1837 A.D.</origDate>
+                            <note>The date is noted for the manuscript to have been completed in the month of Muharram in the year 1081 on the final folio. This would roughly have been around the month of May in the Gregorian calendar.</note>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: Mahmud b. Khary-Allah al-Hindi, an-Niqshabandi al-Khalidi (dated 1253A.H./1837 A.D.) and Yasin b. Ali b. Muhammad (known by the name Hakim Zadah). 
+                            <note>Seals and signatures of previous owners can be seen on folio 1a.</note>
+                        </provenance>
+                        <acquisition>
+                            <!-- Insert acquisition information here, e.g Sotheby's lot 486 (22/21.11.85) -->
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 127-128.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    

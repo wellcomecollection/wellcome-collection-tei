@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15748">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 103</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 103</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 103</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 103</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295273</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno><!-- Insert accession number here if found on manuscript --></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A medical dictionary.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_103">
+                            
+                            <author key="person_59391721">
+                                <persName xml:lang="eng" type="standard">Muḥammad ibn Yūsuf al-Harawī</persName>
+                                <persName xml:lang="ar" type="original">محمد بن يوسف الهروي</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">بحر الجواهر</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Bahr al-Jawahir</title>
+                            <title xml:lang="en" type="standard">Sea of gems</title>
+                            
+                            <textLang otherLangs="fa">Persian</textLang>
+                            
+                            <incipit>
+                               ... حمداً لعلامٍ أعطى الأفهام تحقيق دقائق اللغات العربية و شكراً لهواب...
+                               ... وبعد فيقول...
+                               ...محمد بن يوسف الهرى لمل كان علم الطب أشد مما يحتاج إليه...
+                            </incipit>
+                            
+                            <explicit>
+                                يونان...
+                                الياء بالفتح والمشهور الضم
+                                قال هشام بن كليبي من بنى يونان بن يافث بن نوح عليه السلام
+                               ... والحكماء اليونانية منسوبة إلى هذا كذا في كتاب مشتبه النسبة يعؤف درر البلدان
+                            </explicit>
+             
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">135mm</dim>
+                                        <dim type="length">220mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">95mm </dim>
+                                        <dim type="length">190mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <collation>
+                                    <label>Folios:</label> 155 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>Slightly wormed.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="19">19</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>Black and red</p>
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="eng" type="standard"></persName>
+                                    <persName xml:lang="ar" type="original"></persName></p>
+                            </handNote>
+                            <handNote script="nastaliq" scope="minor"></handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications present.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Approximated 10th century A.H.</origDate>
+                            <origDate calendar="Gregorian">Approximated 16th century A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            <!-- Insert acquisition information here, e.g Sotheby's lot 486 (22/21.11.85) -->
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 86.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    

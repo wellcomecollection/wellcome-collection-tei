@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MSAmer1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MSAmer1</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="VS">
+               <resp when="2021-10-24">Cataloguer</resp>
+               <persName>Sloyanv</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2021">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2023-10-12">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt> 
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MSAmer1</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">WMS/Amer.1</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b18960789</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Scatológica Mexicana.  Fugitive notes of antiquarian interest on scatalogical remedies drawn from the Badianus MS [Vatican Library, 
+                     Codex Barberini, Lat. 241] and from 16th and 17th century medical sources printed in Mexico.
+                  
+                     <note>The notes were published with a brief introduction by León's contemporary, Demetrio S. García in Mexico (1946), 
+                        who added a subtitle derived from León's Escritos varios y publicaciones, 1909-1919, Suplemento Núm 1. J, Mexico, [s.n.], 1919, 
+                        [item 26B]; copies of both these items are in the Wellcome Institute Library.</note></summary>
+                  
+                  
+                  
+                  <textLang mainLang="es">Spanish</textLang>
+                  
+                  <msItem n="1" xml:id="MSAmer1_1">
+                     
+                     
+                     <author key="">León, Nicolás (1859-1929)</author>
+                     
+                     <title key="">Scatológica Mexicana</title>
+                     
+                     <textLang otherLangs="en">English</textLang> 
+                     
+                     <filiation/>
+                     <note/>
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="folio">
+                     <supportDesc material="paper"><support/>
+                        <extent>10 ll. [incl. t.p.]  	 
+                           <dimensions unit="cm" type="cm">
+                              <dim type="width">22.5</dim>
+                              <dim type="length">15.5cm</dim>
+                           </dimensions>  
+                        </extent>
+                        <foliation/>
+                                                           
+                     </supportDesc>                     
+                     </objectDesc>
+                                                 
+                  <decoDesc>
+                     <decoNote>Holograph notes, 17 x 11.5 cm. and smaller, pasted onto the backs of unused coloured plates; rectos only.</decoNote>
+                  </decoDesc>
+                  
+                  <additions>
+                     <p>Guerra Collection</p>
+                  </additions>
+                  
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>Bound.</p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                     <origPlace>
+                        <country>[Mexico]</country>
+                        <region>North America</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">[c.1915]</origDate>
+                  </origin>
+                 
+                  <acquisition>Purchased 1962.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of medical Americana in the Library of the Wellcome Institute for the History of Medicine</title>
+                              <author>Robin Price.</author>
+                              <date>1557-1821<note>from Latin America and the Caribbean Islands</note>1575-1927<note>manuscripts from the Americas</note></date>
+                              <note>P. 232</note>
+                              <note>https://wellcomecollection.org/works/grwhkxyf</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     
+                     <availability status="unknown">
+                        <p/>
+                     </availability>
+                     
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-12" who="Odalys Caballero">Populated the template</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

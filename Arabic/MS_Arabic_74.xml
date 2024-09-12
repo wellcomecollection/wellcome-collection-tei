@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15722">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 74</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 74</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 74</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 74</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b14836828</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>One of the most important medical manuscripts from the 10th century by Iranian physician 'Ali ibn al-'Abbas al-Majusi, written for King 'Adud al-Dawla.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_74">
+                            
+                            <author key="person_9955882">
+                                <persName xml:lang="eng" type="standard">ʻAlī ibn al-ʻAbbās, al-Majūsī al-Arrajānī, m. 994 (also known as Haly Abbas)</persName>
+                                <persName xml:lang="ar" type="original">علي بن عباس المجوسي</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">كامل الصناعة الطبية</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Kamil sina'a al-tibbiyyah</title>
+                            <title xml:lang="en" type="standard">The Complete Book of the Medical Art</title>
+                            
+                            <note>The book is also famously known as "The Royal Book" (الكتاب الملكي).</note>
+
+                            <incipit>
+                                ...اليابسة وكسر الأشياء الصلبة...
+                            </incipit>
+                            
+                            <explicit>
+                                .فإن منه ماهو سائغ مستوفي جميع الكيفيات التي ذكرناها وهو محمود...
+                                .و منه ما هو مختلف في ذلك وهو ردىء
+                                ...تمت المقالة السابعة من الجزء الأول وهو النظري من كتاب كامل الصناعة الطبية
+                            </explicit>
+                            
+                            <colophon> <!-- Insert colophon here if there is one, otherwise delete --> </colophon>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">155mm</dim>
+                                        <dim type="length">210mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">90mm</dim>
+                                        <dim type="length">130mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 73 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>Badly damaged with gaps within the text (holes in the pages), leave missing at the beginning and end. The manuscript starts on page 230.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="18">18 lines.</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>Black</p>
+                                <p><label>Scribe:</label>
+                                    <persName xml:lang="eng" type="standard">Ibn Abi Bakr Ibn Wahid Ibn Muhammed Ibn ash-Shihab al-Alanjani</persName>
+                                    <persName xml:lang="ar" type="original">ابن ابي بكر بن وحيد بن محمد بن الشهاب الالنجاني</persName></p>
+                                <note>Information on the scribe can be found on folio 73b, in beautiful calligraphy, listing the scribe's name and profession (physician).</note>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri"><!-- Insert date/period here e.g 18th century, 4th century A.H. etc. --></origDate>
+                            <origDate calendar="Gregorian"><!-- Insert date/period here e.g 18th century, 4th century A.H. etc. --></origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            Accessioned January 24th 1921, listed as bought from Sotheby's under lot 161. Bought for 2 shillings. Date of actual auction not listed, assumed to be accession date.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 123.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
