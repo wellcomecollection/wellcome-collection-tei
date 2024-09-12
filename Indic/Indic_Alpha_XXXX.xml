@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template updated 28.10.20 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Indic_Alpha_1971">
+    
+    <!-- Give xml:id in the  format  'Indic/Sanskrit_Alpha/Beta/Gamma/Delta/Epsilon_[MS number]' -the file name should be identical -->
+    
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>Indic Alpha 1971</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="DP">
+                    <resp when="1970">Cataloguing from microfilm</resp>
+                    <persName>David Pingree</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-28">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="TTT">
+                    <resp when="2024-08-01">TEI encoder</resp>
+                    <persName>The TEI Team</persName>
+                </respStmt>
+                <!-- Add respStmt as required -->
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <availability>
+                    <licence>This TEI description is based on unpublished cataloguing notes by David E. Pingree kindly provided under a CC BY 4.0 license by the American Philosophical Society (APS), which holds the rights to Pingree’s unpublished materials. 
+                        The TEI file itself is made available under a CC BY 4.0 license by the Wellcome Collection, allowing researchers and audiences to continue to make use of and build on Pingree’s work.</licence>
+                </availability>
+                <idno type="msID">Indic Alpha 1971</idno>
+                <idno type="catalogue">David Pingree cataloguing</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">Indic Alpha 1971</idno>
+                        <altIdentifier type="Raghavan">
+                            <idno>B.20.a</idno>
+                        </altIdentifier>
+                        <!-- Add additional altIdentifier elements as required -->
+                    </msIdentifier>
+                    
+                    
+                    <msContents>
+                        
+                        <summary>Aṣṭaka 8 (= Maṇḍala 10,46,1-10,191,4) of the <title>Ṛgveda</title>; incomplete.</summary>
+                        
+                        <textLang mainLang="" source="IANA">Sanskrit.</textLang>
+                        
+                        <!-- IANA codes for recurring South Asian languages:
+                        Sanskrit: 'sa'
+                        Prakrit languages: 'pra' 
+                        Hindi: 'hi' -->
+                        
+                        <msItem xml:id="Indic_Alpha_1971_1">
+                            <locus from="f1v" to="f18v">Ff. 1v-18v</locus>
+                            <author key="">Anonymous</author>
+                            <title key=""><!-- Insert viaf code as attribute value, if available, and enter title here --></title>
+                            
+                            <!-- Use comment to note diacritical text to be picked up in late-stage editing -->
+                            
+                            <!-- Use as needed, or delete -->
+                            <textLang mainLang="" source="IANA"><!-- Enter BCP 47  IANA language code as attribute value and full language name here. --></textLang>
+                            <textLang otherLangs="" source="IANA"><!-- Enter BCP 47 IANA language code as attribute value and full language name here . --></textLang>
+                            
+                            <incipit><locus>F. 1v</locus> 
+                                śrīgaṇeśāya namaḥ || om || prahotā daśajagṛbhmāṣṭau saptaguru vaikuṃṭhaṃm iṃdraṃ...
+                                <!-- Use <note> to add general comment -->
+                                <note><title>Ṛgveda</title> 10,46,1 begins on <locus>f. 2v</locus>.</note>
+                            </incipit>
+                            
+                            <explicit><locus>F. 18v</locus>
+                                <note>Ends with 10,63,5 (aṣṭaka 8,2,3).</note>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <colophon><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </colophon>
+                            
+                            <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                            <note><!-- insert --></note>
+                            
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="other"> <!-- Adapt response as needed -->
+                            <supportDesc material="paper"> Paper
+                                <extent>18 folia<dimensions type="folia" unit="in">
+                                    <!-- Use for Alpha sequence -->
+                                    <height atMost="6">Up to 6 inches</height>
+                                    <width atMost="11">Up to 11 inches</width>
+                                   
+                                </dimensions>
+                                </extent>
+                            </supportDesc>
+                            
+                            <foliation>
+                                <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                            </foliation>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="9">9 lines, ca. 40 akṣaras.</layout>
+                            </layoutDesc> 
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <!-- Add or delete <handNote> elements as needed -->
+                            <handNote scope=""></handNote>
+                        </handDesc>
+                        
+                        <!-- Add or delete the following elements as needed -->
+                        
+                        <decoDesc>
+                            <decoNote></decoNote>
+                        </decoDesc>
+                        
+                        <additions>
+                            <p></p>
+                        </additions>
+                        
+                        <bindingDesc>
+                            <binding>
+                                <p></p>
+                            </binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>India</country>
+                                <region><!-- insert --></region>,
+                                <settlement><!-- insert --></settlement>,
+                                <orgName><!-- insert --></orgName>
+                            </origPlace>
+                            <origDate calendar="Vikram_Samvat"><!-- insert Vikram Samvat date, if given--></origDate>
+                            <origDate calendar="Gregorian"><!-- Insert Gregorian date, if given --></origDate>
+                            <!-- use additional origPlace and origDate elements if necessary -->
+                        </origin>
+                        <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                        <!-- use additional provenance elements if necessary -->
+                        <acquisition><!-- insert --></acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Unpublished cataloguing information</title>
+                                        <author>David Pingree</author>
+                                    </bibl>
+                                    <!-- Might include link to catalogue source -->
+                                    <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                                </source>
+                            </recordHist>
+                            <availability status=""><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                        </adminInfo>
+                        <!-- Enter bibliographical info, if needed -->
+                        <listBibl>
+                            <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                            <!-- The folloing records the bibliographical entries Allan's catalogue refers to - delete any that are not mentioned in the file -->
+                            <head>Bibliographical abbreviations</head>
+                            <bibl>
+                                <title>New catalogus catalogorum: and alphabetical register of Sanskrit and allied works and authors.</title>
+                                <editor>V. Raghavan, et al.</editor>
+                                <placeName>Madras</placeName>
+                                <publisher>University of Madras</publisher>
+                                <date>1949</date>
+                                <abbr>NCC</abbr>
+                            </bibl>
+                            <bibl>
+                                <title>Catalogus catalogorum:an alphabetical register of works and authors</title>
+                                <editor>Theodor Aufrecht</editor>
+                                <placeName>Leipzig</placeName>
+                                <publisher>German Oriental Society</publisher>
+                                <date>1891-1903</date>
+                                <abbr>CC</abbr>
+                            </bibl>
+                            <bibl>
+                                <title>Census of the exact sciences in Sanskrit</title>
+                                <editor>David Pingree</editor>
+                                <placeName>Philadelphia</placeName>
+                                <publisher>American Philosophical Society</publisher>
+                                <date>1970</date>
+                                <abbr>CESS</abbr>
+                            </bibl>
+                            <bibl>
+                                <title>Gaekwad's Oriental Series</title>
+                                <editor>Oriental Institute</editor>
+                                <placeName>Baroda</placeName>
+                                <publisher>University of Baroda</publisher>
+                                <date>1953</date>
+                                <abbr>GOS</abbr>
+                            </bibl>
+                            <bibl>
+                                <title>A descriptive catalogue of the Sanskrit manuscripts in the Itchharam Suryaram Desai Collection in the library of the University of Bombay</title>
+                                <editor>H. D. Velankar</editor>
+                                <placeName>Bombay</placeName>
+                                <publisher>University of Bombay</publisher>
+                                <date>1953</date>
+                                <abbr>Velankar</abbr>
+                            </bibl>
+                            <bibl>
+                                <title>Bhojanakutuhala</title>
+                                <editor>Suranad Kunjan Pillai</editor>
+                                <placeName>Trivandrum</placeName>
+                                <publisher>University of Travancore</publisher>
+                                <date>1956</date>
+                                <abbr>TSS</abbr>
+                            </bibl>
+                            <bibl>
+                                <title>Kashi Sanskrit Series</title>
+                                <editor>Mukunda Jhā Bakśī</editor>
+                                <placeName>Vārāṇasī</placeName>
+                                <publisher></publisher>
+                                <date>1982</date>
+                                <abbr>KSS</abbr>
+                            </bibl>
+                        </listBibl>
+                        
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when="2024-08-01" who="#TTT">Populated template.</change>
+            <change when="2020-10-28" who="#AP">Created template.</change>
+            <change when="2021-02-24" who="#SC">Updated bibliographical abbreviations listBibl.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface></surface>
+        <!-- For future addition -->
+    </facsimile>
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcript -->  
+        </body>
+    </text>
+</TEI>
