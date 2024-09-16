@@ -45,6 +45,7 @@
 | TEI | API | Status | Required for toggle |
 | :--- | :--- |:--- |:--- |
 | additional/adminInfo/recordHist/source | notes \[source\] | | 
+| additional/adminInfo/custodialHist | notes \[custodial\] | | 
 
 ## Access Conditions?
 
