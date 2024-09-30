@@ -72,7 +72,7 @@
                     <idno type="shelfmark"><!-- MS Sinhalese [add number of manuscript] --></idno>
                     <!-- Use <altIdentifier> if former or alternative <idno> is available -->
                     <altIdentifier type="Sierra">
-                        <idno><!-- add sierra number from webite e.g. 'b.......' --></idno>
+                        <idno><!-- add sierra number from website e.g. 'b.......' --></idno>
                     </altIdentifier>
                 </msIdentifier>
                 
@@ -80,7 +80,14 @@
                   
                     <summary><!-- Any top-level description of the manuscript as a whole --></summary>
                    
-                    <textLang mainLang="si"> <!-- Use if only one language in manuscript --> <!-- Enter BCP 47 language code as attribute value and full language name here --></textLang> 
+                    <textLang mainLang="si"> <!-- Use if only one language in manuscript --> <!-- Enter BCP 47 language code as attribute value and full language name here -->
+                    
+                        <!-- Codes for other potentially relevant South Asian languages:
+                        Sanskrit: 'sa'
+                        Prakrit languages: 'pra' 
+                        Pali: 'pi' -->
+                    
+                    </textLang> 
                            <msItem n="" xml:id="">
                         
                         <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
