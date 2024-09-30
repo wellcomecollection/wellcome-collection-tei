@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="<!-- Add MS reference information -->">
 
     <teiHeader>
     
@@ -45,10 +45,18 @@
             <distributor>
                 <email>library@wellcome.ac.uk</email>
             </distributor>
-            <idno type="msID"></idno>
+            <idno type="msID"><!-- Add MS reference information, identical to TEI xml:id above --></idno>
             <idno type="catalogue">Catalogue of the Sinhalese manuscripts in the Wellcome Institute for the History of Medicine, London</idno>
             <availability>
-                <licence><!-- Licensing statement to be developed with ICTBUK --></licence>
+                <licence><!-- Licensing statement to be developed with ICTBUK. Suggested draft statement:
+                        
+                       <p> This TEI description is based on earlier cataloguing notes by KD Somadasa, published by Wellcome Collection,
+                        and updated cataloguing work and corrections contributed by members of IBCTUK.
+                        
+                        The TEI file itself is made available under a CC BY 4.0 license
+                        by Wellcome Collection, with the ICBTUK's agreement. </p>
+                    
+                        --></licence>
             </availability>
         </publicationStmt>
         
