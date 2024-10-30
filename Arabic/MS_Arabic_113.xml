@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15758">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 113</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 113</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 113</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 113</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295340</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>42549</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>The science of interpreting dreams, and the teaching of the immortality of the spirit, with various numerous quotations from the ancient Sages and Prophets.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_113">
+                            
+                            <author key="person_81968769">
+                                <persName xml:lang="eng" type="standard">Khalil Ibn Shahin al-Zahiri Ghars-addin</persName>
+                                <persName xml:lang="ar" type="original">خليل ابن شاهين الظاهري غرس الدين</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">الأيشارات في علم العبارات</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Al-isharat fi 'ilm il-'Ibarat</title>
+                            <title xml:lang="en" type="standard">Clues in the science of dreams</title>
+
+                            <incipit>
+                                .و بعد فهذا كتاب تعبير الرؤيا جعلته على ثمانين باباً...
+                                .كل باب يحوى على جملة فصول
+                                .كل فصل يحوي على إشارات وعبارات
+                                 :الباب الأول
+                                 ...في رؤية الله تعالى والعرش والكرسي
+                                
+                            </incipit>
+                            
+                            <explicit>
+                                .وختمت هذا الكتاب بفائدة شرعية مفيدة في الرويا...
+                                ...وهو ما رُوِى عن سعيد ابن على بن المنجم
+                                ...وقال بت ليلة في أيام...
+                            </explicit>
+                            
+                            <note>The introductory note that can be found in WMS.Or.22 (MS Arabic 22) is missing from this edition.</note>
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">200mm</dim>
+                                        <dim type="length">290mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">135mm</dim>
+                                        <dim type="length">230mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 205 foll.
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="27">27</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black, purple and red</p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications found in red or purple ink.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Folios 1 to 14 are considered modern additions.</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri"> Undated. Estimated 9th century Hijri.</origDate>
+                            <origDate calendar="Gregorian">Undated. Estimated 15th century A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            Bought from Sotheby's auction house on 23rd February 1923 under lot number 112. Accessioned into the Wellcome Collection 01 June 1923. Bought for £4 and 15s.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 112.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
