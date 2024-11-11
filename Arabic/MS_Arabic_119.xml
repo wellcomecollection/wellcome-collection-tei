@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15764">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 119</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2024">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 119</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 119</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 119</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b21417234</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>36048</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Commentary on Ibn Sina's (Avicenna) canon of medicine. Contains a commentary on al-Kulliyat.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_119">
+                            
+                            <author>
+                                <persName xml:lang="eng" type="standard">Ali b. Abd-Allah Zain al-Arab al-Misri</persName>
+                                <persName xml:lang="ar" type="original">علي عبد الله زين العرب المصري</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">شرح القانون</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Sharh al-Qanun</title>
+                            <title xml:lang="en" type="standard">Commentary on the Canon of Medicine.</title>
+
+                            <incipit>
+                                ... فإن...قطب الحق والدين الشيرازى...
+                                ...لما وصل في أثناء شرحه الكتاب الأول من كتب القانون وهو كتاب الكلّيات إلى قسم التشريح لم يحضره شرخ أفضل الشؤاح وهو الحكيم
+                                علاء الملة وادين القرشي المعروف بابن النفيس
+                                ...فأرسل إلى مصر المحروسة
+                            </incipit>
+                            
+                            <explicit>
+                                ونحن رأينا أن نأتى بشرح تشريح الأعضاء المركبة عقب شرح تشريح الأعضاء المفردة ليكون الشرح كله مجموعاً في موضع واحد اقتداء بما فعله الشارحين أعنى القرشى والمسيحى وكثير من المشرّحين...
+                                ...تم...
+                            </explicit>
+
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">170mm</dim>
+                                        <dim type="length">245mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">120mm</dim>
+                                        <dim type="length">190mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 158 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>C. Some wear and tear otherwise in good condition.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="25">25 lines</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label>Black and red</p>
+                                <p><label>Scribe:</label></p>
+                                <persName xml:lang="eng" type="standard">'Atallah b. Muhammad al-Kalsahari</persName>
+                                <persName xml:lang="ar" type="original">عطاء الله بن محمد الكلسهري</persName>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">758 A.H.</origDate>
+                            <origDate calendar="Gregorian">1356 A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                            <note>Transcribed during the author's lifetime.</note>
+                        </origin>
+                        <provenance>Known owners: Muhammad al-Shawbaki and 'Abd al-Qadir b. Muhammad
+                        </provenance>
+                        <acquisition>
+                            Bought in Beirut, Lebanon for £3 along with 23 other Arabic manuscripts. Accessioned into the collection 12th March 1915.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 181-182.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
