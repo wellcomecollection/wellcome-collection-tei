@@ -116,7 +116,8 @@
                 
                 <history>
                     <origin>
-                        <origDate calendar="Gregorian">Dated <date>5514</date>/<date>1753</date>1753.</origDate>
+                        <origDate calendar="Gregorian">1753</origDate>
+                        <origDate calendar="Hebrew">Hebrew year <date>5514</date></origDate>
                     </origin>
                     <acquisition>Purchased from Steven's <date>23.9.1924</date></acquisition>
                 </history>
@@ -144,6 +145,7 @@
     </fileDesc>
     
         <revisionDesc>
+            <change when="2024-11-26" who="#AP">Added calendar to origDate tag and added Hebrew calendar.</change>
             <change when="2020-06-26" who="#AP">Moved date info from summary to originDate.</change>
           <change when="2020-06-09" who="#BLE">Created XML file</change>
         </revisionDesc>
