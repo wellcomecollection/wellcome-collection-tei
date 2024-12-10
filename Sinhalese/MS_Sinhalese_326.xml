@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Sinhalese_326">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title></title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="">
+                    <resp when="1996">Cataloguer</resp>
+                    <persName>KD Somadasa</persName>
+                </respStmt>
+                <respStmt xml:id="VKKP">
+                    <resp when="2024">New cataloguing information</resp>
+                    <persName>Ven. Kothmale Kumarakassapa Thero</persName>
+                </respStmt>
+                <respStmt xml:id="MM">
+                    <resp when="2024">Template</resp>
+                    <persName>Miten Mistry</persName>
+                </respStmt>
+                <respStmt xml:id="AdP">
+                    <resp when="2024-12-10">TEI Encoder</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2024-12-10">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="<!-- add date when template finished -->">Template</resp>
+                    <persName>Amila Perera</persName>
+                </respStmt>
+                <respStmt xml:id="MJ">
+                    <resp when="<!-- add date when template finished -->">Template</resp>
+                    <persName>Madhurika Jayawardana</persName>
+                </respStmt>
+                <respStmt xml:id="">
+                    <resp when="">TEI Encoder</resp>
+                    <persName><!-- Insert name of person creating record --></persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every resp -->
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Sinhalese 326</idno>
+                <idno type="catalogue">Catalogue of the Sinhalese manuscripts in the Wellcome Institute for the History of Medicine, London</idno>
+                <availability>
+                    <licence><!-- Licensing statement to be developed with ICTBUK. Suggested draft statement:
+                        
+                       <p> This TEI description is based on earlier cataloguing notes by KD Somadasa, published by Wellcome Collection,
+                        and updated cataloguing work and corrections contributed by members of ICTBUK.
+                        
+                        [Add line acknowledging Ven. Kohmale Kumara Kassapa Thero's contributions.]
+                        
+                        The TEI file itself is made available under a CC BY 4.0 license
+                        by Wellcome Collection, with the ICTBUK's agreement. </p>
+                    
+                        --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Sinhalese 326</idno>
+                        <!-- Use <altIdentifier> if former or alternative <idno> is available -->
+                        <altIdentifier type="Sierra">
+                            <idno>b14874866</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>බුද්ධවංශ දද්ශනාව හා අනාගතවංශ දද්ශනාව ත්‍රිපිටකදේ ඛුද්දක නිකායට අයත් බුද්ධවංස පාලිදයහි එයි. පාලි
+                            බුද්ධවංසය හා අනාගත වංසය ආශ්‍රය කරගනිමින් දගෞතම බුදුරජාණන් වහන්දේදේ බුද්ධචරිතය හා පරිණිර්වාණය
+                            පිළිබඳව සංහල භාෂාදවන් වර්ණනා කර ඇත. එදේම අනාගතදයහි පහල වනවා යැයි කියන මමත්‍රී නම් බුදුරජාණන්
+                            වහන්දේ පිළිබඳවත් ඒ බුද්ධ සාසනය පහලවන කාලදේ ඉපැදීමට දේතුවන කලයුතු වූ කුසලයන් පිලිබඳවද ඒ
+                            බුද්ධසාසනය පවතින කාලදේ උපදින්නට දනාහැකි වන අකුසල කර්ම පිළිබඳවත් විග්‍රහ වී ඇත. ශ්‍රී ලංකාදේ මකුලාන
+                            නම් විහාරයකදී දපාත ලියවී ඇත. දපාදත් කතුවරයා ශී රාදු නම් භික්ෂුන්වහන්දේ නමක්ෂ විසනි.
+                        
+                        Information provided by Ven. Kothmale Kumarakassapa Thero
+                        
+                        Paramaththa
+                        
+                        Paramaththa is a non-profit organisation based in Sri Lanka that is striving to develop and promote research and theological studies of
+                        Theravada Buddhism, positioning its secular and religious discourse within the context of contemporary society. Paramaththa is the
+                        platform of a forest monastery in North Central Sri Lanka that was established with the aspiration of sharing the sacerdotal Dhamma
+                        knowledge of the most venerable forest monks with the wider society.
+                        
+                        International Centre for Theravada Buddhism UK (ICTB UK)
+                        
+                        International Centre for Theravada Buddhism UK (ICTB UK) is a UK based non-profit organisation working with Theravada Buddhist monks
+                        in the world (specially in Sri Lanka), academics and scholars to provide a tangible communal platform to reinforce the practice of Theravada
+                        Buddhism in the UK. A large part of our organisation's mission is to initiate and prosper an effective repository of Theravada Buddhist texts,
+                        literature and cultural articles, and make them readily accessible to the public. We believe this will not only be of immense value to the
+                        practitioners and devotees of Theravada Buddhism, but also prove extremely beneficial to the broader artistic development of the Buddhist culture.</summary>
+                        
+                        <textLang mainLang="si"> Sinhala
+                            
+                        </textLang> 
+                        
+                        <msItem n="1" xml:id="MS_Sinhalese_326_1">
+                            
+                            <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
+                            <title xml:lang="si-Latn-x-lc"> <!-- Transliterated title --></title>
+                            <title xml:lang="si"> <!-- Sinhala title --> </title>
+                            <title xml:lang="en"> <!-- English translated title -->  </title>
+                            
+                            <!-- Use as needed, or delete -->
+                            <textLang mainLang=""><!-- Enter BCP 47 language code as attribute value and full language name here --></textLang>
+                            <textLang otherLangs=""><!-- Enter BCP 47 language code as attribute value and full language name here --></textLang>
+                            
+                            <incipit><!-- insert --> <locus>F. 19(ka)a</locus>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            <explicit><!-- insert --> <locus>F. 23(khṛ)a5</locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            <colophon><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </colophon>
+                            
+                            <filiation><!-- insert --></filiation>
+                            <note><!-- insert --></note>
+                            
+                            
+                        </msItem>
+                        
+                        <msItem n="2" xml:id="MS_Sinhalese_326_2">
+                            
+                            <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
+                            <title xml:lang="si-Latn-x-lc"> <!-- Transliterated title --></title>
+                            <title xml:lang="si"> <!-- Sinhala title --> </title>
+                            <title xml:lang="en"> <!-- English translated title -->  </title>
+                            
+                            <!-- Use as needed, or delete -->
+                            <textLang mainLang=""><!-- Enter BCP 47 language code as attribute value and full language name here --></textLang>
+                            <textLang otherLangs=""><!-- Enter BCP 47 language code as attribute value and full language name here --></textLang>
+                            
+                            <incipit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            <colophon><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </colophon>
+                            
+                            <filiation><!-- insert --></filiation>
+                            <note><!-- insert --></note>
+                            
+                            
+                        </msItem>
+                        
+                        <msItem n="3" xml:id="MS_Sinhalese_326_3">
+                            
+                            <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
+                            <title xml:lang="si-Latn-x-lc"> <!-- Transliterated title --></title>
+                            <title xml:lang="si"> <!-- Sinhala title --> </title>
+                            <title xml:lang="en"> <!-- English translated title -->  </title>
+                            
+                            <!-- Use as needed, or delete -->
+                            <textLang mainLang=""><!-- Enter BCP 47 language code as attribute value and full language name here --></textLang>
+                            <textLang otherLangs=""><!-- Enter BCP 47 language code as attribute value and full language name here --></textLang>
+                            
+                            <incipit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            <colophon><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </colophon>
+                            
+                            <filiation><!-- insert --></filiation>
+                            <note><!-- insert --></note>
+                            
+                            
+                        </msItem>
+                        
+                        <!-- Add <msItem> as needed, adding the @n and @xml:id attributes  -->
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <!-- Insert and delete as needed -->
+                        <objectDesc form="">
+                            
+                            <supportDesc material="palm leaf">
+                                
+                                <support>Palm leaf</support>
+                                <extent>Ff. 37; ka-gu
+                                    <dimensions unit="cm" type=""><!-- available from digitisation/conservation pre check notes, if not available in catalogue, first line in entry -->
+                                        
+                                        <dim type="diameter">4.9</dim>
+                                        <dim type="length">34.7</dim>
+                                        <!-- Add or delete dimensions as needed -->
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <note>Foliation sequences in Sinhala and Roman scripts on left-hand margin of recto folia.</note>
+                                </foliation>   
+                                
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                
+                                <layout writtenLines="6">
+                                    Six lines 29 cm long to a side.                                      
+                                </layout>
+                                
+                            </layoutDesc> 
+                            
+                            
+                        </objectDesc>
+                        <handDesc>
+                            <!-- Add or delete <handNote> elements as needed -->
+                            <handNote scope="sole">Clear hand by Ven. Śīrādunne; ශී රාදු නම් භික්ෂුන්වහන්දේ</handNote>
+                        </handDesc>
+                    </physDesc>
+                     
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Sri Lanka</country>,
+                                <region>Kurunegala District</region>,
+                                <settlement>Mawathagama</settlement>,
+                                <orgName>Makulana Temple, මකුලාන නම් විහාරය, ශ්‍රී ලංකාව</orgName>
+                            </origPlace>
+                            <origDate calendar="Gregorian">19 වැනි සයවස</origDate>
+                            <!-- use additional origPlace and origDate elements if necessary -->
+                        </origin>
+                        <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
+                        <!-- use additional provenance elements if necessary -->
+                        <acquisition><!-- insert --></acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <!-- insert text, if relevant -->
+                                    <bibl>
+                                        <title>Catalogue of the Sinhalese manuscripts in the Wellcome Institute for the History of Medicine, London</title>
+                                        <author>K.D. Somadasa</author>
+                                        <publisher>Wellcome Trust</publisher>
+                                        <date>1996</date>
+                                    </bibl>
+                                    <!--  Might include link to addtional catalogues currently on 3rd floor  -->
+                                </source>
+                            </recordHist>
+                            <availability status=""><p> <!-- Insert if relevant --></p></availability> 
+                        </adminInfo>
+                        <!-- Enter bibliographical info, if needed -->
+                        <listBibl>
+                            <!-- a number of listBibl elements can be nested inside an outer listBibl if required -->
+                            <head><!-- use to provide a heading if required, otherwise delete --></head>
+                            <bibl><!-- insert bibliography, links to online resource, etc., otherwise delete--></bibl>
+                        </listBibl>
+                        
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <revisionDesc>
+            <change when=""><!-- Make an entry to record the creation of the file, and then a new <change> for every later edit --></change>
+            <change when="<!-- add date when template complete -->" who="MM""AP""AP">Created template for Wellcome and ICTBUK Sinahalese manuscript project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
