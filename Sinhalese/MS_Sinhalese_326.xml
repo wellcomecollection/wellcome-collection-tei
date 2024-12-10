@@ -10,7 +10,7 @@
             <titleStmt>
                 <title></title>
                 <title type="collection">Wellcome Collection</title>
-                <respStmt xml:id="">
+                <respStmt xml:id="KDS">
                     <resp when="1996">Cataloguer</resp>
                     <persName>KD Somadasa</persName>
                 </respStmt>
@@ -31,16 +31,12 @@
                     <persName>Lara Salha</persName>
                 </respStmt>
                 <respStmt xml:id="AP">
-                    <resp when="<!-- add date when template finished -->">Template</resp>
+                    <resp when="2024">Template</resp>
                     <persName>Amila Perera</persName>
                 </respStmt>
                 <respStmt xml:id="MJ">
-                    <resp when="<!-- add date when template finished -->">Template</resp>
+                    <resp when="2024">Template</resp>
                     <persName>Madhurika Jayawardana</persName>
-                </respStmt>
-                <respStmt xml:id="">
-                    <resp when="">TEI Encoder</resp>
-                    <persName><!-- Insert name of person creating record --></persName>
                 </respStmt>
                 <!-- Add another <respStmt> for every resp -->
             </titleStmt>
@@ -207,13 +203,13 @@
                     
                     <physDesc>
                         <!-- Insert and delete as needed -->
-                        <objectDesc form="">
+                        <objectDesc form="other">
                             
-                            <supportDesc material="palm leaf">
+                            <supportDesc material="other">
                                 
                                 <support>Palm leaf</support>
                                 <extent>Ff. 37; ka-gu
-                                    <dimensions unit="cm" type=""><!-- available from digitisation/conservation pre check notes, if not available in catalogue, first line in entry -->
+                                    <dimensions unit="cm" type="leaf"><!-- available from digitisation/conservation pre check notes, if not available in catalogue, first line in entry -->
                                         
                                         <dim type="diameter">4.9</dim>
                                         <dim type="length">34.7</dim>
@@ -291,8 +287,8 @@
         </fileDesc>
         
         <revisionDesc>
-            <change when=""><!-- Make an entry to record the creation of the file, and then a new <change> for every later edit --></change>
-            <change when="<!-- add date when template complete -->" who="MM""AP""AP">Created template for Wellcome and ICTBUK Sinahalese manuscript project.</change>
+            <change when="2024" who="LS""AP">Populated template from Ven. Kothmale Kumarakassapa Thero's cataloguing notes.</change>
+            <change when="2024" who="MM""AdP""AP">Created template for Wellcome and ICTBUK Sinahalese manuscript project.</change>
         </revisionDesc>
         
     </teiHeader>    
