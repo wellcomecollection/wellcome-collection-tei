@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15788">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 143</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 143</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 143</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 143</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295558</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno><!-- Insert accession number here if found on manuscript --></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A lexicon for explanation and correct pronounciation of medical terms. This manuscript appears to be an original copy written by ah-Harawi. A.Z. Iskandar believes this manuscript was never published by the author as his most well-known manusctipt, bahr al-jawahir, was published 26 years after this one. They are two different manuscripts that have been mistakenly assumed to be the same in the past. Further details on this can be found on pages 68-69 of A.Z. Iskandar's catalogue "A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library".</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_143">
+                            
+                            <author key="person_59391721">
+                                <persName xml:lang="eng" type="standard">Muhammad ibn Yūsuf al-tabib al-Harawī</persName>
+                                <persName xml:lang="ar" type="original">محمد بن يوسف الطبيب الهروي</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">جواهر اللغة</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Jawahir al-Lugha</title>
+                            <title xml:lang="en" type="standard">Gems of the language</title>
+                            
+                            <textLang otherLangs="fa">Persian</textLang>
+                            
+                            <incipit>
+                                ...أما بعد فقد كنت مولعاً بأن نكون كتاباً مؤلفاً محتصراً حواباً لحل الألفاظ التي نستعمل في فن الطبّ في علم الأدوية والاصطلاحات التي نتداول في فن الطبّ من الأغذية...
+                            </incipit>
+                            
+                            <explicit>
+                                .قال الشيخ وقوم يسمونه الوثي...
+                                .وإذا كان أذى لم يُخرِج العظم لكنه رضّ ما يحيط به فهو الوهن
+                                ...قد فرغ من تحريره مؤلّفه العبد محمد بن يوسف في سنة ثمان وتسعين وثمانمائة
+                            </explicit>
+                            
+                            
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">140mm</dim>
+                                        <dim type="length">215mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">55mm</dim>
+                                        <dim type="length">125mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 71 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>B. Clear conservation work done.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="17">17</layout>
+                                <layout><!-- Add any information on ruling (this might be included in under words like mistara/mastara --></layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="nastaliq" scope="major">
+                                <p><label>Script:</label> Nastaliq</p>
+                                <p><label>Ink:</label> Black and red</p>
+                                <p><label>Scribe:</label></p>
+                            </handNote>
+                            <handNote>Fol 1b appears to be written by another hand while the rest of the manuscript is written by the author.</handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications in red</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">898 A.H.</origDate>
+                            <origDate calendar="Gregorian">1492 A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            <!-- Insert acquisition information here, e.g Sotheby's lot 486 (22/21.11.85) -->
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 115.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
