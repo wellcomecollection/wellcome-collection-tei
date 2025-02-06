@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15799">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 155</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 155</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 155</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 155</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295613</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>65253</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A complete copy of the Canon of Medicine by Avicenna. Transcribed in Isfahan.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        
+                        <msItem n="1" xml:id="WMS_Arabic_155_1">
+                            <locus>Incipit found on folio 1b. Explicit found on folio 122a.</locus>
+                            <author key="person_89770781">
+                                <persName xml:lang="eng" type="standard">Avicenna, 980-1037</persName>
+                                <persName xml:lang="ar" type="original">ابن سینا</persName>
+                            </author>
+                            <title>Book 1</title>
+                            <incipit>
+                                ...الحمد لله حمداً يستحقه بعلو شأنه وسبوغ إحسانه
+                            </incipit>
+                            
+                            <explicit>
+                                ...فليكون هذا القدر من كلامنا المختصر في الأصول الكلّية لصناعة الطبّ كافياً ولنأخذه في تصنيف كتابا في الأدوية المفردة...
+                                ...تم الكتاب الأول من كتاب القانون في الطبّ ولله الحمد
+                            </explicit>
+                            
+                        </msItem>
+                        
+                        <msItem n="2" xml:id="WMS_Arabic_155_2">
+                            <locus>Incipit found on folio 127b. Explicit found on folio 217a.</locus>
+                            <author key="person_89770781">Avicenna</author>
+                            <title>Book 2</title>
+                        
+                            <incipit>
+                                .فإن هذا الكتاب هو ثاني الكتب التي صنفنها في الطبّ التي الأول منها في الأحكام الكليّة من الطبّ وقد فرغنا عنه...
+                                .والثاني منها هو هذا الكتاب المجموع في الأدوية المفردة
+                                ...وقسمنا هذا الكتاب مقالتين الأولى منهما في القوانين الطبيعية التي يجب أن تعرف من أمر الطبّ والثانية منهما في قوى الأدوية الجزئية المفردة
+                            </incipit>
+                            
+                            <explicit>
+                                .غوشنة...
+                                .الماهية جنس من الكمأة أو الفطر يجف فينضم كغضروف
+                                .شكله شكل كأس صغيرة متشنجة
+                                .يغسل به الثياب ويؤكل
+                                .في الحموضات وله لذة كلذة الحموضات وأكثر
+                                .الطبع ليس في برد سائر المأة ليس بدريء الخلط كالمأة
+                                .وكأن في طبعه تخمير ما وقلوس
+                                .تم الكتاب الثاني من كتب القانون
+                            </explicit>
+                        </msItem>
+                        
+                        <msItem n="3" xml:id="WMS_Arabic_155_3">
+                            <locus>Incipit found on folio 218b. Explicit found on folio 497a.</locus>
+                            <author key="person_89770781">Avicenna</author>
+                            <title>Book 3</title>
+                            
+                            <incipit>
+                                .قال جالنيوس إنّ الغرض في خلفة الرأس ليس هو الدماغ ولا السمع ولا الشم ولا الذوق ولا اللمس...
+                                ...فإنّ هذه الأعضاء موجودة في الحيوان العديم الرأس
+                            </incipit>
+                            
+                            <explicit>
+                                .في انفتاح الأظفار والحكمة فيها يعالج بماء البحر غسلاً دائما فيزول أو بطبيخ العدس والكرنسة أو بطبيخ الخنثى...
+                                . ومن أضمدته البلبوس والزفت والتين المطبوخ مجموعة وفرادى
+                                .والله أعلم
+                            </explicit>  
+                            
+                        </msItem>
+                        
+                        <msItem n="4" xml:id="WMS_Arabic_155_4">
+                            <locus>Incipit found on folio 498b. Explicit found on folio 640a.</locus>
+                            <author key="person_89770781">Avicenna</author>
+                            <title>Book 4</title>
+                            
+                            <incipit>
+                                ...والحمى حرارة غربية تشتعل في القلب وتنبثّ منه بتوسط الروح والدم في الشرايين والعروق في جميع البدن فيشتعمل اشتعالا يضر بالأفعال الطبيعة لا كحرارة الغضب والتعب 
+                            </incipit>
+                            
+                            <explicit>
+                                .فيهيج وجع عظيم أعظم من الداحس...
+                                .بل عطه به وانطل على الظفر الماء والدهن الفاتر
+                                .وضع عليه من بعد وبآخره مرهم الباسليقون
+                                ...تم كتاب الزينة وبتمامه تم الكتاب الرابع من كتب القانون
+                            </explicit>  
+                            
+                        </msItem>
+                        
+                        <msItem n="5" xml:id="WMS_Arabic_155_5">
+                            <locus>Incipit found on folio 642 and explicit found on folio 684.</locus>
+                            <author key="person_89770781">Avicenna</author>
+                            <title>Book 5</title>
+                            
+                            <incipit>
+                                .لقد فرغنا في الكتب الأربعة عن ذكر جلّ العلم النظري والعلمي الحافظ للصحة والعملي المعيد للصحة...
+                                ...وحان لنا أن نختتم كتاب القانون بالكتاب الخامس المنصف في الأدوية المركبة ليكون كالرانبادين للكتاب
+                            </incipit>
+                            
+                            <explicit>
+                                .كل أوثولو ثلاثة قرايط...
+                                .كل قيراط أربع شعيرات
+                                .الثلاثة أوثولات تسعة قراريط
+                                .القوانوس أقوية ونصف
+                                .القوانوسان ثلاث أواق
+                                .ثمانية أوثولو أربعة وعشرون قيراطاً
+                                ...تم تنميق الكتاب الخمسة من الكتاب
+                            </explicit>  
+                            
+                        </msItem>
+     
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">165mm</dim>
+                                        <dim type="length">265mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">100mm</dim>
+                                        <dim type="length">195mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 684 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>B. Some repare work done. Some colour run and a bit of staining. Otherwise great condition.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="25">25</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="nastaliq" scope="major">
+                                <p><label>Script:</label> Nastaliq</p>
+                                <p><label>Ink:</label> Black and red</p>
+                                <p><label>Scribe:</label></p>
+                                <persName xml:lang="eng" type="standard">Ni'mat-Allah</persName>
+                                <persName xml:lang="ar" type="original">نعمة الله</persName>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications present throughout in red.</decoNote>
+                            <decoNote>Seals can be seen printed on pages. Each one of the five books has a gilded first page with attractive scenes on each of the lacquered papier-mache boards, as well as anatomical drawings on folios 123-126.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">1042 A.H.</origDate>
+                            <origDate calendar="Gregorian">1632 A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            Bought in Cairo in 1932 through Capt Saint from Khaniam Brothers for £65.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 156-158.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
