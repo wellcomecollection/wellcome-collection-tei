@@ -23,6 +23,7 @@
   * [Visual material or manuscript?](manuscript-inventory/phase-2/visual-material-or-manuscript.md)
   * [Sensitivity](sensitivity.md)
   * [Imports](additional-inventory/imports.md)
+  * [Fragments](additional-inventory/fragments.md)
 * [FrontEnd](frontend/README.md)
   * [TEI cataloguing mapping](frontend/draft.md)
 * [TEI Manual](tei-manual.md)
