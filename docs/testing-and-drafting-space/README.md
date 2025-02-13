@@ -78,4 +78,13 @@ You can find us near Euston station in London. Our exhibitions and events are al
 
 We’re part of [Wellcome](https://wellcome.org/), a charitable foundation supporting science to help build a healthier future for everyone.
 
+
+
+## Images
+
+It's possible to add images.
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-02-13 at 14.53.19.png" alt="A photo of the front of Wellcome Collection" width="375"><figcaption><p>A screenshot of Wellcome Collection.</p></figcaption></figure>
+
 ***
+
