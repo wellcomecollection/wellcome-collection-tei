@@ -23,6 +23,8 @@ These are our aims:
 
 
 
+<img src="../.gitbook/assets/file.excalidraw.svg" alt="A simple drawing" class="gitbook-drawing">
+
 
 
 | Needs to be done | Due Date         | Responsibility |
