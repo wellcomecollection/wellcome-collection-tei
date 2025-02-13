@@ -13,6 +13,14 @@ Wellcome Collection opened in 2007. We care for many thousands of items relating
 {% tabs %}
 {% tab title="This is a test" %}
 * Let's see if this works.
+
+| This is a table | This is a column | This is a row |
+| --------------- | ---------------- | ------------- |
+|                 |                  |               |
+|                 |                  |               |
+|                 |                  |               |
+
+
 {% endtab %}
 
 {% tab title="This is also a test" %}
