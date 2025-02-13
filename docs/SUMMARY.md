@@ -32,4 +32,6 @@
   * [Creating a TEI record from a Sierra source](manuscript-cataloguing-workflows/creating-a-tei-record-from-a-sierra-source.md)
   * [Creating a minimum viable catalogue record for new acquisitions](manuscript-cataloguing-workflows/creating-a-minimum-viable-catalogue-record-for-new-acquisitions.md)
 * [Instructions\_for\_TEI\_transformation\_scenario\_Mar24](instructions_for_tei_transformation_scenario_mar24.md)
-* [Testing and drafting space](testing-and-drafting-space.md)
+* [Testing and drafting space](testing-and-drafting-space/README.md)
+  * [Rada's experimental space](testing-and-drafting-space/radas-experimental-space.md)
+  * [Nicholas's experimental space](testing-and-drafting-space/nicholass-experimental-space.md)
