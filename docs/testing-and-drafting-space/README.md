@@ -20,6 +20,22 @@ These are our aims:
 
 * [ ] Check for account authorities
 
+
+
+{% tabs %}
+{% tab title="First Tab" %}
+This is the tab function
+{% endtab %}
+
+{% tab title="Second Tab" %}
+It's handy for adding tabs
+{% endtab %}
+
+{% tab title="Untitled" %}
+If you like using tabs.
+{% endtab %}
+{% endtabs %}
+
 ## Wellcome Collection
 
 Wellcome Collection is a free museum and library. &#x20;
