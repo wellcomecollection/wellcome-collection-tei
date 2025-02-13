@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15822">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 175</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 175</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 175</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 177</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295777</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>36519</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A manuscript on alchemy, specifically commentary on knowledge acquired concerning the cultivation of gold.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_175">
+                            
+                            <author key="person_42233258">
+                                <persName xml:lang="eng" type="standard">Aidamur b. Ali b. Aidamur al-Jildaki 'Izzaddin (d.743/1342)</persName>
+                                <persName xml:lang="ar" type="original">أيدمر ابن علي ابن أيدمر الجلدكي عز الدين</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">نهاية الطلب في شرح المكتسب في زراعة الذهب</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Nihayat al-Talab fi Sharh al-Muktasab fi zira'at al-dhahab</title>
+                            <title xml:lang="en" type="standard">End of the search, a commentary on 'Knowledge acquired concerning the cultivation of gold'</title>
+
+                            <incipit>
+                                ...قال...
+                                ...عز الدين أيدمر بن على بن أيدمر الجلدكى السكندري
+                                ...وبعد فإنه بتوفيق البارىء تعالى تسير لنا حل مشاكله الأوائل وما نقل إلى أساطين الحكمة الأفاضل في الحكمة الإلهية والصناعة الفلسفية بعد سلوك طريق الطلب والتشمير عن ساق العزم
+                                .فوضعنا لهم كتابا الموسم ببغية الخبير في قانون طلب الإكسير لأن الطالب لابد له أن يعرف طريق الطلب بقانون يستند فكره إليه...
+                                .ثم وضعنا مصحفنا المسمى بالشمس المنير في تحقيق الإكسير
+                                ...ثم وضعنا كتابنا هذا المسمى بنهاية الطلب في شرح المكتسب
+                            </incipit>
+                            
+                            <explicit>
+                                .طلبة الحكمة وأعرض عن الجاهلين ,اظهر نعمة الله عليك...
+                                ...وكن من أهل الصيانة لسر الله تعالى تكتب من الفائزين وتضرّع إلى الله تعالى في كل حال واعلم بأن الدنيا إلى زوال والله هو المسؤول أن يوفقنا لما يرضيه في الدنيا والآخرة
+                                ...وقد آن لنا أن نختم السفر الأول من الكتاب
+                            </explicit>
+
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">150mm</dim>
+                                        <dim type="length">200mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">110mm</dim>
+                                        <dim type="length">165mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 112 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>C. Slightly wormed.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="25">25</layout>
+                                <layout><!-- Add any information on ruling (this might be included in under words like mistara/mastara --></layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label>Black and red</p>
+                                <p><label>Scribe:</label></p>
+                                <persName xml:lang="eng" type="standard">'Abd al-Fattah ibn Shams-addin</persName>
+                                <persName xml:lang="ar" type="original">عبد الفتاح ابن شمس الدين</persName>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications found throughout in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>Leather binding with flap.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">1019 A.H.</origDate>
+                            <origDate calendar="Gregorian">1619 A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: Ahmad ar-Rifai'i, dated 1045 A.H./1635 A.D.
+                        </provenance>
+                        <acquisition>
+                            Bought by "H.S.W." (Henry Solomon Wellcome) in Tangiers, Morocco in 1915.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 155-156.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
