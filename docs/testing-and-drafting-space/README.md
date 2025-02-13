@@ -23,6 +23,16 @@ These are our aims:
 
 
 {% tabs %}
+{% tab title="Be aware" %}
+Be aware of tabs
+{% endtab %}
+
+{% tab title="Be unaware" %}
+Of everything else
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
 {% tab title="First Tab" %}
 This is the tab function
 {% endtab %}
