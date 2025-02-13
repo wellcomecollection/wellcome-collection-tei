@@ -19,8 +19,17 @@ These are our aims:
 |            |                       |   |
 
 * [ ] Check for account authorities
+* [ ] Keep checking
 
 
+
+
+
+| Needs to be done | Due Date         | Responsibility |
+| ---------------- | ---------------- | -------------- |
+| Checking Gitbook | End of the month | Adrian         |
+|                  |                  |                |
+|                  |                  |                |
 
 {% tabs %}
 {% tab title="Be aware" %}
