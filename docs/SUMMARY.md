@@ -33,6 +33,7 @@
   * [Creating a minimum viable catalogue record for new acquisitions](manuscript-cataloguing-workflows/creating-a-minimum-viable-catalogue-record-for-new-acquisitions.md)
 * [Instructions\_for\_TEI\_transformation\_scenario\_Mar24](instructions_for_tei_transformation_scenario_mar24.md)
 * [Testing and drafting space](testing-and-drafting-space/README.md)
-  * [Rada's experimental space](testing-and-drafting-space/radas-experimental-space.md)
+  * [Rada's experimental space](testing-and-drafting-space/radas-experimental-space/README.md)
+    * [Homework](testing-and-drafting-space/radas-experimental-space/homework.md)
   * [Nicholas's experimental space](testing-and-drafting-space/nicholass-experimental-space/README.md)
     * [Drafting for Gitbook](testing-and-drafting-space/nicholass-experimental-space/drafting-for-gitbook.md)
