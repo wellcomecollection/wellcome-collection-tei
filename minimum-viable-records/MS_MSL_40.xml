@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_MSL_40">
+
+    <teiHeader>
+    
+    <fileDesc>
+        
+        <titleStmt>
+            <title>MS.MSL.40</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="AP">
+                <resp when="2020-10-05">Template</resp>
+                <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="VS">
+                <resp when="2025-02-17">TEI Encoder</resp>
+                <persName>Victoria Sloyan</persName>
+            </respStmt>
+        </titleStmt>
+        
+        <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+                <orgName type="institution">Wellcome Collection</orgName>
+                <street>215 Euston Rd</street>
+                <settlement>London</settlement>
+                <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+                <email>library@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS.MSL.40</idno>
+            <idno type="catalogue">Manuscripta medica. A descriptive catalogue of the manuscripts in the Library of the Medical Society of London</idno>
+            <availability>
+                <licence><!-- Licensing statement to come in late-stage editing --></licence>
+            </availability>
+        </publicationStmt>
+        
+        <sourceDesc>
+            
+            <msDesc>
+                
+                <msIdentifier>
+                    <country>United Kingdom</country>
+                    <settlement>London</settlement>
+                    <institution>Wellcome Collection</institution>
+                    <repository>Wellcome Library</repository>
+                    <idno type="shelfmark">MS.MSL.40</idno>
+                    <altIdentifier type="Sierra">
+                        <idno>b19547249</idno>
+                    </altIdentifier>
+                </msIdentifier>
+                
+                <msContents>
+                  
+                    <summary>Notes on the lectures of John Hunter, with the body of the lecture text on the recto, and notes on the verso of the pages. The substance of the lectures has been 
+                        epitomized into a series of 1758 numbered aphorisms.</summary>
+                   
+                    <textLang mainLang="en" source="IANA">English</textLang>
+                    
+                </msContents>
+                
+                <physDesc>
+                    <objectDesc form="codex">
+                       
+                        <supportDesc material="paper">
+                                                    
+                            <support>
+                            </support>
+                            <extent>Two quarto volumes 
+                                <dimensions unit="mm" >
+                                    <dim type="diameter">160</dim>
+                                    <dim type="length">200</dim>
+                                </dimensions>
+                            </extent>
+                        </supportDesc>
+                    
+                    </objectDesc>
+                </physDesc>
+                
+                <history>
+                    <origin>
+                        <origDate calendar="Gregorian" notBefore="1745">18th century</origDate>
+                    </origin>
+                    <provenance calendar="Gregorian" notBefore="1738" notAfter="1816">It is possible that the book may have belonged to Isaac Henrique Sequira, M.D., L.R.C.P., born in Lisbon, 1738, died in London, 1816, and that the initials are his.</provenance>
+                    <acquisition notAfter="1932">Purchased by the Wellcome Historical Medical Library.</acquisition>
+                </history>
+                
+                <additional>
+                    <adminInfo>
+                        <recordHist>
+                            <source>
+                                <bibl>
+                                    <title>'Manuscripta medica. A descriptive catalogue of the manuscripts in the Library of the Medical Society of London'</title>
+                                    <author>Warren R. Dawson</author>
+                                    <pubPlace>London</pubPlace>
+                                    <date>1932</date>
+                                </bibl>
+                            </source>
+                        </recordHist>
+                        <availability status=""><p> <!-- Insert if relevant --></p>
+                        </availability> 
+                    </adminInfo>
+                </additional>
+                
+                <msPart n="1" xml:id="MS_MSL_40_A">
+                    <msIdentifier>
+                        <idno>MS.MSL.40.A</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>First volume containing lectures 1 to 11</summary>
+                            
+                        <msItem n="1" xml:id="MS_MSL_40_A_1">
+                            <locus from="1" to="3">folios 1 to 3</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Introduction</title>
+                            <note>
+                                <p>A transcript of Hunter's words, in the first person, ending with the (copy) signature J. HUNTER.</p>
+                            </note>         
+                        </msItem>
+                        
+                        <msItem n="2" xml:id="MS_MSL_40_A_2">
+                            <locus from="4" to="7">folios 4 to 7. Aphorisms 1-21</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Rationale of Surgery</title>       
+                        </msItem>
+                        
+                        <msItem n="3" xml:id="MS_MSL_40_A_3">
+                            <locus from="7" to="7">folio 7. Aphorisms 22-23 </locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Fermentation of Animals</title>     
+                        </msItem>
+                        
+                        <msItem n="4" xml:id="MS_MSL_40_A_4">
+                            <locus from="7" to="10">folios 7 to 10. Aphorisms 24-38</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Principles of Life</title>       
+                        </msItem>
+                        
+                        <msItem n="5" xml:id="MS_MSL_40_A_5">
+                            <locus from="10" to="11">folios 10 to 11. Aphorisms 39-43</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Actions of Animals</title>       
+                        </msItem>
+                        
+                        <msItem n="6" xml:id="MS_MSL_40_A_6">
+                            <locus from="11" to="12">folios 11 to 12. Aphorisms 44-48</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>The Stomach</title>
+                        </msItem>
+                        
+                        <msItem n="7" xml:id="MS_MSL_40_A_7">
+                            <locus from="14" to="17">folios 14 to 17. Aphorisms 49-68</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>The Vascular System</title>       
+                        </msItem>
+                        
+                        <msItem n="8" xml:id="MS_MSL_40_A_8">
+                            <locus from="17" to="89">folios 17 to 89. Aphorisms 69-481</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Brain and Nerves</title>
+                            <note>
+                                <p>From this point the headings are discontinued, and the text proceeds continuously. The aphorisms summarize Hunter's general views on physiology and disease. This ends the First Part.</p>
+                            </note>         
+                        </msItem>
+                        
+                        <msItem n="9" xml:id="MS_MSL_40_A_9">
+                            <locus from="90" to="108">folios 90 tp 108. Aphorisms 482-569</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Illustration of the Doctrines contained in the First Part</title>      
+                        </msItem>
+                        
+                        <msItem n="10" xml:id="MS_MSL_40_A_10">
+                            <locus from="108" to="135">folios 108 to 135. Aphorisms 570-723</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Surgery: Fractures</title>
+                        </msItem>
+                        
+                        <msItem n="11" xml:id="MS_MSL_40_A_11">
+                            <locus from="135" to="156">folios 135 to 156. Aphorisms 724-847</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Surgery: Fractures</title>
+                            <note>
+                                <p>Followed by an index for the first volume, folios 157-158.</p>
+                            </note>         
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>
+
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="paper">
+                                
+                                <support>
+                                    Quarto (4to) volume
+                                </support>
+                                <extent>158 folios
+                                    <dimensions unit="mm" >
+                                        <dim type="diameter">160 mm</dim>
+                                        <dim type="length">200 mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                            </supportDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="sole">The handwriting is neat and careful throughout.</handNote>
+                        </handDesc>
+                        
+                        <additions><p>Has "Hunters Lectures" inscribed on flyleaf and bears the initials J. H. S. or I. H. S., though they are not necessarily those of the writer.</p></additions>
+                        
+                        <bindingDesc>
+                            <binding><p>Modern binding</p></binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    
+                </msPart>
+                
+                <msPart n="2" xml:id="MS_MSL_40_B">
+                    <msIdentifier>
+                        <idno>MS.MSL.40.B</idno>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Second volume containing lectures 12 to 15.</summary>
+                            
+                        <msItem n="1" xml:id="MS_MSL_40_B_1">
+                            <locus from="1" to="12">folios 1 to 12. Aphorisms 848-917</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Clinical and Surgical Aphorisms, particularly in regard to arteries, aneurisms and wounds</title>        
+                        </msItem>
+                        
+                        <msItem n="2" xml:id="MS_MSL_40_B_2">
+                            <locus from="13" to="60">folios 13 to 60. Aphorisms 918-1238</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Surgical treatment of injuries or diseases that cannot be cured by nature</title>     
+                        </msItem>
+                        
+                        <msItem n="3" xml:id="MS_MSL_40_B_3">
+                            <locus from="61" to="143">folios 61 to 143. Aphorisms 1240-1758</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Venereal Diseases</title>     
+                        </msItem>
+                        
+                        <msItem n="4" xml:id="MS_MSL_40_B_4">
+                            <locus from="144" to="145">folios 144 to 145</locus>
+                            <author key="person_100368494" source="VIAF">
+                                <persName>John Hunter</persName></author>
+                            <title>Revival of Drowned Persons</title>
+                            <note>
+                                <p>Abstract of John Hunter's memoir in the Philosophical Transactions of the Royal Society, Vol. lxvi [1776].</p>
+                                <p>Followed by an index for the second volume, folio 146.</p>
+                            </note>         
+                        </msItem>
+                            
+                    </msContents>
+                    
+                    <physDesc>
+                        
+                        <objectDesc form="codex">
+                            
+                            <supportDesc material="paper">
+                                
+                                <support>
+                                    Quarto (4to) volume
+                                </support>
+                                <extent>146 folios
+                                    <dimensions unit="mm" >
+                                        <dim type="diameter">160 mm</dim>
+                                        <dim type="length">200 mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                            </supportDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="sole">The handwriting is neat and careful throughout.</handNote>
+                        </handDesc>
+                        
+                        <additions><p>The initials J. H. S. or I. H. S. are inscribed on the flyleaf, though they are not necessarily those of the writer.</p></additions>
+                        
+                        <bindingDesc>
+                            <binding><p>Modern binding</p></binding>
+                        </bindingDesc>
+                        
+                    </physDesc>
+                    
+                </msPart>
+                
+                
+            </msDesc>
+        
+        </sourceDesc>
+    
+    </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">Medical Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#MESH">
+                    <list>
+                        <item facs="MS_MSL_40">
+                            <term ref="subject_D004194">Disease</term>
+                            <term ref="subject_D013502">General Surgery</term>
+                        </item>
+                        <item facs="MS_MSL_40_A_7">
+                            <term ref="subject_D001775">Blood Circulation</term>
+                        </item>
+                        <item facs="MS_MSL_40_A_8">
+                            <term ref="subject_D009462">Neurology</term>
+                            <term ref="subject_D000783">Aneurysm</term>
+                        </item>
+                        <item facs="MS_MSL_40_A_11">
+                            <term ref="subject_D014947">Wounds and Injuries</term>
+                        </item>
+                        <item facs="MS_MSL_40_B_3">
+                            <term ref="subject_D012749">Sexually Transmitted Diseases</term>
+                        </item>
+                        <item facs="MS_MSL_40_B_4">
+                            <term ref="subject_D012151">Resuscitation</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+    
+        <revisionDesc>
+          <change when="2025-02-17" who="#VS">Populated template.</change>
+          <change when="2020-06-01" who="#AP">Created multipart template for Wellcome Greek MSS project.</change>
+        </revisionDesc>
+
+    </teiHeader>    
+
+    <facsimile>
+        <surface></surface>
+
+    </facsimile>    
+
+    <text>
+    <body>
+        <p></p>
+        <!-- For future full transcription -->
+    </body>
+
+    </text>    
+
+</TEI>
