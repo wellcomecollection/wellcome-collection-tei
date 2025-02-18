@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15826">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 181</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 181</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 181</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 181</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295819</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno><!-- Insert accession number here if found on manuscript --></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A medical dictionary. Neither book title or author's name appears in the manuscript.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_181">
+                            
+                            <author key="person_59391721">
+                                <persName xml:lang="eng" type="standard">Muḥammad ibn Yūsuf al-Harawī</persName>
+                                <persName xml:lang="ar" type="original">محمد بن يوسف الهروي</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">بحر الجواهر</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Bahr al-Jawahir</title>
+                            <title xml:lang="en" type="standard">Sea of gems</title>
+                            
+                            <incipit>
+                                .أضعاث أحلام خوابهاى شوريده...
+                                ...الآكلة هي تعفن وتآكل يعرض فى الأععضاء
+                            </incipit>
+                            
+                            <explicit>
+                                .والذره بضم الذال وفتح الراء المخففة هى الجاورس...
+                            </explicit>
+
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">150mm</dim>
+                                        <dim type="length">260mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">80mm</dim>
+                                        <dim type="length">150mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 106 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>C. Good condition, some staining and brittle edges.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="15">15-19</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="nastaliq" scope="major">
+                                <p><label>Script:</label> Nastaliq</p>
+                                <p><label>Ink:</label> Black and Red</p>
+                                <p><label>Scribe:</label></p>
+                                <persName xml:lang="eng" type="standard"></persName>
+                                <persName xml:lang="ar" type="original"></persName>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication"></decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Undated. Estimated 13th century A.H.</origDate>
+                            <origDate calendar="Gregorian">Undated. Estimated 19th century A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            <!-- Insert acquisition information here, e.g Sotheby's lot 486 (22/21.11.85) -->
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 88.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
