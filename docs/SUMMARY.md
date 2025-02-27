@@ -24,6 +24,7 @@
   * [Sensitivity](sensitivity.md)
   * [Imports](additional-inventory/imports.md)
   * [Fragments](additional-inventory/fragments.md)
+  * [Audit and location sampling](additional-inventory/audit-and-location-sampling.md)
 * [FrontEnd](frontend/README.md)
   * [TEI cataloguing mapping](frontend/draft.md)
 * [TEI Manual](tei-manual.md)
