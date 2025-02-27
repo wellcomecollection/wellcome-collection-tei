@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15836">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 191</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 191</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 191</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 40b</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b14832380</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>66361</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Book I of one of the most important medical manuscripts from the 10th century by Iranian physician 'Ali ibn al-'Abbas al-Majusi. Includes ten treatises.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_191">
+                            
+                            <author key="person_9955882">
+                                <persName xml:lang="eng" type="standard">ʻAlī ibn al-ʻAbbās, al-Majūsī al-Arrajānī, m. 994 (also known as Haly Abbas)</persName>
+                                <persName xml:lang="ar" type="original">علي بن عباس المجوسي</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">كامل الصناعة الطبية</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Kamil sina'a al-tibbiyyah</title>
+                            <title xml:lang="en" type="standard">The Complete Book of the Medical Art</title>
+                            
+                            <note>The book is also famously known as "The Royal Book" (الكتاب الملكي).</note>
+                            
+                            <incipit>
+                                ...المقالة الأولى من كتب كامل الصناعة المعروف بالملكى تأليف أبى الحسن على ابن العباس المتطبب المجوسى تلميذ أبى ماهر موسى بن سيار للملك...
+                                ...عضد الدولة
+                            </incipit>
+                            
+                            <explicit>
+                                فهذا ما أردنا أن نبيّن من أمر العلامات المنذرة...
+                                ...وهو تمام الجزء الأول من كتابنا هذا
+                                ...وقد تمت المقالة العاشرة من كتاب كامل الصناعة الطبيّة
+                            </explicit>
+  
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">153mm</dim>
+                                        <dim type="length">280mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">110mm</dim>
+                                        <dim type="length">215mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 434 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="19">19</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="nastaliq" scope="major">
+                                <p><label>Script:</label> Nastaliq</p>
+                                <p><label>Ink:</label><!-- Insert information relating to ink and colour etc. here --></p>
+                                <p><label>Scribe:</label></p>
+                                <persName xml:lang="eng" type="standard">Muhammad Asad</persName>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Index of contents.</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">1272 A.H.</origDate>
+                            <origDate calendar="Gregorian">1855 A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>
+                        </provenance>
+                        <acquisition>
+                            Bought from Dahdah Mousalli in Damascus, Syria through Capt. Saint. Bought in 29 November 1933. Bought alongside 60 manuscripts for a total of £40.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 119.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
