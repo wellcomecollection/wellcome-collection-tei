@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15845">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 200</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 200</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 200</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 10b</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295984</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>45824</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>An abstract of Ibn Sina's (Avicenna) Canon of Medicine.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_200">
+                            
+                            <author key="person_17316331">
+                                <persName xml:lang="eng" type="standard">'Ala-addin Abu-l-Hasan 'Ali ibn Abi-al-Hazm al-Qurashi ibn al-Nafis</persName>
+                                <persName xml:lang="ar" type="original">علاء الدين أبو الحسن علي ابي الحزم القَرشي ابن النفيس</persName>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">موجز القانون</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Mujiz al-Qanun</title>
+                            <title xml:lang="en" type="standard">Abstract of the Canon</title>
+                            
+                            <incipit>
+                                ...قال
+                                .أبو الحسن على بن حزم القرشى المتطبب قد رتبت هذا الكتاب على أربعة فنون
+                                ...الفن الأول فى قواعد جزءى الطبّ أعنى علمية وعملية بقول كلّى
+                            </incipit>
+                            
+                            <explicit>
+                                .وكان تدبيرهم واحداً واستعملوا دواء جالنيوس وغيره من العلاج المذكور...
+                                ...فلنختتم الكتاب
+                            </explicit>
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">145mm</dim>
+                                        <dim type="length">215mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">85mm</dim>
+                                        <dim type="length">155mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 137 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="17">17</layout>
+                                <layout><!-- Add any information on ruling (this might be included in under words like mistara/mastara --></layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="nastaliq" scope="major">
+                                <p><label>Script:</label> Nastaliq</p>
+                                <p><label>Ink:</label> Black and red</p>
+                                <p><label>Scribe:</label></p>
+                                <persName xml:lang="eng" type="standard"></persName>
+                                <persName xml:lang="ar" type="original"></persName>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications present in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Undated. Estimated 10th century A.H.</origDate>
+                            <origDate calendar="Gregorian">Undated. Estimated 16th century A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            Bought from Sotherby's auction houseon 26th July 1927 for £4.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 143.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
