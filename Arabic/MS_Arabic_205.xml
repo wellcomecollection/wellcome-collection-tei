@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15850">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 205</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 205</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 205</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 149a</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b21417313</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno><!-- Insert accession number here if found on manuscript --></idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A composite manuscript consisting of two separate works. First work is شرح الاسباب والعلامات (Sharh al-asbab wa al-'alamat) from folios 1b to 348a and the second work is سقى السموم (Saqi al-Sumum) located on folios 348b to 355a.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">210mm</dim>
+                                        <dim type="length">310mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">125mm</dim>
+                                        <dim type="length">225mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 355 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="21">21</layout>
+                                <layout><!-- Add any information on ruling (this might be included in under words like mistara/mastara --></layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                                <p><label>Scribe:</label></p> More than one copyist
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications present throughout manuscript in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">1233 A.H.</origDate>
+                            <origDate calendar="Gregorian">1817 A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            <!-- Insert acquisition information here, e.g Sotheby's lot 486 (22/21.11.85) -->
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 178 and 221.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_205_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 205</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+
+                            <summary>Commentary on al-Samarqandi's work "Causes and Symptoms".</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_205_1_1">
+                                <locus>Folio 1b to folio 348a.</locus>
+
+                                <author key="person_53995534">
+                                    <persName xml:lang="eng" type="standard">Burhan al-din Nafis ibn Awad al-Kirmani</persName>
+                                    <persName xml:lang="ar" type="original">برهان الدين نفيس بن عوض الكرماني</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">شرح الاسباب و العلامات</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Sharh al-asbab wa al-'alamat</title>
+                                <title xml:lang="en" type="standard">Commentary on "causes and symptoms"</title>
+                                
+                                <incipit>
+                                    ...وبعد فيقول...
+                                    ...نفيس بن عوض الطبيب يقول إني كنت من اهل بيت مشهورين بهذه الصناعة
+                                </incipit>
+                                
+                                <explicit>
+                                    .أو أن يقتصر على مثل جوز السرو والأبهل وسائر ما يقع فى ضماد الفتق...
+                                    ...فإنها تشد العضو وتنشف الرطوبات
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>                       
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="MS_Arabic_205_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 205</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>Manuscript work on poisons.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_205_2_1">  
+                                <locus>Folios 348b to folio 355a.</locus>
+                                <author>Anonymous</author>
+                                <title xml:lang="ar" type="original">سقى السموم</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Saqi al-Sumum</title>
+                                <title xml:lang="en" type="standard">Drinks in which poisons are inserted</title>
+
+                                <incipit>
+                                    .في سقى السموم من خاف أن يسقى سماً فيجب أن يحرز عن الأغذية والأشربة الغالبة الطعوم والغالبة الروائح
+                                    ...لأن الأدوية القتالة إنما يمكن أكثرها أن يدس فيها
+                                </incipit>
+                                
+                                <explicit>
+                                    ...وربما كفى فيه استعمال الملح والخل على موضع العضة...
+                                </explicit>
+
+                                
+                            </msItem>
+                            
+                        </msContents>
+        
+                    </msPart>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
