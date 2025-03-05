@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Template created 16.11.2022 -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_9306">
+    <!-- Give xml:id in the  format  "" -the file name should be identical -->
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AP">
+                    <resp when="2020-10-05">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022-11-16">Template editor</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+                <respStmt xml:id="SC">
+                    <resp when="2023-01-11">Template editor</resp>
+                    <persName>Stephanie Cornwell</persName>
+                </respStmt>
+                <respStmt xml:id="KM">
+                    <!-- Insert initials -->
+                    <resp when="2025-03-05">TEI Encoder</resp>
+                    <persName>KatyMair</persName>
+                </respStmt>
+                <!-- Add another <respStmt> for every person responsible for editing the record in future -->
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">MS.9306</idno>
+                <idno type="catalogue"><!-- Leave blank --></idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS.9306</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b33580194</idno>                                               
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>2542</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Record of Miss Massey's treatment for typhoid in Luxor and Cairo (Anglo-American Hospital) in 1924.</summary>
+                        <textLang mainLang="en" source="IANA">English</textLang>
+                        
+                        <msItem n="1" xml:id="MS_9306_1">
+                            <!-- Add 1 to the n value and record manuscript number as xml:id ie. n="1" xml:id="MS_0000"--> 
+                            <author key="person_" source="VIAF">
+                                <!-- Insert viaf code as attribute value if available in key --> 
+                                <persName> <!-- if available, and enter full author name here --> </persName></author>
+                            <title><!--  Enter title here --></title>
+                            <note>
+                                <p>At this early stage of cataloguing, any language noted is not guaranteed to be the only language in the whole manuscript.</p>
+                            </note>         
+                        </msItem>
+                        <msItem n="2" xml:id="MS_9306_2">
+                            <!-- Add 1 to the n value and record manuscript number as xml:id ie. n="1" xml:id="MS_0000"--> 
+                            <author key="person_" source="VIAF">
+                                <!-- Insert viaf code as attribute value if available in key --> 
+                                <persName> <!-- if available, and enter full author name here --> </persName></author>
+                            <title><!--  Enter title here --></title>
+                            <note>
+                                <p>At this early stage of cataloguing, any language noted is not guaranteed to be the only language in the whole manuscript.</p>
+                            </note>         
+                        </msItem>
+                        
+                    </msContents>
+                    
+                    <physDesc>                
+                        <objectDesc form="other"> one notebook and 10 loose sheets        
+                            <supportDesc material="Paper"> <!-- Insert if material can be easily identified i.e. paper or parchment -->
+                                
+                                <extent>70 pages and 10 loose pages
+                                    <dimensions unit="mm" ><!-- Add if available -->
+                                        <dim type="diameter"></dim>
+                                        <dim type="length"></dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <condition>C.Fair</condition>
+                                
+                            </supportDesc>                                             
+                        </objectDesc>                 
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>Egypt</country>
+                            </origPlace>
+                            <origDate calendar="gregorian">1924</origDate>
+                        </origin>
+                        <provenance notBefore="" notAfter=""></provenance>
+                        <acquisition>Donated September 2017</acquisition>
+                    </history>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term ref="subject_sh85139156">Typhoid fever</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+        
+        <revisionDesc>
+            <change when="2025-03-05" who="#KM">Populated template</change>
+            <change when="2022-11-16" who="#LS">Created template for Minimum Viable Record TEI files.</change>
+            <change when="2023-01-11" who="#SC">Edited comments and removed unnecessary spaces.</change>
+            <change when="2024-02-15" who="#SC">Minor edits to comments for clarification and removal of part numbering guidance.</change>
+            <!-- Any further major revisions made to this record in future should be recorded in this same format -->
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
