@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15657">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 7</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 7</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 7</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 7</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b21417519</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>66599</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A composite manuscript of several medical manuscripts and medicine-related manuscript.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">200mm</dim>
+                                        <dim type="length">300mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">150mm</dim>
+                                        <dim type="length">255mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 351 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>C. Damp-stained leaves.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="34">34</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                                <p><label>Scribe:</label></p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications present throughout manuscript in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">1178 A.H.</origDate>
+                            <origDate calendar="Gregorian">1764 A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: al-Dahdah. Signature for Dahdah can be seen folio 275v.
+                        </provenance>
+                        <acquisition>
+                            Accessioned May 1934 alongside 101 manuscripts. Bought in Damascus from Dahdah Moussali and Muhammad Ibn Yusuf.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 90, 140, 195 and 211. </note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_7_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 7</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>Includes books I and II of Dawud al-Antaki's Medical book. Folios 1-3 are missing. This manuscript can be found from folio 4r to folio 277v.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_7_1_1">
+                                <author key="person_90075818">
+                                    <persName xml:lang="eng">Dawud Ibn Omar al-Antaki</persName>
+                                    <persName xml:lang="ar">داود ابن عمر الانطاكي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">تذكرة اولى الألباب والجامع للعجب العجاب</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Tadhkirat 'uli al-baab wa al-jami' li-l a'jaab al-a'jaab</title>
+                                <title xml:lang="en" type="standard">Memorandum for the learned, being a collection of marvels</title>
+                                
+                                <incipit>
+                                    ...أمينا متصفاً بالنواميس الإلهية حاكما على عقله قاهراً لشهوات نفسه...
+                                </incipit>
+                                
+                                <explicit> 
+                                    <locus>...وهذا ما رأينا من تذكرة الشيخ داؤد الأنطاكى...</locus>
+                                </explicit>
+                              
+                            </msItem>
+                            
+                        </msContents>                           
+                    </msPart>
+                  
+                    <msPart n="2" xml:id="MS_Arabic_7_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 7</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>This manuscript starts on folio 365r.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_7_2_1">
+                                <author key="person_90075818">
+                                    <persName xml:lang="eng">Dawud Ibn Omar al-Antaki</persName>
+                                    <persName xml:lang="ar">داود ابن عمر الانطاكي</persName>
+                                </author>
+                               
+                                <title xml:lang="ar" type="original">المجربات</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">al-Mujarrabat</title>
+                                <title xml:lang="en" type="standard">Experiences</title>
+                                
+                                <incipit>
+                                    .وهذه مجربات الشيخ داؤد الأنطاكى...
+                                    .قال الشيخ رحمه الله باسمك اللهم نطلب النجاة والشفاء
+                                    ...وبإشارات ذكرك وحمدك نسأل الإرشاد إلى قانون الصحة
+                                    ...وبعد لما لفظتنى يد الزمان ورمتنى إلى الغربة وطرارق الحدثان...
+                                </incipit>
+                                
+                                <explicit>
+                                    .يرفع على النار ويحرك حتى ينعقد فينزل ويخلط به الأدوية ويرفع...
+                                    .فيشربه المحرور بماء الورد والمبرود بماء المرزنجوش
+                                    ...وهذا ما انتهى إلينا من مجربات الشيخ داؤد الأنطاكى
+                                </explicit>
+                                
+                                
+                            </msItem>
+                            
+                        </msContents>
+        
+                    </msPart>
+                    
+                    <msPart n="3" xml:id="MS_Arabic_7_3">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 7</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>This manuscript starts on folio 342v.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_7_3_1">
+                                
+                                <author key="person_95154093">
+                                    <persName xml:lang="eng">Abū Bakr Muḥammad ibn Zakarīyā al-Razi</persName>
+                                    <persName xml:lang="ar">ابو بكر محمد ابن زكريا الرازي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">برء الساعة</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Bur' al-sa'a</title>
+                                <title xml:lang="en" type="standard">Healing within an hour</title>
+
+                                <incipit> 
+                                    ...رسالة فى الطبّ المسامة ببرء ساعة للعلامة محمد بن زكريا
+                                    ...قال أبو بكر محمد بن زكريا الرازي الحمد لله كما هو أهله ومستحقه
+                                    ...أما بعد فإنى لما كنت عند الوزير ابراهيم أبى القاسم بن عبد الله
+                                </incipit>
+                                
+                                <explicit>
+                                    .فى الأطراف إذا عرض له الحكة فى الشتاء علاجه أن يأخذ ماء شديد الحرارة فيطرح فيه كفاً مع ملح...
+                                    .ويوضع أطرافية ساعة يسكن فى الحال بإذن الله تعالى
+                                    ...قد تم هذه الرسالة
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>         
+                    </msPart>
+                    
+                    <msPart n="4" xml:id="MS_Arabic7_4">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 7</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>This manuscript starts on folio 345v.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic7_4_1">
+                                
+                                <author key="person_89770781">
+                                    <persName xml:lang="eng" type="standard">Avicenna</persName>
+                                    <persName xml:lang="ar" type="original">ابن سينا</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">أرجوزة فى الطبّ</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Urjuza fi al-Tibb</title>
+                                <title xml:lang="en" type="standard">Poem on medicine</title>
+                                                       
+                                <incipit>
+                                    ...هذه الأرجوزة نظم...
+                                    ...أبو على سينا
+                                    :أقسام الطب
+                                    الطب حفظ صحة برء مرض
+                                    من سبب في بدن عنه عرض
+                                    فقسمة الأولى لعلم وعمل
+                                    ...والعلم في ثلاثة قد اكتمل
+                                </incipit>
+                                
+                                <explicit>
+                                   كل رعاف ودم من أذن
+                                   ...في مرض الرأس...
+                                </explicit>
+
+                                
+                            </msItem>
+                            
+                        </msContents>
+         
+                    </msPart>
+                  
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
