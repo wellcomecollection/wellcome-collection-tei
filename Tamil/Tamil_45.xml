@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Tamil_45">
+    
+    <teiHeader>
+        
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Tamil 45</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="SG">
+                    <resp when="1990">Cataloguer</resp>
+                    <persName>S. Gunasingam</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2020-05-25">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="LP">
+                    <resp when="2025-03-12">TEI Encoder</resp>
+                    <persName>Lizzy Peneycad</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Tamil 45</idno>
+                <idno type="catalogue">Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Tamil 45</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b32724755</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        
+                        <summary>Medications and mantras. Refers to different medications such as decoction; mantras to win rivals, to stop semen, to counteract snake's poison, etc. There are also different diagrams illustrating mantras for specific purposes.</summary>
+                        
+                        <textLang mainLang="ta" source="IANA">Tamil</textLang>
+                        
+                        <msItem n="1" xml:id="Tamil_45_1">
+                           
+                            <title key="">Medications and mantras</title>
+                            
+                            <!-- Use comment to note Tamil text to be picked up in late-stage editing -->
+                            
+                            <incipit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </incipit>
+                            
+                            <explicit><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </explicit>
+                            
+                            <colophon><!-- insert --> <locus></locus>
+                                <!-- Use <note> to add general comment -->
+                            </colophon>
+                            
+                            <filiation><!-- insert  information about any relations to other manuscripts--></filiation>
+                            <note></note>
+                            
+                        </msItem>
+                                                
+                    </msContents>
+                    
+                    <physDesc>
+                       <objectDesc form="other">
+                            
+                            <supportDesc material="palm">
+                                
+                                <support>Palm leaf.
+                                </support>
+                                <extent>40ff (ff 1 and 2 blank; f 39 missing).<note>Inscribed on both sides.</note>
+                                    <dimensions unit="mm" >
+                                        <dim type="diameter">397</dim>
+                                        <dim type="length">30</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <!-- Use to record information about the system of numbering folia in the manuscript, if applicable -->
+                                </foliation>
+                                
+                                <collation>
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>
+                                    In good condition
+                                </condition>
+                                
+                            </supportDesc>
+                                                                                    
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote scope="sole">Legible</handNote>
+                        </handDesc>
+                                                                        
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country><!-- insert --></country>,
+                                <region><!-- insert --></region>,
+                                <settlement><!-- insert --></settlement>,
+                                <orgName><!-- insert --></orgName>
+                            </origPlace>
+                            <origDate>Undated</origDate>
+                            <!-- use additional origPlace and origDate elements if necessary -->
+                        </origin>
+                        <provenance></provenance>
+                        <!-- use additional provenance elements if necessary -->
+                        <acquisition>Acquired by the Wellcome Library, or its predecessor the Wellcome Historical Medical Museum.</acquisition>
+                    </history>
+                    
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>'Catalogue of Tamil Manuscripts in the library of the Wellcome Institute for the History of Medicine' in Journal of the Royal Asiatic Society, volume 2.</title>
+                                        <author>S. Gunasingam</author>
+                                        <date>1990</date>
+                                        <note>Pp. 359-369</note>
+                                    </bibl>
+                                    <!-- Might include link to catalogue source -->
+                                    <!--<listBibl>
+                              <bibl> </bibl>
+                           </listBibl>-->
+                                </source>
+                            </recordHist>
+                            <availability status="unknown"><p> <!-- Insert if relevant --></p>
+                            </availability> 
+                          
+                        </adminInfo>
+                                                
+                    </additional>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <!-- Use the following to record subject headings, if needed -->
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <term key="subject_sh85080651">Mantras</term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>    
+        
+        <revisionDesc>
+            <change when="2025-05-14" who="#LP">Completed adding data from the catalogue</change>
+            <change when="2025-03-12" who="#LP">Started adding data from the catalogue</change>
+            <change when="2021-05-25" who="#AP">Created template for Wellcome Tamil MSS project.</change>
+        </revisionDesc>
+        
+    </teiHeader>    
+    
+    <facsimile>
+        <surface></surface>
+        
+    </facsimile>    
+    
+    <text>
+        <body>
+            <p></p>
+            <!-- For future full transcription -->
+        </body>
+        
+    </text>    
+    
+</TEI>
