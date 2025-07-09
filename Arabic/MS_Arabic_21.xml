@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15671">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 21</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 21</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 21</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 21</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20294761</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>36051</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Composite manuscript consisting of two separate works relating to Alchemy.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>   
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">155mm</dim>
+                                        <dim type="length">205mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">115mm</dim>
+                                        <dim type="length">175mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 129 folio
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>Some water damage stains.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="17">17</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication in red throughout manuscripts.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Missing leaves at the end.</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                        </origin>
+                        <provenance>Owner's stamps found on folio 3a.
+                        </provenance>
+                        <acquisition>
+                            Bought from Murad Baroody in Beirut, Lebanon for £7. Accessioned into the collection on 12th March 1915.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 125 and 154.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_21_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 21</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents> 
+                            <summary>Work by al-Isfahani on alchemy.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_21_1_1">
+                                
+                                <author key="person_76706830">
+                                    <persName xml:lang="eng" type="standard">Mu'ayyad al-din abu Ismail ibn ali ibn Muhammad al-Isfahani al-taghra'i</persName>
+                                    <persName xml:lang="ar" type="original">مويدالدين ابو اسماعيل الحسين ابن على ابن محمد الصفهاني الطغرائي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">مفاتيح الرحمة ومصابيح الحكمة = مصابيح الحكمة و مفاتيح الرحمة </title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Mafatih al-rahma was masabi' al hikma</title>
+                                <title xml:lang="en" type="standard">Keys to mercy and lamps of wisdom</title>
+
+                                <incipit>
+                                    <locus>3b</locus>
+                                    ...قال...
+                                    ...مؤيد الدين أبو اسمعيل الحسن بن على بن محمد الطغؤائي
+                                    ...إنّا نحمدك حمد الفائزين بوحدانيتك
+                                    .وبعد أسعد الله قلوبكم يا بنى الحكمة وألزمكم كلمة التقوى ووفقكم لما يحب ويرضى
+                                    ...فقد رأيت أن أجمع لكم فى الصنعة الشريفة التي هي الحكمة المكنونة كتاباً
+                                </incipit>
+                                
+                                <explicit> 
+                                    <locus>101b</locus>
+                                    .وقال هرمس إنّ تليين الحديد وتبييض النحاس وإذهاب القصدير ورطوبة الرصاص هو الاسم كله الأبيض...
+                                    .واعمد إلى هذه المركب الواحد فإياه تبيض وإياه تحمر
+                                    .ومن أجله أصبغ كل جسد
+                                    .والمعنى به بهذه الطبائع الأربع
+                                    .واعلم أنّ هذا التركيب
+                                    .تم
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                
+                                <layoutDesc>
+                                    
+                                    <layout writtenLines="17">17                                     
+                                    </layout>
+                                    
+                                </layoutDesc> 
+                                
+                            </objectDesc>
+                            <handDesc>
+                                <handNote script="nastaliq" scope="major">Nastaliq</handNote>
+                            </handDesc>
+                        </physDesc>    
+                        <history>
+                            <origin>
+                                <origDate calendar="Hijri">1040 A.H.</origDate>
+                                <origDate calendar="Gregorian">1630 A.D.</origDate>
+
+                            </origin>
+                        </history>
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="MS_Arabic_21_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 21</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents> 
+                            <summary></summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_21_2_1">
+
+                                <author key="person_90063723">
+                                    <persName xml:lang="eng" type="standard">Mustafa Ibn Muhammad Muslih-addin al-Aidini Bustan afandi (d.977/1569)</persName>
+                                    <persName xml:lang="ar" type="original">مصطفى ابن محمد مسلح الدين الأيديني بستان افندي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">نجاه الاحباب وتحفه ذوي الالباب</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Najat al-ahbaab wa tuhfat dhawi al-albaab</title>
+                                <title xml:lang="en" type="standard">A present to the learned for the deliverance of friends</title>
+                                
+                                
+                                <incipit>
+                                    <locus>Fol. 103b.</locus>
+                                    .وبعد فإنى طالعت كتب القوم بأسرها واطلعت على الأشياء التي يجب على الطالب معرفة سرها...
+                                    .حصل الاطلاع والوقوف بعد إتلاف الألوف من كرم الملك الرؤف
+                                    .ولأجل ذلك صرّحنا بالحجز فى هذا السفر المعتبر المسمى بنجاة الأحباب وتحفة ذوى الألباب
+                                    ...ورتبته على مقدمة وثلاثة أبواب
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol. 129a.</locus>
+                                       .اعلم إذا قارن العطارد المحرق فى برج النارى على مقابلة العطارد مع المشترى في برج الماء بغير تفضيل لقارن مع الشمس إذا خلط على وجه السعادة ...
+                                       .فطوبى لمن علمه وأفاده
+                                       ...تمت الكتاب
+                                </explicit>
+
+                                
+                            </msItem>
+                            
+                        </msContents>
+   
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
