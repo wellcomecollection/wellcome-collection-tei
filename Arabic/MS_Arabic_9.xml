@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15659">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 9</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 9</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 9</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 9</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20294670</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>36032</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A composite manuscript originating from Syria. There are 5 manuscripts within this volume, mostly pharmacopoeia. The last manuscript in the volume is unidentified.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">170mm</dim>
+                                        <dim type="length">230mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">110mm</dim>
+                                        <dim type="length">190mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 234 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="17">17</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                                <p><label>Scribe:</label></p> Multiple scribes mentioned. Older leaves written by the copyist Ibrahim Ibn Nasr Ibn Ibrahim Ibn Muhammad Ibn al-Hasan Ibn Ibrahim Ibn Munir al-Kindi (a physician). Modern leaves written by the copyist Toma Butrus Jibara, a physician of Damascus. Originally transcribed from a manuscript written by the copyist 'Abd al-Kafi al-Farajani.
+                            </handNote>
+                            
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Multiple dates are found throughout the volume. 563 A.H. is seen on folio 148b. 597 A.H. is found on the older leaves. The year 1228 A.H. can be seen on the more modern leaves. </origDate>
+                            <origDate calendar="Gregorian">Multiple dates are found throughout the volume. 1167 A.D. is seen on folio 148￼b. 1200 A.D. is found on the older leaves. The year 1871 A.D. can be seen on the more modern leaves. </origDate>
+                            <origPlace>
+                                <country>Syria</country>
+                            </origPlace>
+                        </origin>
+		                        <provenance>Known owners: Ya'qub Ibn al-Khuri Jirjis, physician of the Nuri hospital in Tripoli, Syria (modern day Lebanon).
+		                        </provenance>
+                        <acquisition>
+                            Bought from Murad Baroody in Beirut, Lebanon, for £7. Accessioned on 12th March 1915.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 78, 79, 129, 130 and 224.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_9_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 9</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>Ibn al-Tildmidh's Pharmacopoeia.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_9_1_1">
+                                
+                                <author key="person_71708119">
+                                    <persName xml:lang="eng">Said Ibn Hibat Allah Ibn Ibrahim Abul-Hassan Amin-addawla ibn al-Tilmidh (d.560 A.H./1165 A.D.)</persName>
+                                    <persName xml:lang="ar">سعيد ابن هبة الله ابن ابراهيم ابو الحسن امين الدولة ابن التلميذ </persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">الاقرابذين</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">al-Aqrabadhin</title>
+                                <title xml:lang="en" type="standard">Pharmacopoeia</title>
+
+                                
+                                <incipit>
+                                    ...أقراباذين منتزع من عدة أقراباذانيات وهو عشرون باباً: في الأقراص في الحبوب والأيارجات في السفوفا
+                                </incipit>
+                                <explicit>
+                                ونبيذ الزبيب و العسل: يتخذ منهما بالطبخ والترك أياماً حتى يشتد ويتنبد.
+                                تمت اختيارات…أمين الدولة… أبو الحسن هبة الله بن صاعد المعروف بابن التلميذ…
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="MS_Arabic_9_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 9</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>An abridged version of ibn al-Tilmidh's Pharmacopoeia. Leaves are missing at the beginning and neither the title nor author's name appears.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_9_2_1">
+                                
+                                <author key="person_95154093">
+                                    <persName xml:lang="eng">Abu Bakr Muhammad ibn Zakariyya al-Razi</persName>
+                                    <persName xml:lang="ar">أبو بكر محمد ابن زكريا الرازي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">الأقراباذين المختصر</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Al-aqrabadhin al-mukhtasar</title>
+                                <title xml:lang="en" type="standard">Abridged Pharmacopoeia</title>
+
+                                <incipit>
+                                    <locus>4a</locus>
+                                    .وحذّر قارىء كتبهم أن يكون كحالتهم وبسّط ورعاه وبسطة وبعثه على توجيد فهم قوى الأدوية المفردة وقوام درجها...
+                                ...زهداه لذلك بصره إيّاه وضمّن له أنه متى استغذى فهم ذلك استخراج وذكّره أنه متى شاء أدوية أجود وأبلغ مما استخرجته وركبته القدماء كما استخرج هو
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>26a</locus>
+                                    .وغير ذلك مما لا يجهله أحد من العوام فضلاً عن الصيادنه وأوساط الأطباء أن أكثر ما ملئت به الأقراباذينيات حشو وفضول ليست الحاجة إليها اضطرارية...
+                                    .وذلك ما أردنا أن نبيّن
+                                    ...ولواهب العقل الحمد بلا نهاية كما هو موصوف بالحمد
+                                </explicit>
+
+                            </msItem>
+                            
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="3" xml:id="MS_Arabic_9_3">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 9</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+
+                            <summary>A manuscript on the subject of hospital drugs.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_9_3_1">
+
+                                <author key="person_71708119">
+                                    <persName xml:lang="eng">Said Ibn Hibat Allah Ibn Ibrahim Abul-Hassan Amin-addawla ibn al-Tilmidh (d.560 A.H./1165 A.D.)</persName>
+                                    <persName xml:lang="ar">سعيد ابن هبة الله ابن ابراهيم ابو الحسن امين الدولة ابن التلميذ </persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">المقالة الأمينية في الأدوية البيمارستانية</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Al-Maqala al-aminiyya fi al-adawiyya al-bimaristaniyya</title>
+                                <title xml:lang="en" type="standard">The treatise of 'Amin' on hospital drugs</title>
+                                
+                                <incipit>
+                                    <locus>fol 136b.</locus>
+                                    .ليكون أحرى أن ينتفع بها أكثر الناس في مراحلهم ومُرْتَحلهم
+                                    ...وقد تتبعت سنّة مشايخنا شكر الله سعيهم في النزول من أعلى البدن إلى أسفله ذاكراً علّة علّة وعلاجاً علاجاً وسميتها لمن لا يحصره الطبيب
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol 263a.</locus>
+                                    .ويُسقى العليل الصبر من أول يوم نصف درهم...
+                                    ...والثاني والثالث درهم
+                                    .إن شاء الله تعالى
+                                    .تمت
+                                </explicit>
+
+                                
+                            </msItem>
+                            
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="4" xml:id="MS_Arabic_9_4">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 9</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>   
+                            <summary>A manuscript by ibn al-Tilmidh on blood-letting consisting of 10 chapters.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_9_4_1">
+                                        
+                                <author key="person_71708119">
+                                    <persName xml:lang="eng">Said Ibn Hibat Allah Ibn Ibrahim Abul-Hassan Amin-addawla ibn al-Tilmidh (d.560 A.H./1165 A.D.)</persName>
+                                    <persName xml:lang="ar">سعيد ابن هبة الله ابن ابراهيم ابو الحسن امين الدولة ابن التلميذ </persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">مقالة في الفصد</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Maqala fi al-fasd</title>
+                                <title xml:lang="en" type="standard">A treatise on blood-letting.</title>
+                                
+                                <incipit>
+                                    <locus>Fol 70a.</locus>
+                                    ...المقالة قي الفصد عشرة أبواب...
+                                    .الباب الأول...
+                                    ...في حد الفصد الفصد هو تفرّق اتصال إرادى يتبعه استفراغ كلّى من العروق خاصة وبتوسطها من جميع الجسم
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Fol 78a.</locus>
+                                    .والصبر ودم الأخوين والمرّ والزاج المصرى ووبر الأرنب وبعض الأدوية المدملة للجراحات الطرية أيضاً...
+                                </explicit>
+      
+                            </msItem>
+                            
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="5" xml:id="MS_Arabic_9_5">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 9</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+
+                            <summary>Unidentifiable manuscript. Contains selections from al-Razi's book "Who has no physicians to attend to him". There are blank folios on folio 35, 44 and 27. Folio 68 is a modern leaf and there is an index of contents.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_9_5_1">
+
+                                
+                                <incipit>
+                                    <locus>Folio 27b.</locus>
+                                    ...في الصداع من الحرارة ينفع منه تبريد الدماغ بدهن الورد ومائه وعصارة البقلة الحمقاء والحصرم...
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>Folio 68b.</locus>
+                                    .وإذا كان مع الحميات علل أخر كالسعال والأورام فليؤخذ علاجها مما ذكرنا لتلك العلل أولا...
+                                   . وتمزج من هذه العلاجات
+                                   ...وإذا قد أتينا على غرضنا فى هذا الكتاب فلنختمه
+                                   ...تم...
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>
+                    </msPart>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
