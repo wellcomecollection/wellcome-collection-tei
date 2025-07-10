@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15677">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 27</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 27</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 27</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 27</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b21417192</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>68541</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Composite medical manuscript.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">125mm</dim>
+                                        <dim type="length">170mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">60mm</dim>
+                                        <dim type="length">115mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 97 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>Brittle, some staining.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="15">15</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication present throughout in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Undated. Estimated 12th century A.H.</origDate>
+                            <origDate calendar="Gregorian">Undated. Estimated 18th century A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <acquisition>
+                            Bought in 1935 from Dahah Moussalli in Damascus, Syria, per Capt. Saint.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 171 and 193.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_27_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents> 
+                            <summary>A medical manuscript that discusses the illness of "melancholia".</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_27_1_1">              
+                                <author key="person_88345317">
+                                    <persName xml:lang="eng">Faidi Mustafa Afandi</persName>
+                                    <persName xml:lang="ar">فيضي مصطفى افندي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">الرسالة المشفية للأمراض المشكلة = في العلة المرارية والسوداوية</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Al-risala al-mushfiya lil-amrad al-mushkila = fi al-illa al-marariyya wa al-sawdiyyaِ</title>
+                                <title xml:lang="en" type="standard">A treatise on recovery from serious diseases = On bilious and melancholic illnesses</title>
+
+                                <incipit>
+                                    <locus>Fol.1a.</locus>
+                                    ...فيقول...
+                                    ...فيضى مصطفى افندي إن الباعث على تأليف هذه الرسالة الصحيحة النصائب والنسخة الحكمية الانتساب هو أن علّة المراقية الغير السوداوية والمراقية السوداوية قد كثر وقوعها في الناس الصغار والكبار
+                                </incipit>
+                                <explicit>
+                                    <locus>50b.</locus>
+                                    ...وأما تدبير بقية الستة الأسباب الضرورية لأصحاب هذا المرض كالهواء المحيط والاستفراغ والحتباس والحركات النفسية فإبقاء تدبيرهم للطبيب الحاذق الفطن أولى من إيدارهم هنا كونهم غير ضروري...
+                                    ...تمت...
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>      
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="MS_Arabic_27_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 27</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>         
+                            <summary>Maimonides' important medical work written at the request of the Egyptian Sultan al-Malik al-Afḍal Nūr al-Dīn Alī, Saladin’s eldest son, who complained of constipation, indigestion, and depression.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_27_2_1">
+
+                                <author key="person_100185495">
+                                    <persName xml:lang="eng">Abu Imran Musa Ibn Ubaid-Allah ibn Maymun al-Israili al-Qurtubi (Maimonides)</persName>
+                                    <persName xml:lang="ar">أبو عمران موسى بن عبيد الله ابن ميمون القرطبي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">تدبير الصحة = تدبير يعتمد عليه في شفاء أمراض حدثت لمولانا = المقالة في تدبير الصحة الأفضلية</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Tidbir al-Sihha = Tadbir yu'tamad 'alayhi fi shifa' amrad hadathat li mawlana = al-maqala fi tadbir al-sihha al-fadliyya</title>
+                                <title xml:lang="en" type="standard">The regimen of health = Reliable treatment of diseases which affected our ruler = A treatise on the treatment of al-Afdal's health</title>
+                        
+                                <incipit>
+                                    <locus>51a</locus>
+                                    ...و بعد فقد ورد على المملك الأصغر موسى بن عبيد الله الإسرائيلي القرطبي الأمر المولوى الملكى الأفضل...
+                                    ...على يد رسول يأمره بذكر تدبير يعتمد عليه في شفاء أمراض حدثت لمولانا
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>97b</locus>
+                                    .والنظر دائما لعين حمار الوحوش يقوى البصر ويزيل خلله...
+                                    .صح ذلك بالتجربة
+                                    .فهذا قدر ما حضر المملوك الآن مما يحتاج مولانا إليه خلّد الله ملكه في أكبر الأوقات
+                                    ...والله تعالى يديم أيام مولانا
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>      
+                    </msPart>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
