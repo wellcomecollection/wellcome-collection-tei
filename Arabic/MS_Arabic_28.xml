@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15678">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 28</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 28</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 28</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 28</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b21417209</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A composite manuscript with 7 separate works. One of the works is an unidentified medical work in Persian. There is a letter with the Ottoman symbol of a crescent moon and star tucked into the manuscript, possibly dated from 1896 A.D.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <textLang otherLangs="fa">Farsi (Persian)</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">100mm</dim>
+                                        <dim type="length">145mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">55mm</dim>
+                                        <dim type="length">95mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <collation>
+                                    <label>Folios:</label> 310 foll.
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="10">10</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="nastaliq" scope="major">
+                                <p><label>Script:</label> Nastaliq</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications present in red ink.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Undated. Estimated to be from 12th century A.H.</origDate>
+                            <origDate calendar="Gregorian">Undated. Estimated to be from 18th century A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 82, 92, 110, 129, 214 and 216.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_28_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>A medical manuscript relating to medical terminology, written by one of the teachers of Ibn Sina.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_28_1_1">
+
+                                <author key="person_90058060">
+                                    <persName xml:lang="eng" type="standard">Abu Mansur al-Hasan ibn Nuh al-Qumri</persName>
+                                    <persName xml:lang="ar" type="original">أبو منصور الحسن ابن نوح القمري</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">أسامي العلل = مصطلحات الطبّ = التنوير فى المصطلحات الطبّية</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Asami al-'ilal = Mustalhat al-Tibb = al-tanwir fi al-Mustalhat al-Tibbiyya</title>
+                                <title xml:lang="en" type="standard">Names of diseases = Medical terminology = Enlightenment on medical terminology</title>
+         
+                                
+                                <incipit> 
+                                    <locus>fol 112b.</locus>
+                                    ...قال الأستاذ أبو منصور الحسن بن نوح المعروف بسراج القمرى إنى لكثرة معرفتى بفضل علم الطبّ على سائر العلوم وفرط عملى بحاجة كل مفحص في كل وقت وكل مكان إليه وشدة حرصى على مايرغب الناس في تعلمه...
+                                </incipit>
+                                
+                                <explicit>
+                                    <locus>fol 124a.</locus>
+                                    .الأعضاء المتشابهة الأعضاء هى التي تشبه بعضها بعضاً مثل العظام والعضاريف وغيرها...
+                                    .وغير المتشابهة الأجزاء التي لا تشبه بعضها بعضاً
+                                    .تمت الكتاب
+                                </explicit>
+                                
+                            </msItem>
+                            
+                            
+                            
+                        </msContents>
+                               
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="MS_Arabic_28_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 28</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>al-Razi's short essay a short essay regarding ailments that he claims can be cured within an hour's time.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_28_2_1">
+
+                                <author key="person_95154093">
+                                    <persName xml:lang="eng" type="standard">Abu Bakr Muhammad ibn Zakariya al-Razi</persName>
+                                    <persName xml:lang="ar" type="original">أبو بکر محمد بن زکریاء الرازي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">برء الساعة</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Bur' al-sa'a</title>
+                                <title xml:lang="en" type="standard">Healing within an hour</title>
+                                
+                                <incipit>
+                                    <locus>103b</locus>
+                                    .هذا كتاب ألّفه محمد بن زكريا الرازى فى الطبّ وترجمته برء الساعة...
+                                    ...قال أبو بكر كنت عند الوزير أبى القاسم بن عبد الله
+                                </incipit>
+                                <explicit>
+                                    <locus>110a</locus>
+                                    .فى الأطراف إذا عرض لها الحكة وذلك فى الشتاء إذا غسل يديه بالماء البارد
+                                    .وعلاجه أن يأخذ ماء حاراً شديد الحرارة فيطرح فيه كف ملح ويضع أطرافه فيه ساعة فإنه يسكن في الوقت
+                                    ...وإذ قد أتينا على ما قصدنا إليه فنقول
+                                    ...تمت رسالة برء الساعة
+                                </explicit>
+                                
+                            </msItem>
+                            
+                            
+                            
+                        </msContents>
+                        
+                    </msPart>
+                    
+                    <msPart n="3" xml:id="MS_Arabic_28_3">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 28</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>Medical dictionary of diseases.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_28_3_1">
+                                
+                                <author key="person">
+                                    <persName xml:lang="eng" type="standard">Muhammad ibn abi Muhammad ibn abi Musallam al-Tabib al-Shirazi</persName>
+                                    <persName xml:lang="ar" type="original">محمد بن ابي‌ محمد بن ابي مسلم الطبيب الشيرازي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">حدود الأمراض من الرأس إلى القدم وما يتعلق بهما</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Hudud al-amrad min al-ra's ila al-qadam wa lh yata'allaq bihima</title>
+                                <title xml:lang="en" type="standard">Definitions of head-to-tea diseases and those of surrounding organs</title>
+
+                                
+                                <incipit>
+                                    <locus>279b</locus>
+                                    ...الحمد لله الكريم الجليل الذى يشفى بكمال حكمته ولطفه السقيم والعليل...
+                                    ...وبعد فهذا ما جمعه
+                                    ...محمد بن أبى محمد بن أبى مسلّم الطبيب
+                                    .قى حدود الأمراض من الرأس إلى القدم وما يتعلق بهما...
+                                    ...الصداع ألم فى أعضاء الرأس
+                                </incipit>
+                                <explicit>
+                                    <locus>307b</locus>
+                                    .الوهن ألم يعرض للعظم وما يحيط به بسقطة أو ضربة من غير أن يتفرّق اتصاله...
+                                    .تمت الكتاب
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>
+                        
+                    </msPart>
+                    
+                    <msPart n="4" xml:id="MS_Arabic_28_4">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 28</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>A medical manuscript by al-Razi for those that do not have or cannot afford a physician.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_28_4_1">
+                                
+                                <author key="person_95154093">
+                                    <persName xml:lang="eng" type="standard">Abu Bakr Muhammad ibn Zakariya al-Razi</persName>
+                                    <persName xml:lang="ar" type="original">أبو بکر محمد بن زکریاء الرازي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original"> من لا يحضره الطبيب = طب الفقراء</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">man la yahduruh al-tabib = tibb al-fuqura'</title>
+                                <title xml:lang="en" type="standard">One who has no physician to attend him = Medicine for the poor</title>
+                                
+                                <incipit>
+                                    <locus>136b</locus>
+                                    ...وبعد فيقول...
+                                    ...محمد بن زكريا الرازي إنه لما رأيت الفضلاء أطنبوا فى تصانيفهم وذكروا أدوية وأغذية لا تكاد تجود إلّا فى خزائن الملوك أحببت أن أجعل مقاله وجيرة فى علاج الأمراض بالأغذية ولأدوية المشهورة الموجودة عند العام والخاص ليكون أحرى أن ينتفع بها أكثر الناس
+                                    ...وسميتها بمن لا يحضره الطبيب
+                                </incipit>
+                                <explicit>
+                                    <locus>263a</locus>
+                                    .ويسقى العليل الصبر من أول يوم نصف درهم والثانى والثالث درهم...
+                                    ...فإنه نافع إن شاء الله تعالى
+                                </explicit>
+                                
+                            </msItem>
+                            
+                            
+                            
+                        </msContents>
+                        
+                    </msPart>
+                    
+                    <msPart n="5" xml:id="MS_Arabic_28_5">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 28</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>A guide to aphorisms written by Ibrahim al-Kasshi, who flourished around 14th cenury A.D. and originally wrote this guide work around 1383 A.D.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_28_5_1">
+
+                                <author key="person">
+                                    <persName xml:lang="eng" type="standard">أبراهيم الكشى</persName>
+                                    <persName xml:lang="ar" type="original">Ibrahim al-Kashshi</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">وسائل الوصول إلى مسائل الفصول</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Wasa'il al-wusul ila masa'il al-fusul</title>
+                                <title xml:lang="en" type="standard">A guide to aphorisms</title>
+                                
+                                
+                                <incipit>
+                                    <locus>265b</locus>
+                                    ...أما بعد فهذه الوصول إلى مسائل الفصول من مؤلفات...
+                                    ...ابراهيم الكشى
+                                    .ورتبتها على مقالات
+                                    .المقالة الأولى
+                                    ...قال البقراط العمر قصير
+                                </incipit>
+                                <explicit>
+                                    <locus>278a</locus>
+                                    .القلق والتثاؤب يبرئهما الشراب الممزوج بالماء سواء...
+                                    .من تزعزع دماغه أسكتت فى الحال
+                                    .من لحمه رطب جوّع ليجففه والله أعلم
+                                </explicit>
+                                
+                            </msItem>
+
+                        </msContents>
+                        
+                    </msPart>
+                    
+                    <msPart n="6" xml:id="MS_Arabic_28_6">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno>MS Arabic 28</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>A manuscript on the subject of leprosy. Contains quotations attributed to ibn Masawayh, al-Razi and ibn Sina.</summary>
+                            <textLang mainLang=""><!-- Use if only one language in manuscript --></textLang>
+                            
+                            <msItem xml:id="MS_Arabic_28_6_1">
+                                
+                                <author>Unknown.</author>
+                                
+                                <title xml:lang="ar" type="original">البرص</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">al-Baras</title>
+                                <title xml:lang="en" type="standard">Leprosy</title>
+
+                                <incipit>
+                                    <locus>125b</locus>
+                                     .البرص...
+                                     .داء عناء عسر البرء لا يكاد يبرأ خاصة المزمن منه والآخذ فى الازياد
+                                     ...وقال ابن زكريا كل برص كثير
+                                </incipit>
+                                <explicit>
+                                    <locus>134b</locus>
+                                    .طلاء فى علاج البرص...
+                                    .يؤخذ شيطرج وينخل على الخل ويطلى على البرص
+                                    .نافع بإذن الله
+                                    .تكت الكتاب
+                                </explicit>
+                                
+                            </msItem>
+                            
+                            
+                            
+                        </msContents>
+                        
+                    </msPart>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
