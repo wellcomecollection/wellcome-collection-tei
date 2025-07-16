@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15688">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 38</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 38</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 38</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 38</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20294906</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Compostie manuscript with two works by al-Tughra'i.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">155mm</dim>
+                                        <dim type="length">245mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">90mm</dim>
+                                        <dim type="length">170mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <collation>
+                                    <label>Folios:</label> 267 foll.
+                                </collation>
+                                
+                                <condition>Bad condition. Considerable conservation work has been carried out and repacked to make the manuscript accessible.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="21">21</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications present in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>Pages are now fragmenting and each leaf is sits in a bound book of clear sleeves.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Undated. Estimated 11th century A.H.</origDate>
+                            <origDate calendar="Gregorian">Undated. Estimated 17th century A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            <!-- Insert acquisition information here, e.g Sotheby's lot 486 (22/21.11.85) -->
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 166 and 187.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_38_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            
+                            <summary>A manuscript on alchemy with intricate diagrams throughout.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_38_1_1">
+                                <author key="person_282685381">
+                                    <persName xml:lang="eng" type="standard">Mu'ayyaddin abu Ismail al-Husain ibn Ali ibn Muhammad al-Isfahani al-Tughra'i</persName>
+                                    <persName xml:lang="ar" type="original">مويدالدين ابو اسمعيل الحسين ابن على ابن محمد الاصفهاني الطغرائي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">اسرار الحكمة</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Asrar al-hikma</title>
+                                <title xml:lang="en" type="standard">Secrets of wisdom</title>
+                                
+                                <incipit>
+                                    <locus>8a</locus>
+                                    .أعم...
+                                    .وذلك أنّا نقول إن الروح إما أن يكون لها وزن أو لا
+                                    ...فإن كان لها وزن فهى شىء يدبر الجسد وينقله وهو بالحقيقة ماء الحياة
+                                </incipit>
+                                <explicit>
+                                    <locus>244a</locus>
+                                    ...وهذا ما أردنا بيانه وايؤاده من جملة أسرار الحكمة الشريفة وفرائد الصنعة...
+                                    .وقد والله أتينا في مؤلفنا هذا ومصنفنا من العلوم بما لم يأت به حكيم
+                                    .وقد ذكرنا فيه جميع ما يحتاج إليه الصناع من تراكيب وتدابير وأوزان وموازين ومقادير وأركان وتدابير وأفعال وانفعالات وأسرار لا تحصى وفوائد لا تستقصى
+                                    ...وليعلم من يطلع على كتابنا هذا وكل من نظر فيه أن يجعل الصيانية لأسرار القوم شعاره
+                                    ...وأهل الأعصار القادمة والأزمان الآتية...
+                                    .تم
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>   
+                    </msPart>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
