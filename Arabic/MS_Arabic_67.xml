@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15715">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 67</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 67</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 67</idno>
+                        <altIdentifier type="former">
+                            <idno> WMS. Or. 67</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b2029508x</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A composite medical manuscript of three separate works.</summary>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">180mm</dim>
+                                        <dim type="length">275mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">110mm</dim>
+                                        <dim type="length">200mm</dim>
+                                    </dimensions>
+                                </extent>
+
+                                <collation>
+                                    <label>Folios:</label> 388 foll.
+                                </collation>
+                                
+                                <condition>Good.</condition>
+                            </supportDesc>
+   
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black, red and blue.</p>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications present in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Borders (mistara) have been drawn in blue ink.</p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 84, 93 and 186.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_67_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>Al-Samarqandi's work on causes of diseases and their treatments.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            <msItem xml:id="WMS_Arabic_67_1_1">
+                                
+                                <author key="person_23709089">
+                                    <persName xml:lang="eng" type="standard">Abu Hamid Muhammad ibn Ali ibn Umar Najib-addin as-Samarqandi</persName>
+                                    <persName xml:lang="ar" type="original">ابو حميد محمد ابن على ابن عمر نجيب الدين السمرقندي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">الأسباب والعلامات = أسباب والعلل وعلاجها وعلاماتها = النجيبيات</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Al-asbab wa al-'ilamat = al-asbab wa al 'ilal wa 'ilajiha wa 'ilamatiha = al-najibiyat</title>
+                                <title xml:lang="en" type="standard">Causes and symptoms = Causes of diseases, treatments and symptoms = The book of Najib</title>
+                                
+                                <incipit>
+                                    <locus>1b</locus>
+                                    .الصداع ألم فى أعضاء الرأس...
+                                    ...ويكون إما من سوء مزاج حار ساذج
+                                </incipit>
+                                <explicit>
+                                    <locus>328a</locus>
+                                    ...ونحو ذلك من القوابض بمثل الخرميان والقسط والأشنة...
+                                    ...تمت هذا الرسالة المسمى بالأسباب والعلامات...
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="15">15</layout>
+                                </layoutDesc> 
+                            </objectDesc>
+                        </physDesc>     
+                        <history>
+                            <origin>
+                                <origDate calendar="Hijri">1256 A.H.</origDate>
+                                <origDate calendar="Gregorian">1840 A.D.</origDate>
+                            </origin>
+                        </history>
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="MS_Arabic_67_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>A medical manuscript on ways to assist with a quick recovery from illness.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            <msItem xml:id="WMS_Arabic_67_2_1">
+                                
+                                <author key="person_95154093">
+                                    <persName xml:lang="eng" type="standard">Abū Bakr Muḥammad ibn Zakarīyā al-Razi</persName>
+                                    <persName xml:lang="ar" type="original">ابو بكر محمد ابن زكريا الرازي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">برء الساعة</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Bur' al-sa'a</title>
+                                <title xml:lang="en" type="standard">Healing within an hour</title>
+                                
+                                <incipit>
+                                    <locus>329b</locus>
+                                    .وهذا كتاب ألّفه محمد بن زكريا الرازي في الطبّ وبرء ساعة...
+                                    ...قال أبو بكر كنت عند الوزير أبى القاسم بن عبد الله
+                                </incipit>
+                                <explicit>
+                                    <locus>338a</locus>
+                                    .فى الأطراف إذا عرضت لها حكّة فى الشتاء إذا غسل يديه بالماء البارد
+                                    ...علاجه أن يؤخذ ماء حار شديد الحرارة فيطرح فيه كف ملح ويوضع فيه أطرافه ساعة فإنه يسكن فى الوقت
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="9">9</layout>
+                                </layoutDesc> 
+                            </objectDesc>
+                        </physDesc> 
+                        <history>
+                            <origin>
+                                <origDate calendar="Hijri">Undated. Estimated 13th century A.H.</origDate>
+                                <origDate calendar="Gregorian">Undated. Estimated 19th century A.D.</origDate>
+                            </origin>
+                        </history>
+                    </msPart>
+                    
+                    <msPart n="3" xml:id="MS_Arabic_67_3">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>A medical manuscript on ways to assist with a quick recovery from illness whilst also mentioning al-Razi's similar work. It consists of 5 chapters.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            <msItem xml:id="WMS_Arabic_67_3_1">
+                                
+                                <author>
+                                    <persName xml:lang="eng" type="standard">Sadr al-din Ali bin Muhammad tabib Jilani</persName>
+                                    <persName xml:lang="ar" type="original">صدر الدين علي بن محمد طبيب گيلاني</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">الشفاء العاجل</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Al-shifa' al-'ajil</title>
+                                <title xml:lang="en" type="standard">Speedy recovery</title>
+                                
+                                <incipit>
+                                    <locus>339b</locus>
+                                    ...نحمدك يا شافي صدورنا برشحات بحار رحمته ونشكرك يا هادى قلوبنا بلمعات أنوار مكمته...
+                                    ...ثم يقول...
+                                     المسمى بصدر الدين محمد الطبيب لقد طال ما وقع فى قلبى أن أؤلّف كتابا قى المعاجلات التى يسرع إنجاحها لأمراض ويجعل إصلاحها لإعراض لما رأيت عدم نهوض أحد من القدماء لذلك إلّا الفاضل محمد زكريا الرازى فإنه قد وضع
+                                     ...كتابا وأورد فيه بعض الأمراض التى يمكن أن يبرأ فى ساعة
+                                     ...شعرت فى تأليف كتابى هذا الذى سميته بالشفاء العاجل ورتبته على مقدمة وخمسة أبواب...
+                                </incipit>
+                                <explicit>389b<locus></locus>
+                                    .ويجتنب الأشياء المفتحة للسدد وخاصة الكرفس فى مواضع الكثيرة العقارب...
+                                    .كتاب شفاء عاجل...
+                                    
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout writtenLines="15">15                                   
+                                    </layout>
+                                </layoutDesc> 
+                            </objectDesc>
+                        </physDesc>    
+                        <history>
+                            <origin>
+                                <origDate>Undated.</origDate>
+                            </origin>
+                        </history>
+                    </msPart>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
