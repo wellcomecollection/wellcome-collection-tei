@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15733">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 86</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 86</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 86</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 86</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295194</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A composite manuscript consisting of two separate works both by Ibn Ahmad al-Qurashi.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">155mm</dim>
+                                        <dim type="length">240mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">95mm</dim>
+                                        <dim type="length">180mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 74 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>Okay condition. Some pest damage.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="15">15</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="nastaliq" scope="major">
+                                <p><label>Script:</label> Nastaliq</p>
+                                <p><label>Ink:</label> Black and red</p>
+                                <p><label>Scribe:</label></p>
+                                <persName xml:lang="eng" type="standard">Fath-addin bin Hakim (physician)</persName>
+                                <persName xml:lang="ar" type="original">(فتح الدين بن حكيم (طبيب</persName>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications found in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">1261 A.H.</origDate>
+                            <origDate calendar="Gregorian">1845 A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 77 and 216.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_86_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>A lesser known medical manuscript written by al-Qurashi, consisting of three chapters.</summary>
+
+                            <msItem xml:id="MS_Arabic_86_1_1">
+
+                                <author>
+                                    <persName xml:lang="eng" type="standard">'Abd al-aziz bin Ahmad al-Qurashi</persName>
+                                    <persName xml:lang="ar" type="original">عبد العزيز بن محمد القرشي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">العنبر</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Al-'Anbar</title>
+                                <title xml:lang="en" type="standard">Amber</title>
+                                
+                                <!-- Use as needed, or delete -->
+                                <textLang mainLang="ar">Arabic</textLang>
+                                <textLang otherLangs="fa">Persian</textLang>
+                                
+                                <incipit>
+                                    <locus>1b</locus>
+                                    ...يا ذا الحكمة الكاملة والنعمة السابغة...
+                                    ...أما يعد فهذه عنبر بل مسك الأذخر يقوى الرئة والأمزجة النفسية قائما من ثلاث أبواب...
+                                </incipit>
+                                <explicit>
+                                    <locus>14a</locus>
+                                    .قرص الورد للرطوبات الفاسدة صفةه ورد جزء سنبل رب السوس من كل نصفه...
+                                    ...يقرّص
+                                    ...قال المؤلف عبد العزيز بن أحمد
+                                    ...دونك أيها الطبيب تبصرة للمبتدىء وتذكرة للميمونة العنبر
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>       
+                    </msPart>
+                    <msPart n="2" xml:id="MS_Arabic_86_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>The more well-known of al-Qurashi's medical manuscripts. The manuscript discusses afflictions of the brain and their treatments, then eyes, ears and other organs, and finishes off discussing types of fevers and their treatments. Sometimes this work can be seen as described as "The Elixir" which was intended to be al-Qurashi's larger work that he never completed.</summary>
+                            
+                            <msItem xml:id="MS_Arabic_86_2_1">
+                                
+                                <author>
+                                    <persName xml:lang="eng" type="standard">'Abd al-aziz bin Ahmad al-Qurashi</persName>
+                                    <persName xml:lang="ar" type="original">عبد العزيز بن محمد القرشي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">زمرّد اخضر و ياقوت احمر</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Zumurrud akhdar wa yaqut ahmar</title>
+                                <title xml:lang="en" type="standard">Green emeralds and red rubies</title>
+             
+                                <textLang mainLang="ar">Arabic</textLang>
+                                <textLang otherLangs="fa">Persian</textLang>
+                                
+                                <incipit>
+                                    <locus>14b</locus>
+                                    ...أما بعد فهذا زمرد أخضر وياقوت أحمر ينور العيون ويفرح المحزون أطيت من حزائن الغيب جليل الثمن خليلا من العيب...
+                                    ...قال المؤلف...
+                                    ...عبد العزيز بن أحمد بن حامد
+                                </incipit>
+                                <explicit>
+                                    <locus>74a</locus>
+                                    ...تمت هذه النسخة...
+                                    ...المسمى بالزمرد من تصنيف المولوى العبد العزيز بن أحمد
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>       
+                    </msPart> 
+                    
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
