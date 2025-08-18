@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15772">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 127</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 127</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 127</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 127</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b2029542x</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Two medical manuscripts in a composite volume. Both authors are unidentified, includes books I and II in the series.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">120mm</dim>
+                                        <dim type="length">165mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">75mm</dim>
+                                        <dim type="length">125mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 367 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="19">19</layout>
+                                <layout><!-- Add any information on ruling (this might be included in under words like mistara/mastara --></layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                                <p><label>Scribe:</label></p>
+                                <persName xml:lang="eng" type="standard"></persName>
+                                <persName xml:lang="ar" type="original"></persName>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications present throughout in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">1117 A.H.</origDate>
+                            <origDate calendar="Gregorian">1705 A.D.</origDate>
+                            <origPlace>
+                                <country>Omdurman, Sudan.</country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            Bought from Omdurman, Sudan by Dr. Andrew Balfour (1873-1931) and presented to Sir Henry Wellcome on 20th May 1914.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 218.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_127_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>A manuscript on medicinal herbs.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_127_1_1">
+                                
+                                <!-- This first msItem may in some cases be deleted entirely -->
+                                
+                                <author>Anonymous.
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">مفردات الأشاب الطبيّة</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Mufradat al-a'shab al-tibiyya</title>
+                                <title xml:lang="en" type="standard">Simples or medical herbs</title>
+                                
+                                
+                                <incipit>
+                                    <locus>1b</locus>
+                                    .مفردات
+                                    .باب حرف الألف
+                                    .إبريسم هو الحرير إذا شرب محرّقه كان مفرحاً للقلب مقوباً له
+                                    ...ينفع من الخفقان
+                                </incipit>
+                                <explicit>
+                                    <locus>190b</locus>
+                                    ويكتحل به بياض العين العتيق والحديث.
+                                    .قلعه من غير أذى العين ويلقط الحمرة
+                                    .ويقال إن الأواؤل كانوا يسموه الجوهر الذى لا ثمن له
+                                    ...تم الكتاب...
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>
+                               
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="MS_Arabic_127_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>A medical manuscript.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_127_2_1">
+                                
+                                <!-- This first msItem may in some cases be deleted entirely -->
+                                
+                                <author>Anonymous
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">المغنى فى الطبّ</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Al-mughni fi al-tibb</title>
+                                <title xml:lang="en" type="standard">A medical work which serves to replace other books</title>
+                                
+                                <incipit>
+                                    <locus>191a</locus>
+                                    .أول الكتاب فى الأمراض 
+                                    .فى ذكر الأمراض العارضة فى الرأس ومداوتها
+                                    .المرض  فى الحزاز
+                                    .رقيق شبيه بالنخالة تنفرك من جلدة الرأس من غير تقرّح
+                                    .ولهذه العلة يسمى الأطباء هذه القشرة بهذا الاسم الذى معناه بالسريانية النخالة
+                                    ...السبب إما رداءة مزاج الرأس أو فساد مزاج البدن لغلبته الأخلاط المحترقة
+                                </incipit>
+                                <explicit>
+                                    <locus>174a</locus>
+                                    .فى سقى البنج علاج من سقى البنج القىء وشرب طبيخ التين والله أعلم...
+                                    ...تم الكتاب الطبّ المسمى بالمغنى
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>
+    
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
