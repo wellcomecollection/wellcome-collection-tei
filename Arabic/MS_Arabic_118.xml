@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15763">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 118</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 118</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 118</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 118</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295388</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>66599</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Two medical manuscripts in a composite volume. There is a statement on folio 30 that 8 out of the 42 chapters in the first manuscript by ibn Butlan are lacking. There is an index of contents for thirty four chapters.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">165mm</dim>
+                                        <dim type="length">240mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">125mm</dim>
+                                        <dim type="length">200mm</dim>
+                                    </dimensions>
+                                </extent>    
+                                <foliation>Folios: 40</foliation>
+                                
+                                <condition>Leaves wanting at the end.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="19">19</layout>
+                                
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label>Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                            </handNote>
+                            
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications present in red.</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Undated. Estimated to be from 12th century A.H.</origDate>
+                            <origDate calendar="Gregorian">Undated. Estimated to be from 18th century A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            Bought from Dahdah Moussali and Muhammad Ibn Yusef in Damascus, Syria in April 1934 through Capt. Saint.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 192 and 225.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_118_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>A medical manuscript by Ibn Butlan on treating illnesses.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_118_1_1">
+                                
+                                <!-- This first msItem may in some cases be deleted entirely -->
+                                
+                                <author key="person_294443239">
+                                    <persName xml:lang="eng" type="standard">Al-Mukhtar ibn Al-Hasan ibn 'Abdun ibn Sa'dun ibn Butlan (d.458/1066)</persName>
+                                    <persName xml:lang="ar" type="original">المختار بن الحسن بن عبدون بن سعدون بن بطلان </persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">تدبير الأمراض العارضة على الأكثر بالأغذية المألوفة = كناش الأديرة = مقالة فى تدبير الأمراض على الأكثر بالأغذية المألوفة والأدوية الموجودة ينتفع بها رهبان العابدين والعبادة الدينية</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Tadbir al-Amrad al-'arida al-akthar bi al-aghdiya al-ma'lufa = kunnash al-adyira = maqala fi tadbir al-amrad al-'arida 'ala al-akthar bi al-aghdiya al-ma'lufa al al-adwiya al-mawjuda yantafi biha ruhban al-abidan wa al-'ibada al-diniyya</title>
+                                <title xml:lang="en" type="standard">Treatment of current diseases by administration of commons foods = Compendium for use in monastries = A treatise for the use of monks on treatment of current diseases by administration of common foods and drugs</title>
+
+                                <incipit>
+                                    <locus>2a</locus>
+                                    .فنبتدىء نكتب فهرس الكتاب...
+                                    ...مقالة المختار بن الحسن بن عبدون فى تدبير الأمراض العارضة على الأكثر بالأغذية المألوفة والأدوية الموجودة
+                                    .وينقسم إلى اثنين وأربعين باباً
+                                    .الباب الأول فى غرض المقالة...
+                                    .قد وضع كثيرون من القدماء والمحدثين أفاضل الأطباء من الكنانيش ما بذل كل واحد منهم جهده واستفرغ سعيه فيما صنّفه
+                                    ...ولما كان جماعة من الناس يميلون إلى ما كان منها موجوزاً مختصراً
+                                </incipit>
+                                <explicit> 
+                                    <locus>3a</locus>
+                                    .ومثل ذلك يعمل البنفسج المربى غير أن البلاد التي شمسها فى الربيع مقنوءة كانطاكية ونحوها تدعو الضرورة على حمله على النار حتى ينشف ... المائية التى تتصل منها
+                                    ...اعلم انّ هذه النسخة بعدها ناقصة ثمانية أبواب ما وجدناهم فى النسخة التى كتبنا عليها
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>      
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="MS_Arabic_118_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>Receipts for the treatment of different diseases copied from the book of Luqman, a physician.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_118_2_1">
+                                
+                                <!-- This first msItem may in some cases be deleted entirely -->
+                                
+                                <author>Anonymous</author>
+                                
+                                <title>Untitled.</title>
+
+                                <incipit>
+                                    <locus>3a</locus>
+                                    .من كتاب لقمان الحكيم نبتدىء نكتب الشرابات والمعاجين والسفوف والحب والمرهم وما شاكل ذلك...
+                                    ...صفة الجلاب المسكن الصفراء
+                                </incipit>
+                                <explicit>
+                                    <locus>40b</locus>
+                                    .القولنج خذ حبق واغله واشراب ثلاث مرات...
+                                    .وأيضاً ذيل الديب اسحقه واعجنه بعسل واشراب بكرة وعشية
+                                    .ينفع الولنج والمغيض الشديد
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>      
+                    </msPart>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
