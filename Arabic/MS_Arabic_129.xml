@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15774">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 129</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025"></resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 129</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 129</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 129</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295443</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>68541</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A composite manuscript with 11 separate works, some including works by Ibn Sina, Ibn al-Tilmidh and Ibn Makki.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">150mm</dim>
+                                        <dim type="length">200mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">100mm</dim>
+                                        <dim type="length">165mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 72 foll.
+                                </collation>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="19">19</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                                <p><label>Scribe:</label></p>
+                                <persName xml:lang="eng" type="standard"></persName>
+                                <persName xml:lang="ar" type="original"></persName>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication present throughout in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Undated. Estimated to be 12th century A.H.</origDate>
+                            <origDate calendar="Gregorian">Undated. Estimataed to be 18th century A.D.</origDate>
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            Bought alongside 60 manuscripts. Bought from Dahdah Moussali in Damascus, Syria, in 1935 through Capt. Saint.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 131, 208-210, 212-213, 217 and 224.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_129_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>A medical manuscript on blood letting.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_129_1_1">
+                                <author key="person_71708119">
+                                    <persName xml:lang="eng" type="standard">Said Ibn Hibat Allah Ibn Ibrahim Abul-Hassan Amin-addawla ibn al-Tilmidh (d.560 A.H./1165 A.D.)</persName>
+                                    <persName xml:lang="ar" type="original">سعيد ابن هبة الله ابن ابراهيم ابو الحسن امين الدولة ابن التلميذ </persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">مقالة فى الفصد</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Maqala fi al-fasd</title>
+                                <title xml:lang="en" type="standard">A treatise on blood letting</title>
+
+                                
+                                <incipit>
+                                    <locus>62a</locus>
+                                    ...مقال
+                                    الباب الأول فى حد الفصد 
+                                     ...الفصّى من العروق خاصة لتوسطها فى جميع الجسم
+                                </incipit>
+                                <explicit>
+                                    <locus>71a</locus>
+                                    .والصبر ودم الأدوي
+                                    .وليتقدم على جميع أحفظ الأصول الكليّة 
+                                    .فإن اعتمد ما كرناه وأخذ نفسه به ازداد بصيرة وازداد به الناس شغفاً وكان له قبول
+                                    .وحظى بالمطلوب الأشرف وهو الأجر عند الله تعالى 
+                                    .تمت بحمد الله
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="MS_Arabic_129_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>A medical poem related to humourism.</summary>
+                            <textLang mainLang=""><!-- Use if only one language in manuscript --></textLang>
+                            
+                            <msItem xml:id="MS_Arabic_129_2_1">
+                                
+                                <!-- This first msItem may in some cases be deleted entirely -->
+                                
+                                <author>
+                                    <persName xml:lang="eng" type="standard">Muhammad bin Makki Shams-addin</persName>
+                                    <persName xml:lang="ar" type="original">محمد بن مكى شمس الدين</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">أزجوزة فى جذب الخلط</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Urjuza fi jadhb al-khilt</title>
+                                <title xml:lang="en" type="standard">Poem on evacuation of humours</title>
+                                
+                                <incipit>
+                                    <locus>34a</locus>
+                                    أرجوزة أيضا له فى جذب الخلط ...
+                                    لجذبك الخلط شروط أربعة
+                                    مشهورة وأحد عشر مجتمعة
+                                </incipit>
+                                <explicit>
+                                    <locus>34a</locus>
+                                    جماعها ناظمها ابن مكى
+                                    بفرط إيجاز وحسن سبك
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="3" xml:id="MS_Arabic_129_3">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            
+                            <summary>A poem on circumcision</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_129_3_1">
+
+                                <author>
+                                    <persName xml:lang="eng" type="standard">Muhammad bin Makki Shams-addin</persName>
+                                    <persName xml:lang="ar" type="original">محمد بن مكى شمس الدين</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">أرجوزة فى الختان</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Urjuza fi al-khitan</title>
+                                <title xml:lang="en" type="standard">Poem on circumcision</title>
+
+                                
+                                <incipit>
+                                    <locus>34a</locus>
+                                    أرجوزة له أيضا فى الحتان
+                                    من بعد حمد لله ذى الإحسان
+                                    أرجوزة ظريفة العانى
+                                </incipit>
+                                <explicit>
+                                    <locus>35a</locus>
+                                    وقد لفظت هذه الأرجوزة
+                                    ظاهرة صريحة وجيزة
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="4" xml:id="MS_Arabic_129_4">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            
+                            <summary>A poem on treatment during the fours seasons.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_129_4_1">
+                                <author key="person_89770781" role="original">
+                                    <persName xml:lang="eng" type="standard">Avicenna (Ibn Sina)</persName>
+                                    <persName xml:lang="ar" type="original">ابن سينا</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">أرجوزة فى تدبير الصحة فى الفصول</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Urjuza fi tadbir al-sihha fi al-fusul</title>
+                                <title xml:lang="en" type="standard">Poem on treatment during the four seasons</title>
+                                
+                                <incipit>
+                                    <locus>30a</locus>
+                                    أرجوزة الشيخ الرئيس أبو على الحسين بن سينا فى تدبير الصحة فى الفصول أربعة
+                                    يقول راجى ربه ابن سينا
+                                    ولم يزل بالل ه مستغينا
+                                    يا سائلى عن صحة الأسجاد
+                                    اسمح صحيح الطب بالأسناد
+                                    إن اسطقسات الوجود أربعة
+                                    أودع فيها الله سراً أبدعة
+                                </incipit>
+                                <explicit>
+                                    <locus>33a</locus>
+                                    فاعطه الخطمى وذر الورد
+                                    ودهن ورد وشراب الورد
+                                    والعود والصندل والسفرجل
+                                    فيه الشفاء لدائه معجل
+                                    تمت
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    <msPart n="5" xml:id="MS_Arabic_129_5">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>Poem on anatomy.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_129_5_1">
+                                <author key="person_89770781" role="original">
+                                    <persName xml:lang="eng" type="standard">Avicenna (Ibn Sina)</persName>
+                                    <persName xml:lang="ar" type="original">ابن سينا</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">أرجوزة فى التشريح</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Urjuza fi al-tashrih</title>
+                                <title xml:lang="en" type="standard">Poem on anatomy</title>
+                                
+                                <incipit>
+                                    <locus>55a</locus>
+                                    أرجوزة للشيخ الرئيس ابن سينا التشريح ...
+                                    الحمد لله مزيل العلل
+                                    وخالق الخلق القديم الأزلى
+                                    أوجدنا من هذه الأركان
+                                    أربعة ليحكم البنيان
+                                </incipit>
+                                <explicit>
+                                    <locus>57a</locus>
+                                    قد قيم القضيب كالمحراث
+                                    ليعمر الدنيا على الثراتى
+                                    وأما المثانة فهى كالبالوعة
+                                    والدار بالبالوعة منفوعة
+                                    ومعدن الأثفال فى الأجساد
+                                    بها يتم النفع فى الأيادى
+                                
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="6" xml:id="MS_Arabic_129_6">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>Poem on general anatomy. This poem is different from Ibn Sina's other poem Urjuza fi al-Tashrih (poem on anatomy). It has the titles "Bones" (folio 57b), "Muscles" (folio 58b), "Arteries" (folio 59b) and "Veins" (folio 60b).</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_129_6_1">
+                                <author key="person_89770781" role="original">
+                                    <persName xml:lang="eng" type="standard">Avicenna (Ibn Sina)</persName>
+                                    <persName xml:lang="ar" type="original">ابن سينا</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">أرجوزة فى التشريح عموماً</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Urjuza fi tashrih 'umuma</title>
+                                <title xml:lang="en" type="standard">Poem on general anatomy</title>
+                                
+                                <incipit>
+                                    <locus>57b</locus>
+                                    أرجوزة له فى التشريح عموما
+                                    الحمد لله على تهذيبى
+                                    وعاصمى من الشر تهذى بى
+                                    مهمين خلصنى من جهلى
+                                    وحافظى بعد فراق أهلى
+                                    وبعد ما أحمده حمد الأبد
+                                    كتبت من نظمى قصيدا
+                                    أكملت ما نطمته للمبتدى
+                                    فى صنعة التشريح كيما يهتدى
+                                </incipit>
+                                <explicit>
+                                    <locus>61b</locus>
+                                    والنفس البليدة الثقيلة
+                                    مسبوته وخيمة كليلة
+                                    من صلاح الرأس لين الطبخ
+                                    وقصرك المعدة حد الشبح
+                                    تمت الأرجوزة
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="7" xml:id="MS_Arabic_129_7">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>Poem on medicine, the section on the practice of medicine is from folio 38b to 55a.</summary>
+                            <textLang mainLang=""><!-- Use if only one language in manuscript --></textLang>
+                            
+                            <msItem xml:id="MS_Arabic_129_7_1">
+                                <author key="person_89770781" role="original">
+                                    <persName xml:lang="eng" type="standard">Avicenna (Ibn Sina)</persName>
+                                    <persName xml:lang="ar" type="original">ابن سينا</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">أرجوزة فى الطبّ</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Urjuza fi al-Tibb</title>
+                                <title xml:lang="en" type="standard">Poem on medicine</title>
+                                
+                                <incipit>
+                                   ذكر غرض الأرجوزة
+                                   هذه أرجوزة قد اكتمال
+                                   فيها جميع الطب علماً وعمل
+                                   وها أنا مبتدى بنظمى
+                                   منثور ما حفطته من علم
+                                   تقاسيم الطب
+                                   الطب حفظ صحة برء مرض
+                                   قسمة الأولى لعلم وعمل
+                                   والعلم فى ثلاثة قد التمل
+                                </incipit>
+                                
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="8" xml:id="MS_Arabic_129_8">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>Poem on the twenty five doctrines of Hippocrates</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_129_8_1">
+                                    <author key="person_89770781" role="original">
+                                        <persName xml:lang="eng" type="standard">Avicenna (Ibn Sina)</persName>
+                                        <persName xml:lang="ar" type="original">ابن سينا</persName>
+                                    </author>
+                                
+                                <title xml:lang="ar" type="original">أرجوزة لطيفة فى قضايا بقراط الخمس والعشرين</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Urjuza latifa fi qadaya buqrat al-khams wa al-'ishrin</title>
+                                <title xml:lang="en" type="standard">Pleasant poem on the twenty-five doctrines of Hippocrates</title>
+                                
+                                <incipit>
+                                    <locus>35a</locus>
+                                    أرجوزة لطيفة قضايا بقراط الخمس والعشرين
+                                    يا رب سر لم يزل مخزونا
+                                    مكتما بين الورى مكنونا
+                                </incipit>
+                                <explicit>
+                                    <locus>37a</locus>
+                                    فاحفظ إن كنت حفيطاً للحكم
+                                    تكون فى الطب رفيعاً كالعلم
+                                    تمت القضايا الخمس والعشرين
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="9" xml:id="MS_Arabic_129_9">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>A short poem on the veins</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_129_9_1">
+                                <author>
+                                    <persName xml:lang="eng" type="standard">Muhammad bin Makki Shams-addin</persName>
+                                    <persName xml:lang="ar" type="original">محمد بن مكى شمس الدين</persName>
+                                </author>
+                                
+                                
+                                <title xml:lang="ar" type="original">أرجوزة وجيزة فى عدد العروق المفصودة</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Urjuza wajiza fi 'adad al-'uqurq al-mafsuda</title>
+                                <title xml:lang="en" type="standard">A short poem on the veings for venesection</title>
+                                
+                                <incipit>
+                                    <locus>33b</locus>
+                                    هذه أرجوزة وجيزة فى عدد العروق المفصودة للشيخ شمس الدين بن مكى
+                                    الحمد لله الحكيم الشافى
+                                    العالم الغيب العلم الكافى
+                                    أحمده على سبوع نعمته
+                                    أشكره على بلوغ حكمته
+                                </incipit>
+                                <explicit>
+                                    <locus>34a</locus>
+                                    وشارك الأكحل للقيفال
+                                    وشارك الإبطى فى الأحوال
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                    
+                    <msPart n="10" xml:id="MS_Arabic_129_10">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary></summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_129_10_1">
+                                <author>Unidentified
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">منظومة فى النبض والبول</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Manzuma fi al-nabd wa al-bawl</title>
+                                <title xml:lang="en" type="standard">Poem on the pulse and urine</title>
+                                
+                                <incipit>
+                                    <locus>24a</locus>
+                                    فى تعريف النبض
+                                    وبعد فالنبض دليل صادق
+                                    يعرفه من الأطباء الحاذق
+                                    وبعده فى الرتبة القارورة
+                                    أحوالها معلومة مشهورة
+                                </incipit>
+                                <explicit>
+                                    <locus>28a</locus>
+                                    والبول قالوا بخلاف ذاكا
+                                    فافهم مقالى واشكرون مولاكا
+                                    فآن أن أختتم ما نطمته
+                                    بحمد مولانا تعالى ذاته
+                                    تمت المنظومة
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
