@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15682">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic 32</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 32</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 32</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 32</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20294864</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>36042</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>A medical manuscript of Al-Ilaqi's Aphorisms with an index of contents on folio 1b.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                        <msItem n="" xml:id="WMS_Arabic_32">
+                            
+                            <author key="person_2749162481035537680000">
+                                <persName xml:lang="eng" type="standard">Muhammad Ibn Yusuf al-Ilaqi</persName>
+                                <persName xml:lang="ar" type="original">محمد ابن يوسف الأيلاقي</persName>
+                                <note>Pupil of Ibn Sina (Avicenna) and Umar al-Khayyam.</note>
+                            </author>
+                            
+                            <title xml:lang="ar" type="original">الأسباب والعلامات</title>
+                            <title xml:lang="ar-Latn-x-lc" type="standard">Al-asbab wa al-'alamat</title>
+                            <title xml:lang="en" type="standard">Causes and symptoms</title>
+                            
+                            <incipit> <locus>1b</locus>
+                                فصل فى الاستدلالات على أحوال الدماغ العارضة على الوجه المجمل...
+                                ...هذه الاستدلالات تكون إما من جهة الأفعال النفسانية
+                            </incipit>
+                            
+                            <explicit>
+                                <locus>99b</locus>
+                                ...وربما عرض عن الطين أو كثرة علك واعرف أسباب السمن من مقابلاتعها...
+                            </explicit> 
+                        </msItem>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">135mm</dim>
+                                        <dim type="length">185mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">100mm</dim>
+                                        <dim type="length">125mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 100 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition>Leaves wanting at the beginning and the end.</condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="15">15</layout>
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="naskh" scope="major">
+                                <p><label>Script:</label> Naskh</p>
+                                <p><label>Ink:</label> Black and red</p>
+                                <p><label>Scribe:</label></p>
+                                <persName xml:lang="eng" type="standard"></persName>
+                                <persName xml:lang="ar" type="original"></persName>
+                            </handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrication present in red throughout.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p><!-- Insert additional information here, but not information that goes outside of the tags such as space ratio etc. More so information relating to folios --></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate calendar="Hijri">Undated. Estimated to be 10th century A.H.</origDate>
+                            <origDate calendar="Gregorian">Undated. Estimated to be 16th century A.D.</origDate>
+                            <origPlace>
+                                <country>Damascus, Syria</country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: Yuhanna bin Mikhail bin Atallah (physician of Damascus and Dar as-Salam, Baghdad) in 1025 A.H./1616 A.D and Nasr ALlah bin al-Halabi (a physician).
+                        </provenance>
+                        <acquisition>
+                            Accessioned into the collection on 12 March 1915. Bought for £2 in Beirut, Lebanon from Murad Baroody.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Page 83.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
