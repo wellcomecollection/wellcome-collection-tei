@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_15813">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Arabic <!-- insert MSS number here --></title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="AZI">
+                    <resp when="1967">Cataloguer</resp>
+                    <persName>A. Z. Iskandar</persName>
+                </respStmt>
+                <respStmt xml:id="LS">
+                    <resp when="2022">Template</resp>
+                    <resp when="2025">TEI Encoder</resp>
+                    <persName>Lara Salha</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.ac.uk</email>
+                </distributor>
+                <idno type="msID">MS Arabic 168</idno>
+                <idno type="catalogue">A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</idno>
+                <availability>
+                    <licence><!-- Licensing statement to come in late-stage editing --></licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS Arabic 168</idno>
+                        <altIdentifier type="former">
+                            <idno>WMS. Or. 168</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b20295698</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>48088</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <msContents>
+                        <summary>Composite manuscript with two separate works by Ibn al-Nafis and Al-Jaghmini. There are blank spaces for unwritten titles with leaves missing at the end. This manuscript is incomplete.</summary>
+                        <textLang mainLang="ar">Arabic</textLang>
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper"> 
+                                <support><p><!-- Sometimes the type of paper will be described aka 'Oriental paper' --></p></support>
+                                
+                                <extent>
+                                    <dimensions unit="mm" type="leaf">
+                                        <dim type="diameter">155mm</dim>
+                                        <dim type="length">245mm</dim>
+                                    </dimensions>
+                                    <dimensions unit="mm" type="written">
+                                        <dim type="diameter">110mm</dim>
+                                        <dim type="length">170mm</dim>
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation>
+                                    <catchwords> <!-- Any information about catchwords here --> </catchwords>
+                                </foliation>
+                                
+                                <collation>
+                                    <label>Folios:</label> 93 foll.
+                                    <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                                    <signatures><!-- Use to record quire signatures, if available --></signatures>
+                                </collation>
+                                
+                                <condition><!-- Use to record information on the manuscript's condition --></condition>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <layout writtenLines="15">15</layout>
+
+                            </layoutDesc>
+                            
+                        </objectDesc>
+                        
+                        <handDesc>
+                            <handNote script="nastaliq" scope="major">
+                                <p><label>Script:</label> Nastaliq</p>
+                                <p><label>Ink:</label> Black and red</p>
+                                <p><label>Scribe:</label></p> More than one copyist.
+                            </handNote>
+                            <handNote script="naskh" scope="minor">The second work in this composite volume is in the Naskh script with diacritical vowels present.</handNote>
+                        </handDesc>
+                        
+                        <decoDesc>
+                            <decoNote type="rubrication">Rubrications present in red.</decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p></p>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- Insert binding information here --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    
+                    <history>
+                        <origin>
+                            <origDate>Both works have separate dates.</origDate>
+   
+                            <origPlace>
+                                <country></country>
+                            </origPlace>
+                        </origin>
+                        <provenance>Known owners: <!-- Insert all known owners here. -->
+                        </provenance>
+                        <acquisition>
+                            Accessioned into the collection on 1st June 1928. Bought from Sotheby's auction house 30th April 1928 for £1 5s.
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>A catalogue of Arabic manuscripts on medicine and science in the Wellcome Historical Medical Library</title>
+                                        <author>A.Z. Iskandar</author>
+                                        <date>1967</date>
+                                        <note>Pages 148 and 169.</note>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <custodialHist>
+                                <custEvent><!-- Add dates and repeat elements and delete as needed, 
+                                    using the from and to attributes to record date ranges such as for exhibitions.
+                                
+                                    The type attribute is open, which means you can record any category, such as 'conservation', 'loan', 'inventory', etc.--></custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <head></head>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_Arabic_168_1">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>Abstract of Ibn al-Nafis' the Canon</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_168_1_1">
+                                
+                                <!-- This first msItem may in some cases be deleted entirely -->
+                                
+                                <author key="person_17316331">
+                                    <persName xml:lang="eng" type="standard">'Ala-addin Abu-l-Hasan 'Ali ibn Abi-al-Hazm al-Qurashi ibn al-Nafis</persName>
+                                    <persName xml:lang="ar" type="original">علاء الدين أبو الحسن علي ابي الحزم القَرشي ابن النفيس</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">الموجز = موجز القانون = الموجز في الطبّ</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Al Mujiz = Mujiz al-Qanun = Mujiz fi al-Tibb</title>
+                                <title xml:lang="en" type="standard">The concise book = Abstract of the Canon = Abstract of medicine</title>
+                                
+                                <incipit><locus>1b</locus>
+                                    ...قال...
+                                    ...أبو الحسن علاء
+                                    ...الدين على بن أبى الحزم القرشى المشهور بابن النفيس المتطبب
+                                    ...قد رتبت هذا الكتاب على أربعة فنون فى قواعد جزءى الطبّ أعنى علمية بقول كلّى فى أدوية المفردة والمركبة
+                                </incipit>
+                                <explicit><locus>21b</locus>
+                                    ...ولحم الأرنب حار يابس واللإلية حارة رطبة واللحم غذاء مقو للبدن قريب الاستحالة إلى...
+                                </explicit>
+                                
+                            </msItem>
+                            
+                        </msContents>
+                        <history>
+                            <origin>
+                                <origDate calendar="Hijri">Undated. Estimated to be 13th century A.H.</origDate>
+                                <origDate calendar="Gregorian">Undated. Estimated to be 19th century A.D.</origDate>
+                            </origin>
+                        </history>
+                    </msPart>
+                    
+                    <msPart n="2" xml:id="MS_Arabic_168_2">
+                        <msIdentifier>
+                            <altIdentifier>
+                                <idno><!-- insert catalogue number for the msPart --></idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <!-- Follow outline of msContents above -->
+                            
+                            <summary>A translated extract of Avicenna's Canon of Medicine.</summary>
+                            <textLang mainLang="ar">Arabic</textLang>
+                            
+                            <msItem xml:id="MS_Arabic_168_2_1">
+                                
+                                <!-- This first msItem may in some cases be deleted entirely -->
+                                
+                                <author key="person_5146153029805251752">
+                                    <persName xml:lang="eng" type="standard">Mahmud ibn Muhammad ibn Omar al-Jaghmini</persName>
+                                    <persName xml:lang="ar" type="original">محمود بن مُحمَّد بن عُمر الجغميني الخوارزمي</persName>
+                                </author>
+                                
+                                <title xml:lang="ar" type="original">القانونشا في الطب</title>
+                                <title xml:lang="ar-Latn-x-lc" type="standard">Al-Qanunchah fil-Tibb</title>
+                                <title xml:lang="en" type="standard">Canon of medicine</title>
+                                
+                                <incipit><locus>22a</locus>
+                                    .كل عضو عضو ويسمى المغيرة الأولى
+                                    .أما المصورة فهى التى يصدر عنها تخطيط الأعضاء وتشكيلاتها
+                                    ...وأما الخادمة فهى الجاذبة
+                                </incipit>
+                                <explicit><locus>93b</locus>
+                                    ...وأما الحلو فالعسلى معين للهضم والعنبى غليظ مولد للبرد...
+                                    ...باتمام ... كتاب قانونجه
+                                </explicit>
+                                
+                            </msItem>
+                        </msContents>
+                        <history>
+                            <origin>
+                                <origDate calendar="Hijri">1237 A.H.</origDate>
+                                <origDate calendar="Gregorian">1821 A.D.</origDate>
+                            </origin>
+                        </history>
+                        
+                    </msPart>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><!--Body paragraph provided for validation and future transcription--></p>
+        </body>
+    </text>
+</TEI>    
