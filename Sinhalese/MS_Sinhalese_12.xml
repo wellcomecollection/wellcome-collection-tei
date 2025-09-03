@@ -10,30 +10,27 @@
             <titleStmt>
                 <title></title>
                 <title type="collection">Wellcome Collection</title>
-                <respStmt xml:id="">
+                <respStmt xml:id="KDS">
                     <resp when="1996">Cataloguer</resp>
                     <persName>KD Somadasa</persName>
                 </respStmt>
                 <respStmt xml:id="MM">
-                    <resp when="">Template</resp>
+                    <resp when="2024">Template</resp>
                     <persName>Miten Mistry</persName>
                 </respStmt>
                 <respStmt xml:id="AdP">
-                    <resp when="<!-- add date when template finished -->">Template and encoding</resp>
+                    <resp when="2025">Template and encoding</resp>
                     <persName>Adrian Plau</persName>
                 </respStmt>
                 <respStmt xml:id="AP">
-                    <resp when="<!-- add date when template finished -->">Template</resp>
+                    <resp when="2024">Template</resp>
                     <persName>Amila Perera</persName>
                 </respStmt>
                 <respStmt xml:id="MJ">
-                    <resp when="<!-- add date when template finished -->">Template</resp>
+                    <resp when="2024">Template</resp>
                     <persName>Madhurika Jayawardana</persName>
                 </respStmt>
-                <respStmt xml:id="">
-                    <resp when="">TEI Encoder</resp>
-                    <persName><!-- Insert name of person creating record --></persName>
-                </respStmt>
+               
                 <!-- Add another <respStmt> for every resp -->
             </titleStmt>
             
@@ -248,6 +245,8 @@
                             <filiation><!-- insert --></filiation>
                             <note><!-- insert --></note>
                             
+                        </msItem>
+                            
                             <msItem n="6" xml:id="MS_Sinhalese_6">
                                 
                                 <author key=""><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
@@ -286,7 +285,7 @@
                                 
                                 <support>Palm leaf</support>
                                 <extent>Ff. 98 (ka-cha)
-                                    <dimensions unit="" type=""><!-- available from digitisation/conservation pre check notes, if not available in catalogue, first line in entry -->
+                                    <dimensions unit="cm"><!-- available from digitisation/conservation pre check notes, if not available in catalogue, first line in entry -->
                                         
                                         <dim type="diameter">5 cm</dim>
                                         <dim type="length">34 cm</dim>
@@ -324,7 +323,7 @@
                                 <settlement><!-- insert --></settlement>,
                                 <orgName><!-- insert --></orgName>
                             </origPlace>
-                            <origDate calendar="">Late 19th century</origDate>
+                            <origDate calendar="Gregorian">Late 19th century</origDate>
                             <!-- use additional origPlace and origDate elements if necessary -->
                         </origin>
                         <provenance notBefore="" notAfter=""><!-- insert, otherwise delete --></provenance>
