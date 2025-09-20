@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS3159">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="CH">
+               <resp when="2002">Cataloguer</resp>
+               <persName>Hiltoncm</persName>
+            </respStmt>
+            <respStmt xml:id="LS">
+               <resp when="2025">TEI Encoder</resp>
+               <persName>Lara Salha</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>library@wellcome.ac.uk</email>
+            </distributor>
+            <idno type="msID">MS3159</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">MS3159</idno>
+                  <altIdentifier type="PublicRef">
+                     <idno>MS.3159</idno>
+                  </altIdentifier>
+                  <altIdentifier type="sierra">
+                     <idno>b19475202</idno></altIdentifier>
+                  <altIdentifier type="accession">
+                     <idno>56076</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Holograph diary of his expedition in which he discovered the course of the Niger: from 31st March to 30th October, 1830.  This is part of the Journal of Lander's second expedition, which he made after the death of Clapperton, who was his leader in the first expedition in 1827.</summary>
+                  <textLang mainLang="">English</textLang>
+                  <msItem n="1" xml:id="MS3159_1">
+                     <author key="">Lander, Richard Lemon, 1804-1834</author>
+                     <title key="">Lander, Richard Lemon (1804-1834)</title>
+                     <textLang mainLang=""/>
+                     <textLang otherLangs=""/>
+                     <incipit>
+                        <locus/>
+                     </incipit>
+                     <explicit>
+                        <locus/>
+                     </explicit>
+                     <colophon>
+                        <locus/>
+                     </colophon>
+                     <filiation/>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support/>
+                        <extent>240 pp. + 1 l. + 8vo.
+                           <dimensions unit="mm" type="leaf">
+                              <dim type="diameter">110</dim>
+                              <dim type="length">1710</dim>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <formula/>
+                           <signatures/>
+                        </collation>
+                        <condition>The first leaf is missing; water-stained throughout.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote></handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions>
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>1830</origDate>
+                  </origin>
+                  <provenance></provenance>
+                  <acquisition>Purchased at Sotheby's 18/3/1929, Lot 822.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                              <author>S.A.J. Moorat</author>
+                           </bibl>
+                           <bibl>
+                              An account of Lander's travels was published in London in 1832, in three volumes, with the title  Journal of an Expedition to explore the Course and Termination of the Niger . 
+                              A transcription of the journal with introduction by Jamie Bruce Lockhart is available via the website of the Harriet Tubman Institute at York University, Toronto:  http://www.tubmaninstitute.ca/documents_relating_to_the_lander_brothers_niger_expedition_of_1830 . 
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     
+                     <availability status="free">
+                        <p/>
+                     </availability>
+                     <custodialHist>
+                        <custEvent>Contributed to: Access to Archives (London Archives on the Wider World)</custEvent>
+                     </custodialHist>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref>MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item>
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item>
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change></change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
