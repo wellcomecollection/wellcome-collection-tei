@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS.4640">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+				<title type="collection">Wellcome Collection</title>
+				<respStmt xml:id="RM">
+					<resp when="2002-10-08">Cataloguer</resp>
+					<persName>Ross Macfarlane</persName>
+				</respStmt>
+				<respStmt xml:id="LS">
+					<resp when="2025-10-21">TEI Encoder</resp>
+					<persName>Lara Salha</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Wellcome Collection</publisher>
+				<idno>UkLW</idno>
+				<address>
+					<orgName type="institution">Wellcome Collection</orgName>
+					<street>215 Euston Rd</street>
+					<settlement>London</settlement>
+					<postCode>NW1 2BE</postCode>
+				</address>
+				<distributor>
+					<email>library@wellcome.ac.uk</email>
+				</distributor>
+				<idno type="msID">MS4640</idno>
+				<idno type="catalogue"></idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>United Kingdom</country>
+						<settlement>London</settlement>
+						<institution>Wellcome Collection</institution>
+						<repository>Wellcome Library</repository>
+						<idno type="shelfmark">MS4640</idno>
+						<altIdentifier type="PublicRef">
+							<idno>MSS.4640-4643</idno>
+						</altIdentifier>
+						<altIdentifier type="sierra">
+							<idno>b19179029</idno>
+						</altIdentifier>
+						<altIdentifier type="accession">
+							<idno>89194</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary>Biographical and bibliographical notes collected for 'English speaking students of Medicine at the University of Leyden.' Author's holograph MSS. Produced in Sheffield. Published in Edinburgh in 1932.</summary>
+						<textLang mainLang="">English</textLang>
+						<msItem n="1" xml:id="MS_4640_1">
+							<author>Smith, Robert William Innes, 1872-1933</author>
+							<title>Smith, Robert William Innes (1872-1933)</title>
+
+							<filiation></filiation>
+							<note>The author, who was an enthusiastic medical historian obtained his M.D. at Edinburgh in 1902, and practised in Sheffield. [Cf. B.M.J. 1933, i. p. 939].</note>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support></support>
+								<extent>4 volumes. 4to.
+									<dimensions unit="mm" type="leaf">
+									<dim type="diameter">180</dim>
+									<dim type="length">230</dim>
+								</dimensions>
+								</extent>
+								<foliation></foliation>
+								<collation>
+									<formula></formula>
+									<signatures></signatures>
+								</collation>
+								<condition>Original boards.</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout></layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote>
+								<p><label>Ink:</label></p> Many of the entries in pencil
+							</handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote></decoNote>
+						</decoDesc>
+						<additions>
+							<p/>
+						</additions>
+						<bindingDesc>
+							<binding>
+								<p/>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origPlace>
+								<country></country>,
+								<region></region>,
+								<settlement></settlement>,
+								<orgName></orgName>
+							</origPlace>
+							<origDate>c. 1925</origDate>
+						</origin>
+						<provenance></provenance>
+						<acquisition>Presented 1934.</acquisition>
+					</history>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<source>
+									<bibl></bibl>
+								</source>
+							</recordHist>
+							<availability status="free">
+								<p/>
+							</availability>
+							<custodialHist>
+								<custEvent></custEvent>
+							</custodialHist>
+						</adminInfo>
+						<listBibl>
+							<head/>
+							<bibl>
+								<title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+								<author>S.A.J. Moorat</author>
+							</bibl>
+						</listBibl>
+					</additional>
+					
+					<msPart n="1" xml:id="MS_4640_4640_1">
+						<msIdentifier>
+							<altIdentifier type="PublicRef">
+								<idno>MS.4640</idno>
+							</altIdentifier>
+							<altIdentifier type="sierra">
+								<idno>b18579450</idno>
+							</altIdentifier>
+						</msIdentifier>
+						
+						<msContents>
+							<summary></summary>
+							<msItem xml:id="MS_4640_4640_1_1">
+								<title>Volume 1</title>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc>
+								<supportDesc>
+									<extent>1 volume</extent>
+								</supportDesc>
+							</objectDesc>
+						</physDesc>
+					</msPart>
+					
+					<msPart n="2" xml:id="MS_4640_4641_1">
+						<msIdentifier>
+							<altIdentifier type="PublicRef">
+								<idno>MS.4641</idno>
+							</altIdentifier>
+							<altIdentifier type="sierra">
+								<idno>b18924487</idno>
+							</altIdentifier>
+						</msIdentifier>
+						
+						<msContents>
+							<summary></summary>
+							<msItem xml:id="MS_4640_4641_1_1">
+								<title>Volume 2</title>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc>
+								<supportDesc>
+									<extent>1 volume</extent>
+								</supportDesc>
+							</objectDesc>
+						</physDesc>
+					</msPart>
+					
+					<msPart n="3" xml:id="MS_4640_4642_1">
+						<msIdentifier>
+							<altIdentifier type="PublicRef">
+								<idno>MS.4642</idno>
+							</altIdentifier>
+							<altIdentifier type="sierra">
+								<idno>b18365607</idno>
+							</altIdentifier>
+						</msIdentifier>
+						
+						<msContents>
+							<summary></summary>
+							<msItem xml:id="MS_4640_4642_1_1">
+								<title>Volume 3</title>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc>
+								<supportDesc>
+									<extent>1 volume</extent>
+								</supportDesc>
+							</objectDesc>
+						</physDesc>
+					</msPart>
+					
+					<msPart n="4" xml:id="MS_4640_4643_1">
+						<msIdentifier>
+							<altIdentifier type="PublicRef">
+								<idno>MS.4643</idno>
+							</altIdentifier>
+							<altIdentifier type="sierra">
+								<idno>b19044082</idno>
+							</altIdentifier>
+						</msIdentifier>
+						
+						<msContents>
+							<summary></summary>
+							<msItem xml:id="MS_4640_4643_1_1">
+								<title>Volume 3</title>
+							</msItem>
+						</msContents>
+						<physDesc>
+							<objectDesc>
+								<supportDesc>
+									<extent>1 volume</extent>
+								</supportDesc>
+							</objectDesc>
+						</physDesc>
+					</msPart>
+					
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+
+		<revisionDesc>
+			<change when="2025-07-08">Modified by Victoria Sloyan.</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<surface/>
+	</facsimile>
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>
