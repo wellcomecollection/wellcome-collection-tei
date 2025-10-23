@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MSS.4640-4643">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title/>
 				<title type="collection">Wellcome Collection</title>
 				<respStmt xml:id="RM">
 					<resp when="2002-10-08">Cataloguer</resp>
@@ -120,17 +121,18 @@
 							</custodialHist>
 						</adminInfo>
 						<listBibl>
-							<head/>
+							<head></head>
 							<bibl>
 								<title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
 								<author>S.A.J. Moorat</author>
 							</bibl>
 						</listBibl>
+
 					</additional>
 					
 					<msPart n="1" xml:id="MS_4640_1">
 						<msIdentifier>
-							<idno type="shelfmark">MS.460</idno>
+							<idno type="shelfmark">MS.4640</idno>
 							<altIdentifier type="PublicRef">
 								<idno>MS.4640</idno>
 							</altIdentifier>
@@ -249,9 +251,15 @@
 	</facsimile>
 	<text>
 		<body>
-			<p/>
+			<p>
+				<listRelation>
+					<relation name="isPartOf"
+						active="#MS_4640_1 #MS_4641_1 #MS_4642_1 #MS_4643_1"
+						passive="#MSS.4640-4643"/>
+				</listRelation>
+			</p>
+				
 		</body>
 	</text>
 </TEI>
-
 
