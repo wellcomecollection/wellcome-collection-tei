@@ -14,8 +14,8 @@
                 </resp>
                <name>Macfarlr</name>
             </respStmt>
-            <respStmt>
-               <resp>TEI encoder</resp>
+            <respStmt xml:id="VS">
+               <resp when="2026-01-06">TEI encoder</resp>
                <name>Sloyanv</name>
             </respStmt>
          </titleStmt>
@@ -33,7 +33,7 @@
             </distributor>
             <idno type="msID">MS.144</idno>
             <availability>
-               <p/>
+               <p></p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -391,24 +391,25 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <extent>7 bl ll. + 87 ff. + 26 ll. + 97 bl. ll. + 5 bl. ll. 8vo. 16 x 11 cm. Original vellum gilt binding defective, both clasps wanting. A number of leaves have been cut out.<dimensions unit="mm">
-                              <dim type="diameter"/>
-                              <dim type="length"/>
+                        <extent>7 bl ll. + 87 ff. + 26 ll. + 97 bl. ll. + 5 bl. ll. 8vo. A number of leaves have been cut out.
+                           <dimensions unit="cm">
+                              <dim type="diameter">11</dim>
+                              <dim type="length"> 16</dim>
                            </dimensions>
                         </extent>
-                        <foliation/>
-                        <collation>
-                           <formula/>
-                           <signatures/>
-                        </collation>
                      </supportDesc>
                      <layoutDesc>
                         <layout/>
                      </layoutDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote>Mainly by two hands, one c. 1650, the other dated 1731-1739. &lt;p&gt;The original hand is that of ff. 1-82, of which ff. 1-38 are cookery receipts and the remainder medical. 
+                        It also appears on 7 pp. at the end, containing veterinary receipts. &lt;p&gt;At the end also are 11 pp. headed 'Dialectica est ars bene disserendi', partly in English and partly in Latin, 
+                        by a different hand, also c. 1650.</handNote>
+                  </handDesc>
                   <bindingDesc>
                      <binding>
-                        <p>7 bl ll. + 87 ff. + 26 ll. + 97 bl. ll. + 5 bl. ll. 8vo. 16 x 11 cm. Original vellum gilt binding defective, both clasps wanting. A number of leaves have been cut out.</p>
+                        <p>Original vellum gilt binding defective, both clasps wanting.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -487,7 +488,7 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change/>
+         <change when="2026-01-06">Manual edits done by VS after XML transformation scenario</change>
       </revisionDesc>
    </teiHeader>
    <text>
