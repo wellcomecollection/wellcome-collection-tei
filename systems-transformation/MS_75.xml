@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_75">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_75</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.75</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.75</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS75</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>47970</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>86b1c1be-4fea-415e-b827-fead9e97e5f3</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19559690</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Written in a large gothic hand, 22 lines to a page. Initials and paragraphs marks in alternate red and blue, headings in red. Very large ornamental initial letter P in red and blue on first leaf and a smaller one (Q) on leaf 34v.[/p]
+[p]1. ff.1r-34r [i]Regimen Sanitatis,[/i] Arnoldus De Villanova[/p]
+[p]f.1r (red) Innomine domini amen Incipit regimen sanitatis ad in /clictum [sic] dominum regem aragonie, ab ordinatione huius libri/Magistro arnaldo de uilla noua directum. de man / sione aeris et congruitate eius. /[P]Rima pars uel conscideracio/sanitatis... f.34r line 10 ... et anno [sic] suauiter quan/tum poterit intromittatur. Et de hiis dicta sufficiant//deo gracias amen atque beate marie.// (red) Explicit breuis tractatus de regimine/sanitatis editus a magistro arnaldo de uil/la noua chatelano cuius anima requiescat in/pace. amen. 
+
+[p]2. ff.34v-39r [i]Regimen Sanitatis,[/i] Arnoldus De Villanova[/p]
+[p]f.34v (red) Incipit libellus regiminis sanitatis [sic] nobilium/Et eorum etiam Qui populariter seu uul/gariter se conregunt. edictus a magistro/aranldo de uilla nova cathalano./[Q]uia me rogastis ut uobis libe/llum conseruationis sanitatis scri/berem...f.39r...et mulitis in/firmitatibus elongetur, volente deo omnipotente/qui site per omnia secula seculorum benedictus. AMEN.//(red) Explicit.[/p]</summary>
+            <textLang mainLang="" source="">Latin</textLang>
+            <msItem n="1" xml:id="MS_75_1">
+              <author>Arnaldus, de Villanova, d.1311</author>
+              <title type="original">Arnoldus De Villanova, d.1311</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="">Latin</textLang>
+              <fiiation>This work was first printed in 1474.</fiiation>
+              <fiiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>1 Volume</supportDesc>
+              <extent>
+                <dimensions unit="cm">
+                  <dim type="width"/>
+                  <dim type="length"/>
+                </dimensions>
+              </extent>
+              <collation/>
+              <condition>
+                <p/>
+                <p/>
+                <p/>
+                <p/>
+              </condition>
+            </objectDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p/>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Late 14th Century</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Pruchased at Hoepli Sale, Milan 3/5/1928, Lot 45.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHistory>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+              </custodialHistory>
+              <custodialHistory>
+                <custEvent type="exhibition"/>
+              </custodialHistory>
+              <custodialHistory>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
+              </custodialHistory>
+              <surrogates/>
+              <surrogates/>
+            </adminInfo>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Hygiene</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

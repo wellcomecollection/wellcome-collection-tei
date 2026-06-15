@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_115">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_115</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.115</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.115</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS115</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>32393</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>8d115840-0359-438f-9e8d-6e13fd03dae5</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19719863</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p][b]Contents[/b][/p]
+
+[p]1. ff 1v-2r Memoranda of accounts due to William Adam alias Paynter and others for work done in 1496-1498. These seem to be a builder's (or stone-mason's) accounts, which came to xiii l. ix s. 6 1/2 d. It appears to have been paid 'in festo sancti michaelis archangeli ... his testibus Johannes Mandsele, Johannes lambell, Johannes Baker et Ricardus penton alias pris [?]'. [/p]
+
+[p]2. ff. 2v-3v Medical receipts in English (c. 1500) by the same hand.[/p]
+
+[p]3. ff. 4r-194v Bartholomew the Englishman, [i]De proprietatibus rerum[/i][/p]
+
+[p]f. 4r Hic incipit tabula Bartholomaei de proprietatibus rerum. 1. De imploratione auxilii ... f. 10v Explicit tabula huius libri de proprietatibus rerum deo gracias. Constat J. Taylor vicario de Ilemystria. f. 11r Cum proprietates rerum sequantur substancias secundum distinctionem et ordinem substanciarum ... f. 194v ... principium et finis omnium qui est deus sublimis gloriosus viuens et regnans in secula seculorum amen. Auctores de quorum scriptis sunt hec traducta sunt isti augustinus. adamantius. ambrosius ... ricardius de sancto victore symon cornelius.[/p]</summary>
+            <textLang mainLang="" source="">Latin</textLang>
+            <msItem n="1" xml:id="MS_115_1">
+              <author/>
+              <title type="original">Bartholomew the Englishman, [i]De proprietatibus rerum[/i], preceded by medical receipts</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="">Latin</textLang>
+              <fiiation>John Taylor was appointed Vicar of Ilminster (Somerset) in 1469, and died in 1515.</fiiation>
+              <fiiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>1 volume</supportDesc>
+              <extent>
+                <dimensions unit="cm">
+                  <dim type="width"/>
+                  <dim type="length"/>
+                </dimensions>
+              </extent>
+              <collation/>
+              <condition>
+                <p/>
+                <p/>
+                <p>No interventionist conservation work to be done on this item. This was agreed by A+M and Conservation in August 2011. Measures have been put into place to avoid or minimize damage through handling, which is the agreed best practice. </p>
+                <p/>
+              </condition>
+            </objectDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p/>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Mid-14th Century</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased at Sotheby's 4 February 1914 (Dunn Sale), Lot 1136.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p>This item needs to be accessed in our conservation studio. Email library@wellcomecollection.org to request an appointment.</p>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHistory>
+                <custEvent type="cataloguing">Catalogue description modified in 2014. For original description, see S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+              </custodialHistory>
+              <custodialHistory>
+                <custEvent type="exhibition"/>
+              </custodialHistory>
+              <custodialHistory>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHistory>
+              <surrogates/>
+              <surrogates/>
+            </adminInfo>
+            <listBibl>
+              <bibl>[p][i]The Bodleian Library Record[/i], volume 9 (Oxford: Bodleian Library, 1973), pp. 156-157.[/p]
+
+[p]Freeman Sadler, Lucy. [i]Omne bonum: a fourteenth-century encyclopedia of universal knowledge: British Library MSS Royal 6 E VI-6 E VII[/i] (Washington: Miller, 1996), p. 146.
+
+[p]Keen, Elizabeth. [i]Journey of a Book: Bartholomew the Englishman and the Properties of Things[/i] (Canberra: ANU E Press, 2007), pp. 56, 172.[/p]
+
+</bibl>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Science</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Traditional</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Formulas, recipes, etc.</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

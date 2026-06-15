@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_216">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_216</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.216</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.216</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS216</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>66282</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>09a8d0b8-2042-40e4-94de-256a8762cc13</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19613805</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Lectiones in quartum [librum de regimine] acutorum Hippocratis. Lectiones in Artem medicinalem Galeni. Notes of lectures taken by an un-named student, dated from 21 May, 1538 to 10 April 1540. The second course of lectures is not complete, and ends at Lecture 60. These lectures do not appear among Corti's printed works.  Produced in Bologna. </summary>
+            <textLang mainLang="" source="">Latin</textLang>
+            <msItem n="1" xml:id="MS_216_1">
+              <author>Corti, Matteo (1475-1542)</author>
+              <title type="original">Corti, Matteo (1475-1542)</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="">Latin</textLang>
+              <fiiation/>
+              <fiiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>1 volume</supportDesc>
+              <extent>
+                <dimensions unit="cm">
+                  <dim type="width"/>
+                  <dim type="length"/>
+                </dimensions>
+              </extent>
+              <collation/>
+              <condition>
+                <p/>
+                <p/>
+                <p/>
+                <p/>
+              </condition>
+            </objectDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p/>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1538-1540</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased at Lucerne (Dietrichstein Sale) 22/11/1933, Lot 509.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHistory>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+              </custodialHistory>
+              <custodialHistory>
+                <custEvent type="exhibition"/>
+              </custodialHistory>
+              <custodialHistory>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHistory>
+              <surrogates/>
+              <surrogates/>
+            </adminInfo>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Medicine, Greek and Roman</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
