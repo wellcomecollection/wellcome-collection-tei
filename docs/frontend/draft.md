@@ -47,9 +47,10 @@
 | additional/adminInfo/recordHist/source | notes \[source\] | | 
 | additional/adminInfo/custodialHist | notes \[custodial\] | | 
 
-## Access Conditions?
+## HTML snippets
 
-| TEI | API |
-| :--- | :--- |
-|  |  |
+| TEI | API | Status | 
+| :--- | :--- | :--- |
+| <p> | Format as separate paragrahps  | Done |
+| <list> | Format as list | |
 
