@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_4">
   <teiHeader>
     <fileDesc>
@@ -62,28 +59,32 @@
             <msItem n="1" xml:id="MS_4_1">
               <author>Adelard of Bath</author>
               <title type="original">Adelard of Bath</title>
-              <title type="standard"/>
               <textLang mainLang="" source="IANA"/>
-              <fiiation>For the great importance of Adelard in the history of scientific ideas, cf. Thorndike, [i]History of Magic and Experimental Science[/i], Vol. II, Ch. xxxvi, 1923; Haskins, 'Studies in the History of Mediaeval Science', Ch. II, 1924; and Sarton, 'Introduction to the History of Science', Vol. II, Part I, pp. 167-169.</fiiation>
-              <fiiation/>
+              <filiation>For the great importance of Adelard in the history of scientific ideas, cf. Thorndike, [i]History of Magic and Experimental Science[/i], Vol. II, Ch. xxxvi, 1923; Haskins, 'Studies in the History of Mediaeval Science', Ch. II, 1924; and Sarton, 'Introduction to the History of Science', Vol. II, Part I, pp. 167-169.</filiation>
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc>
-              <supportDesc>1 volume</supportDesc>
-              <extent>25 ll. (last bl.). 8vo. 19 x 10 1/2 cm. On vellum. 15th cent. rough calf binding, wormed and defective. The first two leaves are wanting, but have been supplied by two leaves written in a late 15th cent. humanistic hand. Margins slightly cropped in binding.<dimensions unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent>
+            <objectDesc form="codex">
+              <supportDesc material="vellum">
+              <extent>25 ll. (last bl.). 8vo.
+                <dimensions unit="cm">
+                  <dim type="width">10.5cm</dim>
+                  <dim type="length">19cm</dim>
+                </dimensions>
+              </extent>
               <collation/>
               <condition>
-                <p>25 ll. (last bl.). 8vo. 19 x 10 1/2 cm. On vellum. 15th cent. rough calf binding, wormed and defective. The first two leaves are wanting, but have been supplied by two leaves written in a late 15th cent. humanistic hand. Margins slightly cropped in binding.</p>
-                <p/>
-                <p/>
-                <p/>
+                <p>Wormed and defective. The first two leaves are wanting, but have been supplied by two leaves written in a late 15th cent.</p>
               </condition>
+              </supportDesc>
             </objectDesc>
+            <handDesc>
+              <handNote script="humanistica">Humanistic hand</handNote>
+            </handDesc>
             <additions/>
             <bindingDesc>
               <binding>
-                <p>25 ll. (last bl.). 8vo. 19 x 10 1/2 cm. On vellum. 15th cent. rough calf binding, wormed and defective. The first two leaves are wanting, but have been supplied by two leaves written in a late 15th cent. humanistic hand. Margins slightly cropped in binding.</p>
+                <p>Rough calf binding, wormed and defective. Margins slightly cropped in binding.</p>
               </binding>
             </bindingDesc>
           </physDesc>
@@ -92,8 +93,7 @@
               <origDate>Late 13th Century</origDate>
             </origin>
             <provenance/>
-            <acquisition>Purchased 1910.</acquisition>
-            <acquisition type="accrual"/>
+            <acquisition>Purchased 1910. Accrual</acquisition>
           </history>
           <additional>
             <adminInfo>
@@ -108,27 +108,14 @@
                   </bibl>
                 </source>
               </recordHist>
-              <availability status="">
+              <availability status="free">
                 <p/>
               </availability>
-              <availability>
-                <licence/>
-              </availability>
-              <custodialHistory>
+              <custodialHist>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-              </custodialHistory>
-              <custodialHistory>
-                <custEvent type="exhibition"/>
-              </custodialHistory>
-              <custodialHistory>
                 <custEvent type="digitised">Digitised: </custEvent>
-              </custodialHistory>
-              <surrogates/>
-              <surrogates/>
+              </custodialHist>
             </adminInfo>
-            <listBibl>
-              <bibl/>
-            </listBibl>
             <listBibl>
               <bibl/>
             </listBibl>
@@ -172,7 +159,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-06-17" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
