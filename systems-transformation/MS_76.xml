@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_76">
   <teiHeader>
     <fileDesc>
@@ -57,50 +54,62 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>[p]A collection of Latin texts by or attributed to Arnaldus de Villanova[/p]
+            <summary><p>A collection of Latin texts by or attributed to Arnaldus de Villanova</p>
 
-[p][b]Contents[/b][/p]
+<p>[b]Contents[/b]</p>
 
-[p][b]1.[/b]  f. 1r: Venientia ad ultimum perfectionis et beneuoli/aspectus ad corpus humanum sunt / Ex mineralibus aurum / ... (line 11) Ex corpore humano mumia.[/p]
+<p>[b]1.[/b]  f. 1r: Venientia ad ultimum perfectionis et beneuoli/aspectus ad corpus humanum sunt / Ex mineralibus aurum / ... (line 11) Ex corpore humano mumia.</p>
 
-[p][b]2.[/b]  f. 1v: Manuscript notes.[/p]
+<p>[b]2.[/b]  f. 1v: Manuscript notes.</p>
 
-[p][b]3.[/b] ff. 2r-56v: Arnaldus de Villanova, [i]De considerationibus operis medicine sive de flebotomia[/i], in Latin.[/p]
+<p>[b]3.[/b] ff. 2r-56v: Arnaldus de Villanova, [i]De considerationibus operis medicine sive de flebotomia[/i], in Latin.</p>
 
-[p][b]4.[/b] ff. 57r-66v: Arnaldus de Villanova [?], [i]Aphorismi de ingeniis curativis et preservativis morborum[/i], in Latin.[/p]
+<p>[b]4.[/b] ff. 57r-66v: Arnaldus de Villanova [?], [i]Aphorismi de ingeniis curativis et preservativis morborum[/i], in Latin.</p>
 
-[p][b]5.[/b] ff. 67r-84v: Arnaldus de Villanova [?], [i]Aphorismi super libro de ingenio sanitatis[/i], in Latin.[/p]
+<p>[b]5.[/b] ff. 67r-84v: Arnaldus de Villanova [?], [i]Aphorismi super libro de ingenio sanitatis[/i], in Latin.</p>
 
-[p][b]6.[/b] ff. 85r-120r: Arnaldus de Villanova [?], [i]De medicinis simplicibus[/i], in Latin.[/p]
+<p>[b]6.[/b] ff. 85r-120r: Arnaldus de Villanova [?], [i]De medicinis simplicibus[/i], in Latin.</p>
 
-[p][b]7.[/b] ff. 120v-128r: [i]De duabus radicibus secretorum[/i],  a treatise on the properties of Melissa officinalis, i.e. lemon balm, in Latin.[/p]
+<p>[b]7.[/b] ff. 120v-128r: [i]De duabus radicibus secretorum[/i],  a treatise on the properties of Melissa officinalis, i.e. lemon balm, in Latin.</p>
  </summary>
             <textLang mainLang="" source="IANA"/>
             <msItem n="1" xml:id="MS_76_1">
               <author>Arnaldus, de Villanova, d.1311</author>
               <title type="original">A collection of Latin texts by or attributed to Arnaldus de Villanova</title>
-              <title type="standard"/>
               <textLang mainLang="" source="IANA"/>
-              <fiiation/>
-              <fiiation/>
+              <filiation/>
+              <filiation/>
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc>
-              <supportDesc>1 Volume</supportDesc>
-              <extent>135 ff. Modern foliation 1-135 in pencil. Ff. 128v-135v blank. 4to. 18 x 13 1/2 cm. Early 16 cent. stamped calf binding, damaged. One of the blank leaves at the end has been cut out: part of the upper margin of the second leaf has been cut away. Written in a semi-current humanistic hand, with many contractions: 25 lines to a page. Titles and Explicits in red or blue, capitals in alternate red and blue, paragraph marks in red. <dimensions unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent>
-              <collation/>
+            <objectDesc form="codex">
+              <supportDesc>
+              <extent>135 ff.  Ff. 128v-135v blank. 4to. 
+                <dimensions unit="cm">
+                  <dim type="width">18cm</dim>
+                  <dim type="length">13.5cm</dim>
+                </dimensions>
+              </extent>
+                <foliation>Modern foliation 1-135 in pencil.</foliation>
+              <collation></collation>
               <condition>
-                <p>135 ff. Modern foliation 1-135 in pencil. Ff. 128v-135v blank. 4to. 18 x 13 1/2 cm. Early 16 cent. stamped calf binding, damaged. One of the blank leaves at the end has been cut out: part of the upper margin of the second leaf has been cut away. Written in a semi-current humanistic hand, with many contractions: 25 lines to a page. Titles and Explicits in red or blue, capitals in alternate red and blue, paragraph marks in red. </p>
-                <p/>
-                <p/>
-                <p/>
+                <p>Damaged. One of the blank leaves at the end has been cut out: part of the upper margin of the second leaf has been cut away.  </p>
               </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="25">25 lines to a page</layout>
+              </layoutDesc>
             </objectDesc>
+            <handDesc>
+              <handNote script="humanistica">Semi-current humanistic hand, with many contractions.</handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote>Titles and Explicits in red or blue, capitals in alternate red and blue, paragraph marks in red.</decoNote>
+            </decoDesc>
             <additions/>
             <bindingDesc>
               <binding>
-                <p>135 ff. Modern foliation 1-135 in pencil. Ff. 128v-135v blank. 4to. 18 x 13 1/2 cm. Early 16 cent. stamped calf binding, damaged. One of the blank leaves at the end has been cut out: part of the upper margin of the second leaf has been cut away. Written in a semi-current humanistic hand, with many contractions: 25 lines to a page. Titles and Explicits in red or blue, capitals in alternate red and blue, paragraph marks in red. </p>
+                <p>Stamped calf binding.</p>
               </binding>
             </bindingDesc>
           </physDesc>
@@ -110,7 +119,6 @@
             </origin>
             <provenance/>
             <acquisition>Purchased 1922.</acquisition>
-            <acquisition type="accrual"/>
           </history>
           <additional>
             <adminInfo>
@@ -125,7 +133,7 @@
                   </bibl>
                 </source>
               </recordHist>
-              <availability status="">
+              <availability status="free">
                 <p/>
               </availability>
               <availability>
@@ -199,7 +207,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-06-17" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
