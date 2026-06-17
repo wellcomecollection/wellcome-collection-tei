@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_5">
   <teiHeader>
     <fileDesc>
@@ -62,28 +59,27 @@
             <msItem n="1" xml:id="MS_5_1">
               <author>Advocatus à Quinto, Petrus</author>
               <title type="original">Advocatus à Quinto, Petrus</title>
-              <title type="standard"/>
               <textLang mainLang="" source="IANA">Latin</textLang>
-              <fiiation/>
-              <fiiation/>
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc>
-              <supportDesc>1 volume</supportDesc>
-              <extent>2 bl. ll., 136 ll. 4to. 26 x 171/2 cm. Original half vellum binding.<dimensions unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent>
+            <objectDesc form="codex">
+              <supportDesc>
+              <extent>2 bl. ll., 136 ll. 4to.
+                <dimensions unit="cm">
+                  <dim type="width">26cm</dim>
+                  <dim type="length">171cm</dim>
+                </dimensions>
+              </extent>
               <collation/>
               <condition>
-                <p>2 bl. ll., 136 ll. 4to. 26 x 171/2 cm. Original half vellum binding.</p>
-                <p/>
-                <p/>
-                <p/>
               </condition>
+              </supportDesc>
             </objectDesc>
             <additions/>
             <bindingDesc>
               <binding>
-                <p>2 bl. ll., 136 ll. 4to. 26 x 171/2 cm. Original half vellum binding.</p>
+                <p>Original half vellum binding.</p>
               </binding>
             </bindingDesc>
           </physDesc>
@@ -92,8 +88,7 @@
               <origDate>1580-1586</origDate>
             </origin>
             <provenance/>
-            <acquisition>Purchased 1924.</acquisition>
-            <acquisition type="accrual"/>
+            <acquisition>Purchased 1924. Accrual</acquisition>
           </history>
           <additional>
             <adminInfo>
@@ -108,27 +103,14 @@
                   </bibl>
                 </source>
               </recordHist>
-              <availability status="">
+              <availability status="free">
                 <p/>
               </availability>
-              <availability>
-                <licence/>
-              </availability>
-              <custodialHistory>
+              <custodialHist>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-              </custodialHistory>
-              <custodialHistory>
-                <custEvent type="exhibition"/>
-              </custodialHistory>
-              <custodialHistory>
                 <custEvent type="digitised">Digitised: </custEvent>
-              </custodialHistory>
-              <surrogates/>
-              <surrogates/>
+              </custodialHist>
             </adminInfo>
-            <listBibl>
-              <bibl/>
-            </listBibl>
             <listBibl>
               <bibl/>
             </listBibl>
@@ -177,7 +159,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-06-17" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>

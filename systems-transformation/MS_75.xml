@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_75">
   <teiHeader>
     <fileDesc>
@@ -57,38 +54,40 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>[p]Written in a large gothic hand, 22 lines to a page. Initials and paragraphs marks in alternate red and blue, headings in red. Very large ornamental initial letter P in red and blue on first leaf and a smaller one (Q) on leaf 34v.[/p]
-[p]1. ff.1r-34r [i]Regimen Sanitatis,[/i] Arnoldus De Villanova[/p]
-[p]f.1r (red) Innomine domini amen Incipit regimen sanitatis ad in /clictum [sic] dominum regem aragonie, ab ordinatione huius libri/Magistro arnaldo de uilla noua directum. de man / sione aeris et congruitate eius. /[P]Rima pars uel conscideracio/sanitatis... f.34r line 10 ... et anno [sic] suauiter quan/tum poterit intromittatur. Et de hiis dicta sufficiant//deo gracias amen atque beate marie.// (red) Explicit breuis tractatus de regimine/sanitatis editus a magistro arnaldo de uil/la noua chatelano cuius anima requiescat in/pace. amen. 
-
-[p]2. ff.34v-39r [i]Regimen Sanitatis,[/i] Arnoldus De Villanova[/p]
-[p]f.34v (red) Incipit libellus regiminis sanitatis [sic] nobilium/Et eorum etiam Qui populariter seu uul/gariter se conregunt. edictus a magistro/aranldo de uilla nova cathalano./[Q]uia me rogastis ut uobis libe/llum conseruationis sanitatis scri/berem...f.39r...et mulitis in/firmitatibus elongetur, volente deo omnipotente/qui site per omnia secula seculorum benedictus. AMEN.//(red) Explicit.[/p]</summary>
+            <summary><p>Written in a large gothic hand, 22 lines to a page. Initials and paragraphs marks in alternate red and blue, headings in red. Very large ornamental initial letter P in red and blue on first leaf and a smaller one (Q) on leaf 34v.</p>
+<p>1. ff.1r-34r [i]Regimen Sanitatis,[/i] Arnoldus De Villanova</p>
+<p>f.1r (red) Innomine domini amen Incipit regimen sanitatis ad in /clictum [sic] dominum regem aragonie, ab ordinatione huius libri/Magistro arnaldo de uilla noua directum. de man / sione aeris et congruitate eius. </p>
+<p>  Rima pars uel conscideracio/sanitatis... f.34r line 10 ... et anno [sic] suauiter quan/tum poterit intromittatur. Et de hiis dicta sufficiant//deo gracias amen atque beate marie.// (red) Explicit breuis tractatus de regimine/sanitatis editus a magistro arnaldo de uil/la noua chatelano cuius anima requiescat in/pace. amen. </p>  
+<p>2. ff.34v-39r [i]Regimen Sanitatis,[/i] Arnoldus De Villanova</p>
+<p>f.34v (red) Incipit libellus regiminis sanitatis [sic] nobilium/Et eorum etiam Qui populariter seu uul/gariter se conregunt. edictus a magistro/aranldo de uilla nova cathalano./[Q]uia me rogastis ut uobis libe/llum conseruationis sanitatis scri/berem...f.39r...et mulitis in/firmitatibus elongetur, volente deo omnipotente/qui site per omnia secula seculorum benedictus. AMEN.//(red) Explicit.</p>
+            </summary>
             <textLang mainLang="" source="IANA">Latin</textLang>
             <msItem n="1" xml:id="MS_75_1">
               <author>Arnaldus, de Villanova, d.1311</author>
               <title type="original">Arnoldus De Villanova, d.1311</title>
-              <title type="standard"/>
               <textLang mainLang="" source="IANA">Latin</textLang>
-              <fiiation>This work was first printed in 1474.</fiiation>
-              <fiiation/>
+              <filiation>This work was first printed in 1474.</filiation>
             </msItem>
           </msContents>
           <physDesc>
-            <objectDesc>
-              <supportDesc>1 Volume</supportDesc>
-              <extent>39 II. folio. 29 x 31 cm. Modern vellum binding.<dimensions unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent>
+            <objectDesc form="codex">
+              <supportDesc material="vellum">
+              <extent>39 II. folio.
+                <dimensions unit="cm">
+                  <dim type="width">29cm</dim>
+                  <dim type="length">31cm</dim>
+                </dimensions>
+              </extent>
               <collation/>
               <condition>
-                <p>39 II. folio. 29 x 31 cm. Modern vellum binding.</p>
-                <p/>
-                <p/>
-                <p/>
+                <p></p>
               </condition>
+              </supportDesc>
             </objectDesc>
             <additions/>
             <bindingDesc>
               <binding>
-                <p>39 II. folio. 29 x 31 cm. Modern vellum binding.</p>
+                <p>Modern vellum binding.</p>
               </binding>
             </bindingDesc>
           </physDesc>
@@ -97,8 +96,7 @@
               <origDate>Late 14th Century</origDate>
             </origin>
             <provenance/>
-            <acquisition>Pruchased at Hoepli Sale, Milan 3/5/1928, Lot 45.</acquisition>
-            <acquisition type="accrual"/>
+            <acquisition>Purchased at Hoepli Sale, Milan 3/5/1928, Lot 45. Accrual.</acquisition>
           </history>
           <additional>
             <adminInfo>
@@ -113,27 +111,15 @@
                   </bibl>
                 </source>
               </recordHist>
-              <availability status="">
-                <p/>
+              <availability status="free">
+                <licence></licence>
               </availability>
-              <availability>
-                <licence/>
-              </availability>
-              <custodialHistory>
+              <custodialHist>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-              </custodialHistory>
-              <custodialHistory>
-                <custEvent type="exhibition"/>
-              </custodialHistory>
-              <custodialHistory>
                 <custEvent type="digitised">Digitised: Yes</custEvent>
-              </custodialHistory>
-              <surrogates/>
-              <surrogates/>
+              </custodialHist>
             </adminInfo>
-            <listBibl>
-              <bibl/>
-            </listBibl>
+            <surrogates></surrogates>
             <listBibl>
               <bibl/>
             </listBibl>
@@ -177,7 +163,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-06-17" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
