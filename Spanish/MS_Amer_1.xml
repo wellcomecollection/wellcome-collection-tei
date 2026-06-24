@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="WMS/Amer.3">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Amer_1">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-        <title type="collection">Wellcome Collection</title>
+            <title>MS Amer 1</title>
+            <title type="collection">Wellcome Collection</title>
             <respStmt xml:id="VS">
                <resp when="2021-10-24">Cataloguer</resp>
                <persName>Sloyanv</persName>
@@ -30,7 +31,7 @@
             <distributor>
                <email>collections@wellcomecollection.org</email>
             </distributor>
-            <idno type="msID">MSAmer3</idno>
+            <idno type="msID">MS Amer 1</idno>
             <idno type="catalogue"/>
          </publicationStmt>
          <sourceDesc>
@@ -40,63 +41,69 @@
                   <settlement>London</settlement>
                   <institution>Wellcome Collection</institution>
                   <repository>Wellcome Library</repository>
-                  <idno type="shelfmark">WMS/Amer.3</idno>
-                   <altIdentifier type="Sierra">
-                     <idno>b18390614</idno>
-                  </altIdentifier>                  
+                  <idno type="shelfmark">WMS/Amer.1</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b18960789</idno>
+                  </altIdentifier>
+                  <altIdentifier type="previous">
+                     <idno>MSAmer1</idno></altIdentifier>
+                  <altIdentifier type="previous">
+                     <idno>WMS/Amer.1</idno></altIdentifier>
+                  
+                  
                </msIdentifier>
-               
                <msContents>
-                  <summary>Official copy (issued by the Intendant at the City of Mexico, Ramon Gutierrez del Mazo) of an order dated 1 2 March 1813 requiring suspension of  quarantine measures
-                     following a favourable report of the Junta de Sanidad.
-                     The outbreak of the fevers of 181 3 in fact reached epidemic proportions in the city during April, from which more then 20,000 died in the city alone.
-                     [See Cooper (1965), pp. I 57- 182).</summary>                 
-                       
-                 
+                  <summary>catológica Mexicana.  Fugitive notes of antiquarian interest on scatalogical remedies drawn from the Badianus MS [Vatican Library, 
+                     Codex Barberini, Lat. 241] and from 16th and 17th century medical sources printed in Mexico.
+                  
+                     <note>The notes were published with a brief introduction by León's contemporary, Demetrio S. García in Mexico (1946), 
+                        who added a subtitle derived from León's Escritos varios y publicaciones, 1909-1919, Suplemento Núm 1. J, Mexico, [s.n.], 1919, 
+                        [item 26B]; copies of both these items are in the Wellcome Institute Library.</note>
+                  
+                     <note> WMS/Amer.1 comprises notes on scatological remedies and WMS/Amer.118 comprises biographical notes on Dr. Miguel Francisco Jiménez (1813-1876).</note></summary>
+                  
+                  
                   <textLang mainLang="es">Spanish</textLang>
                   
-                  <msItem n="1" xml:id="MSAmer3_1">
+                  <msItem n="1" xml:id="MS_Amer_1_1">
                      
-                     < <author key=""></author><!--"There is no author"-->
+                     <author key="">León, Nicolás (1859-1929)</author>
                      
-                     <title key="">NEW SPAIN. Laws, statutes and c.</title>
+                     <title key="">Scatológica Mexicana</title>
                      
                      <textLang otherLangs="en">English</textLang> 
-                                   
-                      <incipit>
-                         [Begins:] En oficio de hayer se sirv[e que] dccirme el exmo s[eñ]or Virrey, lo que copio. 
-                         "No debiendo dar ya cuydado las fiebres contagiosas q[u]e aflijen a la ciuda  de Puebla ya varios lugares de su Provincia" 
-                        </incipit>
-                                                              
-                    <filiation/>
+                     
+                     <filiation/>
                      <note/>
                   </msItem>
                </msContents>
                
                <physDesc>
                   <objectDesc form="folio">
-                     <supportDesc material="paper">
-                        <support/>                       
-                        <extent>2 II. (2nd bl.). 
+                     <supportDesc material="paper"><support/>
+                        <extent>10 ll. [incl. t.p.]  	 
                            <dimensions unit="cm" type="cm">
-                              <dim type="width">21 cm</dim>
-                              <dim type="length">15 cm </dim>
-                           </dimensions>
+                              <dim type="width">22.5</dim>
+                              <dim type="length">15.5cm</dim>
+                           </dimensions>  
                         </extent>
                         <foliation/>
-                        
-                     </supportDesc>
-                    
-                  </objectDesc>
+                                                           
+                     </supportDesc>                     
+                     </objectDesc>
+                                                 
+                  <decoDesc>
+                     <decoNote>Holograph notes, 17 x 11.5 cm. and smaller, pasted onto the backs of unused coloured plates; rectos only.</decoNote>
+                  </decoDesc>
                   
-                               
                   <additions>
                      <p>Guerra Collection</p>
                   </additions>
                   
+                  
                   <bindingDesc>
                      <binding>
-                        <p>Bound</p>
+                        <p>Bound.</p>
                      </binding>
                   </bindingDesc>
                   
@@ -104,29 +111,32 @@
                <history>
                   <origin>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
                      <origPlace>
-                        <country>Mexico</country>
+                        <country>[Mexico]</country>
                         <region>North America</region>
                      </origPlace>
-                     <origDate calendar="Gregorian">1813</origDate>
+                     <origDate calendar="Gregorian">[c.1915]</origDate>
                   </origin>
-                 <acquisition>Purchased 1962.</acquisition>
+                 
+                  <acquisition>Purchased 1962.</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
                            <bibl>
-                              <title>Catalogue of medical Americana in the Library of the  Wellcome Institute for the History of Medicine</title>
+                              <title>Catalogue of medical Americana in the Library of the Wellcome Institute for the History of Medicine</title>
                               <author>Robin Price.</author>
                               <date>1557-1821<note>from Latin America and the Caribbean Islands</note>1575-1927<note>manuscripts from the Americas</note></date>
-                              <note>P. 255</note>
+                              <note>P. 232</note>
                               <note>https://wellcomecollection.org/works/grwhkxyf</note>
                            </bibl>
                         </source>
                      </recordHist>
+                     
                      <availability status="unknown">
                         <p/>
                      </availability>
+                     
                   </adminInfo>
                   <listBibl>
                      <head/>
