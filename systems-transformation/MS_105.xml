@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_105">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_105</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.105</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.105</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS105</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>59562</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>352ca866-a873-440c-a0fd-87cecb89f91c</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b32892378</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Collection of medical and pharmacological treatises, relating to general medical rules, food and drink, treatment of fevers and other diseases, and the preparation and properties of simple and compound drugs from plants and animals, preceded by a table of contents and the prologue from Avicenna, [i]Liber medicinalis[/i] or [i]Canon medicinae[/i], and followed by a [i]Compendium de regimine sanitatis [Salernitano][/i]; copied in a cursive Gothic hand in Germany before 1435.[/p]
+[p]The medical treatises on ff. 2r-101v agree [i]verbatim[/i] with the sequence of texts in MS. Innsbruck, Tiroler Landesmuseums Ferdinandeum, Bibliothek, FB 32008, ff. 32r-105v (see Bernhard Sandbichler and Hans Peter Sandbichler, [i]Handschriftenkatalog des Museums Ferdinandeum: Die Codices des Tiroler Landesmuseums Ferdinandeum bis 1600[/i] (unpublished catalogue, Universität Innsbruck, 1999; available online at http://www.ksbm.oeaw.ac.at/kataloge/AT/3900/Ferdinandeum.pdf).[/p]
+[p]The sequence of texts also corresponds with the texts in Wellcome MS. 106, ff. 1r-129r, dated 1494, except that in the latter the 'Medicina simplex' follows after the section on general rules, and is itself followed by the section on food and drink, as in MS. Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 3r-58v, dated 1456 (see Sirka Heyne, [i]Die mittelalterlichen Handschriften der Universita&amp;#776tsbibliothek Marburg[/i] (Wiesbaden: Otto Harrassowitz Verlag, 2002), pp. 33-37 (in particular pp. 34-35).[/p]
+
+[p][b]Contents[/b]:[/p]
+[p][b]1.[/b] f. 2r: Table of contents, Incipit: Capitulum primum de vtilitate medicine et de quibus considerandum est ...[/p]
+[p]f. 5r: Explicit: … De lana / De cornibus.[/p]
+[p][b]2.[/b] f. 5v: Avicenna (Ibn Sina, 980-1037), [i]Liber medicinalis[/i] or [i]Canon medicinae[/i], Preface, recorded in eTK, A digital resource based on Lynn Thorndike and Pearl Kibre, [i]A Catalogue of Incipits of Medieval Scientific Writings in Latin[/i] (Cambridge, MA: Mediaeval Academy, 1963; with supplements in 1965 and 1968; online at http://www.nlm.nih.gov/hmd/indexcat/index.html), no. 695A. Also found in Heidelberg, Universitätsbibliothek, cpl 1123, f. 1r.[/p]
+[p]For Avicenna and the [i]Canon[/i] see Nancy G. Siraisi, [i]Avicenna in Renaissance Italy: the Canon and Medical Teaching in Italian Universities after 1500[/i] (Princeton, NJ: Princeton University Press, 1987); eadem, 'Avicenna and the Teaching of Practical Medicine', in [i]Medicine and the Italian Universities 1250-1600[/i] (Leiden: Brill, 2001), pp. 63-78.[/p]
+[p]Item no. 1 in MSS Innsbruck, Tiroler Landesmuseum Ferdinandeum, Bibliothek, FB 32008, f. 32r, Wellcome 106, f. 1r, and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, f. 3r.[/p]
+[p]f. 5v, lines 1-17: Preface: IN nomine domini cuius bonite [sic] vobis karissimis socijs et scolaribus meis debitor sum ad erudiendum in moribus et scientijs. Quia prius vobis tradidi compendium moralium in quo continentur summe philosophorum et theologorum atque vobis tradidi breuiter summas librorum aristotelis maioris philosophie et paruorum naturalium Nunc consequenter secundum promissionem vobis a me factam volo impartire vtiliora et meliora artis medicine cum experimentis et secretis que uel quas maiores medici et phisici habuerunt Christoque adiuuante me in cuius nomine hoc opus aggrediar.[/p]
+[p][b]3.[/b] ff. 5v-12r, column 1, line 20, Avicenna, [i]Canon medicinae[/i], Compendium, Chapter 1, Excerpts in 7 chapters, in Latin.[/p]
+[p]Recorded in eTK, a digital resource based on Lynn Thorndike and Pearl Kibre, [i]A Catalogue of Incipits of Medieval Scientific Writings in Latin[/i] (Cambridge, MA: Mediaeval Academy, 1963; with supplements in 1965 and 1968; online at https://medievalacademy.site-ym.com/?page=Books#etk), no. 423F.[/p]
+[p]Item no. 2 in MSS Innsbruck, Tiroler Landesmuseum Ferdinandeum, Bibliothek, FB 32008, ff. 32r-39v, Wellcome 106, ff. 1r-9r, and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 3r-6v.[/p]
+[p]f. 5v, column 2: Incipit: Dico in primis quod medicina est scientia qua sanitas conseruatur ...[/p]
+[p]f. 12r, column 1, lines 19-21: Explicit: … sicut dictum est supra de virtutibus secundum traditionem Galieni.[/p]
+[p][b]4.[/b] ff. 12r-19v, [i]De arte medica[/i], 16 chapters[/p]
+[p]Recorded in eTK at nos 1375G, 1701B and 1608C (uroscopy text).[/p]
+[p]Item no. 3 in MSS Innsbruck, Tiroler Landesmuseum Ferdinandeum, Bibliothek, FB 32008, ff. 39v-50v, Wellcome 106, ff. 9r-21r, and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 6v-11v.[/p]
+[p]Titles in table of contents (f. 2r): Tractatus secundus de egritudine et de causis egritudinis et de diuisione; Sedecimum de significationibus urine.[/p]
+[p]f. 12r, column 1, line 22: Incipit: Sanitas est bona dispositio corporis ...[/p]
+[p]f. 19v, column 2, line 33: Explicit: … particularium egritudinum sumpto a pulsu in suis causis dicam domini concedente.[/p]
+[p][b]5.[/b] ff. 19v-21r, Anonymous text relating to urine[/p]
+[p]f. 19v, column 2, line 34: Incipit: Urina est colamentum sanguinis et aliorum humorum in epate generatorum ...[/p]
+[p]f. 21r, column 2, lines 10-13: Explicit: … Alie autem significationes urine patebunt postea sparsim in capitulis particularibus curandarum egritudinum.[/p]
+[p][b]6.[/b] ff. 21r-28r: [i]Regimen sanitatis[/i], 12 chapters relating to food, drink and sleep.[/p]
+[p]Not recorded in eTK.[/p]
+[p]Item no. 4 in MSS Innsbruck, Tiroler Landesmuseum Ferdinandeum, Bibliothek, FB 32008, ff. 50v-58r, Wellcome 106, ff. 21r-29v, and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 11v-15r.[/p]
+[p] Title in table of contents (f. 2r): Tractatus tertius de regimine sanitatis.[/p]
+[p]f. 21r, column 2, line 14: Incipit: Capitulum primum tertij tractatus de retentione querentium conservare sanitatem et productionem vite ad terminum a natura deputatum in quantum est hoc possibile fieri / Vita hominis stat in calido et humido calor ...[/p]
+[p]f. 28r, column 1, line 5: Explicit: … et hoc clarius uidebitur in tercia particula ubi  describuntur singuli morbi particulares et corporis cure.[/p]
+[p][b]7.[/b] ff. 28r-32v: [i]De intentione nutrimentis infirmorum[/i] or [i]De universalibus regulis ad curandum quoscumque morbos[/i], 8 chapters.[/p]
+[p]Not recorded in eTK.[/p]
+[p]Item no. 5 in MSS Innsbruck, Tiroler Landesmuseum Ferdinandeum, Bibliothek, FB 32008, ff. 58r-62v, Wellcome 106, ff. 29v-35v, and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 15r-17v.[/p]
+[p]Title in table of contents (f. 2r): Tractatus quartus de universalibus regulis ad curandum quoscumque morbos.[/p]
+[p]f. 28r, column 1, line 6: Incipit: Intentio circa egritudines curandas circa tria versatur ...[/p]
+[p]ff. 32r, column 2, line 34-32v, column 1, lines 2-4: Explicit: … ad conservandi sanitatem habitam et ad recuperandi deperditam. Sit deus benedictus … Sequitur alia particula quae incipit medicina simplex et est postposita.[/p]
+[p][b]8.[/b] ff. 32v-33v: [i]Tractatus de cibis et potibus[/i], 6 chapters.[/p]
+[p]Not recorded in eTK.[p]
+[p]Item no. 6 in MS. Innsbruck, Tiroler Landesmuseum Ferdinandeum, Bibliothek, FB 32008, ff. 62v-64v; item no. 8 in MSS Wellcome 106, ff. 77v-79v, and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 36r-37r.[/p]
+[p]Title in table of contents (f. 2r): Tractatus quintus de cibis et potibus.[/p]
+[p]f. 32v, column 1, line 5: Incipit: Panis melioris nutrimenti est iste qui confectus est de optimis granis ...[/p]
+[p]f. 33v, column 2: Explicit: … in relatione aliorum adiuuantibus te proprijs experimentis cum ratione.[/p]
+[p][b]9.[/b] ff. 34r-41r: [i]De febribus[/i], 11 chapters.[/p]
+[p]The first lines are identical to Avicenna, [i]Canon medicinae[/i], Book IV, Fen I, in the Latin translation by Gerard of Cremona: see eTK, no. 551F. Also found in Heidelberg, Universita&amp;#776tsbibliothek, cpl 1081, from f. 25r.[/p]
+[p]Item no. 7 in MS. Innsbruck, Tiroler Landesmuseum Ferdinandeum, Bibliothek, FB 32008, ff. 64v-72v; item no. 9 in MSS Wellcome 106, ff. 80r-89v, and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 37r-41r.[/p]
+[p]Title in table of contents (f. 2v): Tractatus primus de egritudinibus quae accidunt toti corpori de febribus et eius [sic] specibus et cura earum.[/p]
+[p]f. 34r, column 1: Incipit: Febris est calor extraneus accensus in corde procedens ab eo ...[/p]
+[p]f. 41r, column 2: Explicit: … Et studeat cibis et potibus semper se humectare.[/p]
+[p][b]10.[/b] ff. 41v-62r: [i]De particularis aegritudinibus singulorum membrorum[/i], 50 chapters.[/p]
+[p]The text follows the order 'a capite ad pedem'; recorded in eTK, no. 461E.[/p]
+[p]Item no. 8 in MS. Innsbruck, Tiroler Landesmuseum Ferdinandeum, Bibliothek, FB 32008, ff. 72v-96v; item no. 10 in MSS Wellcome 106, ff. 89v-117v, and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 41v-54r.[/p]
+[p]Title in table of contents (f. 2v): Tractatus secundus de particularibus egritudinibus singulorum membrorum et eorum cura.[/p]
+[p]f. 41v, column 1: Incipit: Dolor capitis aut est de causa calida aut de causa frigida de causa calida magis consueuit fieri ...[/p]
+[p]f. 62r, column 1, lines 28-30: Explicit: … in causa calida unguenta et alia olea invenies in sequenti particula et cetera.[/p]
+[p][b]11.[/b] ff. 62r-65r: [i]Tractatus de morbis in quibuslibet partibus corporis[/i], 10 chapters.[/p]
+[p]Not recorded in eTK.[/p]
+[p]Item no. 9 in MS. Innsbruck, Tiroler Landesmuseum Ferdinandeum, Bibliothek, FB 32008, ff. 96v-100r; item no. 11 in MSS Wellcome 106, ff. 117v-122v, and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 54r-56r.[/p]
+[p]Title in table of contents (f. 3r): Tractatus tertius de morbis qui possunt accidere in quibuslibet partibus corporis.[/p]
+[p]f. 62r, column 1, line 31: Incipit: Variole sunt pustule multe in toto corpore. Causa variolarum est ...[/p]
+[p]f. 65r, column 2, line 24: Explicit: … sed contra apium [sic] specialiter valet castoreum.[/p]
+[p][b]12.[/b] ff. 65r-70v, [i]De medicinis compositis et simplicibus[/i], 10 chapters.[/p]
+[p]Recorded in eTK, no. 1510D.[/p]
+[p]The text includes Dino del Garbo, [i]De olea[/i], as last section of the tenth chapter entitled 'de confectionibus et confortationis' (f. 3r) and beginning 'Oleum de nucibus est resolutivum grossarum ...' (f. 69v, column 1, line 16), recorded in eTK, no. 979B.[/p]
+[p]Item no. 10 in MS. Innsbruck, Tiroler Landesmuseum Ferdinandeum, Bibliothek, FB 32008, ff. 100r-105v; item nos 12-13 in MSS 106, ff. 122v-129r (with del Garbo's [i]De olea[/i] beginning on f. 127v), and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 56v-58v and 58v-59r.[/p]
+[p]Title in table of contents (f. 3r): Particula quarta de medicinis compositis.[/p]
+[p]f. 65r, column 2, line 25: Incipit: Syrupus Julet conferens adustioni febrium et vehementis sitis et inflamationi stomachi ...[/p]
+[p]f. 70r, column 2, lines 30-34,-70v, column 1, lines 1-4: Explicit: ... et indagator huius libelli. Ipse tibi sufficiet ad curandum omnem morbum curabilem. Si autem volueris plura videre recurre ad alios libros perspiciendo Auicenne Galieni / et aliorum medicorum autenticorum. Sit igitur deus gloriosus benedictus qui ad finem diu desideratum perduxit. Amen.[/p]
+[p][b]13.[/b] ff. 70v-73r: Henricus de Hassia (attr.), [i]De medicinis simplicibus et de gradibus earum et divisione earundem et est particula secunda[/i], 5 chapters.[/p]
+[p]Attributed to Henricus de Hassia in MS. Munich, Bayerische Staatsbibliothek, Latinus Monacensis 3073, ff. 247r-282r (15th century): see eTK, no. 859D.[/p]
+[p]Item no. 6 in MSS Wellcome 106, ff. 35v-39r, and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 17v-19r.[/p]
+[p]Title in table of contents (f. 3r): Particula quinta de medicina in generali simplici et eius specibus.[/p]
+[p]f. 70v, column 2: Incipit: MEdicina simplex est que [non] est cum alia medicina per manum artificis coniuncta seu composita ...[/p]
+[p]f. 73r, column 2, lines 30-31: Explicit: ... lapis iudaicus intrum adustum et comples.[/p]
+[p][b]14.[/b] ff. 73r-99r: Arnold of Villanova (attr.), [i]De simplicibus, ordine alphabetico[/i].[/p]
+[p]Attributed to Arnold of Villanova in MS. Oxford, Bodleian Library, Canon. Misc. 199, ff. 1r-173v (15th century): see eTK, no. 85B. Also found in Heidelberg, Universita&amp;#776tsbibliothek, cpl 1279, f. 109r-119r.[/p]
+[p]Item no. 7 in MSS Wellcome 106, ff. 39r-74r, and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 19r-34r.[/p]
+[p]Title in table of contents (f. 3r): Tractatus secundus de medicinis simplicibus in singulari.[/p]
+[p]f. 73r, column 2, lines 32-34:  Incipit: Aloe est una de medicinibus sublimioribus atque melioribus inter alias medicinas laxativas ...[/p]
+[p]f. 99r, column 1, line 18: Explicit: ... [Zynziber est calidi (sic) et humidum ...] quando tritum [?] inmittitur et destruit flecma.[/p]
+[p][b]15.[/b] ff. 99r-101v: [i]De medicinis quae sumuntur ex animalibus et ex membris animalibus[/i].[/p]
+[p]Not recorded in eTK.[/p]
+[p]Item no. 8 in MSS Wellcome 106, ff. 74r-77v, and Marburg, Universita&amp;#776tsbibliothek, Mscr. 15, ff. 34r-36r.[/p]
+[p]Title in table of contents (f. 5r): Tractatus secundus et tractatus de medicinis que summuntur ex animalibus et membris animalium et eorum superfluitatibus.[/p]
+[p]f. 99r, column 1, lines 19-22: Incipit: Restat nunc dicere vel ponere capitulum unum de medicinis sumpmarum medicinarum que summuntur ex animalibus et eorum membris et eorum superfluitatibus. De lepore ...[/p]
+[p]f. 101v, column 1, lines 36-37: Explicit: ... Et vulpis quando desicatur et bibitus confert asmati.[/p]
+[p][b]16.[/b] ff. 101v, column 2,-102r, column 1: Medical receipts, in Latin and German, partly in cypher.[/p]
+[p][b]17.[/b] ff. 102v-106r: Johannes de Milano (attr.), [i]Regimen sanitatis salernitanum[/i], a compendium.[/p]
+[p]The text is not listed in the table of contents on ff. 2r-5r.[/p]
+[p]An abbreviated version of a collection of didactic verse on medicine attributed to John of Milan in a number of manuscripts: see eTK, no. 96A; Hans Walther, [i]Initia carminum…[/i] (Go&amp;#776ttingen: Vandenhoech &amp; Ruprecht, 1969), no. 1039.[/p]
+[p]f. 102v, upper margin, Title: Incipit compendium de regimine sanitatis.[/p]
+[p]f. 102v, column 1: Incipit: [a]Nglorum regi scripsit tota scola salerni. Si vis incolumen si vis te reddere sanum ...[/p]
+[p]f. 106r, column 1: Explicit: ... Galbana sal gemme / fortis sucus cucumeris. Humo/res uinctos purges mixtis me/dicinis.[/p]
+[p][b]18.[/b] ff. 107v-108v: Medical receipts added by a number of 15th-century hands, in Latin and German.[/p]</summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_105_1">
+              <author/>
+              <title type="original">Collection of medical and pharmacological treatises</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation/>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent>[p]On paper. Watermarks including: [b]1)[/b] bull head with nostrils and eyes, surmounted by star consisting of two on one-line wire (f. 1: height: 66 mm; width: c. 37 mm; chainlines: 56 mm), a common watermark in the early 1430s in Germany, with no exact match in Piccard but similarities with Piccard nos 76046 (Frankfurt 1432), 76047 (Jülich, Herzogtum 1432), 76049 (Marienburg 1432), and 76340 (Esslingen 1433 and 1434); [b]2)[/b] bull head without nostrils or eyes, surmounted by seven-petal flower on one-line wire (f. 106: height: 107 mm; width: 40 mm, chainlines: 40 mm), similar to Piccard nos 63047 (Braunschweig 1431) and 63059 (Rothenburg ob der Tauber 1434); other watermarks difficult to detect.[/p]
+[p]108 leaves, with 15th-century foliation '1-20' in red ink (ff. 5-25) and '21-96' in dark brown ink (ff. 6-101), continued by modern foliation '102-108' in pencil; ff. 106v-107r blank. 309 x 215 mm; written space 212/221 x 142 mm, ruled in ink in two columns for single vertical and horizontal bounding lines only, no ruling for horizontal written lines, the first of which written below the upper ruled line, 33 to 49 written lines to a column.[/p]
+[p]Collation: 1[sup]14-1[/sup] (wanting xiv), 2-8[sup]12[/sup], 9[sup]12-1[/sup] (wanting x); horizontal catchwords in lower right corner of lower margin of last verso of quires; no traces of quire signatures.[/p]
+[p]Secundo folio: Capitulum primum de vtilitate medicine.[/p]
+[p]Written in a cursive Gothic script, slightly sloping to the right, by two different hands, in black ink (ff. 2r-101v) and in brown ink (ff. 102v-106r) respectively. The first scribe supplied a few marginal additions and nota signs, occasionally in red ink. Medical recipes and other texts by several different hands in Gothic script of various degrees of formality on ff. 1r, 1v, 101v-102r, 106r, 107v-108v, and pastedowns.[/p]
+[p]Decoration: Two- to seven-line initials in alternating red and blue throughout, occasionally with pen-flourished decoration (see f. 40v) or with descenders extending into the margin; other initials touched in red throughout. Guide letters provided by scribes at left of dedicated spaces.[/p]
+[p]A few marginal annotations and addition of titles in grey ink by an early reader in cursive Gothic script, 15th century.[/p]
+[p]Binding: Quarter binding of white alum-tawed skin over wooden boards (beech), sewn on three double-split alum-tawed-skin spine-bands, endbands of cotton thread over alum-tawed-skin core, with parchment pastedowns, two brass catches with cut-out leaf decoration at fore-edge of upper board, two brass plaques at fore-edge of lower board to secure the leather fastening straps, fastening straps and catches wanting, 15th century; traces of title label on paper at head of spine, with 't 6' in red ink still visible, 16th century.[/p]<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>[p]On paper. Watermarks including: [b]1)[/b] bull head with nostrils and eyes, surmounted by star consisting of two on one-line wire (f. 1: height: 66 mm; width: c. 37 mm; chainlines: 56 mm), a common watermark in the early 1430s in Germany, with no exact match in Piccard but similarities with Piccard nos 76046 (Frankfurt 1432), 76047 (Jülich, Herzogtum 1432), 76049 (Marienburg 1432), and 76340 (Esslingen 1433 and 1434); [b]2)[/b] bull head without nostrils or eyes, surmounted by seven-petal flower on one-line wire (f. 106: height: 107 mm; width: 40 mm, chainlines: 40 mm), similar to Piccard nos 63047 (Braunschweig 1431) and 63059 (Rothenburg ob der Tauber 1434); other watermarks difficult to detect.[/p]
+[p]108 leaves, with 15th-century foliation '1-20' in red ink (ff. 5-25) and '21-96' in dark brown ink (ff. 6-101), continued by modern foliation '102-108' in pencil; ff. 106v-107r blank. 309 x 215 mm; written space 212/221 x 142 mm, ruled in ink in two columns for single vertical and horizontal bounding lines only, no ruling for horizontal written lines, the first of which written below the upper ruled line, 33 to 49 written lines to a column.[/p]
+[p]Collation: 1[sup]14-1[/sup] (wanting xiv), 2-8[sup]12[/sup], 9[sup]12-1[/sup] (wanting x); horizontal catchwords in lower right corner of lower margin of last verso of quires; no traces of quire signatures.[/p]
+[p]Secundo folio: Capitulum primum de vtilitate medicine.[/p]
+[p]Written in a cursive Gothic script, slightly sloping to the right, by two different hands, in black ink (ff. 2r-101v) and in brown ink (ff. 102v-106r) respectively. The first scribe supplied a few marginal additions and nota signs, occasionally in red ink. Medical recipes and other texts by several different hands in Gothic script of various degrees of formality on ff. 1r, 1v, 101v-102r, 106r, 107v-108v, and pastedowns.[/p]
+[p]Decoration: Two- to seven-line initials in alternating red and blue throughout, occasionally with pen-flourished decoration (see f. 40v) or with descenders extending into the margin; other initials touched in red throughout. Guide letters provided by scribes at left of dedicated spaces.[/p]
+[p]A few marginal annotations and addition of titles in grey ink by an early reader in cursive Gothic script, 15th century.[/p]
+[p]Binding: Quarter binding of white alum-tawed skin over wooden boards (beech), sewn on three double-split alum-tawed-skin spine-bands, endbands of cotton thread over alum-tawed-skin core, with parchment pastedowns, two brass catches with cut-out leaf decoration at fore-edge of upper board, two brass plaques at fore-edge of lower board to secure the leather fastening straps, fastening straps and catches wanting, 15th century; traces of title label on paper at head of spine, with 't 6' in red ink still visible, 16th century.[/p]</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>c.1430-1434</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>[p]Purchased at Glendining's, London, 16th October 1933, lot 70, for £ 48.[/p]</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973), vol. 1, pp. 69-70. Description  revised and enhanced by Laura Nuvoloni in 2016 based on the compiler's own research.</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Traditional</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Formulas, recipes, etc.</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Hygiene</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Food and Beverages</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Materia Medica</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Arabic</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_130">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_130</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.130</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.130</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS130</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>56602</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>16f4d1c9-766d-407f-b661-2cb4332fac45</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19645958</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Practica medicinalis (Lilium medicinae).[/p] 
+
+[p]Large illuminated initial I on first leaf (rubbed), in gold and colours with marginal decorations; initial F also illuminated in the second column; large decorated initials in colours on ff. 29v, 55v, 73v, 92, 116, 131. Other initials in red and blue, blue and red, red and purple, blue and purple, with marginal decorations; paragraph marks in alternate red and blue, headings in red.[/p] 
+
+[p]f. 1r (red) Incipit pratica magistri bernaldi/de gordonio que lilium nuncupatur./[I]Nterrogatus a quodam Socrateo ['ymo demostenes' in upper margin]/quomodo posset... line 36 ...Incohatus/est liber iste cum auxilio dei magni in preclaro/studio montispesulani. post annos. 20. lec/ture nostre. anno domini.m. cc.30 in mense iulli. col. 2, line 17 [F]Ebris est calor naturalis mutatus/in igneum calorem ... f. 144r, col. 1, line 18 ..melius est primo in brachioemperature quam in facie apponere. //Explicit lilium medicine Editum A mag/istro Bernardo degordonio. In studio/montispesulani. deo Gratias. Amen./Et mihi scriptori det deus ['deus' repeated and struck through] Gaugium/omnibus horis. [Anonymous], De diaeta f. 144r col. 1, line 24 [Q]Voniam que ex proprietate conferunt eficatius [sic]/operantur quam que ex qualitate sola... f. 145v ...aleuiet cenam/quantum poterit et interdum abstin/eat a cena. Explicit. F. 145v: Various notes.[/p]
+
+[p]There are copious marginal notes throughout the MS., probably by Italian physicians of the second half of the 15th century. These give additional receipts and remedies, and draw attention to special remarks of the author, in some cases contradicting his views. On fol. 93v one of the unknown commentators strongly recommends the virtues of lettuce (lactuca). Patients are named on fol. 67v 'quod factum est per me in uxore Gerardi Burlano machi': fol. 85v 'Haec passus est Petrus Martinus de Monticulo': fol. 103 'Nota autem [?] Andream Bellaturthii': fol. 109 'Sic vidi in Galvagnono Pelieta et uxore Johannis Costae': fol. IIIv 'Cumhoc vidi quemdam qui dictus est Barbavara et erat Januensis districti': fol. 135 'Inuxore Nicolai Pezaroli': fol. 135v 'Hec vidi in uxore Jacobi Mocioni de Belesio.[/p]
+
+[p]Produced in Montpellier.[/p] </summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_130_1">
+              <author>Bernard de Gordon</author>
+              <title type="original">Bernard de Gordon, [i]Practica medicinalis (Lilium medicinae)[/i]</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation>The 'Lilium' was first printed at Venice in 1480.</filiation>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent><dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p/>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1330</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1930.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Traditional</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Formulas, recipes, etc.</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Diet</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Lettuce</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

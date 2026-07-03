@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_102">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_102</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.102</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.102</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS102</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>69318</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>522964de-8e70-4c9a-a355-2cfe165787e4</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b18905997</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Medium motum cujuslibet planetarum per ipsius tabulas ad tempus quandocunque propositum invenire.[/p]
+[p]Written in a small and clear italic, 38 lines to a page. Text of the first page within decorated borders in gold and colours, with large ornamental initial P in blue and gold within borders of red, gold and black. Other initials in gold on coloured ground: headings in red, text between double red rules. Some of the Tables in red, blue and black, others in red and black. [/p]
+[p]In the lower border to the first page is an emblazoned coat of arms, slightly rubbed. The booksellers (Nourry of Paris) describe this as: 'coupé d'or à l'aigle bicéphale éployée de sable, et d'azur à la dévise d'or (Libertas) posée en bande'. The shield is encircled by the chain of the Order of the Golden Fleece. It is possible that these are the arms of the Dini Family. [/p]
+[p]Fol. 1 (red) Medium motum cuiuslibet planetarum / per ipsius tabulas ad tempus quodcunque / propositum inuenire. Propositio I. // Praescribe tibi tempus ad quod pla / netae motum inuenire desideras ... 75v ... et prodibit locus eius diebus aequatis, idest inaequalibus. / (red) Tabella Lunae minutorum subtrahendorum. / [Table.] [/p]
+[p]It is possible that this MS. was written in 1531. This date is given on fol. 20, line 23 'qui sunt anni Christi 1531 currentes', and again on fol. 73 'pro anno Christi 1531 currente'.  [/p]
+[p]The Meridian of Nüremberg is used for all the tables and calculations. Probably produced in Nüremberg.[/p]</summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_102_1">
+              <author/>
+              <title type="original">Astronomy: 16th cent.</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation>See the notes below, contributed by Dr Karl Galle, for information on the apparent author of this manuscript and the context of its creation.</filiation>
+              <filiation>[p]Dr. Karl Galle has kindly expanded on our original catalogue description with the following information, for which we are extremely grateful:[/p]
+[p][b]Wellcome Western MS. 102[/b][/p]
+[p]MS. 102 is derived from a publication called [i]Tabulae astronomicae[/i] by Johannes Schöner, which was printed in 1536 in Nuremberg by Johannes Petreius.  Schöner was one of the early 16th century's most prolific producers of globes, mathematical and astrological texts, and occasionally medical works (of which the Wellcome has several listed under "Schöner, Johann" in the library catalogue).  Petreius was one the century's most important publishers of natural philosophical works, including Nicholas Copernicus's De revolutionibus and numerous other works.[/p]
+[p]This manuscript illustrates an interesting period in the history of astronomy.  Schöner was a prolific writer, teacher, and globe-maker - for one of his most remarkable surviving terrestrial globes, which is nearly a meter in diameter and is currently on display in a museum in Nuremberg, see &lt;a href="http://objektkatalog.gnm.de/objekt/WI1" target="_blank"&gt;http://objektkatalog.gnm.de/objekt/WI1[/a] - but this is rare or unique as an example of an illuminated manuscript of his work.[/p]
+[p]The manuscript that the Wellcome has appears to be a stand-alone version of Schöner's astronomical tables, which means that it does not have several prefatory texts that were added for the printed edition, such as a dedication from Schöner to the Nuremberg council, a laudatory preface from the Lutheran reformer Philip Melanchthon, and a poem by Thomas Venatorius (who later edited the first printed Greek edition of Archimedes' works).  The printed tables are also preceded by several additional chapters of explanations of basic mathematical concepts, whereas the Wellcome manuscript begins directly at "Proposition 1," which is at fol. A.4-v of the printed edition. [For a more direct comparison between the manuscript and printed texts, there is a version of the [i]Tabulae astronomicae[/i] at the Bavarian State Library.][/p]
+[p][b]Origins of the manuscript: [/b][/p]
+[p]It is has not yet been determined exactly when this manuscript was produced.  However, it may pre-date the printed version of the astronomical tables.  Partly this is suggested by the fact that the manuscript contains only the core tables and explanatory material without any of the additional material in the printed version.  However, there are also at least a couple of places where the manuscript includes correct versions of things that are incorrect in the printed edition, suggesting that it derives from an independent source rather than from simply being copied from the printed text.  For example, on fol. 14-r of the manuscript, the second row of numbers from the bottom includes a number that is incorrectly missing from the printed version of the tables.[/p]
+[p]On the other hand, the manuscript and printed versions are clearly very closely related to each other because most (but not all) of the errata listed on the verso of the title-page in the printed edition are likewise incorrect in the manuscript version.  Possibly the manuscript version -- or another text that served as the source for both this illuminated manuscript and for the printed edition -- was prepared first, and then the printer or someone else suggested that additional explanatory texts should be added at the beginning in order to improve its marketability to a larger audience?  At any rate, the reason that numerical figures in the tables appear to date from 1531 rather than 1536 is that they are partially based on material that Schöner prepared previously for an [i]Ephemeris[/i] that he published in 1532, also with Johannes Petreius.[/p]
+[p][b]Context of the manuscript: [/b][/p]
+[p]By the 1530s when these tables were prepared, there was widespread recognition that existing astronomical tables did not accurately predict the celestial motions, and a number of attempts had been made to produce new and more accurate tables.  Coincidentally enough, a letter that the Polish cartographer and royal secretary Bernard Wapowski wrote in October 1535 to the imperial diplomat Sigismund von Herberstein announced that Nicholas Copernicus had recently prepared a new version of astronomical tables, which Wapowski asked von Herberstein to try to have printed in Vienna and transmitted to German almanac makers.  (The full text of this letter is printed in [i]Nicolaus Copernicus Gesamtausgabe[/i], vol. VI/1, p. 186, a copy of which is also in the library at Wellcome Collection.  Copernicus's early tables were never printed and have never been found apart from the version that was subsequently included in the text of his [i]De revolutionibus[/i] in 1543.)  However, even though the Wellcome text is clearly Schöner's work rather than a long-lost Copernican manuscript, the fact that such a formal manuscript version was created, on vellum and with hand-painted illustrations, is indicative of how much attention the attempt to create improved astronomical tables was receiving at this time.[/p]
+[p][b]Who was the manuscript for? [/b][/p]
+[p]The front page of the Wellcome manuscript is not only beautifully painted but includes a shield at the bottom of the page, with the word "LIBERTAS" written across it and surrounded by a chain for the Order of the Golden Fleece (see figure 1, attached).  The coat-of-arms is not yet identified.  It does not appear to match any of the insignia for the major patrician families of Nuremberg, who would be logical recipients of such a manuscript from Schöner and illustrations of whose arms are preserved among other places in an interesting manuscript history of these families now in the British Library.  Moreover, a closer examination of the Wellcome manuscript reveals that the current arms and illustrations on the title-page are not original.  The facing page shows remnants of paint from the original illustrations (figure 2), which occupied the same spaces on the page but were slightly different in design.  More importantly, the original coat-of-arms was circular (figures 3 and 4) but has now been completely painted over with the new shield.  For this reason, it seems unlikely that it will be possible to identify the original owner or recipient of this manuscript unless other independent information turns up.[/p]
+[p](August 2012)[/p]</filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent>78 ll. (last 3 bl.). 4to. 20 x 141/2 cm. On vellum. 16th cent. gilt-stamped panelled calf binding.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>78 ll. (last 3 bl.). 4to. 20 x 141/2 cm. On vellum. 16th cent. gilt-stamped panelled calf binding.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>c. 1531</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1936.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Astronomy</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

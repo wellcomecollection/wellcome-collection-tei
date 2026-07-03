@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_183">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_183</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.183</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.183</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS183</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>14407</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>cebff782-9a7c-4b0d-b48d-4d3883f51365</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b18587938</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>De cura naturali febrium putridarum... in 7th capitulum, tractatus 2, fen prima, libri 4i Avicennae. [Followed by] FRIGIMELICA [or FRIZIMELICA] (Francesco) Varii tractatus. The second work by a different, and probably earlier hand; dates conjectured to be c.1650 and c.1600 respectively. The tracts by F. Frigimelica [1491-1559] are: 'De modo purgandi'. 'De Syrupis'. 'In nono Rasis ad Almansorem lectura' ['De apoplexia'. 'De phrenetide'. 'De pleuritide'.] 'De morbo gallico'. 'De vulneribus capitis'. With Frigimelica's work on the Morbus gallicus, of which only part is included, are excertps from the 'De morbo gallico' of Joannes Baptista Montanus [1498-1552]. Both these are printed in full in the 1728 edition of 'Aphrodisiacus' by Aloysius Luisinus. Signature of 'Dott. Emilio Biondi' on the first leaf, with a note by him on the verso fo the second leaf 'Questo fu da me sottoscritto acquistato in Rimini (Romagna). Non è improbabile che esso gia stato proprietà del celebre Medico Jano Planco (i.e. Giovanni BIANCHI, pseud. Janus PLANCUS. [1693-1775]), perche il negoziante che lo possedeva altri volumi avea appartenenti al Planco'. This statement is signed and dated 'Rimini, 1900'. </summary>
+            <textLang mainLang="" source="IANA"/>
+            <msItem n="1" xml:id="MS_183_1">
+              <author/>
+              <title type="original">Cassanus (Ferdinandus)</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA"/>
+              <filiation/>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent>I l. + 143 ff. + 11 ll. + 5 ll. (last 4 bl.). + 91 [wrongly 90] ff. 4to. 20 1/2 x 15 cm. 18th cent. vellum binding. Margins slightly cropped: last 6 ll. damaged by damp.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>I l. + 143 ff. + 11 ll. + 5 ll. (last 4 bl.). + 91 [wrongly 90] ff. 4to. 20 1/2 x 15 cm. 18th cent. vellum binding. Margins slightly cropped: last 6 ll. damaged by damp.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>c.1600-c.1650</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1906 from Dr. Biondi.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Syphilis</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Fever</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Cathartics</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
