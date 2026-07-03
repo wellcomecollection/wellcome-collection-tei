@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_8">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_8</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.8</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.8</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS8</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>79057</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>a26f2d32-6cf2-484f-9bd4-4a301127af4b</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19684617</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Compendium of chirurgery.</summary>
+            <textLang mainLang="" source="IANA">English</textLang>
+            <msItem n="1" xml:id="MS_8_1">
+              <author>Agricola, Johannes (1589--1643)</author>
+              <title type="original">Agricola, Johannes (1589--1643)</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">English</textLang>
+              <filiation>Johann Agricola was an iatrochemist and a strong partisan of Paracelsian doctrines. [Cf. Ferguson 'Bibliotheca chemica', Vol. I, pp. 11, 12.] The work has not been published either in the original German or in English.</filiation>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent>4 bl. ll. + 125 ll. (last 8 bl.). 4to. 20 x 151/2 cm. 18th cent. panelled calf binding.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>4 bl. ll. + 125 ll. (last 8 bl.). 4to. 20 x 151/2 cm. 18th cent. panelled calf binding.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>c. 1640</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1934.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl>The identity of the Author has been established by the reference on 1.63v to the 'edition of my Institutiones Chirurgicae' which was published at Frankfort in 1634 (cf. Haller): and to 'my Chymical Laboratory [sic] shortly to be publish'd (1.81), as well as to his 'Great Chirurgery' where he says on 1.8, alluding to the 'Antipathy of Spirits', 'which here in this Compendium we shall not further discourse on, it may be done in my great Chirurgery'. Now the entry in Jöcher's 'Gelehrten Lexicon', Vol. I, col. 151 s.v. 'Agricola' ends, 'Versprach auch "Chirurgiam magnam" und "Laboratorium chymicum" zu publiciren, starb aber noch 1643 in 54 Jahr seines Alters'. In the text are several allusions to incidents in his life, and accounts of cases he treated; among others 'for Anno 1631, in the great plundering at Thuring I was stabbed in two places, the arm and the left breast, I had noe body to dress it, and was besides a captive stripped and naked...' The latest date given in the text is 1633 on 1.73v.</bibl>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Surgery</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_33">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_33</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.33</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.33</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS33</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>57463</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>dd43e277-3bce-46c3-863e-37997c536923</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b21418019</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Alemanus of Bohemia and others, alchemical and herbal miscellany[/p]
+[p]Written in a semi-current humanist hand, 16-17 lines to a page: a few initials in red.[/p]
+[p][b]Contents[/b][/p]
+
+[p]1. ff. 1r-16r Alemanus of Bohemia, [i]On the stone to Boniface VIII[/i][/p]
+[p]f. 1r Bonifacio octavo sumo papa de la sancta Clezia Romana Maistro Alemano de Boemia se recomanda ... f. 16r ... con lingua. Deo gracias. Amen.[/p]
+[p]2. ff. 16r-22v Alchemical and medical recipes in Latin[/p]
+[p]3. ff. 23r-26v Treatise on the seven herbs and seven planets[/p]
+[p]f. 23r La prima erba sien del sole ... f. 26v ... i demunis. De gracias.[/p]
+[p]4. ff. 27r-28v Treatise on herbs, end wanting[/p][p]f. 27r De vitutibus elintropie. Prima erba apud caldeos vocatur yreos ... f. 28v ... commisce cum ... [/p]</summary>
+            <textLang mainLang="" source="IANA">Italian</textLang>
+            <msItem n="1" xml:id="MS_33_1">
+              <author/>
+              <title type="original">Alemanus of Bohemia and others, alchemical and herbal miscellany</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Italian</textLang>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation>Written in Italy.</filiation>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent>i + 28 + i folios 16mo. 12 1/2 x 10 cm. Modern vellum binding. A leaf is wanting before folio 23, and the end is missing: a leaf is probably missing after folio 17. The last leaf is damaged, cut down and mounted. <dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>i + 28 + i folios 16mo. 12 1/2 x 10 cm. Modern vellum binding. A leaf is wanting before folio 23, and the end is missing: a leaf is probably missing after folio 17. The last leaf is damaged, cut down and mounted. </p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>c.1500</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1931.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Catalogue description modified 2014. For original description see S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl>The last item is entered in Col. 509 of Thorndike's [i]Catalogue of Incipits[/i]. Alemanus is mentioned in his [i]History of Magic and Experimental Science[/i], Vol. III, pp. 53, 139, 140. </bibl>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Alchemy</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Astrology</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Materia Medica</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Medicine, Magic, mystic, and spagiric</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Botany</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

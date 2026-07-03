@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_85">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_85</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="JE">
+          <resp when="2014-09-24">Calm encoder</resp>
+          <persName>EdgeJ</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.85</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.85</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS85</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>29394</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>e5ae1e6a-8fe4-468f-8dab-7beb36e26498</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19152048</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p][i]Articella[/i][/p]
+
+[p][b]Contents[/b][/p]
+
+[p]1. ff. 1r-19v Johannitius, [i]Isagoge[/i][/p]
+
+[p]f. 1r Incipit liber Johannicii. Medicina divitur in duas partes ... f. 19v ... boni malive discretione.[/p]
+
+[p]2. ff. 19v-62v Galen, [i]Tegni[/i][/p]
+
+[p]f. 19v [Tres sunt} omnes doctrine ... f. 62v ... orationem in eis.[/p]
+
+[p]3. ff. 63r-73r Hippocrates, [i]Regimen acutorum[/i][/p]
+
+[p]f. 63r [Qui de egrotantium] accidentibus in singulis ... f. 73r ... conveniens est.[/p]
+
+[p]4. ff. 73r-100r Hippocrates, [i]Aphorisms[/i][/p]
+
+[p]f. 73r Incipit liber amphorismorum compositus ab ypocrate ... f. 73v Vita brevis ars vero longa ... f. 100r ... possit mortale.[/p]
+
+[p]5. ff. 100r-112r Hippocrates, [i]Prognostics[/i][/p]
+
+[p]f. 100r Omnis qui medicine studio ... f. 112r ... ordine preceptorum.[/p]
+
+[p]6. ff. 112v-117r Philaretus, [i]Liber pulsuum[/i][/p]
+
+[p]f. 112v [Intentionem] habemus in presenti ... f. 117r ... ad presens. Explicit liber pulsuum Phylareti.[/p]
+
+[p]7. ff. 117r-134r Theophilus, [i]Liber urinarum[/i][/p]
+
+[p]f. 117r Incipit liber urinarum ... f. 117v De urinarum differencia ... f. 134r ...convenienter exposuimus.[/p]
+
+[p]f. 134v blank[/p]</summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_85_1">
+              <author/>
+              <title type="original">[i]Articella[/i]</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation>Written perhaps in France.</filiation>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent>ff. iii + 134 + iii. 25 x 17 1/2 cm. On vellum. Modern vellum binding by Zaehnsdorf. Written in a very clear gothic hand, 21 lines to a page, with wide margins. The titles of Johannitius and the Aphorisms are in gold. Other initials in alternate red and blue, and blue and red with marginal ornaments. headings in red. Some wanting from incipits. 2-line initials alternate red flourised with blue and blue with red. Capitals in red and blue. On f. 112 index tab cut in.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>ff. iii + 134 + iii. 25 x 17 1/2 cm. On vellum. Modern vellum binding by Zaehnsdorf. Written in a very clear gothic hand, 21 lines to a page, with wide margins. The titles of Johannitius and the Aphorisms are in gold. Other initials in alternate red and blue, and blue and red with marginal ornaments. headings in red. Some wanting from incipits. 2-line initials alternate red flourised with blue and blue with red. Capitals in red and blue. On f. 112 index tab cut in.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Mid 14th Century</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1911.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Catalogue description modified in 2014. For original description, see S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Urology</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Prognosis</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Pulse</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Medicine, Greek and Roman</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

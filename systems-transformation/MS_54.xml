@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_54">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_54</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.54</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.54</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS54</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>92000</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>dce4316c-b6b3-400a-beec-262463be1af6</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19625674</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Fragment from 'Meterologica' containing parts of Book II, and Book IV. Written in a French gothic book-hand in double column, 39 lines to a column. paragraph marks in red and blue. 1st Leaf, col. 1 [uehemen]tissimum maxime talem ease uehementis/simum quidem igitur ex necessitate quod citissi/me fertur... verso, col. 2 aut post occasum serenitate exeunte/2nd Leaf, col. 1 secundum naturam humidum attrahens humidi/tatem... col. 2 ... solum in elixa/tis. hoc autem utrique erit sicut dicimus/ In the edition of this work in the W.H.M.L. printed at Venice in 1516, these fragmengs are identified as: Folio 419v, col. 1, line 36 to Fol. 420, col. 1, line 3: Fol. 435v, col. 1, line 25 to Fol. 437, col. 1, line 42. In estimating the number of lines, the Commentaries have also been counted in. In W. D. Ross's translation of Aristotles' complete works, these passages occur in Vol. III, Book II, Ch. 8 and Book IV, Ch. 3 of the "Meteorologica'.</summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_54_1">
+              <author/>
+              <title type="original">Aristoteles, (384-322 B.C.)</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation/>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent>2 ll. folio. 25 1/2 x 20 1/2 cm. On vellum.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>2 ll. folio. 25 1/2 x 20 1/2 cm. On vellum.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Early 14th Century</origDate>
+            </origin>
+            <provenance/>
+            <acquisition/>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Science</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Philosophy</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Astronomy</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

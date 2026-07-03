@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_18">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_18</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.18</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.18</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS18</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>69333</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>de7507d4-16fe-4f5d-a1c3-06ac3d1aa607</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19567352</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Tractatus de revolutionibus nativitatum. Introductorium majus. [Incomplete] Preceded by Messahala. De interrogationibus. On the first leaf, in the lower margin, is a pen-drawn circular diagram added by a contemporary owner. MESSAHALA. De interrogationibus Fol. 1 Precepit massehalla ut constituas as/cendens per gradum suum ... 3v, col. 1 ... et dat ei habundanciam/ire et furoris explicit. [Added by a later hand: 'tractatus de interrogationibus'.] Albumasar. De revolutionibus nativitatum. 3v (red) Incipit tractatus de Revolutionibus natiuita/tum Extractus ex libro albumazar./Quum tempus breue est operandi et opus/reuolucionis... Fol. 11v, col. 2 ... sine difficultate/possit redire noticiam. explicit (red). Albumasar. Introductorium majus in astronomia. 12 Hic liber maioris in astronomia commenti/albumasar et alalu iudiciorum dic/tatus quadrifariam partitur... 14v, col. 2 ... firmumque tes/timonium stelle participis quam de/The two works by Albumasar were first printed in full by Ratdolt at Augsburg in 1489, and of these the 'Introductorium' was translated by Hermannus de Carinthia (Cf. Haskins: 'Studies in mediaeval science'. Ch. III). The work by Messahala was first printed at Venice in 1493 in an edition of Ptolemy's 'Centiloquium' etc.</summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_18_1">
+              <author>Albumasar, d. 886</author>
+              <title type="original">Albumasar (d. 886)</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation/>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent>14 ll. folio. 28 x 21 cm. On vellum, modern vellum binding. On the outside of the upper cover is pasted a small vellum strip containing the titles of the three works, probably cut out from an original fly-leaf. Written in a neat gothic hand in double columns of 50 lines to a column. Capitals, paragraph marks, and headings in red.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>14 ll. folio. 28 x 21 cm. On vellum, modern vellum binding. On the outside of the upper cover is pasted a small vellum strip containing the titles of the three works, probably cut out from an original fly-leaf. Written in a neat gothic hand in double columns of 50 lines to a column. Capitals, paragraph marks, and headings in red.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Early 14th Century</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1936.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Astrology</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

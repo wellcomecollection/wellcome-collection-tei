@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_68">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_68</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.68</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.68</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS68</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>42367</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>43dd195d-3851-47ac-82c8-c7f21266d237</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b18725259</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Secretum Aristotelis et philosophia occulta. Written in a rounded gothic hand 20-22 lines to a page. Capitals, headings, paragraph marks and underlinings in red. On fol. 9 is a rough pen-drawing of a still [?].[/p]
+[p]Fol. 1 Secretum Aristotilis et phylosophia occulta.//Aristotiles subtilissimus rerum in/uestigator ex principiis na/turalibus in hoc suo secreto/quod Albertus postmodum occultam intytulat phylosophiam... 34v ... Iste sunt/Examinationes quas perfectiores inuenies/in Summa Geberi quasi in fine eiusdem./Et sic est finis huiusque Secreti per cuius compilationem legen/tes et intelligentes micture [?] in corpore et essentie essentiarum/actiones referant multiformers./Deo gratia eiusque miseratione.[/p]</summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_68_1">
+              <author/>
+              <title type="original">Pseuds-Aristoteles</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation>This work has been entered as by 'Pseudo-Aristoteles', and has not been identified with any recorded alchemical tract, though it is certainly a late production, and perhaps belongs to the period of the 'Lullian Collection' as described by Thorndike in Vol. IV of his [i]History of Magic and Experimental Science[/i].</filiation>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent>34 ll. 8vo. 14 x 10 cm. On vellum. 18th cent. calf binding, damaged. Lower corner and margin of the first leaf, and the lower corners of leaves 2-7 cut away. The last line is badly rubbed.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>34 ll. 8vo. 14 x 10 cm. On vellum. 18th cent. calf binding, damaged. Lower corner and margin of the first leaf, and the lower corners of leaves 2-7 cut away. The last line is badly rubbed.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Mid 15th Century</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1923.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Alchemy</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
