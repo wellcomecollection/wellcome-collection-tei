@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS.2">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="SM">
+               <resp when="1973">Cataloguer</resp>
+               <persName>S. A. J. Moorat</persName>
+            </respStmt>
+            <respStmt xml:id="CH">
+               <resp>Calm encoder</resp>
+               <persName>Hiltoncm</persName>
+               <note>22/12/2003</note>
+            </respStmt>
+            <respStmt xml:id="LS">
+               <resp when="2026">TEI Encoder</resp>
+               <persName>Lara Salha</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>library@wellcome.org</email>
+            </distributor>
+            <idno type="msID">MS.2</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">Western MSS series 3 - Requestable</idno>
+                  <altIdentifier type="Ref_No">
+                     <idno>MS2</idno>
+                  </altIdentifier>
+                  <altIdentifier type="accession">
+                     <idno>68449E</idno>
+                  </altIdentifier>
+                  <altIdentifier type="Sierra">
+                     <idno>b19087433</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary>Written in a neat rounded gothic hand, 25 lines to a page. Ornamental initials, paragraph marks and headings in red. Fol. I (red) Ad videndum fortunam et infortunam omni homini et vtrum vnocuique homini bene aut male debeat succedere omnibus diebus sue vite. videbis in. presenti libro. secundum philosophos astronomos sub/scriptum. Ad inueniendum signum natiuitatis cuiuslibet hominis/Recipe nomen eius ... 7v ... dies martis/et saturni mali istis fideliter viuentibus. Tam viris/quam mulieribus. Amen. The 9th, 10th, and beginning of the 11th signs are wanting.</summary>
+                  <textLang mainLang="">Latin</textLang>
+                  <msItem n="1" xml:id="MS.2_1">
+                     <author key=""/>
+                     <title key="">Ad inveniendum signum nativitatis</title>
+                     <incipit>
+                        <locus/>
+                     </incipit>
+                     <explicit>
+                        <locus/>
+                     </explicit>
+                     <colophon>
+                        <locus/>
+                     </colophon>
+                     <filiation/>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support/>
+                        <extent>6[7] ll. 4to.
+                           <dimensions unit="cm" type="leaf">
+                              <dim type="diameter">21cm</dim>
+                              <dim type="length">14cm</dim>
+                           </dimensions>
+                        </extent>
+                        <foliation></foliation>
+                        <collation>
+                              Unbound.
+                        </collation>
+                        <condition>The sixth leaf is wanting: margins slightly frayed.</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <decoNote/>
+                  </decoDesc>
+                  <additions>
+                     <p/>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Unbound.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country/>,
+                                        <region/>,
+                                        <settlement/>,
+                                        <orgName/>
+                     </origPlace>
+                     <origDate calendar="Gregorian">c.1475</origDate>
+                  </origin>
+                  <provenance>Particulars of acquisition not known.</provenance>
+                  <acquisition/>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                              <author>S. A. J. Moorat</author>
+                              <placeName>London</placeName>
+                              <publisher>Wellcome Institute for the History of Medicine</publisher>
+                              <date>1962-1973</date>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="free">
+                        <p/>
+                     </availability>
+                     <custodialHist>
+                        <custEvent/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl type="microfilm">This MS may be a copy of the work entered on Col. 21 of Thorndike's &lt;i&gt;Catalogue of Incipits&lt;/i&gt;.</bibl>
+                  </surrogates>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref>MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>Sloyanv</change>
+         <note>09/07/2025</note>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
