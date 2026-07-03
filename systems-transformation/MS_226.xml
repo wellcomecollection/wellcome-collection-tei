@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_226">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_226</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="JE">
+          <resp when="2014-08-20">Calm encoder</resp>
+          <persName>EdgeJ</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.226</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.226</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS226</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>56079</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>e9e99d2c-7dcb-4b70-8e68-034d3688860c</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19684551</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Henry Daniel, [i]Liber uricrisiarum[/i], in English[/p]
+
+[p]Written in an upright formal hand; 36 lines to a page. On f. 55r is an unfinished pen-drawn diagram of the geocentric universe.[/p]
+
+[p][b]Contents[/b][/p]
+
+[p]1. ff. 1r-70v Henry Daniel, [i]Liber uricrisiarum[/i], in English, prologue and end wanting (ends with part of the eighth chapter of the second book).[/p]
+
+[p]f. 1r The firste boke. The firste chapiture. [U]ryne ys as mekyll to say yn ynglysche as on yn the Reynys. Reynys frenche Renes latyn lendys in englysche ... f. 70v ... eucomia yt seth gude dygestione or ellis mene And the ... [/p]
+</summary>
+            <textLang mainLang="" source="IANA">English</textLang>
+            <msItem n="1" xml:id="MS_226_1">
+              <author>Written by a scribe probably from the north of England.</author>
+              <title type="original">Henry Daniel, [i]Liber uricrisiarum[/i], in English</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">English</textLang>
+              <filiation/>
+              <filiation>Anglo-Saxon letter forms in Moorat's catalogue description (such as contraction marks and thorn and yogh symbols) have been replaced with Latin characters.</filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent>70 ll. folio. 29 x 20 cm. On vellum. The first leaf, and the end, are missing; lower margins badly cockled, with loss of text. <dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>70 ll. folio. 29 x 20 cm. On vellum. The first leaf, and the end, are missing; lower margins badly cockled, with loss of text. </p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Early 15th Century</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased at Sotheby's 5/6/1929, Lot 538.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Catalogue description modified in 2014. For original description, see S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl>[p][b]Bibliography[/b][/p]
+
+[p]Eimas, Richard. [i]Heirs of Hippocrates: the development of medicine in a catalogue of historic books in the Hardin Library for the Health Sciences, the University of Iowa[/i] (Iowa City: University of Iowa, 1990), p. 57.[/p]
+
+[p]Hanna, Ralph. [i]The Index of Middle English Prose Handlist I: Manuscripts in the Henry E. Huntington Library[/i] (Woodbridge: Boydell and Brewer, 2007), p. 33.[/p]
+
+[p]Tavormina, M. Teresa. [i]Uroscopy in Middle English: a Guide to the Texts and Manuscripts[/i] (University of Michigan Studies in Medieval and Renaissance History, 2014), p. 90.[/p]
+
+[p]Jasin, Joanne. 'A Critical Edition of the Middle English [i]Liber uricrisiarum[/i] in Wellcome MS 225', (Unpublished PhD thesis, Tulane University, 1983).[/p]</bibl>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Urology</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Maps</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

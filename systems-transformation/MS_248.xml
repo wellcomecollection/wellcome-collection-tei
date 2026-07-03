@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_248">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_248</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.248</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.248</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS248</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>41398</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>48914491-5664-4ec4-9d5a-e66673c1a54f</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19689718</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Planetarium: opus de fabrica horarii magistralis. Written in a semi-currenthumanistic hand, 30 lines to a page. Some initials and headings in red, much faded. Illustrated with 59 pen-drawings of parts of the clock, etc.: of these, 33 are coloured. There are also many smaller illustrations of minior pieces of mechanism. The colourings are in water-colour and gold paint. Inside the lower cover is a 17th cent. pen and ink drawing, showing three men standing outside the door of a house, one bare-headed, holding a jug [?]. Fol. 1 (Text begins) et calculationis tedio ac si ad dictam horam fuerit cum tabulis operatus modicissima/et paruae curae si qua interueneit differentia uarietatis... 14, line 1 ...Fuit namque/huius temporis. scilicet. 1364. anno christi perfecto secundum tabulas alfonsi in fine ge/-minorum... 83v ... Et sic/eo situato reduc deorsum ut denticuli inzegnonsis reinserantur cum/sua rotula et in axicula reimpone cauillam sicque dimitte.//Factus est hic liber Anno Domini 1364. ut colligitur/ex principio pagine 14.</summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_248_1">
+              <author>Dondis, Johannes de, 1318-1389</author>
+              <title type="original">Dondis, Johannes de (1318-1389)</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation>For an account of the Author and his clock, cf. Thorndike's [i]History of Magic and Experimental Science[/i], Vol. III, Chap. 24, pp. 740-741.</filiation>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent>83 [84] ll. folio. 30 x 21 cm. Original stamped rough calf binding over wooden boards, very worn; rebacked in vellum: both claps wanting. The first leaf is missing.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>83 [84] ll. folio. 30 x 21 cm. Original stamped rough calf binding over wooden boards, very worn; rebacked in vellum: both claps wanting. The first leaf is missing.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Late 15th Century</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased at Sotheby's 17/11/1919, Lot 94.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl>Dresti, G. &amp; R. Mosello, 2020. A comparative analysis of twelve manuscripts of Giovanni Dondi's astrarium. [i]Antiquarian Horology[/i], 41 (4): 473-504.</bibl>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Astronomy</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Clocks &amp; watches</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Horology</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

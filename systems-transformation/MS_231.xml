@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_231">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_231</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.231</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.231</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS231</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>76058</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>b7bdd39a-1ac5-42ac-bc75-0bde75ea8b6c</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19676724</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Sferamundi: in Italian ottava rima. Written in a rounded gothic hand, 32 lines to a page. Initial A on the first leaf in red and yellow, some headings in red. Illustrated with 8 astronomical figures in water-colour. A foliation has been supplied in pencil. Fol. 1 AL padre al filio: et ad spirito sancto/Per ogni secul sia gloria: et honore./ 18 Doue si nauicca e finisse qui/L asia magiore [sic] el fiume tanai.//Finis.//(Within an outlined scroll in red) Questa sie opera del fa. ri. na.[/p]</summary>
+            <textLang mainLang="" source="IANA"/>
+            <msItem n="1" xml:id="MS_231_1">
+              <author/>
+              <title type="original">Gregorio Dati (1362-1436)</title>
+              <title type="standard">Previous title, changed June 2024: "Leonardo de Pierio Dati (-1426)"</title>
+              <textLang mainLang="" source="IANA"/>
+              <filiation>[p]Farina has not been identified, but is presumably the name of the scribe. For a note on the contents of this poem, cf. entry for MS.230.[/p]
+[p]The Authorship of the work is disputed. The 1859 B.M. Catalogue assigns it to Leonardo Dati, and not to Gregorio [1362-1436] and this attribution was originally used in this catalogue record (though it also confused Leonardo di Stagio Dati with Leonardo de Piero Dati). However, the work is attributed to Leonardo's brother Gregorio in the G.K.W. and in Klebs and modern scholarship agrees the evidence is strongly in favour of crediting Gregorio with authorship. It was first printed at Florence in 1472, and there were a number of other 15th cent. editions.[/p]</filiation>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<extent>18 ll folio. 29 1/2 x 20 cm. Unbound. Margins of some leaves frayed, with slight loss of text: second leaf torn.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>18 ll folio. 29 1/2 x 20 cm. Unbound. Margins of some leaves frayed, with slight loss of text: second leaf torn.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>c.1475</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1931.</acquisition>
+            <acquisition type="accrual"/>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="">
+                <p/>
+              </availability>
+              <availability>
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: Yes (available online)</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>[p]The &lt;a href="https://sites.google.com/ncf.edu/sfera-project/home"&gt;La Sfera Project[/a] is the home of numerous scholarly efforts concerning the work, including a list of all known manuscript versions.[/p]</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Astronomy</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Mathematical geography</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Geography, Ancient</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Poetry</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Maps</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
