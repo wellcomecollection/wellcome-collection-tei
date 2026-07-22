@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Amer_13">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS Amer 13</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="RP">
+                    <resp when="1983">Cataloguer</resp>
+                    <persName>Robin Price</persName>
+                </respStmt>
+                <respStmt xml:id="AP">
+                    <resp when="2021">Template</resp>
+                    <persName>Adrian Plau</persName>
+                </respStmt>
+                <respStmt xml:id="OCV">
+                    <resp when="2022-08-22">TEI Encoder</resp>
+                    <persName>Odalys Caballero</persName>
+                </respStmt>         
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName type="institution">Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>collections@wellcomecollection.org</email>
+                </distributor>
+                <idno type="msID">MS Amer 13</idno>
+                <idno type="catalogue"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">WMS/Amer.13</idno>
+                        <altIdentifier type="Sierra">
+                            <idno>b18979567 </idno>
+                        </altIdentifier>
+                        <altIdentifier type="CalmRef">
+                            <idno>MSAmer13</idno>
+                        </altIdentifier>
+                        <altIdentifier type="PublicRef">
+                            <idno>WMS/Amer.13</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        
+                        <summary>Theory and therapeutic uses of the balsam (regarded as a near-panacea); 
+                            with the formula of 9 ingredients.<note>Upon cataloguing, the original author was not apparent</note></summary>
+                        
+                        
+                        <textLang mainLang="es">Spanish</textLang>
+                        
+                        <msItem n="1" xml:id="MS_Amer_13_1">
+                        
+                        
+                        <title key="">Virtudes del Balsamo Peruano, nombrado de vida ó de la vida.</title>   
+                        
+                        <textLang otherLangs="en">English</textLang>       
+                        
+                        
+                        <filiation/>
+                        <note>WMS. Amer. 13 is a copy of WMS. Amer. 2.</note>
+                        </msItem>
+                        
+                        
+                    </msContents>
+                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <support/>                       
+                                <extent>                            
+                                    <note>MSAmer13</note>611. (1st bl.).
+                                    <dimensions unit="cm" type="cm">
+                                        <dim type="width">22 cm</dim>
+                                        <dim type="length">15.5 cm </dim>  
+                                    </dimensions>
+                                </extent>
+                                
+                                <foliation/>
+                                
+                                <collation>
+                                    <formula/>
+                                    <signatures/>
+                                </collation>
+                                
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines=""/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scope=""/>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote/>
+                        </decoDesc>
+                        <additions>
+                            <p/>
+                        </additions>
+                        <bindingDesc>
+                            <binding>
+                                <p/>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <country>[?Mexico]</country>
+                                <region>North America</region>
+                            </origPlace>
+                            <origDate calendar="Gregorian">[last half 18 cent.</origDate>
+                        </origin>
+                        <provenance notBefore="" notAfter=""/>
+                        <acquisition>Purchased 1962.</acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>An Annotated Catalogue of Medical Americana in the Library of the Wellcome Institute for the History of Medicine</title>
+                                        <author>Robin Price</author>
+                                        <placeName>London</placeName>
+                                        <publisher>Wellcome Institute for the History of Medicine</publisher>
+                                        <date>1983</date>
+                                        <note>p. 299</note>
+                                    </bibl>
+                                </source>                               
+                            </recordHist>
+                            <availability status="unknown">
+                                <p/>
+                            </availability>
+                        </adminInfo>
+                        <listBibl>
+                            <head/>
+                            <bibl/>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="MeSH">
+                    <bibl>
+                        <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"/>
+                        </item>
+                    </list>
+                </keywords>
+                <keywords scheme="#MeSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"/>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-06-20"></change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface/>
+    </facsimile>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
