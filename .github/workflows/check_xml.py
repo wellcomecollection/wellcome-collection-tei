@@ -85,23 +85,40 @@ def check_author_names(relpath, root, fullpath):
     return errors
 
 
+# Folders whose contents are not named after a language, so the
+# 'MS $Language $Number' rule below cannot say anything useful about them.
+# These hold documents of any language, gathered by project or format rather
+# than by script, so the id is not predictable from the folder name.
+NON_LANGUAGE_FOLDERS = (
+    "Calm manuscripts",
+    "minimum-viable-records",
+    "systems-transformation",
+    "transcribed-manuscripts",
+    "Zines",
+)
+
+# Language folders where the ids do not follow the rule yet and need
+# cataloguing work before the check can be turned on for them.
+UNCHECKED_LANGUAGE_FOLDERS = (
+    "Spanish",
+    "Indic",
+    "Greek",
+)
+
+
 def check_manuscript_id(relpath, root):
     # We expect to see manuscript IDs in the form: 'MS $Language $Number',
     # e.g. 'MS Hebrew B1' or 'MS Arabic 247'.
     #
     # This looks for the manuscript ID in <idno type="msID">, and warns
     # if it's not as expected.
-    #
-    # We skip some special cases which are not currently handled by
-    # this rule and need more work to fix.
-    # We also skip the "minimal-viable-records folder".  These are documents may be of any language,
-    # and should be subject to other checks, but the id is not predictable from this folder name
-    if relpath.partition("/")[0] in (
-        "Spanish",
-        "Indic",
-        "Greek",
-        "minimum-viable-records",
-    ):
+    folder = relpath.partition("/")[0]
+
+    if folder in NON_LANGUAGE_FOLDERS + UNCHECKED_LANGUAGE_FOLDERS:
+        return 0
+
+    # A file at the root of the repo has no folder to take a language from.
+    if folder == relpath:
         return 0
     actual_manuscript_id = root.find(".//idno[@type='msID']", namespaces=XMLNS).text
     language = os.path.basename(os.path.dirname(relpath))
