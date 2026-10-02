@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_4">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_79">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MS_4</title>
+        <title>MS_79</title>
         <title type="collection">Wellcome Collection</title>
         <respStmt xml:id="SM">
           <resp when="1973">Cataloguer</resp>
           <persName>S. A. J. Moorat</persName>
         </respStmt>
-        <respStmt xml:id="MH">
-          <resp when="2003-12-22">Calm encoder</resp>
-          <persName>Hiltoncm</persName>
+        <respStmt xml:id="JE">
+          <resp when="2014-06-06">Calm encoder</resp>
+          <persName>EdgeJ</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -27,7 +27,7 @@
         <distributor>
           <email>library@wellcome.org</email>
         </distributor>
-        <idno type="msID">MS.4</idno>
+        <idno type="msID">MS.79</idno>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
@@ -36,71 +36,93 @@
             <settlement>London</settlement>
             <institution>Wellcome Collection</institution>
             <repository>Wellcome Library</repository>
-            <idno type="shelfmark">MS.4</idno>
+            <idno type="shelfmark">MS.79</idno>
             <altIdentifier type="CalmRef">
-              <idno>MS4</idno>
+              <idno>MS79</idno>
             </altIdentifier>
             <altIdentifier type="accession">
-              <idno>23910</idno>
+              <idno>69327</idno>
             </altIdentifier>
             <altIdentifier type="previous">
               <idno/>
             </altIdentifier>
             <altIdentifier type="CalmID">
-              <idno>1c69da43-863d-4e6c-bfa9-0d9473a7d1b5</idno>
+              <idno>6774d2ae-ac99-4f04-92bf-79b01f70258c</idno>
             </altIdentifier>
             <altIdentifier type="Sierra">
-              <idno>b18432931</idno>
+              <idno>b20927988</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Quaestiones naturales. Fol. 1v Qua ratione herbe sine preiacenti/nascantur semine/... 3, line 28 FINIVNT CAPITVLA/ET SIC FACIVNT CAVSE RERVM. [A]DELARDVS Meministi nepos quod septennio iam transacto cum/te in gallicis studiis pene puerum iuxta laudisdunum ... 24v ... Quietis igitur refectionem/libens accipio ut ad tractum nouum noui VENIAMVS. This work was first printed at Louvain c.1475.</summary>
-            <textLang mainLang="" source="IANA"/>
-            <msItem n="1" xml:id="MS_4_1">
-              <author>Adelard of Bath</author>
-              <title type="original">Adelard of Bath</title>
-              <textLang mainLang="" source="IANA"/>
-              <filiation>For the great importance of Adelard in the history of scientific ideas, cf. Thorndike, [i]History of Magic and Experimental Science[/i], Vol. II, Ch. xxxvi, 1923; Haskins, 'Studies in the History of Mediaeval Science', Ch. II, 1924; and Sarton, 'Introduction to the History of Science', Vol. II, Part I, pp. 167-169.</filiation>
+            <summary>
+[p][b]Contents[/b][/p]
+[p]1. ff. 1r-8v Anonymous astrological-divinatory text[/p]
+
+[p]A fortune-telling game which matches 12 birds to zodiacal signs ff. 1r-7r, followed by instructions for playing the game ff. 7v-8v. On f. 1r are sketches of birds with names, and the qualities associated with each bird, and the zodiacal sign. One of the birds is a bat, classified as a bird in medieval encyclopedias[/p]
+
+[p]Incipit f. 1v: 'Viues competenter nec queras amplius...'[/p]
+
+[p]Explicit: '...deinde divide per 30 partes equales et quod remanebit erit numerus expartem'.[/p]
+</summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_79_1">
+              <author/>
+              <title type="original">Astrological-divinatory text, consisting of a fortune-telling game which matches birds to zodiacal signs</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation>Probably written in France.</filiation>
+              <filiation/>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="vellum">
-              <extent>25 ll. (last bl.). 8vo.
-                <dimensions unit="cm">
-                  <dim type="width">10.5cm</dim>
-                  <dim type="length">19cm</dim>
-                </dimensions>
-              </extent>
-                <collation>
-                  <signatures>Signature of Nicolaus Anziani 1889 on the recto of the first leaf.</signatures>
-                </collation>
-              <condition>
-                <p>Wormed and defective. The first two leaves are wanting, but have been supplied by two leaves written in a late 15th cent.</p>
-              </condition>
+                <extent>8 ff. 4to. 231/2 x 16 cm.
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width"/>
+                    <dim type="length"/>
+                  </dimensions>
+                  <dimensions type="written" unit="cm">
+                    <dim type="width"/>
+                    <dim type="length"/>
+                  </dimensions>
+                </extent>
+                <foliation/>
+                <collation/>
+                <condition>
+                </condition>
+                <support>
+                  <watermark/>
+                </support>
               </supportDesc>
               <layoutDesc>
-                <layout writtenLines="36">
-                  36-40 lines to a page.
+                <layout writtenLines="">
+                  <note/>
                 </layout>
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote script="humanistica">Humanistic hand. Written in a small upright gothic script.</handNote>
+              <handNote script="major">Written in a neat French gothic script.</handNote>
             </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication">Capitals picked out in red.</decoNote>
+            </decoDesc>
             <additions/>
             <bindingDesc>
               <binding>
-                <p>Rough calf binding, wormed and defective. Margins slightly cropped in binding.</p>
+                <p>Calf binding. 18th century.</p>
               </binding>
             </bindingDesc>
           </physDesc>
           <history>
             <origin>
-              <origDate>Late 13th Century</origDate>
+              <origDate>Middle 15th century</origDate>
             </origin>
             <provenance/>
-            <acquisition>Purchased 1910.</acquisition>
+            <acquisition>Purchased 1936.</acquisition>
+            <acquisition type="accrual"/>
           </history>
           <additional>
             <adminInfo>
@@ -115,17 +137,26 @@
                   </bibl>
                 </source>
               </recordHist>
-              <availability status="free">
+              <availability status="">
                 <p/>
+              </availability>
+              <availability>
+                <licence/>
               </availability>
               <custodialHist>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
-                <custEvent type="digitised">Digitised: </custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
               </custodialHist>
             </adminInfo>
+            <surrogates/>
+            <surrogates/>
             <listBibl>
-              <bibl/>
+              <head>Publications</head>
+              <bibl>
+                [p]Arnold, Ken; Porter, Roy and Wilkinson, Lise.  [i]Animal Doctor: Birds and Beasts in Medical History[/i]  
+                (London: Wellcome Trust, 1994), p. 56.[/p]
+              </bibl>
             </listBibl>
           </additional>
         </msDesc>
@@ -151,7 +182,12 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>Science</p>
+                <p>Astrology</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Fortune-telling</p>
               </term>
             </item>
           </list>
