@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"type="application/xml"schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_65">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_64">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS_65</title>
+                <title>MS_64</title>
                 <title type="collection">Wellcome Collection</title>
                 <respStmt xml:id="SM">
                     <resp when="1973">Cataloguer</resp>
@@ -27,7 +27,7 @@
                 <distributor>
                     <email>library@wellcome.org</email>
                 </distributor>
-                <idno type="msID">MS.65</idno>
+                <idno type="msID">MS.64</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -36,27 +36,27 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS.65</idno>
+                        <idno type="shelfmark">MS.64</idno>
                         <altIdentifier type="CalmRef">
-                            <idno>MS65</idno>
+                            <idno>MS64</idno>
                         </altIdentifier>
                         <altIdentifier type="accession">
-                            <idno>64784</idno>
+                            <idno>24656</idno>
                         </altIdentifier>
                         <altIdentifier type="previous">
                             <idno/>
                         </altIdentifier>
                         <altIdentifier type="CalmID">
-                            <idno>c0365fc7-29aa-4b1c-ab55-4269b5d22d50</idno>
+                            <idno>75affc51-80a8-4034-990a-1f03edb6c074</idno>
                         </altIdentifier>
                         <altIdentifier type="Sierra">
-                            <idno>b19535946</idno>
+                            <idno>b18722179</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary>Quaestiones in libros Aristotelis de generatione et corruptione seu de ortu et interitu. Quaestiones in Metaphysicam. Quaestiones in libros de anima. A student's notes of lectures. On the first leaf 'Sum Petri de Dominis', who is presumably the writer.</summary>
+                        <summary>Notes of lectures on the 'Physica', 'De anima', and 'Metaphysica'. These physica. Illustrated by four pen-drawn astronomicl figures. Pp. 1-377 Lectures on 'Physica'. Pp. 377-644 Lectures on 'De anima'. 61 pp. Lectures on 'Metaphysica'. 22 pp. These physicae. A student's notes of lectures, probably at a German University or College.</summary>
                         <textLang mainLang="la" source="IANA">Latin</textLang>
-                        <msItem n="1" xml:id="MS_65_1">
+                        <msItem n="1" xml:id="MS_64_1">
                             <author/>
                             <title type="original">Aristoteles</title>
                             <title type="standard"></title>
@@ -67,22 +67,20 @@
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
-                            <supportDesc material="paper">1 volume
-                                <extent>188 ll. 8vo.
+                            <supportDesc material="paper">
+                                <extent>644 pp. + 61 pp. + 22 pp. (last 3 pp. bl.). 4to.
                                     <dimensions type="leaf" unit="cm">
-                                        <dim type="width">12.5cm</dim>
-                                        <dim type="length">18.5cm</dim>
+                                        <dim type="width">16.5cm</dim>
+                                        <dim type="length">19.5cm</dim>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
-                                        <dim type="width"/>
-                                        <dim type="length"/>
+                                        <dim type="width"></dim>
+                                        <dim type="length"></dim>
                                     </dimensions>
                                 </extent>
-                                <foliation/>
-                                <collation/>
-                                <condition>
-                                    <p>Stained throughout.</p>
-                                </condition>
+                                <foliation></foliation>
+                                <collation></collation>
+                                <condition></condition>
                                 <support>
                                     <watermark/>
                                 </support>
@@ -103,7 +101,7 @@
                         <additions/>
                         <bindingDesc>
                             <binding>
-                                <p>Original limp vellum binding.</p>
+                                <p>Original vellum binding.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
@@ -111,8 +109,8 @@
                         <origin>
                             <origDate>Mid 17th Century</origDate>
                         </origin>
-                        <provenance/>
-                        <acquisition>Purchased 1929.</acquisition>
+                        <provenance></provenance>
+                        <acquisition>Purchased 1910.</acquisition>
                         <acquisition type="accrual"></acquisition>
                     </history>
                     <additional>
@@ -199,7 +197,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-            <change when="2026-10-05" who="Mitch Hubner">Manual edits following automated Calm-TEI transformation</change>
+            <change when="2026-10-02" who="Mitch Hubner">Manual edits following automated Calm-TEI transformation</change>
         </revisionDesc>
     </teiHeader>
     <text>
