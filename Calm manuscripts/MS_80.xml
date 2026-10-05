@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_79">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_80">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MS_79</title>
+        <title>MS_80</title>
         <title type="collection">Wellcome Collection</title>
         <respStmt xml:id="SM">
           <resp when="1973">Cataloguer</resp>
           <persName>S. A. J. Moorat</persName>
         </respStmt>
-        <respStmt xml:id="JE">
-          <resp when="2014-06-06">Calm encoder</resp>
-          <persName>EdgeJ</persName>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -27,7 +27,7 @@
         <distributor>
           <email>library@wellcome.org</email>
         </distributor>
-        <idno type="msID">MS.79</idno>
+        <idno type="msID">MS.80</idno>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
@@ -36,51 +36,42 @@
             <settlement>London</settlement>
             <institution>Wellcome Collection</institution>
             <repository>Wellcome Library</repository>
-            <idno type="shelfmark">MS.79</idno>
+            <idno type="shelfmark">MS.80</idno>
             <altIdentifier type="CalmRef">
-              <idno>MS79</idno>
+              <idno>MS80</idno>
             </altIdentifier>
             <altIdentifier type="accession">
-              <idno>69327</idno>
+              <idno>69311</idno>
             </altIdentifier>
             <altIdentifier type="previous">
               <idno/>
             </altIdentifier>
             <altIdentifier type="CalmID">
-              <idno>6774d2ae-ac99-4f04-92bf-79b01f70258c</idno>
+              <idno>40467f9c-fcfd-4cce-8b4c-df2e61efe62e</idno>
             </altIdentifier>
             <altIdentifier type="Sierra">
-              <idno>b20927988</idno>
+              <idno>b18369893</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>
-[p][b]Contents[/b][/p]
-[p]1. ff. 1r-8v Anonymous astrological-divinatory text[/p]
-
-[p]A fortune-telling game which matches 12 birds to zodiacal signs ff. 1r-7r, followed by instructions for playing the game ff. 7v-8v. On f. 1r are sketches of birds with names, and the qualities associated with each bird, and the zodiacal sign. One of the birds is a bat, classified as a bird in medieval encyclopedias[/p]
-
-[p]Incipit f. 1v: 'Viues competenter nec queras amplius...'[/p]
-
-[p]Explicit: '...deinde divide per 30 partes equales et quod remanebit erit numerus expartem'.[/p]
-</summary>
-            <textLang mainLang="la" source="IANA">Latin</textLang>
-            <msItem n="1" xml:id="MS_79_1">
+            <summary>General considerations on the art of medicine, followed by short notices of particular diseases and their treatment: in Italian. Perhaps a student's notes on the general principles of medicine.</summary>
+            <textLang mainLang="" source="IANA">Italian</textLang>
+            <msItem n="1" xml:id="MS_80_1">
               <author/>
-              <title type="original">Astrological-divinatory text, consisting of a fortune-telling game which matches birds to zodiacal signs</title>
+              <title type="original">Arte medica</title>
               <title type="standard"/>
-              <textLang mainLang="la" source="IANA">Latin</textLang>
-              <filiation>Probably written in France.</filiation>
+              <textLang mainLang="it" source="IANA">Italian</textLang>
+              <filiation/>
               <filiation/>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="vellum">
-                <extent>8 ff. 4to.
+              <supportDesc material="paper">
+                <extent>475 pp.+6[10] ll. (first bl.). 8vo.
                   <dimensions type="leaf" unit="cm">
-                    <dim type="width">16 cm</dim>
-                    <dim type="length">23.5 cm</dim>
+                    <dim type="width">10 cm</dim>
+                    <dim type="length">15 cm</dim>
                   </dimensions>
                   <dimensions type="written" unit="cm">
                     <dim type="width"/>
@@ -90,6 +81,7 @@
                 <foliation/>
                 <collation/>
                 <condition>
+                  The second leaf of the Index, and all after the beginning of letter S. is wanting.
                 </condition>
                 <support>
                   <watermark/>
@@ -102,23 +94,22 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote script="major">Written in a neat French gothic script.</handNote>
+              <handNote script=""/>
             </handDesc>
             <decoDesc>
               <decoNote type="marginal"/>
               <decoNote type="illustration"/>
-              <decoNote type="rubrication">Capitals picked out in red.</decoNote>
             </decoDesc>
             <additions/>
             <bindingDesc>
               <binding>
-                <p>Calf binding. 18th century.</p>
+                <p>Original vellum covers from part of a legal document in Latin dated 1505.</p>
               </binding>
             </bindingDesc>
           </physDesc>
           <history>
             <origin>
-              <origDate>Middle 15th century</origDate>
+              <origDate>Middle 17th century</origDate>
             </origin>
             <provenance/>
             <acquisition>Purchased 1936.</acquisition>
@@ -147,17 +138,16 @@
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
                 <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
                 <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: Yes</custEvent>
+                <custEvent type="digitised">Digitised: </custEvent>
               </custodialHist>
             </adminInfo>
             <surrogates/>
             <surrogates/>
             <listBibl>
-              <head>Publications</head>
-              <bibl>
-                [p]Arnold, Ken; Porter, Roy and Wilkinson, Lise.  [i]Animal Doctor: Birds and Beasts in Medical History[/i]  
-                (London: Wellcome Trust, 1994), p. 56.[/p]
-              </bibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
             </listBibl>
           </additional>
         </msDesc>
@@ -183,12 +173,12 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>Astrology</p>
+                <p>Therapeutics</p>
               </term>
             </item>
             <item facs="">
               <term ref="subject_">
-                <p>Fortune-telling</p>
+                <p>Pathology</p>
               </term>
             </item>
           </list>
@@ -204,7 +194,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="2026-09-26" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-10-05" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>

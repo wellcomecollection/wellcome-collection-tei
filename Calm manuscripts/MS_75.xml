@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_79">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_75">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MS_79</title>
+        <title>MS_75</title>
         <title type="collection">Wellcome Collection</title>
         <respStmt xml:id="SM">
           <resp when="1973">Cataloguer</resp>
           <persName>S. A. J. Moorat</persName>
         </respStmt>
-        <respStmt xml:id="JE">
-          <resp when="2014-06-06">Calm encoder</resp>
-          <persName>EdgeJ</persName>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -27,7 +27,7 @@
         <distributor>
           <email>library@wellcome.org</email>
         </distributor>
-        <idno type="msID">MS.79</idno>
+        <idno type="msID">MS.75</idno>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
@@ -36,93 +36,67 @@
             <settlement>London</settlement>
             <institution>Wellcome Collection</institution>
             <repository>Wellcome Library</repository>
-            <idno type="shelfmark">MS.79</idno>
+            <idno type="shelfmark">MS.75</idno>
             <altIdentifier type="CalmRef">
-              <idno>MS79</idno>
+              <idno>MS75</idno>
             </altIdentifier>
             <altIdentifier type="accession">
-              <idno>69327</idno>
+              <idno>47970</idno>
             </altIdentifier>
             <altIdentifier type="previous">
               <idno/>
             </altIdentifier>
             <altIdentifier type="CalmID">
-              <idno>6774d2ae-ac99-4f04-92bf-79b01f70258c</idno>
+              <idno>86b1c1be-4fea-415e-b827-fead9e97e5f3</idno>
             </altIdentifier>
             <altIdentifier type="Sierra">
-              <idno>b20927988</idno>
+              <idno>b19559690</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>
-[p][b]Contents[/b][/p]
-[p]1. ff. 1r-8v Anonymous astrological-divinatory text[/p]
-
-[p]A fortune-telling game which matches 12 birds to zodiacal signs ff. 1r-7r, followed by instructions for playing the game ff. 7v-8v. On f. 1r are sketches of birds with names, and the qualities associated with each bird, and the zodiacal sign. One of the birds is a bat, classified as a bird in medieval encyclopedias[/p]
-
-[p]Incipit f. 1v: 'Viues competenter nec queras amplius...'[/p]
-
-[p]Explicit: '...deinde divide per 30 partes equales et quod remanebit erit numerus expartem'.[/p]
-</summary>
+            <summary><p>Written in a large gothic hand, 22 lines to a page. Initials and paragraphs marks in alternate red and blue, headings in red. Very large ornamental initial letter P in red and blue on first leaf and a smaller one (Q) on leaf 34v.</p>
+<p>1. ff.1r-34r [i]Regimen Sanitatis,[/i] Arnoldus De Villanova</p>
+<p>f.1r (red) Innomine domini amen Incipit regimen sanitatis ad in /clictum [sic] dominum regem aragonie, ab ordinatione huius libri/Magistro arnaldo de uilla noua directum. de man / sione aeris et congruitate eius. </p>
+<p>  Rima pars uel conscideracio/sanitatis... f.34r line 10 ... et anno [sic] suauiter quan/tum poterit intromittatur. Et de hiis dicta sufficiant//deo gracias amen atque beate marie.// (red) Explicit breuis tractatus de regimine/sanitatis editus a magistro arnaldo de uil/la noua chatelano cuius anima requiescat in/pace. amen. </p>  
+<p>2. ff.34v-39r [i]Regimen Sanitatis,[/i] Arnoldus De Villanova</p>
+<p>f.34v (red) Incipit libellus regiminis sanitatis [sic] nobilium/Et eorum etiam Qui populariter seu uul/gariter se conregunt. edictus a magistro/aranldo de uilla nova cathalano./[Q]uia me rogastis ut uobis libe/llum conseruationis sanitatis scri/berem...f.39r...et mulitis in/firmitatibus elongetur, volente deo omnipotente/qui site per omnia secula seculorum benedictus. AMEN.//(red) Explicit.</p>
+            </summary>
             <textLang mainLang="la" source="IANA">Latin</textLang>
-            <msItem n="1" xml:id="MS_79_1">
-              <author/>
-              <title type="original">Astrological-divinatory text, consisting of a fortune-telling game which matches birds to zodiacal signs</title>
-              <title type="standard"/>
+            <msItem n="1" xml:id="MS_75_1">
+              <author>Arnaldus, de Villanova, d.1311</author>
+              <title type="original">Arnoldus De Villanova, d.1311</title>
               <textLang mainLang="la" source="IANA">Latin</textLang>
-              <filiation>Probably written in France.</filiation>
-              <filiation/>
+              <filiation>This work was first printed in 1474.</filiation>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="vellum">
-                <extent>8 ff. 4to.
-                  <dimensions type="leaf" unit="cm">
-                    <dim type="width">16 cm</dim>
-                    <dim type="length">23.5 cm</dim>
-                  </dimensions>
-                  <dimensions type="written" unit="cm">
-                    <dim type="width"/>
-                    <dim type="length"/>
-                  </dimensions>
-                </extent>
-                <foliation/>
-                <collation/>
-                <condition>
-                </condition>
-                <support>
-                  <watermark/>
-                </support>
+              <extent>39 II. folio.
+                <dimensions unit="cm">
+                  <dim type="width">29cm</dim>
+                  <dim type="length">31cm</dim>
+                </dimensions>
+              </extent>
+              <collation/>
+              <condition>
+                <p></p>
+              </condition>
               </supportDesc>
-              <layoutDesc>
-                <layout writtenLines="">
-                  <note/>
-                </layout>
-              </layoutDesc>
             </objectDesc>
-            <handDesc>
-              <handNote script="major">Written in a neat French gothic script.</handNote>
-            </handDesc>
-            <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration"/>
-              <decoNote type="rubrication">Capitals picked out in red.</decoNote>
-            </decoDesc>
             <additions/>
             <bindingDesc>
               <binding>
-                <p>Calf binding. 18th century.</p>
+                <p>Modern vellum binding.</p>
               </binding>
             </bindingDesc>
           </physDesc>
           <history>
             <origin>
-              <origDate>Middle 15th century</origDate>
+              <origDate>Late 14th Century</origDate>
             </origin>
             <provenance/>
-            <acquisition>Purchased 1936.</acquisition>
-            <acquisition type="accrual"/>
+            <acquisition>Purchased at Hoepli Sale, Milan 3/5/1928, Lot 45.</acquisition>
           </history>
           <additional>
             <adminInfo>
@@ -138,26 +112,16 @@
                 </source>
               </recordHist>
               <availability status="free">
-                <p/>
-              </availability>
-              <availability>
-                <licence/>
+                <licence></licence>
               </availability>
               <custodialHist>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
-                <custEvent type="exhibition"/>
                 <custEvent type="digitised">Digitised: Yes</custEvent>
               </custodialHist>
             </adminInfo>
-            <surrogates/>
-            <surrogates/>
+            <surrogates></surrogates>
             <listBibl>
-              <head>Publications</head>
-              <bibl>
-                [p]Arnold, Ken; Porter, Roy and Wilkinson, Lise.  [i]Animal Doctor: Birds and Beasts in Medical History[/i]  
-                (London: Wellcome Trust, 1994), p. 56.[/p]
-              </bibl>
+              <bibl/>
             </listBibl>
           </additional>
         </msDesc>
@@ -183,12 +147,7 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>Astrology</p>
-              </term>
-            </item>
-            <item facs="">
-              <term ref="subject_">
-                <p>Fortune-telling</p>
+                <p>Hygiene</p>
               </term>
             </item>
           </list>
@@ -204,7 +163,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="2026-09-26" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-06-17" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
