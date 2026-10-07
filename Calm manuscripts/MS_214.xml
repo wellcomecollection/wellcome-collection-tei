@@ -3,11 +3,11 @@
             type="application/xml"
             schematypens="http://relaxng.org/ns/structure/1.0"
         ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_95">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_214">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MS_95</title>
+        <title>MS_214</title>
         <title type="collection">Wellcome Collection</title>
         <respStmt xml:id="SM">
           <resp when="1973">Cataloguer</resp>
@@ -30,7 +30,7 @@
         <distributor>
           <email>library@wellcome.org</email>
         </distributor>
-        <idno type="msID">MS.95</idno>
+        <idno type="msID">MS.214</idno>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
@@ -39,31 +39,32 @@
             <settlement>London</settlement>
             <institution>Wellcome Collection</institution>
             <repository>Wellcome Library</repository>
-            <idno type="shelfmark">MS.95</idno>
+            <idno type="shelfmark">MS.214</idno>
             <altIdentifier type="CalmRef">
-              <idno>MS95</idno>
+              <idno>MS214</idno>
             </altIdentifier>
             <altIdentifier type="accession">
-              <idno>59564</idno>
+              <idno>69489</idno>
             </altIdentifier>
             <altIdentifier type="previous">
               <idno/>
             </altIdentifier>
             <altIdentifier type="CalmID">
-              <idno>181be9a9-7d11-49af-a743-8dcbef5be3b9</idno>
+              <idno>ff9e6d4e-1e41-40d0-be70-a21346dd10d8</idno>
             </altIdentifier>
             <altIdentifier type="Sierra">
-              <idno>b18418508</idno>
+              <idno>b19293161</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Collection of medical receipts and notes mainly in German, but with some entries in Latin. The headings are in Latin. Marginal notes and additions by another slightly later hand. The date 1534 is found on fol. 158v.</summary>
-            <textLang mainLang="" source="IANA">German</textLang>
-            <msItem n="1" xml:id="MS_95_1">
-              <author/>
-              <title type="original">Arzneibuch</title>
+            <summary>Collection of medical receipts, mainly in Italian with a few in Latin. By several hands. The main text is in a somewhat difficult current script, with many contractions. Written on the outer cover is the name 'Andrea de Chornalba di brunes' and below the initials 'A.C.' The first leaf contains receipts concerning horses by the same hand, which is headed by a paragraph addressed to 'Amantissimo et charisimo quanto fratello'. On the verso of the penultimate leaf is an inscription by another hand: 'Jesus di 7 decembrio 1557 in Bergomo'. The paper bears a water-mark of a double-tailed mermaid which appears to be Briquet No. 13891 and is assigned to Rome 1531-35.</summary>
+            <textLang mainLang="" source="IANA">Italian</textLang>
+            <msItem n="1" xml:id="MS_214_1">
+              <author>Cornalba di Brunes, Andrea De</author>
+              <author>(&amp; others)</author>
+              <title type="original">Cornalba di Brunes, Andrea De (&amp; others)</title>
               <title type="standard"/>
-              <textLang mainLang="" source="IANA">German</textLang>
+              <textLang mainLang="" source="IANA">Italian</textLang>
               <textLang mainLang="" source="IANA">Latin</textLang>
               <filiation/>
               <filiation/>
@@ -71,7 +72,7 @@
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="">1 volume<extent>12 ll.+273 ff. folio. 301/2 x 20 cm. Original stamped calf binding over wooden boards, rubbed: spine damaged, both clasps wanting.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <supportDesc material="">1 volume<extent>36 ll. 8vo. 21 x 131/2 cm. Original vellum covers.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
               <layoutDesc>
                 <layout writtenLines="">
                   <note/>
@@ -89,16 +90,16 @@
             <additions/>
             <bindingDesc>
               <binding>
-                <p>12 ll.+273 ff. folio. 301/2 x 20 cm. Original stamped calf binding over wooden boards, rubbed: spine damaged, both clasps wanting.</p>
+                <p>36 ll. 8vo. 21 x 131/2 cm. Original vellum covers.</p>
               </binding>
             </bindingDesc>
           </physDesc>
           <history>
             <origin>
-              <origDate>c. 1535</origDate>
+              <origDate>c. 1540</origDate>
             </origin>
-            <provenance>On the third leaf is the signature of Christoph Wenceslaus Graf von Nostitz [1643-1712].</provenance>
-            <acquisition>Purchased 1933.</acquisition>
+            <provenance/>
+            <acquisition>Purchased 1936.</acquisition>
             <acquisition type="accrual"/>
           </history>
           <additional>
@@ -170,12 +171,17 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>Medicine, Traditional</p>
+                <p>[p]Formulas, recipes, etc.</p>
               </term>
             </item>
             <item facs="">
               <term ref="subject_">
-                <p>[p]Formulas, recipes, etc.</p>
+                <p>Veterinary Medicine</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Traditional</p>
               </term>
             </item>
           </list>
