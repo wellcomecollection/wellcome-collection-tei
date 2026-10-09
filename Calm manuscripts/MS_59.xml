@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_62">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_59">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS_62</title>
+                <title>MS_59</title>
                 <title type="collection">Wellcome Collection</title>
                 <respStmt xml:id="SM">
                     <resp when="1973">Cataloguer</resp>
@@ -27,7 +27,7 @@
                 <distributor>
                     <email>library@wellcome.org</email>
                 </distributor>
-                <idno type="msID">MS.62</idno>
+                <idno type="msID">MS.59</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -36,27 +36,27 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS.62</idno>
+                        <idno type="shelfmark">MS.59</idno>
                         <altIdentifier type="CalmRef">
-                            <idno>MS62</idno>
+                            <idno>MS59</idno>
                         </altIdentifier>
                         <altIdentifier type="accession">
-                            <idno>67964</idno>
+                            <idno>24737</idno>
                         </altIdentifier>
                         <altIdentifier type="previous">
                             <idno/>
                         </altIdentifier>
                         <altIdentifier type="CalmID">
-                            <idno>77f13241-0d48-41f5-b001-3f5828969a5d</idno>
+                            <idno>62161764-9949-49ca-8233-2ce880bbeafc</idno>
                         </altIdentifier>
                         <altIdentifier type="Sierra">
-                            <idno>b19077580</idno>
+                            <idno>b19156807</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary>Student's notes of lectures on 'Logica', 'Physica', 'De coelo et mundo', 'De generatione et corruptione', 'De meteoris', 'De anima', 'Metaphysica': in Latin. The date 1603 occurs in the chapter 'De meteoris'.</summary>
+                        <summary>Lecture notes on 'De coelo', 'De generatione et corruptione', 'Meteorologica', 'De anima' and 'Parva naturalia': with 'Quaestiones variae'. Contents: (1) In libros de coelo questiones. 'Finis ... Die 2, Martis. 1575.' (ff. 1-20.) (2) Librorum de generationis et corruptionis tractione explanatio. 'Finis ... die 28 Maii.' 1575. (ff. 21-90.) (3) De rebus metereologicis [sic] tractatus. With 2 'Tabellae'. (ff. 91-112.) (4) Librorum de anima explicationes. [Finis] 'die 9 Septembris.' 1575. (ff. 113-186.) (5) Eorum quae Parva naturalia appeallantur brevis explicatio. 'Finem imposuimus die 19 mensis Septembris.' 1575. (ff. 187-199.) (6) Quaestiones variae. These notes seem to be in the same hand as that of the writer of the notes of lectures on Hippocrates' 'Aphorisms' by Bernardino Trivisano at Padua in 1579-1580 (MS. No. 507), and of the fragments 'DE sanguinis missione', etc. (MS. No. 508). Produced in [Padua?].</summary>
                         <textLang mainLang="la" source="IANA">Latin</textLang>
-                        <msItem n="1" xml:id="MS_62_1">
+                        <msItem n="1" xml:id="MS_59_1">
                             <author/>
                             <title type="original">Aristoteles</title>
                             <title type="standard"/>
@@ -68,19 +68,21 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="paper">
-                                <extent>168 ll.4to.
+                                <extent>3 bl. ll. + 233 ff. 4to.
                                     <dimensions type="leaf" unit="cm">
-                                        <dim type="width">18.5cm</dim>
-                                        <dim type="length">13cm</dim>
+                                        <dim type="width">21 cm</dim>
+                                        <dim type="length">16 cm</dim>
                                     </dimensions>
                                     <dimensions type="written" unit="cm">
                                         <dim type="width"/>
                                         <dim type="length"/>
                                     </dimensions>
                                 </extent>
-                                <foliation>Six leaves cut out after the 'De meteoris': margins slightly cropped.</foliation>
+                                <foliation></foliation>
                                 <collation/>
                                 <condition>
+                                    <p>The last leaf is damaged</p>
+                                    <p>Some leaves are wanting at the end.</p>
                                 </condition>
                                 <support>
                                     <watermark/>
@@ -93,26 +95,25 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote scribe="sole"/>
                             <handNote script=""/>
                         </handDesc>
                         <decoDesc>
                             <decoNote type="marginal"/>
-                            <decoNote type="illustration">The 'Logica' is illustrated by two pen-drawn 'schemata'.</decoNote>
+                            <decoNote type="illustration"/>
                         </decoDesc>
                         <additions/>
                         <bindingDesc>
                             <binding>
-                                <p>18th cent. vellum binding.</p>
+                                <p>Unbound.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate>Early 17th Century</origDate>
+                            <origDate>1575</origDate>
                         </origin>
-                        <provenance>The first leaf contains a pen-drawn coat of arms: below is a motto 'Sum Sidus, Sidusque fui, Sidusque manebo' [Stella Family of Genoa?].</provenance>
-                        <acquisition>Purchased 1935.</acquisition>
+                        <provenance/>
+                        <acquisition>Purchased 1910.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
@@ -134,7 +135,6 @@
                                 <licence/>
                             </availability>
                             <custodialHist>
-                                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
                                 <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
                                 <custEvent type="exhibition"/>
@@ -148,17 +148,6 @@
                         </listBibl>
                         <listBibl>
                             <bibl/>
-                        </listBibl>
-                        <listBibl>
-                            <bibl>
-                                <title/>
-                                <author/>
-                                <date/>
-                                <placeName/>
-                                <publisher/>
-                                <abbr/>
-                                <note/>
-                            </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -190,16 +179,6 @@
                         <item facs="">
                             <term ref="subject_">
                                 <p>Philosophy</p>
-                            </term>
-                        </item>
-                        <item facs="">
-                            <term ref="subject_">
-                                <p>Psychology</p>
-                            </term>
-                        </item>
-                        <item facs="">
-                            <term ref="subject_">
-                                <p>Logic</p>
                             </term>
                         </item>
                     </list>
