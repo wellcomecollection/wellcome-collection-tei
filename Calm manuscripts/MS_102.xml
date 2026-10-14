@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_102">
   <teiHeader>
     <fileDesc>
@@ -93,7 +90,7 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scribe="sole">Written in a small and clear italic</handNote>
+              <handNote script="italic" scribe="sole">Written in a small and clear italic</handNote>
             </handDesc>
             <decoDesc>
               <decoNote type="rubrication">Text of the first page within decorated borders in gold and colours, with large ornamental initial P in blue and gold within borders of red, gold and black. Other initials in gold on coloured ground: headings in red, text between double red rules. Some of the Tables in red, blue and black, others in red and black.</decoNote>
@@ -112,7 +109,7 @@
             </origin>
             <provenance>Information provided by Dr. Karl Galle: It is has not yet been determined exactly when this manuscript was produced.  However, it may pre-date the printed version of the astronomical tables.  Partly this is suggested by the fact that the manuscript contains only the core tables and explanatory material without any of the additional material in the printed version.  However, there are also at least a couple of places where the manuscript includes correct versions of things that are incorrect in the printed edition, suggesting that it derives from an independent source rather than from simply being copied from the printed text.  For example, on fol. 14-r of the manuscript, the second row of numbers from the bottom includes a number that is incorrectly missing from the printed version of the tables. On the other hand, the manuscript and printed versions are clearly very closely related to each other because most (but not all) of the errata listed on the verso of the title-page in the printed edition are likewise incorrect in the manuscript version.  Possibly the manuscript version -- or another text that served as the source for both this illuminated manuscript and for the printed edition -- was prepared first, and then the printer or someone else suggested that additional explanatory texts should be added at the beginning in order to improve its marketability to a larger audience?  At any rate, the reason that numerical figures in the tables appear to date from 1531 rather than 1536 is that they are partially based on material that Schöner prepared previously for an [i]Ephemeris[/i] that he published in 1532, also with Johannes Petreius.</provenance>
             <provenance>Possible previous author of this manuscript and its creation and be seen on vellum fly-leaf at the beginning is an inscription: 'E bibliotheca D. Jo. Ottonis Thiess Izehoae 1801 No. ("688" struck through) 1216'. (J. O. Thiess, German theologian [1762-1810]).</provenance>
-            <provenance>[p]The front page of the Wellcome manuscript is not only beautifully painted but includes a shield at the bottom of the page, with the word "LIBERTAS" written across it and surrounded by a chain for the Order of the Golden Fleece (see figure 1, attached).  The coat-of-arms is not yet identified.  It does not appear to match any of the insignia for the major patrician families of Nuremberg, who would be logical recipients of such a manuscript from Schöner and illustrations of whose arms are preserved among other places in an interesting manuscript history of these families now in the British Library.  Moreover, a closer examination of the Wellcome manuscript reveals that the current arms and illustrations on the title-page are not original.  The facing page shows remnants of paint from the original illustrations (figure 2), which occupied the same spaces on the page but were slightly different in design.  More importantly, the original coat-of-arms was circular (figures 3 and 4) but has now been completely painted over with the new shield.  For this reason, it seems unlikely that it will be possible to identify the original owner or recipient of this manuscript unless other independent information turns up.</provenance>
+            <provenance>The front page of the Wellcome manuscript is not only beautifully painted but includes a shield at the bottom of the page, with the word "LIBERTAS" written across it and surrounded by a chain for the Order of the Golden Fleece (see figure 1, attached).  The coat-of-arms is not yet identified.  It does not appear to match any of the insignia for the major patrician families of Nuremberg, who would be logical recipients of such a manuscript from Schöner and illustrations of whose arms are preserved among other places in an interesting manuscript history of these families now in the British Library.  Moreover, a closer examination of the Wellcome manuscript reveals that the current arms and illustrations on the title-page are not original.  The facing page shows remnants of paint from the original illustrations (figure 2), which occupied the same spaces on the page but were slightly different in design.  More importantly, the original coat-of-arms was circular (figures 3 and 4) but has now been completely painted over with the new shield.  For this reason, it seems unlikely that it will be possible to identify the original owner or recipient of this manuscript unless other independent information turns up.</provenance>
             <acquisition>Purchased 1936.</acquisition>
           </history>
           <additional>
@@ -132,7 +129,6 @@
                 <p/>
               </availability>
               <custodialHist>
-                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
                 <custEvent type="exhibition"/>

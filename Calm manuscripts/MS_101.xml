@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_101">
   <teiHeader>
     <fileDesc>
@@ -56,7 +54,8 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Trattato della sfera. (161 pp.) Avvisi astrologici. (p. 163-248.) Tractatus de judiciorum doctrina in erigendis figuris ac nativitatibus efformandis. (113 pp.)</summary>
+            <summary>Trattato della sfera. (161 pp.) Avvisi astrologici. (p. 163-248.) Tractatus de judiciorum doctrina in erigendis figuris ac nativitatibus efformandis. (113 pp.)
+              On the first page of the last work, the writer has added the statement 'L' Autore si protesta che gli infrascritti Aforismi sono totalmente vani, e solo li ha descritti accio maggioramente si conosca la loro vanita da chi ne vuol fare l'esperienza nelle nativita'.</summary>
             <textLang mainLang="la" source="IANA">Latin</textLang>
             <msItem n="1" xml:id="MS_101_1">
               <author/>
@@ -64,8 +63,6 @@
               <title type="standard"/>
               <textLang mainLang="la" source="IANA">Latin</textLang>
               <textLang otherLangs="it" source="IANA">Italian</textLang>
-              <note>On the first page of the last work, the writer has added the statement 'L' Autore si protesta che gli infrascritti Aforismi sono totalmente vani, e solo li ha descritti accio maggioramente si conosca la loro vanita da chi ne vuol fare l'esperienza nelle nativita'.</note>
-              <note>With copious marginal notes and additions in Latin and Italian, many relating to astrological medicine.</note>
             </msItem>
           </msContents>
           <physDesc>
@@ -82,7 +79,9 @@
                 <condition><p>Original binding damaged</p></condition>
               </supportDesc>
             </objectDesc>
-
+            <decoDesc>
+              <decoNote type="marginal">With copious marginal notes and additions in Latin and Italian, many relating to astrological medicine.</decoNote>
+            </decoDesc>
             <additions/>
             <bindingDesc>
               <binding>
