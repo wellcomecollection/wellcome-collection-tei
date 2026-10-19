@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_214">
   <teiHeader>
     <fileDesc>
@@ -47,7 +44,7 @@
               <idno>69489</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
               <idno>ff9e6d4e-1e41-40d0-be70-a21346dd10d8</idno>
@@ -57,40 +54,43 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Collection of medical receipts, mainly in Italian with a few in Latin. By several hands. The main text is in a somewhat difficult current script, with many contractions. Written on the outer cover is the name 'Andrea de Chornalba di brunes' and below the initials 'A.C.' The first leaf contains receipts concerning horses by the same hand, which is headed by a paragraph addressed to 'Amantissimo et charisimo quanto fratello'. On the verso of the penultimate leaf is an inscription by another hand: 'Jesus di 7 decembrio 1557 in Bergomo'. The paper bears a water-mark of a double-tailed mermaid which appears to be Briquet No. 13891 and is assigned to Rome 1531-35.</summary>
-            <textLang mainLang="" source="IANA">Italian</textLang>
+            <summary>Collection of medical receipts, mainly in Italian with a few in Latin. By several hands. The main text is in a somewhat difficult current script, with many contractions. 
+              Written on the outer cover is the name 'Andrea de Chornalba di brunes' and below the initials 'A.C.' 
+              The first leaf contains receipts concerning horses by the same hand, which is headed by a paragraph addressed to 'Amantissimo et charisimo quanto fratello'. 
+              On the verso of the penultimate leaf is an inscription by another hand: 'Jesus di 7 decembrio 1557 in Bergomo'. 
+              </summary>
+            <textLang mainLang="it" source="IANA">Italian</textLang>
             <msItem n="1" xml:id="MS_214_1">
               <author>Cornalba di Brunes, Andrea De</author>
-              <author>(&amp; others)</author>
-              <title type="original">Cornalba di Brunes, Andrea De (&amp; others)</title>
-              <title type="standard"/>
-              <textLang mainLang="" source="IANA">Italian</textLang>
-              <textLang mainLang="" source="IANA">Latin</textLang>
-              <filiation/>
-              <filiation/>
+              <author>Others)</author>
+              <title type="original">Cornalba di Brunes, Andrea De</title>
+              <textLang mainLang="it" source="IANA">Italian</textLang>
+              <textLang mainLang="la" source="IANA">Latin</textLang>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="">1 volume<extent>36 ll. 8vo. 21 x 131/2 cm. Original vellum covers.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
-              <layoutDesc>
-                <layout writtenLines="">
-                  <note/>
-                </layout>
-              </layoutDesc>
+              <supportDesc material="paper">
+                <support>
+                  <watermark>
+                    The paper bears a water-mark of a double-tailed mermaid which appears to be Briquet No. 13891 and is assigned to Rome 1531-35.
+                  </watermark>
+                </support>
+                <extent>36 ll. 8vo.
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width">13.5 cm</dim>
+                    <dim type="length">21 cm</dim>
+                  </dimensions>
+                </extent>
+              </supportDesc>
             </objectDesc>
             <handDesc>
-              <handNote scribe="sole"/>
-              <handNote script=""/>
+              <handNote scribe="various">Written by several hands.</handNote>
             </handDesc>
-            <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration"/>
-            </decoDesc>
             <additions/>
             <bindingDesc>
               <binding>
-                <p>36 ll. 8vo. 21 x 131/2 cm. Original vellum covers.</p>
+                <p>Original vellum covers.</p>
               </binding>
             </bindingDesc>
           </physDesc>
@@ -98,9 +98,8 @@
             <origin>
               <origDate>c. 1540</origDate>
             </origin>
-            <provenance/>
+            <provenance></provenance>
             <acquisition>Purchased 1936.</acquisition>
-            <acquisition type="accrual"/>
           </history>
           <additional>
             <adminInfo>
@@ -115,37 +114,17 @@
                   </bibl>
                 </source>
               </recordHist>
-              <availability status="">
-                <p/>
-              </availability>
-              <availability>
-                <licence/>
+              <availability status="free">
+                <p></p>
+                <licence></licence>
               </availability>
               <custodialHist>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: </custEvent>
               </custodialHist>
             </adminInfo>
-            <surrogates/>
-            <surrogates/>
             <listBibl>
               <bibl/>
-            </listBibl>
-            <listBibl>
-              <bibl/>
-            </listBibl>
-            <listBibl>
-              <bibl>
-                <title/>
-                <author/>
-                <date/>
-                <placeName/>
-                <publisher/>
-                <abbr/>
-                <note/>
-              </bibl>
             </listBibl>
           </additional>
         </msDesc>
@@ -171,7 +150,7 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>[p]Formulas, recipes, etc.</p>
+                <p>Formulas, recipes, etc.</p>
               </term>
             </item>
             <item facs="">
@@ -189,7 +168,7 @@
         <keywords scheme="#MeSH">
           <list>
             <item facs="">
-              <term ref="subject_"/>
+              <term ref="subject_"></term>
             </item>
           </list>
         </keywords>
@@ -197,12 +176,12 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-10-19" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>

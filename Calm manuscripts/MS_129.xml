@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_129">
   <teiHeader>
     <fileDesc>
@@ -47,7 +44,7 @@
               <idno>69455</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
               <idno>cd864028-88da-40c1-a0dc-6a9749bde171</idno>
@@ -57,39 +54,27 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>In quartam Fen [Avicennae] de feribus. 1563. Novemb. 9. (ff. 1-16.) [Anon.] De febribus. (ff. 17-120.) Corti (N.) Super Avicennae Fen quartam de febribus. 1564. (ff. 121-224.) Lectiones de febribus, 1564. (ff. 225-233.) The first and last items are by the same hand (of Bellacatus?), the other two by another contemporary hand. On the cover the title of the third work is given as `Nicolini de febribus'. Nicolinus' was a nick-name given to Nicolo Corti [ -1576] on account of his short stature. In this MS, the name of the Author of the first work is given as Bellicatus.  Produced in Padua?</summary>
-            <textLang mainLang="" source="IANA">Latin</textLang>
-            <msItem n="1" xml:id="MS_129_1">
-              <author>Bellacatus, Aloysius (1501-1575) </author>
-              <author>others</author>
-              <title type="original">Bellacatus, Aloysius (1501-1575) (&amp; others)</title>
-              <title type="standard"/>
-              <textLang mainLang="" source="IANA">Latin</textLang>
-              <filiation/>
-              <filiation/>
-            </msItem>
+            <summary>A composite manuscript with 4 seprate works.
+              The first and last items are by the same hand (of Bellacatus?), the other two by another contemporary hand. 
+              On the cover the title of the third work is given as `Nicolini de febribus'. Nicolinus' was a nick-name given to Nicolo Corti [ -1576] on account of his short stature. In this MS, the name of the Author of the first work is given as Bellicatus.  
+             </summary>
+            <textLang mainLang="la" source="IANA">Latin</textLang>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="">1 volume<extent>239 ff. (last bl.). 4to. 221/2 x 16cm. Modern rebinding in a cover from a 14th cent. Psalter on vellum, with large decorated initial. The upper past of fol. 226 has been cut off and wrongly bound in front of fol. 63.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
-              <layoutDesc>
-                <layout writtenLines="">
-                  <note/>
-                </layout>
-              </layoutDesc>
+              <supportDesc material="paper">
+                <extent>239 ff. (last bl.). 4to.
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width">16 cm</dim>
+                    <dim type="length">22.5 cm</dim>
+                  </dimensions>
+                </extent>
+                <condition>The upper past of fol. 226 has been cut off and wrongly bound in front of fol. 63.</condition>
+              </supportDesc>
             </objectDesc>
-            <handDesc>
-              <handNote scribe="sole"/>
-              <handNote script=""/>
-            </handDesc>
-            <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration"/>
-            </decoDesc>
-            <additions/>
             <bindingDesc>
               <binding>
-                <p>239 ff. (last bl.). 4to. 221/2 x 16cm. Modern rebinding in a cover from a 14th cent. Psalter on vellum, with large decorated initial. The upper past of fol. 226 has been cut off and wrongly bound in front of fol. 63.</p>
+                <p>Modern rebinding in a cover from a 14th cent. Psalter on vellum, with large decorated initial. The upper past of fol. 226 has been cut off and wrongly bound in front of fol. 63.</p>
               </binding>
             </bindingDesc>
           </physDesc>
@@ -97,9 +82,8 @@
             <origin>
               <origDate>1563, 1564</origDate>
             </origin>
-            <provenance/>
+            <provenance>Produced in Padua [?]</provenance>
             <acquisition>Purchased in 1936.</acquisition>
-            <acquisition type="accrual"/>
           </history>
           <additional>
             <adminInfo>
@@ -114,39 +98,129 @@
                   </bibl>
                 </source>
               </recordHist>
-              <availability status="">
-                <p/>
-              </availability>
-              <availability>
-                <licence/>
+              <availability status="free">
+                <p></p>
+                <licence></licence>
               </availability>
               <custodialHist>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: </custEvent>
               </custodialHist>
             </adminInfo>
-            <surrogates/>
-            <surrogates/>
             <listBibl>
               <bibl/>
-            </listBibl>
-            <listBibl>
-              <bibl/>
-            </listBibl>
-            <listBibl>
-              <bibl>
-                <title/>
-                <author/>
-                <date/>
-                <placeName/>
-                <publisher/>
-                <abbr/>
-                <note/>
-              </bibl>
             </listBibl>
           </additional>
+          
+          <msPart n="1" xml:id="MS_129_1">
+            <msIdentifier>
+            <idno>MS.129 Part 1</idno>
+          </msIdentifier>
+           <msContents>
+           <summary></summary>
+        <msItem xml:id="MS_129_1_1">
+         <author>Bellacatus, Aloysius (1501-1575)</author>
+         <title type="standard">In quartam Fen [Avicennae] de feribus</title>
+         <textLang mainLang="la" source="IANA">Latin</textLang>
+         </msItem>
+       </msContents>
+            
+       <physDesc>
+       <objectDesc>
+       <supportDesc>
+         <extent>ff. 1-16.</extent>
+      </supportDesc>
+      </objectDesc>
+      </physDesc>
+            <history>
+              <origin>
+                <origDate>1563</origDate>
+              </origin>
+            </history>
+      </msPart>
+          
+          <msPart n="2" xml:id="MS_129_2">
+            <msIdentifier>
+           <idno>MS.129 Part 2</idno>
+              
+          </msIdentifier>
+            
+         <msContents>
+          <summary></summary>
+          <msItem xml:id="MS_129_2_1">
+          <author></author>
+          <title type="standard">De febribus. </title>
+         <textLang mainLang="la" source="IANA">Latin</textLang>
+         </msItem>
+        </msContents>
+            
+         <physDesc>
+          <objectDesc>
+          <supportDesc>
+        <extent>(ff. 17-120.)</extent>
+        </supportDesc>
+        </objectDesc>
+       </physDesc>
+       </msPart>
+          
+          <msPart n="3" xml:id="MS_129_3">
+            <msIdentifier>
+              <idno>MS.129 Part 3</idno>
+              
+            </msIdentifier>
+            
+            <msContents>
+              <summary></summary>
+              <msItem xml:id="MS_129_3_1">
+                <author></author>
+                <title type="standard">Corti (N.) Super Avicennae Fen quartam de febribus.</title>
+                <textLang mainLang="la" source="IANA">Latin</textLang>
+              </msItem>
+            </msContents>
+            
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <extent>ff. 121-224.</extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+            <history>
+              <origin>
+                <origDate>1564</origDate>
+              </origin>
+            </history>
+          </msPart>
+          
+          <msPart n="4" xml:id="MS_129_4">
+            <msIdentifier>
+              <idno>MS.129 Part 4</idno>
+              
+            </msIdentifier>
+            
+            <msContents>
+              <summary></summary>
+              <msItem xml:id="MS_129_4_1">
+                <author>Bellacatus, Aloysius (1501-1575)</author>
+                <title type="standard">Lectiones de febribus</title>
+                <textLang mainLang="la" source="IANA">Latin</textLang>
+              </msItem>
+            </msContents>
+            
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <extent>ff. 225-233</extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+            <history>
+              <origin>
+                <origDate>1564</origDate>
+              </origin>
+            </history>
+          </msPart>
+          
         </msDesc>
       </sourceDesc>
     </fileDesc>
@@ -178,7 +252,7 @@
         <keywords scheme="#MeSH">
           <list>
             <item facs="">
-              <term ref="subject_"/>
+              <term ref="subject_"></term>
             </item>
           </list>
         </keywords>
@@ -186,12 +260,12 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-10-19" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>

@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_215">
   <teiHeader>
     <fileDesc>
@@ -47,7 +44,7 @@
               <idno>69109</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
               <idno>45aa19f8-b99b-40a5-b30c-9b37cd621c14</idno>
@@ -58,38 +55,31 @@
           </msIdentifier>
           <msContents>
             <summary>Secreti diversi: compiled from the 'Secreti' of Isabella Cortese, the 'Discorsi' of Mattioli, the 'Herbario' of Durante, and the 'Vinti giorni di agricoltura' by Agostino Gallo, and others. With additions from a MS. of 1745. The pagination is irregular. The Index is by the earlier compiler. Pp. 1- 16 Cortese (I.). Cavati de' Secreti della Signora Isabella Cortese. [First edition. 1563.] 16- 60 Miscellaneous receipts and secrets. 60-62 Gallo (A.). Vinti giorni di agricoltura. [First edition. 1569.] 62-121 Mattioli (P. A.). Cavati dal libro dei discorsi. [Commentary on Dioscorides: first edition. 1544.] 121-127 Durante (C.). Herbario. [First edition. 1585.] 128-132 Calestani (G.) Osservazioni. [First edition. 1564.] 133-145 Miscellaneous receipts 'di varii Autori'. 148-167 Various receipts by an 18th cent. hand. A heading on p. 150 reads 'Secreti cavati dai M.S. dal P. F. Gio[vanni] da S. Gio[vanni] Pred[icatore] Cap[puccino] nel suo libro composto nel 1745.</summary>
-            <textLang mainLang="" source="IANA">Italian</textLang>
+            <textLang mainLang="it" source="IANA">Italian</textLang>
             <msItem n="1" xml:id="MS_215_1">
               <author>Cortese, Isabella </author>
-              <author>(&amp; others)</author>
-              <title type="original">Cortese, Isabella (&amp; others)</title>
+              <author>Others)</author>
+              <title type="original">Cortese, Isabella</title>
               <title type="standard"/>
-              <textLang mainLang="" source="IANA">Italian</textLang>
+              <textLang mainLang="it" source="IANA">Italian</textLang>
               <filiation/>
               <filiation/>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="">1 volume<extent>167 pp. + 15 bl. ll. + 17 ll. 8vo. 131/2 x 101/2 cm. Original vellum covers from part of a Papal document dated 1420: both leather ties wanting.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
-              <layoutDesc>
-                <layout writtenLines="">
-                  <note/>
-                </layout>
-              </layoutDesc>
+              <supportDesc material="paper">
+                <extent>167 pp. + 15 bl. ll. + 17 ll. 8vo.
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width">10.5 cm</dim>
+                    <dim type="length">13.5 cm</dim>
+                  </dimensions>
+                </extent>
+              </supportDesc>
             </objectDesc>
-            <handDesc>
-              <handNote scribe="sole"/>
-              <handNote script=""/>
-            </handDesc>
-            <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration"/>
-            </decoDesc>
-            <additions/>
             <bindingDesc>
               <binding>
-                <p>167 pp. + 15 bl. ll. + 17 ll. 8vo. 131/2 x 101/2 cm. Original vellum covers from part of a Papal document dated 1420: both leather ties wanting.</p>
+                <p>Original vellum covers from part of a Papal document dated 1420: both leather ties wanting.</p>
               </binding>
             </bindingDesc>
           </physDesc>
@@ -97,9 +87,8 @@
             <origin>
               <origDate>c. 1600-1745</origDate>
             </origin>
-            <provenance/>
+            <provenance></provenance>
             <acquisition>Purchased 1935.</acquisition>
-            <acquisition type="accrual"/>
           </history>
           <additional>
             <adminInfo>
@@ -114,37 +103,18 @@
                   </bibl>
                 </source>
               </recordHist>
-              <availability status="">
-                <p/>
-              </availability>
-              <availability>
-                <licence/>
+              <availability status="free">
+                <p></p>
+                <licence></licence>
               </availability>
               <custodialHist>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: </custEvent>
               </custodialHist>
             </adminInfo>
             <surrogates>Microfilm reference: AMS/MF/233.</surrogates>
-            <surrogates/>
             <listBibl>
               <bibl>Published (in microfilm form) in [i]Women in Medicine: Remedy Books, 1533 - 1865[/i], ed. Sara Pennell (Woodbridge, Connecticut: Primary Source Microfilm, 2004).</bibl>
-            </listBibl>
-            <listBibl>
-              <bibl/>
-            </listBibl>
-            <listBibl>
-              <bibl>
-                <title/>
-                <author/>
-                <date/>
-                <placeName/>
-                <publisher/>
-                <abbr/>
-                <note/>
-              </bibl>
             </listBibl>
           </additional>
         </msDesc>
@@ -180,7 +150,7 @@
             </item>
             <item facs="">
               <term ref="subject_">
-                <p>[p]Formulas, recipes, etc.</p>
+                <p>Formulas, recipes, etc.</p>
               </term>
             </item>
             <item facs="">
@@ -193,7 +163,7 @@
         <keywords scheme="#MeSH">
           <list>
             <item facs="">
-              <term ref="subject_"/>
+              <term ref="subject_"></term>
             </item>
           </list>
         </keywords>
@@ -201,12 +171,12 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-10-19" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>

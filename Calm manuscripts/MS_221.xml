@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_221">
   <teiHeader>
     <fileDesc>
@@ -47,7 +44,7 @@
               <idno>69609</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
               <idno>7e62d780-58f0-4e9a-af2c-20edc4411f11</idno>
@@ -57,39 +54,39 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Diary from 1463 to 1504, continued by his son Antoine from 1521 to 1571. Included are many medical receipts, the whole written in langue d'oc. Followed by receipts for varnishes and dyes by an early 17th cent. hand: in French, etc. The diary begins on fol. 2: Ihesus Maria 1463 / Je esteue cristian de bourg en breyssan / suis venu en auignon á xv de nouembre / M cccc lxiii. The receipts begin on fol. 6 after an entry for 1502 which seems to be the date when the MS. was begun. Ff. 6-17 contain medical receipts; and on fol. 17 entries begin in a new hand, that of Antoine Cristian, who mentions himself on fol. 18v 'Je anthoene crestyan' and speaks of his marriage to his first wife Catheryne Tullye in 1522. 17-28 Diary from 1519 to 1542. 28v-30 Blank. Fol. 30v Entry for 1569. 31 Entry for 1571. Ff. 32-39 Receipts for dyes and varnishes in a small early 17th cent. hand. Fol. 40 Opiate de Salomon by the same hand. Ff. 41-43 'Panchimagone ou blanchiment'. By a later 17th cent. hand. Fol. 44 'Mèdecine pour mon fils ainè Bonioti' by a different 17th cent. hand.  Produced in Avignon. </summary>
-            <textLang mainLang="" source="IANA">French</textLang>
+            <summary>Diary from 1463 to 1504, continued by his son Antoine from 1521 to 1571. 
+              Included are many medical receipts, the whole written in langue d'oc. 
+              Followed by receipts for varnishes and dyes by an early 17th cent. hand: in French, etc. 
+              The diary begins on fol. 2: Ihesus Maria 1463 / Je esteue cristian de bourg en breyssan / suis venu en auignon á xv de nouembre / M cccc lxiii. 
+              The receipts begin on fol. 6 after an entry for 1502 which seems to be the date when the MS. was begun. 
+              Ff. 6-17 contain medical receipts; and on fol. 17 entries begin in a new hand, that of Antoine Cristian, who mentions himself on fol. 18v 'Je anthoene crestyan' and speaks of his marriage to his first wife Catheryne Tullye in 1522. 
+              17-28 Diary from 1519 to 1542. 28v-30 Blank. Fol. 30v Entry for 1569. 31 Entry for 1571. 
+              Ff. 32-39 Receipts for dyes and varnishes in a small early 17th cent. hand. Fol. 40 Opiate de Salomon by the same hand. Ff. 41-43 'Panchimagone ou blanchiment'. By a later 17th cent. hand. 
+              Fol. 44 'Mèdecine pour mon fils ainè Bonioti' by a different 17th cent. hand.  Produced in Avignon. </summary>
+            <textLang mainLang="fr" source="IANA">French</textLang>
             <msItem n="1" xml:id="MS_221_1">
               <author>Cristian, Etienne</author>
-              <author>(&amp; others)</author>
-              <title type="original">Cristian, Etienne (&amp; others)</title>
-              <title type="standard"/>
-              <textLang mainLang="" source="IANA">French</textLang>
-              <filiation/>
-              <filiation/>
+              <author>Others</author>
+              <title type="original">Cristian, Etienne</title>
+              <textLang mainLang="fr" source="IANA">French</textLang>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="">1 volume<extent>44 ll. (first bl.). 16mo. 13 x 10 cm. Original stamped calf binding with flap and tie, damaged. Five leaves have been cut out after fol. 31.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p>Poor</p><p/><p/></condition><support><watermark/></support></supportDesc>
-              <layoutDesc>
-                <layout writtenLines="">
-                  <note/>
-                </layout>
-              </layoutDesc>
+              <supportDesc material="">
+                <extent>44 ll. (first bl.). 16mo.
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width">10 cm</dim>
+                    <dim type="length">13 cm</dim>
+                  </dimensions>
+                </extent>
+                <condition><p>Poor. Binding is damaged.</p>
+                </condition>
+              </supportDesc>
             </objectDesc>
-            <handDesc>
-              <handNote scribe="sole"/>
-              <handNote script=""/>
-            </handDesc>
-            <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration"/>
-            </decoDesc>
-            <additions/>
             <bindingDesc>
               <binding>
-                <p>44 ll. (first bl.). 16mo. 13 x 10 cm. Original stamped calf binding with flap and tie, damaged. Five leaves have been cut out after fol. 31.</p>
+                <p>Original stamped calf binding with flap and tie, damaged. Five leaves have been cut out after fol. 31.</p>
               </binding>
             </bindingDesc>
           </physDesc>
@@ -97,9 +94,8 @@
             <origin>
               <origDate>15th century-17th century</origDate>
             </origin>
-            <provenance/>
+            <provenance></provenance>
             <acquisition>Purchased 1936.</acquisition>
-            <acquisition type="accrual"/>
           </history>
           <additional>
             <adminInfo>
@@ -114,37 +110,17 @@
                   </bibl>
                 </source>
               </recordHist>
-              <availability status="">
+              <availability status="restricted">
                 <p>This item needs to be accessed in our conservation studio. Email library@wellcomecollection.org to request an appointment.</p>
-              </availability>
-              <availability>
-                <licence/>
+                <licence></licence>
               </availability>
               <custodialHist>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
-                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: </custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
               </custodialHist>
             </adminInfo>
-            <surrogates/>
-            <surrogates/>
             <listBibl>
               <bibl>This MS. appears as No. 251 bis, in Clovis Brunel's 'Bibliographie des MSS. Littèraires en ancien Provençal', 1935.</bibl>
-            </listBibl>
-            <listBibl>
-              <bibl/>
-            </listBibl>
-            <listBibl>
-              <bibl>
-                <title/>
-                <author/>
-                <date/>
-                <placeName/>
-                <publisher/>
-                <abbr/>
-                <note/>
-              </bibl>
             </listBibl>
           </additional>
         </msDesc>
@@ -170,7 +146,7 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>[p]Formulas, recipes, etc.</p>
+                <p>Formulas, recipes, etc.</p>
               </term>
             </item>
             <item facs="">
@@ -185,7 +161,7 @@
             </item>
             <item facs="">
               <term ref="subject_">
-                <p>[p]Jewish literature</p>
+                <p>Jewish literature</p>
               </term>
             </item>
             <item facs="">
@@ -198,7 +174,7 @@
         <keywords scheme="#MeSH">
           <list>
             <item facs="">
-              <term ref="subject_"/>
+              <term ref="subject_"></term>
             </item>
           </list>
         </keywords>
@@ -206,12 +182,12 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-10-19" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>

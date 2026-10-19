@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_177">
   <teiHeader>
     <fileDesc>
@@ -57,39 +54,32 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Collection of prophecies relating to the Papacy and the Holy Roman Empire: in German. The first part contains a full-page symbolic water-colour drawing: in the second are three crude drawings of stars in red and black. Contents: (1) Prognosticon, aines hochgelarten und weitberhümten Astronomi, Auch Bedencken und Auslegung einer Prophecey Capistrani...Welliche er Anno 1460 über ain Cabalistische Figur so umb die selbe zeit gefunden worden, gemacht, und Anno 1548 in offenen Truckh aussgangen. Sambt ainem Prognostico Mathematico de Anno 1589 usque ad Annum 1600. (26 ll.) (2) Prognosticon auf das 1619 Jahr. (8 ll.) (3) Practica auf das gross Konfftige und wunderbare 1620 Jarr, die Politischen Weldthändl betreffendt...Incerto Authore. (13 ll.) (4) Magini (G. A.). Practica Prognosticalis in Annum 1631. Per D. Antonium Maginum Mathematices Professorem Bonnoniae in Italia. Ex originali Authoris vero Bonnoniae excusso in Germanicam Linguam translata et scripta. (7 ll.) (5) Brand (S.). Sebaldi Prandi Aydtgenossens und der Mathematischen Kunst Erfahrnen Prognostication Von Anno 1604. Bis auf das 1623 Jarr von vorstehunder veränderung des Geistlich-und Weltlichen Regiments. (12 ll. [last 4 bl.].) These Anti-papal pamphlets are all copied by the same hand, and originally seem to have formed part of a larger volume.</summary>
-            <textLang mainLang="" source="IANA">German</textLang>
+            <summary>Collection of prophecies relating to the Papacy and the Holy Roman Empire: in German. 
+              The first part contains a full-page symbolic water-colour drawing: in the second are three crude drawings of stars in red and black. 
+              Contents: (1) Prognosticon, aines hochgelarten und weitberhümten Astronomi, Auch Bedencken und Auslegung einer Prophecey Capistrani...Welliche er Anno 1460 über ain Cabalistische Figur so umb die selbe zeit gefunden worden, gemacht, und Anno 1548 in offenen Truckh aussgangen. Sambt ainem Prognostico Mathematico de Anno 1589 usque ad Annum 1600. (26 ll.) (2) Prognosticon auf das 1619 Jahr. (8 ll.) (3) Practica auf das gross Konfftige und wunderbare 1620 Jarr, die Politischen Weldthändl betreffendt...Incerto Authore. (13 ll.) (4) Magini (G. A.). Practica Prognosticalis in Annum 1631. Per D. Antonium Maginum Mathematices Professorem Bonnoniae in Italia. Ex originali Authoris vero Bonnoniae excusso in Germanicam Linguam translata et scripta. (7 ll.) (5) Brand (S.). Sebaldi Prandi Aydtgenossens und der Mathematischen Kunst Erfahrnen Prognostication Von Anno 1604. Bis auf das 1623 Jarr von vorstehunder veränderung des Geistlich-und Weltlichen Regiments. (12 ll. [last 4 bl.].) 
+              These Anti-papal pamphlets are all copied by the same hand, and originally seem to have formed part of a larger volume.</summary>
+            <textLang mainLang="de" source="IANA">German</textLang>
             <msItem n="1" xml:id="MS_177_1">
               <author>Capistrano, Giovanni De, Saint (1385-1456) </author>
-              <author> (&amp; others)</author>
-              <title type="original">Capistrano, Giovanni De, Saint (1385-1456) (&amp; others)</title>
-              <title type="standard"/>
-              <textLang mainLang="" source="IANA">German</textLang>
-              <filiation/>
-              <filiation/>
+              <author>Others</author>
+              <title type="original">Capistrano, Giovanni De, Saint (1385-1456)</title>
+              <textLang mainLang="de" source="IANA">German</textLang>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="">1 volume<extent>5 parts in 3. 4to. 20 x 151/2 cm. Unbound.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
-              <layoutDesc>
-                <layout writtenLines="">
-                  <note/>
-                </layout>
-              </layoutDesc>
+              <supportDesc material="paper">
+                <extent>5 parts in 3. 4to.
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width">15.5 cm</dim>
+                    <dim type="length">20 cm</dim>
+                  </dimensions>
+                </extent>
+              </supportDesc>
             </objectDesc>
-            <handDesc>
-              <handNote scribe="sole"/>
-              <handNote script=""/>
-            </handDesc>
-            <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration"/>
-            </decoDesc>
-            <additions/>
             <bindingDesc>
               <binding>
-                <p>5 parts in 3. 4to. 20 x 151/2 cm. Unbound.</p>
+                <p>Unbound.</p>
               </binding>
             </bindingDesc>
           </physDesc>
@@ -99,7 +89,6 @@
             </origin>
             <provenance/>
             <acquisition>Purchased 1932.</acquisition>
-            <acquisition type="accrual"/>
           </history>
           <additional>
             <adminInfo>
@@ -114,36 +103,17 @@
                   </bibl>
                 </source>
               </recordHist>
-              <availability status="">
-                <p/>
-              </availability>
-              <availability>
+              <availability status="free">
+                <p></p>
                 <licence/>
               </availability>
               <custodialHist>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: </custEvent>
               </custodialHist>
             </adminInfo>
-            <surrogates/>
-            <surrogates/>
-            <listBibl>
-              <bibl/>
-            </listBibl>
-            <listBibl>
-              <bibl/>
-            </listBibl>
             <listBibl>
               <bibl>
-                <title/>
-                <author/>
-                <date/>
-                <placeName/>
-                <publisher/>
-                <abbr/>
-                <note/>
               </bibl>
             </listBibl>
           </additional>
@@ -170,12 +140,12 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>[p]Papacy</p>
+                <p>Papacy</p>
               </term>
             </item>
             <item facs="">
               <term ref="subject_">
-                <p>[p]Prophecies</p>
+                <p>Prophecies</p>
               </term>
             </item>
             <item facs="">
@@ -188,7 +158,7 @@
         <keywords scheme="#MeSH">
           <list>
             <item facs="">
-              <term ref="subject_"/>
+              <term ref="subject_"></term>
             </item>
           </list>
         </keywords>
@@ -196,12 +166,12 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-10-19" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>

@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title/>
+            <title>MS_259</title>
             <title type="collection">Wellcome Collection</title>
             <respStmt xml:id="SM">
                <resp when="1973">Cataloguer</resp>
@@ -33,7 +33,7 @@
                <email>library@wellcome.org</email>
             </distributor>
             <idno type="msID">MS.259</idno>
-            <idno type="catalogue"/>
+            <idno type="catalogue"></idno>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -68,23 +68,10 @@
                      
                      <p>Alchemical text beginning 'Studio namque florenti' (72 11): Fol. l Incipit Liber Magni // Lapidis Philosophici // Eivsqve Compositio // Nis, Et Operati // Onis, Prolo // GVS. // M. A. // Studio namque florenti Philosophico quam / dam philosophiae partem secretam ... 72 ... et in iuuentute con / seruat. // Deo Gratias Amen. // Finis.</p>
                   </summary>
-                  <textLang mainLang="">Latin</textLang>
+                  <textLang mainLang="la" source="IANA">Latin</textLang>
                   <msItem n="1" xml:id="MS_259_1">
                      <author key="">Encherchz, Petrus Almerigus</author>
                      <title key="">Encherchz, Petrus Almerigus</title>
-                     <textLang mainLang=""/>
-                     <textLang otherLangs=""/>
-                     <incipit>
-                        <locus/>
-                     </incipit>
-                     <explicit>
-                        <locus/>
-                     </explicit>
-                     <colophon>
-                        <locus/>
-                     </colophon>
-                     <filiation/>
-                     <note/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -97,19 +84,11 @@
                               <dim type="length">19cm</dim>
                            </dimensions>
                         </extent>
-                        <foliation/>
-                        <collation>
-                           <formula/>
-                           <signatures/>
-                        </collation>
                         <condition>Slightly defective and mounted.</condition>
                      </supportDesc>
                   </objectDesc>
-                  <decoDesc>
-                     <decoNote/>
-                  </decoDesc>
                   <additions>
-                     <p/>
+                     <p></p>
                   </additions>
                   <bindingDesc>
                      <binding>
@@ -144,14 +123,15 @@
                         </source>
                      </recordHist>
                      <availability status="free">
-                        <p/>
+                        <p></p>
+                        <licence></licence>
                      </availability>
                      <custodialHist>
-                        <custEvent/>
+                        <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
                      </custodialHist>
                   </adminInfo>
                   <surrogates>
-                     <bibl type="microfilm"/>
+                     <bibl type="microfilm"></bibl>
                   </surrogates>
                   <listBibl>
                      <head/>
@@ -181,31 +161,50 @@
                <list>
                   <item facs="">
                      <term ref="subject_">
-                        <p>Alchemy Alchemy &lt;p&gt;Rosicrucians &lt;p&gt;Poetry</p>
+                        <p>Alchemy</p> Rosicrucians &lt;p&gt;Poetry
                      </term>
                   </item>
                </list>
             </keywords>
+               <keywords scheme="#LCSH">
+                  <list>
+                     <item facs="">
+                        <term ref="subject_">
+                           <p>Rosicrucians</p>
+                        </term>
+                     </item>
+                  </list>
+            </keywords>
+               
+               <keywords scheme="#LCSH">
+                  <list>
+                     <item facs="">
+                        <term ref="subject_">
+                           <p>Poetry</p>
+                        </term>
+                     </item>
+                  </list>
+               </keywords>
             <keywords scheme="#MeSH">
                <list>
                   <item facs="">
-                     <term ref="subject_"/>
+                     <term ref="subject_"></term>
                   </item>
                </list>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change>Sloyanv</change>
-         <note>09/07/2025</note>
+         <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+         <change when="2026-10-19" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <surface/>
+      <surface></surface>
    </facsimile>
    <text>
       <body>
-         <p/>
+         <p></p>
       </body>
    </text>
 </TEI>
