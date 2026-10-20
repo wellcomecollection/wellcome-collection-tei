@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+             <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_191">
@@ -140,7 +140,16 @@
                                     </bibl>
                                 </source>
                             </recordHist>
-                            <availability status="unknown"><p></p></availability> 
+
+                    <availability status="free">
+                        <p></p>
+                        <licence></licence>
+                     </availability>
+                            
+                        <custodialHist>
+                        <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                     </custodialHist>
+                            
                         </adminInfo>
                         
                     </additional>
