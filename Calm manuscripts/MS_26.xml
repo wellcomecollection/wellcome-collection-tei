@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_27">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_26">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MS_27</title>
+        <title>MS_26</title>
         <title type="collection">Wellcome Collection</title>
         <respStmt xml:id="SM">
           <resp when="1973">Cataloguer</resp>
@@ -27,7 +27,7 @@
         <distributor>
           <email>library@wellcome.org</email>
         </distributor>
-        <idno type="msID">MS.27</idno>
+        <idno type="msID">MS.26</idno>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
@@ -36,84 +36,62 @@
             <settlement>London</settlement>
             <institution>Wellcome Collection</institution>
             <repository>Wellcome Library</repository>
-            <idno type="shelfmark">MS.27</idno>
+            <idno type="shelfmark">MS.26</idno>
             <altIdentifier type="CalmRef">
-              <idno>MS27</idno>
+              <idno>MS26</idno>
             </altIdentifier>
             <altIdentifier type="accession">
-              <idno>68043</idno>
+              <idno>64441B</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
-              <idno>cc99636e-1b21-4a24-9817-76626619dfe3</idno>
+              <idno>346fe936-c6c1-46d5-903d-8b9ae1faa60c</idno>
             </altIdentifier>
             <altIdentifier type="Sierra">
-              <idno>b19037569</idno>
+              <idno>b18419677</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Collection of alchemical receipts: in Italian</summary>
-            <textLang mainLang="" source="IANA">Italian</textLang>
-            <msItem n="1" xml:id="MS_27_1">
-              <author/>
+            <summary>Fragment of a collection of alchemical receipts and processes. The receipts are numbered from [52] to 94, both of which entries are incomplete; the numeration of the receipts appears to be irregular.</summary>
+            <textLang mainLang="de" source="IANA">German</textLang>
+            <msItem n="1" xml:id="MS_26_1">
+              <author></author>
               <title type="original">Alchemy 16th cent.</title>
               <title type="standard"/>
-              <textLang mainLang="it" source="IANA">Italian</textLang>
-              <filiation/>
-              <filiation/>
+              <textLang mainLang="de" source="IANA">German</textLang>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="vellum">
-                <extent>49 ll. 8vo.
-                  <dimensions type="leaf" unit="cm">
-                    <dim type="width">10.5 cm</dim>
-                    <dim type="length">15.5 cm</dim>
-                  </dimensions>
-                  <dimensions type="written" unit="cm">
-                    <dim type="width"/>
-                    <dim type="length"/>
-                  </dimensions>
-                </extent>
-                <foliation/>
-                <collation/>
-                <condition>
-                </condition>
-                <support>
-                  <watermark/>
-                </support>
+              <supportDesc material="paper">
+                <extent>24 ll. 4to.
+                <dimensions type="leaf" unit="cm">
+                  <dim type="width">16 cm</dim>
+                  <dim type="length">21.5 cm</dim>
+                </dimensions>
+              </extent>
+                <foliation>Beginning and end wanting.</foliation>
+                <condition>Beginning and end wanting.
+                  </condition>
               </supportDesc>
-              <layoutDesc>
-                <layout writtenLines="">
-                  <note/>
-                </layout>
-              </layoutDesc>
             </objectDesc>
-            <handDesc>
-              <handNote scribe="multiple">Mainly written by two hands.</handNote>
-              <handNote script=""/>
-            </handDesc>
             <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration"/>
+              <decoNote type="illustration">Illustrated by crude marginal water-colour drawings of alchemical apparatus, etc.</decoNote>
             </decoDesc>
-            <additions/>
             <bindingDesc>
               <binding>
-                <p>Original stamped panelled calf gilt binding, roughly re-backed.</p>
+                <p>Unbound.</p>
               </binding>
             </bindingDesc>
           </physDesc>
           <history>
             <origin>
-              <origDate>Late 16th century</origDate>
+              <origDate>Middle 16th century</origDate>
             </origin>
-            <provenance>From the Julius Kohn Library.</provenance>
-            <acquisition>Purchased at Sotheby's 28/1/1935, Lot 1.</acquisition>
-            <acquisition type="accrual"/>
+            <provenance></provenance>
+            <acquisition>Purchased 1931.</acquisition>
           </history>
           <additional>
             <adminInfo>
@@ -129,37 +107,16 @@
                 </source>
               </recordHist>
               <availability status="free">
-                <p/>
-              </availability>
-              <availability>
-                <licence/>
+                <p></p>
+                <licence></licence>
               </availability>
               <custodialHist>
-                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, <i>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</i> (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
                 <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
-                <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: </custEvent>
               </custodialHist>
             </adminInfo>
-            <surrogates/>
-            <surrogates/>
             <listBibl>
               <bibl/>
-            </listBibl>
-            <listBibl>
-              <bibl/>
-            </listBibl>
-            <listBibl>
-              <bibl>
-                <title/>
-                <author/>
-                <date/>
-                <placeName/>
-                <publisher/>
-                <abbr/>
-                <note/>
-              </bibl>
             </listBibl>
           </additional>
         </msDesc>
@@ -198,7 +155,7 @@
         <keywords scheme="#MeSH">
           <list>
             <item facs="">
-              <term ref="subject_"/>
+              <term ref="subject_"></term>
             </item>
           </list>
         </keywords>
@@ -211,7 +168,7 @@
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>
