@@ -58,7 +58,7 @@
                      </note><note>Upon cataloguing, the original author was not apparent</note>
                   </summary>
                   
-                  <textLang mainLang="es">Spanish</textLang>
+                 <textLang mainLang="es" source="IANA">Spanish</textLang>
                   
                   <msItem n="1" xml:id="MS_Amer_6_1">
                      
@@ -66,8 +66,7 @@
                      
                      <title key="">Remedios</title>
                      
-                     <textLang otherLangs="en">English</textLang>         
-                     
+                           <textLang otherLangs="en" source="IANA">English</textLang>     
                   </msItem>
                </msContents>
                
@@ -86,11 +85,7 @@
                      </supportDesc>
                      
                  </objectDesc>
-              
-                  <additions>
-                     Formerly part of the Guerra Collection.  
-                  </additions>
-                  
+                               
                   <bindingDesc>
                      <binding><p>bound</p>
                       </binding>
@@ -105,6 +100,7 @@
                      </origPlace>
                      <origDate calendar="Gregorian ">c.1800</origDate>
                   </origin>
+                     <provenance>Formerly part of the Guerra Collection</provenance>
                 <acquisition>Purchased 1962.</acquisition>
                </history>
                <additional>
@@ -121,9 +117,15 @@
                            </bibl>
                         </source>
                      </recordHist>
-                     <availability status="unknown">
-                        <p/>
+                         
+                     <availability status="free">
+                        <p></p>
+                        <licence></licence>
                      </availability>
+                     
+                     <custodialHist>
+                        <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                     </custodialHist>
                   </adminInfo>
                   <listBibl>
                      <head/>
