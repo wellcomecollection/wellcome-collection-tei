@@ -57,7 +57,7 @@
                  <summary>Fragment from a receipt book, including remedies for urinary and genital complaints and directions for examining the urine and the pulse.
                     <note>Upon cataloguing, the original author was not apparent</note></summary>
                  
-                  <textLang mainLang="es">Spanish</textLang>
+            <textLang mainLang="es" source="IANA">Spanish</textLang>
                   
                   
                     <msItem n="1" xml:id="MS_Amer_57_1">
@@ -69,7 +69,7 @@
                      <title xml:lang="en" type="standard">Recipe book: fragment</title>
                      
                                  
-                  <textLang otherLangs="en">English</textLang> 
+              <textLang otherLangs="en" source="IANA">English</textLang>     
                                                  
                   </msItem>                  
                </msContents>
@@ -88,10 +88,7 @@
                                        
                   </objectDesc>
                   
-                  <additions>
-                     <p>Formerly part of the Guerra Collection</p>
-                  </additions>
-                  
+                                
                   <bindingDesc>
                      <binding>
                         <p>Unbound</p>
@@ -108,7 +105,7 @@
                      </origPlace>
                      <origDate calendar="Gregorian">1730</origDate>
                   </origin>
-                
+                      <provenance>Formerly part of the Guerra Collection</provenance>
                   <acquisition>Purchased 1962.</acquisition>
                   
                </history>
@@ -127,9 +124,14 @@
                         </source>
                      </recordHist>
                      
-                     <availability status="unknown">
-                        <p/>
+                   <availability status="free">
+                        <p></p>
+                        <licence></licence>
                      </availability>
+                     
+                     <custodialHist>
+                        <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                     </custodialHist>
                   </adminInfo>
                   <listBibl>
                      <head/>
