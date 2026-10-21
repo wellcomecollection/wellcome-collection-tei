@@ -60,16 +60,16 @@
                   <summary>A collection of 13 miscellaneous medical receipts.               
                      <note>Upon cataloguing, an specific author was not apparent. There are some signatures instead.</note>.</summary>
                   
-                  <textLang mainLang="es">Spanish</textLang>
+                 <textLang mainLang="es" source="IANA">Spanish</textLang>
                   
                   <msItem n="1" xml:id="MS_Amer_32_1">                  
                                      
                      
                      <title xml:lang="es" type="original " key="">Recetas</title>
                      <title xml:lang="es" type="standard">  Mexico, 19th century: Medical recipes</title>                     
-               
-                     
-                     <textLang otherLangs="en">English</textLang>     
+                                   
+                   
+                     <textLang otherLangs="en" source="IANA">English</textLang>     
                     
                     </msItem>
                   
@@ -95,10 +95,7 @@
                                        
                   </objectDesc>
                     
-                  <additions>
-                     <p>Formerly part of the Guerra Collection</p>
-                  </additions>
-                  
+                             
                   <bindingDesc>
                      <binding>
                         <p>Bound</p>
@@ -114,6 +111,7 @@
                      </origPlace>
                      <origDate calendar="Gregorian">1837- 74.</origDate>
                   </origin>
+                     <provenance>Formerly part of the Guerra Collection</provenance>
                  
                   <acquisition>Purchased 1962.</acquisition>
                </history>
@@ -131,9 +129,14 @@
                            </bibl>
                         </source>
                      </recordHist>
-                     <availability status="">
-                        <p/>
+                       <availability status="free">
+                        <p></p>
+                        <licence></licence>
                      </availability>
+                     
+                     <custodialHist>
+                        <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                     </custodialHist>
                   </adminInfo>
                   <listBibl>
                      <head/>
