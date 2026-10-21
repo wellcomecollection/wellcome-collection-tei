@@ -57,7 +57,7 @@
                   
                   <summary>Daily prescriptions for unknown patients from 7-13 August, primarily made up by the Botica de Subeldia.</summary>
                   
-                  <textLang mainLang="">Spanish</textLang>
+                  <textLang mainLang="es" source="IANA">Spanish</textLang>
                   
                   <msItem n="" xml:id="MS_Amer_28_1">
                      
@@ -68,7 +68,7 @@
                      <title xml:lang="es" type="original " key="">Libro de recetas de cirugía.</title>
                      <title xml:lang="en" type="standard">Prescriptons, México: 19th. cent. <note>Camargo, Francisco</note></title>                     
                                                                                                    
-                     <textLang otherLangs="en">English</textLang>                                       
+                <textLang otherLangs="en" source="IANA">English</textLang>                           
                      
                  </msItem>
                </msContents>
@@ -94,10 +94,7 @@
                      <decoNote>Holograph in Latin</decoNote>
                   </decoDesc>
                   
-                  <additions>
-                     <p>Formerly part of the Guerra Collection</p>
-                  </additions>
-                  
+               
                   <bindingDesc>
                      <binding>
                         <p>Bound<note>in contemporary folder, in modern slip-case.</note></p>
@@ -113,6 +110,7 @@
                      </origPlace>
                      <origDate calendar="Gregorian">c.1830</origDate>
                   </origin>
+                     <provenance>Formerly part of the Guerra Collection</provenance>
                    <acquisition>Purchased 1962.</acquisition>
                </history>
                <additional>
@@ -129,9 +127,15 @@
                            </bibl>
                         </source>
                      </recordHist>
-                     <availability status="unknown">
-                        <p/>
+                     
+                     <availability status="free">
+                        <p></p>
+                        <licence></licence>
                      </availability>
+                     
+                     <custodialHist>
+                        <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                     </custodialHist>
                   </adminInfo>
                   <listBibl>
                      <head/>
