@@ -54,18 +54,16 @@
                </msIdentifier>
                <msContents>
                   <summary>Formulario De Compocisiones de barias Resetas particulares, Sacadas de distintos Autores de Medicina; y copiadas en está Villa de San Miguel el Grande á 4 de Junio de 1818. Para el uso de la emfermeria de las Mui Reberendas Madres, 
-                     de Combento de la Puricima Comsepcion de esta Villa. Produced in San Miguel el Grande (now San Miguel de Allende), Guanajuato, Mexico.  
-                     A miscellaneous remedy book in the European tradition, carefully maintained and indexed in one hand to p. 33; thereafter in several hands
-                     .<note> Upon cataloguing, the original author was not apparent</note></summary>
+                     de Combento de la Puricima Comsepcion de esta Villa. A miscellaneous remedy book in the European tradition.
+                     <note> Upon cataloguing, the original author was not apparent</note></summary>
                   
-                  <textLang mainLang="">Spanish</textLang>
+                 <textLang mainLang="es" source="IANA">Spanish</textLang>
                   
                   <msItem n="1" xml:id="MS_Amer_6_1">
                      
                      <title key="">MS Amer 16</title>
                      <title xml:lang="es" type="standard">San Miguel el Grande: Convento de la Purísima Concepción</title>
-                 
-                     <textLang otherLangs="en">English</textLang>    
+                 <textLang otherLangs="en" source="IANA">English</textLang>   
                                          
                  </msItem>
                   
@@ -85,12 +83,13 @@
                                
                      
                   </objectDesc>
+
+                     <handDesc>
+                     <handNote>carefully maintained and indexed in one hand
+                     to p. 33; thereafter in several hands</handNote>
+                  </handDesc>
                   
-                   <additions>
-                      <p>A miscelaneous remedy book in the European tradition, carefully maintained and indexed in one hand to p. 33; thereafter in several hands</p>
-                      <note>Formerly part of the Guerra Collection.</note>
-                  </additions>
-                  
+                                    
                   <bindingDesc>
                      <binding>
                         <p>Contemporary  black leather  binding<note></note>in slip-case</p>
@@ -108,6 +107,7 @@
                      
                     <origDate calendar="Gregorian">1818- [c.1830]</origDate>
                   </origin>
+                   <provenance>Formerly part of the Guerra Collection</provenance>
                  <acquisition>Purchased 1962.</acquisition>
                </history>
                
@@ -125,9 +125,19 @@
                            </bibl>
                         </source>
                      </recordHist>
-                     <availability status="unknown">
-                        <p/>
+                     
+                       <availability status="free">
+                        <p></p>
+                        <licence></licence>
                      </availability>
+                     
+                     <custodialHist>
+                        <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                     </custodialHist>
+                     
+                     <custodialHist>
+                        <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                     </custodialHist>
                   </adminInfo>
                   <listBibl>
                      <head/>

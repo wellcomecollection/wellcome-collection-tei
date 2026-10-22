@@ -71,7 +71,7 @@
                      <note>Phillipps MSS. Nos. 15994, 16201</note></summary>                                      
                      
                      
-                  <textLang mainLang="es">Spanish</textLang>
+                 <textLang mainLang="es" source="IANA">Spanish</textLang>
                   
                   <msItem n="1" xml:id="MS_Amer_81_1">
                      
@@ -80,7 +80,7 @@
                      <title type="original" key="">Ensayo á Materia Medica del Reyno vegetal de Nueva España, ó Discurso sobre las plantas oficinales  que crecen en las cercanias de Mexico 
                         que ha de servir de inicio en la abertura del curso de Botanica el dia 28 de mayo de 1791.</title>  
                      
-                    <textLang otherLangs="en">English</textLang>                   
+                  <textLang otherLangs="en" source="IANA">English</textLang>                    
                                         
                    </msItem>                  
                </msContents>
@@ -98,11 +98,7 @@
                        </supportDesc>
                       </objectDesc>
                   
-                  
-                  <additions>
-                     <p>León Collection</p>
-                  </additions>
-                  
+                           
                   
                   <bindingDesc>
                      <binding>
@@ -120,6 +116,7 @@
                      </origPlace>
                      <origDate calendar="Gregorian">1791</origDate>
                   </origin>
+                    <provenance>Formerly part of the León Collection</provenance>
                  <acquisition>Purchased at Sotheby's 24.6.1919.</acquisition>
                </history>
                <additional>
@@ -137,9 +134,14 @@
                         </source>
                      </recordHist>
                      
-                     <availability status="unknown">
-                        <p/>
+                       <availability status="free">
+                        <p></p>
+                        <licence></licence>
                      </availability>
+                     
+                     <custodialHist>
+                        <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                     </custodialHist>
                      
                   </adminInfo>
                   <listBibl>
