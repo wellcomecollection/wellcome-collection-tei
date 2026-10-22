@@ -54,30 +54,26 @@
                </msIdentifier>
                <msContents>
                   <summary>Tardes anatomicas Escritas ... en el año de 1800 á 24 de Enero. [Followed by:] Farmacopea Quirurgica de Londres ....
-                     Traducida del Ingles por ... Casimiro Gomez Ortega .... Madrid MDCCXCVII. En la Imprenta de la Viuda de D. Joaquin Ibarra, con licencia. 
-                Two MSS in different hands. 
-                     <locus>Ll. 1-8</locus>Tardes anatómicas; thereafter, Pharmacopea quirúrgica. 
+                     Traducida del Ingles por ... Casimiro Gomez Ortega(Gómez Ortega was Alcalde examinador of Protafarmaceuticato 1780 -99, was appointed Boticario Mayor Médico de Camara, 
+                     and belonged  to numerous national and forein  learned Sociaties. He produced more than 40 scientific, literary and translated works, 
+                     and was largely responsible for organising the Spanish natural history expeditions to the Americas in the late 18th century
+                     [See Roldán Guerrero (1956) .... Madrid MDCCXCVII. En la Imprenta de la Viuda de D. Joaquin Ibarra, con licencia. 
+                                                     
                      The first MS., by an author otherwise unknown, is in catechetical form. The second MS copies the translation by C. Gómez Ortega of Pharmacopoeia chirurgica
                      [by William Houlston (see main Wellcome catalogue of printed books)], 3 ed., London, G.G.  J. Robinson, 1795, published in Madrid in 1797 [Palau 104233]; 
                      it adds a translator's preface, a concordance of old and new chemical nomenclature, and an alphabetical list of the remedies described.</summary>
-                 
-                  <textLang mainLang="es">Spanish</textLang>
-                  
+                   
+                  <textLang mainLang="es" source="IANA">Spanish</textLang>
+                    
                   <msItem n="1" xml:id="MS_Amer_85_1">
                      
-                     <author key="">Dias, José,</author>
-                     
-                     <note>Translator C. Gómez Ortega(1740- 1801]<note>
-                        
-                     </note>Gómez Ortega was Alcalde examinador of Protafarmaceuticato 1780 -99, was appointed Boticario Mayor Médico de Camara, 
-                        and belonged  to numerous national and forein  learned Sociaties. He produced more than 40 scientific, literary and translated works, 
-                        and was largely responsible for organising the Spanish natural history expeditions to the Americas in the late 18th century
-                        [See Roldán Guerrero (1956)]                       
-                     </note>                  
+                     <author key="">Dias, José</author>                  
+                     <translator key=""> C. Gómez Ortega(1740- 1801] </translator>                                                              
+                              
                      
                      <title key="">Tardes anatómicas Escritas...[Followed by:] Farmacopea Quirurgica de Londres</title>                                  
                                       
-                     <textLang otherLangs="en">English</textLang>                                         
+                    <textLang otherLangs="en" source="IANA">English</textLang>                                       
                                                             
                      <filiation/>
                      <note/>
@@ -93,7 +89,8 @@
                               <dim type="length">14.5 cm </dim>
                            </dimensions>
                         </extent>
-                        <foliation/>                      
+                        
+                    <foliation><locus>LL 1-8,</locus>Tardes anatómicas; thereafter, Pharmacopea quirurgica.</foliation>              
                                               
                      </supportDesc>
                      
@@ -104,10 +101,7 @@
                   </handDesc>
                  
                                   
-                  <additions>
-                     <p>León Collection</p>
-                  </additions>
-                  
+                                
                   <bindingDesc>
                      <binding>
                         <p>Original leather and paper binding.</p>
@@ -124,7 +118,7 @@
                      </origPlace>
                      <origDate calendar="Gregorian">[c.1800]</origDate>
                   </origin>
-                  
+                       <provenance>Formerly part of the León Collection</provenance>
                   <acquisition>Purchased 1927.</acquisition>
                </history>
                <additional>
@@ -141,9 +135,14 @@
                            </bibl>
                         </source>
                      </recordHist>
-                     <availability status="unknown">
-                        <p/>
+                      <availability status="free">
+                        <p></p>
+                        <licence></licence>
                      </availability>
+                     
+                     <custodialHist>
+                        <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                     </custodialHist>
                   </adminInfo>
                   <listBibl>
                      <head/>
