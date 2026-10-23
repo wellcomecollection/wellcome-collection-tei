@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Amer_44">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS Amer 44</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RP">
+               <resp when="1983">Cataloguer</resp>
+               <persName>Robin Price</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2022">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2022-07-22">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt>  
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS Amer 44</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">WMS/Amer.44</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b19677248</idno>
+                  </altIdentifier>        
+                  <altIdentifier type="CalmRef">
+                     <idno>MSAmer44</idno>
+                  </altIdentifier>
+                  <altIdentifier type="PublicRef">
+                     <idno>WMS/Amer.44</idno>
+                  </altIdentifier>
+                  <altIdentifier type="CalmID">
+                     <idno>02347a4f-fa43-47cc-a3eb-c0dd1c6c6c1c</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  
+                  <summary> An expediente of first drafts and file copies of correspondence and comments and reports following Sessé's request (ll. 1r-2r) 
+to the Director and Administrator (sede vacante) of the Hospital General de San Andrés, the Canónigo doctoral Juan Francisco Jaravo [d. 1810?], 
+for the use of two small rooms to enable Luis Montaña [1755-1820] and José Mariano Mociño [1757-1820] to carry out clinical tests on indigenous drugs discovered in the course of the Botanical Expedition to New Spain of which Sessé was Director. 
+
+Most of the senior staff of the Hospital, including José Ignacio García Jove [d. 1823] (also President of the Protomedicato), and the well-known surgeon and Director of the Real Anfiteatro de Anatomía, 
+Manuel Antonio Moreno [d. 1803], objected strongly to the proposal on grounds of possible danger and delay in the treatment of the poor. The file includes (ll.9r-21v) a detailed and energetic rebuttal by Sessé 
+of the objections raised in the individual reports of the ad hoc staff committee, and a final letter from the objectors threatening action at the highest official levels.  
+
+The proposal however was supported by the Viceroy as Sessé's immediate superior, and the rooms were opened on 5 December 1800, as well as similar accommodation in the Real Hospital de Indios on 11 December. [
+See Wilson (1962); Arias Divito (1968), pp. 212-223; and Howard (1972), pp. 285-286].</summary>
+                  
+                  <textLang mainLang="es" source="IANA">Spanish</textLang>
+                  
+                  <msItem n="1" xml:id="MS_Amer_44_1">  
+                     
+                     <author key="">Sessé y Lacasta, Martin de (1751-1808), and others</author>
+                     
+                     <title key="">MS Amer 44</title>           
+                    
+               
+                     <textLang otherLangs="en" source="IANA">English</textLang>     
+                     
+                     <incipit>
+                        [ Begins:]  Entre los diversos fines á que se dirigió la generosidad de nuestro Soberano en las costosisimas expediciones cientificas ... es el primero y mas importante dar á
+                        conocer á sus fieles vasallos el  gran tesoro de los Vegetales con que la Naturaleza
+                        distinguio este suelo [&amp;c.].                        
+                     </incipit>
+                     
+                                         
+                      </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper"><support/>                        
+                        <extent>23ll
+                           <dimensions unit="cm" type="leaf">
+                              <dim type="width">22 cm</dim>
+                              <dim type="length">31.5 cm</dim>
+                           </dimensions>
+                        </extent>
+                        
+                         </supportDesc>
+                     
+                  </objectDesc>
+                  
+                  <bindingDesc>
+                     <binding>
+                        <p>Bound</p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>Mexico</country>
+                        <region>North America</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">1800</origDate>
+                  </origin>  
+                  <provenance>Formerly part of the Guerra Collection</provenance>
+                  <acquisition>Purchased 1962.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>An Annotated Catalogue of Medical Americana in the Library of the Wellcome Institute for the History of Medicine</title>
+                              <author>Robin Price</author>
+                              <placeName>London</placeName>
+                              <publisher>Wellcome Institute for the History of Medicine</publisher>
+                              <date>1983</date>
+                              <note>p. 277</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     
+                     <availability status="free">
+                        <p></p>
+                        <licence></licence>
+                     </availability>
+                     
+                     <custodialHist>
+                        <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                     </custodialHist>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-07-22"></change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
