@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_126">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_136">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS_126</title>
+                <title>MS_136</title>
                 <title type="collection">Wellcome Collection</title>
                 <respStmt xml:id="SM">
                     <resp when="1973">Cataloguer</resp>
                     <persName>S. A. J. Moorat</persName>
                 </respStmt>
-                <respStmt xml:id="MH">
-                    <resp when="2003-12-22">Calm encoder</resp>
-                    <persName>Hiltoncm</persName>
+                <respStmt xml:id="RM">
+                    <resp when="2002-10-08">Calm encoder</resp>
+                    <persName>Macfarlr</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -27,7 +27,7 @@
                 <distributor>
                     <email>library@wellcome.org</email>
                 </distributor>
-                <idno type="msID">MS.126</idno>
+                <idno type="msID">MS.136</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -36,82 +36,62 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS.126</idno>
+                        <idno type="shelfmark">MS.136</idno>
                         <altIdentifier type="CalmRef">
-                            <idno>MS126</idno>
+                            <idno>MS136</idno>
                         </altIdentifier>
                         <altIdentifier type="accession">
-                            <idno>73997</idno>
+                            <idno>65026</idno>
                         </altIdentifier>
                         <altIdentifier type="previous">
                             <idno></idno>
                         </altIdentifier>
                         <altIdentifier type="CalmID">
-                            <idno>11baf5c3-fd96-4ecb-b098-09a1aa724fd7</idno>
+                            <idno>0d7b1094-d5e6-49af-9d15-cf3a0c55b09d</idno>
                         </altIdentifier>
                         <altIdentifier type="Sierra">
-                            <idno>b19656270</idno>
+                            <idno>b19662506</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary>Hermaphroditi libri duo. This famous collection of indecent verses was not printed until 1791, when it appeared in the 'Quinque illustrium poetarum lusus in Venerem', published in Paris. It was afterwards separately edited by F. K. Forberg [1770-1848] at Coburg in 1824.</summary>
-                        <textLang mainLang="" source="IANA">Italian</textLang>
-                        <msItem n="1" xml:id="MS_126_1">
-                            <author>Beccadelli Antonio, Panormita, 1394-1471</author>
-                            <title type="original">Hermaphroditi libri duo</title>
-                            <title type="standard"></title>
-                            <textLang mainLang="" source="IANA">Italian</textLang>
-                            <filiation>The Author was Secretary to Alfonso King of Naples, and was crowned poet at Siena in 1433 by the Emperor Sigismund. These poems were condemned by the Church, and publicly burnt in several cities. Pope Eugenius IV proscribed the reading of them under penalty of excommunication, but the scholars of his time compared the elegance of his Latinity with the poems of Catullus. [Cf. J. A. Symonds 'Renaissance in Italy'. 1897. Vol. II, pp. 184-187].</filiation>
-                            <filiation></filiation>
+                        <summary>Histoires prodigieuses. The author's own copy dedicated to Queen Elizabeth.</summary>
+                        <textLang mainLang="fr" source="IANA">French</textLang>
+                        <msItem n="1" xml:id="MS_136_1">
+                            <author>Boaistuau, Pierre (1517-1566)</author>
+                            <title type="original">Histoires prodigieuses.</title>
+                            <textLang mainLang="fr" source="IANA">French</textLang>
+                            <filiation>The printed edition, which first appeared in June 1560 in Paris, differs considerably in arrangement and otherwise from this MS. The dedication to the Queen and the `Ode pour la Royne' do not appear in the printed edition, which is dedicated to a French nobleman.</filiation>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="paper">
-                                <extent>2 ll. (first bl.). + 62 pp. x 3 bl. ll. 4to.
+                                <extent>146 [148] 11. (last 3 bl.). 4to.
                                     <dimensions type="leaf" unit="cm">
-                                        <dim type="width">15.5 cm</dim>
-                                        <dim type="length">22 cm</dim>
-                                    </dimensions>
-                                    <dimensions type="written" unit="cm">
-                                        <dim type="width"></dim>
-                                        <dim type="length"></dim>
+                                        <dim type="width">16.5 cm</dim>
+                                        <dim type="length">23 cm</dim>
                                     </dimensions>
                                 </extent>
-                                <foliation></foliation>
-                                <collation></collation>
-                                <condition>
-                                </condition>
-                                <support>
-                                    <watermark></watermark>
-                                </support>
+                                <condition>The title-page and the last leaf of the `Préface au Lecteur' are wanting.</condition>
                             </supportDesc>
-                            <layoutDesc>
-                                <layout writtenLines="">
-                                    <note></note>
-                                </layout>
-                            </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <handNote script=""></handNote>
-                        </handDesc>
                         <decoDesc>
-                            <decoNote type="marginal"></decoNote>
-                            <decoNote type="illustration"></decoNote>
+                            <decoNote type="illustration">Illustrated with 42-three-quarter-page miniatures in gold and colours.</decoNote>
+                            <decoNote type="initial">33 small illuminated initials</decoNote>
+                            <decoNote type="rubrication">Text within red rules.</decoNote>
                         </decoDesc>
-                        <additions></additions>
                         <bindingDesc>
                             <binding>
-                                <p>Original vellum binding.</p>
+                                <p>Original sides of the presentation-binding inlaid: these are of calf, with gilt centre and corner-pieces tooled in a fine arabesque design on a ground dotted with semis of three dots. Edges gilt and gauffered, dated 1560. In a red morocco slip-case.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate>Early 17th Century</origDate>
+                            <origDate>1559</origDate>
                         </origin>
-                        <provenance></provenance>
-                        <acquisition>Purchased at Sotheby's 26/7/1928, Lot 944 (part).</acquisition>
+                        <provenance>From the Library of I.T. Adams of Snaithfield, Sheffield.</provenance>
+                        <acquisition>Purchased at Sotheby's 7/12/1931, Lot 25.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
@@ -128,24 +108,16 @@
                             </recordHist>
                             <availability status="free">
                                 <p></p>
-                            </availability>
-                            <availability>
                                 <licence></licence>
                             </availability>
                             <custodialHist>
-                                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
                                 <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
-                                <custEvent type="exhibition"></custEvent>
-                                <custEvent type="digitised">Digitised: </custEvent>
+                                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, <i>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</i> (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                                <custEvent type="digitised">Digitised: Yes</custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <surrogates>
-                        </surrogates>
                         <listBibl>
-                            <bibl></bibl>
-                        </listBibl>
-                        <listBibl>
-                            <bibl></bibl>
+                            <bibl>The circumstances surrounding the creation of the manuscript, its presentation to Elizabeth I, and its relationship with later printed editions, are explored by Stephen Bamforth in his introduction to <i>Pierre Boaistuau, Histoires Prodigieuses (edition de 1561) edition critique</i> (Droz  Geneva, 2010). The text of the manuscript itself was earlier published bilingually in <i>Pierre Boaistuau, Histoires Prodigieuses: MS.136 Wellcome Library</i>, sous la direction de/edited by Stephen Bamforth, Francais/English (Milan, Franco Maria Ricci, 2000). Bamforth's work has led to significant revision of the original catalogue description by Moorat, who nevertheless accurately reflected the current state of scholarship at the time.</bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -171,12 +143,17 @@
                     <list>
                         <item facs="">
                             <term ref="subject_">
-                                <p>Erotica</p>
+                                <p>Poetry</p>
                             </term>
                         </item>
                         <item facs="">
                             <term ref="subject_">
-                                <p>[p]Poetry</p>
+                                <p>Veterinary Medicine</p>
+                            </term>
+                        </item>
+                        <item facs="">
+                            <term ref="subject_">
+                                <p>Monsters</p>
                             </term>
                         </item>
                     </list>
@@ -192,7 +169,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-            <change when="2026-10-19" who="Gemma Organ">Manual edits following automated Calm-TEI transformation</change>
+            <change when="2026-10-20" who="Lizzy Peneycad">Manual edits following automated Calm-TEI transformation</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -201,3 +178,4 @@
         </body>
     </text>
 </TEI>
+

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_136">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_124">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS_136</title>
+                <title>MS_124</title>
                 <title type="collection">Wellcome Collection</title>
                 <respStmt xml:id="SM">
                     <resp when="1973">Cataloguer</resp>
@@ -27,7 +27,7 @@
                 <distributor>
                     <email>library@wellcome.org</email>
                 </distributor>
-                <idno type="msID">MS.136</idno>
+                <idno type="msID">MS.124</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -36,83 +36,61 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS.136</idno>
+                        <idno type="shelfmark">MS.124</idno>
                         <altIdentifier type="CalmRef">
-                            <idno>MS136</idno>
+                            <idno>MS124</idno>
                         </altIdentifier>
                         <altIdentifier type="accession">
-                            <idno>65026</idno>
+                            <idno>48223</idno>
                         </altIdentifier>
                         <altIdentifier type="previous">
-                            <idno/>
+                            <idno></idno>
                         </altIdentifier>
                         <altIdentifier type="CalmID">
-                            <idno>0d7b1094-d5e6-49af-9d15-cf3a0c55b09d</idno>
+                            <idno>6c7e0bfb-9832-4d42-89d7-24e7e90b4435</idno>
                         </altIdentifier>
                         <altIdentifier type="Sierra">
-                            <idno>b19662506</idno>
+                            <idno>b19048919</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary>Histoires prodigieuses. The author's own copy dedicated to Queen Elizabeth.</summary>
-                        <textLang mainLang="fr" source="IANA">French</textLang>
-                        <msItem n="1" xml:id="MS_136_1">
-                            <author>Boaistuau, Pierre (1517-1566)</author>
-                            <title type="original">Histoires prodigieuses.</title>
-                            <title type="standard"/>
-                            <textLang mainLang="fr" source="IANA">French</textLang>
-                            <filiation>The printed edition, which first appeared in June 1560 in Paris, differs considerably in arrangement and otherwise from this MS. The dedication to the Queen and the `Ode pour la Royne' do not appear in the printed edition, which is dedicated to a French nobleman.</filiation>
+                        <summary>Notes by Henricus Bastide Uticensis [Uzès] of lectures on 'Logica' and 'Physica': in Latin.</summary>
+                        <textLang mainLang="la" source="IANA">Latin</textLang>
+                        <msItem n="1" xml:id="MS_124_1">
+                            <author>Bastide, Henri</author>
+                            <title type="original">Notes by Henricus Bastide Uticensis [Uzès] of lectures on 'Logica' and 'Physica'</title>
+                            <textLang mainLang="la" source="IANA">Latin</textLang>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="paper">
-                                <extent>146 [148] 11. (last 3 bl.). 4to.
+                                <extent>188 ll. 4to.
                                     <dimensions type="leaf" unit="cm">
-                                        <dim type="width">16.5 cm</dim>
-                                        <dim type="length">23 cm</dim>
-                                    </dimensions>
-                                    <dimensions type="written" unit="cm">
-                                        <dim type="width"></dim>
-                                        <dim type="length"></dim>
+                                        <dim type="width">13 cm</dim>
+                                        <dim type="length">18 cm</dim>
                                     </dimensions>
                                 </extent>
-                                <foliation/>
-                                <collation/>
-                                <condition>The title-page and the last leaf of the `Préface au Lecteur' are wanting.</condition>
-                                <support>
-                                    <watermark/>
-                                </support>
+                                <condition>
+                                    <p>Original calf binding damaged.</p>
+                                </condition>
                             </supportDesc>
-                            <layoutDesc>
-                                <layout writtenLines="">
-                                    <note/>
-                                </layout>
-                            </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <handNote scribe="sole"/>
-                            <handNote script="sole"/>
-                        </handDesc>
                         <decoDesc>
-                            <decoNote type="marginal"/>
-                            <decoNote type="illustration">Illustrated with 42-three-quarter-page miniatures in gold and colours.</decoNote>
-                            <decoNote type="initial">33 small illuminated initials</decoNote>
-                            <decoNote type="rubrication">Text within red rules.</decoNote>
+                            <decoNote type="illustration">Illustrated with pen-drawn diagrams and figures.</decoNote>
                         </decoDesc>
-                        <additions/>
                         <bindingDesc>
                             <binding>
-                                <p>Original sides of the presentation-binding inlaid: these are of calf, with gilt centre and corner-pieces tooled in a fine arabesque design on a ground dotted with semis of three dots. Edges gilt and gauffered, dated 1560. In a red morocco slip-case.</p>
+                                <p>Original calf binding.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate>[1559]</origDate>
+                            <origDate>1649</origDate>
                         </origin>
-                        <provenance>From the Library of I.T. Adams of Snaithfield, Sheffield.</provenance>
-                        <acquisition>Purchased at Sotheby's 7/12/1931, Lot 25.</acquisition>
+                        <provenance></provenance>
+                        <acquisition>Purchased 1928.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
@@ -128,33 +106,15 @@
                                 </source>
                             </recordHist>
                             <availability status="free">
-                                <p/>
-                            </availability>
-                            <availability>
-                                <licence/>
+                                <licence></licence>
                             </availability>
                             <custodialHist>
+                                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
                                 <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
-                                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, <i>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</i> (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                                <custEvent type="exhibition"/>
-                                <custEvent type="digitised">Digitised: Yes</custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <surrogates/>
-                        <surrogates/>
                         <listBibl>
-                            <bibl>The circumstances surrounding the creation of the manuscript, its presentation to Elizabeth I, and its relationship with later printed editions, are explored by Stephen Bamforth in his introduction to <i>Pierre Boaistuau, Histoires Prodigieuses (edition de 1561) edition critique</i> (Droz  Geneva, 2010). The text of the manuscript itself was earlier published bilingually in <i>Pierre Boaistuau, Histoires Prodigieuses: MS.136 Wellcome Library</i>, sous la direction de/edited by Stephen Bamforth, Francais/English (Milan, Franco Maria Ricci, 2000). Bamforth's work has led to significant revision of the original catalogue description by Moorat, who nevertheless accurately reflected the current state of scholarship at the time.</bibl>
-                        </listBibl>
-                        <listBibl>
-                            <bibl>
-                                <title/>
-                                <author/>
-                                <date/>
-                                <placeName/>
-                                <publisher/>
-                                <abbr/>
-                                <note/>
-                            </bibl>
+                            <bibl></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -180,17 +140,17 @@
                     <list>
                         <item facs="">
                             <term ref="subject_">
-                                <p>Poetry</p>
+                                <p>Philosophy</p>
                             </term>
                         </item>
                         <item facs="">
                             <term ref="subject_">
-                                <p>Veterinary Medicine</p>
+                                <p>Science</p>
                             </term>
                         </item>
                         <item facs="">
                             <term ref="subject_">
-                                <p>Monsters</p>
+                                <p>Logic</p>
                             </term>
                         </item>
                     </list>
@@ -198,7 +158,7 @@
                 <keywords scheme="#MeSH">
                     <list>
                         <item facs="">
-                            <term ref="subject_"/>
+                            <term ref="subject_"></term>
                         </item>
                     </list>
                 </keywords>
@@ -206,13 +166,12 @@
         </profileDesc>
         <revisionDesc>
             <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-            <change when="2026-10-20" who="Lizzy Peneycad">Manual edits following automated Calm-TEI transformation</change>
+            <change when="2026-10-19" who="Gemma Organ">Manual edits following automated Calm-TEI transformation</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <p/>
+            <p></p>
         </body>
     </text>
 </TEI>
-

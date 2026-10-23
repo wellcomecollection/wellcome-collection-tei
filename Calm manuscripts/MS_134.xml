@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_87">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_134">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS_87</title>
+                <title>MS_134</title>
                 <title type="collection">Wellcome Collection</title>
                 <respStmt xml:id="SM">
                     <resp when="1973">Cataloguer</resp>
@@ -27,7 +27,7 @@
                 <distributor>
                     <email>library@wellcome.org</email>
                 </distributor>
-                <idno type="msID">MS.87</idno>
+                <idno type="msID">MS.134</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -36,84 +36,58 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS.87</idno>
+                        <idno type="shelfmark">MS.134</idno>
                         <altIdentifier type="CalmRef">
-                            <idno>MS87</idno>
+                            <idno>MS134</idno>
                         </altIdentifier>
                         <altIdentifier type="accession">
-                            <idno>62999</idno>
+                            <idno>47396</idno>
                         </altIdentifier>
                         <altIdentifier type="previous">
                             <idno></idno>
                         </altIdentifier>
                         <altIdentifier type="CalmID">
-                            <idno>cb4ddae8-fa4f-4cde-9805-ef11cfde752d</idno>
+                            <idno>8cf7df27-10ff-4042-be54-f57be483432f</idno>
                         </altIdentifier>
                         <altIdentifier type="Sierra">
-                            <idno>b18771257</idno>
+                            <idno>b19291553</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary>Ein buech züsamen gezogen, aus villen probierten Khünsten, und erfarüngen, wie ain zeüghauss samb aller Monition anhaimisch gehalten soll werdn. Auch von Salbetter, Schwebell, Kholn puluer ettlich wuster der brechzeug, feuerpfeill willde unnd zaure Sturmfetter unnd wehr. Einleg unnd Mordfeur, vergifft und unvergifft, Reuch oder dempff, conuortatiue zum pulluer, unnd denn öllen zum feuerwerckh, sambt der Khunst der Püchsenmaister, mittwindon [?] Instrument, zu schiessen unnd werffenn gar khunstlich. Auch ainer bericht der wagenburg. Wie man darein ziechen, dieselben schlagen unnd legern, auch sonnst sich in nötten darmitt bewaren solle.</summary>
-                        <textLang mainLang="de" source="IANA">German</textLang>
-                        <msItem n="1" xml:id="MS_87_1">
-                            <author></author>
-                            <title type="original">Artillery: 16th cent.</title>
-                            <title type="standard"></title>
-                            <textLang mainLang="de" source="IANA">German</textLang>
-                            <filiation></filiation>
-                            <filiation></filiation>
+                        <summary>Remedia medicorum Redonensium Concilio praescripta tam prophilatica quam therapeutica adversus pestem. Collecta per Michaelem Billard pharmacopeum Spernonensem. 1650. Institutions pharmaceutiques, 1650. Gerard de Rennes. Compendium institutionum pharmaceuticarum ... datum ... 1651: in French. A few medical receipts by a different contemporary hand: in French, Herbarium (Hortus Siccus). 1681. The `Herbarium' contains specimens inserted in slits cut in the paper: many have been damaged or lost. Each has its Latin name written in. On the second preliminary leaf: `Ex libris Petri Boucinel Doctoris medici facultatis Rennensis'.</summary>
+                        <textLang mainLang="fr" source="IANA">French</textLang>
+                        <msItem n="1" xml:id="MS_134_1">
+                            <author>Billard, Michael</author>
+                            <title type="original">Remedia medicorum Redonensium Concilio praescripta tam prophilatica quam therapeutica adversus pestem.</title>
+                            <textLang mainLang="fr" source="IANA">French</textLang>
+                            <textLang mainLang="la" source="IANA">Latin</textLang>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="paper">
-                                <extent>3 bl. ll.+19 ll.+245 ff.+7 bl. ll. folio.
+                                <extent>10 ll. + 16 bl. ll. + 20 ll. + 26 ll. + 3 ll. + 7 bl. ll. + 1 l. + 26 bl. ll. 41 ll. 4to.
                                     <dimensions type="leaf" unit="cm">
-                                        <dim type="width">31cm</dim>
-                                        <dim type="length">21cm</dim>
-                                    </dimensions>
-                                    <dimensions type="written" unit="cm">
-                                        <dim type="width"></dim>
-                                        <dim type="length"></dim>
+                                        <dim type="width">20.5 cm</dim>
+                                        <dim type="length">26.5 cm</dim>
                                     </dimensions>
                                 </extent>
-                                <foliation></foliation>
-                                <collation></collation>
-                                <condition>
-                                    <p>Fol. 113 defective.</p>
-                                </condition>
-                                <support>
-                                    <watermark></watermark>
-                                </support>
+                                <condition>First (blank) leaf damaged, some damp-stains. Many herbarium specimens have been damaged or lost.</condition>
                             </supportDesc>
-                            <layoutDesc>
-                                <layout writtenLines="">
-                                    <note></note>
-                                </layout>
-                            </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <handNote scribe="sole"></handNote>
-                        </handDesc>
-                        <decoDesc>
-                            <decoNote type="marginal"></decoNote>
-                            <decoNote type="illustration"> Illustrated by numerous water-colour drawings of guns, bombs, fire-arrows, etc., and five folding plates of an artillery train on the march, and parked as a defensive post or 'laagered'.</decoNote>
-                        </decoDesc>
-                        <additions></additions>
                         <bindingDesc>
                             <binding>
-                                <p>Original stamped sheepskin binding worn.</p>
+                                <p>Original lime vellum binding, with flap and tie.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate>1559</origDate>
+                            <origDate>1650-1681</origDate>
+                            <origPlace>Produced in Rennes.</origPlace>
                         </origin>
-                        <provenance>Book-plate of the 'Library of Max Rosenheim and Maurice Rosenheim, London', also small-library-label 'Rosenheim Collection No. B.25'.</provenance>
-                        <acquisition>Purchased at Sotheby's 30/6/1930, Lot 143.</acquisition>
-                        <acquisition type="accrual"></acquisition>
+                        <provenance></provenance>
+                        <acquisition>Purchased at Sotheby's 1/2/1928, Lot 675.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
@@ -129,36 +103,16 @@
                                 </source>
                             </recordHist>
                             <availability status="free">
-                                <p></p>
-                            </availability>
-                            <availability>
+                                   <p></p> 
                                 <licence></licence>
                             </availability>
                             <custodialHist>
-                                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
-                                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                                <custEvent type="exhibition"></custEvent>
-                                <custEvent type="digitised">Digitised: </custEvent>
+                                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, <i>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</i> (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                                <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <surrogates></surrogates>
-                        <surrogates></surrogates>
                         <listBibl>
                             <bibl></bibl>
-                        </listBibl>
-                        <listBibl>
-                            <bibl></bibl>
-                        </listBibl>
-                        <listBibl>
-                            <bibl>
-                                <title></title>
-                                <author></author>
-                                <date></date>
-                                <placeName></placeName>
-                                <publisher></publisher>
-                                <abbr></abbr>
-                                <note></note>
-                            </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -184,22 +138,27 @@
                     <list>
                         <item facs="">
                             <term ref="subject_">
-                                <p>Artillery</p>
+                                <p>Pharmacy</p>
                             </term>
                         </item>
                         <item facs="">
                             <term ref="subject_">
-                                <p>Explosives</p>
+                                <p>Dried flowers</p>
                             </term>
                         </item>
                         <item facs="">
                             <term ref="subject_">
-                                <p>Fireworks</p>
+                                <p>Plague</p>
                             </term>
                         </item>
                         <item facs="">
                             <term ref="subject_">
-                                <p>Military art &amp; science</p>
+                                <p>Medicine, Traditional</p>
+                            </term>
+                        </item>
+                        <item facs="">
+                            <term ref="subject_">
+                                <p>Formulas, recipes, etc.</p>
                             </term>
                         </item>
                     </list>
@@ -215,10 +174,13 @@
         </profileDesc>
         <revisionDesc>
             <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-            <change when="2026-10-19" who="Maryam Bouteldja">Manual edits following automated Calm-TEI transformation</change>
+            <change when="2026-10-20" who="Lizzy Peneycad">Manual edits following automated Calm-TEI transformation</change>
         </revisionDesc>
     </teiHeader>
     <text>
-        <body></body>
+        <body>
+            <p></p>
+        </body>
     </text>
 </TEI>
+
