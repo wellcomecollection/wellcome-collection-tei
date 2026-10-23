@@ -182,12 +182,12 @@
                                         </source>
                                     </recordHist>
                                     <availability>
-                                        <!-- msdesc only allows set values for status, so map Calm's access conditions onto them -->
-                                        <xsl:variable name="access" select="lower-case(normalize-space((/DScribeDatabase/DScribeRecord/AccessConditions)[1]))"/>
+                                        <!-- msdesc only allows set values for status; map Calm's AccessStatus as the catalogue pipeline reads it -->
+                                        <xsl:variable name="access" select="lower-case(replace(normalize-space((/DScribeDatabase/DScribeRecord/AccessStatus)[1]), '\.$', ''))"/>
                                         <xsl:attribute name="status">
                                             <xsl:choose>
-                                                <xsl:when test="starts-with($access, 'open')">free</xsl:when>
-                                                <xsl:when test="starts-with($access, 'closed') or starts-with($access, 'restricted')">restricted</xsl:when>
+                                                <xsl:when test="$access = 'open'">free</xsl:when>
+                                                <xsl:when test="$access = ('open with advisory', 'closed', 'restricted', 'safeguarded', 'certain restrictions apply', 'restricted access (data protection act)', 'by appointment', 'donor permission')">restricted</xsl:when>
                                                 <xsl:otherwise>unknown</xsl:otherwise>
                                             </xsl:choose>
                                         </xsl:attribute>
