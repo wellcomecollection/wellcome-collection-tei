@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_89">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS_89</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="SM">
+                    <resp when="1973">Cataloguer</resp>
+                    <persName>S. A. J. Moorat</persName>
+                </respStmt>
+                <respStmt xml:id="MH">
+                    <resp when="2006-05-03">Calm encoder</resp>
+                    <persName>Hiltoncm</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName>Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">MS.89</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS.89</idno>
+                        <altIdentifier type="CalmRef">
+                            <idno>MS89</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>63142</idno>
+                        </altIdentifier>
+                        <altIdentifier type="CalmID">
+                            <idno>6dab4968-6d5a-49fc-8774-4fc6be790697</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b19078651</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <p>Collection of medical receipts in German: with additions by later and contemporary hands.</p>
+                            <p>The date [15]69 occurs on folio 215.</p>
+                        </summary>
+                        <textLang mainLang="de" source="IANA">German</textLang>
+                        <msItem n="1" xml:id="MS_89_1">
+                            <author/>
+                            <title type="original">Artzeney-Buch</title>
+                            <title type="standard"></title>
+                            <textLang mainLang="de" source="IANA">German</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <extent>389 ff. + 6 ll. Folio.
+                                    <dimensions type="leaf" unit="cm">
+                                        <dim type="width">31cm</dim>
+                                        <dim type="length">20.5cm</dim>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <dim type="width"></dim>
+                                        <dim type="length"></dim>
+                                    </dimensions>
+                                </extent>
+                                <condition>
+                                    <p>Folios 72, 103, 128, 193, 234, 245, 249, 265, 269, 271, 274-310, 352-356 and 358-385 are wanting.</p>
+                                    <p>Binding is worn.</p>
+                                </condition>
+                                <support>
+                                    <watermark></watermark>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="">
+                                    <note></note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote script=""></handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="marginal"></decoNote>
+                            <decoNote type="illustration"></decoNote>
+                        </decoDesc>
+                        <additions></additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>Original stamped pigskin binding over wooden boards, worn: two metal and pigskin clasps.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate>c.1575</origDate>
+                        </origin>
+                        <provenance/>
+                        <acquisition>Purchased 1930 (acc.63142).</acquisition>
+                        <acquisition type="accrual"></acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                                        <author>S. A. J. Moorat</author>
+                                        <placeName>London</placeName>
+                                        <publisher>Wellcome Institute for the History of Medicine</publisher>
+                                        <date>1962-1973</date>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <availability>
+                                <licence></licence>
+                            </availability>
+                            <custodialHist>
+                                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                                <custEvent type="exhibition"></custEvent>
+                                <custEvent type="digitised">Digitised: </custEvent>
+                                <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent> 
+                            </custodialHist>
+                        </adminInfo>
+                        <surrogates></surrogates>
+                        <surrogates></surrogates>
+                        <listBibl>
+                            <bibl></bibl>
+                        </listBibl>
+                        <listBibl>
+                            <bibl></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="MeSH">
+                    <bibl>
+                        <ref target="">MeSH</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_">
+                                <p>Formulas, recipes, etc.</p>
+                            </term>
+                        </item>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+                <keywords scheme="#MeSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+            <change when="2026-10-23" who="Maryam Bouteldja">Manual edits following automated Calm-TEI transformation</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p></p>
+        </body>
+    </text>
+</TEI>
