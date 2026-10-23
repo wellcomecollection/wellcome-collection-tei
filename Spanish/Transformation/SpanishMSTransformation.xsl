@@ -17,13 +17,13 @@
                     <titleStmt>
                         <title></title>
                         <title type="collection">Wellcome Collection</title>
-                        <respStmt xml:id="">
-                            <resp when="">Cataloguer</resp>
-                            <persName><!-- Insert name --></persName>
+                        <respStmt xml:id="RP">
+                            <resp when="1983">Cataloguer</resp>
+                            <persName>Robin Price</persName>
                         </respStmt>
-                        <respStmt xml:id="">
+                        <respStmt xml:id="OC">
                             <resp when="">TEI Encoder</resp>
-                            <persName><xsl:value-of select="/DScribeDatabase/DScribeRecord/Modifier"/></persName>
+                            <persName>Odalys Caballero</persName>
                         </respStmt>
                         <!-- Add another <respStmt> for every resp -->
                     </titleStmt>
@@ -38,9 +38,9 @@
                             <postCode>NW1 2BE</postCode>
                         </address>
                         <distributor>
-                            <email>library@wellcome.ac.uk</email>
+                            <email>collections@wellcomecollection.org</email>
                         </distributor>
-                        <idno type="msID"><xsl:value-of select="/DScribeDatabase/DScribeRecord/RefNo"/></idno>
+                        <idno type="msID"><xsl:value-of select="/DScribeDatabase/DScribeRecord/AltRefNo"/></idno>
                         <idno type="catalogue"></idno>
                     </publicationStmt>
                     
@@ -53,10 +53,20 @@
                                 <settlement>London</settlement>
                                 <institution>Wellcome Collection</institution>
                                 <repository>Wellcome Library</repository>
-                                <idno type="shelfmark"><xsl:value-of select="/DScribeDatabase/DScribeRecord/RefNo"/></idno>
+                                <idno type="shelfmark"><xsl:value-of select="/DScribeDatabase/DScribeRecord/AltRefNo"/></idno>
                                 <!-- Use <altIdentifier> if former or alternative <idno> is available -->
+                                <altIdentifier type="Sierra">
+                                    <idno><!--.b number --></idno>
+                                </altIdentifier>
+                                <altIdentifier type="CalmRef">
+                                    <idno><!--Calm RefNo --></idno>
+                                </altIdentifier>
+                                <altIdentifier type="accession">
+                                    <idno><!--Calm AccNo --></idno>
+                                </altIdentifier>
                                 <altIdentifier type="">
-                                    <idno><xsl:value-of select="/DScribeDatabase/DScribeRecord/AltRefNo"/></idno>
+                                    <!-- Use <altIdentifier> if any other former or alternative <idno> is available -->
+                                    <idno></idno>
                                 </altIdentifier>
                             </msIdentifier>
                             
@@ -65,16 +75,16 @@
                                 <summary><xsl:value-of select="/DScribeDatabase/DScribeRecord/Description"/></summary>
                                 
                                 
-                                <textLang mainLang=""><xsl:value-of select="/DScribeDatabase/DScribeRecord/Language"/><!-- Use if only one language in manuscript --> <!-- Enter BCP 47 language code as attribute value and full language name here --> </textLang>
+                                <textLang mainLang="" source="IANA"><xsl:value-of select="/DScribeDatabase/DScribeRecord/Language"/><!-- Use if only one language in manuscript --> <!-- Enter BCP 47 language code as attribute value and full language name here --> </textLang>
                                 
-                                <msItem n="" xml:id="">
+                                <msItem n="1" xml:id="">
                                     
                                     <author key=""><xsl:value-of select="/DScribeDatabase/DScribeRecord/CreatorName"/><!-- Insert viaf code as attribute value, if available, and enter author name here --></author>
                                     <title key=""><xsl:value-of select="/DScribeDatabase/DScribeRecord/Title"/></title>
                                     
                                     <!-- Use as needed, or delete -->
-                                    <textLang mainLang=""><!-- Enter BCP 47 language code as attribute value and full language name here --></textLang>
-                                    <textLang otherLangs=""><!-- Enter BCP 47 language code as attribute value and full language name here --></textLang>
+                                    <textLang mainLang="" source="IANA"><!-- Enter BCP 47 language code as attribute value and full language name here --></textLang>
+                                    <textLang otherLangs="" source="IANA"><!-- Enter BCP 47 language code as attribute value and full language name here --></textLang>
                                     
                                     <incipit><!-- insert --> <locus></locus>
                                         <!-- Use <note> to add general comment -->
@@ -98,13 +108,13 @@
                             
                             <physDesc>
                                 <!-- Insert and delete as needed -->
-                                <objectDesc form="">
+                                <objectDesc form="book">
                                     
                                     <supportDesc material="">
                                         
                                         <support><!-- Insert prose description --></support>
                                         <extent><xsl:value-of select="/DScribeDatabase/DScribeRecord/Extent"/>
-                                            <dimensions unit="" type=""><!-- Add if available -->
+                                            <dimensions unit="cm" type="leaf"><!-- Add if available -->
                                                 <dim type="diameter"></dim>
                                                 <dim type="length"></dim>
                                                 <!-- Add or delete dimensions as needed -->
@@ -119,6 +129,8 @@
                                             <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
                                             <signatures><!-- Use to record quire signatures, if available --></signatures>
                                         </collation>
+                                        
+                                        <condition></condition>
                                         
                                     </supportDesc>
                                     
@@ -138,7 +150,10 @@
                                 </handDesc>
                                 
                                 <decoDesc>
-                                    <decoNote></decoNote>
+                                    <decoNote type="marginal"></decoNote>
+                                    <decoNote type="illustration"></decoNote>
+                                    <decoNote type="rubrication"></decoNote>
+                                    <decoNote type="inscription"></decoNote>
                                 </decoDesc>
                                 
                                 <additions>
@@ -173,12 +188,14 @@
                                 <adminInfo>
                                     <recordHist>
                                         <source>
-                                            <!-- insert text, if relevant -->
-                                            <bibl><!-- insert if necesary --></bibl>
-                                            <!-- Might include link to catalogue source -->
-                                            <!--<listBibl>
-                              <bibl> </bibl>
-                           </listBibl>-->
+                                            <bibl>
+                                                <title>An Annotated Catalogue of Medical Americana in the Library of the Wellcome Institute for the History of Medicine</title>
+                                                <author>Robin Price</author>
+                                                <placeName>London</placeName>
+                                                <publisher>Wellcome Institute for the History of Medicine</publisher>
+                                                <date>1983</date>
+                                                <note>p. </note>
+                                            </bibl>
                                         </source>
                                     </recordHist>
                                     <availability>
@@ -219,7 +236,7 @@
                         </taxonomy>
                         <taxonomy xml:id="MeSH">
                             <bibl>
-                                <ref target="">MeSH</ref>
+                                <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
                             </bibl>
                         </taxonomy>
                     </classDecl>
