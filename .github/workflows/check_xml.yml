@@ -23,11 +23,17 @@ jobs:
       # repo doesn't fail every edit. Manual runs check everything.
       - name: "Check the XML files"
         env:
-          BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+          BEFORE: ${{ github.event.before }}
         run: |
+          # A pull request is checked out as a merge commit onto main.
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            BASE=HEAD^1
+          else
+            BASE="$BEFORE"
+          fi
           if [ -z "$BASE" ] || ! git cat-file -e "$BASE^{commit}" 2>/dev/null; then
             .github/workflows/check_xml.py
           else
-            git diff --name-only -z --diff-filter=AMR "$BASE" HEAD -- '*.xml' \
+            git diff --name-only -z --diff-filter=AMR "$BASE" HEAD -- ':(icase)*.xml' \
               | xargs -0 --no-run-if-empty .github/workflows/check_xml.py
           fi

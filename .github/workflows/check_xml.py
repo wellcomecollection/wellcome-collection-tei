@@ -226,11 +226,19 @@ def check_documents(repo_root, paths):
             errors += 1
             continue
 
-        file_warnings = (
-            check_author_names(relpath, root, fullpath)
-            + check_manuscript_id(relpath, root)
-            + check_keyword_ids(relpath, root, fullpath)
-        )
+        try:
+            file_warnings = (
+                check_author_names(relpath, root, fullpath)
+                + check_manuscript_id(relpath, root)
+                + check_keyword_ids(relpath, root, fullpath)
+            )
+        # The lint rules assume elements that not every file has; don't let
+        # one odd file stop the run.
+        except Exception as err:
+            print("")
+            print(relpath)
+            print(f"\tLint rules could not run: {err!r}")
+            file_warnings = 1
         if file_warnings:
             annotate(
                 "warning",
