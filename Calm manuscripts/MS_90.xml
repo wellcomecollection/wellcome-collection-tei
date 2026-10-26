@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_88">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_90">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS_88</title>
+                <title>MS_90</title>
                 <title type="collection">Wellcome Collection</title>
                 <respStmt xml:id="SM">
                     <resp when="1973">Cataloguer</resp>
@@ -27,7 +27,7 @@
                 <distributor>
                     <email>library@wellcome.org</email>
                 </distributor>
-                <idno type="msID">MS.88</idno>
+                <idno type="msID">MS.90</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -36,83 +36,60 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS.88</idno>
+                        <idno type="shelfmark">MS.90</idno>
                         <altIdentifier type="CalmRef">
-                            <idno>MS88</idno>
+                            <idno>MS90</idno>
                         </altIdentifier>
                         <altIdentifier type="accession">
-                            <idno>64696</idno>
+                            <idno>41783</idno>
                         </altIdentifier>
-                        <altIdentifier type="previous"></altIdentifier>
+                        <altIdentifier type="previous">
+                            <idno></idno>
+                        </altIdentifier>
                         <altIdentifier type="CalmID">
-                            <idno>50215ce5-cf92-42fd-8ff3-bb4e7e465476</idno>
+                            <idno>69d675e2-bfa0-45ab-a879-9d676ec15776</idno>
                         </altIdentifier>
                         <altIdentifier type="Sierra">
-                            <idno>b18725181</idno>
+                            <idno>b19463984</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary>With an 'Abschrift des 'Rosarium Philosophorum' gefertigt Januar 1903, durch Dr. Carl Gerster zu Braunfels.' The second work, which has been written on blank leaves of the original MS., is a transcript of the second volume of the collection of alchemical tracts published at Frankfort by Cyriacus Jacobus in 1550, under the title 'De alchimia opuscula complura veterum philosophorum'.</summary>
+                        <summary>
+                            <p>Artzney Buechel zu allerley Gebrechen des Leibs und der Augen dienstlich.</p>
+                            <p>Commentary on the New Testament [?].</p>
+                        </summary>
                         <textLang mainLang="de" source="IANA">German</textLang>
-                        <msItem n="1" xml:id="MS_88_1">
-                            <author/>
-                            <title type="original">Artzeney Puch</title>
-                            <title type="standard"></title>
+                        <msItem n="1" xml:id="MS_90_1">
+                            <title type="original">Artzney Buechel</title>
                             <textLang mainLang="de" source="IANA">German</textLang>
-                            <filiation>Catalogued MS.89</filiation>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="paper">
-                                <extent>4 bl. ll.+215 ff.+52 ff. folio.  
+                                <extent>1 bl. l.+110 ff.+4 ll.+17 bl. ll.+16 ll. (last 4 bl.) 4to.  
                                     <dimensions type="leaf" unit="cm">
-                                        <dim type="width">32cm</dim>
-                                        <dim type="length">20cm</dim>
-                                    </dimensions>
-                                    <dimensions type="written" unit="cm">
-                                        <dim type="width"></dim>
-                                        <dim type="length"></dim>
+                                        <dim type="width">20cm</dim>
+                                        <dim type="length">15.5cm</dim>
                                     </dimensions>
                                 </extent>
-                                <foliation/>
-                                <collation/>
                                 <condition>
-                                    <p>Binding is worn with one of the two metal clasps wanting.</p>
+                                    <p>Both leather ties wanting.</p>
                                 </condition>
-                                <support>
-                                    <watermark></watermark>
-                                </support>
                             </supportDesc>
-                            <layoutDesc>
-                                <layout writtenLines="">
-                                    <note></note>
-                                </layout>
-                            </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <handNote scribe="sole"></handNote>
-                            <handNote script=""></handNote>
-                        </handDesc>
-                        <decoDesc>
-                            <decoNote type="marginal">Some marginal and interlinear corrections and additions in red ink by a later 16th cent. hand.</decoNote>
-                            <decoNote type="illustration">Illustrated with pen-drawings of alchemical apparatus on fol. 3v, and on fol 42v in the second part, and of a poultice on fol. 129.</decoNote>
-                            <decoNote type="illustration">Dr. Gerster has pasted in pen-drawn copies of the t.p. and woodcut illustrations of the original, done on tracing paper.</decoNote>
-                        </decoDesc>
-                        <additions></additions>
                         <bindingDesc>
                             <binding>
-                                <p>Original stamped white calf binding over wooden boards, worn: one of the two metal clasps wanting.</p>
+                                <p>Bound in a vellum leaf from a 14th cent.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate>1903</origDate>
+                            <origDate>1637</origDate>
                         </origin>
-                        <provenance>Large Ex-libris of 'Karl Gerster Dr. med. &amp; phil. Geh. Sanitätsrat in Braunfels' pasted inside cover. The MS. is lettered on the spine '1550 Manuscript Artzeney Puch'.</provenance>
-                        <acquisition>Purchased 1931.</acquisition>
-                        <acquisition type="accrual"/>
+                        <provenance>Inside the upper cover, by a contemporary hand, is written 'Dises buchl denn Freyherrn [?] von Maurburg gehorig'.</provenance>
+                        <acquisition>Purchased 1922.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
@@ -128,37 +105,16 @@
                                 </source>
                             </recordHist>
                             <availability status="free">
-                                <p/>
-                            </availability>
-                            <availability>
+                                <p></p>
                                 <licence></licence>
                             </availability>
                             <custodialHist>
                                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                                <custEvent type="exhibition"></custEvent>
-                                <custEvent type="digitised">Digitised: </custEvent>
-                                <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent> 
                             </custodialHist>
                         </adminInfo>
-                        <surrogates>Description compiled by Ross MacFarlane based upon those in the Library's published finding aid by S.A.J. Moorat.</surrogates>
-                        <surrogates/>
                         <listBibl>
-                            <bibl>August 2002</bibl>
-                        </listBibl>
-                        <listBibl>
-                            <bibl>Compiled in compliance with General International Standard Archival Description, ISAD(G), second edition, 2000, and AACR2.</bibl>
-                        </listBibl>
-                        <listBibl>
-                            <bibl>
-                                <title></title>/>
-                                <author></author>
-                                <date></date>/>
-                                <placeName></placeName>/>
-                                <publisher></publisher>/>
-                                <abbr></abbr>
-                                <note></note>
-                            </bibl>
+                            <bibl></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -184,7 +140,12 @@
                     <list>
                         <item facs="">
                             <term ref="subject_">
-                                <p>Alchemy</p>
+                                <p>Eye</p>
+                            </term>
+                        </item>
+                        <item facs="">
+                            <term ref="subject_">
+                                <p>Formulas, recipes, etc.</p>
                             </term>
                         </item>
                         <item facs="">
@@ -194,7 +155,7 @@
                         </item>
                         <item facs="">
                             <term ref="subject_">
-                                <p>Formulas, recipes, etc.</p>
+                                <p>Ophthalmology</p>
                             </term>
                         </item>
                     </list>
@@ -210,7 +171,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-            <change when="2026-10-23" who="Maryam Bouteldja">Manual edits following automated Calm-TEI transformation</change>
+            <change when="2026-10-23" who="Maryam BOuteldja">Manual edits following automated Calm-TEI transformation</change>
         </revisionDesc>
     </teiHeader>
     <text>

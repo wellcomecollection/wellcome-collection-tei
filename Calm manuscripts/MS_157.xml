@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_157">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_157</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.157</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.157</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS157</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>56334</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno></idno>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>ae8d8f55-0d11-4fab-980d-e72dc1d1a859</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19620640</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Ein künstliches unnd bewerthes Artzneybuch allen guthertzigen frombenn Schriften beschriben ... Ietzo neulich gemehrt unnd gebessert sambt einem ordentlichen Register durch Joh. B. Alumnum Scholae Laurentianae Noribergensis. 
+              The text is dated 1579, 1580, and the MS. has had the Index supplied by-Johann Bröll, son of the compiler. Overall dates of volume 1579-1580 and 1601.</summary>
+            <textLang mainLang="de" source="IANA">German</textLang>
+            <msItem n="1" xml:id="MS_157_1">
+              <author>Bröll, Sigismund</author>
+              <title type="original">Bröll, Sigismund</title>
+              <textLang mainLang="de" source="IANA">German</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="paper">
+                <extent>1 l. + 417 pp. + 4 ll. folio.
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width">20.5 cm</dim>
+                    <dim type="length">32.5 cm</dim>
+                  </dimensions>
+                </extent>
+                <collation>
+                  <signatures>Johann Bröll's signature is found written inside the upper cover.</signatures>
+                </collation>
+                <condition>The end of the text, and the Index before the last part of letter F is wanting: margins frayed throughout, t.p. slightly damaged and repaired. </condition>
+              </supportDesc>
+            </objectDesc>
+            <bindingDesc>
+              <binding>
+                <p>Original stamped limp calf binding, with two leather ties.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1579-1601</origDate>
+              <origPlace>Produced in Nüremberg.</origPlace>
+            </origin>
+            <provenance>Large ex-libris of `Karl Gerster. Dr. med. and phil. Geh. Sanitätsrat in Braunfels'.</provenance>
+            <acquisition>Purchased 1930.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p></p>
+                <licence></licence>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <listBibl>
+              <bibl></bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Traditional</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Formulas, recipes, etc.</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"></term>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="2026-10-26" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p></p>
+    </body>
+  </text>
+</TEI>

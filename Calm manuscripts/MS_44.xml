@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_89">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_44">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS_89</title>
+                <title>MS_44</title>
                 <title type="collection">Wellcome Collection</title>
                 <respStmt xml:id="SM">
                     <resp when="1973">Cataloguer</resp>
                     <persName>S. A. J. Moorat</persName>
                 </respStmt>
-                <respStmt xml:id="MH">
-                    <resp when="2006-05-03">Calm encoder</resp>
-                    <persName>Hiltoncm</persName>
+                <respStmt xml:id="RM">
+                    <resp when="2002-10-08">Calm encoder</resp>
+                    <persName>Macfarlr</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -27,7 +27,7 @@
                 <distributor>
                     <email>library@wellcome.org</email>
                 </distributor>
-                <idno type="msID">MS.89</idno>
+                <idno type="msID">MS.44</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -36,81 +36,70 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS.89</idno>
+                        <idno type="shelfmark">MS.44</idno>
                         <altIdentifier type="CalmRef">
-                            <idno>MS89</idno>
+                            <idno>MS44</idno>
                         </altIdentifier>
                         <altIdentifier type="accession">
-                            <idno>63142</idno>
+                            <idno>63929</idno>
+                        </altIdentifier>
+                        <altIdentifier type="previous">
+                            <idno></idno>
                         </altIdentifier>
                         <altIdentifier type="CalmID">
-                            <idno>6dab4968-6d5a-49fc-8774-4fc6be790697</idno>
+                            <idno>c1890600-f5de-432f-8ca7-9acfe68d251d</idno>
                         </altIdentifier>
                         <altIdentifier type="Sierra">
-                            <idno>b19078651</idno>
+                            <idno>b18934547</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary>
-                            <p>Collection of medical receipts in German: with additions by later and contemporary hands.</p>
-                            <p>The date [15]69 occurs on folio 215.</p>
-                        </summary>
-                        <textLang mainLang="de" source="IANA">German</textLang>
-                        <msItem n="1" xml:id="MS_89_1">
-                            <author/>
-                            <title type="original">Artzeney-Buch</title>
-                            <title type="standard"></title>
-                            <textLang mainLang="de" source="IANA">German</textLang>
+                        <summary><p>Ricettario: in Italian and Latin.</p></summary>
+                        <textLang mainLang="it" source="IANA">Italian</textLang>
+                        <msItem n="1" xml:id="MS_44_1">
+                            <author>Ambrosius de Vigliano</author>
+                            <title type="original">Ricettario</title>
+                            <textLang mainLang="it" source="IANA">Italian</textLang>
+                            <textLang mainLang="la" source="IANA">Latin</textLang>
+                            <filiation>The MS may have been written in a monastic house at Padua, as on fol. 123v, in the course of an entry concerning a 'Mirabile oleum Balsamicum', the writer states: 'Et vidi alium monachum nostrum qui defferendo magnam trabem cum aliis monachis in sancta Justina Paduae manum strinxit inter collonnas et trabem...'.</filiation>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="paper">
-                                <extent>389 ff. + 6 ll. Folio.
+                                <extent>10[12] ll. + 131[132] ff. 4to.
                                     <dimensions type="leaf" unit="cm">
-                                        <dim type="width">31cm</dim>
-                                        <dim type="length">20.5cm</dim>
-                                    </dimensions>
-                                    <dimensions type="written" unit="cm">
-                                        <dim type="width"></dim>
-                                        <dim type="length"></dim>
+                                        <dim type="width">13 cm</dim>
+                                        <dim type="length">18 cm</dim>
                                     </dimensions>
                                 </extent>
-                                <condition>
-                                    <p>Folios 72, 103, 128, 193, 234, 245, 249, 265, 269, 271, 274-310, 352-356 and 358-385 are wanting.</p>
-                                    <p>Binding is worn.</p>
-                                </condition>
-                                <support>
-                                    <watermark></watermark>
-                                </support>
+                                <foliation>This manuscript contains early pagination for the main text and a later foliation for the whole manuscript.</foliation>
+                                <collation>
+                                    <p>First and last leaves of the first section, fol. 125, and last leaf missing.</p>
+                                    <p>The first section (10 ll.) and ff. 109-end are on paper.</p>
+                                </collation>            
+                                <condition>Lower margin of fol. 111 torn away.</condition>
                             </supportDesc>
-                            <layoutDesc>
-                                <layout writtenLines="">
-                                    <note></note>
-                                </layout>
-                            </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote script=""></handNote>
+                            <handNote script="humanist">Written by several hands.</handNote>
                         </handDesc>
                         <decoDesc>
-                            <decoNote type="marginal"></decoNote>
-                            <decoNote type="illustration"></decoNote>
+                            <decoNote type="rubrication">A few headings and paragraph marks in red.</decoNote>
                         </decoDesc>
-                        <additions></additions>
+                        <additions>In the upper margin of fol. 41 'Fra[ter] Ambrosius. or[dinis]. mi[norum]. Vigl[ia]nne[nsis]'. In the lower margin of the penultimate leaf of the first section is the name of 'Fratris Bernardini de Varallo ordinis minorum' in an early 16th cent. hand.</additions>
                         <bindingDesc>
                             <binding>
-                                <p>Original stamped pigskin binding over wooden boards, worn: two metal and pigskin clasps.</p>
+                                <p>On vellum and paper. Original stamped leather binding worn; both ties wanting.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate>c.1575</origDate>
+                            <origDate>Middle 15th century</origDate>
                         </origin>
                         <provenance/>
-                        <acquisition>Purchased 1930 (acc.63142).</acquisition>
-                        <acquisition type="accrual"></acquisition>
+                        <acquisition>Purchased 1930.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
@@ -127,24 +116,16 @@
                             </recordHist>
                             <availability status="free">
                                 <p></p>
-                            </availability>
-                            <availability>
                                 <licence></licence>
                             </availability>
                             <custodialHist>
                                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                                <custEvent type="exhibition"></custEvent>
-                                <custEvent type="digitised">Digitised: </custEvent>
                                 <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent> 
+                                <custEvent type="digitised">Digitised: Yes</custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <surrogates></surrogates>
-                        <surrogates></surrogates>
                         <listBibl>
-                            <bibl></bibl>
-                        </listBibl>
-                        <listBibl>
-                            <bibl></bibl>
+                            <bibl/>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -169,12 +150,12 @@
                 <keywords scheme="#LCSH">
                     <list>
                         <item facs="">
-                            <term ref="subject_">
-                                <p>Formulas, recipes, etc.</p>
-                            </term>
+                            <term ref="subject_">Formulas, recipes, etc.</term>
                         </item>
                         <item facs="">
-                            <term ref="subject_"></term>
+                            <term ref="subject_">
+                                <p>Medicine, Traditional</p>
+                            </term>
                         </item>
                     </list>
                 </keywords>
@@ -189,7 +170,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-            <change when="2026-10-23" who="Maryam Bouteldja">Manual edits following automated Calm-TEI transformation</change>
+            <change when="2026-10-23" who="Jennifer Scott">Manual edits following automated Calm-TEI transformation</change>
         </revisionDesc>
     </teiHeader>
     <text>
