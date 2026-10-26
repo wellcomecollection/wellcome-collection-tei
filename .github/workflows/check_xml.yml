@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
     - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -15,6 +16,18 @@ jobs:
     steps:
       - name: "Check out the repo"
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
+      # Only check the files this change touched, so an error elsewhere in the
+      # repo doesn't fail every edit. Manual runs check everything.
       - name: "Check the XML files"
-        run: .github/workflows/check_xml.py
+        env:
+          BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ -z "$BASE" ] || ! git cat-file -e "$BASE^{commit}" 2>/dev/null; then
+            .github/workflows/check_xml.py
+          else
+            git diff --name-only -z --diff-filter=AMR "$BASE" HEAD -- '*.xml' \
+              | xargs -0 --no-run-if-empty .github/workflows/check_xml.py
+          fi
