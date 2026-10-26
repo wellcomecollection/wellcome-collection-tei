@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 """
-This script looks at every XML file in the repo, and checks whether it
-can be parsed as valid XML.  It also does some basic linting.
+This script checks whether XML files in the repo can be parsed as valid
+XML, and fails if any can't.  It also does some basic linting, which is
+reported as warnings.
+
+Pass file paths to check just those files (CI passes the ones a change
+touched); with no arguments it checks every file in the repo.
 
 This doesn't mean it can be parsed and used in the catalogue pipeline
 by the Digital Engagement team, but it's a useful first pass.
@@ -190,9 +194,19 @@ def check_keyword_ids(relpath, root, fullpath):
     return errors
 
 
-def check_documents_in_folder(repo_root):
+def annotate(level, relpath, message, *, line=None, col=None):
+    """Show a message against the file in the GitHub UI, when run in Actions."""
+    if os.environ.get("GITHUB_ACTIONS") != "true":
+        return
+    position = f",line={line},col={col}" if line else ""
+    print(f"::{level} file={relpath}{position}::{message}")
+
+
+def check_documents(repo_root, paths):
+    """Returns (parse errors, lint warnings) for the given files."""
     errors = 0
-    for fullpath in sorted(get_file_paths_under(repo_root, suffix=".xml")):
+    warnings = 0
+    for fullpath in sorted(paths):
         relpath = os.path.relpath(fullpath, start=repo_root)
         # Exclude a couple of paths that aren't actual TEI files
         if relpath.startswith(("Templates/", "docs/", ".", "venv")):
@@ -205,34 +219,62 @@ def check_documents_in_folder(repo_root):
             print(relpath)
 
             print(f"\tUnable to parse XML: {err}")
+            line, col = err.position
+            annotate(
+                "error", relpath, f"Unable to parse XML: {err}", line=line, col=col + 1
+            )
             errors += 1
             continue
 
-        errors += check_author_names(relpath, root, fullpath)
-        errors += check_manuscript_id(relpath, root)
-        errors += check_keyword_ids(relpath, root, fullpath)
-    return errors
+        try:
+            file_warnings = (
+                check_author_names(relpath, root, fullpath)
+                + check_manuscript_id(relpath, root)
+                + check_keyword_ids(relpath, root, fullpath)
+            )
+        # The lint rules assume elements that not every file has; don't let
+        # one odd file stop the run.
+        except Exception as err:
+            print("")
+            print(relpath)
+            print(f"\tLint rules could not run: {err!r}")
+            file_warnings = 1
+        if file_warnings:
+            annotate(
+                "warning",
+                relpath,
+                f"{file_warnings} lint warning(s); see the job log for details",
+            )
+        warnings += file_warnings
+    return errors, warnings
 
 
 def main():
-    errors = check_documents_in_folder(
-        (
-            subprocess.check_output(
-                [
-                    "git",
-                    "rev-parse",
-                    "--show-toplevel",
-                ]
-            )
-            .strip()
-            .decode("ascii")
-        )
+    repo_root = (
+        subprocess.check_output(["git", "rev-parse", "--show-toplevel"])
+        .strip()
+        .decode("ascii")
     )
+    if len(sys.argv) > 1:
+        paths = [
+            os.path.abspath(p)
+            for p in sys.argv[1:]
+            if p.lower().endswith(".xml") and os.path.isfile(p)
+        ]
+    else:
+        paths = get_file_paths_under(repo_root, suffix=".xml")
+
+    errors, warnings = check_documents(repo_root, paths)
+
+    if warnings:
+        print(
+            f"{BLUE}{warnings} lint warning{'s' if warnings > 1 else ''} found{RESET}"
+        )
     if errors == 0:
-        print(f"{GREEN}🎉 All files checked, no errors!{RESET}")
+        print(f"{GREEN}🎉 All files parsed, no errors!{RESET}")
     else:
         print(
-            f"{RED}⚠️ All files checked, {errors} error{'s' if errors > 0 else ''} found!{RESET}"
+            f"{RED}⚠️ {errors} file{'s' if errors > 1 else ''} could not be parsed as XML!{RESET}"
         )
         sys.exit(1)
 
