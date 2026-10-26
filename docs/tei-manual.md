@@ -144,9 +144,7 @@ Before we can delve into the particular groups of elements that together make up
 
 We can take [Wellcome Hebrew A1](https://github.com/wellcomecollection/wellcome-collection-tei/blob/master/Hebrew/Hebrew\_A\_1.xml) as our example and use the ‘grid’ function in Oxygen XML to study its structure.
 
-![A screenshot of a cell phone
-
-Description automatically generated](.gitbook/assets/1)
+![A screenshot of a cell phone. Description automatically generated](.gitbook/assets/1)
 
 Reading the grid from left to right, we see that the \<TEI> element contains three elements, \<teiHeader>, \<facsimile>, and \<text>. Of these three, \<teiHeader> contains two further elements, \<fileDesc> and \<revisionDesc>. (The two top rows of the right column contain information specific to the TEI namespace and the values of the file itself.)
 
@@ -170,9 +168,7 @@ For most projects, however, we will only need the two processing instructions gi
 
 ### \<titleStmt> <a href="#_toc51681878" id="_toc51681878"></a>
 
-![A screen shot of a smart phone
-
-Description automatically generated](.gitbook/assets/4)
+![A screen shot of a smart phone. Description automatically generated](.gitbook/assets/4)
 
 We use the \<titleStmt> to record the name of the file itself, and the names of the people who have worked on it.
 
@@ -192,9 +188,7 @@ The \<respStmt> element allows us to record the people who have worked on the in
 
 For instance, we often begin our work by entering cataloguing information about the manuscript from a legacy catalogue. In these cases, we want to record both the people involved with the cataloguing and the work of the encoders. Here is an example from [Wellcome MS Malay 5](https://github.com/wellcomecollection/wellcome-collection-tei/blob/master/Malay/Wellcome\_MS\_Malay\_5.xml):
 
-![A screenshot of a cell phone
-
-Description automatically generated](.gitbook/assets/7)
+![A screenshot of a cell phone. Description automatically generated](.gitbook/assets/7)
 
 In this example, the TEI encoder was working from three different catalogue entries for the same manuscript, done by different people at different times.
 
@@ -206,9 +200,7 @@ You can also record the date more precisely than just recording the year, but it
 
 The \<publicationStmt> element records information about the institution responsible for publishing the TEI file itself. As such, we can just use the information that is already entered into the template.
 
-![A screenshot of a cell phone
-
-Description automatically generated](.gitbook/assets/8)
+![A screenshot of a cell phone. Description automatically generated](.gitbook/assets/8)
 
 The only elements that need additional information here are the final two \<idno> elements. The one with the attribute ‘msID’ should contain the shelfmark or identifying title of the manuscript itself, while the ‘catalogue’ one should record the name of the catalogue from which the information is taken. If no catalogue is used, the element can be dropped. If multiple catalogues have been used, additional \<idno> elements with the “catalogue” attribute can be added. Below you can see an example of these elements in [Wellcome Malay 9](https://github.com/wellcomecollection/wellcome-collection-tei/blob/master/Malay/Wellcome\_MS\_Malay\_9.xml):
 
@@ -222,23 +214,17 @@ As you can see in the section on TEI file structure above, a major part of the f
 
 The \<msIdentifier> is, like the \<publicationStmt> another element with mostly prefilled data. The first half of it looks like this:
 
-![A picture containing bottle, blue
-
-Description automatically generated](.gitbook/assets/10)
+![A picture containing bottle, blue. Description automatically generated](.gitbook/assets/10)
 
 The final section, however, is important and must be approached with care. Its purpose is to record all of the identifiers attached to the manuscript. In the template, it looks like this:
 
-![A screenshot of a cell phone
-
-Description automatically generated](.gitbook/assets/11)
+![A screenshot of a cell phone. Description automatically generated](.gitbook/assets/11)
 
 As you can see, the default identifier, or \<idno>, is the “shelfmark”. This is the shelfmark number or identifier currently given to the manuscript.
 
 In the \<altIdentifier>, you can give any other identifiers available for the manuscript. These might include accession numbers, deprecated identifiers from earlier cataloguing work, and anything else. You can give any type value here. For instance, [MS Indic Beta 2183](https://github.com/wellcomecollection/wellcome-collection-tei/blob/master/Indic/Indic\_Beta\_2183.xml) gives both its current shelfmark and an alternative identifier from Professor Raghavan’s earlier cataloguing work on Wellcome’s South Asian manuscript collection:
 
-![A picture containing knife
-
-Description automatically generated](.gitbook/assets/12)
+![A picture containing knife. Description automatically generated](.gitbook/assets/12)
 
 As you can see, “Raghavan” has been given as the type value for the \<altIdentifier> element. You can add any kind of added identifier in this way.
 
@@ -246,9 +232,7 @@ As you can see, “Raghavan” has been given as the type value for the \<altIde
 
 Most important, however, is recording the Sierra number where this is available. It is done in exactly the same way as in the examples above. Here is how it’s given in [Hebrew A21](https://github.com/wellcomecollection/wellcome-collection-tei/blob/master/Hebrew/Hebrew\_A\_21.xml):
 
-![A picture containing knife
-
-Description automatically generated](.gitbook/assets/13)
+![A picture containing knife. Description automatically generated](.gitbook/assets/13)
 
 In many instances, we only have a dummy entry in Sierra while the core of the manuscript metadata is recorded in TEI. Recording the Sierra number in the \<msIdentifier> is crucial to link the two records.
 
@@ -307,9 +291,7 @@ The \<title> and \<author> elements give, as you would expect, the title and aut
 
 You can run a [VIAF](http://viaf.org/) search for the author and title, and if available there, give the VIAF-code in the following format from [Indic Alpha 1221](https://github.com/wellcomecollection/wellcome-collection-tei/blob/master/Indic/Indic\_Alpha\_1221.xml):
 
-![A close up of a sign
-
-Description automatically generated](.gitbook/assets/17)
+![A close up of a sign. Description automatically generated](.gitbook/assets/17)
 
 **textLang**
 
@@ -361,15 +343,11 @@ This is a simplified version of the [guide for applying transformation scenarios
 
 1: In Oxygen XML, go to Document > Transformation > Configure Transformation Scenario(s).
 
-![A screenshot of a cell phone
-
-Description automatically generated](.gitbook/assets/19)
+![A screenshot of a cell phone. Description automatically generated](.gitbook/assets/19)
 
 2: In the window that opens, click the ‘New’ button and choose ‘XML transformation with XSLT’.
 
-![A close up of a sign
-
-Description automatically generated](.gitbook/assets/20)
+![A close up of a sign. Description automatically generated](.gitbook/assets/20)
 
 3\. The following window opens. You can give your transformation scenario a name or leave it as the name of your file (this is the default).
 
