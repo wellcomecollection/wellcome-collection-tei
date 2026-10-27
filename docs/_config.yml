@@ -1,0 +1,10 @@
+# The GitBook test pages use tags Jekyll can't parse, which fails the Pages build.
+exclude:
+  - testing-and-drafting-space
+
+# Jekyll skips dot folders, but GitBook keeps the images in .gitbook/assets.
+include:
+  - .gitbook
+
+# Lets the layout include SUMMARY.md, GitBook's table of contents, as the sidebar.
+includes_dir: .
