@@ -208,8 +208,9 @@ def check_documents(repo_root, paths):
     warnings = 0
     for fullpath in sorted(paths):
         relpath = os.path.relpath(fullpath, start=repo_root)
-        # Exclude a couple of paths that aren't actual TEI files
-        if relpath.startswith(("Templates/", "docs/", ".", "venv")):
+        # Exclude a couple of paths that aren't actual TEI files, and the
+        # Fihrist copies, which the catalogue pipeline doesn't read either
+        if relpath.startswith(("Templates/", "docs/", ".", "venv", "Arabic/Fihrist/")):
             continue
 
         try:
