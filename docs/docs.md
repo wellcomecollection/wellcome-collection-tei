@@ -1,10 +1,7 @@
 # Wellcome Collection TEI Manual and Documentation
 
-This folder contains the most up-to-date version of the _Manual for TEI at Wellcome Collection_ in PDF format.
+The _Manual for TEI at Wellcome Collection_ is an out-of-the-box introduction to TEI for manuscript cataloguing at Wellcome Collection. It isn't meant to be a detailed introduction to the msDesc schema.
 
-The manual is not meant to be a detailed introduction to the msDesc schema, but rather an out-of-the-box introduction to TEI for manuscript cataloguing at Wellcome Collection.
-
-Earlier versions are stored in the OldVersions folder.
-
-For GitBook readers, the link to the PDF of the manual is [here](TEI_Manual_2020_V1.pdf).
-
+* [Download the TEI Manual (PDF)](TEI_Manual_2020_V1.pdf)
+* Read it online on the [TEI Manual](tei-manual.md) page
+* Earlier versions of the manual are in the [OldVersions folder on GitHub](https://github.com/wellcomecollection/wellcome-collection-tei/tree/main/docs/OldVersions)

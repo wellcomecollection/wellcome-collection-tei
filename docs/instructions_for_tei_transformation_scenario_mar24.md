@@ -1,4 +1,4 @@
-# Instructions\_for\_TEI\_transformation\_scenario\_Mar24
+# Setting up the Calm transformation scenario in oXygen
 
 **Guide to setting up and applying XML transformation scenario for manuscript records exported from CALM**
 
@@ -8,7 +8,7 @@ This guide explains how to:
 2. Set up the transformation scenario in Oxygen XML Editor to transform these files using the TEI template;
 3. Apply the transformation scenario to create TEI files ready for editing.
 
-First, download the XSL stylesheet from the ‘transcribed-manuscripts’ folder in GitHub and save this on your computer in a convenient location.
+First, download the XSL stylesheet for your manuscripts from GitHub (MSTransformationMASTER.xsl in the ‘Templates’ folder, or SpanishMSTransformation.xsl in ‘Spanish/Transformation’ for the Spanish manuscripts) and save this on your computer in a convenient location.
 
 ![](.gitbook/assets/0.png)
 
