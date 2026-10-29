@@ -13,6 +13,10 @@
       .site-nav ul ul { padding-left: 1em; }
       .site-nav li { margin: 0.35em 0; }
       .site-nav a { overflow-wrap: anywhere; }
+      .page-description { font-size: 18px; color: #586069; }
+      .page-outline { border-left: 3px solid #eaecef; padding-left: 1em; margin-bottom: 2em; }
+      .page-outline ul { list-style: none; padding-left: 0; }
+      .page-outline .level-3 { padding-left: 1em; }
       .site-title { font-size: 24px; font-weight: 600; padding-bottom: 0.3em; margin-bottom: 1em; border-bottom: 1px solid #eaecef; }
       .site-nav a.current { font-weight: 600; color: #24292e; }
       @media (min-width: 768px) {
@@ -38,7 +42,14 @@
           {{ nav | replace: current, current_marked }}
         </nav>
         <main class="markdown-body col-md-9">
-          {{ content }}
+          {% comment %} GitBook shows the front matter description under the title, so do the same here. {% endcomment %}
+          {% if page.description %}
+            {% capture description_html %}</h1>
+<p class="page-description">{{ page.description | escape }}</p>{% endcapture %}
+            {{ content | replace_first: "</h1>", description_html }}
+          {% else %}
+            {{ content }}
+          {% endif %}
 
           {% if site.github.private != true and site.github.license %}
           <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
@@ -49,6 +60,29 @@
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
+    <script>
+      anchors.add();
+      // GitBook shows an outline of each page; build one for long pages here.
+      (function () {
+        var main = document.querySelector("main");
+        var headings = main.querySelectorAll("h2[id], h3[id]");
+        if (headings.length < 4) return;
+        var nav = document.createElement("nav");
+        nav.className = "page-outline";
+        nav.innerHTML = "<strong>On this page</strong><ul></ul>";
+        var list = nav.querySelector("ul");
+        headings.forEach(function (h) {
+          var item = document.createElement("li");
+          item.className = "level-" + h.tagName.charAt(1);
+          var link = document.createElement("a");
+          link.href = "#" + h.id;
+          link.textContent = h.textContent.trim();
+          item.appendChild(link);
+          list.appendChild(item);
+        });
+        var after = main.querySelector(".page-description") || main.querySelector("h1");
+        after.insertAdjacentElement("afterend", nav);
+      })();
+    </script>
   </body>
 </html>
