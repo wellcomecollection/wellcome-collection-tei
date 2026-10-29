@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Amer_47">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS Amer 47</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RP">
+               <resp when="1983">Cataloguer</resp>
+               <persName>Robin Price</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2022">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2022-07-22">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS Amer 47</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="shelfmark">WMS/Amer.47</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b18967048</idno>
+                  </altIdentifier>        
+                  <altIdentifier type="CalmRef">
+                     <idno>MSAmer47</idno>
+                  </altIdentifier>
+                  <altIdentifier type="PublicRef">
+                     <idno>WMS/Amer.44</idno>
+                  </altIdentifier>
+                  <altIdentifier type="CalmID">
+                     <idno>827a7bce-b5d5-43ef-bbe2-615ff51427ad</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  <summary>Metodo curativo de las viruellas [sic] del año de 1830. Y asegundo para este ano de 1840. Y es como sigue.  
+                      Nine simple remedies and a poultice for the 4 stages of early symptoms, eruption,
+                     suppuration and drying of the pustules, with notes on general treatment, and brief descriptions of the stages of smallpox.  
+                     The text does not follow any known printed source, of which the most characteristic is M. Muñoz, Método sencillo, claro y facil de asistir a los niños en la actual epidemia 
+                     de viruelas naturales, Mexico, T. Uribe y Alcalde, 1830, twice reprinted in San Luis Potosí in the same year.  
+                     In the same hand and from the same collection of remedies as WMS/Amer.48, 54 and 55 with which it was originally bound; 
+                     and possibly also associated with one leaf of WMS/Amer.15. Perhaps from the remedy book of an hacienda.</summary>
+                 
+                  
+                  <textLang mainLang="es" source="IANA">Spanish</textLang>
+                  
+                  <msItem n="1" xml:id="MS_Amer_47_1">  
+                     
+                     <author key="">Cardoso (fl. 1830-1840)</author>
+                                        
+                     <title xml:lang="es" type="original " key="">Metodo curativo de las viruellas [sic] del año de 1830. Y asegundo para este ano de 1840</title>
+                     
+             
+                     
+                     <textLang otherLangs="en" source="IANA">English</textLang>     
+                     
+                                                      
+                     <filiation>possibly also associated with one leaf of WMS. Amer. 15 [RECETAS]. </filiation>
+                  
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper"><support/>                        
+                        <extent>Ff.i-v (i.e. 511.). 
+                           <dimensions unit="cm" type="leaf">
+                              <dim type="width">15.5 cm</dim>
+                              <dim type="length">21.5 cm</dim>
+                           </dimensions>
+                        </extent>
+                        
+                                               
+                                           
+                        <collation>
+                           <formula><!-- Use to record the quire structure of the manuscript, if available --></formula>
+                           <signatures><!-- Use to record quire signatures, if available --></signatures>
+                        </collation>
+                        
+                        <condition><p>heavily stained</p></condition>
+                        
+                                                
+                     </supportDesc>
+                     
+                                    
+                  </objectDesc>
+                  
+                  <handDesc>
+                     <handNote>In the same hand and from the same collection of remedies as WMSS. Amer. 48
+                        NOMBRE, 54 [CARDOSO] and 55 [ESCAYOLA) with which it was originally bound</handNote>
+                  </handDesc>
+                  
+                                
+                  <bindingDesc>
+                     <binding>
+                     <p>Unbound</p>
+                     </binding>                   
+                   
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>[Amozoc de Mota, Puebla, Mexico]</country>
+                        <region>North America</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">1840</origDate>
+                  </origin>  
+                  <provenance>Formerly part of the Guerra Collection</provenance>
+                  <acquisition>Purchased 1962.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>An Annotated Catalogue of Medical Americana in the Library of the Wellcome Institute for the History of Medicine</title>
+                              <author>Robin Price</author>
+                              <placeName>London</placeName>
+                              <publisher>Wellcome Institute for the History of Medicine</publisher>
+                              <date>1983</date>
+                              <note>p. 204</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     <availability status="free">
+                        <p></p>
+                        <licence></licence>
+                     </availability>
+                     
+                     <custodialHist>
+                        <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                     </custodialHist>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-09-22"></change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
