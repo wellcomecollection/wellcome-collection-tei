@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_105">
   <teiHeader>
     <fileDesc>
@@ -47,7 +44,7 @@
               <idno>59562</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
               <idno>352ca866-a873-440c-a0fd-87cecb89f91c</idno>
@@ -58,10 +55,11 @@
           </msIdentifier>
           <msContents>
             <summary>Collection of medical and pharmacological treatises, relating to general medical rules, food and drink, treatment of fevers and other diseases, and the preparation and properties of simple and compound drugs from plants and animals, preceded by a table of contents and the prologue from Avicenna, Liber medicinalis or Canon medicinae, and followed by a Compendium de regimine sanitatis [Salernitano]
+              Secundo folio: Capitulum primum de vtilitate medicine.
             </summary>
-            <textLang mainLang="" source="IANA">Latin</textLang>
+            <textLang mainLang="la" source="IANA">Latin</textLang>
             <msItem n="1" xml:id="MS_105_1">
-              <author/>
+              <author></author>
               <title type="original">Collection of medical and pharmacological treatises</title>
               <textLang mainLang="la" source="IANA">Latin</textLang>
               <note>
@@ -96,7 +94,7 @@
             <objectDesc form="codex">
               <supportDesc material="paper">
                 <support><watermark>Watermarks including: 1. bull head with nostrils and eyes, surmounted by star consisting of two on one-line wire (f. 1: height: 66 mm; width: c. 37 mm; chainlines: 56 mm), a common watermark in the early 1430s in Germany, with no exact match in Piccard but similarities with Piccard nos 76046 (Frankfurt 1432), 76047 (Jülich, Herzogtum 1432), 76049 (Marienburg 1432), and 76340 (Esslingen 1433 and 1434); 2. bull head without nostrils or eyes, surmounted by seven-petal flower on one-line wire (f. 106: height: 107 mm; width: 40 mm, chainlines: 40 mm), similar to Piccard nos 63047 (Braunschweig 1431) and 63059 (Rothenburg ob der Tauber 1434); other watermarks difficult to detect.</watermark></support>
-                <extent>108 leaves. Secundo folio: Capitulum primum de vtilitate medicine.
+                <extent>108 leaves.
                 <dimensions type="leaf" unit="mm">
                   <dim type="width">215 mm</dim>
                   <dim type="length">319</dim>
@@ -104,13 +102,13 @@
                   <dim type="width">142</dim>
                   <dim type="length">212-221</dim></dimensions>
               </extent>
-                <foliation>108 leaves, with 15th-century foliation '1-20' in red ink (ff. 5-25) and '21-96' in dark brown ink (ff. 6-101), continued by modern foliation '102-108' in pencil; ff. 106v-107r blank. </foliation>
-                <collation>Collation: 1[sup]14-1[/sup] (wanting xiv), 2-8[sup]12[/sup], 9[sup]12-1[/sup] (wanting x); horizontal catchwords in lower right corner of lower margin of last verso of quires; no traces of quire signatures.</collation>
+                <foliation>15th-century foliation '1-20' in red ink (ff. 5-25) and '21-96' in dark brown ink (ff. 6-101), continued by modern foliation '102-108' in pencil; ff. 106v-107r blank. </foliation>
+                <collation>1[sup]14-1[/sup] (wanting xiv), 2-8[sup]12[/sup], 9[sup]12-1[/sup] (wanting x); horizontal catchwords in lower right corner of lower margin of last verso of quires; no traces of quire signatures.</collation>
                 <condition><p/><p/><p/><p/></condition>
               </supportDesc>
               <layoutDesc>
-                <layout writtenLines="49">
-                  <note>ruled in ink in two columns for single vertical and horizontal bounding lines only, no ruling for horizontal written lines, the first of which written below the upper ruled line, 33 to 49 written lines to a column.</note>
+                <layout writtenLines="49" columns="2">
+                  <note>Ruled in ink in two columns for single vertical and horizontal bounding lines only, no ruling for horizontal written lines, the first of which written below the upper ruled line, 33 to 49 written lines to a column.</note>
                 </layout>
               </layoutDesc>
             </objectDesc>
@@ -120,7 +118,6 @@
             </handDesc>
             <decoDesc>
               <decoNote type="rubrication">Two- to seven-line initials in alternating red and blue throughout, occasionally with pen-flourished decoration (see f. 40v) or with descenders extending into the margin; other initials touched in red throughout. Guide letters provided by scribes at left of dedicated spaces.</decoNote>
-              <decoNote type="illustration"/>
             </decoDesc>
             <additions><p>A few marginal annotations and addition of titles in grey ink by an early reader in cursive Gothic script, 15th century.</p></additions>
             <bindingDesc>
@@ -152,12 +149,11 @@
                 </source>
               </recordHist>
               <availability status="free">
-                <licence/>
+                <licence></licence>
               </availability>
               <custodialHist>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="cataloguing">S.A.J. Moorat, Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library (London: Wellcome Institute for the History of Medicine, 1962-1973), vol. 1, pp. 69-70. Description  revised and enhanced by Laura Nuvoloni in 2016 based on the compiler's own research.</custEvent>
-                <custEvent type="exhibition"/>
                 <custEvent type="digitised">Digitised: Yes</custEvent>
               </custodialHist>
             </adminInfo>
@@ -230,7 +226,7 @@
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>

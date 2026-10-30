@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_103">
   <teiHeader>
     <fileDesc>
@@ -47,7 +44,7 @@
               <idno>24848</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
               <idno>5621cf51-c951-4605-bffd-ce3cdc036d92</idno>
@@ -57,15 +54,13 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>De principiis naturae</summary>
+            <summary>De principiis naturae.
+              Petrus Aureoli was a Franciscan, who wrote this work in 1312. He was a Doctor of Philosophy at Paris University in 1318, and became Bishop of Aix-en-Provence a year before his death. This treatise is an 'account of Nature in terms of Matter and Form'. [Cf. Sarton 'Introduction to the History of Science', Vol. III, Part I, pp. 528, 529].</summary>
             <textLang mainLang="la" source="IANA">Latin</textLang>
             <msItem n="1" xml:id="MS_103_1">
               <author>Aureoli, Petrus, -1322</author>
               <title type="original">De principiis naturae</title>
-              <title type="standard"/>
               <textLang mainLang="la" source="IANA">Latin</textLang>
-              <note>An 18th cent. owner has written in the upper margin of the first leaf 'Blondi Guilelmus. De Materia et forma accidentibus', and this mistake is repeated in the title on the spine.</note>
-              <filiation>Petrus Aureoli was a Franciscan, who wrote this work in 1312. He was a Doctor of Philosophy at Paris University in 1318, and became Bishop of Aix-en-Provence a year before his death. This treatise is an 'account of Nature in terms of Matter and Form'. [Cf. Sarton 'Introduction to the History of Science', Vol. III, Part I, pp. 528, 529].</filiation>
               <incipit>Fol. I, col. I [P]Rincipiorum notitia quan / tum sit efficax ex nature ipsius scrutatione ueritatis do / cet philosophus...</incipit>
               <explicit>62v, col. 2 operationes proprie et virtus alterius speciei. / (red) Iste liber scriptus qui scripsit sit benedictus / Blondi guillelmus [sic] in secula sit benedictus.</explicit>
             </msItem>
@@ -73,15 +68,12 @@
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="vellum">
-                <support><watermark/></support>
                 <extent>62 ll. folio. 
                   <dimensions type="leaf" unit="cm">
                     <dim type="width">19.5 cm</dim>
                     <dim type="length">28.5 cm</dim></dimensions>
                 </extent>
-                <foliation/>
-                <collation/>
-                <condition><p/><p/><p/><p/></condition></supportDesc>
+              </supportDesc>
               <layoutDesc>
                 <layout writtenLines="40">
                   <note>Written in double column of 38-40 lines to a column.</note>
@@ -89,11 +81,10 @@
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scope="sole">Written in a clear gothic script</handNote>
+              <handNote script="gothic">Written in a clear gothic script</handNote>
             </handDesc>
             <decoDesc>
-              <decoNote type="rubrication">Paragraph marks, headings, some initials, and the Index in red.</decoNote>
-              <decoNote type="illustration"/>
+              <decoNote type="rubrication">Paragraph marks, headings, some initials, and the Index in red.</decoNote>            
             </decoDesc>
             <additions/>
             <bindingDesc>
@@ -106,7 +97,7 @@
             <origin>
               <origDate>Mid 14th Century</origDate>
             </origin>
-            <provenance/>
+            <provenance>An 18th cent. owner has written in the upper margin of the first leaf 'Blondi Guilelmus. De Materia et forma accidentibus', and this mistake is repeated in the title on the spine.</provenance>
             <acquisition>Purchased 1910 (accession number 24848).</acquisition>
           </history>
           <additional>
@@ -128,7 +119,6 @@
               <custodialHist>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
-                <custEvent type="exhibition"/>
                 <custEvent type="digitised">Digitised: Yes</custEvent>
               </custodialHist>
             </adminInfo>
@@ -170,7 +160,7 @@
         <keywords scheme="#LCSH">
           <list>
             <item facs="">
-              <term ref="subject_"/>
+              <term ref="subject_"></term>
             </item>
           </list>
         </keywords>
@@ -183,7 +173,7 @@
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>
