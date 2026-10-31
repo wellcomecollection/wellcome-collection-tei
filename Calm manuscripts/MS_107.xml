@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_107">
   <teiHeader>
     <fileDesc>
@@ -47,7 +44,7 @@
               <idno>68081</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
               <idno>eb6b8368-f312-4683-b459-ef712326554f</idno>
@@ -57,16 +54,16 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Wahrhafftiger unnd Gründlicher bericht der Zweier Vniuersal Tincturen zu Transmutiren d$ vnuolkommenen Metalla in die perfection, das ist in $ und $ darmit sie ewig fix und bestendig in den 4 Haubtproben bleiben und bestehen mugen. Auch zuuertreiben allerley kranckheiten der menschen, und dargegen zuerhalten derselben gesundheit ...</summary>
+            <summary>A composite manuscript of multiple works. 
+              The first work appears to be about transmuting imperfect metals: Wahrhafftiger unnd Gründlicher bericht der Zweier Vniuersal Tincturen zu Transmutiren d$ vnuolkommenen Metalla in die perfection, das ist in $ und $ darmit sie ewig fix und bestendig in den 4 Haubtproben bleiben und bestehen mugen. Auch zuuertreiben allerley kranckheiten der menschen, und dargegen zuerhalten derselben gesundheit ...
+              After the main text is a section headed 'Ignem perpetuum oder ein ewiges Liecht zu machen' and a final section 'Lapis philosophorum seu via universalis a Johanne de Sole'. In both of these the substances used are written in a numerical cypher.
+              <note>The MS. is in the form of a note-book of the 'Liber amicorum' type. One leaf is dated 1572, another bears the initials 'E.B.V.S.', and another 'MS.'</note>
+            </summary>
             <textLang mainLang="de" source="IANA">German</textLang>
             <msItem n="1" xml:id="MS_107_1">
-              <author/>
-              <title type="original">B., C.</title>
-              <title type="standard"/>
+              <author></author>
+              <title type="standard">Collection of works on alchemy</title>
               <textLang mainLang="" source="IANA">German</textLang>
-              <note>After the main text is a section headed 'Ignem perpetuum oder ein ewiges Liecht zu machen' and a final section 'Lapis philosophorum seu via universalis a Johanne de Sole'. In both of these the substances used are written in a numerical cypher.</note>
-              <note>The MS. is in the form of a note-book of the 'Liber amicorum' type. One leaf is dated 1572, another bears the initials 'E.B.V.S.', and another 'MS.'</note>
-              <filiation/>
             </msItem>
           </msContents>
           <physDesc>
@@ -78,14 +75,12 @@
                     <dim type="width">10 cm</dim>
                     <dim type="length">14.5 cm</dim>
                   </dimensions>
-                  <dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions>
-                </extent><foliation/><collation/><condition><p/><p/><p/><p/></condition></supportDesc>
+                </extent>
+              </supportDesc>
             </objectDesc>
             <decoDesc>
               <decoNote type="marginal">Each leaf has an ornamental border of which there are eight varieties. </decoNote>
-              <decoNote type="illustration"/>
             </decoDesc>
-            <additions/>
             <bindingDesc>
               <binding>
                 <p>Original stamped vellum binding: the upper cover stamped C.B. 1588, and small stamp of the Crucifixion in-between: the latter only, in two impressions, one sideways, on the lower cover. Remains of two green silk ties.</p>
@@ -166,7 +161,7 @@
         <keywords scheme="#MeSH">
           <list>
             <item facs="">
-              <term ref="subject_"/>
+              <term ref="subject_"></term>
                 <p>Alchemy</p>
             </item>
           </list>
@@ -180,7 +175,7 @@
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>

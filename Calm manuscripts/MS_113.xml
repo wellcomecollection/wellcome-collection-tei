@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"type="application/xml"schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_112">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_113">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>MS_112</title>
+                <title>MS_113</title>
                 <title type="collection">Wellcome Collection</title>
                 <respStmt xml:id="SM">
                     <resp when="1973">Cataloguer</resp>
@@ -27,7 +27,7 @@
                 <distributor>
                     <email>library@wellcome.org</email>
                 </distributor>
-                <idno type="msID">MS.112</idno>
+                <idno type="msID">MS.113</idno>
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
@@ -36,82 +36,56 @@
                         <settlement>London</settlement>
                         <institution>Wellcome Collection</institution>
                         <repository>Wellcome Library</repository>
-                        <idno type="shelfmark">MS.112</idno>
+                        <idno type="shelfmark">MS.113</idno>
                         <altIdentifier type="CalmRef">
-                            <idno>MS112</idno>
+                            <idno>MS113</idno>
                         </altIdentifier>
                         <altIdentifier type="accession">
-                            <idno>69453</idno>
-                        </altIdentifier>
-                        <altIdentifier type="previous">
-                            <idno></idno>
+                            <idno>56411</idno>
                         </altIdentifier>
                         <altIdentifier type="CalmID">
-                            <idno>1f4fdda5-490b-41b7-b412-6bd9aab9236d</idno>
+                            <idno>c61f2ed5-4df5-47ec-80c1-f0a4e6280922</idno>
                         </altIdentifier>
                         <altIdentifier type="Sierra">
-                            <idno>b19335052</idno>
+                            <idno>b19370738</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary>Opus de febribus. This is the Author's holograph MS. of his unpublished work on fevers. The date 1595 appears on fol. 147v, at the third line from the bottom of the page: 'quod hoc anno experimento cognitum est Perusiae, annus enim iste 1595'. Produced in Perugia.</summary>
-                        <textLang mainLang="la" source="IANA">Latin</textLang>
-                        <msItem n="1" xml:id="MS_112_1">
-                            <author>Giovanni Battista Baffi, ( - 1596)</author>
-                            <title type="original">Opus de febribus.</title>
-                            <title type="standard"></title>
-                            <textLang mainLang="la" source="IANA">Latin</textLang>
-                            <filiation></filiation>
+                        <summary>Wündt Artznei Buechel ... Sambt ainem Anthidotarium: Simplici: aller nottwendigen Püncten gantzer Wündtartznei: dar zu gesetzt: als einen Anfang oder Schüellrecht.</summary>
+                        <textLang mainLang="de" source="IANA">German</textLang>
+                        <msItem n="1" xml:id="MS_113_1">
+                            <author>Bagasser, Leonhardt</author>
+                            <title type="original">Wündt Artznei Buechel ...</title>
+                            <textLang mainLang="de" source="IANA">German</textLang>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="paper">
-                                <extent>136 ff.+79 bl. ll. folio.
+                                <extent>4 ll. (last 2 bl.).+265 ll. 8vo.
                                     <dimensions type="leaf" unit="cm">
-                                        <dim type="width">22 cm</dim>
-                                        <dim type="length">31.5 cm</dim>
-                                    </dimensions>
-                                    <dimensions type="written" unit="cm">
-                                        <dim type="width"></dim>
-                                        <dim type="length"></dim>
+                                        <dim type="width">10 cm</dim>
+                                        <dim type="length">14.5 cm</dim>
                                     </dimensions>
                                 </extent>
-                                <foliation></foliation>
-                                <collation></collation>
-                                <condition></condition>
-                                <support>
-                                    <watermark></watermark>
-                                </support>
                             </supportDesc>
-                            <layoutDesc>
-                                <layout writtenLines="">
-                                    <note></note>
-                                </layout>
-                            </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <handNote script=""></handNote>
-                        </handDesc>
                         <decoDesc>
-                            <decoNote type="marginal"></decoNote>
-                            <decoNote type="illustration"></decoNote>
+                            <decoNote type="rubrication">Some headings and the general title in red.</decoNote>
                         </decoDesc>
-                        <additions></additions>
                         <bindingDesc>
                             <binding>
-                                <p>Original vellum binding.</p>
+                                <p>Original stamped-calf binding over wooden boards, one of two metal clasps, wanting: eight brass corner-pieces.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origDate>1595</origDate>
-                            <origPlace>Perugia</origPlace>
+                            <origDate>1570-1572</origDate>
+                                <note>The date on the title and elsewhere is 1570, but the end of the Preface to the Reader is dated [15]72.</note>
                         </origin>
-                        <provenance>On the inside of the lower cover is the signature 'Lucullo Baffi medico', son of the Author, also a physician as well as a poet of Perugia, who died in 1634.</provenance>
-                        <acquisition>Purchased 1936.</acquisition>
-                        <acquisition type="accrual"></acquisition>
+                        <provenance>On the 5th leaf from the end is an inscription by Ellias Klar dated 1637, stating that he has copied this MS. for his own use. Inside the lower cover 'Dises 1656 Jars ist mier disser Wündt artzney von der Maria Klarin geschenckt worden zu Doblicz David Kowail [?] Medicus [?]'. Below the inscription by Ellias Klar is another signed by David Kowail [?] dated 1658. On the tenth leaf before the end is the name of Joseph Haber of Huisheim in an early 18th cent. hand; on the verso of the first preliminary leaf 'Mathias Millar in Huisheim 1718', and on the next leaf 'Mathias Mollindar in Huisheim 1719' Inside the upper cover 'Johan Michael Hage[?] in Huishaimb 1739'.</provenance>
+                        <acquisition>Purchased 1930.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
@@ -127,20 +101,14 @@
                                 </source>
                             </recordHist>
                             <availability status="free">
-                            </availability>
-                            <availability>
                                 <licence></licence>
                             </availability>
                             <custodialHist>
                                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, <i>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</i> (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                                <custEvent type="exhibition"/>
                                 <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates></surrogates>
-                        <listBibl>
-                            <bibl></bibl>
-                        </listBibl>
                         <listBibl>
                             <bibl></bibl>
                         </listBibl>
@@ -168,7 +136,22 @@
                     <list>
                         <item facs="">
                             <term ref="subject_">
-                                <p>Fever</p>
+                                <p>Surgery</p>
+                            </term>
+                        </item>
+                        <item facs="">
+                            <term ref="subject_">
+                                <p>Antidotes</p>
+                            </term>
+                        </item>
+                        <item facs="">
+                            <term ref="subject_">
+                                <p>Medicine, Traditional</p>
+                            </term>
+                        </item>
+                        <item facs="">
+                            <term ref="subject_">
+                                <p>Formulas, recipes, etc.</p>
                             </term>
                         </item>
                     </list>
@@ -176,7 +159,7 @@
                 <keywords scheme="#MeSH">
                     <list>
                         <item facs="">
-                            <term ref="subject_"/>
+                            <term ref="subject_"></term>
                         </item>
                     </list>
                 </keywords>
