@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_132">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_132</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="JE">
+          <resp when="2014-09-25">Calm encoder</resp>
+          <persName>EdgeJ</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.132</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.132</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS132</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>21256</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno></idno>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>668ebcb2-e5e6-4981-a3ef-b63fc1a287cb</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19309296</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>This manuscript consists of two distinct works; "Bestiary" and "Fiore de virtu".</summary>
+            <textLang mainLang="it" source="IANA">Italian</textLang>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="paper">
+                <extent>58 [61 ]ff. 
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width"></dim>
+                    <dim type="length"></dim>
+                  </dimensions>
+                </extent>
+                <condition><p>Folios 8, 9, 19, and the end of the second work are wanting. The last leaf is damaged.</p></condition>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote script="semi-current">Written in a somewhat difficult current hand.</handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="illustration">Ilustrated with 83 crude water-colour drawings of animals.</decoNote>
+              <decoNote type="rubrications">Headings are in red.</decoNote>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>17th century boards.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Middle 15th century</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1908.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p></p>
+                <licence></licence>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Catalogue description modified in 2014. For original description, see S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <listBibl>
+              <bibl></bibl>
+            </listBibl>
+          </additional>
+          <msPart n="1" xml:id="MS_132_1">
+            <msIdentifier>
+              <idno>MS.132 part 1</idno>
+            </msIdentifier>
+            <msContents>
+              <summary></summary>
+              <msItem xml:id="MS_132_1_1">
+                <author></author>
+                <title type="original">Bestiary</title>
+                <textLang mainLang="it" source="IANA">Italian</textLang>
+                <incipit>f. 1r Delli singniori tutte le chose li quali gli uomini del mondo sanno e possono sapere ... </incipit>
+                <explicit>f.36v ... cogli altri eletti de esso nostro singnore iddio lo quale chol suo figluolo e chollo spirito santo vive e rengne per infinite secula sechulorum Amen. Deo Gratias.</explicit>
+              </msItem>
+            </msContents>
+            
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <extent>ff. 1r-36v</extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msPart>
+          
+          <msPart n="2" xml:id="MS_132_2">
+            <msIdentifier>
+              <idno>MS.132 part 2</idno>
+            </msIdentifier>
+            <msContents>
+              <summary>This version is incomplete.</summary>
+              <msItem xml:id="MS_110_2_1">
+                <author></author>
+                <title type="original">Fiore de virtu</title>
+                <textLang mainLang="it" source="IANA">Italian</textLang>
+                <incipit>f. 36v Ho fatto chome cholui chi e in uno grandisimo prato di fiori elegi tutti li piu belli per fare una girlanda e pero voglio the questo mio picholo lavoro abi nome fiore di virtu. A]more binivolenzia e dilicazione ...</incipit>
+                <explicit>f. 61v ... la terza sia intesso quando luomo giace chon una sua parente ...</explicit>
+              </msItem>
+            </msContents>
+            
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <extent>ff. 36v-61v</extent>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+          </msPart>
+          
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Zoology</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Ethics</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Bestiaries</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"></term>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="2026-11-04" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p></p>
+    </body>
+  </text>
+</TEI>
