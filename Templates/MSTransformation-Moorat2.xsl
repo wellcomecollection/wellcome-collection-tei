@@ -226,6 +226,7 @@
                             <physDesc>
                                 <objectDesc form="codex">
                                     <supportDesc material=""><xsl:value-of select="/DScribeRecord/Extent"/>
+                                    <support><watermark></watermark></support>    
                                     <extent><xsl:value-of select="/DScribeRecord/UserWrapped6"/>
                                         <dimensions type="leaf" unit="cm">
                                             <dim type="width"></dim>
@@ -240,17 +241,14 @@
                                         <foliation><!-- delete if not required --></foliation>
                                         
                                         <collation>
-                                            <xsl:value-of select="/DScribeDatabase/DScribeRecord/Arrangement"/>
+                                            <xsl:value-of select="/DScribeRecord/Arrangement"/>
                                         </collation>
                                         
-                                        <condition><p><xsl:value-of select="/DScribeDatabase/DScribeRecord/UserWrapped6"/></p>
+                                        <condition>
                                             <p><xsl:value-of select="/DScribeRecord/Condition"/></p>
                                             <p><xsl:value-of select="/DScribeRecord/ConditionNote"/></p>
                                             <p><xsl:value-of select="/DScribeRecord/UserWrapped2"/></p>
                                         </condition>
-                                        <support>
-                                            <watermark><!-- delete if not required --></watermark>
-                                        </support>
                                     </supportDesc>
                                     
                                     <layoutDesc>
