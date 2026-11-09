@@ -1,21 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_176">
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_175">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MS_176</title>
+        <title>MS_175</title>
         <title type="collection">Wellcome Collection</title>
         <respStmt xml:id="SM">
           <resp when="1973">Cataloguer</resp>
           <persName>S. A. J. Moorat</persName>
         </respStmt>
-        <respStmt xml:id="RM">
-          <resp when="2002-10-08">Calm encoder</resp>
-          <persName>Macfarlr</persName>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -30,7 +27,7 @@
         <distributor>
           <email>library@wellcome.org</email>
         </distributor>
-        <idno type="msID">MS.176</idno>
+        <idno type="msID">MS.175</idno>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
@@ -39,75 +36,69 @@
             <settlement>London</settlement>
             <institution>Wellcome Collection</institution>
             <repository>Wellcome Library</repository>
-            <idno type="shelfmark">MS.176</idno>
+            <idno type="shelfmark">MS.175</idno>
             <altIdentifier type="CalmRef">
-              <idno>MS176</idno>
+              <idno>MS175</idno>
             </altIdentifier>
             <altIdentifier type="accession">
-              <idno>57464 (3)</idno>
+              <idno>30820</idno>
             </altIdentifier>
             <altIdentifier type="previous">
               <idno/>
             </altIdentifier>
             <altIdentifier type="CalmID">
-              <idno>2c310d9c-044c-4e51-ba84-9982d581675a</idno>
+              <idno>9b9a6f32-607f-4d6d-a689-67e43cb4da8b</idno>
             </altIdentifier>
             <altIdentifier type="Sierra">
-              <idno>b19057313</idno>
+              <idno>b19096550</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Aforismi astrologici: in Italian and Latin. </summary>
-            <textLang mainLang="it" source="IANA">Italian</textLang>
-            <msItem n="1" xml:id="MS_176_1">
-              <author>Capello, Daniele Antonio Felice</author>
-              <title type="original">Capello, Daniele Antonio Felice</title>
-              <title type="standard"/>
-              <textLang mainLang="it" source="IANA">Italian</textLang>
+            <summary>Liber de curis omnium</summary>
+            <textLang mainLang="la" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_175_1">
+              <author>Pseudo-Canamusali</author>
+              <title type="original">Liber de curis omnium</title>
               <textLang mainLang="la" source="IANA">Latin</textLang>
-              <filiation/>
-              <filiation/>
+              <note>The compiler of this work appears to have been David Armenicus who lived in South Italy, probably in the 12th century. It is based on, but not a translation of, Canamusali's treatise. Sarton in his 'Introduction to the History of Science', Vol. 1, p. 729, describes it as 'a crude forgery'. A version of it was first printed with the 'Chirurgia' of Guy de Chauliac at Venice in 1499 (B.M.C. v. 575), and a MS. copy was edited by P. Pansier in his 'Collectio ophthalmologica veterum auctorum', Fasc. IV. Paris, 1904.</note>
+              <note>The MS. ends in the middle of the receipt for the 12th collyrium, in Book V: the complete work is in seven books.</note>
+              <incipit>Fol. 1 (red) Assit principo Virgo maria meo. Amen./Incipit liber accanamusay de baldach translatus a magistro W[ilhelmo] a[nglico] medico/de arabico in latino/[D]Ycit [sic] acanamusay translator huius libri [de] infirmitate oculorum/secundum G[alienum] sunt C. de V... 12v ...commi/sce et duc simul satis et obtura ampullam et pone ad solem/</incipit>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg"><extent>128 ll. (last bl.). 4to
+              <supportDesc material="perg"><extent>12 ll. 4to.
                 <dimensions type="leaf" unit="cm">
-                  <dim type="width">14.5 cm</dim>
-                  <dim type="length">21 cm</dim>
+                  <dim type="width">13.5 cm</dim>
+                  <dim type="length">19 cm</dim>
                 </dimensions>
               </extent>
-                <foliation/>
-                <collation/>
-                <condition><p/><p/><p/><p/></condition>
+                <condition><p>The end is wanting, and the margins have been cropped in binding</p></condition>
               </supportDesc>
               <layoutDesc>
-                <layout>
-                  <note/>
+                <layout writtenLines="35">
+                  <note>27-35 lines to a page.</note>
                 </layout>
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scribe="sole"/>
+              <handNote script="gothicoAntiqua">Written in a rounded gothic hand, possibly by an English scribe</handNote>
             </handDesc>
             <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration">Illustrated by 7 pen-drawn horoscopic figures. </decoNote>
+              <decoNote type="rubrication">Some headings in red.</decoNote>
             </decoDesc>
-            <additions/>
             <bindingDesc>
               <binding>
-                <p>Original vellum binding from a leaf of a 13th cent. Service book.</p>
+                <p>19th cent. vellum binding.</p>
               </binding>
             </bindingDesc>
           </physDesc>
           <history>
             <origin>
-              <origDate>Late 16th century</origDate>
+              <origDate>Mid 15th Century</origDate>
             </origin>
-            <provenance>On the first leaf, in the lower margin, is a small armorial library stamp, details of which are blurred. The same stamp is found on the fly-leaf of Bernardino da Rimino's 'Cosarelle', Vol. I (MS. No. 689).</provenance>
-            <provenance>Inscribed inside the upper cover 'Ad usum Equitis Danielis Antonii Felici Capello Patritii Arimini'.</provenance>
-            <acquisition>Purchased at Sotheby's 20/7/1931, Lot 12 (part), accession 57464 (3).</acquisition>
+            <provenance>From the Library of G[oerge] M[atthews] Arnold, J.P. (1826-1908), Milton Hall, Gravesend</provenance>
+            <acquisition>Purchased 1912 (accession 30820).</acquisition>
           </history>
           <additional>
             <adminInfo>
@@ -123,13 +114,12 @@
                 </source>
               </recordHist>
               <availability status="free">
-                <licence/>
+                <licence></licence>
               </availability>
               <custodialHist>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: No</custEvent>
+                <custEvent type="digitised">Digitised: Yes (available online)</custEvent>
               </custodialHist>
             </adminInfo>
           </additional>
@@ -156,7 +146,12 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>Astrology</p>
+                <p>Eye</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Ophthalmology</p>
               </term>
             </item>
           </list>
@@ -170,7 +165,7 @@
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>

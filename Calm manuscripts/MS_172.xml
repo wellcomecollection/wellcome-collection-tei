@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_108">
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_172">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MS_108</title>
+        <title>MS_172</title>
         <title type="collection">Wellcome Collection</title>
         <respStmt xml:id="SM">
           <resp when="1973">Cataloguer</resp>
@@ -30,7 +27,7 @@
         <distributor>
           <email>library@wellcome.org</email>
         </distributor>
-        <idno type="msID">MS.108</idno>
+        <idno type="msID">MS.172</idno>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
@@ -39,68 +36,56 @@
             <settlement>London</settlement>
             <institution>Wellcome Collection</institution>
             <repository>Wellcome Library</repository>
-            <idno type="shelfmark">MS.108</idno>
+            <idno type="shelfmark">MS.172</idno>
             <altIdentifier type="CalmRef">
-              <idno>MS108</idno>
+              <idno>MS172</idno>
             </altIdentifier>
             <altIdentifier type="accession">
-              <idno>73715</idno>
+              <idno>56304</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
-              <idno>aee6c0d8-2efb-4da2-84cc-2a43b194d683</idno>
+              <idno>9ecf0c31-3c79-45a0-a248-c0608b7093a6</idno>
             </altIdentifier>
             <altIdentifier type="Sierra">
-              <idno>b1968101x</idno>
+              <idno>b19196350</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>A Booke of Receipts containing cookery and medical receipts. </summary>
-            <textLang mainLang="en" source="IANA">English</textLang>
-            <msItem n="1" xml:id="MS_108_1">
-              <author/>
-              <title type="original">A Booke of Receipts owned by Jane Baber</title>
-              <title type="standard"/>
-              <textLang mainLang="en" source="IANA">English</textLang>
-              <filiation/>
+            <summary>De tribus instrumentis medicinae, Pharmacia scilicet, Chirurgia et Dieta....Accessit preterea trattatus [sic] de urinis, de humoribus, trattatus [sic] de regimine puerorum et pregnantium et tandem de remediis medicinalibus.</summary>
+            <textLang mainLang="la" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_172_1">
+              <author>Butius, Eustachius</author>
+              <title type="original">Medical treaties by Eustachius Butius</title>
+              <textLang mainLang="la" source="IANA">Latin</textLang>
+              <filiation>On the title (fol. 5) the Author is described as 'Roncilionensis'.</filiation>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg">
-                <extent>24 ll. 4to.
-                  <dimensions type="leaf" unit="cm">
-                    <dim type="width">15.5 cm</dim>
-                    <dim type="length">20 cm</dim>
-                  </dimensions>
-                </extent>
-                <foliation/>
-                <collation/>
-                <condition><p>Margins frayed</p></condition>
+              <supportDesc material="perg"><extent>292 ff. (last 36 bl.). 16mo. 
+                <dimensions type="leaf" unit="cm">
+                  <dim type="width">9.5 cm</dim>
+                  <dim type="length">12.5 cm</dim>
+                </dimensions>
+              </extent>
+                <condition><p>Parts of the text stained.</p></condition>
               </supportDesc>
             </objectDesc>
-            <handDesc>
-              <handNote>Mostly by the same hand, but with a few contemporary additions</handNote>
-            </handDesc>
-            <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration"/>
-            </decoDesc>
-            <additions/>
             <bindingDesc>
               <binding>
-                <p>Unbound.</p>
+                <p>Original vellum binding.</p>
               </binding>
             </bindingDesc>
           </physDesc>
           <history>
             <origin>
-              <origDate>c. 1625</origDate>
+              <origDate>1612</origDate>
             </origin>
-            <provenance>From the John Hodgkin Collection of Cookery-books.</provenance>
-            <acquisition>Purchased 1931 (accession number 73715).</acquisition>
+            <provenance>Produced in Rome.</provenance>
+            <acquisition>Purchased 1930 (accession 56304).</acquisition>
           </history>
           <additional>
             <adminInfo>
@@ -116,30 +101,21 @@
                 </source>
               </recordHist>
               <availability status="free">
-                <licence/>
+                <licence></licence>
               </availability>
               <custodialHist>
-                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: Yes</custEvent>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="digitised">Digitised: No</custEvent>
               </custodialHist>
             </adminInfo>
-            <surrogates>In addition, a microfilm copy is held as AMS/MF/232.</surrogates>
-            <listBibl>
-              <bibl>Published (in microfilm form) in Women in Medicine: Remedy Books, 1533 - 1865, ed. Sara Pennell (Woodbridge, Connecticut: Primary Source Microfilm, 2004).</bibl>
-            </listBibl>
+            <surrogates></surrogates>
           </additional>
         </msDesc>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <classDecl>
-        <taxonomy xml:id="LCSH">
-          <bibl>
-            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
-          </bibl>
-        </taxonomy>
         <taxonomy xml:id="MeSH">
           <bibl>
             <ref target="">MeSH</ref>
@@ -149,25 +125,46 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <keywords scheme="#LCSH">
-          <list>
-            <item facs="">
-              <term ref="subject_">
-                <p>Formulas, recipes, etc.</p>
-              </term>
-            </item>
-          </list>
-        </keywords>
         <keywords scheme="#MeSH">
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>Cooking</p>
+                <p>Urology</p>
               </term>
             </item>
             <item facs="">
               <term ref="subject_">
-                <p>Medicine, Traditional</p>
+                <p>Therapeutics</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Temperament</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Surgery</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Pharmacy</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Diet</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Child Care</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Pregnancy</p>
               </term>
             </item>
           </list>
@@ -181,7 +178,7 @@
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>
