@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_174">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_174</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.174</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.174</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS174</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>48527</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>e199dae1-2eaa-4960-bdd8-d8c78d3216cb</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19674028</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Libro di ricette medicinali. Author's holograph MS.</summary>
+            <textLang mainLang="it" source="IANA">Italian</textLang>
+            <msItem n="1" xml:id="MS_174_1">
+              <author>Cagali, Gasparo Di</author>
+              <title type="original">Book containing a number of receipts, descriptions of diseases and remedies</title>
+              <textLang mainLang="" source="IANA">Italian, in the Verona dialect.</textLang>
+              <note>Inside the cover notes of his personal affairs beginning 'Questo libero sie di Mº. gasparo barbiro e ceroicho che fu fiolo di mº antonio ceroicho da Legnago di chagalii habito in la contra di S. Zen...e questo libro fu scritto adi 15 agosto 1529...' </note>
+              <note>Ef. 24v-32 contain a Latin-Italian list of the names of herbs.</note>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="perg"><extent>3 ll. +75 ff. 8vo.
+                <dimensions type="leaf" unit="cm">
+                  <dim type="width">11.5 cm</dim>
+                  <dim type="length">17.5 cm</dim>
+                </dimensions>
+              </extent>
+                <foliation/>
+                <collation/>
+                <condition><p/><p/><p/><p/></condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout>
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="illustration">On the cover a pen-drawn coat of arms of the writer. </decoNote>
+              <decoNote type="illustration"> Inside the lower cover two drawings of distilling apparatus. </decoNote>
+              <decoNote type="marginal">Illustrated by several small marginal pen-drawings of diseased organs, instruments, etc. </decoNote>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>Original vellum binding, with leather ties, one wanting.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1529</origDate>
+            </origin>
+            <provenance>On the verso of the last leaf is a note of the birth and baptism, in 1530 at Verona, of the Author's son 'Zuan Antonio'. In the inscription inside the upper cover, the birth of a daughter 'Chatalina' on 14 November 1527 is mentioned.  Produced in Verona.</provenance>
+            <acquisition>Purchased from Davis and Orioli, 28 August 1928 (accession 48527).</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <licence/>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Glossaries</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Formulas, recipes, etc.</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Pathology</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Traditional</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="2026-11-09" who="Victoria Sloyan">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
