@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_197">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_197</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.197</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.197</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS197</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>73436</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno></idno>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>d18f5d1a-6c8d-4814-adea-e77cc21bae79</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b18577994</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Collection of notes of remarkable events, persons, etc. mainly relating to the Netherlands, and including abbreviated accounts of the principal Dutch voyages of exploration in the 16th and early 17th cent. 
+              In an interleaved copy of Abraham Saur's 'Diarium historicum'. Frankfort: N. Basseus, 1582. 
+              There are at least two compilers for this manuscript, and each compilers has made his own MS. Index on the interleavings, and in the margins of the Index to the printed work. 
+              The latest dated entry for the older compiler is 29 September, 1627 (facing p. 410); and for the other, 23 November, 1672 (facing p. 270).</summary>
+            <textLang mainLang="nl" source="IANA">Dutch</textLang>
+            <msItem n="1" xml:id="MS_197_1">
+              <author></author>
+              <title type="original">Common-Place Books: 17th cent.</title>
+              <textLang mainLang="nl" source="IANA">Dutch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="paper">
+                <extent>8 ll. + 536 pp. + 10 ll. folio.
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width">20.5 cm</dim>
+                    <dim type="length">30 cm</dim>
+                  </dimensions>
+                </extent>
+                <condition><p>Some corners defective.</p></condition>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="multiple">Mainly by two compilers</handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="rubrication">The printed work has a t.p. in red and black, and each Month is illustrated by a symbolical woodcut.</decoNote>
+            </decoDesc>
+            <bindingDesc>
+              <binding>
+                <p>Original vellum binding.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>c.1625-c.1675</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased at Sotheby's 21/7/1930, Lot 231 (part).</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p></p>
+                <licence></licence>
+              </availability>
+              <custodialHist>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Travel</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>World history</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"></term>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="2026-11-10" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p></p>
+    </body>
+  </text>
+</TEI>
