@@ -267,6 +267,7 @@
                                 <decoDesc><!-- delete if not required -->
                                     <decoNote type="marginal"><!-- delete if not required --></decoNote>    
                                     <decoNote type="illustration"><!-- delete if not required --></decoNote>
+                                    <decoNote type="rubrication"><!-- delete if not required --></decoNote>
                                 </decoDesc>
                                 
                                 <additions>
