@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_202">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_202</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="JE">
+          <resp when="2014-09-25">Calm encoder</resp>
+          <persName>EdgeJ</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.202</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.202</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS202</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>52328</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno></idno>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>4db0fa0a-9ef2-4983-8e3d-497782be4152</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19145068</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary><p>Computistical miscellany</p>
+
+<p><b>Contents</b></p>
+
+<p>1. ff. 1r-8r John of Erfurt, <i>Computus chirometralis minor</i></p>
+
+<p>f. 1r Cognitio veritatis de pausis temporum ... f. 8r Explicit computus cirometarlis minor.</p>
+
+<p>2. ff. 8r-16r <i>Computus chirometralis minor</i></p>
+
+<p>f. 8r Incipit computus cirometarlis maior. Ut solis et lune motus ... f. 16r Explicit computus cirometralis.</p>
+
+<p>3. ff. 16v-17r Tables</p>
+
+<p>4. ff. 17v-18r Peter of Dacia, <i>Tabulae cum explicationibus</i></p>
+
+<p>f. 17v Ad inveniendum locum lune ... f. 18r Sic habeas moum et locum solis et lune.</p>
+
+<p>5. f. 18v Astrological diagram</p>
+
+<p>f. 19r blank</p>
+
+<p>6. ff. 19v-22v <i>Computus judaicus</i></p>
+
+<p>f. 19v Me pudet audire iudeum talia scrie ... f. 22v Explicit computus iudaicus per manum Wilhellmi Sub anno domini m cccc xliii in die agathe vigilii.</p></summary>
+            <textLang mainLang="la" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_202_1">
+              <author></author>
+              <title type="original">Computistical miscellany</title>
+              <textLang mainLang="la" source="IANA">Latin</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="paper">
+                <extent>22 ff. 4to.
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width">14.5 cm</dim>
+                    <dim type="length">20.5 cm</dim>
+                  </dimensions>
+                </extent>
+                <condition><p></p></condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="24">
+                  <note>24 lines to a page.</note>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Written by a scribe called William.</handNote>
+              <handNote script="gothic">Written in a small semi-gothic German hand.</handNote>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal">The first ornamental initial has marginal decorations.</decoNote>
+              <decoNote type="illustration">Illustrated by three full page astronomical diagrams in red, green and black, the last, with a sun in gold and half-moon in silver.</decoNote>
+              <decoNote type="rubrication">Two large ornamental initials in green, red and black.</decoNote>
+              <decoNote type="rubrication">Other initials in red, paragraph marks, headings, etc. in red.</decoNote>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>Blue velvet binding over wooden boards. </p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1443</origDate>
+            </origin>
+            <provenance>On the verso of the fly-leaf at the beginning, a note in pencil states: 'purchased by an Agent from the Covent [Benedictine Monastery] of St. Emmeram [sic for "Emeran"] at Ratisbon in Germany'. From the Library of Sir F[rancis] S[harp] Powell (1827-1911), of Horton Old Hall, Bradford.</provenance>
+            <acquisition>Purchased at Sotheby's 19/12/1929, Lot 672.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p></p>
+                <licence></licence>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Catalogue description modified in 2014. For original description, see S.A.J. Moorat, <i>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</i> (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <listBibl>
+              <bibl></bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Mathematics</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Astronomy</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"></term>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="2026-11-11" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p></p>
+    </body>
+  </text>
+</TEI>
