@@ -36,8 +36,17 @@
 | physDesc/handDesc/handNote | contributor | Done | yes
 | physDesc/objectDesc/object/support | physicalDescription | Done| yes
 | physDesc/objectDesc/object/extent |physicalDescription | Done | yes
+| physDesc/objectDesc/supportDesc/support/watermark | physicalDescription | Done |
+| physDesc/objectDesc/supportDesc/condition | notes \[condition\] | Done |
+| physDesc/objectDesc/supportDesc/collation | notes \[collation\] | Done |
+| physDesc/objectDesc/supportDesc/foliation | notes \[foliation\] | Done |
+| physDesc/objectDesc/layoutDesc/layout | notes \[layout\] | Done |
+| physDesc/handDesc/handNote | notes \[hand\] | Done |
+| physDesc/handDesc/handNote/@script | notes \[hand\] | Done |
+| physDesc/decoDesc/decoNote | notes \[decoration\] | Done |
+| physDesc/bindingDesc | notes \[binding detail\] | Done |
+| msItem/filiation | notes \[filiation\] | Done |
 | profileDesc/keywords |subjects | Done | |
-| handDesc | notes \[hand\] |
 
 
 ## Notes
