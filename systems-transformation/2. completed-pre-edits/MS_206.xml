@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_206">
   <teiHeader>
     <fileDesc>
@@ -47,7 +44,7 @@
               <idno>31665</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
               <idno>84f5407f-250f-4911-9cd0-3f16feebf33d</idno>
@@ -57,32 +54,47 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Conselio de'poveri infirmi. Followed by medical receipts by several hands: in Italian. Written in a semi-gothic hand, 26 lines to a page. Capitals and headings in red. The original foliation is incorrect after fol. 43, and the MS. has been refoliated from there in pencil. Fol. 1 (red) 1450. die 7 octubris. // Qui comenza la rubrica generale de questo libro / zoe le nome de le spiziarie capitolo I. 2 Per male de moroide e de ponde lviii. 2v (red) Le nome de le speziarie / ... 5, line 10 ... e tenia el areto ad /esere bona. / (red) Questo sie lo libro conselio de pouere infermi zoe lo prologo. / A lo nome de deo e de la sua madre ['uergine' inserted above by a later hand] madona / santa maria ... 5v, line 3 ... per che de bona fede e trato questo / da altri libri. / (red) iiii°. De li quatro humori de lomo. / ORa segniori voi douiti sauere ... 57v, line 19 ... venia si como mele e falo tuo onto. // A questo libro che se chiama conselio de poueri / sia fine. line 22-64 Miscellaneous medical receipts by the original, and other later hands: with some interpolated notes. 63 'La morta de. M. chatelina da / mapello matra de Johannes maria / fu del Mcccc o ady xiii al boto / de ore iiii° de zenare'. 64v 'Lano del 1550'. 65v 'Lano del Sanctissimo Jubileo del 1550 per / gratia de dio naque laura beatrice mia / filiola il giorno de la uigilia del / gloriosissimo caualiere e martiro santo / giorgio est ali 23 de aprille'. 66-70 Blank. 70v The date 1558, and some scribbled alphabets. 71 Two quotations from the New Testament, one in calligraphic script with a large ornamental letter D. 72 An inscription referring to a debt in a difficult script, dated 1500 and signed by Ieronimus de Crispis.</summary>
-            <textLang mainLang="" source="IANA">Italian</textLang>
+            <summary>This manuscript includes Conselio de'poveri infirmi and is then followed by medical receipts by several hands.
+              Fol. 1 (red) 1450. die 7 octubris. // Qui comenza la rubrica generale de questo libro / zoe le nome de le spiziarie capitolo I. 2 Per male de moroide e de ponde lviii. 
+              2v (red) Le nome de le speziarie / ... 5, line 10 ... e tenia el areto ad /esere bona. / (red) Questo sie lo libro conselio de pouere infermi zoe lo prologo. / A lo nome de deo e de la sua madre ['uergine' inserted above by a later hand] madona / santa maria ... 
+              5v, line 3 ... per che de bona fede e trato questo / da altri libri. / (red) iiii°. De li quatro humori de lomo. / ORa segniori voi douiti sauere ... 
+              57v, line 19 ... venia si como mele e falo tuo onto. // A questo libro che se chiama conselio de poueri / sia fine. line 22-64 Miscellaneous medical receipts by the original, and other later hands: with some interpolated notes. 63 'La morta de. M. chatelina da / mapello matra de Johannes maria / fu del Mcccc o ady xiii al boto / de ore iiii° de zenare'. 
+              64v 'Lano del 1550'. 65v 'Lano del Sanctissimo Jubileo del 1550 per / gratia de dio naque laura beatrice mia / filiola il giorno de la uigilia del / gloriosissimo caualiere e martiro santo / giorgio est ali 23 de aprille'. 
+              66-70 Blank. 
+              70v The date 1558, and some scribbled alphabets. 
+              71 Two quotations from the New Testament, one in calligraphic script with a large ornamental letter D. 
+              72 An inscription referring to a debt in a difficult script, dated 1500 and signed by Ieronimus de Crispis.</summary>
+            <textLang mainLang="it" source="IANA">Italian</textLang>
             <msItem n="1" xml:id="MS_206_1">
-              <author/>
+              <author></author>
               <title type="original">Conselio de'poveri infirmi</title>
-              <title type="standard"/>
-              <textLang mainLang="" source="IANA">Italian</textLang>
-              <filiation/>
-              <filiation/>
+              <textLang mainLang="it" source="IANA">Italian</textLang>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="">1 volume<extent>1 l. + 72 ff. + 1 l. 4to. 201/2 x 141/2 cm. Original stamped leather binding over wooden boards, rebacked: two brass and leather clasps.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/><p/></condition><support><watermark/></support></supportDesc>
+              <supportDesc material="paper">
+                <extent>1 l. + 72 ff. + 1 l. 4to.
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width">14.5 cm</dim>
+                    <dim type="length">20.5cm </dim>
+                  </dimensions>
+                </extent>
+                <foliation>The original foliation is incorrect after fol. 43, and the MS. has been refoliated from there in pencil. </foliation>
+                <collation></collation>
+                <condition><p></p></condition>
+              </supportDesc>
               <layoutDesc>
-                <layout writtenLines="">
-                  <note/>
+                <layout writtenLines="26">
+                  <note>26 lines to a page</note>
                 </layout>
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote script=""/>
+              <handNote script="gothic">Written in a semi-gothic hand.</handNote>
             </handDesc>
             <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration"/>
+              <decoNote type="rubrication">Capitals and headings in red.</decoNote>
             </decoDesc>
             <additions/>
             <bindingDesc>
@@ -96,8 +108,7 @@
               <origDate>1450</origDate>
             </origin>
             <provenance/>
-            <acquisition>Purchased 1913.</acquisition>
-            <acquisition type="accrual"/>
+            <acquisition>Purchased in Paris on 7th April 1913 for £7.</acquisition>
           </history>
           <additional>
             <adminInfo>
@@ -112,25 +123,18 @@
                   </bibl>
                 </source>
               </recordHist>
-              <availability status="">
-                <p/>
-              </availability>
-              <availability>
-                <licence/>
+              <availability status="free">
+                <p></p>
+                <licence></licence>
               </availability>
               <custodialHist>
-                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: </custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, <i>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</i> (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
               </custodialHist>
             </adminInfo>
-            <surrogates/>
-            <surrogates/>
+            <surrogates></surrogates>
             <listBibl>
               <bibl>On fol. 1 and on fol. 64, there is the signature of 'Ottaviano Archiatro', i.e. Ottaviano Buccarini, Papal Physician to Pope Gregory XIV [1535-1591], who became Pope in 1590 and died the next year.</bibl>
-            </listBibl>
-            <listBibl>
-              <bibl/>
             </listBibl>
           </additional>
         </msDesc>
@@ -156,7 +160,7 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>[p]Formulas, recipes, etc.</p>
+                <p>Formulas, recipes, etc.</p>
               </term>
             </item>
             <item facs="">
@@ -174,7 +178,7 @@
         <keywords scheme="#MeSH">
           <list>
             <item facs="">
-              <term ref="subject_"/>
+              <term ref="subject_"></term>
             </item>
           </list>
         </keywords>
@@ -182,12 +186,12 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-11-12" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>
