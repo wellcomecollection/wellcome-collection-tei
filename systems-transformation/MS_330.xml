@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_330">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_330</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.330</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.330</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS330</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>66927</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>6da96d5a-6a19-4785-9b43-a4bce0d03a73</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19612436</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Collection of iatro-chemical remedies and receipts in German and Latin, dated 1556. With additional chemical, medical and alchemical receipts, etc., dated 1621. Small pen-drawn figures of chemical apparatus, etc. on fol. 20v, ll. 61v, 62, 65. The earliest writer seems to be Handsch who has signed a receipt, 'Praeparatio antimonii' as 'Medicus Pragenisis A$. 1556' on fol. 19. The other chief scribe, whose receipts are mainly chemical and alchemical, perhaps gives his name on L.48 in the signature to an alchemical process 'Actum auff Simeonis und Jude. Anno [15]62. Hans Pffafschutz zu Drysa'. At the end of the entries by this hand on L. 68v 'Marpurgi. 2 Septembris Anno 1621. h[ora] 4 p.m.' The last two leaves of script, by a different hand, contain a 'Vera descriptio cum modo praeparandi methodusque utendi medicinae vitali' which a marginal note states to be 'Aqua Rod. Goclenii Junioris. M. Doct. Marp[urgensis]: per tot terras tantopere decantata'. (L. 69.) (i.e. Rudolf Goclenius [1572-1621].) At the foot of L. 70 the writer states that he has himself carried out in 1594 the process described above for the making of 'Sal lunae et plumbi ad medicinam'. Produced in Prague and Marburg.</summary>
+            <textLang mainLang="" source="IANA">German</textLang>
+            <msItem n="1" xml:id="MS_330_1">
+              <author>Handsch, Gregorius</author>
+              <author>(&amp; others)</author>
+              <title type="original">Handsch, Gregorius (&amp; others)</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">German</textLang>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>11 [14] ll. (first &amp; last 3 bl.). + 36 ff. + 76 ll. (last 6 bl.). 4to. 20 x 15 cm. Original vellum binding. Three leaves at the beginning and the last leaf have been cut away.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>11 [14] ll. (first &amp; last 3 bl.). + 36 ff. + 76 ll. (last 6 bl.). 4to. 20 x 15 cm. Original vellum binding. Three leaves at the beginning and the last leaf have been cut away.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1556, 1621</origDate>
+            </origin>
+            <provenance>From the Library of Julius Kohn.</provenance>
+            <acquisition>Purchased at Hodgson's 26/10/1934, Lot 194 (part).</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Alchemy</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Formulas, recipes, etc.</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Pharmaceutical chemistry</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

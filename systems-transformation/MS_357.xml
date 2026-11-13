@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_357">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_357</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.357</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.357</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS357</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>75823</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>12987e27-4666-4670-ad0e-6f822291737f</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19318558</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Collection of medical, veterinary and other receipts, in German: including a transcript of the first nine chapters of Johann Binhard's 'Tröstlicher Haus-Spiegel'. Erfürt: 1621 [Receipts for children's diseases], and some incantations and magical remedies. The MS. is mainly in the hand of Werther Hoin, who names himself on the second line of fol. 60, and who seems to have been made 'Stalmeister' in the 'Freies Adelisches Kloster, Springirssbach'. On fol. 55v, and 56r he gives lists of the Monks there under their Abbot Johan Friedrich von Aubach, and of the laity who were in service at the Monastery. Under the date 1630 on fol 57v and 58r are notes on the purchase of a horse, and an agreement with a Courier. In other parts of the MS. are notes of events in Nassau 1626-31. (ff. 3, 4, 55.) The work by Binhard occupies ff. 26-32. The full title is 'Tröstlicher Hauss Spiegel: dass ist: Kurtzer doch warhafter Bericht, darinnen viertzig gewisse undt wohlbewehrte Experimenta undt Kunst-Stücke, fast fuhr alle Kranckheit der jungen Kinder zu finden ... Gedruckt zu Erfurdt bey Johann Röhbock. Anno Christi. M.DC. XXI'. Fl. 50-53r contain medical receipts by late 18th cent. hands. On the outside of the lower cover is a name 'Christoph Brüher [?]' with date 1653: but the letters are badly rubbed. In the lower margin of fol. 3 'Philippus Wehner. Anno Domini 1656'. On fol. 5 is the date 1745, on fol. 4v, 1784, and on fol. 54v, 1770.</summary>
+            <textLang mainLang="" source="IANA">German</textLang>
+            <msItem n="1" xml:id="MS_357_1">
+              <author>Hoin, Werther</author>
+              <title type="original">Hoin, Werther</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">German</textLang>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>60 [64] ll. 4to. 19 x 15 cm. Original vellum covers from a leaf of a 14th cent. Service book. Four leaves cut out at the end, first two leaves slightly defective, outer lower corners frayed.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>60 [64] ll. 4to. 19 x 15 cm. Original vellum covers from a leaf of a 14th cent. Service book. Four leaves cut out at the end, first two leaves slightly defective, outer lower corners frayed.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>c. 1630</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1929.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Formulas, recipes, etc.</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Veterinary Medicine</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Traditional</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Charms</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Child Welfare</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Medicine, Magic, mystic, and spagiric</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
