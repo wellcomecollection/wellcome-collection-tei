@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_211">
   <teiHeader>
     <fileDesc>
@@ -47,7 +44,7 @@
               <idno>58574</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
               <idno>966add59-1914-4003-aeec-4d19a149880b</idno>
@@ -57,38 +54,55 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Collection of 395 numbered, and twelve unnumbered cookery receipts in Italian. Written in a neat humanistic hand, 20 lines to a page. Ornamental initials in red with grotesque marginal decoration on ll. 13, 52, 96v, 127, 133v, 146. Other initials in red, a few black: headings in red. Fol. 1 Tabvla De La Prese/Nte Oper/A. 13 (red) Ad fare uno sciugo a una cossa de / castrato o vero spalla. c. 1º. 146 (End of numbered receipts) ... et/unge cum uno poco de zafferame / e olio: e poi lassala cocere. // Finis. 150 (End of 'A fare una substantia a uno infirmo') ... Et poi metterli / tucti queste cose in uno pignatello et / fa bollire a foco lento. The paper has a scissors water-mark, which appears to be Briquet's No. 3688, dated 1496. A name has been struck through in the upper margin of the first leaf; in the lower margin 'Joannes Christophorus Ciccurini', in a 16th cent. hand.</summary>
-            <textLang mainLang="" source="IANA">Italian</textLang>
+            <summary>Collection of 395 numbered, and twelve unnumbered cookery receipts in Italian.
+                Fol. 1 Tabvla De La Prese/Nte Oper/A. 13 (red) Ad fare uno sciugo a una cossa de / castrato o vero spalla. c. 1º. 146 (End of numbered receipts) ... et/unge cum uno poco de zafferame / e olio: e poi lassala cocere. // 
+              Finis. 150 (End of 'A fare una substantia a uno infirmo') ... Et poi metterli / tucti queste cose in uno pignatello et / fa bollire a foco lento. 
+              </summary>
+            <textLang mainLang="it" source="IANA">Italian</textLang>
             <msItem n="1" xml:id="MS_211_1">
-              <author/>
+              <author></author>
               <title type="original">Cookery-Books, Italian: Before 1500</title>
-              <title type="standard"/>
-              <textLang mainLang="" source="IANA">Italian</textLang>
-              <filiation/>
-              <filiation/>
+              <textLang mainLang="it" source="IANA">Italian</textLang>
+              <filiation></filiation>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="">1 volume<extent>150 ll. 8vo. 21 x 13 cm. Original half calf binding over wooden boards, metal and leather clasps repaired. The margins of the last leaf damaged and repaired, first leaf slightly wormed.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p>Fragile</p><p/></condition><support><watermark/></support></supportDesc>
+              <supportDesc material="paper">
+                <support>
+                  <watermark>
+                    The paper has a scissors water-mark, which appears to be Briquet's No. 3688, dated 1496.
+                  </watermark>
+                </support>
+                <extent>150 ll. 8vo.
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width">13 cm</dim>
+                    <dim type="length">21 cm</dim>
+                  </dimensions>
+                </extent>
+                <foliation></foliation>
+                <collation></collation>
+                <condition><p>Fragile. The margins of the last leaf damaged and repaired, first leaf slightly wormed.</p></condition>
+              </supportDesc>
               <layoutDesc>
-                <layout writtenLines="">
-                  <note/>
+                <layout writtenLines="20">
+                  <note>20 lines to a page.</note>
                 </layout>
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote scribe="sole"/>
-              <handNote script=""/>
+              <handNote script="humanistic">Written in a neat humanistic hand.</handNote>
             </handDesc>
             <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration"/>
+              <decoNote type="marginal">Grotesque marginal decoration on ll. 13, 52, 96v, 127, 133v, 146.</decoNote>
+              <decoNote type="rubrication">Ornamental initials in red, other initials also in red, a few black. Headings in red.</decoNote>
             </decoDesc>
-            <additions/>
+            <additions>
+              A name has been struck through in the upper margin of the first leaf; in the lower margin 'Joannes Christophorus Ciccurini', in a 16th cent. hand.
+            </additions>
             <bindingDesc>
               <binding>
-                <p>150 ll. 8vo. 21 x 13 cm. Original half calf binding over wooden boards, metal and leather clasps repaired. The margins of the last leaf damaged and repaired, first leaf slightly wormed.</p>
+                <p>Original half calf binding over wooden boards, metal and leather clasps repaired.</p>
               </binding>
             </bindingDesc>
           </physDesc>
@@ -98,7 +112,6 @@
             </origin>
             <provenance>On leaf 13 and on the last leaf is an unidentified armorial library-stamp.</provenance>
             <acquisition>Purchased from Hodgson &amp; Co., London, 9 Dec 1931, Lot 786. </acquisition>
-            <acquisition type="accrual"/>
           </history>
           <additional>
             <adminInfo>
@@ -113,37 +126,19 @@
                   </bibl>
                 </source>
               </recordHist>
-              <availability status="">
+              <availability status="restricted">
                 <p>Please consult the digitised version as this item needs to be accessed in our conservation studio. Email library@wellcomecollection.org to request an appointment.</p>
-              </availability>
-              <availability>
-                <licence/>
+                <licence></licence>
               </availability>
               <custodialHist>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
-                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: </custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, <i>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</i> (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
               </custodialHist>
             </adminInfo>
-            <surrogates/>
-            <surrogates/>
+            <surrogates></surrogates>
             <listBibl>
-              <bibl/>
-            </listBibl>
-            <listBibl>
-              <bibl/>
-            </listBibl>
-            <listBibl>
-              <bibl>
-                <title/>
-                <author/>
-                <date/>
-                <placeName/>
-                <publisher/>
-                <abbr/>
-                <note/>
-              </bibl>
+              <bibl></bibl>
             </listBibl>
           </additional>
         </msDesc>
@@ -169,7 +164,7 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>[p]Formulas, recipes, etc.</p>
+                <p>Formulas, recipes, etc.</p>
               </term>
             </item>
             <item facs="">
@@ -187,7 +182,7 @@
         <keywords scheme="#MeSH">
           <list>
             <item facs="">
-              <term ref="subject_"/>
+              <term ref="subject_"></term>
             </item>
           </list>
         </keywords>
@@ -195,12 +190,12 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-11-13" who="Lara Salha">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>
