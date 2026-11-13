@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_309">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_309</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2006-05-03">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.309</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.309</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS309</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>68056</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>4e1808d2-fa75-4aa4-ae69-5efcd643be1d</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19695561</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Occulta scripta chymica.
+[p]The content of the manuscript divides as follows: 
+[p]Pp.1-6: four psalms in German, and two Latin prayers. 
+[p]Pp.7-178 Secreta alchemica: in cipher, German. 
+[p]Pp.179-180: prayers in German. 
+[p]Pp.181-187: Elixir vitae: list of ingredients in Latin. 
+[p]Pp.188-209: alchemical and medicinal receipts, prayers, etc.: mainly in cipher, and in German, but "Virtutes olei" (pp.191-193) in Latin en clair.  At the end "Scriptum Gottersdorff in meo exilio apud pastorem Severinum Drescherum Anno 1572".
+[p]Pp.210-219: Ciment Regal: in German.  
+[p]Pp.221-252: Libellus de creatione omnium rerum Anno 1575 Die 23 Augusti.  In der Naunburgk an der Sala.  Authore Johanne Girlachio: in German.  At the end "Anno Domini 1575 Die Jovis 25 Augusti". 
+[p]Lapis philosophorum.  1576 Die Saturni 25 February: in German.  The end is wanting. 
+[p]Illustrated with numerous small water-colour symbolic alchemical drawings, some heightened with gold.
+[p]Text within pen-drawn rules: some entries in red ink. 
+[p]Pp.1-178 are written entirely in cipher; pp.179-207 are partly in cipher and partly en clair; the remainder are en clair.  Pp.253-321 and 335-350 are blank. The cipher consists of 51 symbols; a manuscript key to this, by Julius Kohn, is inserted. 
+[p]On the lower margin of folio 1 is an inscription "Daniel Crusius à K. cit[atum] in Catalogo". 
+[p]On the added leaf before f.1 is the title "Johanne Guirlachio / Guerlizensis / Occulta Scripta / Chymica. / Manuscriptum rarissimum / Renov[atum] / Anno 1760". 
+[p]On the verso is a note in German by the same hand, stating that the manuscript was originally bound in green velvet dated 1575 with a gold-stamped panel of the Crucifixion.  As the binding had perished through age, the writer had the volume rebound in 1760.  Below this inscription is a monogram "J D?".  
+[p]On pp.260-261 Julius Kohn has written out the cipher in reverse order Z-A, and continues (in cipher) "In my end is my beginning Julius Kohn London November 1889".
+[p]Produced at Gottersdorff, 1572, and Naunburg, 1575-1576.</summary>
+            <textLang mainLang="" source="IANA">German</textLang>
+            <msItem n="1" xml:id="MS_309_1">
+              <author>Gerlach, Johann, fl.c.1575</author>
+              <title type="original">Johann Gerlach</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">German</textLang>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>[p]1l. + 350 pp. 12mo.  13.5 x 7.5 cm.
+[p]18th century calf binding worn.  Pp.329-334 wanting; p.9/10 slightly damaged.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>[p]1l. + 350 pp. 12mo.  13.5 x 7.5 cm.
+[p]18th century calf binding worn.  Pp.329-334 wanting; p.9/10 slightly damaged.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1572-1576</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased at Sotheby's, 28 January 1935, Lot 12 (acc.68056).</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Alchemy</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Elixir of life</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Formulas, recipes, etc.</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Religion</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
