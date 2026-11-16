@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_575">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_575</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.575</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.575</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS575</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>29398</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>59eca52d-b56a-43bf-a6a1-559f7904fcca</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19367715</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]An unillustrated herbal describing the healing properties of plants, including a short text on the properties of the herb betony, traditionally attributed to Antonius Musa, and a compilation of herbal remedies drawing from Greek and Latin sources, traditionally attributed to Apuleius Madaurensis or Apuleius Platonis. On paper, produced in Northern Italy, about 1460s-1480s.[/p]
+[p][b]Contents[/b]:[/p]
+[p][b]1.[/b] ff. 1r-5r: Pseudo-Antonius Musa, [i]De herba vettonica liber[/i], a short treatise on the virtues and properties of the herb betony. The text was widespread during Late Antiquity and the early Middle Ages. Traditionally attributed to Antonius Musa, the physician of Emperor Octavianus Augustus, it is in fact of unknown origin and dates to the 4th or 5th century AD: see M. Collins, [i]Medieval Herbals: The Illustrative Traditions[/i] (Toronto: University of Toronto Press, 2000), p. 166.[/p]
+[p]First printed without the prologue as the first plant in the [i]Herbarium Apulei[/i] by Johannes Philippus de Lignamine in Rome about 1481-82 (ISTC ih00058000).[/p]  
+[p]Listed in eTK, A digital resource based on Lynn Thorndike and Pearl Kibre, [i]A Catalogue of Incipits of Medieval Scientific Writings in Latin[/i] (Cambridge, MA: Mediaeval Academy, 1963; with supplements in 1965 and 1968; online at https://medievalacademy.site-ym.com/?page=Books#etk), no. 629L.[/p]
+[p]Edited in E. Howald and H. E. Sigerist, [i]Antonii Musae De herba Vettonica liber. Pseudoapulei Herbarius. Anonymi De taxone liber. Sexti Placiti Liber medicinae ex animalibus, etc.[/i] (Lipsiae: Teubnerus, 1927), pp. 3-11.[/p]
+[p]For the prefatory letter, see L. Zurli, 'L'epistola dello Ps. Antonius Musa', in [i]Prefazioni, prologhi, proemi di opere tecnico-scientifiche latine[/i], ed. C. Santini and N. Scivoletto, 2 vols (Rome: Herder, 1990-1992), II, pp. 431-42.[/p] 
+[p]In the present manuscript the prefatory letter differs from that edited by Howald and Sigerist, whereas the text probably belongs to class &amp;#946 [beta] of the textual tradition and ends with chapter 47, 'Ad podagram': see Howald and Sigerist, [i]Antonii Musae De herba Vettonica liber …[/i], pp. 3-4 and 10.[/p]
+[p]For other manuscript copies of this treatise in the Wellcome Library, see MSS 573 (ff. 3v-6r, and 148v-149r; late 13th century) and 574 (ff. 2r-v and 16r-v; early 15th century).[/p]
+[p]f. 1r: Prefatory letter, Incipit: [A]NTONIVS MVSA Agrippe. / Magno çesari augusto salutem / Hoc cure meum experimentum et omnium medicorum dissiplinas [sic] et usu ordinatum ...[/p]
+[p]f. 1v, lines 8-9: Prefatory letter, Explicit: … in pulverem redactam cum volueris utere sicut sictis [sic].[/p]
+[p]f. 1v, lines 9-12: Incipit: [rubric in red] Jncipiunt uirtutes Bectonice [end of rubric] / [line 11] [N]Omen herbe bectonice amoeos cosfos [?]. Alij acore …[/p]
+[p]f. 5r, lines 15-19: Explicit: [rubric in red] Ad podagram [end of rubric] / Herbam bectonicam decoctam  … mirifice dolorem tollit. nos experti affirniamus [sic] [The text corresponds to chapter 47 in Howald and Sigerist, [i]Antonii Musae De herba Vettonica liber … [/i], p. 10].[/p]
+[p][b]2.[/b] ff. 5v-52v: Pseudo-Apuleius Platonicus, [i]Herbarium[/i] or [i]De medicaminibus herbarum liber[/i]. This herbal, also widespread during Late Antiquity and the early Middle Ages, was traditionally attributed to Apuleius Madaurensis or Apuleius Platonis. It is, in fact, a compilation of herbal remedies drawing from Greek and Latin sources put together by an anonymous compiler in the 4th century AD (about 350-395 AD) and possibly revised sometime in the 7th century: see G. Maggiulli and M.F. Buffa Giolito, [i]L'altro Apuleio. Problemi aperti per una nuova edizione dell' 'Herbarius'[/i] (Naples: Loffredo Editore, 1996), pp. 11-32; M. Collins, [i]Medieval Herbals …[/i], pp. 165-7.[/p]
+[p]First printed as the [i]Herbarium Apulei[/i] by Johannes Philippus de Lignamine in Rome about 1481-82 (ISTC ih00058000).[/p]  
+[p]Listed in eTK as nos 117D and 117E, and 535D for the prefatory letter.[/p]
+[p]Edited in Howald and Sigerist, [i]Antonii Musae De herba Vettonica liber …[/i], pp. 15-225.[/p]
+[p]The present copy of the treatise is not illustrated. The text probably belongs to class &amp;#946 [beta] of its textual tradition, with the prologue seemingly close to the text found in Vatican City, Vatican Library, MS. Barb. lat. 160 (known as Va), an 11th-century manuscript in Beneventan script, probably produced in Southern Italy or the southern coastal region of Croatia (historical Dalmatia), by comparison with the texts edited in Maggiulli and Buffa Giolito [i]L'altro Apuleio…[/i], [i]passim[/i], and pp. 112, 114 for the prologue.[/p]
+[p]The text includes the usual 131 chapters, each describing the appearance, peculiarities and healing properties of individual plants from plantago to the mandragora, with the addition of a chapter dedicated to saxifraga. The chapters are found in the following order (according to Howald and Sigerist, and Maggiulli and Buffa Giolito): 1-67, 74, 68-73, 75-97, saxifraga, 98-112, 115, 113-114, 116-131.[/p]
+[p]For other manuscript copies of this treatise in the Wellcome Library, see MSS 573 (ff. 6v-37r; late 13th century) and 574 (early 15th century).[/p]
+[p]f. 5v, lines 1-23: Prologue: [rubric in red] APVLEGII [sic] pLATONICI HER/barum incipit / Epistula // Apulegius platonicus ad ciues suos [end of rubric] /  [E]x pluribus pauca uires herbarum et curationes corporis ... nostra bectonica scientia invitis etiam medicis profuisse videatur.[/p]
+[p]f. 5v, lines 24-25: Incipit: [rubric in red] plantago [end of rubric] / [N]omen herbe plantago.  … in pulverem redactam cum volueris utere sicut sictis [sic].[/p] 
+[p]f. 52r-v: Explicit: [rubric in red] Mandragora [end of rubric] / [N]omen mandragora herba. Huius generis [sic] sunt duo. Masculus et femina. Albiora habet folia masculus  … Radices autem sicce reseruantur pluribus usibus profuture. /Finis.[/p]
+</summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_575_1">
+              <author/>
+              <title type="original">[p]Pseudo-Antonius Musa, [i]De herba vettonica liber[/i]; Pseudo-Apuleius Platonicus, [i]Herbarium[/i] or [i]De medicaminibus herbarum[/i][/p]</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>[p]On paper. Watermark of 2 crossed swords (height c. 60 mm; width c. 35 mm; distance between chainlines 54 mm), similar, but not identical to Briquet no. 5159 (Venice, 1476), and Piccard nos 123172 and 123176 (Como, 1469 and 1486).[/p]
+[p]53 leaves, plus brown paper flyleaf and conjoint pastedown and two further paper flyleaves at the beginning and the end; f. 53 originally blank; old foliation '1-53' in grey ink in upper right corner of rectos; traces of another old foliation in grey ink in lower right corner of rectos cropped away by binder. 212 x 145 mm; written space c. 148/189 x 78/85 mm, unruled, 26/33 written lines to the column; no trace of pricking.[/p]
+[p]Collation: 1-3[sup]8[/sup], 4[sup]6[/sup], 5-6[sup]8[/sup], 7[sup]8-1[/sup] (wanting viii); catchwords in the lower right corner of last verso in quires 1-6, all with penwork decoration with the exception of catchword on f. 16v.[/p]
+[p]Secundo folio: [rubric in red] Ad capitis dolorem [end of rubric] / [H]erba bectonica contusa.[/p]
+[p]Written in cursive Gothic bookhand, Italy, late 15th century.[/p]
+[p]Rubrics and one-line initials in red throughout.[/p] 
+[p]Marginal annotation on f. 42r, variations to plant names in rubrics on ff. 7r, 19v and 25r, and corrections on ff. 36r and 37v supplied by 16th-century readers. The note 'Christum sit videtur quot alicui per viam graciam' written in humanistic script in black ink on f. 53v, late 15th or early 16th century.[/p]
+[p]Binding: Half green straight-grain morocco and red paper over pasteboards, with gilt tooling on spine, early 19th century.[/p]
+<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>[p]On paper. Watermark of 2 crossed swords (height c. 60 mm; width c. 35 mm; distance between chainlines 54 mm), similar, but not identical to Briquet no. 5159 (Venice, 1476), and Piccard nos 123172 and 123176 (Como, 1469 and 1486).[/p]
+[p]53 leaves, plus brown paper flyleaf and conjoint pastedown and two further paper flyleaves at the beginning and the end; f. 53 originally blank; old foliation '1-53' in grey ink in upper right corner of rectos; traces of another old foliation in grey ink in lower right corner of rectos cropped away by binder. 212 x 145 mm; written space c. 148/189 x 78/85 mm, unruled, 26/33 written lines to the column; no trace of pricking.[/p]
+[p]Collation: 1-3[sup]8[/sup], 4[sup]6[/sup], 5-6[sup]8[/sup], 7[sup]8-1[/sup] (wanting viii); catchwords in the lower right corner of last verso in quires 1-6, all with penwork decoration with the exception of catchword on f. 16v.[/p]
+[p]Secundo folio: [rubric in red] Ad capitis dolorem [end of rubric] / [H]erba bectonica contusa.[/p]
+[p]Written in cursive Gothic bookhand, Italy, late 15th century.[/p]
+[p]Rubrics and one-line initials in red throughout.[/p] 
+[p]Marginal annotation on f. 42r, variations to plant names in rubrics on ff. 7r, 19v and 25r, and corrections on ff. 36r and 37v supplied by 16th-century readers. The note 'Christum sit videtur quot alicui per viam graciam' written in humanistic script in black ink on f. 53v, late 15th or early 16th century.[/p]
+[p]Binding: Half green straight-grain morocco and red paper over pasteboards, with gilt tooling on spine, early 19th century.[/p]
+</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Late 15th Century</origDate>
+            </origin>
+            <provenance>[p]Rev. Henry Joseph Thomas Drury (1778-1841), his inscription 'Antonius Musa / sive Pseudo Musa / H. Drury / Harroviae 1822' in black ink on second upper flyleaf; his sale, London, Evans, 19 February 1827, lot 171: see [i]A Catalogue of the Extensive and Valuable Library of the Rev. Henry Drury ... sold by Auction by Mr. Evans, at his House, No. 93, Pall-Mall, on Monday, February 19, and Eleven following Days; and on Monday, March 12, and Ten following Days (Sundays excepted) [19 February-3 March and 12-23 March], 1827[/i], lot 171, described as 'Antonius Musa, sive Pseudo-Musa de Medecina et Apuleii Platonici Herbarium, MS. on paper'.[/p]
+[p]Sir Thomas Phillipps (1792-1872), baronet, collector of books and manuscripts, inscribed 'Phillipps MS / 3392' in black ink on verso of first upper flyleaf; described in [i]Catalogus librorum manuscriptorum in bibliotheca D. Thomae Phillipps, Bt.[/i](impressum Typis Medio-Montanis [i.e. Middle Hill]), 1837-[1871]; Facsimile reprint: [London], Orskey-Johnson, [2001], with new intro. by A.N.L. Munby), vol. 1, p. 39, MS. 3392. Sold at Phillipps sale, London, Sotheby, Wilkinson &amp; Hodge, 10 June 1896, lot 15: see [i]Portion of the famous collection of classical, historical, topographical, genealogical and other manuscripts &amp; autograph letters, &amp;c. of the late Sir Thomas Phillipps, pt. 8[/i].[/p] [p]Bernard Quaritch: Cat. no. 164, [i]Illuminated and historical manuscripts; and choice and valuable books, selections from several private libraries[/i], October 1896, lot 82; Cat. no. 176, [i]Catalogue of manuscripts, illuminated and historical: with a collection of rare Bibles and liturgies[/i], January 1898, lot 22; Cat. no. 211, [i]A Catalogue of ancient, illuminated and liturgical manuscripts ... from the VIIth to the XVIIIth century facsimiles ... and ... palaeography[/i], 1 January 1902, lot 110.[/p]
+[p]The physician and medical historian Joseph Frank Payne (1840-1910), his sale, London, Sotheby's, 30 January 1912, lot 7: see [i]Catalogue of the remaining portion of the library of the late Joseph Frank Payne, M.D. F.R.C.P. ... comprising his collection of rare herbals and other natural history books, a series of the first and later editions of John Milton's writings and Miltoniana, and old and modern books in general literature. Which will be sold by auction by messrs. Sotheby, Wilkinson &amp; Hodge ... on Tuesday, the 30th of January, 1912, and following day[/i]; for Payne, see T.H. Pennington, 'Payne, Joseph Frank (1840-1910)', Oxford Dictionary of National Biography.[/p]
+[p]Wellcome accession no. '29398' and the note 'M.S. case 45' marked in pencil on upper right edge of second upper flyleaf; former Wellcome shelfmarks '540' and '468' marked in pencil on upper pastedown.[/p]</provenance>
+            <acquisition>[p]Purchased at Sotheby's (Payne Library), 30 January 1912, lot 7.[/p]</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">[p]For original description, see S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973), vol. 1, p. 449.[/p]</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Plants, Medicinal</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Materia Medica</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Medicine, Magic, mystic, and spagiric</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Botany</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

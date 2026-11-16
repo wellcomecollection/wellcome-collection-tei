@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_555">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_555</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="JE">
+          <resp when="2014-09-30">Calm encoder</resp>
+          <persName>EdgeJ</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.555</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.555</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS555</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>65313</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>06add390-ddcc-42a3-8800-58666df0abc6</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19290949</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Collection of short medical works[/p]
+
+[p][b]Contents[/b][/p]
+
+[p]1. ff. 1r-4v Anonymous, fragment of a herbal[/p]
+
+[p]f. 1r Virtutes herbarum [by a later hand]. Item si quis radicem eufrosine per triduum ieiunus cum lacte papaveris comediat temptacionem per octo dies non habebit ... f. 4v ... Item decocta cum aqua et comesta dolorem pectoris mitigat.[/p]
+
+[p]2. ff. 4v-8r Anonymous, [i]De complexionibus[/i][/p]
+
+[p]f. 4v Hic tractandum est de complexionibus hominum in mundo vivencium ... f. 8r ... quia semper vivere se credit et optat.[/p]
+
+[p]3. ff. 8r-9r Anonymous, [i]De physiognomia[/i][/p]
+
+[p]f. 8r Qui habet vertutem acutum nobile est ... f. 9r ... Qui habet corpus inclinatum dicitur esse cupidus et avarus.[/p]
+
+[p]4. ff. 9r-10v Anonymous, [i]De mensibus et dietis[/i][/p]
+
+[p]f. 9r Hic narrat primo de mense hic tractandum de duodecim mensibus per quos volvitur annus ... f. 10v ... Item owa dura et caseum durum et assaturas et carnes suynas non est sanum comedere quia fistulitates.[/p]     </summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_555_1">
+              <author/>
+              <title type="original">Collection of short medical works (Miscellanea Medica XXIX)</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>10 ff. 8vo. 21 1/2 x 14 cm. Unbound.  Written in a neat rounded gothic script, probably in Germany: 33-40 lines to a page.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>10 ff. 8vo. 21 1/2 x 14 cm. Unbound.  Written in a neat rounded gothic script, probably in Germany: 33-40 lines to a page.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Mid 15th Century</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased at Sotheby's 28/7/1932, Lot 550.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Catalogue description modified in 2014. For original description, see S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Temperament</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Physiognomy</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Diet</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Materia Medica</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Botany</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_565">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_565</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.565</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.565</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS565</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>44000</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>274f62f5-090d-4292-884c-cb11a3b7315d</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b18937299</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Compendium de regimine sanitatis. Written in a neat rounded gothic hand 25-26 lines to a page. Initials, headings and paragraphs marks in red. Fol. 4 (red) Conpendium [sic] de regimine sanitatis Chris / tissimo doctore artis medicine collectum. // UNiuersorum conditor deus / in donis suis benedictus ... 8, line 15 (red) De infante primo nato. / Infans cum primo nascitur ... 151 ...Et / sicut de aly[i]s [sic] intelligatur ut in ipsa tabu / la continetur infrascriptum. / Explicit opus bonum. 151v Liber primus de generali regimine diete quoad omnes etates. // Cur corpus humanum subiicitur mutacione [et] corrupicone / ... 152v In farmacia et precipue in flebothomia. Pseudo-PONTIUS PILATUS. Epistola ad Claudium [recte 'Tiberium']. 153v Poncius pilatus Claudio suo Salutem. Nuper accidit et quod ipse probaui ... line 21 ...et estimas credenum esse mendaciis Iudeorum Vale. Followed by 4 lines of verse beginning 'O gens Iudea, gens misera, gensque iniqua'. 154 (By a different hand) Vrbanus pontifex quintus pro magno munere misit / Imperatori unum agnus dei cum versibus sequentibus / Balsamus ex munda cera cum crismatis unda / ... / ... (line 10). Si quis honorat eum retinet ab hoste triumphans. On the fly-leaf pasted down inside the upper cover are four lines of verse beginning '[Cur]andum est ut sit mens sana in corpore sano'. On fol. 1, four lines of verse: the next two leaves are blank. On fol. 153 is an inscription 'Geor[g]ius Regel 1472 feria secunda post festum michelis' [13th October]: the verses on fol. 154 are by the same hand.</summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_565_1">
+              <author>Monopp de Rüdlingen, Conrad</author>
+              <title type="original">Monopp de Rüdlingen, Conrad</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>160 ll. (last 6 bl.). 4to. 201/2 X 15 cm. Original stamped calf binding over wooden boards: clasp wanting. Outer margin of the last leaf cut away.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>160 ll. (last 6 bl.). 4to. 201/2 X 15 cm. Original stamped calf binding over wooden boards: clasp wanting. Outer margin of the last leaf cut away.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Middle 15th century</origDate>
+            </origin>
+            <provenance>Below the title in red on fol. 4 'Ad bibliothecam Viennensium P.P. Francis-canorum IX E. 492' by an 18th cent. hand.</provenance>
+            <acquisition>Purchased 1925.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Hygiene</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Poetry</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
