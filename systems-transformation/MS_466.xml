@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_466">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_466</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="JE">
+          <resp when="2014-05-22">Calm encoder</resp>
+          <persName>EdgeJ</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.466</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.466</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS466</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>29871</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>84264f8e-14cf-4b80-80f6-a4ed8cafd2a0</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19122494</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p][u]Contents[/u][/p]
+
+[p]1. ff. 2r-54v Maimonides, [i]Tractatus de regimine sanitatis[/i][/p]
+
+[p]Incipit: '[T]ractatus Rabi Moysi quem domino et Magnifico Soldano Babilonie transmisit...'[/p]
+
+[p]Explicit: '...post quodlibet exercitium debite rectum. Finis. Laus Deo et Matri Marie'.[/p]
+
+[p]ff. 55r-v blank[/p]
+
+[p]2.  ff. 56r-71r Andrea de Burgaro, [i]Consilium de regimine sanitatis[/i][/p]
+
+[p]Incipit: '[I]nfrascriptum Regimen sanitatis Curationis et egritudinis est bene clarum...'.[/p]
+
+[p]Explicit: '...si haberet stomacum desolatum. Itaque Accelleraret rem multum'.[/p]
+
+[p]ff. 71v-78v blank.[/p] 
+
+[p] F.79r Notes[/p] </summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_466_1">
+              <author>Maimonides, Andrea de Burgaro</author>
+              <title type="original">Works on regimen</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>[p]79 ll. 4to. 20 1/2 x 14 cm. Original vellum binding, one corner torn away. 2 cross-stitches at outer corners of front cover; spine in 2 parts top stitched on. Paper. Written space 130x85mm. 18 long lines. Collation: 1 (10) wants 10 after f. 9, cut out 2-6 (8), 7 (6), 8-10 (8). Written in a semi-current italic hand. Second folio: 'que in aliis'. f. 32v sketch of a horse, f. 34r sketch of a ship, both in text hand.[/p]
+
+[p]<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>[p]79 ll. 4to. 20 1/2 x 14 cm. Original vellum binding, one corner torn away. 2 cross-stitches at outer corners of front cover; spine in 2 parts top stitched on. Paper. Written space 130x85mm. 18 long lines. Collation: 1 (10) wants 10 after f. 9, cut out 2-6 (8), 7 (6), 8-10 (8). Written in a semi-current italic hand. Second folio: 'que in aliis'. f. 32v sketch of a horse, f. 34r sketch of a ship, both in text hand.[/p]
+
+[p]</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Late 15th Century</origDate>
+            </origin>
+            <provenance>[p]On f. 1r in an early modern hand is written 'Bibliothece Sarteschiorum de Fivizzano', then in another hand 'Aquini' and in a third 'Tractatus de regimine sanitatis' and 'Prosperi de Sarzana che fiori nel 1530'. On f. 79r, in an early modern hand 'La carta e i caratteri de questo manoscritto sono del quattrocento' and 'Medici di Fivizzano nel 300 e 400. Maestro Francesco Medico di Fivizzano. Franciscus Casani. Maestro Matteo Stradello medico'.[/p]
+
+[p]From the Payne Collection, Lot 441 (part).[/p]</provenance>
+            <acquisition>Purchased 1911.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p/>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p/>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Hygiene</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Arabic</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p/>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Humours, Body</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
