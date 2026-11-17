@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_Amer_48">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MS Amer 48</title>
+            <title type="collection">Wellcome Collection</title>
+            <respStmt xml:id="RP">
+               <resp when="1983">Cataloguer</resp>
+               <persName>Robin Price</persName>
+            </respStmt>
+            <respStmt xml:id="AP">
+               <resp when="2022">Template</resp>
+               <persName>Adrian Plau</persName>
+            </respStmt>
+            <respStmt xml:id="OCV">
+               <resp when="2022-07-22">TEI Encoder</resp>
+               <persName>Odalys Caballero</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Wellcome Collection</publisher>
+            <idno>UkLW</idno>
+            <address>
+               <orgName type="institution">Wellcome Collection</orgName>
+               <street>215 Euston Rd</street>
+               <settlement>London</settlement>
+               <postCode>NW1 2BE</postCode>
+            </address>
+            <distributor>
+               <email>collections@wellcomecollection.org</email>
+            </distributor>
+            <idno type="msID">MS Amer 48</idno>
+            <idno type="catalogue"/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>London</settlement>
+                  <institution>Wellcome Collection</institution>
+                  <repository>Wellcome Library</repository>
+                  <idno type="msID">MS Amer 48</idno>
+                  <altIdentifier type="Sierra">
+                     <idno>b19473849</idno>
+                  </altIdentifier>        
+                  <altIdentifier type="CalmRef">
+                     <idno>MSAmer48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="PublicRef">
+                     <idno>WMS/Amer.48</idno>
+                  </altIdentifier>
+                  <altIdentifier type="CalmID">
+                     <idno>f5ac1294-5134-429e-afbd-7418562b6b08</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <msContents>
+                  <summary>                         
+                     <locus>Ft.xr-19r:</locus> Popular remedies, principally for tabardillo, or exanthematic typhus; also, advice on recognising a good horse, veterinary remedies, 
+                     and a table listing appropriate days for bleeding, purging, and general activities, according to the position of the moon in the zodiac. 
+                     <locus>Ff. 19r-22v:</locus> Copy from an untraced printed source "Brebe istrusio [sic] o Cartilla de remedios, Practica para asistir y 
+                     socorer alos pobres enfermos febrisitantes delos pueblos q. per tenesen ala probinsia depuebla for mada con este objeto de orden de la 
+                     Junta probinsial de Sanidad; Pueb[l]a 1823."  
+                     <locus> Ff. 22v-25v:</locus> Miscellaneous remedies. 
+                      <note>Upon cataloguing, the original author was not apparentUpon cataloguing, the original author was not apparent</note></summary>
+                  
+                  <textLang mainLang="es" source="IANA">Spanish</textLang>
+                  
+                  <msItem n="1" xml:id="MS_Amer_48_1">  
+                     
+                     <title key="">MS Amer 48</title>                     
+                     
+                     <title xml:lang="es" type="standard">Nombre</title> 
+                    
+                     
+                                      
+                     <textLang otherLangs="en" source="IANA">English</textLang>    
+                     
+                     <incipit>
+                        [Begins:] En el Nonbre [sic] de Dios, y Señor nuestro, Para el tabardillo y otras acsidentes [sic] sus remedios
+                     </incipit>
+                     
+                     
+                                          
+                     <filiation>Possibly associated with one leaf of WMS/Amer.15. Perhaps from the remedy book of an hacienda.</filiation>
+                     
+                     <note/>
+                  </msItem>
+                  
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper"><support/> 
+                        <extent>Ff.x-xv, 16-25 (i.e. 16 ll. in all).
+                           <dimensions unit="cm" type="leaf">
+                              <dim type="width">15.5 cm</dim>
+                              <dim type="length">21.5 cm</dim>
+                           </dimensions>
+                        </extent>
+                        
+                             
+                         <condition><p>1st leaf stained and torn</p></condition>
+                        
+                     </supportDesc>
+                     
+                  </objectDesc>
+                  
+                  <handDesc>
+                     <handNote> In two principal hands; highly erratic spelling and syntax throughout.</handNote>
+                  </handDesc>
+                  
+              
+                  
+                <bindingDesc>
+                     <binding>
+                        <p>Unbound <note> Originally bound with the same collection of remedies as WMS/Amer.47, 54 and 55, 
+                           but not in the same hand </note></p>
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <country>[Amozoc de Mota, Puebla, Mexico]</country>
+                        <region>North America</region>
+                     </origPlace>
+                     <origDate calendar="Gregorian">1823</origDate>
+                  </origin>  
+                  <provenance>Formerly part of the Guerra Collection</provenance>
+                  <acquisition>Purchased 1962.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <bibl>
+                              <title>An Annotated Catalogue of Medical Americana in the Library of the Wellcome Institute for the History of Medicine</title>
+                              <author>Robin Price</author>
+                              <placeName>London</placeName>
+                              <publisher>Wellcome Institute for the History of Medicine</publisher>
+                              <date>1983</date>
+                              <note>p. 259</note>
+                           </bibl>
+                        </source>
+                     </recordHist>
+                     
+                     <availability status="free">
+                        <p></p>
+                        <licence></licence>
+                     </availability>
+                     
+                     <custodialHist>
+                        <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                     </custodialHist>
+                  </adminInfo>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="MeSH">
+               <bibl>
+                  <ref target="https://www.nlm.nih.gov/mesh/meshhome.html">MeSH</ref>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="#LCSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords scheme="#MeSH">
+               <list>
+                  <item facs="">
+                     <term ref="subject_"/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2026-09-22"></change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
