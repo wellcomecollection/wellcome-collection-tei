@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_410">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_410</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="JE">
+          <resp when="2014-08-01">Calm encoder</resp>
+          <persName>EdgeJ</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.410</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.410</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS410</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>63391</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>86f3aa3c-6287-49fe-b89c-443163b2442e</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19483211</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Scroll containing remedies and charms against diseases, wounds, etc. Written in Late Middle English. Incomplete.[/p]
+
+[p][b]Contents[/b][/p]
+
+[p]Recto: her bygynnyth medicynys.  He [that] have tod akyng  ...  Ghyf the wonde be lokyn to gedere or hit be hol.[/p]
+
+[p]Verso [Charm]e for the festerys [?] ... thys charm ys of Susana that seynt gebryel hirre broughte fro god for to charme men of wormys of fester of goute ... vorms that dryue and ingrowen [?] and also ... [ends imperfectly].[/p]</summary>
+            <textLang mainLang="" source="IANA">English</textLang>
+            <msItem n="1" xml:id="MS_410_1">
+              <author/>
+              <title type="original">Scroll containing remedies and charms against diseases, wounds, etc. Written in Late Middle English. Incomplete (Leech-Books VII)</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">English</textLang>
+              <filiation>Anglo-Saxon letter forms in Moorat's catalogue description (such as contraction marks and thorn and yogh symbols) have been replaced with Latin characters.</filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>67 x 9.5 cm. On vellum. The end is wanting; text stained and rubbed. Written on recto and verso, in a good book-hand. At the top of the scroll are four small holes, perhaps for attachment to a carrying pouch.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>67 x 9.5 cm. On vellum. The end is wanting; text stained and rubbed. Written on recto and verso, in a good book-hand. At the top of the scroll are four small holes, perhaps for attachment to a carrying pouch.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>c. 1400</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1930.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p>Please consult the digitised version as this item needs to be accessed in our conservation studio. Email library@wellcomecollection.org to request an appointment.</p>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Catalogue description modified in 2014. For original description, see S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl>[p]Skemer, Don C. [i]Binding Words: Textual Amulets in the Middle Ages[/i] (University Park: Penn State Press, 2010), p. 160.[/p]
+
+</bibl>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Charms</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Traditional</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Formulas, recipes, etc.</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

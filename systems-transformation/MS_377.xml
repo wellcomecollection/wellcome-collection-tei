@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_377">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_377</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.377</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.377</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS377</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>65146</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>56c89e4f-e33b-4283-94e5-28008e500f8d</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b18935643</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Thesaurus pauperum: in Italian. Followed by surgical and other receipts in Italian and Latin. Written in a cursive italic hand, 26 lines to a page, by the same scribe as MS. No. 378 in which 'Jacopo' is named and which is dated 1419. Paragraph marks in red, initials in brown ink. Most of fol. 22v and fol. 23 are written in a late 16th or early 17th cent. hand, which is also found in the additions to MS. No. 378 mentioned above. Fol. 1 [By a later 15th cent. hand] Capitoli del tratatto de cerusia / a capite usque [ad] pedes. / [In the scribe's hand] De rotura cranei primum capitulum / ... 1v, line 4 Capitulo xxv de le ferite sengne che non se salda / no capitulo. capitulo xxv. line 11 Hic incipit texaurus pauperum capitulo pri / mo. Siane manifesto che la perchussione / de lo capo...22v, line 7 ... commo si costumo / in questo molto gioua et adjuto. 22v-End Medical and surgical receipts in Italian and Latin. On fol. 22 a receipt for 'Unguentum gratia dei' has been interpolated into the text, which continues on line 4 from the last line of fol. 21v. The numbering of the 'Capitula' in the table on fol. 1 and in the text does not coincide. In the former the last 'Capitulum' is XXV, in the latter XXII, though the headings are the same. Produced in [Florence?].</summary>
+            <textLang mainLang="" source="IANA">Italian</textLang>
+            <msItem n="1" xml:id="MS_377_1">
+              <author>Jacopo Florentino</author>
+              <title type="original">Jacopo Florentino</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Italian</textLang>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation>This MS. almost certainly formed part of an original larger volume, which contained Jacopo's 'Fiore di fiori' [MS. No. 378] and MS. No. 490 [Meligariis]. Though bearing the same title, this work is different from that of Petrus Hispanus, of which several editions appeared in the 15th cent.</filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>29 ll. 8vo. 171/2 X 121/2 cm. On vellum. Modern vellum binding.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>29 ll. 8vo. 171/2 X 121/2 cm. On vellum. Modern vellum binding.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>c. 1420</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1932.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Surgery</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Formulas, recipes, etc.</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Traditional</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

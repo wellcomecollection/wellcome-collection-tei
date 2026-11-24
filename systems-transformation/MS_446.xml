@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_446">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_446</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="JE">
+          <resp when="2014-05-09">Calm encoder</resp>
+          <persName>EdgeJ</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.446</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.446</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS446</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>90c40512-6df2-44bd-9e72-322226de8c55</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b18935722</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Anonymous, [i]Ymage de vie[/i], plus miscellaneous alchemical receipts[/p]
+
+[p][u]Contents[/u][/p]
+
+[p]1. ff. 1r-60r Anonymous [i]Ymage de vie[/i][/p]
+
+[p]f. 1r Cy commence le liure appelle ymage de vie trait des secrez des philosophes sur la fleur dalkemie. Cest assauoir sur le elixir de la grantmedecine des philosophes ... f. 60r Et aussi tu trouueras toute la commixtion vraye par la table en la figure que dessus est escripte. deo gratias.[/p]
+
+[p]This alchemical text is medical in nature, and its purpose is to assist in producing the elixir for long life. See Geneviève Dumas, 'L'Ymage de vie: un vade-mecum pour réaliser la "perfection des imparfaiz"', in Joël Chandelier, Catherine Verna and Nicolas Weill-Parot (eds), Science et technique au Moyen Âge (XIIe-XVe siècles) (Saint-Denis: Presses universitaires de Vincennes, 2017), pp. 143-73.[/p]
+
+[p]ff. 60v-62r blank.[/p] 
+
+[p]2. ff. 62v-65v Figures of alchemical apparatus. 
+
+[p]3. ff. 66r-72v 'Du premier levain', and other receipts and processes, by a different hand. 
+
+[p]f. 68r Cy commence la preparation ... f. 72v ... finis laus Deo.[/p]
+
+[p]f. 73r-v blank.[/p]
+
+[p]ff. 74r-77v Similar receipts, etc., in Latin by another hand. A transcript [19th cent.] of the beginning of the first work (12 ll.) is inserted.[/p]
+</summary>
+            <textLang mainLang="" source="IANA">French</textLang>
+            <msItem n="1" xml:id="MS_446_1">
+              <author/>
+              <title type="original">Anonymous, [i]Ymage de vie[/i], plus miscellaneous alchemical receipts</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">French</textLang>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>lxxii ff. + 5 inserted ll. 4to. 20 1/2 x 14 1/2 cm. Limp vellum covers, from a Deed of Sale in Latin, dated 1394. Five unfoliated leaves, written by a different hand, have been inserted between f. xxxviii and f. xxxix; thoe whole MS. has now been refoliated in pencil. The upper part of f. lvi has been cut away, some corners and margins frayed.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>lxxii ff. + 5 inserted ll. 4to. 20 1/2 x 14 1/2 cm. Limp vellum covers, from a Deed of Sale in Latin, dated 1394. Five unfoliated leaves, written by a different hand, have been inserted between f. xxxviii and f. xxxix; thoe whole MS. has now been refoliated in pencil. The upper part of f. lvi has been cut away, some corners and margins frayed.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Late 15th century</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased at Sotheby's 12/5/1914, Lot 15 (acc.34197)</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Catalogue description modified in 2014. For original description, see S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl>[p]Dumas, Geneviève, 'L'Ymage de vie: un vade-mecum pour réaliser la "perfection des imparfaiz"', in Joël Chandelier, Catherine Verna and Nicolas Weill-Parot (eds), Science et technique au Moyen Âge (XIIe-XVe siècles) (Saint-Denis: Presses universitaires de Vincennes, 2017), pp. 143-73.)[/p]
+
+[p]Pereira, Michela. [i]The Alchemical Corpus attributed to Ramon Lull[/i] (London: The Warburg Institute, 1989), p. 89.[p]
+
+[p]Pereira, Michela. 'Alchemy and the Use of Vernacular Languages in the Late Middle Ages', [i]Speculum[/i] 74 (1999), p. 343 n. 37.[/p]
+
+[p]Singer, D. W. [i]Catalogue of Latin and Vernacular Manuscripts in Great Britain and Ireland Dating before the Sixteenth Century[/i] (Brussels: Maurice Lamertin, 1928-1931), no. 276.[/p]
+
+[p]Taavitsainen, Irma. 'Science', [i]A Companion to Chaucer[/i] ed. Peter Brown (Oxford: Blackwell, 2000), p. 392.[/p]</bibl>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Alchemy</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Formulas, recipes, etc.</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

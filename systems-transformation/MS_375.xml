@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_375">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_375</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="JE">
+          <resp when="2014-05-19">Calm encoder</resp>
+          <persName>EdgeJ</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.375</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.375</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS375</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>23759</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>a5f06666-8a48-4566-92e7-b558d54964ed</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b21366391</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p][b]Contents[/b][/p]
+
+[p]1. pp. 1-72 Jacobus de Prato [i]De operatione manuali[/i][/p]
+
+[p]p. 1 Scientia, manualis medicine aggregatur ex regulis quibus dirigitur ad successionem laudabilem sui operis ... p. 72 … in capitulo de medicinis remouentibus vestigia vlcerum, et sic est finis primi libri etc. Laus Deo Patri Virginique: et yhesu.[/p]
+
+[p]pp. 73-74 blank, save for crossed out scribbling on p. 73[/p]
+
+[p]2. pp. 75-201 Thomas Presbyter (John of Tracia), [i]Cyrugia[/i][/p]
+
+[p]p. 75 [I]n exordio huius mei opusculi scientiae cyrugiae ... p. 201 Postea revertatur ad primam suam consuetudinem. Explicit Cyrugia Omni Laude Dignissima Venerabilis Presbyteri Domini Thomae; scripta cum supra scripto quoddam opusculo per me bartholomeum Cynthium Scalam pisaurensem Omni diligentia et Cura. Anno domini ['14' and '1560' struck through] 1506 Die 16 Augusti.[/p]
+
+[p]This surgical text is ascribed to one Thomas Presbyter here, but on the attribution to John of Tracia see Lynn Thorndike, 'Another manuscript of Leonard of Bertipaglia and John de Tracia', [i]Bulletin of the Institute of the History of Medicine[/i] 4 (1936), pp. 259-260.[/p]
+</summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_375_1">
+              <author/>
+              <title type="original">Two surgical treatises</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>200 [mis-numbered 201] pp. folio. 28 1/2 x 21 cm. Contemporary blind stamped calf binding. Two leaves have been cut out between p.72 and p.73. Written in a sloped humanistic hand in two columns, 27-31 lines to a column. Initial S on p. 1 in blue and gold, other capitals in gold and red, headings in red.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>200 [mis-numbered 201] pp. folio. 28 1/2 x 21 cm. Contemporary blind stamped calf binding. Two leaves have been cut out between p.72 and p.73. Written in a sloped humanistic hand in two columns, 27-31 lines to a column. Initial S on p. 1 in blue and gold, other capitals in gold and red, headings in red.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1506</origDate>
+            </origin>
+            <provenance>Written by Bartholomaeus Cynthius Scala of Pesaro, Italy (as per colophon p. 201). Ownership inscription of Francesco Muscini written in a later sixteenth century hand on p. 201.</provenance>
+            <acquisition>Purchased 1910.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Catalogue description modified in 2014. For original description, see S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list/>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

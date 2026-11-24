@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_539">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_539</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2003-12-22">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.539</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.539</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS539</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>41023</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>95cb6459-886c-45ad-9c59-64d724f66d52</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b1889432x</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Collection of short tracts on urines, pulse, regimen, etc.: in Latin. Followed by medical receipts in German. By Several hands. 
+
+The Latin portion of the MS. ends at fol. 64, and seems to be by the same hand eith headings and paragraph marks in red. The remainder contains the receipts, by several hands in German. The earliest of these before fol. 65 are dated at end 1501, those following are in later scripts of the first quarter of the 16th century. 
+
+Ff. 2-37 On urines. Fol. 38 Virtus naturalis, virtus animalis, virtus vitalis. Ft. 39-43 De judicio pulsus. Fol. 45 De minutione sanguinis. 46 De medicina, de medicinis. Ff.56v-65 Regimen, etc. with some receipts: Latin and German: the last (fol. 65v) dated in red 1501. 66-end Receipts by various hands, in German.</summary>
+            <textLang mainLang="" source="IANA">German</textLang>
+            <msItem n="1" xml:id="MS_539_1">
+              <author/>
+              <title type="original">Miscellanea Medica IX</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">German</textLang>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>95 ll. 4to. 21 x 15 cm. Loose in qriginal vellum binding over wooden boards, damaged: part of the metal clasp wanting. Modern foliation in pencil, from which it appears that a leaf is wanting after folio 10, and after fol. 45: two leafes after fol. 46; one after fol. 55 and fol. 57: three after fol. 64, and an unknown number after the last leaf. A large piece has beeb cut out of the lower part of fol. 43, and the first leaf is damaged.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>95 ll. 4to. 21 x 15 cm. Loose in qriginal vellum binding over wooden boards, damaged: part of the metal clasp wanting. Modern foliation in pencil, from which it appears that a leaf is wanting after folio 10, and after fol. 45: two leafes after fol. 46; one after fol. 55 and fol. 57: three after fol. 64, and an unknown number after the last leaf. A large piece has beeb cut out of the lower part of fol. 43, and the first leaf is damaged.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>c.1500-1525</origDate>
+            </origin>
+            <provenance>On the verso of the first leaf is an owner's inscription badly rubbed, but partly legible: 'Libellus iste est leonardi groczlin [?] de Sied [?] presbyteri [?] diocesis emptus pro 3 solidis. Anno/[m.d.] xxxi die Sanctae Scolasticae [?]'/</provenance>
+            <acquisition>Purchased 1921.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Traditional</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Formulas, recipes, etc.</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Urology</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Bloodletting</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Hygiene</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Pulse</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Cathartics</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

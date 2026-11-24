@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_333">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_333</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="JE">
+          <resp when="2014-09-29">Calm encoder</resp>
+          <persName>EdgeJ</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.333</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.333</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS333</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>24846</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>2af27d61-ea8c-4b2e-8b76-ae56358b0787</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b1929461x</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Commentaries of Henry of Ghent on Aristotle[/p]
+
+[p]Written in a small gothic script in double column of 51 lines to a column. Illuminated initials in gold and colours, with marginal decoration on fol. 1 and fol. 111. Other initials in red, paragraph marks in red -a few in blue. The hand is somewhat difficult, and there are extensive contractions.[/p]
+
+[p][b]Contents[/b][/p]
+
+[p]1. ff. 1r-110v Henry of Ghent, [i]Quaestiones in Physica[/i][/p]
+
+[p]f. 1r Ad ingtessum huius sciencle prima questio debet esse utrum de rebus naturalibus debeat esse sciencia ... f. 110v ... qualiter ad animam cum reincorporatur alicui corpori contra cacit idem complementum huius require in parte inferiori etlege terminum.[/p]
+
+[p]2. ff. 111r-112r Henry of Ghent, [i]Quaestiones in Metaphysiciam[/i][/p]
+
+[p]f. 111r (In the upper margin, by a later hand) Questiones secundum textum methaphisice valde subtiles quarum tituli sunt in fine libri notati ... Infine nobilitatis bonorum primo existit metaphysica ... f. 112r ... quod poterit transire metafisicam disciplinam Aristotelis.[/p]
+
+[p]3. ff. 112v-152v Henry of Ghent, [i]Quaestiones in Physica[/i][/p]
+
+[p]f. 112v Necesse est nobis considerare primo questiones. In hoc libro enumerat aristoteles xxv questiones difficiles ... f. 152v ...utrum anima rationalis inducitur cum semine.[/p]</summary>
+            <textLang mainLang="" source="IANA"/>
+            <msItem n="1" xml:id="MS_333_1">
+              <author>Henricus de Gandavo, d. 1293</author>
+              <title type="original">Commentaries of Henry of Ghent on Aristotle</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA"/>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent><dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p/>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Early 14th Century</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1910.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Catalogue description modified in 2014. For original description, see S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Science</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Philosophy</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

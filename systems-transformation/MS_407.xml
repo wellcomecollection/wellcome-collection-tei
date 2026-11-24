@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_407">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_407</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="JE">
+          <resp when="2014-07-29">Calm encoder</resp>
+          <persName>EdgeJ</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.407</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.407</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS407</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>31654</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>208ff264-51ea-4414-8651-dea42f72b3ed</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19267563</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>[p]Collection of medical receipts in Middle English and Latin[/p]
+
+[p][b]Contents[/b][/p]
+
+[p]1. ff. 1r-7r Medical receipts in English[/p]
+
+[p]f. 1r [For payne in the tothe ?] ... also hot as thow may souffre it to thy cheke at euen. Item. Tak the rote of the rede dokke ... f. 7r [For the ston] ... or tak and drink sed of spurge tempered with wyn or ale.[/p]
+
+[p]2. ff. 7v-10v Medical receipts in Latin[/p]
+
+[p]f. 7v [C]ontra cancrum probatissimum experimentum accipe absinthium ... f. 10v [Ad faciendas margaritas] ... et purifica eas et sicut [?] ut margaritas.[/p]
+
+[p]3. ff. 11r-61r Medical receipts in English and Latin[/p]
+
+[p]f. 11r Theise ben the veynes to leten onne a man blod. for diuerse eueles. In the arme ben veynes ... f. 15r [For alle newe woundes and to knowe] ... and it schal purge and heole the wounde. f. 15v Ad reuma capitis. R[ecipe] plenam manum ordei ... f. 61r [Ad dolorem wulnerum] ... et parum mellis et farinam tritici et fac emplastrum etc.[/p]
+
+[p]4. ff. 61v-70r Glossary of herbs[/p]
+
+[p]f. 61v [A]brothanum ameroyne sothernewode ... f. 70r zynziber [Added] zucaro uel zucura.[/p] 
+
+[p]5. f. 70v Note 'De virtute rute', followed by a receipt in French 'Por feblesse et maladies des oils'. [/p]</summary>
+            <textLang mainLang="" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_407_1">
+              <author/>
+              <title type="original">Collection of medical receipts in English and Latin (Leech-Books, IV)</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <textLang mainLang="" source="IANA">English</textLang>
+              <textLang mainLang="" source="IANA">French</textLang>
+              <filiation>Anglo-Saxon letter forms in Moorat's catalogue description (such as contraction marks and thorn and yogh symbols) have been replaced with Latin characters.</filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>70 [78] ff. 4to. 19 x 14 cm. On vellum. 18th century panelled calf binding. The first 8 ff. are wanting. The fly-leaf at the beginning is mutilated, margins cropped in binding. There are two main scripts. The first, ff. 1-7, 11-61, a semi-current rounded gothic 30-36 lines to a page; the second, ff. 7v-10, 61-70, a smaller and less formal hand 35-40 lines to a page. Some capitals, paragraph marks, and underlinings in red. In the lower margin of f. 2r is a small pen-drawing of a face, with red spots (freckles); on f. 12r a drawing of a plate used as a 'Charme of leed good for woundes' (f. 11v). There is an early foliation 9-76, which is incorrect after f. 72. A revised foliation 1-70 has been inserted in pencil at the lower corner of the rectos. <dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>70 [78] ff. 4to. 19 x 14 cm. On vellum. 18th century panelled calf binding. The first 8 ff. are wanting. The fly-leaf at the beginning is mutilated, margins cropped in binding. There are two main scripts. The first, ff. 1-7, 11-61, a semi-current rounded gothic 30-36 lines to a page; the second, ff. 7v-10, 61-70, a smaller and less formal hand 35-40 lines to a page. Some capitals, paragraph marks, and underlinings in red. In the lower margin of f. 2r is a small pen-drawing of a face, with red spots (freckles); on f. 12r a drawing of a plate used as a 'Charme of leed good for woundes' (f. 11v). There is an early foliation 9-76, which is incorrect after f. 72. A revised foliation 1-70 has been inserted in pencil at the lower corner of the rectos. </p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Early 15th century</origDate>
+            </origin>
+            <provenance>Phillipps MS. 4047, with a pencil note by him 'From Tayler' written inside the upper cover. Below this is a pasted-in Ex-libris of George Dunn ( -1912), who has a note in pencil on the fragment of the fly-leaf 'G.D. Sep. 1900'. Sold at Sotheby's (Phillipps Sale) 7/6/1899, Lot 865.</provenance>
+            <acquisition>Purchased at Sotheby's (Dunn Sale) 14/2/1913, Lot 574.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Catalogue description modified in 2014. For original description, see S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Glossaries</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Formulas, recipes, etc.</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Medicine, Traditional</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Charms</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_303">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_303</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="MH">
+          <resp when="2004-04-08">Calm encoder</resp>
+          <persName>Hiltoncm</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.303</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.303</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS303</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>57133</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>dd7f9db1-e276-41db-9fc0-5779594d28c2</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19567741</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Copies of seven "Cartas de Privilegio" relating to the Hospital: the last containing the signature of Philip IV of Spain (1605-1665), in the form "Yo el Rey" on the penultimate leaf.  These are all attested copies of original documents.
+
+Copy of document of 25/12/1561: 10 ll (last 2 bl.), 33 x 24.5 cm, copied 10/10/1596.
+Copy of document of 4/6/1637: 10 ll (last bl.), 32 x 22.5 cm, copied 13/8/1637. 
+Copy of document of 16/2/1635: 10 ll (last 2 bl.), 32 x 21.5 cm, copied 22/8/1642. 
+Copy of document of 23/4/1586: 14 ll (last 2 bl.), 31 x 21 cm, copied 20/8/1643. 
+Copy of document of 16/9/1609: 14 ll (last 2 bl.), 31 x 21 cm, copied 20/8/1643. 
+Copy of document of 24/5/1613: 10 ll (last bl.), 32 x 27 cm, copied 14/7/1656.
+Copy of document of 12/7/1614: 10 ll (last bl.), 31 x 21 cm, copied 29/8/1656.
+
+Produced in Madrid.</summary>
+            <textLang mainLang="" source="IANA">Spanish</textLang>
+            <msItem n="1" xml:id="MS_303_1">
+              <author>Ospidale de S. Maria degli Incurabile, Genoa</author>
+              <title type="original">Genoa: Ospidale de S. Maria degli Incurabile</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Spanish</textLang>
+              <filiation/>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">7 documents<support><watermark/></support><extent>Folio, v.s.  On vellum, unbound.  Margins damaged and cockled.  For size and foliation see Description field.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>Folio, v.s.  On vellum, unbound.  Margins damaged and cockled.  For size and foliation see Description field.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1596-1656</origDate>
+            </origin>
+            <provenance/>
+            <acquisition>Purchased 1929 (accession numbers 57133A-G).</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Hospitals</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

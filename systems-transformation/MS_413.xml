@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"
+        ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_413">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MS_413</title>
+        <title type="collection">Wellcome Collection</title>
+        <respStmt xml:id="SM">
+          <resp when="1973">Cataloguer</resp>
+          <persName>S. A. J. Moorat</persName>
+        </respStmt>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Collection</publisher>
+        <idno>UkLW</idno>
+        <address>
+          <orgName>Wellcome Collection</orgName>
+          <street>215 Euston Rd</street>
+          <settlement>London</settlement>
+          <postCode>NW1 2BE</postCode>
+        </address>
+        <distributor>
+          <email>library@wellcome.org</email>
+        </distributor>
+        <idno type="msID">MS.413</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>United Kingdom</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Collection</institution>
+            <repository>Wellcome Library</repository>
+            <idno type="shelfmark">MS.413</idno>
+            <altIdentifier type="CalmRef">
+              <idno>MS413</idno>
+            </altIdentifier>
+            <altIdentifier type="accession">
+              <idno>66627</idno>
+            </altIdentifier>
+            <altIdentifier type="previous">
+              <idno/>
+            </altIdentifier>
+            <altIdentifier type="CalmID">
+              <idno>05850d68-d8d8-4d26-b2d6-514ed54996f3</idno>
+            </altIdentifier>
+            <altIdentifier type="Sierra">
+              <idno>b19183720</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>CHrhsmoi: containing 15 (out of 16), prophetic stanzas, with accompanying symbolic pictures: followed by 10 similar verses and illustrations relating to the Apocalypse, by an unidentified author: in Greek. Ornamental border-piece in upper margin of first leaf in red and black, large initials and headings in red. Illustrated with twenty-five water-colour drawings of a symbolic character. Of the sixteen illustrations given in Migne's edition of the 'CHrhsmoi' the first is wanting in this MS., but the remainder follow as in the printed version. (Cf. Migne 'Patrologia graeca'. Vol. 108, pp. 1122-1167.) Fol. 1 'Deontos ton sofotaton basileos ths Konstantino? / poleos // Buxantos anlh estia  konstantinou pomh babulon kai sion / ...(End)...tois ichnesi son trospesonton ton pelas'. This is the 'Oraculum de restitutione Constantinopoleos' in Migne, p. 1150. 1v (red) METANIAC // Ditton to triton kai gar ornis ippoths...(Oraculum XVI in Migne)...ouk astochhseis ths ano klhroulias 9 Prophetic verses on Apocalyptic themes...'Pente dendra basileon ton eptalofon thn polin...' 13v 'eis ta upsh ton oreon' 14 Five lines beginning 'Touto o noon' struck through in red: these are repeated from fol. 12. On verso of fol. 14, medical notes by a later hand. The original paper covers, containing fragments of a sermon, the lower cover defective, have been bound in. The script of these is probably of later date-18th cent.</summary>
+            <textLang mainLang="" source="IANA">Greek</textLang>
+            <msItem n="1" xml:id="MS_413_1">
+              <author>Leo VI, The Philosopher, Emperor of the East (865-911)</author>
+              <title type="original">Leo VI, The Philosopher, Emperor of the East (865-911)</title>
+              <title type="standard"/>
+              <textLang mainLang="" source="IANA">Greek</textLang>
+              <filiation>Greek symbols in Moorat's catalogue description replaced by Latin characters.</filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="">1 volume<support><watermark/></support><extent>14 ll. 4to. 22 x 151/2 cm. Modern boards. Some margins frayed and repaired.<dimensions type="leaf" unit="cm"><dim type="width"/><dim type="length"/></dimensions><dimensions type="written" unit="cm"><dim type="width"/><dim type="length"/></dimensions></extent><foliation/><collation/><condition><p/><p/><p/></condition></supportDesc>
+              <layoutDesc>
+                <layout writtenLines="">
+                  <note/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scribe="sole"/>
+              <handNote script=""/>
+            </handDesc>
+            <decoDesc>
+              <decoNote type="marginal"/>
+              <decoNote type="illustration"/>
+              <decoNote type="rubrication"/>
+            </decoDesc>
+            <additions/>
+            <bindingDesc>
+              <binding>
+                <p>14 ll. 4to. 22 x 151/2 cm. Modern boards. Some margins frayed and repaired.</p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>Late 16th century</origDate>
+            </origin>
+            <provenance>On fol. 1, Library stamp of 'Georges P. Beglery Constantinople'. From the Library of Lionel Hauser of Paris, with his press-mark label 'L H 8'.</provenance>
+            <acquisition>Purchased at Sotheby's (Hauser Sale) 17/4/1934, Lot 331.</acquisition>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <bibl>
+                    <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                    <author>S. A. J. Moorat</author>
+                    <placeName>London</placeName>
+                    <publisher>Wellcome Institute for the History of Medicine</publisher>
+                    <date>1962-1973</date>
+                  </bibl>
+                </source>
+              </recordHist>
+              <availability status="free">
+                <p/>
+              </availability>
+              <custodialHist>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="exhibition"/>
+                <custEvent type="digitised">Digitised: </custEvent>
+              </custodialHist>
+            </adminInfo>
+            <surrogates/>
+            <listBibl>
+              <bibl>This manuscript is described in detail by Petros Bouras-Vallianatos in &lt;a href="http://dx.doi.org/10.1017/mdh.2015.6" target="_blank"&gt;[i]Medical History[/i] [b]59[/b] (2015), pp.275-326[/a].</bibl>
+            </listBibl>
+            <listBibl>
+              <bibl/>
+            </listBibl>
+            <listBibl>
+              <bibl>
+                <title/>
+                <author/>
+                <date/>
+                <placeName/>
+                <publisher/>
+                <abbr/>
+                <note/>
+              </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="MeSH">
+          <bibl>
+            <ref target="">MeSH</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Bible</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Poetry</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Prophecies</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>[p]Manuscripts, Greek</p>
+              </term>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="#MeSH">
+          <list>
+            <item facs="">
+              <term ref="subject_"/>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+      <change when="" who="">Manual edits following automated Calm-TEI transformation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>
