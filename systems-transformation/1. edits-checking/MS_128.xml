@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_128">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MS_128</title>
+                <title type="collection">Wellcome Collection</title>
+                <respStmt xml:id="SM">
+                    <resp when="1973">Cataloguer</resp>
+                    <persName>S. A. J. Moorat</persName>
+                </respStmt>
+                <respStmt xml:id="JE">
+                    <resp when="2014-09-25">Calm encoder</resp>
+                    <persName>EdgeJ</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Wellcome Collection</publisher>
+                <idno>UkLW</idno>
+                <address>
+                    <orgName>Wellcome Collection</orgName>
+                    <street>215 Euston Rd</street>
+                    <settlement>London</settlement>
+                    <postCode>NW1 2BE</postCode>
+                </address>
+                <distributor>
+                    <email>library@wellcome.org</email>
+                </distributor>
+                <idno type="msID">MS.128</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>London</settlement>
+                        <institution>Wellcome Collection</institution>
+                        <repository>Wellcome Library</repository>
+                        <idno type="shelfmark">MS.128</idno>
+                        <altIdentifier type="CalmRef">
+                            <idno>MS128</idno>
+                        </altIdentifier>
+                        <altIdentifier type="accession">
+                            <idno>24715</idno>
+                        </altIdentifier>
+                        <altIdentifier type="previous">
+                            <idno></idno>
+                        </altIdentifier>
+                        <altIdentifier type="CalmID">
+                            <idno>b06cb29f-ac0f-4ff3-bfe4-0199a5471530</idno>
+                        </altIdentifier>
+                        <altIdentifier type="Sierra">
+                            <idno>b19590295</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary><p>This manuscript consists of six distinct works regarding magical and astrological treatises: "De situatione stellarum in 12 signis", "De 12 signis et eorum occulitis virtutibus", "Picatrix", "De civitatibus et provinciis sub signis" and "De imaginibus septem planetarum". ff. 12r-13v is blank.</p>
+                            <note>It was written in Ferrara, Northern Italy.</note>
+                            <textLang mainLang="la" source="IANA">Latin</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <extent>25 ff. (last 2 bl.). 4to.
+                                    <dimensions type="leaf" unit="cm">
+                                        <dim type="width">15 cm</dim>
+                                        <dim type="length">21 cm</dim>
+                                    </dimensions>
+                                    <dimensions type="written" unit="cm">
+                                        <dim type="width"></dim>
+                                        <dim type="length"></dim>
+                                    </dimensions>
+                                </extent>
+                                <foliation></foliation>
+                                <collation></collation>
+                                <condition>
+                                   </condition>
+                                <support>
+                                    <watermark></watermark>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout writtenLines="26">
+                                    <note>26 lines to a page.</note>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote scribe="sole">Written by the same scribe throughout.</handNote>
+                            <handNote script="upright">Written in a small upright hand.</handNote>
+                        </handDesc>
+                        <decoDesc>
+                            <decoNote type="marginal">There are some additional headings and marginalia by a slightly later hand.</decoNote>
+                            <decoNote type="illustration">In the lower margin of f. 17v is a small pen-drawn horoscopic figure, and on ff. 18-20 numerical squares.</decoNote>
+                            <decoNote type="rubrication">A few headings and paragraph marks in red.</decoNote>
+                        </decoDesc>
+                        <additions></additions>
+                        <bindingDesc>
+                            <binding>
+                                <p>Modern quarter calf binding.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate>1487</origDate>
+                        </origin>
+                        <provenance>On ff. 21v and 22 are marginal notes by another hand dated as follows: '1492 die 8 martis', '1493 die 22 octobris. satis bene', '1490 die 31 martis satis bene', '1495 12 augusti. optime'. These entries seem to refer to the making of planetary sigils. At the back of the first fly-leaf the visiting card of Count Paolo Vimercati-Sozzi (1801-1883), the archaeologist, is pasted in.</provenance>
+                        <acquisition>Purchased on 14th October 1910 from Rosenthal for £6. Accessioned on 10 December 1910.</acquisition>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>
+                                        <title>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</title>
+                                        <author>S. A. J. Moorat</author>
+                                        <placeName>London</placeName>
+                                        <publisher>Wellcome Institute for the History of Medicine</publisher>
+                                        <date>1962-1973</date>
+                                    </bibl>
+                                </source>
+                            </recordHist>
+                            <availability status="free">
+                                <p></p>
+                            </availability>
+                            <availability>
+                                <licence></licence>
+                            </availability>
+                            <custodialHist>
+                                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                                <custEvent type="cataloguing">Catalogue description modified in 2014. For original description, see S.A.J. Moorat, <i>Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library</i> (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                                <custEvent type="cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Systems Transformation Programme 2026.</custEvent>
+                                <custEvent type="exhibition"></custEvent>
+                                <custEvent type="digitised">Digitised: Yes</custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <surrogates></surrogates>
+                        <listBibl>
+                            <bibl><p>Bibliography</p>
+                                
+                                <p>Klaassen, Frank. 'Medieval Ritual Magic in the Renaissance', <i>Aries</i> 3:2 (2003), p. 195.</p></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1" xml:id="MS_128_1">
+                        <msIdentifier>
+                            <idno>MS.128 Part 1</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>f. 1r. Incipit tractatus de situatione stellarum in 12 signis [Added: 'secundum Venerabilem Bedam'. At the side, by the later hand: 'De stellis pertinentibus 12 signis']. Aries habet in capite stellam unam ...</summary>
+                            <msItem xml:id="MS_128_1_1">
+                                <author>Pseudo-Bede</author>
+                                <title type="original"><i>De situatione stellarum in 12 signis</i></title>
+                                <textLang mainLang="la" source="IANA">Latin</textLang>
+                            </msItem>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>ff. 1r-2r.</extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msPart>      
+                    
+                    <msPart n="2" xml:id="MS_128_2">
+                        <msIdentifier>
+                            <idno>MS.128 Part 2</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>2r In nomine domini nostri ihesu christi. Incipit tractatus de 12 signis et eorum occultis uirtutibus editus a venerabili presbitero Beda ad Dalmachum missus discipulum suum qui fuir eruditor Karoli magni ... f. 11v ... Offerantur autem pro eis redimendis sacredoti qui ea consecraverit in honorie dei et 12. apostolorum. 12. denarii [added by the later hand: 'et supra predicta sigilla facias ut sacer[dos] dicar tres missas Spiritus sancti et et missas 12 apostolorum et tribuat ei angelum Sancti Joannis']. [Original hand] Anno. 1487. die 28. mensis Julii. conscriptus est liber iste per me Ro. bo. Scriptorem ferrariensem.</summary>
+                            <msItem xml:id="MS_128_2_1">
+                                <author>Pseudo-Bede</author>
+                                <title type="original"><i>De 12signis et eorum occulitis virtutibus</i></title>
+                                <textLang mainLang="la" source="IANA">Latin</textLang>
+                            </msItem>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>ff. 2r-11v</extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msPart>
+ 
+                    <msPart n="3" xml:id="MS_128_3">
+                        <msIdentifier>
+                            <idno>MS.128 Part 3</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>f. 14r Incipiunt secrreta elementorum secretorum ... [Added by the later hand: 'et sunt ymagines 12 signorum extracte secundum consilium sapientis Picatricis. In libro secundo multis curis reperta fuere']. De figura arietis ad infirmitates capitis. Aries forma eius recta sine lingua ... f. 17r ... vel mastix et fiat de die et non de nocte. Expliciunt imagines signorum contra infirmitates corporis hominis secundum consilium picatricis libro 2 et hoc die. 30. mensis. Julii 1487.</summary>
+                            <msItem xml:id="MS_128_3_1">
+                                <author></author>
+                                <title type="original"><i>Picatrix</i></title>
+                                <textLang mainLang="la" source="IANA">Latin</textLang>
+                            </msItem>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>ff. 14r-17r</extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msPart>
+       
+                    <msPart n="4" xml:id="MS_128_4">
+                        <msIdentifier>
+                            <idno>MS.128 Part 4</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>f. 17v [By the later hand] de civitatibus et provinciis existentibus sub ... f. 18v ... quia multa sunt sue utilitates.</summary>
+                            <msItem xml:id="MS_128_4_1">
+                                <author></author>
+                                <title type="original"><i>De civitatibus et provinciis sub signis</i></title>
+                                <textLang mainLang="la" source="IANA">Latin</textLang>
+                            </msItem>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>ff. 17v-18v</extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msPart>
+       
+                    <msPart n="5" xml:id="MS_128_5">
+                        <msIdentifier>
+                            <idno>MS.128 Part 5</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>f. 18v Iste sunt figure 7 planetarum in quibus ... f. 21r ... adde a parte posteriori curati sunt.</summary>
+                            <msItem xml:id="MS_128_5_1">
+                                <author></author>
+                                <title type="original"><i>De figuris planetarum</i></title>
+                                <textLang mainLang="la" source="IANA">Latin</textLang>
+                            </msItem>
+                        </msContents>
+             
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>ff. 18v-21r</extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msPart>
+       
+                    <msPart n="6" xml:id="MS_128_6">
+                        <msIdentifier>
+                            <idno>MS.128 Part 6</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <summary>f. 21v [By the later hand] De ymagnibus septem plantearum. Imago Iovis fit exeunte eo de cancro ... f. 23v ... et tardare faciunt cantiem si in die bis hoc pectinet. Explectus est  libellus iste die 30 Julii 1487. ferrarie. per me Ro. bo scriptorem.</summary>
+                            <msItem xml:id="MS_128_6_1">
+                                <author></author>
+                                <title type="original"><i>De imaginibus septem planetarum</i></title>
+                                <textLang mainLang="la" source="IANA">Latin</textLang>
+                            </msItem>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>ff. 21v-23v</extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msPart>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="MeSH">
+                    <bibl>
+                        <ref target="">MeSH</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_">
+                                <p><p>Talismans</p>
+                            </term>
+                        </item>
+                        <item facs="">
+                            <term ref="subject_">
+                                <p>Astrology</p>
+                            </term>
+                        </item>
+                        <item facs="">
+                            <term ref="subject_">
+                                <p><p>Lapidaries (Medieval literature)</p>
+                            </term>
+                        </item>
+                        <item facs="">
+                            <term ref="subject_">
+                                <p><p>Sigils</p>
+                            </term>
+                        </item>
+                    </list>
+                </keywords>
+                <keywords scheme="#MeSH">
+                    <list>
+                        <item facs="">
+                            <term ref="subject_"></term>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
+            <change when="2026-11-23" who="Gemma Organ">Manual edits following automated Calm-TEI transformation</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p></p>
+        </body>
+    </text>
+</TEI>
