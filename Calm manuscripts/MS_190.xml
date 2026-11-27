@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_184">
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_190">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MS_184</title>
+        <title>MS_190</title>
         <title type="collection">Wellcome Collection</title>
         <respStmt xml:id="SM">
           <resp when="1973">Cataloguer</resp>
@@ -30,7 +27,7 @@
         <distributor>
           <email>library@wellcome.org</email>
         </distributor>
-        <idno type="msID">MS.184</idno>
+        <idno type="msID">MS.190</idno>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
@@ -39,65 +36,51 @@
             <settlement>London</settlement>
             <institution>Wellcome Collection</institution>
             <repository>Wellcome Library</repository>
-            <idno type="shelfmark">MS.184</idno>
+            <idno type="shelfmark">MS.190</idno>
             <altIdentifier type="CalmRef">
-              <idno>MS184</idno>
+              <idno>MS190</idno>
             </altIdentifier>
             <altIdentifier type="accession">
-              <idno>40799</idno>
+              <idno>69666</idno>
             </altIdentifier>
             <altIdentifier type="previous">
               <idno/>
             </altIdentifier>
             <altIdentifier type="CalmID">
-              <idno>54ab033d-081c-40e2-bef8-ec57aa44577d</idno>
+              <idno>f0dae091-d885-45a2-9508-77c4fec9b03b</idno>
             </altIdentifier>
             <altIdentifier type="Sierra">
-              <idno>b19309806</idno>
+              <idno>b19177240</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Catalogus medicamentorum chymice preparatorum, addito etiam preparationis modo et usu. </summary>
+            <summary>A collection of carefully executed water-colour drawings of symbolic alchemical illustrations, and of alchemical apparatus: including also portraits of Hermes, Geber, Aristotle, and two other unnamed 'Philosophers'. The Latin text gives a summary of alchemical doctrine in explanation of the illustrations: at the end are 'Versus universales' beginning: 'VIinum [sic] si summas [sic] cum solo corpore ponas' and ending (line 27): 'Versiculi scripta reserua philosophica dicta'. These are followed by 50 numbered alchemical Aphorisms, and some others. Finally, a further poem of 24 lines, beginning: 'Os et res nostros perficiat diuina Maestas', and ending: 'Sic uerbis scripti ficta referunt philosophorum dicta'.</summary>
             <textLang mainLang="la" source="IANA">Latin</textLang>
-            <msItem n="1" xml:id="MS_184_1">
-              <author/>
-              <title type="original">Catalogus medicamentorum Chymice Preparatorum</title>
-              <title type="standard"/>
+            <msItem n="1" xml:id="MS_190_1">
+              <author></author>
+              <title type="original">Chimica figurata</title>
               <textLang mainLang="la" source="IANA">Latin</textLang>
-              <textLang mainLang="en" source="IANA">English</textLang>
-              <note>The text is in Latin with some entries in English</note>
-              <filiation/>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg"><extent>14 ll. (last bl.) +112 ff. + 1 bl. l. 8vo.
-                <dimensions type="leaf" unit="cm">
-                  <dim type="width">13.5 cm</dim>
-                  <dim type="length">19.5 cm</dim></dimensions>
-              </extent>
-                <foliation/>
-                <collation/>
-                <condition>
-                  <p/><p/><p/><p/></condition>
+              <supportDesc material="perg">
+                <extent>38 ll. (last 4 bl.). folio.
+                  <dimensions type="leaf" unit="cm">
+                    <dim type="width">20.5 cm</dim>
+                    <dim type="length">27 cm</dim>
+                  </dimensions>
+                </extent>
+                <condition><p></p></condition>
               </supportDesc>
-              <layoutDesc>
-                <layout>
-                  <note>Written mostly on the rectos only</note>
-                </layout>
-              </layoutDesc>
             </objectDesc>
-            <handDesc>
-              <handNote/>
-            </handDesc>
             <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration"/>
+              <decoNote type="illustration">Water-colour drawings of symbolic alchemical illustrations, and of alchemical apparatus</decoNote>
+              <decoNote type="illustration">Portraits of Hermes, Geber, Aristotle, and two other unnamed 'Philosophers'</decoNote>
             </decoDesc>
-            <additions/>
             <bindingDesc>
               <binding>
-                <p>Original gilt stamped calf binding.</p>
+                <p>Original boards.</p>
               </binding>
             </bindingDesc>
           </physDesc>
@@ -105,8 +88,8 @@
             <origin>
               <origDate>Middle 17th century</origDate>
             </origin>
-            <provenance>The date 1654 occurs on fol. 34 and fol. 47, both these are intialled C.M. Armorial book-plate of Sir Thomas Preston (1767-1823)</provenance>
-            <acquisition>Purchased 1921 (accession 40799).</acquisition>
+            <provenance/>
+            <acquisition>Purchased in Paris in 1936 (accession 69666).</acquisition>
           </history>
           <additional>
             <adminInfo>
@@ -122,14 +105,17 @@
                 </source>
               </recordHist>
               <availability status="free">
-                <licence/>
+                <licence></licence>
               </availability>
               <custodialHist>
-                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: No</custEvent>
+                <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
               </custodialHist>
             </adminInfo>
+            <listBibl>
+              <bibl>The original MS. and especially the illustrations are fully described by Carbonelli in his 'Sulle fonti storiche della Chimica e dell' Alchimia in Italia'. 1925. Pp. 46-71, 111-116.</bibl>
+            </listBibl>
           </additional>
         </msDesc>
       </sourceDesc>
@@ -154,28 +140,13 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>Formulas, recipes, etc.</p>
-              </term>
-            </item>
-            <item facs="">
-              <term ref="subject_">
-                <p>Pharmaceutical chemistry</p>
+                <p>Poetry</p>
               </term>
             </item>
           </list>
         </keywords>
         <keywords scheme="#MeSH">
           <list>
-            <item facs="">
-              <term ref="subject_">
-                <p>Pharmacy</p>
-              </term>
-            </item>
-            <item facs="">
-              <term ref="subject_">
-                <p>Chemistry</p>
-              </term>
-            </item>
             <item facs="">
               <term ref="subject_">
                 <p>Alchemy</p>
@@ -187,12 +158,12 @@
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="2026-11-11" who="Victoria Sloyan">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-11-16" who="Victoria Sloyan">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>

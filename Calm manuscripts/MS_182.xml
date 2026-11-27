@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_181">
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_182">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MS_181</title>
+        <title>MS_182</title>
         <title type="collection">Wellcome Collection</title>
         <respStmt xml:id="SM">
           <resp when="1973">Cataloguer</resp>
@@ -30,7 +27,7 @@
         <distributor>
           <email>library@wellcome.org</email>
         </distributor>
-        <idno type="msID">MS.181</idno>
+        <idno type="msID">MS.182</idno>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
@@ -39,70 +36,65 @@
             <settlement>London</settlement>
             <institution>Wellcome Collection</institution>
             <repository>Wellcome Library</repository>
-            <idno type="shelfmark">MS.181</idno>
+            <idno type="shelfmark">MS.182</idno>
             <altIdentifier type="CalmRef">
-              <idno>MS181</idno>
+              <idno>MS182</idno>
             </altIdentifier>
             <altIdentifier type="accession">
-              <idno>23909</idno>
+              <idno>56403</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
-              <idno>2834a955-cd4f-40c9-a403-5398610cfaf2</idno>
+              <idno>0aac17bb-5692-49b8-a36d-414987533df7</idno>
             </altIdentifier>
             <altIdentifier type="Sierra">
-              <idno>b19631029</idno>
+              <idno>b19270343</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Ercznei Buch / Durch herr[n] Bartholome / um von Reckungen, Ca / richter czu Emell Konig / licher Wirde czu Behem / Doctor beschriben. </summary>
-            <textLang mainLang="de" source="IANA">German</textLang>
-            <msItem n="1" xml:id="MS_181_1">
-              <author>Carrichter, Bartholomaeus ( -c. 1574)</author>
-              <title type="original">Collection of works</title>
+            <summary>A booke or Phisicke, Surgery, Preserves and Cookery, with sondry other excellent Receipts. The receipts contained in this MS. are almost entirely medical.</summary>
+            <textLang mainLang="en" source="IANA">English</textLang>
+            <msItem n="1" xml:id="MS_182_1">
+              <author>Carter, Thomas</author>
+              <title type="original">Recipts book by Thomas Carter and others</title>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="vellum"><extent>154 ll. 8vo.
+              <supportDesc material="perg"><extent>5 bl. ll. +1 l. +13 bl. ll. +298 ff. + pp. 299-431 +1 l. +24 bl. ll. +46 ll. (last 4 bl.). folio.
                 <dimensions type="leaf" unit="cm">
-                  <dim type="width">10 cm</dim>
-                  <dim type="length">15 cm</dim>
+                  <dim type="width">19.5 cm</dim>
+                  <dim type="length">30.5 cm</dim>
                 </dimensions>
-                </extent>
+              </extent>
                 <foliation/>
                 <collation/>
-                <condition><p/><p/><p/><p/></condition>
-                </supportDesc>
+                <condition><p>First 6 ll. frayed in the margins.</p></condition>
+              </supportDesc>
               <layoutDesc>
                 <layout>
-                  <note/>
+                  <note>Text within red rules.</note>
                 </layout>
               </layoutDesc>
             </objectDesc>
             <handDesc>
-              <handNote/>
+              <handNote scribe="multiple">Written by several hands of the first half of the 17th cent.</handNote>
             </handDesc>
-            <decoDesc>
-              <decoNote type="marginal">Title and text throughout within a woodcut ornamental border made up of four different panels repeated. These are executed in the 'dotted manner' (maniére criblée), and some of these show a scroll with the letters IL. </decoNote>
-              <decoNote type="marginal">The arms of Saxony also appear in some of the border-panels.</decoNote>
-              <decoNote type="illustration"/>
-            </decoDesc>
             <additions/>
             <bindingDesc>
               <binding>
-                <p>On vellum, gilt-stamped calf binding. The binding is of the late 17th cent., and not contemporary.  </p>
+                <p>Original stamped calf binding, with gilt arabesque central ornament on each cover, worn. Each cover with 4 brass corner pieces: two brass and leather clasps.</p>
               </binding>
             </bindingDesc>
           </physDesc>
           <history>
             <origin>
-              <origDate>1561</origDate>
+              <origDate>1621</origDate>
             </origin>
-            <provenance>Produced in Emmel. It is possible that this MS. is a holograph copy, presented by the Author to the Kurfürst August of Saxony [1526-1586] whose mother he is known to have attended in her illness: she was Katherina of Mecklenburg [1477-1561].</provenance>
-            <acquisition>Purchased 1910 (accession 23909).</acquisition>
+            <provenance>On fol. 252v, and fol. 253 signature of Thomas Carter. Pasted inside the upper cover armorial book-plate of John T[ownsend] Aiton [1777-1851], Gardener to Kensington Palace from 1831 to his death. Above this Library label 'From the Library of the Earl of Ashburnham. Appendix No. CCXXIV. May 1897.' Sold at Sotheby's 1/5/1899 (Ashburnham 'Appendix' Sale), Lot 154.</provenance>
+            <acquisition>Purchased 1930 (accession 56403).</acquisition>
           </history>
           <additional>
             <adminInfo>
@@ -118,13 +110,12 @@
                 </source>
               </recordHist>
               <availability status="free">
-                <licence/>
+                <licence></licence>
               </availability>
               <custodialHist>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
-                <custEvent type="digitised">Digitised: No</custEvent>
+                <custEvent type="digitised">Digitised: Yes</custEvent>
               </custodialHist>
             </adminInfo>
           </additional>
@@ -151,18 +142,23 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>[p]Formulas, recipes, etc.</p>
+                <p>Formulas, recipes, etc.</p>
               </term>
             </item>
           </list>
         </keywords>
         <keywords scheme="#MeSH">
-          <list>            
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Cooking</p>
+              </term>
+            </item>
             <item facs="">
               <term ref="subject_">
                 <p>Medicine, Traditional</p>
-            </term>
-          </item>
+              </term>
+            </item>
           </list>
         </keywords>
       </textClass>

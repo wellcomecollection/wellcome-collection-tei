@@ -1,21 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_183">
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_184">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MS_183</title>
+        <title>MS_184</title>
         <title type="collection">Wellcome Collection</title>
         <respStmt xml:id="SM">
           <resp when="1973">Cataloguer</resp>
           <persName>S. A. J. Moorat</persName>
         </respStmt>
-        <respStmt xml:id="MH">
-          <resp when="2003-12-22">Calm encoder</resp>
-          <persName>Hiltoncm</persName>
+        <respStmt xml:id="RM">
+          <resp when="2002-10-08">Calm encoder</resp>
+          <persName>Macfarlr</persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -30,7 +27,7 @@
         <distributor>
           <email>library@wellcome.org</email>
         </distributor>
-        <idno type="msID">MS.183</idno>
+        <idno type="msID">MS.184</idno>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
@@ -39,74 +36,65 @@
             <settlement>London</settlement>
             <institution>Wellcome Collection</institution>
             <repository>Wellcome Library</repository>
-            <idno type="shelfmark">MS.183</idno>
+            <idno type="shelfmark">MS.184</idno>
             <altIdentifier type="CalmRef">
-              <idno>MS183</idno>
+              <idno>MS184</idno>
             </altIdentifier>
             <altIdentifier type="accession">
-              <idno>14407</idno>
+              <idno>40799</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
-              <idno>cebff782-9a7c-4b0d-b48d-4d3883f51365</idno>
+              <idno>54ab033d-081c-40e2-bef8-ec57aa44577d</idno>
             </altIdentifier>
             <altIdentifier type="Sierra">
-              <idno>b18587938</idno>
+              <idno>b19309806</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary><p>De cura naturali febrium putridarum... in 7th capitulum, tractatus 2, fen prima, libri 4i Avicennae. [Followed by] FRIGIMELICA [or FRIZIMELICA] (Francesco) Varii tractatus. The tracts by F. Frigimelica [1491-1559] are: 'De modo purgandi'. 'De Syrupis'. 'In nono Rasis ad Almansorem lectura' ['De apoplexia'. 'De phrenetide'. 'De pleuritide'.] 'De morbo gallico'. 'De vulneribus capitis'. </p>
-              <p>With Frigimelica's work on the Morbus gallicus, of which only part is included, are excertps from the 'De morbo gallico' of Joannes Baptista Montanus [1498-1552]. Both these are printed in full in the 1728 edition of 'Aphrodisiacus' by Aloysius Luisinus.</p></summary>
+            <summary>Catalogus medicamentorum chymice preparatorum, addito etiam preparationis modo et usu. </summary>
             <textLang mainLang="la" source="IANA">Latin</textLang>
-            <msItem n="1" xml:id="MS_183_1">
-              <author/>
-              <title type="original">Cassanus (Ferdinandus)</title>
-              <title type="standard"/>
-              <textLang mainLang="" source="IANA"/>
-              <note>Dates of the works conjectured to be c.1650 and c.1600 respectively. </note>
+            <msItem n="1" xml:id="MS_184_1">
+              <author></author>
+              <title type="original">Catalogus medicamentorum Chymice Preparatorum</title>
+              <textLang mainLang="la" source="IANA">Latin</textLang>
+              <textLang mainLang="en" source="IANA">English</textLang>
+              <note>The text is in Latin with some entries in English</note>
               <filiation/>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
-              <supportDesc material="perg"><extent>I l. + 143 ff. + 11 ll. + 5 ll. (last 4 bl.). + 91 [wrongly 90] ff. 4to.
+              <supportDesc material="perg">
+                <extent>14 ll. (last bl.) +112 ff. + 1 bl. l. 8vo.
                 <dimensions type="leaf" unit="cm">
-                  <dim type="width">15 cm</dim>
-                  <dim type="length">20.5 cm</dim>
-                </dimensions>
+                  <dim type="width">13.5 cm</dim>
+                  <dim type="length">19.5 cm</dim></dimensions>
               </extent>
-                <foliation/>
-                <collation/>
-                <condition><p>last 6 ll. damaged by damp.</p></condition>
+                <condition>
+                  <p></p>
+                </condition>
               </supportDesc>
               <layoutDesc>
                 <layout>
-                  <note/>
+                  <note>Written mostly on the rectos only</note>
                 </layout>
               </layoutDesc>
             </objectDesc>
-            <handDesc>
-              <handNote scribe="multiple">The second work by a different, and probably earlier hand</handNote>
-            </handDesc>
-            <decoDesc>
-              <decoNote type="marginal"/>
-              <decoNote type="illustration"/>
-            </decoDesc>
-            <additions/>
             <bindingDesc>
               <binding>
-                <p>18th cent. vellum binding. Margins slightly cropped</p>
+                <p>Original gilt stamped calf binding.</p>
               </binding>
             </bindingDesc>
           </physDesc>
           <history>
             <origin>
-              <origDate>c.1600-c.1650</origDate>
+              <origDate>Middle 17th century</origDate>
             </origin>
-            <provenance>Signature of 'Dott. Emilio Biondi' on the first leaf, with a note by him on the verso fo the second leaf 'Questo fu da me sottoscritto acquistato in Rimini (Romagna). Non è improbabile che esso gia stato proprietà del celebre Medico Jano Planco (i.e. Giovanni BIANCHI, pseud. Janus PLANCUS. [1693-1775]), perche il negoziante che lo possedeva altri volumi avea appartenenti al Planco'. This statement is signed and dated 'Rimini, 1900'</provenance>
-            <acquisition>Purchased 1906 from Dr. Biondi (accession 14407).</acquisition>
+            <provenance>The date 1654 occurs on fol. 34 and fol. 47, both these are intialled C.M. Armorial book-plate of Sir Thomas Preston (1767-1823)</provenance>
+            <acquisition>Purchased 1921 (accession 40799).</acquisition>
           </history>
           <additional>
             <adminInfo>
@@ -122,11 +110,10 @@
                 </source>
               </recordHist>
               <availability status="free">
-                <licence/>
+                <licence></licence>
               </availability>
               <custodialHist>
-                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, [i]Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library[/i] (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
+                <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
                 <custEvent type="digitised">Digitised: No</custEvent>
               </custodialHist>
             </adminInfo>
@@ -151,22 +138,34 @@
     <profileDesc>
       <textClass>
         <keywords scheme="#LCSH">
+          <list>
+            <item facs="">
+              <term ref="subject_">
+                <p>Formulas, recipes, etc.</p>
+              </term>
+            </item>
+            <item facs="">
+              <term ref="subject_">
+                <p>Pharmaceutical chemistry</p>
+              </term>
+            </item>
+          </list>
         </keywords>
         <keywords scheme="#MeSH">
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>Syphilis</p>
+                <p>Pharmacy</p>
               </term>
             </item>
             <item facs="">
               <term ref="subject_">
-                <p>Fever</p>
+                <p>Chemistry</p>
               </term>
             </item>
             <item facs="">
               <term ref="subject_">
-                <p>Cathartics</p>
+                <p>Alchemy</p>
               </term>
             </item>
           </list>
@@ -180,7 +179,7 @@
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>

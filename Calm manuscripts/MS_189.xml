@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_189">
   <teiHeader>
     <fileDesc>
@@ -47,7 +44,7 @@
               <idno>19318</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
               <idno>791dbb7f-ebac-4eb7-a319-8d0fc5f5b8e5</idno>
@@ -98,7 +95,6 @@
             <msItem n="1" xml:id="MS_189_1">
               <author key="person_1426537">Chamberlayne, Peter (1601-1683)</author>
               <title type="original">Liber amicorum</title>
-              <title type="standard"/>
               <textLang mainLang="" source="IANA">Latin</textLang>
             </msItem>
           </msContents>
@@ -111,8 +107,7 @@
                     <dim type="length">15.5 cm</dim>
                   </dimensions>
                 </extent>
-                <foliation/>
-                <collation/><condition><p/><p/><p/><p/></condition>
+                <condition><p></p></condition>
               </supportDesc>
               <layoutDesc>
                 <layout>
@@ -120,14 +115,9 @@
                 </layout>
               </layoutDesc>
             </objectDesc>
-            <handDesc>
-              <handNote scribe="sole"/>
-            </handDesc>
             <decoDesc>
-              <decoNote type="marginal"/>
               <decoNote type="illustration">Includes a few original drawings</decoNote>
             </decoDesc>
-            <additions/>
             <bindingDesc>
               <binding>
                 <p>Contemporary gilt stamped morocco binding, with repeated floreated ornament and initials 'P.C.' in the centre, slightly rubbed.</p>
@@ -161,7 +151,6 @@
               <custodialHist>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
                 <custEvent type="digitised">Digitised: No</custEvent>
               </custodialHist>
             </adminInfo>
@@ -208,7 +197,7 @@
         <keywords scheme="#MeSH">
           <list>
             <item facs="">
-              <term ref="subject_"/>
+              <term ref="subject_"></term>
             </item>
           </list>
         </keywords>
@@ -221,7 +210,7 @@
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>

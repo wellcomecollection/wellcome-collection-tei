@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng"
-            type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"
-        ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_188">
+<?xml-model href="https://raw.githubusercontent.com/bodleian/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS_180">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MS_188</title>
+        <title>MS_180</title>
         <title type="collection">Wellcome Collection</title>
         <respStmt xml:id="SM">
           <resp when="1973">Cataloguer</resp>
@@ -30,7 +27,7 @@
         <distributor>
           <email>library@wellcome.org</email>
         </distributor>
-        <idno type="msID">MS.188</idno>
+        <idno type="msID">MS.180</idno>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
@@ -39,72 +36,62 @@
             <settlement>London</settlement>
             <institution>Wellcome Collection</institution>
             <repository>Wellcome Library</repository>
-            <idno type="shelfmark">MS.188</idno>
+            <idno type="shelfmark">MS.180</idno>
             <altIdentifier type="CalmRef">
-              <idno>MS188</idno>
+              <idno>MS180</idno>
             </altIdentifier>
             <altIdentifier type="accession">
-              <idno>44352</idno>
+              <idno>69091</idno>
             </altIdentifier>
             <altIdentifier type="previous">
-              <idno/>
+              <idno></idno>
             </altIdentifier>
             <altIdentifier type="CalmID">
-              <idno>771f846f-a6d3-4a00-af60-2cf92e316cc5</idno>
+              <idno>823051ae-1e77-4162-a397-0e3001821846</idno>
             </altIdentifier>
             <altIdentifier type="Sierra">
-              <idno>b18369297</idno>
+              <idno>b19463339</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary>Last section of a collection of receipts and prescriptions, followed by 'Index pharmacorum praescriptorum'. Contains 'Cerata' only.</summary>
-            <textLang mainLang="la" source="IANA">In Latin throughout.</textLang>
-            <msItem n="1" xml:id="MS_188_1">
-              <author/>
-              <title type="original">Cerata</title>
-              <title type="standard"/>
-              <textLang mainLang="la" source="IANA">Latin</textLang>
-              <filiation/>
-              <filiation/>
+            <summary>In primam Aphorismorum Hippocratis sectionem dilucidissima expositio.</summary>
+            <textLang mainLang="la" source="IANA">Latin</textLang>
+            <msItem n="1" xml:id="MS_180_1">
+              <author>Carmenius, Daniel</author>
+              <title type="original">Notes on lectures by Carmenius</title>
+              <textLang mainLang="" source="IANA">Latin</textLang>
+              <note>Carmenius was a Doctor of Medicine and Philosophy at Bologna, and published 'De medendi methodo' in 1636. These are probably a student's notes of his lectures.</note>
             </msItem>
           </msContents>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="perg">
-                <extent>pp. 374-386 + 12 ll. 8vo.
-                  <dimensions type="leaf" unit="cm">
-                    <dim type="width">10.5 cm</dim>
-                    <dim type="length">15.5 cm</dim>
-                  </dimensions>
-                </extent>
-                <foliation/><collation/><condition><p/><p/><p/><p/></condition>
-              </supportDesc>
+                <extent>27 ll. 4to. 20 x 141/2 cm. 
+                <dimensions type="leaf" unit="cm">
+                  <dim type="width">14.5 cm</dim>
+                  <dim type="length">20 cm</dim>
+                </dimensions>
+              </extent>
+                <condition><p></p></condition>
+                </supportDesc>
               <layoutDesc>
                 <layout>
-                  <note/>
+                  <note></note>
                 </layout>
               </layoutDesc>
             </objectDesc>
-            <handDesc>
-              <handNote/>
-            </handDesc>
-            <decoDesc>
-              <decoNote type="rubrication">Headings in red. </decoNote>
-              <decoNote type="illustration"/>
-            </decoDesc>
-            <additions/>
             <bindingDesc>
               <binding>
-                <p>Modern cloth binding.</p>
+                <p>Original boards.</p>
               </binding>
             </bindingDesc>
           </physDesc>
           <history>
             <origin>
-              <origDate>Late 16th century</origDate>
+              <origDate>c. 1640</origDate>
             </origin>
-            <provenance>Probably of German origin.</provenance>
-            <acquisition>Acquired 1926 (accession 44352).</acquisition>
+            <provenance>Produced in Bologna</provenance>
+            <acquisition>Purchased in Paris in October 1935 (accession 69091).</acquisition>
           </history>
           <additional>
             <adminInfo>
@@ -120,12 +107,11 @@
                 </source>
               </recordHist>
               <availability status="free">
-                <licence/>
+                <licence></licence>
               </availability>
               <custodialHist>
                 <custEvent type="Cataloguing">Manuscripts in CALM were exported and transformed into TEI as part of the Wellcome Collection Transformation Programme 2026.</custEvent>
                 <custEvent type="cataloguing">Database description transcribed from S.A.J. Moorat, Catalogue of Western Manuscripts on Medicine and Science in the Wellcome Historical Medical Library (London: Wellcome Institute for the History of Medicine, 1962-1973).</custEvent>
-                <custEvent type="exhibition"/>
                 <custEvent type="digitised">Digitised: No</custEvent>
               </custodialHist>
             </adminInfo>
@@ -153,30 +139,30 @@
           <list>
             <item facs="">
               <term ref="subject_">
-                <p>[p]Sea slugs</p>
+                <p>Medicine, Greek and Roman</p>
               </term>
             </item>
           </list>
         </keywords>
         <keywords scheme="#MeSH">
-          <list>
+          <list>            
             <item facs="">
               <term ref="subject_">
-                <p>Pharmacy</p>
-              </term>
-            </item>
+                <p>Pathology</p>
+            </term>
+          </item>
           </list>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
       <change when="2026-05-05" who="Victoria Sloyan">Transformed Calm xml export to TEI xml file using a transformation scenario</change>
-      <change when="2026-11-16" who="Victoria Sloyan">Manual edits following automated Calm-TEI transformation</change>
+      <change when="2026-11-10" who="Victoria Sloyan">Manual edits following automated Calm-TEI transformation</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <p/>
+      <p></p>
     </body>
   </text>
 </TEI>
